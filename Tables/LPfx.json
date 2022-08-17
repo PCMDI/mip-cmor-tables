@@ -1,0 +1,426 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "cmor_version": "4.0.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-08-17",
+    "table_id": "LPfx"
+  },
+  "variable_entry": {
+    "areacellr": {
+      "branded_variable_name": "areacellr_fx-ld-none-z0-hxy",
+      "cell_measures": "",
+      "cell_methods": "area: sum",
+      "comment": "For river routing model, if grid differs from the atmospheric grid.",
+      "dimensions": [
+        "longitude",
+        "latitude"
+      ],
+      "frequency": "fx",
+      "long_name": "Grid-Cell Area for River Model Variables",
+      "modeling_realm": "land",
+      "out_name": "areacellr",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8306180c-76ca-11e7-ba39-ac72891c3257",
+          "mip_table": "fx",
+          "variable_name": "areacellr"
+        }
+      },
+      "standard_name": "cell_area",
+      "type": "real",
+      "units": "m2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "clayfrac": {
+      "branded_variable_name": "clayfrac_fx-ld-none-l-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean where land",
+      "comment": "'Volume fraction' is used in the construction volume_fraction_of_X_in_Y, where X is a material constituent of Y.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "frequency": "fx",
+      "long_name": "Clay Fraction",
+      "modeling_realm": "land",
+      "out_name": "clayfrac",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "81963e3a-f906-11e6-a176-5404a60d96b5",
+          "mip_table": "Efx",
+          "variable_name": "clayfrac"
+        }
+      },
+      "standard_name": "volume_fraction_of_clay_in_soil",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fldcapacity": {
+      "branded_variable_name": "fldcapacity_fx-ld-none-l-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean where land",
+      "comment": "The field capacity of soil is the maximum content of water it can retain against gravitational drainage. Provide as a percentage of the soil volume.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "frequency": "fx",
+      "long_name": "Field Capacity",
+      "modeling_realm": "land",
+      "out_name": "fldcapacity",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "f2fabe42-c38d-11e6-abc1-1b922e5e1118",
+          "mip_table": "Efx",
+          "variable_name": "fldcapacity"
+        }
+      },
+      "standard_name": "volume_fraction_of_condensed_water_in_soil_at_field_capacity",
+      "type": "real",
+      "units": "%",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ksat": {
+      "branded_variable_name": "ksat_fx-ld-none-l-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean where land",
+      "comment": "Hydraulic conductivity is the constant k in Darcy's Law q=-k grad h for fluid flow q (volume transport per unit area i.e. velocity) through a porous medium, where h is the hydraulic head (pressure expressed as an equivalent depth of water).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "frequency": "fx",
+      "long_name": "Saturated Hydraulic Conductivity",
+      "modeling_realm": "land",
+      "out_name": "ksat",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "f2facd4c-c38d-11e6-abc1-1b922e5e1118",
+          "mip_table": "Efx",
+          "variable_name": "ksat"
+        }
+      },
+      "standard_name": "soil_hydraulic_conductivity_at_saturation",
+      "type": "real",
+      "units": "micron s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "mrsofc": {
+      "branded_variable_name": "mrsofc_fx-ld-none-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean where land",
+      "comment": "The bulk water content retained by the soil at -33 J/kg of suction pressure, expressed as mass per unit land area; report as missing where there is no land",
+      "dimensions": [
+        "longitude",
+        "latitude"
+      ],
+      "frequency": "fx",
+      "long_name": "Capacity of Soil to Store Water (Field Capacity)",
+      "modeling_realm": "land",
+      "out_name": "mrsofc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "bab1c08c-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "fx",
+          "variable_name": "mrsofc"
+        }
+      },
+      "standard_name": "soil_moisture_content_at_field_capacity",
+      "type": "real",
+      "units": "kg m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "orog": {
+      "branded_variable_name": "orog_fx-ld-none-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean",
+      "comment": "The surface called 'surface' means the lower boundary of the atmosphere. Altitude is the (geometric) height above the geoid, which is the reference geopotential surface. The geoid is similar to mean sea level.",
+      "dimensions": [
+        "longitude",
+        "latitude"
+      ],
+      "frequency": "fx",
+      "long_name": "Surface Altitude",
+      "modeling_realm": "land",
+      "out_name": "orog",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "bab2f9d4-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "fx",
+          "variable_name": "orog"
+        }
+      },
+      "standard_name": "surface_altitude",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": 10000.0,
+        "valid_min": -700.0
+      }
+    },
+    "rootd": {
+      "branded_variable_name": "rootd_fx-ld-none-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean",
+      "comment": "report the maximum soil depth reachable by plant roots (if defined in model), i.e., the maximum soil depth from which they can extract moisture; report as *missing* where the land fraction is 0.",
+      "dimensions": [
+        "longitude",
+        "latitude"
+      ],
+      "frequency": "fx",
+      "long_name": "Maximum Root Depth",
+      "modeling_realm": "land",
+      "out_name": "rootd",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "bab5c7fe-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "fx",
+          "variable_name": "rootd"
+        }
+      },
+      "standard_name": "root_depth",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": 30.0,
+        "valid_min": 0.0
+      }
+    },
+    "rootdsl": {
+      "branded_variable_name": "rootdsl_fx-ld-none-l-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean where land",
+      "comment": "Mass of carbon in roots.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "frequency": "fx",
+      "long_name": "Root Distribution",
+      "modeling_realm": "land",
+      "out_name": "rootdsl",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "f2fad4b8-c38d-11e6-abc1-1b922e5e1118",
+          "mip_table": "Efx",
+          "variable_name": "rootdsl"
+        }
+      },
+      "standard_name": "root_mass_content_of_carbon",
+      "type": "real",
+      "units": "kg m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "sandfrac": {
+      "branded_variable_name": "sandfrac_fx-ld-none-l-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean where land",
+      "comment": "'Volume fraction' is used in the construction volume_fraction_of_X_in_Y, where X is a material constituent of Y.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "frequency": "fx",
+      "long_name": "Sand Fraction",
+      "modeling_realm": "land",
+      "out_name": "sandfrac",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "819645a6-f906-11e6-a176-5404a60d96b5",
+          "mip_table": "Efx",
+          "variable_name": "sandfrac"
+        }
+      },
+      "standard_name": "volume_fraction_of_sand_in_soil",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "sftgif": {
+      "branded_variable_name": "sftgif_fx-ld-none-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean",
+      "comment": "Percentage of grid cell covered by land ice (ice sheet, ice shelf, ice cap, glacier)",
+      "dimensions": [
+        "longitude",
+        "latitude"
+      ],
+      "frequency": "fx",
+      "long_name": "Land Ice Area Percentage",
+      "modeling_realm": "land",
+      "out_name": "sftgif",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "bab73a76-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "fx",
+          "variable_name": "sftgif"
+        }
+      },
+      "standard_name": "land_ice_area_fraction",
+      "type": "real",
+      "units": "%",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": 100.0,
+        "valid_min": 0.0
+      }
+    },
+    "slthick": {
+      "branded_variable_name": "slthick_fx-ld-none-l-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean where land",
+      "comment": "'Thickness' means the vertical extent of a layer. 'Cell' refers to a model grid cell.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "frequency": "fx",
+      "long_name": "Thickness of Soil Layers",
+      "modeling_realm": "land",
+      "out_name": "slthick",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "f2fad86e-c38d-11e6-abc1-1b922e5e1118",
+          "mip_table": "Efx",
+          "variable_name": "slthick"
+        }
+      },
+      "standard_name": "cell_thickness",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "vegHeight": {
+      "branded_variable_name": "vegHeight_fx-ld-none-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean where land",
+      "comment": "Vegetation height averaged over all vegetation types and over the vegetated fraction of a grid cell.",
+      "dimensions": [
+        "longitude",
+        "latitude"
+      ],
+      "frequency": "fx",
+      "long_name": "Height of the Vegetation Canopy",
+      "modeling_realm": "land",
+      "out_name": "vegHeight",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "90fa4aa8-267c-11e7-8933-ac72891c3257",
+          "mip_table": "Efx",
+          "variable_name": "vegHeight"
+        }
+      },
+      "standard_name": "canopy_height",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "wilt": {
+      "branded_variable_name": "wilt_fx-ld-none-l-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean where land",
+      "comment": "Percentage water content of soil by volume at the wilting point. The wilting point of soil is the water content below which plants cannot extract sufficient water to balance their loss through transpiration. ",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+      ],
+      "frequency": "fx",
+      "long_name": "Wilting Point",
+      "modeling_realm": "land",
+      "out_name": "wilt",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "f2faba78-c38d-11e6-abc1-1b922e5e1118",
+          "mip_table": "Efx",
+          "variable_name": "wilt"
+        }
+      },
+      "standard_name": "volume_fraction_of_condensed_water_in_soil_at_wilting_point",
+      "type": "real",
+      "units": "%",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    }
+  }
+}

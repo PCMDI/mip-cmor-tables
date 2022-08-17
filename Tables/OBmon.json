@@ -1,0 +1,4246 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "cmor_version": "4.0.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-08-17",
+    "table_id": "OBmon"
+  },
+  "variable_entry": {
+    "aragos": {
+      "branded_variable_name": "aragos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "sum of particulate aragonite components (e.g. Phytoplankton, Detrital, etc.)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Aragonite Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "aragos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c9181982-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "aragos"
+        }
+      },
+      "standard_name": "mole_concentration_of_aragonite_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "baccos": {
+      "branded_variable_name": "baccos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Sum of bacterial carbon component concentrations",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Bacterial Carbon Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "baccos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c917ef02-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "baccos"
+        }
+      },
+      "standard_name": "mole_concentration_of_bacteria_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "bfeos": {
+      "branded_variable_name": "bfeos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "sum of particulate organic iron component concentrations",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Particulate Organic Matter Expressed as Iron in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "bfeos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c919d3d0-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "bfeos"
+        }
+      },
+      "standard_name": "mole_concentration_of_particulate_organic_matter_expressed_as_iron_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "bsios": {
+      "branded_variable_name": "bsios_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "sum of particulate silica component concentrations",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Particulate Organic Matter Expressed as Silicon in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "bsios",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c919e186-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "bsios"
+        }
+      },
+      "standard_name": "mole_concentration_of_particulate_organic_matter_expressed_as_silicon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "calcos": {
+      "branded_variable_name": "calcos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "sum of particulate calcite component concentrations (e.g. Phytoplankton, Detrital, etc.)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Calcite Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "calcos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c9180bae-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "calcos"
+        }
+      },
+      "standard_name": "mole_concentration_of_calcite_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "chlcalcos": {
+      "branded_variable_name": "chlcalcos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "chlorophyll concentration from the calcite-producing phytoplankton component alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mass Concentration of Calcareous Phytoplankton Expressed as Chlorophyll in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "chlcalcos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c919877c-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "chlcalcos"
+        }
+      },
+      "standard_name": "mass_concentration_of_calcareous_phytoplankton_expressed_as_chlorophyll_in_sea_water",
+      "type": "real",
+      "units": "kg m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "chldiatos": {
+      "branded_variable_name": "chldiatos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "chlorophyll from diatom phytoplankton component concentration alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mass Concentration of Diatoms Expressed as Chlorophyll in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "chldiatos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c9196b52-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "chldiatos"
+        }
+      },
+      "standard_name": "mass_concentration_of_diatoms_expressed_as_chlorophyll_in_sea_water",
+      "type": "real",
+      "units": "kg m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "chldiazos": {
+      "branded_variable_name": "chldiazos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "chlorophyll concentration from the diazotrophic phytoplankton component alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mass Concentration of Diazotrophs Expressed as Chlorophyll in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "chldiazos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91979b2-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "chldiazos"
+        }
+      },
+      "standard_name": "mass_concentration_of_diazotrophic_phytoplankton_expressed_as_chlorophyll_in_sea_water",
+      "type": "real",
+      "units": "kg m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "chlmiscos": {
+      "branded_variable_name": "chlmiscos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "chlorophyll from additional phytoplankton component concentrations alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mass Concentration of Other Phytoplankton Expressed as Chlorophyll in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "chlmiscos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c919a342-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "chlmiscos"
+        }
+      },
+      "standard_name": "mass_concentration_of_miscellaneous_phytoplankton_expressed_as_chlorophyll_in_sea_water",
+      "type": "real",
+      "units": "kg m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "chlos": {
+      "branded_variable_name": "chlos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Sum of chlorophyll from all phytoplankton group concentrations at the sea surface.  In most models this is equal to chldiat+chlmisc, that is the sum of 'Diatom Chlorophyll Mass Concentration' plus 'Other Phytoplankton Chlorophyll Mass Concentration'",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "chlos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c9195d60-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "chlos"
+        }
+      },
+      "standard_name": "mass_concentration_of_phytoplankton_expressed_as_chlorophyll_in_sea_water",
+      "type": "real",
+      "units": "kg m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "chlpicoos": {
+      "branded_variable_name": "chlpicoos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "chlorophyll concentration from the picophytoplankton (<2 um) component alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mass Concentration of Picophytoplankton Expressed as Chlorophyll in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "chlpicoos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c919953c-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "chlpicoos"
+        }
+      },
+      "standard_name": "mass_concentration_of_picophytoplankton_expressed_as_chlorophyll_in_sea_water",
+      "type": "real",
+      "units": "kg m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "co3abioos": {
+      "branded_variable_name": "co3abioos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Near surface mole concentration (number of moles per unit volume: molarity) of the abiotic-analogue carbonate anion (CO3). An abiotic analogue is used to simulate the effect on a modelled variable when biological effects on ocean carbon concentration and alkalinity are ignored. ",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Abiotic Carbonate Ion Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "co3abioos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91a5698-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "co3abioos"
+        }
+      },
+      "standard_name": "mole_concentration_of_carbonate_abiotic_analogue_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "co3natos": {
+      "branded_variable_name": "co3natos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Near surface mole concentration (number of moles per unit volume: molarity) of the natural-analogue carbonate anion (CO3). A natural analogue is used to simulate the effect on a modelled variable of imposing preindustrial atmospheric carbon dioxide concentrations, even when the model as a whole may be subjected to varying forcings. ",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Natural Carbonate Ion Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "co3natos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91a46ee-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "co3natos"
+        }
+      },
+      "standard_name": "mole_concentration_of_carbonate_natural_analogue_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "co3os": {
+      "branded_variable_name": "co3os_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Near surface mole concentration (number of moles per unit volume: molarity) of the carbonate anion (CO3).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Carbonate Ion Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "co3os",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91a38ca-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "co3os"
+        }
+      },
+      "standard_name": "mole_concentration_of_carbonate_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "co3sataragos": {
+      "branded_variable_name": "co3sataragos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Near surface mole concentration (number of moles per unit volume: molarity) of the carbonate anion (CO3) for sea water in equilibrium with pure Aragonite. Aragonite  (CaCO3) is a mineral that is a polymorph of calcium carbonate.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Carbonate Ion in Equilibrium with Pure Aragonite in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "co3sataragos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91a73f8-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "co3sataragos"
+        }
+      },
+      "standard_name": "mole_concentration_of_carbonate_expressed_as_carbon_at_equilibrium_with_pure_aragonite_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "co3satcalcos": {
+      "branded_variable_name": "co3satcalcos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Near surface mole concentration (number of moles per unit volume: molarity) of the carbonate anion (CO3) for sea water in equilibrium with pure calcite. Aragonite  (CaCO3) is a mineral that is a polymorph of calcium carbonate.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Carbonate Ion in Equilibrium with Pure Calcite in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "co3satcalcos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91a6598-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "co3satcalcos"
+        }
+      },
+      "standard_name": "mole_concentration_of_carbonate_expressed_as_carbon_at_equilibrium_with_pure_calcite_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "detocos": {
+      "branded_variable_name": "detocos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "sum of detrital organic carbon component concentrations",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Detrital Organic Carbon Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "detocos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c917fcb8-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "detocos"
+        }
+      },
+      "standard_name": "mole_concentration_of_organic_detritus_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "dfeos": {
+      "branded_variable_name": "dfeos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "dissolved iron in sea water is meant to include both Fe2+ and Fe3+ ions (but not, e.g., particulate detrital iron)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Dissolved Iron Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "dfeos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c9194000-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "dfeos"
+        }
+      },
+      "standard_name": "mole_concentration_of_dissolved_iron_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "dissi13cos": {
+      "branded_variable_name": "dissi13cos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Near surface dissolved inorganic carbon-13 (CO3+HCO3+H2CO3) concentration",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Dissolved Inorganic Carbon-13 Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "dissi13cos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c917b686-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "dissi13cos"
+        }
+      },
+      "standard_name": "mole_concentration_of_dissolved_inorganic_13C_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "dissi14cabioos": {
+      "branded_variable_name": "dissi14cabioos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Abiotic Dissolved inorganic carbon-14 (CO3+HCO3+H2CO3) concentration",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Abiotic Dissolved Inorganic Carbon-14 Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "dissi14cabioos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c917a70e-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "dissi14cabioos"
+        }
+      },
+      "standard_name": "mole_concentration_of_dissolved_inorganic_14C_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "dissicabioos": {
+      "branded_variable_name": "dissicabioos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Abiotic Dissolved inorganic carbon (CO3+HCO3+H2CO3) concentration",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Abiotic Dissolved Inorganic Carbon Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "dissicabioos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91798e0-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "dissicabioos"
+        }
+      },
+      "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_abiotic_analogue_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "dissicnatos": {
+      "branded_variable_name": "dissicnatos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Dissolved inorganic carbon (CO3+HCO3+H2CO3) concentration at preindustrial atmospheric xCO2",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Natural Dissolved Inorganic Carbon Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "dissicnatos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c9178a1c-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "dissicnatos"
+        }
+      },
+      "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_natural_analogue_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "dissicos": {
+      "branded_variable_name": "dissicos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Dissolved inorganic carbon (CO3+HCO3+H2CO3) concentration",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Dissolved Inorganic Carbon Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "dissicos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "803e5f7c-f906-11e6-a176-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "dissicos"
+        }
+      },
+      "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "dissocos": {
+      "branded_variable_name": "dissocos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Sum of dissolved carbon component concentrations explicitly represented (i.e. not ~40 uM refractory unless explicit)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Dissolved Organic Carbon Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "dissocos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c917c48c-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "dissocos"
+        }
+      },
+      "standard_name": "mole_concentration_of_dissolved_organic_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "dmsos": {
+      "branded_variable_name": "dmsos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Mole concentration of dimethyl sulphide in water in the near surface layer",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Dimethyl Sulphide in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "dmsos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91a2a2e-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "dmsos"
+        }
+      },
+      "standard_name": "mole_concentration_of_dimethyl_sulfide_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "dpco2": {
+      "branded_variable_name": "dpco2_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Difference in partial pressure of carbon dioxide between sea water and air.  The partial pressure of a dissolved gas in sea water is the partial pressure in air with which it would be in equilibrium. ",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Delta CO2 Partial Pressure",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "dpco2",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0cbc4-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "dpco2"
+        }
+      },
+      "standard_name": "surface_carbon_dioxide_partial_pressure_difference_between_sea_water_and_air",
+      "type": "real",
+      "units": "Pa",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "dpco2abio": {
+      "branded_variable_name": "dpco2abio_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Difference in partial pressure of abiotic-analogue carbon dioxide between sea water and air.  The partial pressure of a dissolved gas in sea water is the partial pressure in air with which it would be in equilibrium. An abiotic analogue is used to simulate the effect on a modelled variable when biological effects on ocean carbon concentration and alkalinity are ignored.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Abiotic Delta Pco Partial Pressure",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "dpco2abio",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91eacfc-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "dpco2abio"
+        }
+      },
+      "standard_name": "surface_carbon_dioxide_abiotic_analogue_partial_pressure_difference_between_sea_water_and_air",
+      "type": "real",
+      "units": "Pa",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "dpco2nat": {
+      "branded_variable_name": "dpco2nat_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Difference in partial pressure of natural-analogue carbon dioxide between sea water and air.  The partial pressure of a dissolved gas in sea water is the partial pressure in air with which it would be in equilibrium.  A natural analogue is used to simulate the effect on a modelled variable of imposing preindustrial atmospheric carbon dioxide concentrations, even when the model as a whole may be subjected to varying forcings. ",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Natural Delta CO2 Partial Pressure ",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "dpco2nat",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91e9f50-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "dpco2nat"
+        }
+      },
+      "standard_name": "surface_carbon_dioxide_natural_analogue_partial_pressure_difference_between_sea_water_and_air",
+      "type": "real",
+      "units": "Pa",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "dpo2": {
+      "branded_variable_name": "dpo2_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "The partial pressure of a dissolved gas in sea water is the partial pressure in air with which it would be in equilibrium.  The partial pressure of a gaseous constituent of air is the pressure which it alone would exert with unchanged temperature and number of moles per unit volume.  The surface called 'surface' means the lower boundary of the atmosphere.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Delta O2 Partial Pressure",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "dpo2",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0cff2-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "dpo2"
+        }
+      },
+      "standard_name": "surface_molecular_oxygen_partial_pressure_difference_between_sea_water_and_air",
+      "type": "real",
+      "units": "Pa",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "eparag100": {
+      "branded_variable_name": "eparag100_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "The phrase 'expressed_as' is used in the construction A_expressed_as_B, where B is a chemical constituent of A. It means that the quantity indicated by the standard name is calculated solely with respect to the B contained in A, neglecting all other chemical constituents of A. In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid. Aragonite is a mineral that is a polymorph of calcium carbonate. The chemical formula of aragonite is CaCO3. Standard names also exist for calcite, another polymorph of calcium carbonate.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Downward Flux of Aragonite",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "eparag100",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "5a361136-c77d-11e6-8a33-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "eparag100"
+        }
+      },
+      "standard_name": "sinking_mole_flux_of_aragonite_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "epc100": {
+      "branded_variable_name": "epc100_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "The phrase 'expressed_as' is used in the construction A_expressed_as_B, where B is a chemical constituent of A. It means that the quantity indicated by the standard name is calculated solely with respect to the B contained in A, neglecting all other chemical constituents of A. In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Downward Flux of Particulate Organic Carbon",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "epc100",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "5a35b628-c77d-11e6-8a33-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "epc100"
+        }
+      },
+      "standard_name": "sinking_mole_flux_of_particulate_organic_matter_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "epcalc100": {
+      "branded_variable_name": "epcalc100_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "The phrase 'expressed_as' is used in the construction A_expressed_as_B, where B is a chemical constituent of A. It means that the quantity indicated by the standard name is calculated solely with respect to the B contained in A, neglecting all other chemical constituents of A. In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid. Calcite is a mineral that is a polymorph of calcium carbonate. The chemical formula of calcite is CaCO3. Standard names also exist for aragonite, another polymorph of calcium carbonate.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Downward Flux of Calcite",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "epcalc100",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "5a3602cc-c77d-11e6-8a33-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "epcalc100"
+        }
+      },
+      "standard_name": "sinking_mole_flux_of_calcite_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "epfe100": {
+      "branded_variable_name": "epfe100_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Downward Flux of Particulate Iron",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "epfe100",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "5a35e288-c77d-11e6-8a33-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "epfe100"
+        }
+      },
+      "standard_name": "sinking_mole_flux_of_particulate_iron_in_sea_water",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "epn100": {
+      "branded_variable_name": "epn100_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Downward Flux of Particulate Nitrogen",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "epn100",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91df87a-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "epn100"
+        }
+      },
+      "standard_name": "sinking_mole_flux_of_particulate_organic_nitrogen_in_sea_water",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "epp100": {
+      "branded_variable_name": "epp100_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Downward Flux of Particulate Phosphorus",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "epp100",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91e0702-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "epp100"
+        }
+      },
+      "standard_name": "sinking_mole_flux_of_particulate_organic_phosphorus_in_sea_water",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "epsi100": {
+      "branded_variable_name": "epsi100_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Downward Flux of Particulate Silicon",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "epsi100",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "5a35f1ba-c77d-11e6-8a33-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "epsi100"
+        }
+      },
+      "standard_name": "sinking_mole_flux_of_particulate_silicon_in_sea_water",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fbddtalk": {
+      "branded_variable_name": "fbddtalk_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+      "comment": "vertical integral of net biological terms in time rate of change of alkalinity",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Rate of Change of Biological Alkalinity Due to Biological Activity",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fbddtalk",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa1522e-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fbddtalk"
+        }
+      },
+      "standard_name": "integral_wrt_depth_of_tendency_of_sea_water_alkalinity_expressed_as_mole_equivalent_due_to_biological_processes",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fbddtdic": {
+      "branded_variable_name": "fbddtdic_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+      "comment": "vertical integral of net biological terms in time rate of change of dissolved inorganic carbon",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Rate of Change of Dissolved Inorganic Carbon Due to Biological Activity",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fbddtdic",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa13d20-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fbddtdic"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_carbon_due_to_biological_processes",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fbddtdife": {
+      "branded_variable_name": "fbddtdife_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+      "comment": "vertical integral of net biological terms in time rate of change of dissolved inorganic iron",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Rate of Change of Dissolved Inorganic Iron Due to Biological Activity",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fbddtdife",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa149aa-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fbddtdife"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_iron_due_to_biological_processes",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fbddtdin": {
+      "branded_variable_name": "fbddtdin_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+      "comment": "vertical integral of net biological terms in time rate of change of nitrogen nutrients (e.g. NO3+NH4)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Rate of Change of Dissolved Inorganic Nitrogen Due to Biological Activity",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fbddtdin",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa1414e-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fbddtdin"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_nitrogen_due_to_biological_processes",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fbddtdip": {
+      "branded_variable_name": "fbddtdip_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+      "comment": "vertical integral of net biological terms in time rate of change of phosphate",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Rate of Change of Dissolved Inorganic Phosphorus Due to Biological Activity",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fbddtdip",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa1457c-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fbddtdip"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_phosphorus_due_to_biological_processes",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fbddtdisi": {
+      "branded_variable_name": "fbddtdisi_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+      "comment": "vertical integral of net biological terms in time rate of change of dissolved inorganic silicate",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Rate of Change of Dissolved Inorganic Silicon Due to Biological Activity",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fbddtdisi",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa14df6-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fbddtdisi"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_silicon_due_to_biological_processes",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fddtalk": {
+      "branded_variable_name": "fddtalk_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+      "comment": "vertical integral of net time rate of change of alkalinity",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Rate of Change of Total Alkalinity",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fddtalk",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa138fc-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fddtalk"
+        }
+      },
+      "standard_name": "integral_wrt_depth_of_tendency_of_sea_water_alkalinity_expressed_as_mole_equivalent",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fddtdic": {
+      "branded_variable_name": "fddtdic_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+      "comment": "'Content' indicates a quantity per unit area.  'tendency_of_X' means derivative of X with respect to time. 'Dissolved inorganic carbon' describes a family of chemical species in solution, including carbon dioxide, carbonic acid and the carbonate and bicarbonate anions. 'Dissolved inorganic carbon' is the term used in standard names for all species belonging to the family that are represented within a given model. The list of individual species that are included in a quantity having a group chemical standard name can vary between models.  Where possible, the data variable should be accompanied by a complete description of the species represented, for example, by using a comment attribute.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Rate of Change of Net Dissolved Inorganic Carbon",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fddtdic",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa123da-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fddtdic"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_carbon",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fddtdife": {
+      "branded_variable_name": "fddtdife_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+      "comment": "vertical integral of net time rate of change of dissolved inorganic iron",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Rate of Change of Net Dissolved Inorganic Iron",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fddtdife",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa13064-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fddtdife"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_iron",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fddtdin": {
+      "branded_variable_name": "fddtdin_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+      "comment": "Net time rate of change of nitrogen nutrients (e.g. NO3+NH4)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Rate of Change of Net Dissolved Inorganic Nitrogen",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fddtdin",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa12812-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fddtdin"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_nitrogen",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fddtdip": {
+      "branded_variable_name": "fddtdip_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+      "comment": "vertical integral of net  time rate of change of phosphate",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Rate of Change of Net Dissolved Inorganic Phosphorus",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fddtdip",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa12c36-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fddtdip"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_phosphorus",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fddtdisi": {
+      "branded_variable_name": "fddtdisi_mon-oc-tav-z0100-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+      "comment": "vertical integral of net time rate of change of dissolved inorganic silicate",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer100m"
+      ],
+      "frequency": "mon",
+      "long_name": "Rate of Change of Net Dissolved Inorganic Silicon",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fddtdisi",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa134b0-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fddtdisi"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_silicon",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fg13co2": {
+      "branded_variable_name": "fg13co2_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Gas exchange flux of carbon-13 as CO2 (positive into ocean)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Downward Mass Flux of Carbon-13 as 13CO2 [kgC m-2 s-1]",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fg13co2",
+      "positive": "down",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "804534f0-f906-11e6-a176-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "fg13co2"
+        }
+      },
+      "standard_name": "surface_downward_mass_flux_of_13C_dioxide_abiotic_analogue_expressed_as_13C",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fg14co2": {
+      "branded_variable_name": "fg14co2_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Gas exchange flux of carbon-14 as CO2 (positive into ocean)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Downward Mass Flux of Carbon-14 as 14CO2 [kgC m-2 s-1]",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fg14co2",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b7fad82-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "fg14co2"
+        }
+      },
+      "standard_name": "surface_downward_mass_flux_of_14C_dioxide_abiotic_analogue_expressed_as_carbon",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fg14co2abio": {
+      "branded_variable_name": "fg14co2abio_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Gas exchange flux of abiotic 14CO2 (positive into ocean)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Downward Mass Flux of Carbon-14 as Abiotic 14CO2 [kgC m-2 s-1]",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fg14co2abio",
+      "positive": "down",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0e08c-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fg14co2abio"
+        }
+      },
+      "standard_name": "surface_downward_mass_flux_of_14C_dioxide_abiotic_analogue_expressed_as_carbon",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fgco2": {
+      "branded_variable_name": "fgco2_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Gas exchange flux of CO2 (positive into ocean)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Downward Mass Flux of Carbon as CO2 [kgC m-2 s-1]",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fgco2",
+      "positive": "down",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0d420-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fgco2"
+        }
+      },
+      "standard_name": "surface_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fgco2abio": {
+      "branded_variable_name": "fgco2abio_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Gas exchange flux of abiotic CO2 (positive into ocean)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Downward Mass Flux of Carbon as Abiotic CO2 [kgC m-2 s-1]",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fgco2abio",
+      "positive": "down",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0dc68-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fgco2abio"
+        }
+      },
+      "standard_name": "surface_downward_mass_flux_of_carbon_dioxide_abiotic_analogue_expressed_as_carbon",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fgco2nat": {
+      "branded_variable_name": "fgco2nat_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Gas exchange flux of natural CO2 (positive into ocean)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Downward Mass Flux of Carbon as Natural CO2 [kgC m-2 s-1]",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fgco2nat",
+      "positive": "down",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0d844-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fgco2nat"
+        }
+      },
+      "standard_name": "surface_downward_mass_flux_of_carbon_dioxide_natural_analogue_expressed_as_carbon",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fgdms": {
+      "branded_variable_name": "fgdms_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Gas exchange flux of DMS (positive into atmosphere)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Upward Flux of DMS",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fgdms",
+      "positive": "up",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0e906-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fgdms"
+        }
+      },
+      "standard_name": "surface_upward_mole_flux_of_dimethyl_sulfide",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fgo2": {
+      "branded_variable_name": "fgo2_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Gas exchange flux of O2 (positive into ocean)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Downward Flux of O2",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fgo2",
+      "positive": "down",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0e4ba-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fgo2"
+        }
+      },
+      "standard_name": "surface_downward_mole_flux_of_molecular_oxygen",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "frfe": {
+      "branded_variable_name": "frfe_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "'Content' indicates a quantity per unit area.  The specification of a physical process by the phrase due_to_process means that the quantity named is a  single term in a sum of terms which together compose the general quantity  named by omitting the phrase.  'tendency_of_X' means derivative of X with respect to time.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Iron Loss to Sediments",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "frfe",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa10f12-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "frfe"
+        }
+      },
+      "standard_name": "minus_tendency_of_ocean_mole_content_of_iron_due_to_sedimentation",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fric": {
+      "branded_variable_name": "fric_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Inorganic Carbon loss to sediments",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Downward Inorganic Carbon Flux at Ocean Bottom",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fric",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0f14e-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fric"
+        }
+      },
+      "standard_name": "minus_tendency_of_ocean_mole_content_of_inorganic_carbon_due_to_sedimentation",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "frn": {
+      "branded_variable_name": "frn_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "'Content' indicates a quantity per unit area.  The specification of a physical process by the phrase due_to_process means that the quantity named is a single term in a sum of terms which together compose the general quantity  named by omitting the phrase. 'Denitrification' is the conversion of nitrate into gaseous compounds such as nitric oxide, nitrous oxide and molecular nitrogen which are then emitted to the atmosphere.  'Sedimentation' is the sinking of particulate matter to the floor of a body of water. 'tendency_of_X' means derivative of X with respect to time.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Nitrogen Loss to Sediments and Through Denitrification",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "frn",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa106c0-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "frn"
+        }
+      },
+      "standard_name": "minus_tendency_of_ocean_mole_content_of_elemental_nitrogen_due_to_denitrification_and_sedimentation",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "froc": {
+      "branded_variable_name": "froc_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Organic Carbon loss to sediments",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Downward Organic Carbon Flux at Ocean Bottom",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "froc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0f9b4-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "froc"
+        }
+      },
+      "standard_name": "minus_tendency_of_ocean_mole_content_of_organic_carbon_due_to_sedimentation",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fsfe": {
+      "branded_variable_name": "fsfe_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Iron supply through deposition flux onto sea surface, runoff, coasts, sediments, etc",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Downward Net Flux of Iron",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fsfe",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa10aee-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fsfe"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_iron_due_to_deposition_and_runoff_and_sediment_dissolution",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fsn": {
+      "branded_variable_name": "fsn_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Flux of nitrogen into the ocean due to deposition (sum of dry and wet deposition), fixation (the production of ammonia from nitrogen gas by diazotrophs) and runoff (liquid water which drains from land).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Downward Net Flux of Nitrogen",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fsn",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa10292-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "fsn"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_elemental_nitrogen_due_to_deposition_and_fixation_and_runoff",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "icfriver": {
+      "branded_variable_name": "icfriver_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Inorganic Carbon supply to ocean through runoff (separate from gas exchange)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Flux of Inorganic Carbon into Ocean Surface by Runoff",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "icfriver",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0ed2a-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "icfriver"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_inorganic_carbon_due_to_runoff_and_sediment_dissolution",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intdic": {
+      "branded_variable_name": "intdic_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated DIC",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Dissolved Inorganic Carbon Content",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intdic",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91e4b7c-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "intdic"
+        }
+      },
+      "standard_name": "ocean_mass_content_of_dissolved_inorganic_carbon",
+      "type": "real",
+      "units": "kg m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intdoc": {
+      "branded_variable_name": "intdoc_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated DOC (explicit pools only)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Dissolved Organic Carbon Content",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intdoc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91e58f6-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "intdoc"
+        }
+      },
+      "standard_name": "ocean_mass_content_of_dissolved_organic_carbon",
+      "type": "real",
+      "units": "kg m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intparag": {
+      "branded_variable_name": "intparag_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated aragonite production",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Aragonite Production",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intparag",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0999c-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "intparag"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_aragonite_expressed_as_carbon_due_to_biological_production",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intpbfe": {
+      "branded_variable_name": "intpbfe_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated biogenic iron production",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Iron Production",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intpbfe",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa08984-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "intpbfe"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_iron_due_to_biological_production",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intpbn": {
+      "branded_variable_name": "intpbn_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated biogenic nitrogen production",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Nitrogen Production",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intpbn",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa07e58-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "intpbn"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_nitrogen_due_to_biological_production",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intpbp": {
+      "branded_variable_name": "intpbp_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated biogenic phosphorus production",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Phosphorus Production",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intpbp",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa08420-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "intpbp"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_phosphorus_due_to_biological_production",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intpbsi": {
+      "branded_variable_name": "intpbsi_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated biogenic silica production",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Silicon Production",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intpbsi",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa08f6a-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "intpbsi"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_silicon_due_to_biological_production",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intpcalcite": {
+      "branded_variable_name": "intpcalcite_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated calcite production",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Calcite Production",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intpcalcite",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0944c-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "intpcalcite"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_calcite_expressed_as_carbon_due_to_biological_production",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intpn2": {
+      "branded_variable_name": "intpn2_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated nitrogen fixation",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Nitrogen Fixation Rate in Ocean",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intpn2",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0fe00-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "intpn2"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_elemental_nitrogen_due_to_fixation",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intpoc": {
+      "branded_variable_name": "intpoc_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated POC",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Particulate Organic Carbon Content",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intpoc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0c37c-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "intpoc"
+        }
+      },
+      "standard_name": "ocean_mass_content_of_particulate_organic_matter_expressed_as_carbon",
+      "type": "real",
+      "units": "kg m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intpp": {
+      "branded_variable_name": "intpp_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated total primary (organic carbon) production by phytoplankton.  This should equal the sum of intpdiat+intpphymisc, but those individual components may be unavailable in some models.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Primary Organic Carbon Production by All Types of Phytoplankton",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intpp",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa054f0-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "intpp"
+        }
+      },
+      "standard_name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_by_phytoplankton",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intppcalc": {
+      "branded_variable_name": "intppcalc_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated primary (organic carbon) production by the calcareous phytoplankton component alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Net Primary Mole Productivity of Carbon by Calcareous Phytoplankton",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intppcalc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa069c2-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "intppcalc"
+        }
+      },
+      "standard_name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_by_calcareous_phytoplankton",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intppdiat": {
+      "branded_variable_name": "intppdiat_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated primary (organic carbon) production by the diatom phytoplankton component alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Net Primary Organic Carbon Production by Diatoms",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intppdiat",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa05d2e-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "intppdiat"
+        }
+      },
+      "standard_name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_by_diatoms",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intppdiaz": {
+      "branded_variable_name": "intppdiaz_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated primary (organic carbon) production by the diazotrophs alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Net Primary Mole Productivity of Carbon by Diazotrophs",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intppdiaz",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa063d2-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "intppdiaz"
+        }
+      },
+      "standard_name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_by_diazotrophic_phytoplankton",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intppmisc": {
+      "branded_variable_name": "intppmisc_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated total primary (organic carbon) production by other phytoplankton components alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Net Primary Organic Carbon Production by Other Phytoplankton",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intppmisc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa079e4-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "intppmisc"
+        }
+      },
+      "standard_name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_by_miscellaneous_phytoplankton",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intppnitrate": {
+      "branded_variable_name": "intppnitrate_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated primary (organic carbon) production by phytoplankton based on nitrate uptake alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Primary Organic Carbon Production by Phytoplankton Based on Nitrate Uptake Alone",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intppnitrate",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91d722e-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "intppnitrate"
+        }
+      },
+      "standard_name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_due_to_nitrate_utilization",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "intpppico": {
+      "branded_variable_name": "intpppico_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+      "comment": "Vertically integrated primary (organic carbon) production by the picophytoplankton component alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Net Primary Mole Productivity of Carbon by Picophytoplankton",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "intpppico",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0749e-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "intpppico"
+        }
+      },
+      "standard_name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_by_picophytoplankton",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limfecalc": {
+      "branded_variable_name": "limfecalc_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "'Calcareous phytoplankton' are phytoplankton that produce calcite. Calcite is a mineral that is a polymorph of calcium carbonate. The chemical formula of calcite is CaCO3. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. 'Iron growth limitation' means the ratio of the growth rate of a species population in the environment (where there is a finite availability of iron) to the theoretical growth rate if there were no such limit on iron availability.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Iron Limitation of Calcareous Phytoplankton",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limfecalc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0449c-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limfecalc"
+        }
+      },
+      "standard_name": "iron_growth_limitation_of_calcareous_phytoplankton",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limfediat": {
+      "branded_variable_name": "limfediat_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Diatoms are phytoplankton with an external skeleton made of silica. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. 'Iron growth limitation' means the ratio of the growth rate of a species population in the environment (where there is a finite availability of iron) to the theoretical growth rate if there were no such limit on iron availability.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Iron Limitation of Diatoms",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limfediat",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa03c54-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limfediat"
+        }
+      },
+      "standard_name": "iron_growth_limitation_of_diatoms",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limfediaz": {
+      "branded_variable_name": "limfediaz_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "In ocean modelling, diazotrophs are phytoplankton of the phylum cyanobacteria distinct from other phytoplankton groups in their ability to fix nitrogen gas in addition to nitrate and ammonium. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. 'Iron growth limitation' means the ratio of the growth rate of a species population in the environment (where there is a finite availability of iron) to the theoretical growth rate if there were no such limit on iron availability.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Iron Limitation of Diazotrophs",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limfediaz",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0406e-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limfediaz"
+        }
+      },
+      "standard_name": "iron_growth_limitation_of_diazotrophic_phytoplankton",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limfemisc": {
+      "branded_variable_name": "limfemisc_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. 'Miscellaneous phytoplankton' are all those phytoplankton that are not diatoms, diazotrophs, calcareous phytoplankton, picophytoplankton or other separately named components of the phytoplankton population. 'Iron growth limitation' means the ratio of the growth rate of a species population in the environment (where there is a finite availability of iron) to the theoretical growth rate if there were no such limit on iron availability.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Iron Limitation of Other Phytoplankton",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limfemisc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa04cda-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limfemisc"
+        }
+      },
+      "standard_name": "iron_growth_limitation_of_miscellaneous_phytoplankton",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limfepico": {
+      "branded_variable_name": "limfepico_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Picophytoplankton are phytoplankton of less than 2 micrometers in size. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. 'Iron growth limitation' means the ratio of the growth rate of a species population in the environment (where there is a finite availability of iron) to the theoretical growth rate if there were no such limit on iron availability.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Iron Limitation of Picophytoplankton",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limfepico",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa048b6-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limfepico"
+        }
+      },
+      "standard_name": "iron_growth_limitation_of_picophytoplankton",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limirrcalc": {
+      "branded_variable_name": "limirrcalc_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Growth limitation of calcareous phytoplankton due to solar irradiance. 'Growth limitation due to solar irradiance' means the ratio of the growth rate of a species population in the environment (where the amount of sunlight reaching a location may be limited) to the theoretical growth rate if there were no such limit on solar irradiance.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Irradiance Limitation of Calcareous Phytoplankton",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limirrcalc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa02ff2-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limirrcalc"
+        }
+      },
+      "standard_name": "growth_limitation_of_calcareous_phytoplankton_due_to_solar_irradiance",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limirrdiat": {
+      "branded_variable_name": "limirrdiat_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Growth limitation of diatoms due to solar irradiance. 'Growth limitation due to solar irradiance' means the ratio of the growth rate of a species population in the environment (where the amount of sunlight reaching a location may be limited) to the theoretical growth rate if there were no such limit on solar irradiance.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Irradiance Limitation of Diatoms",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limirrdiat",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa027a0-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limirrdiat"
+        }
+      },
+      "standard_name": "growth_limitation_of_diatoms_due_to_solar_irradiance",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limirrdiaz": {
+      "branded_variable_name": "limirrdiaz_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Growth limitation of diazotrophs due to solar irradiance. 'Growth limitation due to solar irradiance' means the ratio of the growth rate of a species population in the environment (where the amount of sunlight reaching a location may be limited) to the theoretical growth rate if there were no such limit on solar irradiance.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Irradiance Limitation of Diazotrophs",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limirrdiaz",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa02bc4-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limirrdiaz"
+        }
+      },
+      "standard_name": "growth_limitation_of_diazotrophic_phytoplankton_due_to_solar_irradiance",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limirrmisc": {
+      "branded_variable_name": "limirrmisc_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Growth limitation of miscellaneous phytoplankton due to solar irradiance. 'Growth limitation due to solar irradiance' means the ratio of the growth rate of a species population in the environment (where the amount of sunlight reaching a location may be limited) to the theoretical growth rate if there were no such limit on solar irradiance.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Irradiance Limitation of Other Phytoplankton",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limirrmisc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa03826-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limirrmisc"
+        }
+      },
+      "standard_name": "growth_limitation_of_miscellaneous_phytoplankton_due_to_solar_irradiance",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limirrpico": {
+      "branded_variable_name": "limirrpico_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Growth limitation of picophytoplankton due to solar irradiance. 'Growth limitation due to solar irradiance' means the ratio of the growth rate of a species population in the environment (where the amount of sunlight reaching a location may be limited) to the theoretical growth rate if there were no such limit on solar irradiance.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Irradiance Limitation of Picophytoplankton",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limirrpico",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0340c-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limirrpico"
+        }
+      },
+      "standard_name": "growth_limitation_of_picophytoplankton_due_to_solar_irradiance",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limncalc": {
+      "branded_variable_name": "limncalc_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "'Calcareous phytoplankton' are phytoplankton that produce calcite. Calcite is a mineral that is a polymorph of calcium carbonate. The chemical formula of calcite is CaCO3. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. 'Nitrogen growth limitation' means the ratio of the growth rate of a species population in the environment (where there is a finite availability of nitrogen) to the theoretical growth rate if there were no such limit on nitrogen availability.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Nitrogen Limitation of Calcareous Phytoplankton",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limncalc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa01b3e-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limncalc"
+        }
+      },
+      "standard_name": "nitrogen_growth_limitation_of_calcareous_phytoplankton",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limndiat": {
+      "branded_variable_name": "limndiat_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Diatoms are phytoplankton with an external skeleton made of silica. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. 'Nitrogen growth limitation' means the ratio of the growth rate of a species population in the environment (where there is a finite availability of nitrogen) to the theoretical growth rate if there were no such limit on nitrogen availability.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Nitrogen Limitation of Diatoms",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limndiat",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa01300-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limndiat"
+        }
+      },
+      "standard_name": "nitrogen_growth_limitation_of_diatoms",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limndiaz": {
+      "branded_variable_name": "limndiaz_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "In ocean modelling, diazotrophs are phytoplankton of the phylum cyanobacteria distinct from other phytoplankton groups in their ability to fix nitrogen gas in addition to nitrate and ammonium. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. 'Nitrogen growth limitation' means the ratio of the growth rate of a species population in the environment (where there is a finite availability of nitrogen) to the theoretical growth rate if there were no such limit on nitrogen availability.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Nitrogen Limitation of Diazotrophs",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limndiaz",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa01724-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limndiaz"
+        }
+      },
+      "standard_name": "nitrogen_growth_limitation_of_diazotrophic_phytoplankton",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limnmisc": {
+      "branded_variable_name": "limnmisc_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. 'Miscellaneous phytoplankton' are all those phytoplankton that are not diatoms, diazotrophs, calcareous phytoplankton, picophytoplankton or other separately named components of the phytoplankton population. 'Nitrogen growth limitation' means the ratio of the growth rate of a species population in the environment (where there is a finite availability of nitrogen) to the theoretical growth rate if there were no such limit on nitrogen availability.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Nitrogen Limitation of Other Phytoplankton",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limnmisc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0237c-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limnmisc"
+        }
+      },
+      "standard_name": "nitrogen_growth_limitation_of_miscellaneous_phytoplankton",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "limnpico": {
+      "branded_variable_name": "limnpico_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Picophytoplankton are phytoplankton of less than 2 micrometers in size. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. 'Nitrogen growth limitation' means the ratio of the growth rate of a species population in the environment (where there is a finite availability of nitrogen) to the theoretical growth rate if there were no such limit on nitrogen availability.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Nitrogen Limitation of Picophytoplankton",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "limnpico",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa01f62-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "limnpico"
+        }
+      },
+      "standard_name": "nitrogen_growth_limitation_of_picophytoplankton",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "nh4os": {
+      "branded_variable_name": "nh4os_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Mole concentration means moles (amount of substance) per unit volume and is used in the construction mole_concentration_of_X_in_Y, where X is a material constituent of Y.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Dissolved Ammonium Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "nh4os",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c9192462-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "nh4os"
+        }
+      },
+      "standard_name": "mole_concentration_of_ammonium_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "no3os": {
+      "branded_variable_name": "no3os_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Mole concentration means moles (amount of substance) per unit volume and is used in the construction mole_concentration_of_X_in_Y, where X is a material constituent of Y.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Dissolved Nitrate Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "no3os",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91915f8-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "no3os"
+        }
+      },
+      "standard_name": "mole_concentration_of_nitrate_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "o2min": {
+      "branded_variable_name": "o2min_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "'Mole concentration' means number of moles per unit volume, also called 'molarity', and is used in the construction mole_concentration_of_X_in_Y, where X is a material constituent of Y.  A chemical or biological species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox_expressed_as_nitrogen'. The concentration of any chemical species, whether particulate or dissolved, may vary with depth in the ocean.  A depth profile may go through one or more local minima in concentration. The mole_concentration_of_molecular_oxygen_in_sea_water_at_shallowest_local_minimum_in_vertical_profile is the mole concentration of oxygen at the local minimum in the concentration profile that occurs closest to the sea surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Oxygen Minimum Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "o2min",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa11336-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "o2min"
+        }
+      },
+      "standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water_at_shallowest_local_minimum_in_vertical_profile",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "o2os": {
+      "branded_variable_name": "o2os_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "'Mole concentration' means number of moles per unit volume, also called 'molarity', and is used in the construction mole_concentration_of_X_in_Y, where X is a material constituent of Y.  A chemical or biological species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox_expressed_as_nitrogen'.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Dissolved Oxygen Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "o2os",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c918f7d0-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "o2os"
+        }
+      },
+      "standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "o2satos": {
+      "branded_variable_name": "o2satos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "'Mole concentration at saturation' means the mole concentration in a saturated solution. Mole concentration means number of moles per unit volume, also called 'molarity', and is used in the construction 'mole_concentration_of_X_in_Y', where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox_expressed_as_nitrogen'.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Dissolved Oxygen Concentration at Saturation",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "o2satos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91905cc-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "o2satos"
+        }
+      },
+      "standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water_at_saturation",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ocfriver": {
+      "branded_variable_name": "ocfriver_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Organic Carbon supply to ocean through runoff (separate from gas exchange)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Flux of Organic Carbon into Ocean Surface by Runoff",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "ocfriver",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0f57c-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "ocfriver"
+        }
+      },
+      "standard_name": "tendency_of_ocean_mole_content_of_organic_carbon_due_to_runoff_and_sediment_dissolution",
+      "type": "real",
+      "units": "mol m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "phabioos": {
+      "branded_variable_name": "phabioos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "negative log10 of hydrogen ion concentration with the concentration expressed as mol H kg-1.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Abiotic pH",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "phabioos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c918e696-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "phabioos"
+        }
+      },
+      "standard_name": "sea_water_ph_abiotic_analogue_reported_on_total_scale",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "phnatos": {
+      "branded_variable_name": "phnatos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "negative log10 of hydrogen ion concentration with the concentration expressed as mol H kg-1.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Natural pH",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "phnatos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c918d278-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "phnatos"
+        }
+      },
+      "standard_name": "sea_water_ph_natural_analogue_reported_on_total_scale",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "phos": {
+      "branded_variable_name": "phos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "negative log10 of hydrogen ion concentration with the concentration expressed as mol H kg-1.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface pH",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "phos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c918bbf8-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "phos"
+        }
+      },
+      "standard_name": "sea_water_ph_reported_on_total_scale",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "phycalcos": {
+      "branded_variable_name": "phycalcos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "carbon concentration from calcareous (calcite-producing) phytoplankton component alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Calcareous Phytoplankton Expressed as Carbon in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "phycalcos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c9184416-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "phycalcos"
+        }
+      },
+      "standard_name": "mole_concentration_of_calcareous_phytoplankton_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "phycos": {
+      "branded_variable_name": "phycos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "sum of phytoplankton organic carbon component concentrations at the sea surface",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Sea Surface Phytoplankton Carbon Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "phycos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c917d274-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "phycos"
+        }
+      },
+      "standard_name": "mole_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "phydiatos": {
+      "branded_variable_name": "phydiatos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "carbon from the diatom phytoplankton component concentration alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Diatoms Expressed as Carbon in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "phydiatos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91827ba-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "phydiatos"
+        }
+      },
+      "standard_name": "mole_concentration_of_diatoms_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "phydiazos": {
+      "branded_variable_name": "phydiazos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "carbon concentration from the diazotrophic phytoplankton component alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Diazotrophs Expressed as Carbon in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "phydiazos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c918358e-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "phydiazos"
+        }
+      },
+      "standard_name": "mole_concentration_of_diazotrophic_phytoplankton_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "phyfeos": {
+      "branded_variable_name": "phyfeos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "sum of phytoplankton iron component concentrations",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Total Phytoplankton Expressed as Iron in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "phyfeos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91a0cec-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "phyfeos"
+        }
+      },
+      "standard_name": "mole_concentration_of_phytoplankton_expressed_as_iron_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "phymiscos": {
+      "branded_variable_name": "phymiscos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "carbon concentration from additional phytoplankton component alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Miscellaneous Phytoplankton Expressed as Carbon in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "phymiscos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c9185fa0-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "phymiscos"
+        }
+      },
+      "standard_name": "mole_concentration_of_miscellaneous_phytoplankton_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "phynos": {
+      "branded_variable_name": "phynos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "sum of phytoplankton nitrogen component concentrations",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Phytoplankton Nitrogen in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "phynos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c919f022-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "phynos"
+        }
+      },
+      "standard_name": "mole_concentration_of_phytoplankton_expressed_as_nitrogen_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "phypicoos": {
+      "branded_variable_name": "phypicoos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "carbon concentration from the picophytoplankton (<2 um) component alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Picophytoplankton Expressed as Carbon in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "phypicoos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91851ea-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "phypicoos"
+        }
+      },
+      "standard_name": "mole_concentration_of_picophytoplankton_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "phypos": {
+      "branded_variable_name": "phypos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "sum of phytoplankton phosphorus components",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Total Phytoplankton Expressed as Phosphorus in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "phypos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c919fe46-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "phypos"
+        }
+      },
+      "standard_name": "mole_concentration_of_phytoplankton_expressed_as_phosphorus_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "physios": {
+      "branded_variable_name": "physios_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "sum of phytoplankton silica component concentrations",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Total Phytoplankton Expressed as Silicon in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "physios",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91a1b7e-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "physios"
+        }
+      },
+      "standard_name": "mole_concentration_of_phytoplankton_expressed_as_silicon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "po4os": {
+      "branded_variable_name": "po4os_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Mole concentration means number of moles per unit volume, also called 'molarity', and is used in the construction 'mole_concentration_of_X_in_Y', where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox_expressed_as_nitrogen'. 'Dissolved inorganic phosphorus' means the sum of all inorganic phosphorus in solution (including phosphate, hydrogen phosphate, dihydrogen phosphate, and phosphoric acid).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Total Dissolved Inorganic Phosphorus Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "po4os",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c919320e-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "po4os"
+        }
+      },
+      "standard_name": "mole_concentration_of_dissolved_inorganic_phosphorus_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ponos": {
+      "branded_variable_name": "ponos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "sum of particulate organic nitrogen component concentrations",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Particulate Organic Matter Expressed as Nitrogen in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "ponos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c919b7b0-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "ponos"
+        }
+      },
+      "standard_name": "mole_concentration_of_particulate_organic_matter_expressed_as_nitrogen_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "popos": {
+      "branded_variable_name": "popos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "sum of particulate organic phosphorus component concentrations",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Particulate Organic Matter Expressed as Phosphorus in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "popos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c919c610-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "popos"
+        }
+      },
+      "standard_name": "mole_concentration_of_particulate_organic_matter_expressed_as_phosphorus_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ppos": {
+      "branded_variable_name": "ppos_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "total primary (organic carbon) production by phytoplankton",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Primary Carbon Production by Phytoplankton",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "ppos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0069e-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "ppos"
+        }
+      },
+      "standard_name": "tendency_of_mole_concentration_of_particulate_organic_matter_expressed_as_carbon_in_sea_water_due_to_net_primary_production",
+      "type": "real",
+      "units": "mol m-3 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "sios": {
+      "branded_variable_name": "sios_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Mole concentration means number of moles per unit volume, also called 'molarity', and is used in the construction 'mole_concentration_of_X_in_Y', where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox_expressed_as_nitrogen'. 'Dissolved inorganic silicon' means the sum of all inorganic silicon in solution (including silicic acid and its first dissociated anion SiO(OH)3-).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Total Dissolved Inorganic Silicon Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "sios",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c9194dd4-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "sios"
+        }
+      },
+      "standard_name": "mole_concentration_of_dissolved_inorganic_silicon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "spco2": {
+      "branded_variable_name": "spco2_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "The surface called 'surface' means the lower boundary of the atmosphere. The partial pressure of a dissolved gas in sea water is the partial pressure in air with which it would be in equilibrium. The partial pressure of a gaseous constituent of air is the pressure which it alone would exert with unchanged temperature and number of moles per unit volume. The chemical formula for carbon dioxide is CO2.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Aqueous Partial Pressure of CO2",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "spco2",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa0c7a0-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "spco2"
+        }
+      },
+      "standard_name": "surface_partial_pressure_of_carbon_dioxide_in_sea_water",
+      "type": "real",
+      "units": "Pa",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "spco2abio": {
+      "branded_variable_name": "spco2abio_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "The surface called 'surface' means the lower boundary of the atmosphere. The chemical formula for carbon dioxide is CO2. In ocean biogeochemistry models, an 'abiotic analogue' is used to simulate the effect on a modelled variable when biological effects on ocean carbon concentration and alkalinity are ignored. The partial pressure of a gaseous constituent of air is the pressure which it alone would exert with unchanged temperature and number of moles per unit volume. The partial pressure of a dissolved gas in sea water is the partial pressure in air with which it would be in equilibrium. The partial pressure difference between sea water and air is positive when the partial pressure of the dissolved gas in sea water is greater than the partial pressure in air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Abiotic Surface Aqueous Partial Pressure of CO2",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "spco2abio",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91e8768-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "spco2abio"
+        }
+      },
+      "standard_name": "surface_carbon_dioxide_abiotic_analogue_partial_pressure_difference_between_sea_water_and_air",
+      "type": "real",
+      "units": "Pa",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "spco2nat": {
+      "branded_variable_name": "spco2nat_mon-oc-tav-z00-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "The surface called 'surface' means the lower boundary of the atmosphere. The chemical formula for carbon dioxide is CO2. In ocean biogeochemistry models, a 'natural analogue' is used to simulate the effect on a modelled variable of imposing preindustrial atmospheric carbon dioxide concentrations, even when the model as a whole may be subjected to varying forcings. The partial pressure of a gaseous constituent of air is the pressure which it alone would exert with unchanged temperature and number of moles per unit volume. The partial pressure of a dissolved gas in sea water is the partial pressure in air with which it would be in equilibrium. The partial pressure difference between sea water and air is positive when the partial pressure of the dissolved gas in sea water is greater than the partial pressure in air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+      ],
+      "frequency": "mon",
+      "long_name": "Natural Surface Aqueous Partial Pressure of CO2",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "spco2nat",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91e799e-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "spco2nat"
+        }
+      },
+      "standard_name": "surface_carbon_dioxide_natural_analogue_partial_pressure_difference_between_sea_water_and_air",
+      "type": "real",
+      "units": "Pa",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "talknatos": {
+      "branded_variable_name": "talknatos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "total alkalinity equivalent concentration (including carbonate, borate, phosphorus, silicon, and nitrogen components) at preindustrial atmospheric xCO2",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Natural Total Alkalinity",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "talknatos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c918a5be-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "talknatos"
+        }
+      },
+      "standard_name": "sea_water_alkalinity_natural_analogue_expressed_as_mole_equivalent",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "talkos": {
+      "branded_variable_name": "talkos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "total alkalinity equivalent concentration (including carbonate, borate, phosphorus, silicon, and nitrogen components)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Total Alkalinity",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "talkos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c91897f4-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "talkos"
+        }
+      },
+      "standard_name": "sea_water_alkalinity_expressed_as_mole_equivalent",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "zmesoos": {
+      "branded_variable_name": "zmesoos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "carbon  concentration from mesozooplankton (20-200 um) component alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Mesozooplankton Expressed as Carbon in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "zmesoos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c9187c60-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "zmesoos"
+        }
+      },
+      "standard_name": "mole_concentration_of_mesozooplankton_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "zmicroos": {
+      "branded_variable_name": "zmicroos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "carbon  concentration from the microzooplankton (<20 um) component alone",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Microzooplankton Expressed as Carbon in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "zmicroos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c9186d38-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "zmicroos"
+        }
+      },
+      "standard_name": "mole_concentration_of_microzooplankton_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "zmiscos": {
+      "branded_variable_name": "zmiscos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "carbon from additional zooplankton component concentrations alone (e.g. Micro, meso).  Since the models all have different numbers of components, this variable has been included to provide a check for intercomparison between models since some phytoplankton groups are supersets.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Mole Concentration of Other Zooplankton Expressed as Carbon in Sea Water",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "zmiscos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c9188a3e-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "zmiscos"
+        }
+      },
+      "standard_name": "mole_concentration_of_miscellaneous_zooplankton_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "zo2min": {
+      "branded_variable_name": "zo2min_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Depth of vertical minimum concentration of dissolved oxygen gas (if two, then the shallower)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Depth of Oxygen Minimum Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "zo2min",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa11764-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "zo2min"
+        }
+      },
+      "standard_name": "depth_at_shallowest_local_minimum_in_vertical_profile_of_mole_concentration_of_dissolved_molecular_oxygen_in_sea_water",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "zoocos": {
+      "branded_variable_name": "zoocos_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "sum of zooplankton carbon component concentrations",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Surface Zooplankton Carbon Concentration",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "zoocos",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c917e0b6-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "zoocos"
+        }
+      },
+      "standard_name": "mole_concentration_of_zooplankton_expressed_as_carbon_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "zsatarag": {
+      "branded_variable_name": "zsatarag_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Depth of aragonite saturation horizon (0 if undersaturated at all depths, 'missing' if supersaturated at all depths; if multiple horizons exist, the shallowest should be taken).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Aragonite Saturation Depth",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "zsatarag",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa11fb6-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "zsatarag"
+        }
+      },
+      "standard_name": "minimum_depth_of_aragonite_undersaturation_in_sea_water",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "zsatcalc": {
+      "branded_variable_name": "zsatcalc_mon-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Depth of calcite saturation horizon (0 if undersaturated at all depths, and missing saturated through whole depth; if two or more horizons exist, then the shallowest is reported)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Calcite Saturation Depth",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "zsatcalc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa11b92-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "zsatcalc"
+        }
+      },
+      "standard_name": "minimum_depth_of_calcite_undersaturation_in_sea_water",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    }
+  }
+}

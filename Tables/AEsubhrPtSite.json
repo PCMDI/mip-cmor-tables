@@ -1,0 +1,80 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "cmor_version": "4.0.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-08-17",
+    "table_id": "AEsubhrPtSite"
+  },
+  "variable_entry": {
+    "tntrl": {
+      "branded_variable_name": "tntrl_subhr-ae-tpt-l-hxys",
+      "cell_measures": "",
+      "cell_methods": "area: point time: point",
+      "comment": "Tendency of air temperature due to longwave radiative heating",
+      "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+      ],
+      "frequency": "subhrPt",
+      "long_name": "Tendency of Air Temperature Due to Longwave Radiative Heating",
+      "modeling_realm": "aerosol",
+      "out_name": "tntrl",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b89edce-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Esubhr",
+          "variable_name": "tntrl"
+        }
+      },
+      "standard_name": "tendency_of_air_temperature_due_to_longwave_heating",
+      "type": "real",
+      "units": "K s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "tntrs": {
+      "branded_variable_name": "tntrs_subhr-ae-tpt-l-hxys",
+      "cell_measures": "",
+      "cell_methods": "area: point time: point",
+      "comment": "Tendency of air temperature due to shortwave radiative heating",
+      "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+      ],
+      "frequency": "subhrPt",
+      "long_name": "Tendency of Air Temperature Due to Shortwave Radiative Heating",
+      "modeling_realm": "aerosol",
+      "out_name": "tntrs",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b89f314-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Esubhr",
+          "variable_name": "tntrs"
+        }
+      },
+      "standard_name": "tendency_of_air_temperature_due_to_shortwave_heating",
+      "type": "real",
+      "units": "K s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    }
+  }
+}

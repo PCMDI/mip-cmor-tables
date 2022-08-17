@@ -1,0 +1,80 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "cmor_version": "4.0.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-08-17",
+    "table_id": "AP6hrPtZ"
+  },
+  "variable_entry": {
+    "zmlwaero": {
+      "branded_variable_name": "zmlwaero_6hr-ap-tpt-l-hy",
+      "cell_measures": "",
+      "cell_methods": "longitude: mean time: point",
+      "comment": "longwave heating rate due to volcanic aerosols to be diagnosed through double radiation call, zonal average values required",
+      "dimensions": [
+        "latitude",
+        "alevel",
+        "time1"
+      ],
+      "frequency": "6hrPt",
+      "long_name": "Zonal Mean Longwave Heating Rate Due to Volcanic Aerosols",
+      "modeling_realm": "atmos",
+      "out_name": "zmlwaero",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "d24a2cc6-4a9f-11e6-b84e-ac72891c3257",
+          "mip_table": "E6hrZ",
+          "variable_name": "zmlwaero"
+        }
+      },
+      "standard_name": "tendency_of_air_temperature_due_to_longwave_heating_from_volcanic_ambient_aerosol_particles",
+      "type": "real",
+      "units": "K s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "zmswaero": {
+      "branded_variable_name": "zmswaero_6hr-ap-tpt-l-hy",
+      "cell_measures": "",
+      "cell_methods": "longitude: mean time: point",
+      "comment": "shortwave heating rate due to volcanic aerosols to be diagnosed through double radiation call, zonal average values required",
+      "dimensions": [
+        "latitude",
+        "alevel",
+        "time1"
+      ],
+      "frequency": "6hrPt",
+      "long_name": "Zonal Mean Shortwave Heating Rate Due to Volcanic Aerosols",
+      "modeling_realm": "atmos",
+      "out_name": "zmswaero",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "d24a226c-4a9f-11e6-b84e-ac72891c3257",
+          "mip_table": "E6hrZ",
+          "variable_name": "zmswaero"
+        }
+      },
+      "standard_name": "tendency_of_air_temperature_due_to_shortwave_heating_from_volcanic_ambient_aerosol_particles",
+      "type": "real",
+      "units": "K s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,541 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "cmor_version": "4.0.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-08-17",
+    "table_id": "AP6hr"
+  },
+  "variable_entry": {
+    "hurs": {
+      "branded_variable_name": "hurs_6hr-ap-tav-h02-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height2m"
+      ],
+      "frequency": "6hr",
+      "long_name": "Near-Surface Relative Humidity",
+      "modeling_realm": "atmos",
+      "out_name": "hurs",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "917b8532-267c-11e7-8933-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "hurs"
+        }
+      },
+      "standard_name": "relative_humidity",
+      "type": "real",
+      "units": "%",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "hus4": {
+      "branded_variable_name": "hus_6hr-ap-tav-p4-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev4",
+        "time"
+      ],
+      "frequency": "6hr",
+      "long_name": "Specific Humidity",
+      "modeling_realm": "atmos",
+      "out_name": "hus4",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bae64ba-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "hus4"
+        }
+      },
+      "standard_name": "specific_humidity",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "pr": {
+      "branded_variable_name": "pr_6hr-ap-tav-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "includes both liquid and solid phases",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "6hr",
+      "long_name": "Precipitation",
+      "modeling_realm": "atmos",
+      "out_name": "pr",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "91044b3e-267c-11e7-8933-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "pr"
+        }
+      },
+      "standard_name": "precipitation_flux",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "prhmax": {
+      "branded_variable_name": "prhmax_6hr-ap-tav-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: mean within hours time: maximum over hours",
+      "comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "6hr",
+      "long_name": "Maximum Hourly Precipitation Rate",
+      "modeling_realm": "atmos",
+      "out_name": "prhmax",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "9104b268-267c-11e7-8933-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "prhmax"
+        }
+      },
+      "standard_name": "precipitation_flux",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "psl": {
+      "branded_variable_name": "psl_6hr-ap-tav-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "Sea Level Pressure",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "6hr",
+      "long_name": "Sea Level Pressure",
+      "modeling_realm": "atmos",
+      "out_name": "psl",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "910446fc-267c-11e7-8933-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "psl"
+        }
+      },
+      "standard_name": "air_pressure_at_mean_sea_level",
+      "type": "real",
+      "units": "Pa",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": 113000.0,
+        "valid_min": 92500.0
+      }
+    },
+    "rv850": {
+      "branded_variable_name": "rv850_6hr-ap-tav-p0850-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "Relative vorticity is the upward component of the vorticity vector i.e. the component which arises from horizontal velocity.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p850"
+      ],
+      "frequency": "6hr",
+      "long_name": "Relative Vorticity at 850hPa",
+      "modeling_realm": "atmos",
+      "out_name": "rv850",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b920d10-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "rv850"
+        }
+      },
+      "standard_name": "atmosphere_relative_vorticity",
+      "type": "real",
+      "units": "s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "sfcWind": {
+      "branded_variable_name": "sfcWind_6hr-ap-tav-h010-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "near-surface (usually, 10 meters) wind speed.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height10m"
+      ],
+      "frequency": "6hr",
+      "long_name": "Near-Surface Wind Speed",
+      "modeling_realm": "atmos",
+      "out_name": "sfcWind",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "910442b0-267c-11e7-8933-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "sfcWind"
+        }
+      },
+      "standard_name": "wind_speed",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "tas": {
+      "branded_variable_name": "tas_6hr-ap-tav-h02-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "near-surface (usually, 2 meter) air temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height2m"
+      ],
+      "frequency": "6hr",
+      "long_name": "Near-Surface Air Temperature",
+      "modeling_realm": "atmos",
+      "out_name": "tas",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "91043914-267c-11e7-8933-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "tas"
+        }
+      },
+      "standard_name": "air_temperature",
+      "type": "real",
+      "units": "K",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ua100m": {
+      "branded_variable_name": "ua100m_6hr-ap-tav-h0100-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "Zonal wind at 100m height",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height100m"
+      ],
+      "frequency": "6hr",
+      "long_name": "Eastward Wind at 100m",
+      "modeling_realm": "atmos",
+      "out_name": "ua100m",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "917b79b6-267c-11e7-8933-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "ua100m"
+        }
+      },
+      "standard_name": "eastward_wind",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "uas": {
+      "branded_variable_name": "uas_6hr-ap-tav-h010-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "Eastward component of the near-surface (usually, 10 meters)  wind",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height10m"
+      ],
+      "frequency": "6hr",
+      "long_name": "Eastward Near-Surface Wind",
+      "modeling_realm": "atmos",
+      "out_name": "uas",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "91043e32-267c-11e7-8933-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "uas"
+        }
+      },
+      "standard_name": "eastward_wind",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "va100m": {
+      "branded_variable_name": "va100m_6hr-ap-tav-h0100-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "Meridional wind at 100m above the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height100m"
+      ],
+      "frequency": "6hr",
+      "long_name": "Northward Wind at 100m",
+      "modeling_realm": "atmos",
+      "out_name": "va100m",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "917b7d94-267c-11e7-8933-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "va100m"
+        }
+      },
+      "standard_name": "northward_wind",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "vas": {
+      "branded_variable_name": "vas_6hr-ap-tav-h010-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "Northward component of the near surface wind",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height10m"
+      ],
+      "frequency": "6hr",
+      "long_name": "Northward Near-Surface Wind",
+      "modeling_realm": "atmos",
+      "out_name": "vas",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "940ff494-4798-11e7-b16a-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "vas"
+        }
+      },
+      "standard_name": "northward_wind",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "wap4": {
+      "branded_variable_name": "wap_6hr-ap-tav-p4-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev4",
+        "time"
+      ],
+      "frequency": "6hr",
+      "long_name": "Omega (=dp/dt)",
+      "modeling_realm": "atmos",
+      "out_name": "wap4",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bae5fba-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "wap4"
+        }
+      },
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "type": "real",
+      "units": "Pa s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "wsgmax100m": {
+      "branded_variable_name": "wsgmax100m_6hr-ap-tav-h0100-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: maximum",
+      "comment": "Wind speed gust maximum at 100m above surface",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height100m"
+      ],
+      "frequency": "6hr",
+      "long_name": "Maximum Wind Speed of Gust at 100m",
+      "modeling_realm": "atmos",
+      "out_name": "wsgmax100m",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "917b8168-267c-11e7-8933-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "wsgmax100m"
+        }
+      },
+      "standard_name": "wind_speed_of_gust",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "wsgmax10m": {
+      "branded_variable_name": "wsgmax10m_6hr-ap-tav-h010-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: maximum",
+      "comment": "Wind speed gust maximum at 10m above surface",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height10m"
+      ],
+      "frequency": "6hr",
+      "long_name": "Maximum Wind Speed of Gust at 10m",
+      "modeling_realm": "atmos",
+      "out_name": "wsgmax10m",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "ef05c7e6-34cb-11e7-8257-5404a60d96b5",
+          "mip_table": "6hrPlev",
+          "variable_name": "wsgmax10m"
+        }
+      },
+      "standard_name": "wind_speed_of_gust",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "zg1000": {
+      "branded_variable_name": "zg1000_6hr-ap-tav-p01000-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "Geopotential height on the 1000 hPa surface",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p1000"
+      ],
+      "frequency": "6hr",
+      "long_name": "Geopotential Height at 1000hPa",
+      "modeling_realm": "atmos",
+      "out_name": "zg1000",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b920734-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "6hrPlev",
+          "variable_name": "zg1000"
+        }
+      },
+      "standard_name": "geopotential_height",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    }
+  }
+}

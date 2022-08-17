@@ -1,0 +1,238 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "cmor_version": "4.0.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-08-17",
+    "table_id": "APmonClim"
+  },
+  "variable_entry": {
+    "ch4Clim": {
+      "branded_variable_name": "ch4_mon-ap-tcla-p19-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: mean within years time: mean over years",
+      "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time2"
+      ],
+      "frequency": "monC",
+      "long_name": "Mole Fraction of CH4",
+      "modeling_realm": "atmos atmosChem",
+      "out_name": "ch4Clim",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "a92e26e4-817c-11e6-a4e2-5404a60d96b5",
+          "mip_table": "Amon",
+          "variable_name": "ch4Clim"
+        }
+      },
+      "standard_name": "mole_fraction_of_methane_in_air",
+      "type": "real",
+      "units": "mol mol-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ch4globalClim": {
+      "branded_variable_name": "ch4global_mon-ap-tcla-z0-hm",
+      "cell_measures": "",
+      "cell_methods": "area: mean time: mean within years time: mean over years",
+      "comment": "Global Mean Mole Fraction of CH4",
+      "dimensions": [
+        "time2"
+      ],
+      "frequency": "monC",
+      "long_name": "Global Mean Mole Fraction of CH4",
+      "modeling_realm": "atmos atmosChem",
+      "out_name": "ch4globalClim",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "a92e3b16-817c-11e6-a4e2-5404a60d96b5",
+          "mip_table": "Amon",
+          "variable_name": "ch4globalClim"
+        }
+      },
+      "standard_name": "mole_fraction_of_methane_in_air",
+      "type": "real",
+      "units": "1e-09",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "co2Clim": {
+      "branded_variable_name": "co2_mon-ap-tcla-p19-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: mean within years time: mean over years",
+      "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time2"
+      ],
+      "frequency": "monC",
+      "long_name": "Mole Fraction of CO2",
+      "modeling_realm": "atmos",
+      "out_name": "co2Clim",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "a92dfd68-817c-11e6-a4e2-5404a60d96b5",
+          "mip_table": "Amon",
+          "variable_name": "co2Clim"
+        }
+      },
+      "standard_name": "mole_fraction_of_carbon_dioxide_in_air",
+      "type": "real",
+      "units": "mol mol-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "co2massClim": {
+      "branded_variable_name": "co2mass_mon-ap-tcla-z0-hm",
+      "cell_measures": "",
+      "cell_methods": "area: mean time: mean within years time: mean over years",
+      "comment": "Total atmospheric mass of Carbon Dioxide",
+      "dimensions": [
+        "time2"
+      ],
+      "frequency": "monC",
+      "long_name": "Total Atmospheric Mass of CO2",
+      "modeling_realm": "atmos",
+      "out_name": "co2massClim",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "a92e1244-817c-11e6-a4e2-5404a60d96b5",
+          "mip_table": "Amon",
+          "variable_name": "co2massClim"
+        }
+      },
+      "standard_name": "atmosphere_mass_of_carbon_dioxide",
+      "type": "real",
+      "units": "kg",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "n2oClim": {
+      "branded_variable_name": "n2o_mon-ap-tcla-p19-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: mean within years time: mean over years",
+      "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.   The chemical formula of  nitrous oxide is N2O.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time2"
+      ],
+      "frequency": "monC",
+      "long_name": "Mole Fraction of N2O",
+      "modeling_realm": "atmos atmosChem",
+      "out_name": "n2oClim",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "a92e4ec6-817c-11e6-a4e2-5404a60d96b5",
+          "mip_table": "Amon",
+          "variable_name": "n2oClim"
+        }
+      },
+      "standard_name": "mole_fraction_of_nitrous_oxide_in_air",
+      "type": "real",
+      "units": "mol mol-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "n2oglobalClim": {
+      "branded_variable_name": "n2oglobal_mon-ap-tcla-z0-hm",
+      "cell_measures": "",
+      "cell_methods": "area: mean time: mean within years time: mean over years",
+      "comment": "Global mean Nitrous Oxide (N2O)",
+      "dimensions": [
+        "time2"
+      ],
+      "frequency": "monC",
+      "long_name": "Global Mean Mole Fraction of N2O",
+      "modeling_realm": "atmos atmosChem",
+      "out_name": "n2oglobalClim",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "a92e6316-817c-11e6-a4e2-5404a60d96b5",
+          "mip_table": "Amon",
+          "variable_name": "n2oglobalClim"
+        }
+      },
+      "standard_name": "mole_fraction_of_nitrous_oxide_in_air",
+      "type": "real",
+      "units": "1e-09",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "o3Clim": {
+      "branded_variable_name": "o3_mon-ap-tcla-p19-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: mean within years time: mean over years",
+      "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time2"
+      ],
+      "frequency": "monC",
+      "long_name": "Mole Fraction of O3",
+      "modeling_realm": "atmos atmosChem",
+      "out_name": "o3Clim",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "59fc01c6-c77d-11e6-8a33-5404a60d96b5",
+          "mip_table": "Amon",
+          "variable_name": "o3Clim"
+        }
+      },
+      "standard_name": "mole_fraction_of_ozone_in_air",
+      "type": "real",
+      "units": "mol mol-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    }
+  }
+}

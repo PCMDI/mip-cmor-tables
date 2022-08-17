@@ -1,0 +1,476 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "cmor_version": "4.0.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-08-17",
+    "table_id": "AP1hrPt"
+  },
+  "variable_entry": {
+    "psl": {
+      "branded_variable_name": "psl_1hr-ap-tpt-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "Sea Level Pressure",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+      ],
+      "frequency": "1hrPt",
+      "long_name": "Sea Level Pressure",
+      "modeling_realm": "atmos",
+      "out_name": "psl",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bb11ef8-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E1hr",
+          "variable_name": "psl"
+        }
+      },
+      "standard_name": "air_pressure_at_mean_sea_level",
+      "type": "real",
+      "units": "Pa",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "rlut": {
+      "branded_variable_name": "rlut_1hr-ap-tpt-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "at the top of the atmosphere (to be compared with satellite measurements)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+      ],
+      "frequency": "1hrPt",
+      "long_name": "TOA Outgoing Longwave Radiation",
+      "modeling_realm": "atmos",
+      "out_name": "rlut",
+      "positive": "up",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bb119f8-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E1hr",
+          "variable_name": "rlut"
+        }
+      },
+      "standard_name": "toa_outgoing_longwave_flux",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ta": {
+      "branded_variable_name": "ta_1hr-ap-tpt-p3-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev3",
+        "time1"
+      ],
+      "frequency": "1hrPt",
+      "long_name": "Air Temperature",
+      "modeling_realm": "atmos",
+      "out_name": "ta",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bb14612-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E1hr",
+          "variable_name": "ta"
+        }
+      },
+      "standard_name": "air_temperature",
+      "type": "real",
+      "units": "K",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ta27": {
+      "branded_variable_name": "ta_1hr-ap-tpt-p27-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "Air Temperature",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev27",
+        "time1"
+      ],
+      "frequency": "1hrPt",
+      "long_name": "Air Temperature",
+      "modeling_realm": "atmos",
+      "out_name": "ta27",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bb0ffc2-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E1hr",
+          "variable_name": "ta27"
+        }
+      },
+      "standard_name": "air_temperature",
+      "type": "real",
+      "units": "K",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "tntr27": {
+      "branded_variable_name": "tntr_1hr-ap-tpt-p27-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "Tendency of Air Temperature due to Radiative Heating",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev27",
+        "time1"
+      ],
+      "frequency": "1hrPt",
+      "long_name": "Tendency of Air Temperature Due to Radiative Heating",
+      "modeling_realm": "atmos",
+      "out_name": "tntr27",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bb109c2-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E1hr",
+          "variable_name": "tntr27"
+        }
+      },
+      "standard_name": "tendency_of_air_temperature_due_to_radiative_heating",
+      "type": "real",
+      "units": "K s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ua": {
+      "branded_variable_name": "ua_1hr-ap-tpt-p3-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev3",
+        "time1"
+      ],
+      "frequency": "1hrPt",
+      "long_name": "Eastward Wind",
+      "modeling_realm": "atmos",
+      "out_name": "ua",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bb134b0-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E1hr",
+          "variable_name": "ua"
+        }
+      },
+      "standard_name": "eastward_wind",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ua27": {
+      "branded_variable_name": "ua_1hr-ap-tpt-p27-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "Zonal wind (positive in a eastward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev27",
+        "time1"
+      ],
+      "frequency": "1hrPt",
+      "long_name": "Eastward Wind",
+      "modeling_realm": "atmos",
+      "out_name": "ua27",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bb0f00e-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E1hr",
+          "variable_name": "ua27"
+        }
+      },
+      "standard_name": "eastward_wind",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "utendnogw27": {
+      "branded_variable_name": "utendnogw_1hr-ap-tpt-p27-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "Tendency of the eastward wind by parameterized nonorographic gravity waves.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev27",
+        "time1"
+      ],
+      "frequency": "1hrPt",
+      "long_name": "Eastward Acceleration Due to Non-Orographic Gravity Wave Drag",
+      "modeling_realm": "atmos",
+      "out_name": "utendnogw27",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8184b3c2-f906-11e6-a176-5404a60d96b5",
+          "mip_table": "E1hr",
+          "variable_name": "utendnogw27"
+        }
+      },
+      "standard_name": "tendency_of_eastward_wind_due_to_nonorographic_gravity_wave_drag",
+      "type": "real",
+      "units": "m s-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "va": {
+      "branded_variable_name": "va_1hr-ap-tpt-p3-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev3",
+        "time1"
+      ],
+      "frequency": "1hrPt",
+      "long_name": "Northward Wind",
+      "modeling_realm": "atmos",
+      "out_name": "va",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bb13b68-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E1hr",
+          "variable_name": "va"
+        }
+      },
+      "standard_name": "northward_wind",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "va27": {
+      "branded_variable_name": "va_1hr-ap-tpt-p27-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "Meridional wind (positive in a northward direction).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev27",
+        "time1"
+      ],
+      "frequency": "1hrPt",
+      "long_name": "Northward Wind",
+      "modeling_realm": "atmos",
+      "out_name": "va27",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bb0f518-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E1hr",
+          "variable_name": "va27"
+        }
+      },
+      "standard_name": "northward_wind",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "vtendnogw27": {
+      "branded_variable_name": "vtendnogw_1hr-ap-tpt-p27-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "Tendency of the northward wind by parameterized nonorographic gravity waves.  (Note that CF name tables only have a general northward tendency for all gravity waves, and we need it separated by type.)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev27",
+        "time1"
+      ],
+      "frequency": "1hrPt",
+      "long_name": "Northward Acceleration Due to Non-Orographic Gravity Wave Drag",
+      "modeling_realm": "atmos",
+      "out_name": "vtendnogw27",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8184b7dc-f906-11e6-a176-5404a60d96b5",
+          "mip_table": "E1hr",
+          "variable_name": "vtendnogw27"
+        }
+      },
+      "standard_name": "tendency_of_northward_wind_due_to_nonorographic_gravity_wave_drag",
+      "type": "real",
+      "units": "m s-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "wap": {
+      "branded_variable_name": "wap_1hr-ap-tpt-p3-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev3",
+        "time1"
+      ],
+      "frequency": "1hrPt",
+      "long_name": "Omega (=dp/dt)",
+      "modeling_realm": "atmos",
+      "out_name": "wap",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bb14072-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E1hr",
+          "variable_name": "wap"
+        }
+      },
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "type": "real",
+      "units": "Pa s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "wap27": {
+      "branded_variable_name": "wap_1hr-ap-tpt-p27-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev27",
+        "time1"
+      ],
+      "frequency": "1hrPt",
+      "long_name": "Omega (=dp/dt)",
+      "modeling_realm": "atmos",
+      "out_name": "wap27",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bb0fa18-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E1hr",
+          "variable_name": "wap27"
+        }
+      },
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "type": "real",
+      "units": "Pa s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "zg27": {
+      "branded_variable_name": "zg_1hr-ap-tpt-p27-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "plev27",
+        "time1"
+      ],
+      "frequency": "1hrPt",
+      "long_name": "Geopotential Height",
+      "modeling_realm": "atmos",
+      "out_name": "zg27",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bb104c2-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E1hr",
+          "variable_name": "zg27"
+        }
+      },
+      "standard_name": "geopotential_height",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    }
+  }
+}

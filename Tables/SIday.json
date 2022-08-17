@@ -1,0 +1,306 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "cmor_version": "4.0.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-08-17",
+    "table_id": "SIday"
+  },
+  "variable_entry": {
+    "siconc": {
+      "branded_variable_name": "siconc_day-si-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Percentage of grid cell covered by sea ice",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typesi"
+      ],
+      "frequency": "day",
+      "long_name": "Sea-Ice Area Percentage (Ocean Grid)",
+      "modeling_realm": "seaIce",
+      "out_name": "siconc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "85c3e888-357c-11e7-8257-5404a60d96b5",
+          "mip_table": "SIday",
+          "variable_name": "siconc"
+        }
+      },
+      "standard_name": "sea_ice_area_fraction",
+      "type": "real",
+      "units": "%",
+      "validation": {
+        "ok_max_mean_abs": 40.0,
+        "ok_min_mean_abs": 1.0,
+        "valid_max": 100.001,
+        "valid_min": -0.001
+      }
+    },
+    "siconca": {
+      "branded_variable_name": "siconca_day-si-tav-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "Percentage of grid cell covered by sea ice",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typesi"
+      ],
+      "frequency": "day",
+      "long_name": "Sea-Ice Area Percentage (Atmospheric Grid)",
+      "modeling_realm": "seaIce",
+      "out_name": "siconca",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "d243b4a4-4a9f-11e6-b84e-ac72891c3257",
+          "mip_table": "SIday",
+          "variable_name": "siconca"
+        }
+      },
+      "standard_name": "sea_ice_area_fraction",
+      "type": "real",
+      "units": "%",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "sisnthick": {
+      "branded_variable_name": "sisnthick_day-si-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where snow over sea_ice area: time: mean where sea_ice",
+      "comment": "Actual thickness of snow (snow volume divided by snow-covered area)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "day",
+      "long_name": "Snow Thickness",
+      "modeling_realm": "seaIce",
+      "out_name": "sisnthick",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "d243c0a2-4a9f-11e6-b84e-ac72891c3257",
+          "mip_table": "SIday",
+          "variable_name": "sisnthick"
+        }
+      },
+      "standard_name": "surface_snow_thickness",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "sispeed": {
+      "branded_variable_name": "sispeed_day-si-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+      "comment": "Speed of ice (i.e. mean absolute velocity) to account for back-and-forth movement of the ice",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "day",
+      "long_name": "Sea-Ice Speed",
+      "modeling_realm": "seaIce",
+      "out_name": "sispeed",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "d243d86c-4a9f-11e6-b84e-ac72891c3257",
+          "mip_table": "SIday",
+          "variable_name": "sispeed"
+        }
+      },
+      "standard_name": "sea_ice_speed",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "sitemptop": {
+      "branded_variable_name": "sitemptop_day-si-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+      "comment": "Report surface temperature of snow where snow covers the sea ice.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "day",
+      "long_name": "Surface Temperature of Sea Ice",
+      "modeling_realm": "seaIce",
+      "out_name": "sitemptop",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "d243c692-4a9f-11e6-b84e-ac72891c3257",
+          "mip_table": "SIday",
+          "variable_name": "sitemptop"
+        }
+      },
+      "standard_name": "sea_ice_surface_temperature",
+      "type": "real",
+      "units": "K",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "sithick": {
+      "branded_variable_name": "sithick_day-si-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+      "comment": "Actual (floe) thickness of sea ice (NOT volume divided by grid area as was done in CMIP5)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "day",
+      "long_name": "Sea Ice Thickness",
+      "modeling_realm": "seaIce ocean",
+      "out_name": "sithick",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "d243ba76-4a9f-11e6-b84e-ac72891c3257",
+          "mip_table": "SIday",
+          "variable_name": "sithick"
+        }
+      },
+      "standard_name": "sea_ice_thickness",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": 4.0,
+        "ok_min_mean_abs": 0.05,
+        "valid_max": 200.0,
+        "valid_min": -0.001
+      }
+    },
+    "sitimefrac": {
+      "branded_variable_name": "sitimefrac_day-si-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Fraction of time steps of the averaging period during which sea ice is present (siconc >0 ) in a grid cell",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "day",
+      "long_name": "Fraction of Time Steps with Sea Ice",
+      "modeling_realm": "seaIce",
+      "out_name": "sitimefrac",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "d243af0e-4a9f-11e6-b84e-ac72891c3257",
+          "mip_table": "SIday",
+          "variable_name": "sitimefrac"
+        }
+      },
+      "standard_name": "fraction_of_time_with_sea_ice_area_fraction_above_threshold",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "siu": {
+      "branded_variable_name": "siu_day-si-tav-z0-hxy",
+      "cell_measures": "--MODEL",
+      "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+      "comment": "The x-velocity of ice on native model grid",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "day",
+      "long_name": "X-Component of Sea-Ice Velocity",
+      "modeling_realm": "seaIce",
+      "out_name": "siu",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "b811a784-7c00-11e6-bcdf-ac72891c3257",
+          "mip_table": "SIday",
+          "variable_name": "siu"
+        }
+      },
+      "standard_name": "sea_ice_x_velocity",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "siv": {
+      "branded_variable_name": "siv_day-si-tav-z0-hxy",
+      "cell_measures": "--MODEL",
+      "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+      "comment": "The y-velocity of ice on native model grid",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "day",
+      "long_name": "Y-Component of Sea-Ice Velocity",
+      "modeling_realm": "seaIce",
+      "out_name": "siv",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "b811b062-7c00-11e6-bcdf-ac72891c3257",
+          "mip_table": "SIday",
+          "variable_name": "siv"
+        }
+      },
+      "standard_name": "sea_ice_y_velocity",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    }
+  }
+}
