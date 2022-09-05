@@ -2,13 +2,14 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "cmor_version": "4.0.0",
+    "checksum": "md5: ff79c0dee244b89943fcf90fc0761f1a",
+    "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-08-17",
+    "table_date": "2022-09-05",
     "table_id": "GIGyr"
   },
   "variable_entry": {

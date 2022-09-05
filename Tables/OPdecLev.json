@@ -2,7 +2,8 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "cmor_version": "4.0.0",
+    "checksum": "md5: 447b723dd6aba85f9726a083f7823a6e",
+    "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
       "olevel",
@@ -11,7 +12,7 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-08-17",
+    "table_date": "2022-09-05",
     "table_id": "OPdecLev"
   },
   "variable_entry": {
