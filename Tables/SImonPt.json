@@ -1,0 +1,145 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "checksum": "md5: fbbac0e487c073087434bba8dc3c7725",
+    "cmor_version": "4.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-09-05",
+    "table_id": "SImonPt"
+  },
+  "variable_entry": {
+    "sidivvel": {
+      "branded_variable_name": "sidivvel_mon-si-tpt-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea_ice (comment: mask=siconc) time: point",
+      "comment": "Divergence of sea-ice velocity field (first shear strain invariant)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+      ],
+      "frequency": "monPt",
+      "long_name": "Divergence of the Sea-Ice Velocity Field",
+      "modeling_realm": "seaIce",
+      "out_name": "sidivvel",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "71436966-faa7-11e6-bfb7-ac72891c3257",
+          "mip_table": "SImon",
+          "variable_name": "sidivvel"
+        }
+      },
+      "standard_name": "divergence_of_sea_ice_velocity",
+      "type": "real",
+      "units": "s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "sishevel": {
+      "branded_variable_name": "sishevel_mon-si-tpt-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea_ice (comment: mask=siconc) time: point",
+      "comment": "Maximum shear of sea-ice velocity field (second shear strain invariant)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+      ],
+      "frequency": "monPt",
+      "long_name": "Maximum Shear of Sea-Ice Velocity Field",
+      "modeling_realm": "seaIce",
+      "out_name": "sishevel",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "713564ba-faa7-11e6-bfb7-ac72891c3257",
+          "mip_table": "SImon",
+          "variable_name": "sishevel"
+        }
+      },
+      "standard_name": "maximum_over_coordinate_rotation_of_sea_ice_horizontal_shear_strain_rate",
+      "type": "real",
+      "units": "s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "sistremax": {
+      "branded_variable_name": "sistremax_mon-si-tpt-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea_ice (comment: mask=siconc) time: point",
+      "comment": "Maximum shear stress in sea ice (second stress invariant)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+      ],
+      "frequency": "monPt",
+      "long_name": "Maximum Shear Stress in Sea Ice",
+      "modeling_realm": "seaIce",
+      "out_name": "sistremax",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "7148170e-faa7-11e6-bfb7-ac72891c3257",
+          "mip_table": "SImon",
+          "variable_name": "sistremax"
+        }
+      },
+      "standard_name": "maximum_over_coordinate_rotation_of_sea_ice_horizontal_shear_stress",
+      "type": "real",
+      "units": "N m-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "sistresave": {
+      "branded_variable_name": "sistresave_mon-si-tpt-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea_ice (comment: mask=siconc) time: point",
+      "comment": "Average normal stress in sea ice (first stress invariant)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+      ],
+      "frequency": "monPt",
+      "long_name": "Average Normal Stress in Sea Ice",
+      "modeling_realm": "seaIce",
+      "out_name": "sistresave",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "711afb3e-faa7-11e6-bfb7-ac72891c3257",
+          "mip_table": "SImon",
+          "variable_name": "sistresave"
+        }
+      },
+      "standard_name": "sea_ice_average_normal_horizontal_stress",
+      "type": "real",
+      "units": "N m-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    }
+  }
+}

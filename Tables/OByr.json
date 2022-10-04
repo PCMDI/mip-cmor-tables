@@ -1,0 +1,177 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "checksum": "md5: bc3ec8fe3110f87d414f4ecd1336337a",
+    "cmor_version": "4.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-09-05",
+    "table_id": "OByr"
+  },
+  "variable_entry": {
+    "fg13co2": {
+      "branded_variable_name": "fg13co2_yr-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Gas exchange flux of carbon-13 as CO2 (positive into ocean)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "yr",
+      "long_name": "Surface Downward Mass Flux of Carbon-13 as 13CO2 [kgC m-2 s-1]",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fg13co2",
+      "positive": "down",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c926e9b2-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Oyr",
+          "variable_name": "fg13co2"
+        }
+      },
+      "standard_name": "surface_downward_mass_flux_of_13C_dioxide_abiotic_analogue_expressed_as_13C",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fg14co2abio": {
+      "branded_variable_name": "fg14co2abio_yr-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Gas exchange flux of abiotic 14CO2 (positive into ocean)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "yr",
+      "long_name": "Surface Downward Mass Flux of Carbon-14 as Abiotic 14CO2 [kgC m-2 s-1]",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fg14co2abio",
+      "positive": "down",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c926dc1a-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Oyr",
+          "variable_name": "fg14co2abio"
+        }
+      },
+      "standard_name": "surface_downward_mass_flux_of_14C_dioxide_abiotic_analogue_expressed_as_carbon",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fgco2": {
+      "branded_variable_name": "fgco2_yr-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Gas exchange flux of CO2 (positive into ocean)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "yr",
+      "long_name": "Surface Downward Mass Flux of Carbon as CO2 [kgC m-2 s-1]",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fgco2",
+      "positive": "down",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c926b24e-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Oyr",
+          "variable_name": "fgco2"
+        }
+      },
+      "standard_name": "surface_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fgco2abio": {
+      "branded_variable_name": "fgco2abio_yr-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Gas exchange flux of abiotic CO2 (positive into ocean)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "yr",
+      "long_name": "Surface Downward Mass Flux of Carbon as Abiotic CO2 [kgC m-2 s-1]",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fgco2abio",
+      "positive": "down",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c926ce28-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Oyr",
+          "variable_name": "fgco2abio"
+        }
+      },
+      "standard_name": "surface_downward_mass_flux_of_carbon_dioxide_abiotic_analogue_expressed_as_carbon",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "fgco2nat": {
+      "branded_variable_name": "fgco2nat_yr-oc-tav-z0-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Gas exchange flux of natural CO2 (positive into ocean)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "yr",
+      "long_name": "Surface Downward Mass Flux of Carbon as Natural CO2 [kgC m-2 s-1]",
+      "modeling_realm": "ocnBgchem",
+      "out_name": "fgco2nat",
+      "positive": "down",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "c926c090-c5e8-11e6-84e6-5404a60d96b5",
+          "mip_table": "Oyr",
+          "variable_name": "fgco2nat"
+        }
+      },
+      "standard_name": "surface_downward_mass_flux_of_carbon_dioxide_natural_analogue_expressed_as_carbon",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "checksum": "md5: 2396baf74c158715c0ad26bbb7f4599b",
+    "cmor_version": "4.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-09-05",
+    "table_id": "ACmonZ"
+  },
+  "variable_entry": {
+    "oxloss": {
+      "branded_variable_name": "oxloss_mon-ac-tav-p39-hy",
+      "cell_measures": "",
+      "cell_methods": "longitude: mean time: mean",
+      "comment": "total chemical loss rate for o+o1d+o3",
+      "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Total Odd Oxygen (Ox) Loss Rate",
+      "modeling_realm": "atmosChem",
+      "out_name": "oxloss",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b8f08d6-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "EmonZ",
+          "variable_name": "oxloss"
+        }
+      },
+      "standard_name": "tendency_of_mole_concentration_of_ox_in_air_due_to_chemical_destruction",
+      "type": "real",
+      "units": "mol m-3 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "oxprod": {
+      "branded_variable_name": "oxprod_mon-ac-tav-p39-hy",
+      "cell_measures": "",
+      "cell_methods": "longitude: mean time: mean",
+      "comment": "total production rate of o+o1d+o3 including o2 photolysis and all o3 producing reactions",
+      "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Total Odd Oxygen (Ox) Production Rate",
+      "modeling_realm": "atmosChem",
+      "out_name": "oxprod",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b8f0372-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "EmonZ",
+          "variable_name": "oxprod"
+        }
+      },
+      "standard_name": "tendency_of_mole_concentration_of_ox_in_air_due_to_chemical_and_photolytic_production",
+      "type": "real",
+      "units": "mol m-3 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "vmrox": {
+      "branded_variable_name": "vmrox_mon-ac-tav-p39-hy",
+      "cell_measures": "",
+      "cell_methods": "longitude: mean time: mean",
+      "comment": "Mole Fraction of Ox",
+      "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Mole Fraction of Odd Oxygen (O, O3 and O1D)",
+      "modeling_realm": "atmosChem",
+      "out_name": "vmrox",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b8f0e58-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "EmonZ",
+          "variable_name": "vmrox"
+        }
+      },
+      "standard_name": "mole_fraction_of_ox_in_air",
+      "type": "real",
+      "units": "mol mol-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    }
+  }
+}

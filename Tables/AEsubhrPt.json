@@ -1,0 +1,49 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "checksum": "md5: a613266d91d0d2f29b374fcb4ef4b947",
+    "cmor_version": "4.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-09-05",
+    "table_id": "AEsubhrPt"
+  },
+  "variable_entry": {
+    "bldep": {
+      "branded_variable_name": "bldep_subhr-ae-tpt-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "Boundary layer depth",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+      ],
+      "frequency": "subhrPt",
+      "long_name": "Boundary Layer Depth",
+      "modeling_realm": "aerosol",
+      "out_name": "bldep",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8bb19720-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Esubhr",
+          "variable_name": "bldep"
+        }
+      },
+      "standard_name": "atmosphere_boundary_layer_thickness",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    }
+  }
+}

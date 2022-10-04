@@ -1,0 +1,145 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "checksum": "md5: 3f6781f091f7eaf97536fb7730d8726b",
+    "cmor_version": "4.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-09-05",
+    "table_id": "LP3hr"
+  },
+  "variable_entry": {
+    "gpp": {
+      "branded_variable_name": "gpp_3hr-ld-tav-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean where land time: mean",
+      "comment": "The rate of synthesis of biomass from inorganic precursors by autotrophs ('producers') expressed as the mass of carbon which it contains. For example, photosynthesis in plants or phytoplankton. The producers also respire some of this biomass and the difference is referred to as the net primary production. ",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "3hr",
+      "long_name": "Carbon Mass Flux out of Atmosphere Due to Gross Primary Production on Land [kgC m-2 s-1]",
+      "modeling_realm": "land",
+      "out_name": "gpp",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b7fde2e-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E3hr",
+          "variable_name": "gpp"
+        }
+      },
+      "standard_name": "gross_primary_productivity_of_biomass_expressed_as_carbon",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "mrro": {
+      "branded_variable_name": "mrro_3hr-ld-tav-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean where land time: mean",
+      "comment": "The total run-off (including drainage through the base of the soil model) per unit area leaving the land portion of the grid cell.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "3hr",
+      "long_name": "Total Runoff",
+      "modeling_realm": "land",
+      "out_name": "mrro",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "bab177b2-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "3hr",
+          "variable_name": "mrro"
+        }
+      },
+      "standard_name": "runoff_flux",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ra": {
+      "branded_variable_name": "ra_3hr-ld-tav-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean where land time: mean",
+      "comment": "Carbon mass flux per unit area into atmosphere due to autotrophic respiration on land (respiration by producers) [see rh for heterotrophic production]",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "3hr",
+      "long_name": "Carbon Mass Flux into Atmosphere Due to Autotrophic (Plant) Respiration on Land [kgC m-2 s-1]",
+      "modeling_realm": "land",
+      "out_name": "ra",
+      "positive": "up",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b7fe482-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E3hr",
+          "variable_name": "ra"
+        }
+      },
+      "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "rh": {
+      "branded_variable_name": "rh_3hr-ld-tav-z0-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean where land time: mean",
+      "comment": "Carbon mass flux per unit area into atmosphere due to heterotrophic respiration on land (respiration by consumers)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+      ],
+      "frequency": "3hr",
+      "long_name": "Total Heterotrophic Respiration on Land as Carbon Mass Flux [kgC m-2 s-1]",
+      "modeling_realm": "land",
+      "out_name": "rh",
+      "positive": "up",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b7fe98c-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "E3hr",
+          "variable_name": "rh"
+        }
+      },
+      "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    }
+  }
+}

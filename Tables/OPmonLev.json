@@ -1,0 +1,1802 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "checksum": "md5: 73dceeae80f6ae5a80595d8dd275d5d5",
+    "cmor_version": "4.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": [
+      "olevel",
+      "olevhalf"
+    ],
+    "int_missing_value": "-999",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-09-05",
+    "table_id": "OPmonLev"
+  },
+  "variable_entry": {
+    "agessc": {
+      "branded_variable_name": "agessc_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Time elapsed since water was last in surface layer of the ocean.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Sea Water Age Since Surface Contact",
+      "modeling_realm": "ocean",
+      "out_name": "agessc",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa56de6-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "agessc"
+        }
+      },
+      "standard_name": "sea_water_age_since_surface_contact",
+      "type": "real",
+      "units": "yr",
+      "validation": {
+        "ok_max_mean_abs": 5000.0,
+        "ok_min_mean_abs": 50.0,
+        "valid_max": 20000.0,
+        "valid_min": -0.001
+      }
+    },
+    "bigthetao": {
+      "branded_variable_name": "bigthetao_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Sea water conservative temperature (this should be contributed only for models using conservative temperature as prognostic field)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Sea Water Conservative Temperature",
+      "modeling_realm": "ocean",
+      "out_name": "bigthetao",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa5255c-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "bigthetao"
+        }
+      },
+      "standard_name": "sea_water_conservative_temperature",
+      "type": "real",
+      "units": "degC",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "cfc11": {
+      "branded_variable_name": "cfc11_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Mole concentration means number of moles per unit volume, also called 'molarity', and is used in the construction 'mole_concentration_of_X_in_Y', where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox_expressed_as_nitrogen'. The chemical formula of CFC11 is CFCl3. The IUPAC name for CFC11 is trichloro-fluoro-methane.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Mole Concentration of CFC11 in Sea Water",
+      "modeling_realm": "ocean",
+      "out_name": "cfc11",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "ba9ad9c6-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "cfc11"
+        }
+      },
+      "standard_name": "mole_concentration_of_cfc11_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "cfc12": {
+      "branded_variable_name": "cfc12_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Mole concentration means number of moles per unit volume, also called 'molarity', and is used in the construction 'mole_concentration_of_X_in_Y', where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox_expressed_as_nitrogen'. The chemical formula for CFC12 is CF2Cl2. The IUPAC name for CFC12 is dichloro-difluoro-methane.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Mole Concentration of CFC12 in Sea Water",
+      "modeling_realm": "ocean",
+      "out_name": "cfc12",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "ba9b21d8-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "cfc12"
+        }
+      },
+      "standard_name": "mole_concentration_of_cfc12_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ficeberg": {
+      "branded_variable_name": "ficeberg_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "computed as the iceberg melt water  flux into the ocean divided by the area of the ocean portion of the grid cell.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Water Flux into Sea Water from Icebergs",
+      "modeling_realm": "ocean",
+      "out_name": "ficeberg",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa628c6-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "ficeberg"
+        }
+      },
+      "standard_name": "water_flux_into_sea_water_from_icebergs",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "hfibthermds": {
+      "branded_variable_name": "hfibthermds_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.  The specification of a physical process by the phrase due_to_process means that the quantity named is a  single term in a sum of terms which together compose the general quantity  named by omitting the phrase.  ' Iceberg thermodynamics' refers to the addition or subtraction of mass due to surface and basal fluxes, i.e., due to melting, sublimation and fusion.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Heat Flux into Sea Water Due to Iceberg Thermodynamics",
+      "modeling_realm": "ocean",
+      "out_name": "hfibthermds",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa6a18e-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "hfibthermds"
+        }
+      },
+      "standard_name": "heat_flux_into_sea_water_due_to_iceberg_thermodynamics",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "hfrunoffds": {
+      "branded_variable_name": "hfrunoffds_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Heat flux associated with liquid water which drains from land. It is calculated relative to the heat that would be transported by runoff water entering the sea at zero degrees Celsius. ",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Temperature Flux Due to Runoff Expressed as Heat Flux into Sea Water",
+      "modeling_realm": "ocean",
+      "out_name": "hfrunoffds",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa68000-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "hfrunoffds"
+        }
+      },
+      "standard_name": "temperature_flux_due_to_runoff_expressed_as_heat_flux_into_sea_water",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "hfsifrazil": {
+      "branded_variable_name": "hfsifrazil_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics. The specification of a physical process by the phrase due_to_process means that the quantity named is a single term in a sum of terms which together compose the general quantity named by omitting the phrase. 'Frazil' consists of needle like crystals of ice, typically between three and four millimeters in diameter, which form as sea water begins to freeze. Salt is expelled during the freezing process and frazil ice consists of nearly pure fresh water.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Heat Flux into Sea Water Due to Frazil Ice Formation",
+      "modeling_realm": "ocean seaIce",
+      "out_name": "hfsifrazil",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa690b8-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "hfsifrazil"
+        }
+      },
+      "standard_name": "heat_flux_into_sea_water_due_to_freezing_of_frazil_ice",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "hfsnthermds": {
+      "branded_variable_name": "hfsnthermds_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.  The specification of a physical process by the phrase due_to_process means that the quantity named is a  single term in a sum of terms which together compose the general quantity  named by omitting the phrase.  'Snow thermodynamics' refers to the addition or subtraction of mass due to surface and basal fluxes, i.e., due to melting, sublimation and fusion.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Heat Flux into Sea Water Due to Snow Thermodynamics",
+      "modeling_realm": "ocean",
+      "out_name": "hfsnthermds",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa68852-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "hfsnthermds"
+        }
+      },
+      "standard_name": "heat_flux_into_sea_water_due_to_snow_thermodynamics",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "masscello": {
+      "branded_variable_name": "masscello_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: sum where sea time: mean",
+      "comment": "Tracer grid-cell mass per unit area used for computing tracer budgets. For Boussinesq models with static ocean grid cell thickness, masscello = rhozero*thickcello, where thickcello is static cell thickness and rhozero is constant Boussinesq reference density. More generally, masscello is time dependent and reported as part of Omon.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Ocean Grid-Cell Mass per Area",
+      "modeling_realm": "ocean",
+      "out_name": "masscello",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa5147c-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "masscello"
+        }
+      },
+      "standard_name": "sea_water_mass_per_unit_area",
+      "type": "real",
+      "units": "kg m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "msftyz": {
+      "branded_variable_name": "msftyz_mon-op-tav-l-hm",
+      "cell_measures": "",
+      "cell_methods": "time: mean grid_longitude: mean",
+      "comment": "Overturning mass streamfunction arising from all advective mass transport processes, resolved and parameterized.",
+      "dimensions": [
+        "gridlatitude",
+        "olevel",
+        "basin",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Ocean Y Overturning Mass Streamfunction",
+      "modeling_realm": "ocean",
+      "out_name": "msftyz",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa5a662-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "msftyz"
+        }
+      },
+      "standard_name": "ocean_y_overturning_mass_streamfunction",
+      "type": "real",
+      "units": "kg s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "msftyzmpa": {
+      "branded_variable_name": "msftyzmpa_mon-op-tav-l-hm",
+      "cell_measures": "",
+      "cell_methods": "time: mean grid_longitude: mean",
+      "comment": "CMIP5 called this 'due to Bolus Advection'.  Name change respects the more general physics of the mesoscale parameterizations.",
+      "dimensions": [
+        "gridlatitude",
+        "olevel",
+        "basin",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Ocean Y Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
+      "modeling_realm": "ocean",
+      "out_name": "msftyzmpa",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa5b79c-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "msftyzmpa"
+        }
+      },
+      "standard_name": "ocean_y_overturning_mass_streamfunction_due_to_parameterized_mesoscale_eddy_advection",
+      "type": "real",
+      "units": "kg s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "obvfsq": {
+      "branded_variable_name": "obvfsq_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "The phrase 'square_of_X' means X*X. Frequency is the number of oscillations of a wave per unit time. Brunt-Vaisala frequency is also sometimes called 'buoyancy frequency' and is a measure of the vertical stratification of the medium.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Square of Brunt Vaisala Frequency in Sea Water",
+      "modeling_realm": "ocean",
+      "out_name": "obvfsq",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "1aab5d20-b006-11e6-9289-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "obvfsq"
+        }
+      },
+      "standard_name": "square_of_brunt_vaisala_frequency_in_sea_water",
+      "type": "real",
+      "units": "s-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ocontempdiff": {
+      "branded_variable_name": "ocontempdiff_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of heat content for a grid cell from parameterized dianeutral mixing. Reported only for models that use conservative temperature as prognostic field.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Dianeutral Mixing",
+      "modeling_realm": "ocean",
+      "out_name": "ocontempdiff",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9e1bbe-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "ocontempdiff"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content_due_to_parameterized_dianeutral_mixing",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ocontemppadvect": {
+      "branded_variable_name": "ocontemppadvect_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of heat content for a grid cell from parameterized eddy advection (any form of eddy advection). Reported only for models that use conservative temperature as prognostic field.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Eddy Advection",
+      "modeling_realm": "ocean",
+      "out_name": "ocontemppadvect",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9e0d18-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "ocontemppadvect"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content_due_to_parameterized_eddy_advection",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ocontemppmdiff": {
+      "branded_variable_name": "ocontemppmdiff_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of heat content for a grid cell from parameterized mesoscale eddy diffusion. Reported only for models that use conservative temperature as prognostic field.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Mesoscale Diffusion",
+      "modeling_realm": "ocean",
+      "out_name": "ocontemppmdiff",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9e11aa-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "ocontemppmdiff"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content_due_to_parameterized_mesoscale_eddy_diffusion",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ocontemppsmadvect": {
+      "branded_variable_name": "ocontemppsmadvect_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of heat content for a grid cell from parameterized submesoscale eddy advection. Reported only for models that use conservative temperature as prognostic field.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Submesoscale Advection",
+      "modeling_realm": "ocean",
+      "out_name": "ocontemppsmadvect",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9e1704-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "ocontemppsmadvect"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content_due_to_parameterized_submesoscale_eddy_advection",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ocontemprmadvect": {
+      "branded_variable_name": "ocontemprmadvect_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Conservative Temperature is defined as part of the Thermodynamic Equation of Seawater 2010 (TEOS-10) which was adopted in 2010 by the International Oceanographic Commission (IOC). The phrase 'residual mean advection' refers to the sum of the model's resolved advective transport plus any parameterized advective transport. Parameterized advective transport includes processes such as parameterized mesoscale and submesoscale transport, as well as any other advectively parameterized transport. When the parameterized advective transport is represented in the model as a skew-diffusion rather than an advection, then the parameterized skew diffusion should be included in this diagnostic, since the convergence of skew-fluxes are identical (in the continuous formulation) to the convergence of advective fluxes.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Residual Mean Advection",
+      "modeling_realm": "ocean",
+      "out_name": "ocontemprmadvect",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9e0886-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "ocontemprmadvect"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content_due_to_residual_mean_advection",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "ocontemptend": {
+      "branded_variable_name": "ocontemptend_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of heat content for a grid cell from all processes. Reported only for models that use conservative temperature as prognostic field.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content",
+      "modeling_realm": "ocean",
+      "out_name": "ocontemptend",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9e039a-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "ocontemptend"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "opottempdiff": {
+      "branded_variable_name": "opottempdiff_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of heat content for a grid cell from parameterized dianeutral mixing. Reported only for models that use potential temperature as prognostic field.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Dianeutral Mixing",
+      "modeling_realm": "ocean",
+      "out_name": "opottempdiff",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9dfefe-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "opottempdiff"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content_due_to_parameterized_dianeutral_mixing",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "opottemppadvect": {
+      "branded_variable_name": "opottemppadvect_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of heat content for a grid cell from parameterized eddy advection (any form of eddy advection). Reported only for models that use potential temperature as prognostic field.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Eddy Advection",
+      "modeling_realm": "ocean",
+      "out_name": "opottemppadvect",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9df058-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "opottemppadvect"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content_due_to_parameterized_eddy_advection",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "opottemppmdiff": {
+      "branded_variable_name": "opottemppmdiff_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of heat content for a grid cell from parameterized mesoscale eddy diffusion. Reported only for models that use potential temperature as prognostic field.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Mesoscale Diffusion",
+      "modeling_realm": "ocean",
+      "out_name": "opottemppmdiff",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9df4fe-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "opottemppmdiff"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content_due_to_parameterized_mesoscale_eddy_diffusion",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "opottemppsmadvect": {
+      "branded_variable_name": "opottemppsmadvect_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of heat content for a grid cell from parameterized submesoscale eddy advection. Reported only for models that use potential temperature as prognostic field.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Submesoscale Advection",
+      "modeling_realm": "ocean",
+      "out_name": "opottemppsmadvect",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9df99a-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "opottemppsmadvect"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content_due_to_parameterized_submesoscale_eddy_advection",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "opottemprmadvect": {
+      "branded_variable_name": "opottemprmadvect_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "The phrase 'residual mean advection' refers to the sum of the model's resolved advective transport plus any parameterized advective transport. Parameterized advective transport includes processes such as parameterized mesoscale and submesoscale transport, as well as any other advectively parameterized transport. When the parameterized advective transport is represented in the model as a skew-diffusion rather than an advection, then the parameterized skew diffusion should be included in this diagnostic, since the convergence of skew-fluxes are identical (in the continuous formulation) to the convergence of advective fluxes.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Residual Mean Advection",
+      "modeling_realm": "ocean",
+      "out_name": "opottemprmadvect",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9deb80-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "opottemprmadvect"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content_due_to_residual_mean_advection",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "opottemptend": {
+      "branded_variable_name": "opottemptend_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of heat content for a grid cell from all processes. Reported only for models that use potential temperature as prognostic field.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Potential Temperature Expressed as Heat Content",
+      "modeling_realm": "ocean",
+      "out_name": "opottemptend",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9de694-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "opottemptend"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "osaltdiff": {
+      "branded_variable_name": "osaltdiff_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of salt content for a grid cell from parameterized dianeutral mixing.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Dianeutral Mixing",
+      "modeling_realm": "ocean",
+      "out_name": "osaltdiff",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9e3766-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "osaltdiff"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_dianeutral_mixing",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "osaltpadvect": {
+      "branded_variable_name": "osaltpadvect_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of salt content for a grid cell from parameterized eddy advection (any form of eddy advection).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Eddy Advection",
+      "modeling_realm": "ocean",
+      "out_name": "osaltpadvect",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9e29c4-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "osaltpadvect"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_eddy_advection",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "osaltpmdiff": {
+      "branded_variable_name": "osaltpmdiff_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of salt content for a grid cell from parameterized mesoscale eddy diffusion.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Mesoscale Diffusion",
+      "modeling_realm": "ocean",
+      "out_name": "osaltpmdiff",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9e2e4c-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "osaltpmdiff"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_mesoscale_eddy_diffusion",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "osaltpsmadvect": {
+      "branded_variable_name": "osaltpsmadvect_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of salt content for a grid cell from parameterized submesoscale eddy advection.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Submesoscale Advection",
+      "modeling_realm": "ocean",
+      "out_name": "osaltpsmadvect",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9e32d4-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "osaltpsmadvect"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_submesoscale_eddy_advection",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "osaltrmadvect": {
+      "branded_variable_name": "osaltrmadvect_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "The phrase 'residual mean advection' refers to the sum of the model's resolved advective transport plus any parameterized advective transport. Parameterized advective transport includes processes such as parameterized mesoscale and submesoscale transport, as well as any other advectively parameterized transport. When the parameterized advective transport is represented in the model as a skew-diffusion rather than an advection, then the parameterized skew diffusion should be included in this diagnostic, since the convergence of skew-fluxes are identical (in the continuous formulation) to the convergence of advective fluxes.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Residual Mean Advection",
+      "modeling_realm": "ocean",
+      "out_name": "osaltrmadvect",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9e2528-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "osaltrmadvect"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_residual_mean_advection",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "osalttend": {
+      "branded_variable_name": "osalttend_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Tendency of salt content for a grid cell from all processes.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content",
+      "modeling_realm": "ocean",
+      "out_name": "osalttend",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9e2050-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "osalttend"
+        }
+      },
+      "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "pabigthetao": {
+      "branded_variable_name": "pabigthetao_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "A passive tracer in an ocean model whose surface flux does not come from the atmosphere but is imposed externally upon the simulated climate system. The surface flux is expressed as a heat flux and converted to a passive tracer increment as if it were a heat flux being added to conservative temperature. The passive tracer is transported within the ocean as if it were conservative temperature. The passive tracer is zero in the control climate of the model. ",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Sea Water Added Conservative Temperature",
+      "modeling_realm": "ocean",
+      "out_name": "pabigthetao",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9dd8fc-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "pabigthetao"
+        }
+      },
+      "standard_name": "sea_water_added_conservative_temperature",
+      "type": "real",
+      "units": "degC",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "pathetao": {
+      "branded_variable_name": "pathetao_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "The quantity with standard name sea_water_added_potential_temperature is a passive tracer in an ocean model whose surface flux does not come from the atmosphere but is imposed externally upon the simulated climate system. The surface flux is expressed as a heat flux and converted to a passive tracer increment as if it were a heat flux being added to potential temperature. The passive tracer is transported within the ocean as if it were potential temperature. The passive tracer is zero in the control climate of the model. The passive tracer records added heat, as described for the CMIP6 FAFMIP experiment (doi:10.5194/gmd-9-3993-2016), following earlier ideas. Potential temperature is the temperature a parcel of air or sea water would have if moved adiabatically to sea level pressure.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Sea Water Additional Potential Temperature",
+      "modeling_realm": "ocean",
+      "out_name": "pathetao",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9dcec0-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "pathetao"
+        }
+      },
+      "standard_name": "sea_water_added_potential_temperature",
+      "type": "real",
+      "units": "degC",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "prbigthetao": {
+      "branded_variable_name": "prbigthetao_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "A passive tracer in an ocean model which is subject to an externally imposed perturbative surface heat flux. The passive tracer is initialised to the conservative temperature in the control climate before the perturbation is imposed. Its surface flux is the heat flux from the atmosphere, not including the imposed perturbation, and is converted to a passive tracer increment as if it were being added to conservative temperature. The passive tracer is transported within the ocean as if it were conservative temperature. ",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Sea Water Redistributed Conservative Temperature",
+      "modeling_realm": "ocean",
+      "out_name": "prbigthetao",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9dddde-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "prbigthetao"
+        }
+      },
+      "standard_name": "sea_water_redistributed_conservative_temperature",
+      "type": "real",
+      "units": "degC",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "prthetao": {
+      "branded_variable_name": "prthetao_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "A passive tracer in an ocean model which is subject to an externally imposed perturbative surface heat flux. The passive tracer is initialised to the potential temperature in the control climate before the perturbation is imposed. Its surface flux is the heat flux from the atmosphere, not including the imposed perturbation, and is converted to a passive tracer increment as if it were being added to potential temperature. The passive tracer is transported within the ocean as if it were potential temperature. ",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Sea Water Redistributed Potential Temperature",
+      "modeling_realm": "ocean",
+      "out_name": "prthetao",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9dd406-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "prthetao"
+        }
+      },
+      "standard_name": "sea_water_redistributed_potential_temperature",
+      "type": "real",
+      "units": "degC",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "prw18O": {
+      "branded_variable_name": "prw18O_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Water vapor path for water molecules that contain oxygen-18 (H2 18O)",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Mass of Water Vapor Containing Oxygen-18 (H2 18O) in Layer",
+      "modeling_realm": "ocean",
+      "out_name": "prw18O",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "6f69577c-9acb-11e6-b7ee-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "prw18O"
+        }
+      },
+      "standard_name": "mass_content_of_water_vapor_containing_18O_in_atmosphere_layer",
+      "type": "real",
+      "units": "kg m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "rsdo": {
+      "branded_variable_name": "rsdo_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Downwelling radiation is radiation from above. It does not mean 'net downward'.  When thought of as being incident on a surface, a radiative flux is sometimes called 'irradiance'.  In addition, it is identical with the quantity measured by a cosine-collector light-meter and sometimes called 'vector irradiance'.  In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.  'shortwave' means shortwave radiation.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Downwelling Shortwave Radiation in Sea Water",
+      "modeling_realm": "ocean",
+      "out_name": "rsdo",
+      "positive": "down",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa6ba98-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "rsdo"
+        }
+      },
+      "standard_name": "downwelling_shortwave_flux_in_sea_water",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "rsdoabsorb": {
+      "branded_variable_name": "rsdoabsorb_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "'shortwave' means shortwave radiation. 'Layer' means any layer with upper and lower boundaries that have constant values in some vertical coordinate. There must be a vertical coordinate variable indicating the extent of the layer(s). If the layers are model layers, the vertical coordinate can be model_level_number, but it is recommended to specify a physical coordinate (in a scalar or auxiliary coordinate variable) as well. Net absorbed radiation is the difference between absorbed and emitted radiation.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Net Rate of Absorption of Shortwave Energy in Ocean Layer",
+      "modeling_realm": "ocean",
+      "out_name": "rsdoabsorb",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "8b9e3c2a-4a5b-11e6-9cd2-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "rsdoabsorb"
+        }
+      },
+      "standard_name": "net_rate_of_absorption_of_shortwave_energy_in_ocean_layer",
+      "type": "real",
+      "units": "W m-2",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "sf6": {
+      "branded_variable_name": "sf6_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Mole concentration means number of moles per unit volume, also called 'molarity', and is used in the construction 'mole_concentration_of_X_in_Y', where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox_expressed_as_nitrogen'. The chemical formula of sulfur hexafluoride is SF6.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Mole Concentration of SF6 in Sea Water",
+      "modeling_realm": "ocean",
+      "out_name": "sf6",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "ba9b2d36-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "sf6"
+        }
+      },
+      "standard_name": "mole_concentration_of_sulfur_hexafluoride_in_sea_water",
+      "type": "real",
+      "units": "mol m-3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "so": {
+      "branded_variable_name": "so_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Sea water salinity is the salt content of sea water, often on the Practical Salinity Scale of 1978. However, the unqualified term 'salinity' is generic and does not necessarily imply any particular method of calculation. The units of salinity are dimensionless and the units attribute should normally be given as 1e-3 or 0.001 i.e. parts per thousand. ",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Sea Water Salinity",
+      "modeling_realm": "ocean",
+      "out_name": "so",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa5491a-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "so"
+        }
+      },
+      "standard_name": "sea_water_salinity",
+      "type": "real",
+      "units": "0.001",
+      "validation": {
+        "ok_max_mean_abs": 40.0,
+        "ok_min_mean_abs": 28.0,
+        "valid_max": 100.0,
+        "valid_min": -0.001
+      }
+    },
+    "sw17O": {
+      "branded_variable_name": "sw17O_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Ratio of abundance of oxygen-17 (17O) atoms to oxygen-16 (16O) atoms in sea water",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Isotopic Ratio of Oxygen-17 in Sea Water",
+      "modeling_realm": "ocean",
+      "out_name": "sw17O",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "fdca5cc1-4d35-11e8-be0a-1c4d70487308",
+          "mip_table": "Emon",
+          "variable_name": "sw17O"
+        }
+      },
+      "standard_name": "isotope_ratio_of_17O_to_16O_in_sea_water_excluding_solutes_and_solids",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "sw18O": {
+      "branded_variable_name": "sw18O_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: time: mean",
+      "comment": "Ratio of abundance of oxygen-18 (18O) atoms to oxygen-16 (16O) atoms in sea water",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Isotopic Ratio of Oxygen-18 in Sea Water",
+      "modeling_realm": "ocean",
+      "out_name": "sw18O",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "6f68c8f2-9acb-11e6-b7ee-ac72891c3257",
+          "mip_table": "Emon",
+          "variable_name": "sw18O"
+        }
+      },
+      "standard_name": "isotope_ratio_of_18O_to_16O_in_sea_water_excluding_solutes_and_solids",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "sw2H": {
+      "branded_variable_name": "sw2H_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Ratio of abundance of hydrogen-2 (2H) atoms to hydrogen-1 (1H) atoms in sea water",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Isotopic Ratio of Deuterium in Sea Water",
+      "modeling_realm": "ocean",
+      "out_name": "sw2H",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "fdca5cc2-4d35-11e8-be0a-1c4d70487308",
+          "mip_table": "Emon",
+          "variable_name": "sw2H"
+        }
+      },
+      "standard_name": "isotope_ratio_of_2H_to_1H_in_sea_water_excluding_solutes_and_solids",
+      "type": "real",
+      "units": "1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "thetao": {
+      "branded_variable_name": "thetao_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Diagnostic should be contributed even for models using conservative temperature as prognostic field.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Sea Water Potential Temperature",
+      "modeling_realm": "ocean",
+      "out_name": "thetao",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa51d00-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "thetao"
+        }
+      },
+      "standard_name": "sea_water_potential_temperature",
+      "type": "real",
+      "units": "degC",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "thkcello": {
+      "branded_variable_name": "thkcello_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "'Thickness' means the vertical extent of a layer. 'Cell' refers to a model grid-cell.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Ocean Model Cell Thickness",
+      "modeling_realm": "ocean",
+      "out_name": "thkcello",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa518c8-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "thkcello"
+        }
+      },
+      "standard_name": "cell_thickness",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "umo": {
+      "branded_variable_name": "umo_mon-op-tav-l-hxy",
+      "cell_measures": "--OPT",
+      "cell_methods": "time: mean",
+      "comment": "X-ward mass transport from resolved and parameterized advective transport.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Ocean Mass X Transport",
+      "modeling_realm": "ocean",
+      "out_name": "umo",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa5942e-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "umo"
+        }
+      },
+      "standard_name": "ocean_mass_x_transport",
+      "type": "real",
+      "units": "kg s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "uo": {
+      "branded_variable_name": "uo_mon-op-tav-l-hxy",
+      "cell_measures": "--OPT",
+      "cell_methods": "time: mean",
+      "comment": "Prognostic x-ward velocity component resolved by the model.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Sea Water X Velocity",
+      "modeling_realm": "ocean",
+      "out_name": "uo",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa586e6-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "uo"
+        }
+      },
+      "standard_name": "sea_water_x_velocity",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "vmo": {
+      "branded_variable_name": "vmo_mon-op-tav-l-hxy",
+      "cell_measures": "--OPT",
+      "cell_methods": "time: mean",
+      "comment": "Y-ward mass transport from resolved and parameterized advective transport.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Ocean Mass Y Transport",
+      "modeling_realm": "ocean",
+      "out_name": "vmo",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa598c0-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "vmo"
+        }
+      },
+      "standard_name": "ocean_mass_y_transport",
+      "type": "real",
+      "units": "kg s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "vo": {
+      "branded_variable_name": "vo_mon-op-tav-l-hxy",
+      "cell_measures": "--OPT",
+      "cell_methods": "time: mean",
+      "comment": "Prognostic y-ward velocity component resolved by the model.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Sea Water Y Velocity",
+      "modeling_realm": "ocean",
+      "out_name": "vo",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa58b1e-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "vo"
+        }
+      },
+      "standard_name": "sea_water_y_velocity",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "volcello": {
+      "branded_variable_name": "volcello_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: sum where sea time: mean",
+      "comment": "grid-cell volume ca. 2000.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Ocean Grid-Cell Volume",
+      "modeling_realm": "ocean",
+      "out_name": "volcello",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "e0739eaa-e1ab-11e7-9db4-1c4d70487308",
+          "mip_table": "Omon",
+          "variable_name": "volcello"
+        }
+      },
+      "standard_name": "ocean_volume",
+      "type": "real",
+      "units": "m3",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "wmo": {
+      "branded_variable_name": "wmo_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: sum where sea time: mean",
+      "comment": "Upward mass transport from resolved and parameterized advective transport.",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Upward Ocean Mass Transport",
+      "modeling_realm": "ocean",
+      "out_name": "wmo",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "baa58f74-e5dd-11e5-8482-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "wmo"
+        }
+      },
+      "standard_name": "upward_ocean_mass_transport",
+      "type": "real",
+      "units": "kg s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "wo": {
+      "branded_variable_name": "wo_mon-op-tav-l-hxy",
+      "cell_measures": "--OPT",
+      "cell_methods": "time: mean",
+      "comment": "A velocity is a vector quantity. 'Upward' indicates a vector component which is positive when directed upward (negative downward).",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Sea Water Vertical Velocity",
+      "modeling_realm": "ocean",
+      "out_name": "wo",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "1aab80fc-b006-11e6-9289-ac72891c3257",
+          "mip_table": "Omon",
+          "variable_name": "wo"
+        }
+      },
+      "standard_name": "upward_sea_water_velocity",
+      "type": "real",
+      "units": "m s-1",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "zfullo": {
+      "branded_variable_name": "zfullo_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello volume: volcello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Depth below geoid",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Depth Below Geoid of Ocean Layer",
+      "modeling_realm": "ocean",
+      "out_name": "zfullo",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "5a4c10e4-c77d-11e6-8a33-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "zfullo"
+        }
+      },
+      "standard_name": "depth_below_geoid",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    },
+    "zhalfo": {
+      "branded_variable_name": "zhalfo_mon-op-tav-l-hxy",
+      "cell_measures": "area: areacello",
+      "cell_methods": "area: mean where sea time: mean",
+      "comment": "Depth below geoid",
+      "dimensions": [
+        "longitude",
+        "latitude",
+        "olevhalf",
+        "time"
+      ],
+      "frequency": "mon",
+      "long_name": "Depth Below Geoid of Interfaces Between Ocean Layers",
+      "modeling_realm": "ocean",
+      "out_name": "zhalfo",
+      "positive": "",
+      "provenance": {
+        "CMIP6": {
+          "dreq_uid": "5a4c1f6c-c77d-11e6-8a33-5404a60d96b5",
+          "mip_table": "Omon",
+          "variable_name": "zhalfo"
+        }
+      },
+      "standard_name": "depth_below_geoid",
+      "type": "real",
+      "units": "m",
+      "validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+      }
+    }
+  }
+}
