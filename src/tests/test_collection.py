@@ -110,7 +110,19 @@ class TestMIPVariable(unittest.TestCase):
         # compare to output of to_json method
         json_mip_variable = variable.to_json()
         self.assertDictEqual(json_raw_variable, json_mip_variable)
+
+
+class TestMIPTableCollection(unittest.TestCase):
+    def setUp(self) -> None:
+        self.test_tables_dir = os.path.join(os.path.dirname(__file__), 'TestTables')
+        self.mip_table_collection = MIPTableCollection(self.test_tables_dir)
+
+    def test_tables_list(self):
         
+        with open(os.path.join(self.test_tables_dir, 'generic_CV.json')) as fh:
+            raw_generic_cv = json.load(fh)
+        
+        self.assertListEqual(raw_generic_cv['table_id'], list(self.mip_table_collection.tables.keys()))
         
 if __name__ == '__main__':
     unittest.main()

@@ -92,8 +92,7 @@ class MIPTableCollection(object):
         """
         Update the variable definition held in the collection with the variable supplied
         """
-        pass
-
+        raise NotImplementedError
 
     def save(self) -> None:
         """
