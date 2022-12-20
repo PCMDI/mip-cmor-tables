@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 0b7dd5166f8ba76e7f63f35c6c3eea9e",
+    "checksum": "md5: 6b1dc8e2cad0c8e9115d9e9c855205b5",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -26,7 +26,10 @@
       ],
       "frequency": "monC",
       "long_name": "Mole Fraction of CH4",
-      "modeling_realm": "atmos atmosChem",
+      "modeling_realm": [
+        "atmos",
+        "atmosChem"
+      ],
       "out_name": "ch4Clim",
       "positive": "",
       "provenance": {
@@ -56,7 +59,10 @@
       ],
       "frequency": "monC",
       "long_name": "Global Mean Mole Fraction of CH4",
-      "modeling_realm": "atmos atmosChem",
+      "modeling_realm": [
+        "atmos",
+        "atmosChem"
+      ],
       "out_name": "ch4globalClim",
       "positive": "",
       "provenance": {
@@ -89,7 +95,9 @@
       ],
       "frequency": "monC",
       "long_name": "Mole Fraction of CO2",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "co2Clim",
       "positive": "",
       "provenance": {
@@ -119,7 +127,9 @@
       ],
       "frequency": "monC",
       "long_name": "Total Atmospheric Mass of CO2",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "co2massClim",
       "positive": "",
       "provenance": {
@@ -152,7 +162,10 @@
       ],
       "frequency": "monC",
       "long_name": "Mole Fraction of N2O",
-      "modeling_realm": "atmos atmosChem",
+      "modeling_realm": [
+        "atmos",
+        "atmosChem"
+      ],
       "out_name": "n2oClim",
       "positive": "",
       "provenance": {
@@ -182,7 +195,10 @@
       ],
       "frequency": "monC",
       "long_name": "Global Mean Mole Fraction of N2O",
-      "modeling_realm": "atmos atmosChem",
+      "modeling_realm": [
+        "atmos",
+        "atmosChem"
+      ],
       "out_name": "n2oglobalClim",
       "positive": "",
       "provenance": {
@@ -215,7 +231,10 @@
       ],
       "frequency": "monC",
       "long_name": "Mole Fraction of O3",
-      "modeling_realm": "atmos atmosChem",
+      "modeling_realm": [
+        "atmos",
+        "atmosChem"
+      ],
       "out_name": "o3Clim",
       "positive": "",
       "provenance": {

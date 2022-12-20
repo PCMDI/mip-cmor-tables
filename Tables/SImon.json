@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 4b84380b26445b3fa44f4807956de458",
+    "checksum": "md5: d5e0dc28e83d3476be745354f1abde69",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downward Sea Ice Basal Salt Flux",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sfdsi",
       "positive": "down",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "mon",
       "long_name": "Age of Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siage",
       "positive": "",
       "provenance": {
@@ -88,7 +92,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Area Flux Through Straits",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siareaacrossline",
       "positive": "",
       "provenance": {
@@ -118,7 +124,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Area North",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siarean",
       "positive": "",
       "provenance": {
@@ -148,7 +156,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Area South",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siareas",
       "positive": "",
       "provenance": {
@@ -180,7 +190,9 @@
       ],
       "frequency": "mon",
       "long_name": "Compressive Sea Ice Strength",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sicompstren",
       "positive": "",
       "provenance": {
@@ -213,7 +225,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Area Percentage (Ocean Grid)",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siconc",
       "positive": "",
       "provenance": {
@@ -246,7 +260,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Area Percentage (Atmospheric Grid)",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siconca",
       "positive": "",
       "provenance": {
@@ -278,7 +294,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Area Percentage Tendency Due to Dynamics",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidconcdyn",
       "positive": "",
       "provenance": {
@@ -310,7 +328,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Area Percentage Tendency Due to Thermodynamics",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidconcth",
       "positive": "",
       "provenance": {
@@ -342,7 +362,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Mass Change from Dynamics",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidmassdyn",
       "positive": "",
       "provenance": {
@@ -374,7 +396,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Mass Change Through Evaporation and Sublimation",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidmassevapsubl",
       "positive": "up",
       "provenance": {
@@ -406,7 +430,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Mass Change Through Basal Growth",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidmassgrowthbot",
       "positive": "",
       "provenance": {
@@ -438,7 +464,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Mass Change Through Growth in Supercooled Open Water (Frazil)",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidmassgrowthwat",
       "positive": "",
       "provenance": {
@@ -470,7 +498,9 @@
       ],
       "frequency": "mon",
       "long_name": "Lateral Sea Ice Melt Rate",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidmasslat",
       "positive": "",
       "provenance": {
@@ -502,7 +532,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Mass Change Through Bottom Melting",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidmassmeltbot",
       "positive": "",
       "provenance": {
@@ -534,7 +566,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Mass Change Through Surface Melting",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidmassmelttop",
       "positive": "",
       "provenance": {
@@ -566,7 +600,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Mass Change Through Snow-to-Ice Conversion",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidmasssi",
       "positive": "",
       "provenance": {
@@ -598,7 +634,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Mass Change from Thermodynamics",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidmassth",
       "positive": "",
       "provenance": {
@@ -630,7 +668,9 @@
       ],
       "frequency": "mon",
       "long_name": "X-Component of Sea-Ice Mass Transport",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidmasstranx",
       "positive": "",
       "provenance": {
@@ -662,7 +702,9 @@
       ],
       "frequency": "mon",
       "long_name": "Y-Component of Sea-Ice Mass Transport",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidmasstrany",
       "positive": "",
       "provenance": {
@@ -694,7 +736,9 @@
       ],
       "frequency": "mon",
       "long_name": "Ocean Drag Coefficient",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidragbot",
       "positive": "",
       "provenance": {
@@ -726,7 +770,9 @@
       ],
       "frequency": "mon",
       "long_name": "Atmospheric Drag Coefficient",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidragtop",
       "positive": "",
       "provenance": {
@@ -756,7 +802,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Extent North",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siextentn",
       "positive": "",
       "provenance": {
@@ -786,7 +834,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Extent South",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siextents",
       "positive": "",
       "provenance": {
@@ -818,7 +868,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Freeboard",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sifb",
       "positive": "",
       "provenance": {
@@ -850,7 +902,9 @@
       ],
       "frequency": "mon",
       "long_name": "Net Conductive Heat Fluxes in Ice at the Bottom",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siflcondbot",
       "positive": "down",
       "provenance": {
@@ -882,7 +936,9 @@
       ],
       "frequency": "mon",
       "long_name": "Net Conductive Heat Flux in Ice at the Surface",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siflcondtop",
       "positive": "down",
       "provenance": {
@@ -914,7 +970,9 @@
       ],
       "frequency": "mon",
       "long_name": "Freshwater Flux from Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siflfwbot",
       "positive": "",
       "provenance": {
@@ -946,7 +1004,9 @@
       ],
       "frequency": "mon",
       "long_name": "Freshwater Flux from Sea-Ice Surface",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siflfwdrain",
       "positive": "",
       "provenance": {
@@ -978,7 +1038,9 @@
       ],
       "frequency": "mon",
       "long_name": "Net Latent Heat Flux over Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sifllatstop",
       "positive": "up",
       "provenance": {
@@ -1010,7 +1072,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downwelling Longwave Flux over Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sifllwdtop",
       "positive": "down",
       "provenance": {
@@ -1042,7 +1106,9 @@
       ],
       "frequency": "mon",
       "long_name": "Upwelling Longwave Flux over Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sifllwutop",
       "positive": "up",
       "provenance": {
@@ -1074,7 +1140,9 @@
       ],
       "frequency": "mon",
       "long_name": "Net Upward Sensible Heat Flux over Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siflsenstop",
       "positive": "up",
       "provenance": {
@@ -1106,7 +1174,9 @@
       ],
       "frequency": "mon",
       "long_name": "Net Upward Sensible Heat Flux Under Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siflsensupbot",
       "positive": "up",
       "provenance": {
@@ -1138,7 +1208,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downwelling Shortwave Flux Under Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siflswdbot",
       "positive": "down",
       "provenance": {
@@ -1170,7 +1242,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downwelling Shortwave Flux over Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siflswdtop",
       "positive": "down",
       "provenance": {
@@ -1202,7 +1276,9 @@
       ],
       "frequency": "mon",
       "long_name": "Upwelling Shortwave Flux over Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siflswutop",
       "positive": "up",
       "provenance": {
@@ -1234,7 +1310,9 @@
       ],
       "frequency": "mon",
       "long_name": "Coriolis Force Term in Force Balance (X-Component)",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siforcecoriolx",
       "positive": "",
       "provenance": {
@@ -1266,7 +1344,9 @@
       ],
       "frequency": "mon",
       "long_name": "Coriolis Force Term in Force Balance (Y-Component)",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siforcecorioly",
       "positive": "",
       "provenance": {
@@ -1298,7 +1378,9 @@
       ],
       "frequency": "mon",
       "long_name": "Internal Stress Term in Force Balance (X-Component)",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siforceintstrx",
       "positive": "",
       "provenance": {
@@ -1330,7 +1412,9 @@
       ],
       "frequency": "mon",
       "long_name": "Internal Stress Term in Force Balance (Y-Component)",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siforceintstry",
       "positive": "",
       "provenance": {
@@ -1362,7 +1446,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Surface Tilt Term in Force Balance (X-Component)",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siforcetiltx",
       "positive": "",
       "provenance": {
@@ -1394,7 +1480,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Surface Tilt Term in Force Balance (Y-Component)",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siforcetilty",
       "positive": "",
       "provenance": {
@@ -1426,7 +1514,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Heat Content per Unit Area",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sihc",
       "positive": "",
       "provenance": {
@@ -1459,7 +1549,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Area Percentages in Thickness Categories",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siitdconc",
       "positive": "",
       "provenance": {
@@ -1492,7 +1584,9 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Area Percentages in Ice Thickness Categories",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siitdsnconc",
       "positive": "",
       "provenance": {
@@ -1525,7 +1619,9 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Thickness in Ice Thickness Categories",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siitdsnthick",
       "positive": "",
       "provenance": {
@@ -1558,7 +1654,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Thickness in Thickness Categories",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siitdthick",
       "positive": "",
       "provenance": {
@@ -1590,7 +1688,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Mass per Area",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "simass",
       "positive": "",
       "provenance": {
@@ -1621,7 +1721,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Mass Area Flux Through Straits",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "simassacrossline",
       "positive": "",
       "provenance": {
@@ -1654,7 +1756,9 @@
       ],
       "frequency": "mon",
       "long_name": "Percentage Cover of Sea Ice by Meltpond",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "simpconc",
       "positive": "",
       "provenance": {
@@ -1686,7 +1790,9 @@
       ],
       "frequency": "mon",
       "long_name": "Meltpond Mass per Unit Area (as Depth)",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "simpmass",
       "positive": "",
       "provenance": {
@@ -1718,7 +1824,9 @@
       ],
       "frequency": "mon",
       "long_name": "Thickness of Refrozen Ice on Melt Pond",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "simprefrozen",
       "positive": "",
       "provenance": {
@@ -1750,7 +1858,9 @@
       ],
       "frequency": "mon",
       "long_name": "Rainfall Rate over Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sipr",
       "positive": "",
       "provenance": {
@@ -1783,7 +1893,9 @@
       ],
       "frequency": "mon",
       "long_name": "Percentage Cover of Sea Ice by Ridging",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sirdgconc",
       "positive": "",
       "provenance": {
@@ -1815,7 +1927,9 @@
       ],
       "frequency": "mon",
       "long_name": "Ridged Ice Thickness",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sirdgthick",
       "positive": "",
       "provenance": {
@@ -1847,7 +1961,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Ice Salinity",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sisali",
       "positive": "",
       "provenance": {
@@ -1879,7 +1995,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass of Salt in Sea Ice per Area",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sisaltmass",
       "positive": "",
       "provenance": {
@@ -1911,7 +2029,9 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Area Percentage",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sisnconc",
       "positive": "",
       "provenance": {
@@ -1943,7 +2063,9 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Heat Content per Unit Area",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sisnhc",
       "positive": "",
       "provenance": {
@@ -1975,7 +2097,9 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Mass per Area",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sisnmass",
       "positive": "",
       "provenance": {
@@ -2007,7 +2131,9 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Thickness",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sisnthick",
       "positive": "",
       "provenance": {
@@ -2039,7 +2165,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Speed",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sispeed",
       "positive": "",
       "provenance": {
@@ -2071,7 +2199,9 @@
       ],
       "frequency": "mon",
       "long_name": "X-Component of Atmospheric Stress on Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sistrxdtop",
       "positive": "down",
       "provenance": {
@@ -2103,7 +2233,9 @@
       ],
       "frequency": "mon",
       "long_name": "X-Component of Ocean Stress on Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sistrxubot",
       "positive": "up",
       "provenance": {
@@ -2135,7 +2267,9 @@
       ],
       "frequency": "mon",
       "long_name": "Y-Component of Atmospheric Stress on Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sistrydtop",
       "positive": "down",
       "provenance": {
@@ -2167,7 +2301,9 @@
       ],
       "frequency": "mon",
       "long_name": "Y-Component of Ocean Stress on Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sistryubot",
       "positive": "up",
       "provenance": {
@@ -2199,7 +2335,9 @@
       ],
       "frequency": "mon",
       "long_name": "Temperature at Ice-Ocean Interface",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sitempbot",
       "positive": "",
       "provenance": {
@@ -2231,7 +2369,9 @@
       ],
       "frequency": "mon",
       "long_name": "Temperature at Snow-Ice Interface",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sitempsnic",
       "positive": "",
       "provenance": {
@@ -2263,7 +2403,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Temperature of Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sitemptop",
       "positive": "",
       "provenance": {
@@ -2295,7 +2437,10 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Ice Thickness",
-      "modeling_realm": "seaIce ocean",
+      "modeling_realm": [
+        "seaIce",
+        "ocean"
+      ],
       "out_name": "sithick",
       "positive": "",
       "provenance": {
@@ -2327,7 +2472,9 @@
       ],
       "frequency": "mon",
       "long_name": "Fraction of Time Steps with Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sitimefrac",
       "positive": "",
       "provenance": {
@@ -2359,7 +2506,9 @@
       ],
       "frequency": "mon",
       "long_name": "X-Component of Sea-Ice Velocity",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siu",
       "positive": "",
       "provenance": {
@@ -2391,7 +2540,9 @@
       ],
       "frequency": "mon",
       "long_name": "Y-Component of Sea-Ice Velocity",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siv",
       "positive": "",
       "provenance": {
@@ -2423,7 +2574,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Volume per Area",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sivol",
       "positive": "",
       "provenance": {
@@ -2453,7 +2606,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Volume North",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sivoln",
       "positive": "",
       "provenance": {
@@ -2483,7 +2638,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Ice Volume South",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sivols",
       "positive": "",
       "provenance": {
@@ -2515,7 +2672,9 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Mass Rate of Change Through Advection by Sea-Ice Dynamics",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sndmassdyn",
       "positive": "",
       "provenance": {
@@ -2547,7 +2706,9 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Mass Rate of Change Through Melt",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sndmassmelt",
       "positive": "",
       "provenance": {
@@ -2579,7 +2740,9 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Mass Rate of Change Through Snow-to-Ice Conversion",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sndmasssi",
       "positive": "",
       "provenance": {
@@ -2611,7 +2774,9 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Mass Change Through Snow Fall",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sndmasssnf",
       "positive": "",
       "provenance": {
@@ -2643,7 +2808,9 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Mass Rate of Change Through Evaporation or Sublimation",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sndmasssubl",
       "positive": "",
       "provenance": {
@@ -2675,7 +2842,9 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Mass Rate of Change Through Wind Drift of Snow",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sndmasswindrif",
       "positive": "",
       "provenance": {
@@ -2706,7 +2875,9 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Mass Flux Through Straits",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "snmassacrossline",
       "positive": "",
       "provenance": {

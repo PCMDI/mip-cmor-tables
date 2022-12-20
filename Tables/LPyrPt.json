@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: ee3a22aab954962163484cc282fcdd5e",
+    "checksum": "md5: befde1f55bb3e3e6d868efdb1e8fa394",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "yrPt",
       "long_name": "Carbon Mass in Litter Pool",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "cLitter",
       "positive": "",
       "provenance": {
@@ -58,7 +60,9 @@
       ],
       "frequency": "yrPt",
       "long_name": "Carbon  in Above and Below-Ground Litter Pools on Land-Use Tiles",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "cLitterLut",
       "positive": "",
       "provenance": {
@@ -90,7 +94,9 @@
       ],
       "frequency": "yrPt",
       "long_name": "Carbon Mass in Products of Land-Use Change",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "cProduct",
       "positive": "",
       "provenance": {
@@ -123,7 +129,9 @@
       ],
       "frequency": "yrPt",
       "long_name": "Wood and Agricultural Product Pool Carbon Associated with Land-Use Tiles",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "cProductLut",
       "positive": "",
       "provenance": {
@@ -155,7 +163,9 @@
       ],
       "frequency": "yrPt",
       "long_name": "Carbon Mass in Model Soil Pool",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "cSoil",
       "positive": "",
       "provenance": {
@@ -188,7 +198,9 @@
       ],
       "frequency": "yrPt",
       "long_name": "Carbon in Soil Pool on Land-Use Tiles",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "cSoilLut",
       "positive": "",
       "provenance": {
@@ -220,7 +232,9 @@
       ],
       "frequency": "yrPt",
       "long_name": "Carbon Mass in Vegetation",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "cVeg",
       "positive": "",
       "provenance": {
@@ -253,7 +267,9 @@
       ],
       "frequency": "yrPt",
       "long_name": "Carbon in Vegetation on Land-Use Tiles",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "cVegLut",
       "positive": "",
       "provenance": {
@@ -286,7 +302,9 @@
       ],
       "frequency": "yrPt",
       "long_name": "Percentage of Grid Cell for Each Land-Use Tile",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "fracLut",
       "positive": "",
       "provenance": {

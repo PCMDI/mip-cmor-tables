@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 734014ffff23a658baed8b753883e314",
+    "checksum": "md5: 5264ea0959f50cceb36e3ca1a01ec080",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "day",
       "long_name": "Cloud Optical Depth",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "cod",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "day",
       "long_name": "Maximum PBL Height",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "maxpblz",
       "positive": "",
       "provenance": {
@@ -89,7 +93,9 @@
       ],
       "frequency": "day",
       "long_name": "Minimum PBL Height",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "minpblz",
       "positive": "",
       "provenance": {
@@ -122,7 +128,9 @@
       ],
       "frequency": "day",
       "long_name": "Ambient Aerosol Optical Thickness at 550nm",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "od550aer",
       "positive": "",
       "provenance": {
@@ -154,7 +162,9 @@
       ],
       "frequency": "day",
       "long_name": "Daily Maximum O3 Volume Mixing Ratio in Lowest Model Layer",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "sfo3max",
       "positive": "",
       "provenance": {
@@ -186,7 +196,9 @@
       ],
       "frequency": "day",
       "long_name": "Total Column Ozone",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "toz",
       "positive": "",
       "provenance": {
@@ -219,7 +231,9 @@
       ],
       "frequency": "day",
       "long_name": "Eastward Wind at 10hPa",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "ua10",
       "positive": "",
       "provenance": {
@@ -252,7 +266,9 @@
       ],
       "frequency": "day",
       "long_name": "Geopotential Height at 10hPa",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "zg10",
       "positive": "",
       "provenance": {
@@ -285,7 +301,9 @@
       ],
       "frequency": "day",
       "long_name": "Geopotential Height at 100hPa",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "zg100",
       "positive": "",
       "provenance": {
@@ -318,7 +336,9 @@
       ],
       "frequency": "day",
       "long_name": "Geopotential Height at 500hPa",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "zg500",
       "positive": "",
       "provenance": {

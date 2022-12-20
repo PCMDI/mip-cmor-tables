@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 0ceac2cc084bb7ca4cd9102d40c34131",
+    "checksum": "md5: 5f3fdacf0f912e21794dd9444aa24dc2",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -24,7 +24,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Surface Snow and Ice Sublimation Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "sbl",
       "positive": "",
       "provenance": {

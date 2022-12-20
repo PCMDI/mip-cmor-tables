@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: d5cd7774137896b9d8965347c2135d80",
+    "checksum": "md5: b34c9d9902de09572b69d7b410bbeecd",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -26,7 +26,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Geopotential Height at 500hPa",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "zg500",
       "positive": "",
       "provenance": {

@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: d67aa09d4ea7e9d7b6f477ae087db062",
+    "checksum": "md5: bad2dbfb9f5769c971637b7efba48b6d",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
@@ -29,7 +29,9 @@
       ],
       "frequency": "day",
       "long_name": "Percentage Cloud Cover",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "cl",
       "positive": "",
       "provenance": {
@@ -62,7 +64,9 @@
       ],
       "frequency": "day",
       "long_name": "Mass Fraction of Cloud Ice",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "cli",
       "positive": "",
       "provenance": {
@@ -95,7 +99,9 @@
       ],
       "frequency": "day",
       "long_name": "Mass Fraction of Cloud Liquid Water",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clw",
       "positive": "",
       "provenance": {
@@ -128,7 +134,9 @@
       ],
       "frequency": "day",
       "long_name": "Relative Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hur",
       "positive": "",
       "provenance": {
@@ -161,7 +169,9 @@
       ],
       "frequency": "day",
       "long_name": "Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hus",
       "positive": "",
       "provenance": {
@@ -194,7 +204,9 @@
       ],
       "frequency": "day",
       "long_name": "Convective Mass Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "mc",
       "positive": "up",
       "provenance": {
@@ -227,7 +239,9 @@
       ],
       "frequency": "day",
       "long_name": "Pressure at Model Full-Levels",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "pfull",
       "positive": "",
       "provenance": {
@@ -260,7 +274,9 @@
       ],
       "frequency": "day",
       "long_name": "Pressure on Model Half-Levels",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "phalf",
       "positive": "",
       "provenance": {
@@ -293,7 +309,9 @@
       ],
       "frequency": "day",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta",
       "positive": "",
       "provenance": {
@@ -326,7 +344,9 @@
       ],
       "frequency": "day",
       "long_name": "Eastward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ua",
       "positive": "",
       "provenance": {
@@ -359,7 +379,9 @@
       ],
       "frequency": "day",
       "long_name": "Northward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "va",
       "positive": "",
       "provenance": {
@@ -392,7 +414,9 @@
       ],
       "frequency": "day",
       "long_name": "Omega (=dp/dt)",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wap",
       "positive": "",
       "provenance": {
@@ -425,7 +449,9 @@
       ],
       "frequency": "day",
       "long_name": "Geopotential Height",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zg",
       "positive": "",
       "provenance": {

@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 213ecb6bb8211f27f8f43a3973fd598b",
+    "checksum": "md5: e42208ba5d9462913aca496111d562ac",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -24,7 +24,9 @@
       ],
       "frequency": "fx",
       "long_name": "Floating Ice Shelf Area Percentage",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "sftflf",
       "positive": "",
       "provenance": {
@@ -55,7 +57,9 @@
       ],
       "frequency": "fx",
       "long_name": "Grounded Ice Sheet Area Percentage",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "sftgrf",
       "positive": "",
       "provenance": {

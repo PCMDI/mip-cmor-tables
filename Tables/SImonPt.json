@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: fbbac0e487c073087434bba8dc3c7725",
+    "checksum": "md5: 61f324f4b937b54e26d6dbfd438f4cde",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "monPt",
       "long_name": "Divergence of the Sea-Ice Velocity Field",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sidivvel",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "monPt",
       "long_name": "Maximum Shear of Sea-Ice Velocity Field",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sishevel",
       "positive": "",
       "provenance": {
@@ -89,7 +93,9 @@
       ],
       "frequency": "monPt",
       "long_name": "Maximum Shear Stress in Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sistremax",
       "positive": "",
       "provenance": {
@@ -121,7 +127,9 @@
       ],
       "frequency": "monPt",
       "long_name": "Average Normal Stress in Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sistresave",
       "positive": "",
       "provenance": {

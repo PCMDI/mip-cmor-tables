@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: ed60cec206b11bed6760f62960428b1a",
+    "checksum": "md5: 74bdeeacd75abddcf421318c0871e807",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
@@ -29,7 +29,9 @@
       ],
       "frequency": "mon",
       "long_name": "Vertically Integrated Mass Content of Air in Layer",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "airmass",
       "positive": "",
       "provenance": {
@@ -62,7 +64,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northern Hemisphere Tracer Lifetime",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "aoanh",
       "positive": "",
       "provenance": {
@@ -95,7 +99,9 @@
       ],
       "frequency": "mon",
       "long_name": "C2H2 Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "c2h2",
       "positive": "",
       "provenance": {
@@ -128,7 +134,9 @@
       ],
       "frequency": "mon",
       "long_name": "C2H6 Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "c2h6",
       "positive": "",
       "provenance": {
@@ -161,7 +169,9 @@
       ],
       "frequency": "mon",
       "long_name": "C3H6 Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "c3h6",
       "positive": "",
       "provenance": {
@@ -194,7 +204,9 @@
       ],
       "frequency": "mon",
       "long_name": "C3H8 Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "c3h8",
       "positive": "",
       "provenance": {
@@ -227,7 +239,9 @@
       ],
       "frequency": "mon",
       "long_name": "Cloud Liquid Droplet Number Concentration",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "cdnc",
       "positive": "",
       "provenance": {
@@ -260,7 +274,9 @@
       ],
       "frequency": "mon",
       "long_name": "CH3COCH3 Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "ch3coch3",
       "positive": "",
       "provenance": {
@@ -293,7 +309,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Fraction of CH4",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "ch4",
       "positive": "",
       "provenance": {
@@ -326,7 +344,9 @@
       ],
       "frequency": "mon",
       "long_name": "Aqueous-Phase Production Rate of SO4",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "cheaqpso4",
       "positive": "",
       "provenance": {
@@ -359,7 +379,9 @@
       ],
       "frequency": "mon",
       "long_name": "Gas-Phase Production Rate of SO4",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "chegpso4",
       "positive": "",
       "provenance": {
@@ -392,7 +414,9 @@
       ],
       "frequency": "mon",
       "long_name": "CO Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "co",
       "positive": "",
       "provenance": {
@@ -425,7 +449,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Fraction of CO2",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "co2",
       "positive": "",
       "provenance": {
@@ -458,7 +484,9 @@
       ],
       "frequency": "mon",
       "long_name": "Dimethyl Sulphide (DMS) Mole Fraction",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "dms",
       "positive": "",
       "provenance": {
@@ -492,7 +520,9 @@
       ],
       "frequency": "mon",
       "long_name": "Aerosol Extinction Coefficient",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "ec550aer",
       "positive": "",
       "provenance": {
@@ -525,7 +555,9 @@
       ],
       "frequency": "mon",
       "long_name": "Layer-Integrated Lightning Production of NOx",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "emilnox",
       "positive": "",
       "provenance": {
@@ -558,7 +590,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass Fraction of Water",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "h2o",
       "positive": "",
       "provenance": {
@@ -591,7 +625,9 @@
       ],
       "frequency": "mon",
       "long_name": "Formaldehyde Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "hcho",
       "positive": "",
       "provenance": {
@@ -624,7 +660,9 @@
       ],
       "frequency": "mon",
       "long_name": "HCl Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "hcl",
       "positive": "",
       "provenance": {
@@ -657,7 +695,9 @@
       ],
       "frequency": "mon",
       "long_name": "HNO3 Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "hno3",
       "positive": "",
       "provenance": {
@@ -690,7 +730,9 @@
       ],
       "frequency": "mon",
       "long_name": "Isoprene Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "isop",
       "positive": "",
       "provenance": {
@@ -723,7 +765,9 @@
       ],
       "frequency": "mon",
       "long_name": "Photolysis Rate of NO2",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "jno2",
       "positive": "",
       "provenance": {
@@ -756,7 +800,9 @@
       ],
       "frequency": "mon",
       "long_name": "Monthly Loss of Atmospheric Methane",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "lossch4",
       "positive": "",
       "provenance": {
@@ -789,7 +835,9 @@
       ],
       "frequency": "mon",
       "long_name": "Monthly Loss of Atmospheric Carbon Monoxide",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "lossco",
       "positive": "",
       "provenance": {
@@ -822,7 +870,9 @@
       ],
       "frequency": "mon",
       "long_name": "Monthly Loss of Atmospheric Nitrous Oxide",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "lossn2o",
       "positive": "",
       "provenance": {
@@ -855,7 +905,9 @@
       ],
       "frequency": "mon",
       "long_name": "Aerosol Water Mass Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "mmraerh2o",
       "positive": "",
       "provenance": {
@@ -888,7 +940,9 @@
       ],
       "frequency": "mon",
       "long_name": "Elemental Carbon Mass Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "mmrbc",
       "positive": "",
       "provenance": {
@@ -921,7 +975,9 @@
       ],
       "frequency": "mon",
       "long_name": "Dust Aerosol Mass Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "mmrdust",
       "positive": "",
       "provenance": {
@@ -954,7 +1010,9 @@
       ],
       "frequency": "mon",
       "long_name": "NH4 Mass Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "mmrnh4",
       "positive": "",
       "provenance": {
@@ -987,7 +1045,9 @@
       ],
       "frequency": "mon",
       "long_name": "NO3 Aerosol Mass Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "mmrno3",
       "positive": "",
       "provenance": {
@@ -1020,7 +1080,9 @@
       ],
       "frequency": "mon",
       "long_name": "Total Organic Aerosol Mass Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "mmroa",
       "positive": "",
       "provenance": {
@@ -1053,7 +1115,9 @@
       ],
       "frequency": "mon",
       "long_name": "PM1.0 Mass Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "mmrpm1",
       "positive": "",
       "provenance": {
@@ -1086,7 +1150,9 @@
       ],
       "frequency": "mon",
       "long_name": "PM10 Mass Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "mmrpm10",
       "positive": "",
       "provenance": {
@@ -1119,7 +1185,9 @@
       ],
       "frequency": "mon",
       "long_name": "PM2.5 Mass Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "mmrpm2p5",
       "positive": "",
       "provenance": {
@@ -1152,7 +1220,9 @@
       ],
       "frequency": "mon",
       "long_name": "Aerosol Sulfate Mass Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "mmrso4",
       "positive": "",
       "provenance": {
@@ -1185,7 +1255,9 @@
       ],
       "frequency": "mon",
       "long_name": "Secondary Organic Aerosol Mass Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "mmrsoa",
       "positive": "",
       "provenance": {
@@ -1218,7 +1290,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea-Salt Aerosol Mass Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "mmrss",
       "positive": "",
       "provenance": {
@@ -1251,7 +1325,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Fraction of N2O",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "n2o",
       "positive": "",
       "provenance": {
@@ -1284,7 +1360,9 @@
       ],
       "frequency": "mon",
       "long_name": "Artificial Tracer with 50 Day Lifetime",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "nh50",
       "positive": "",
       "provenance": {
@@ -1317,7 +1395,9 @@
       ],
       "frequency": "mon",
       "long_name": "NO Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "no",
       "positive": "",
       "provenance": {
@@ -1350,7 +1430,9 @@
       ],
       "frequency": "mon",
       "long_name": "NO2 Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "no2",
       "positive": "",
       "provenance": {
@@ -1383,7 +1465,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Fraction of O3",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "o3",
       "positive": "",
       "provenance": {
@@ -1416,7 +1500,9 @@
       ],
       "frequency": "mon",
       "long_name": "O3 Destruction Rate",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "o3loss",
       "positive": "",
       "provenance": {
@@ -1449,7 +1535,9 @@
       ],
       "frequency": "mon",
       "long_name": "O3 Production Rate",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "o3prod",
       "positive": "",
       "provenance": {
@@ -1482,7 +1570,9 @@
       ],
       "frequency": "mon",
       "long_name": "Stratospheric Ozone Tracer Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "o3ste",
       "positive": "",
       "provenance": {
@@ -1515,7 +1605,9 @@
       ],
       "frequency": "mon",
       "long_name": "OH Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "oh",
       "positive": "",
       "provenance": {
@@ -1548,7 +1640,9 @@
       ],
       "frequency": "mon",
       "long_name": "PAN Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "pan",
       "positive": "",
       "provenance": {
@@ -1581,7 +1675,9 @@
       ],
       "frequency": "mon",
       "long_name": "Pressure at Model Full-Levels",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "pfull",
       "positive": "",
       "provenance": {
@@ -1614,7 +1710,9 @@
       ],
       "frequency": "mon",
       "long_name": "Pressure on Model Half-Levels",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "phalf",
       "positive": "",
       "provenance": {
@@ -1647,7 +1745,9 @@
       ],
       "frequency": "mon",
       "long_name": "Photolysis Rate of Ozone (O3) to Excited Atomic Oxygen (the Singlet D State, O1D)",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "photo1d",
       "positive": "",
       "provenance": {
@@ -1680,7 +1780,9 @@
       ],
       "frequency": "mon",
       "long_name": "SO2 Volume Mixing Ratio",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "so2",
       "positive": "",
       "provenance": {
@@ -1713,7 +1815,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Longwave Radiative Heating",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "tntrl",
       "positive": "",
       "provenance": {
@@ -1746,7 +1850,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Shortwave Radiative Heating",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "tntrs",
       "positive": "",
       "provenance": {
@@ -1779,7 +1885,9 @@
       ],
       "frequency": "mon",
       "long_name": "Eastward Wind",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "ua",
       "positive": "",
       "provenance": {
@@ -1812,7 +1920,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Wind",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "va",
       "positive": "",
       "provenance": {
@@ -1845,7 +1955,9 @@
       ],
       "frequency": "mon",
       "long_name": "Upward Air Velocity",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "wa",
       "positive": "",
       "provenance": {

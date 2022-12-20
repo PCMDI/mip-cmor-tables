@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 7773cce1a5b758a5518a334f1c505a75",
+    "checksum": "md5: 331c5920961d4af63cdbd52aa9890b8c",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -23,7 +23,9 @@
       ],
       "frequency": "dec",
       "long_name": "Global Average Sea Water Conservative Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "bigthetaoga",
       "positive": "",
       "provenance": {
@@ -55,7 +57,9 @@
       ],
       "frequency": "dec",
       "long_name": "Downward Heat Flux at Sea Water Surface",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfds",
       "positive": "down",
       "provenance": {
@@ -85,7 +89,9 @@
       ],
       "frequency": "dec",
       "long_name": "Sea Water Mass",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "masso",
       "positive": "",
       "provenance": {
@@ -118,7 +124,9 @@
       ],
       "frequency": "dec",
       "long_name": "Ocean Y Overturning Mass Streamfunction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "msftyrho",
       "positive": "",
       "provenance": {
@@ -150,7 +158,10 @@
       ],
       "frequency": "dec",
       "long_name": "Downward Sea Ice Basal Salt Flux",
-      "modeling_realm": "ocean seaIce",
+      "modeling_realm": [
+        "ocean",
+        "seaIce"
+      ],
       "out_name": "sfdsi",
       "positive": "down",
       "provenance": {
@@ -182,7 +193,9 @@
       ],
       "frequency": "dec",
       "long_name": "Salt Flux into Sea Water from Rivers",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "sfriver",
       "positive": "",
       "provenance": {
@@ -212,7 +225,9 @@
       ],
       "frequency": "dec",
       "long_name": "Global Mean Sea Water Salinity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "soga",
       "positive": "",
       "provenance": {
@@ -244,7 +259,9 @@
       ],
       "frequency": "dec",
       "long_name": "Sea Surface Salinity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "sos",
       "positive": "",
       "provenance": {
@@ -274,7 +291,9 @@
       ],
       "frequency": "dec",
       "long_name": "Global Average Sea Surface Salinity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "sosga",
       "positive": "",
       "provenance": {
@@ -306,7 +325,9 @@
       ],
       "frequency": "dec",
       "long_name": "Sea Water Surface Downward X Stress",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tauuo",
       "positive": "down",
       "provenance": {
@@ -338,7 +359,9 @@
       ],
       "frequency": "dec",
       "long_name": "Sea Water Surface Downward Y Stress",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tauvo",
       "positive": "down",
       "provenance": {
@@ -368,7 +391,9 @@
       ],
       "frequency": "dec",
       "long_name": "Global Average Sea Water Potential Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "thetaoga",
       "positive": "",
       "provenance": {
@@ -400,7 +425,9 @@
       ],
       "frequency": "dec",
       "long_name": "Sea Surface Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tos",
       "positive": "",
       "provenance": {
@@ -430,7 +457,9 @@
       ],
       "frequency": "dec",
       "long_name": "Global Average Sea Surface Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tosga",
       "positive": "",
       "provenance": {
@@ -460,7 +489,9 @@
       ],
       "frequency": "dec",
       "long_name": "Sea Water Volume",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "volo",
       "positive": "",
       "provenance": {
@@ -492,7 +523,9 @@
       ],
       "frequency": "dec",
       "long_name": "Water Flux into Sea Water",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "wfo",
       "positive": "",
       "provenance": {

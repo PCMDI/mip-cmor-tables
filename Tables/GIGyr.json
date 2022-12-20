@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: ff79c0dee244b89943fcf90fc0761f1a",
+    "checksum": "md5: 6bafccc9ef5a4de417e6357a49c83674",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "yr",
       "long_name": "Surface Mass Balance Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "acabf",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "yr",
       "long_name": "Geothermal Heat Flux Beneath Land Ice",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "hfgeoubed",
       "positive": "",
       "provenance": {
@@ -87,7 +91,9 @@
       ],
       "frequency": "yr",
       "long_name": "Area Covered by Floating Ice Shelves",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "iareafl",
       "positive": "",
       "provenance": {
@@ -117,7 +123,9 @@
       ],
       "frequency": "yr",
       "long_name": "Area Covered by Grounded Ice Sheet",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "iareagr",
       "positive": "",
       "provenance": {
@@ -149,7 +157,9 @@
       ],
       "frequency": "yr",
       "long_name": "Basal Specific Mass Balance Flux of Floating Ice Shelf",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "libmassbffl",
       "positive": "",
       "provenance": {
@@ -181,7 +191,9 @@
       ],
       "frequency": "yr",
       "long_name": "Basal Specific Mass Balance Flux of Grounded Ice Sheet",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "libmassbfgr",
       "positive": "",
       "provenance": {
@@ -213,7 +225,9 @@
       ],
       "frequency": "yr",
       "long_name": "Land Ice Calving Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "licalvf",
       "positive": "",
       "provenance": {
@@ -245,7 +259,9 @@
       ],
       "frequency": "yr",
       "long_name": "Land Ice Vertical Front Mass Balance Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "lifmassbf",
       "positive": "",
       "provenance": {
@@ -275,7 +291,9 @@
       ],
       "frequency": "yr",
       "long_name": "Ice Sheet Mass",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "lim",
       "positive": "",
       "provenance": {
@@ -305,7 +323,9 @@
       ],
       "frequency": "yr",
       "long_name": "Ice Sheet Mass That Does not Displace Sea Water",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "limnsw",
       "positive": "",
       "provenance": {
@@ -337,7 +357,9 @@
       ],
       "frequency": "yr",
       "long_name": "Basal Temperature of Floating Ice Shelf",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "litempbotfl",
       "positive": "",
       "provenance": {
@@ -369,7 +391,9 @@
       ],
       "frequency": "yr",
       "long_name": "Basal Temperature of Grounded Ice Sheet",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "litempbotgr",
       "positive": "",
       "provenance": {
@@ -401,7 +425,9 @@
       ],
       "frequency": "yr",
       "long_name": "Temperature at Top of Ice Sheet Model",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "litemptop",
       "positive": "",
       "provenance": {
@@ -433,7 +459,9 @@
       ],
       "frequency": "yr",
       "long_name": "Ice Sheet Thickness",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "lithk",
       "positive": "",
       "provenance": {
@@ -465,7 +493,9 @@
       ],
       "frequency": "yr",
       "long_name": "The Cell Area of the Ice Sheet Model",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "modelCellAreai",
       "positive": "",
       "provenance": {
@@ -497,7 +527,9 @@
       ],
       "frequency": "yr",
       "long_name": "Surface Altitude",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "orog",
       "positive": "",
       "provenance": {
@@ -529,7 +561,9 @@
       ],
       "frequency": "yr",
       "long_name": "Floating Ice Shelf Area Percentage",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "sftflf",
       "positive": "",
       "provenance": {
@@ -561,7 +595,9 @@
       ],
       "frequency": "yr",
       "long_name": "Land Ice Area Percentage",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "sftgif",
       "positive": "",
       "provenance": {
@@ -593,7 +629,9 @@
       ],
       "frequency": "yr",
       "long_name": "Grounded Ice Sheet Area Percentage",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "sftgrf",
       "positive": "",
       "provenance": {
@@ -625,7 +663,10 @@
       ],
       "frequency": "yr",
       "long_name": "Snow Area Percentage",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "snc",
       "positive": "",
       "provenance": {
@@ -657,7 +698,9 @@
       ],
       "frequency": "yr",
       "long_name": "Land Ice Basal Drag",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "strbasemag",
       "positive": "",
       "provenance": {
@@ -687,7 +730,9 @@
       ],
       "frequency": "yr",
       "long_name": "Total Surface Mass Balance Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "tendacabf",
       "positive": "",
       "provenance": {
@@ -717,7 +762,9 @@
       ],
       "frequency": "yr",
       "long_name": "Total Basal Mass Balance Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "tendlibmassbf",
       "positive": "",
       "provenance": {
@@ -747,7 +794,9 @@
       ],
       "frequency": "yr",
       "long_name": "Total Calving Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "tendlicalvf",
       "positive": "",
       "provenance": {
@@ -779,7 +828,9 @@
       ],
       "frequency": "yr",
       "long_name": "Bedrock Altitude",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "topg",
       "positive": "",
       "provenance": {
@@ -811,7 +862,9 @@
       ],
       "frequency": "yr",
       "long_name": "X-Component of Land Ice Basal Velocity",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "xvelbase",
       "positive": "",
       "provenance": {
@@ -843,7 +896,9 @@
       ],
       "frequency": "yr",
       "long_name": "X-Component of Land Ice Vertical Mean Velocity",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "xvelmean",
       "positive": "",
       "provenance": {
@@ -875,7 +930,9 @@
       ],
       "frequency": "yr",
       "long_name": "X-Component of Land Ice Surface Velocity",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "xvelsurf",
       "positive": "",
       "provenance": {
@@ -907,7 +964,9 @@
       ],
       "frequency": "yr",
       "long_name": "Y-Component of Land Ice Basal Velocity",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "yvelbase",
       "positive": "",
       "provenance": {
@@ -939,7 +998,9 @@
       ],
       "frequency": "yr",
       "long_name": "Y-Component of Land Ice Vertical Mean Velocity",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "yvelmean",
       "positive": "",
       "provenance": {
@@ -971,7 +1032,9 @@
       ],
       "frequency": "yr",
       "long_name": "Y-Component of Land Ice Surface Velocity",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "yvelsurf",
       "positive": "",
       "provenance": {
@@ -1003,7 +1066,9 @@
       ],
       "frequency": "yr",
       "long_name": "Upward Component of Land-Ice Basal Velocity",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "zvelbase",
       "positive": "",
       "provenance": {
@@ -1035,7 +1100,9 @@
       ],
       "frequency": "yr",
       "long_name": "Upward Component of Land-Ice Surface Velocity",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "zvelsurf",
       "positive": "",
       "provenance": {

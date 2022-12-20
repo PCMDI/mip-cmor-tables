@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 99f7a72b0a805ddeea842dacd8cb0d55",
+    "checksum": "md5: 9b7b04095737e23081a16f99fb58f5c3",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,10 @@
       ],
       "frequency": "day",
       "long_name": "Mean Age of Snow",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "agesno",
       "positive": "",
       "provenance": {
@@ -57,7 +60,10 @@
       ],
       "frequency": "day",
       "long_name": "Downward Heat Flux into Snow Where Land over Land",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "hfdsn",
       "positive": "down",
       "provenance": {
@@ -89,7 +95,10 @@
       ],
       "frequency": "day",
       "long_name": "Liquid Water Content of Snow Layer",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "lwsnl",
       "positive": "",
       "provenance": {
@@ -121,7 +130,10 @@
       ],
       "frequency": "day",
       "long_name": "Liquid Water Content of Permafrost Layer",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "pflw",
       "positive": "",
       "provenance": {
@@ -153,7 +165,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Snow and Ice Sublimation Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "sbl",
       "positive": "",
       "provenance": {
@@ -185,7 +199,10 @@
       ],
       "frequency": "day",
       "long_name": "Snow Area Percentage",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "snc",
       "positive": "",
       "provenance": {
@@ -217,7 +234,10 @@
       ],
       "frequency": "day",
       "long_name": "Snow Depth",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "snd",
       "positive": "",
       "provenance": {
@@ -249,7 +269,10 @@
       ],
       "frequency": "day",
       "long_name": "Surface Snow Melt",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "snm",
       "positive": "",
       "provenance": {
@@ -281,7 +304,10 @@
       ],
       "frequency": "day",
       "long_name": "Surface Snow Amount",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "snw",
       "positive": "",
       "provenance": {
@@ -313,7 +339,10 @@
       ],
       "frequency": "day",
       "long_name": "Snow Soot Content",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "sootsn",
       "positive": "",
       "provenance": {
@@ -345,7 +374,10 @@
       ],
       "frequency": "day",
       "long_name": "Permafrost Layer Thickness",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "tpf",
       "positive": "",
       "provenance": {
@@ -377,7 +409,10 @@
       ],
       "frequency": "day",
       "long_name": "Snow Internal Temperature",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "tsn",
       "positive": "",
       "provenance": {

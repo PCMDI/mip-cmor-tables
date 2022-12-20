@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 8b537eaeb684024158f09996edd3d5a0",
+    "checksum": "md5: f270d3b87146557698d0c95ea5a200e7",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Zonal Mean Longwave Heating Rate Due to Volcanic Aerosols",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zmlwaero",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Zonal Mean Shortwave Heating Rate Due to Volcanic Aerosols",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zmswaero",
       "positive": "",
       "provenance": {

@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 447b723dd6aba85f9726a083f7823a6e",
+    "checksum": "md5: dd20a8877b3f40e73a129b55e3b7c2f8",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
@@ -29,7 +29,9 @@
       ],
       "frequency": "dec",
       "long_name": "Sea Water Age Since Surface Contact",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "agessc",
       "positive": "",
       "provenance": {
@@ -62,7 +64,9 @@
       ],
       "frequency": "dec",
       "long_name": "Sea Water Conservative Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "bigthetao",
       "positive": "",
       "provenance": {
@@ -95,7 +99,9 @@
       ],
       "frequency": "dec",
       "long_name": "Ocean Grid-Cell Mass per Area",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "masscello",
       "positive": "",
       "provenance": {
@@ -128,7 +134,9 @@
       ],
       "frequency": "dec",
       "long_name": "Ocean Y Overturning Mass Streamfunction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "msftyz",
       "positive": "",
       "provenance": {
@@ -161,7 +169,9 @@
       ],
       "frequency": "dec",
       "long_name": "Sea Water Salinity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "so",
       "positive": "",
       "provenance": {
@@ -194,7 +204,9 @@
       ],
       "frequency": "dec",
       "long_name": "Sea Water Potential Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "thetao",
       "positive": "",
       "provenance": {
@@ -227,7 +239,9 @@
       ],
       "frequency": "dec",
       "long_name": "Ocean Model Cell Thickness",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "thkcello",
       "positive": "",
       "provenance": {
@@ -260,7 +274,9 @@
       ],
       "frequency": "dec",
       "long_name": "Sea Water X Velocity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "uo",
       "positive": "",
       "provenance": {
@@ -293,7 +309,9 @@
       ],
       "frequency": "dec",
       "long_name": "Sea Water Y Velocity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "vo",
       "positive": "",
       "provenance": {
@@ -326,7 +344,9 @@
       ],
       "frequency": "dec",
       "long_name": "Ocean Grid-Cell Volume",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "volcello",
       "positive": "",
       "provenance": {
@@ -359,7 +379,9 @@
       ],
       "frequency": "dec",
       "long_name": "Sea Water Vertical Velocity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "wo",
       "positive": "",
       "provenance": {

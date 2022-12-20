@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 2396baf74c158715c0ad26bbb7f4599b",
+    "checksum": "md5: 1e21a357a47963966c256629acc07292",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "mon",
       "long_name": "Total Odd Oxygen (Ox) Loss Rate",
-      "modeling_realm": "atmosChem",
+      "modeling_realm": [
+        "atmosChem"
+      ],
       "out_name": "oxloss",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "mon",
       "long_name": "Total Odd Oxygen (Ox) Production Rate",
-      "modeling_realm": "atmosChem",
+      "modeling_realm": [
+        "atmosChem"
+      ],
       "out_name": "oxprod",
       "positive": "",
       "provenance": {
@@ -89,7 +93,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Fraction of Odd Oxygen (O, O3 and O1D)",
-      "modeling_realm": "atmosChem",
+      "modeling_realm": [
+        "atmosChem"
+      ],
       "out_name": "vmrox",
       "positive": "",
       "provenance": {

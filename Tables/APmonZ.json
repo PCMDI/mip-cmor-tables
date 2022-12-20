@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 744d5387d97c5b45b5ccfe7dc942b093",
+    "checksum": "md5: 2cc997feb87fd0ac2bbee3c1aefefe51",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Component of the Eliassen-Palm Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "epfy",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "mon",
       "long_name": "Upward Component of the Eliassen-Palm Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "epfz",
       "positive": "up",
       "provenance": {
@@ -89,7 +93,9 @@
       ],
       "frequency": "mon",
       "long_name": "Photolysis Rate of Diatomic Molecular Oxygen",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "jo2",
       "positive": "",
       "provenance": {
@@ -121,7 +127,9 @@
       ],
       "frequency": "mon",
       "long_name": "Photolysis Rate of Ozone (O3)",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "jo3",
       "positive": "",
       "provenance": {
@@ -153,7 +161,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Convection",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntc",
       "positive": "",
       "provenance": {
@@ -185,7 +195,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Model Physics",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntmp",
       "positive": "",
       "provenance": {
@@ -217,7 +229,9 @@
       ],
       "frequency": "mon",
       "long_name": "Temperature Tendency Due to Non-Orographic Gravity Wave Dissipation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntnogw",
       "positive": "",
       "provenance": {
@@ -249,7 +263,9 @@
       ],
       "frequency": "mon",
       "long_name": "Temperature Tendency Due to Orographic Gravity Wave Dissipation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntogw",
       "positive": "",
       "provenance": {
@@ -281,7 +297,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Clear Sky Longwave Radiative Heating",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntrlcs",
       "positive": "",
       "provenance": {
@@ -313,7 +331,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Clear Sky Shortwave Radiative Heating",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntrscs",
       "positive": "",
       "provenance": {
@@ -345,7 +365,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Stratiform Clouds and Precipitation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntscp",
       "positive": "",
       "provenance": {
@@ -377,7 +399,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Eastward Wind Due to Eliassen-Palm Flux Divergence",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "utendepfd",
       "positive": "",
       "provenance": {
@@ -409,7 +433,9 @@
       ],
       "frequency": "mon",
       "long_name": "Eastward Acceleration Due to Non-Orographic Gravity Wave Drag",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "utendnogw",
       "positive": "",
       "provenance": {
@@ -441,7 +467,9 @@
       ],
       "frequency": "mon",
       "long_name": "Transformed Eulerian Mean Northward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "vtem",
       "positive": "",
       "provenance": {
@@ -473,7 +501,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Acceleration Due to Non-Orographic Gravity Wave Drag",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "vtendnogw",
       "positive": "",
       "provenance": {
@@ -505,7 +535,9 @@
       ],
       "frequency": "mon",
       "long_name": "Transformed Eulerian Mean Upward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wtem",
       "positive": "",
       "provenance": {
@@ -537,7 +569,9 @@
       ],
       "frequency": "mon",
       "long_name": "Eastward Gravity Wave Drag",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "xgwdparam",
       "positive": "",
       "provenance": {
@@ -569,7 +603,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Gravity Wave Drag",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ygwdparam",
       "positive": "",
       "provenance": {
@@ -601,7 +637,9 @@
       ],
       "frequency": "mon",
       "long_name": "Geopotential Height",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zg",
       "positive": "",
       "provenance": {
@@ -633,7 +671,9 @@
       ],
       "frequency": "mon",
       "long_name": "Zonal Mean Diabatic Heating Rates",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zmtnt",
       "positive": "",
       "provenance": {

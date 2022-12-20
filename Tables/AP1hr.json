@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 75b10f33546f87e091c9b5dc757f11a9",
+    "checksum": "md5: 9eb4e7581591c580decda512b55328e1",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "1hr",
       "long_name": "Precipitation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "pr",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "1hr",
       "long_name": "Convective Precipitation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prc",
       "positive": "",
       "provenance": {
@@ -89,7 +93,9 @@
       ],
       "frequency": "1hr",
       "long_name": "Surface Air Pressure",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ps",
       "positive": "",
       "provenance": {
@@ -122,7 +128,9 @@
       ],
       "frequency": "1hr",
       "long_name": "Near-Surface Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tas",
       "positive": "",
       "provenance": {

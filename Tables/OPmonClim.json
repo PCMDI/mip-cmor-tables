@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: debe946593a11b6ac2d7c051b7c249d0",
+    "checksum": "md5: 7be63518ea0c1757951bdae412bff27b",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Momentum XY Biharmonic Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difmxybo2d",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Momentum XY Laplacian Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difmxylo2d",
       "positive": "",
       "provenance": {
@@ -89,7 +93,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Tracer Bolus Biharmonic Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "diftrbbo2d",
       "positive": "",
       "provenance": {
@@ -121,7 +127,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Tracer Diffusivity Due to Parameterized Mesoscale Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "diftrblo2d",
       "positive": "",
       "provenance": {
@@ -153,7 +161,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Tracer Epineutral Biharmonic Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "diftrebo2d",
       "positive": "",
       "provenance": {
@@ -185,7 +195,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Tracer Epineutral Laplacian Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "diftrelo2d",
       "positive": "",
       "provenance": {
@@ -217,7 +229,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Tracer XY Biharmonic Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "diftrxybo2d",
       "positive": "",
       "provenance": {
@@ -249,7 +263,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Tracer XY Laplacian Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "diftrxylo2d",
       "positive": "",
       "provenance": {
@@ -281,7 +297,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Kinetic Energy Dissipation per Unit Area Due to XY Friction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "dispkexyfo2d",
       "positive": "",
       "provenance": {
@@ -313,7 +331,9 @@
       ],
       "frequency": "monC",
       "long_name": "Tendency of Ocean Eddy Kinetic Energy Content Due to Parameterized Eddy Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tnkebto2d",
       "positive": "",
       "provenance": {

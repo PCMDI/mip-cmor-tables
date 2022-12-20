@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 3c48bae7da084d70912f3613870158d7",
+    "checksum": "md5: faa5653503c459dd371e196e90b34b3f",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Surface Upward Latent Heat Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hfls",
       "positive": "up",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Surface Upward Sensible Heat Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hfss",
       "positive": "up",
       "provenance": {
@@ -90,7 +94,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Near-Surface Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "huss",
       "positive": "",
       "provenance": {
@@ -122,7 +128,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Precipitation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "pr",
       "positive": "",
       "provenance": {
@@ -154,7 +162,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Convective Precipitation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prc",
       "positive": "",
       "provenance": {
@@ -186,7 +196,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Water Vapor Path",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prw",
       "positive": "",
       "provenance": {
@@ -218,7 +230,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Surface Air Pressure",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ps",
       "positive": "",
       "provenance": {
@@ -250,7 +264,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "TOA Outgoing Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlut",
       "positive": "up",
       "provenance": {
@@ -282,7 +298,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "TOA Incident Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsdt",
       "positive": "down",
       "provenance": {
@@ -314,7 +332,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "TOA Outgoing Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsut",
       "positive": "up",
       "provenance": {
@@ -347,7 +367,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Near-Surface Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tas",
       "positive": "",
       "provenance": {

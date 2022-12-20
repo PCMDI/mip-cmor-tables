@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 8a13717099208dde082eb1dd9eb7a1ba",
+    "checksum": "md5: 82aae30c3482d0d4de76a7140ccb597a",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -24,7 +24,10 @@
       ],
       "frequency": "fx",
       "long_name": "Grid-Cell Area for Atmospheric Grid Variables",
-      "modeling_realm": "atmos land",
+      "modeling_realm": [
+        "atmos",
+        "land"
+      ],
       "out_name": "areacella",
       "positive": "",
       "provenance": {
@@ -55,7 +58,9 @@
       ],
       "frequency": "fx",
       "long_name": "Surface Air Pressure",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ps",
       "positive": "",
       "provenance": {
@@ -86,7 +91,9 @@
       ],
       "frequency": "fx",
       "long_name": "Downwelling Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rld",
       "positive": "down",
       "provenance": {
@@ -117,7 +124,9 @@
       ],
       "frequency": "fx",
       "long_name": "Upwelling Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlu",
       "positive": "up",
       "provenance": {
@@ -148,7 +157,9 @@
       ],
       "frequency": "fx",
       "long_name": "Downwelling Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsd",
       "positive": "down",
       "provenance": {
@@ -179,7 +190,9 @@
       ],
       "frequency": "fx",
       "long_name": "Upwelling Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsu",
       "positive": "up",
       "provenance": {
@@ -210,7 +223,9 @@
       ],
       "frequency": "fx",
       "long_name": "Percentage of the Grid Cell Occupied by Land (Including Lakes)",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "sftlf",
       "positive": "",
       "provenance": {
@@ -242,7 +257,9 @@
       ],
       "frequency": "fx",
       "long_name": "Silt Fraction",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "siltfrac",
       "positive": "",
       "provenance": {
@@ -274,7 +291,9 @@
       ],
       "frequency": "fx",
       "long_name": "Altitude of Model Full-Levels",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zfull",
       "positive": "",
       "provenance": {

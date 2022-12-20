@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: e6db31a82c0fe0b9215599bdd6a3eadc",
+    "checksum": "md5: ca0e2b7ac00454981b92aeb1577f94d5",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
@@ -30,7 +30,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Aerosol Level Asymmetry Parameter for Each Band",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "aerasymbnd",
       "positive": "",
       "provenance": {
@@ -64,7 +66,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Aerosol Level Absorption Optical Thickness for Each Band",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "aeroptbnd",
       "positive": "",
       "provenance": {
@@ -98,7 +102,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Aerosol Level Single Scattering Albedo for Each Band",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "aerssabnd",
       "positive": "",
       "provenance": {
@@ -131,7 +137,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Mole Fraction of CH4",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ch4",
       "positive": "",
       "provenance": {
@@ -164,7 +172,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Convective Cloud Area Percentage",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clc",
       "positive": "",
       "provenance": {
@@ -197,7 +207,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Mass Fraction of Convective Cloud Ice",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clic",
       "positive": "",
       "provenance": {
@@ -230,7 +242,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Mass Fraction of Stratiform Cloud Ice",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clis",
       "positive": "",
       "provenance": {
@@ -263,7 +277,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Percentage Cover of Stratiform Cloud",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "cls",
       "positive": "",
       "provenance": {
@@ -296,7 +312,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Mass Fraction of Convective Cloud Liquid Water",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clwc",
       "positive": "",
       "provenance": {
@@ -329,7 +347,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Mass Fraction of Stratiform Cloud Liquid Water",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clws",
       "positive": "",
       "provenance": {
@@ -362,7 +382,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Mole Fraction of CO2",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "co2",
       "positive": "",
       "provenance": {
@@ -395,7 +417,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Convective Cloud Emissivity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "demc",
       "positive": "",
       "provenance": {
@@ -428,7 +452,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Stratiform Cloud Emissivity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "dems",
       "positive": "",
       "provenance": {
@@ -461,7 +487,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Convective Cloud Optical Depth",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "dtauc",
       "positive": "",
       "provenance": {
@@ -494,7 +522,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Stratiform Cloud Optical Depth",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "dtaus",
       "positive": "",
       "provenance": {
@@ -527,7 +557,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Stratiform Graupel Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "grpllsprof",
       "positive": "",
       "provenance": {
@@ -560,7 +592,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Mass Fraction of Water",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "h2o",
       "positive": "",
       "provenance": {
@@ -593,7 +627,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hus",
       "positive": "",
       "provenance": {
@@ -626,7 +662,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Mole Fraction of N2O",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "n2o",
       "positive": "",
       "provenance": {
@@ -659,7 +697,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Mole Fraction of O3",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "o3",
       "positive": "",
       "provenance": {
@@ -692,7 +732,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Pressure at Model Full-Levels",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "pfull",
       "positive": "",
       "provenance": {
@@ -725,7 +767,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Pressure on Model Half-Levels",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "phalf",
       "positive": "",
       "provenance": {
@@ -758,7 +802,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Convective Rainfall Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prcprof",
       "positive": "",
       "provenance": {
@@ -791,7 +837,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Stratiform Snowfall Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prlsns",
       "positive": "",
       "provenance": {
@@ -824,7 +872,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Stratiform Rainfall Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prlsprof",
       "positive": "",
       "provenance": {
@@ -857,7 +907,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Convective Snowfall Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prsnc",
       "positive": "",
       "provenance": {
@@ -890,7 +942,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Hydrometeor Effective Radius of Convective Cloud Ice",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffclic",
       "positive": "",
       "provenance": {
@@ -923,7 +977,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Hydrometeor Effective Radius of Stratiform Cloud Ice",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffclis",
       "positive": "",
       "provenance": {
@@ -956,7 +1012,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Convective Cloud Liquid Droplet Effective Radius",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffclwc",
       "positive": "",
       "provenance": {
@@ -989,7 +1047,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Stratiform Cloud Liquid Droplet Effective Radius",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffclws",
       "positive": "",
       "provenance": {
@@ -1022,7 +1082,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Hydrometeor Effective Radius of Stratiform Graupel",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffgrpls",
       "positive": "",
       "provenance": {
@@ -1055,7 +1117,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Hydrometeor Effective Radius of Convective Rainfall",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffrainc",
       "positive": "",
       "provenance": {
@@ -1088,7 +1152,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Hydrometeor Effective Radius of Stratiform Rainfall",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffrains",
       "positive": "",
       "provenance": {
@@ -1121,7 +1187,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Hydrometeor Effective Radius of Convective Snowfall",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffsnowc",
       "positive": "",
       "provenance": {
@@ -1154,7 +1222,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Hydrometeor Effective Radius of Stratiform Snowfall",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffsnows",
       "positive": "",
       "provenance": {
@@ -1187,7 +1257,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Downwelling Clear-Sky Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsdcs",
       "positive": "down",
       "provenance": {
@@ -1221,7 +1293,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Downwelling Clear-Sky Shortwave Radiation at Each Level for Each Band",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsdcsbnd",
       "positive": "down",
       "provenance": {
@@ -1254,7 +1328,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Upwelling Clear-Sky Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsucs",
       "positive": "up",
       "provenance": {
@@ -1288,7 +1364,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Upwelling Clear-Sky Shortwave Radiation at Each Level for Each Band",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsucsbnd",
       "positive": "up",
       "provenance": {
@@ -1321,7 +1399,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta",
       "positive": "",
       "provenance": {
@@ -1354,7 +1434,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Altitude of Model Full-Levels",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zfull",
       "positive": "",
       "provenance": {
@@ -1387,7 +1469,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Altitude of Model Half-Levels",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zhalf",
       "positive": "",
       "provenance": {

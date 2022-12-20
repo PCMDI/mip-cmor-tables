@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: d00fc99bf285d6bdbec381b2d6b7c29b",
+    "checksum": "md5: a9fbd8df92e7034f6621020e0e9bdb9d",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,10 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Surface Snow Amount",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "snw",
       "positive": "",
       "provenance": {

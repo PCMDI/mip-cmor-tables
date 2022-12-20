@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: bc3ec8fe3110f87d414f4ecd1336337a",
+    "checksum": "md5: e043bdc2cfe9441dbe1b09d87b14c0e5",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "yr",
       "long_name": "Surface Downward Mass Flux of Carbon-13 as 13CO2 [kgC m-2 s-1]",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "fg13co2",
       "positive": "down",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "yr",
       "long_name": "Surface Downward Mass Flux of Carbon-14 as Abiotic 14CO2 [kgC m-2 s-1]",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "fg14co2abio",
       "positive": "down",
       "provenance": {
@@ -89,7 +93,9 @@
       ],
       "frequency": "yr",
       "long_name": "Surface Downward Mass Flux of Carbon as CO2 [kgC m-2 s-1]",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "fgco2",
       "positive": "down",
       "provenance": {
@@ -121,7 +127,9 @@
       ],
       "frequency": "yr",
       "long_name": "Surface Downward Mass Flux of Carbon as Abiotic CO2 [kgC m-2 s-1]",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "fgco2abio",
       "positive": "down",
       "provenance": {
@@ -153,7 +161,9 @@
       ],
       "frequency": "yr",
       "long_name": "Surface Downward Mass Flux of Carbon as Natural CO2 [kgC m-2 s-1]",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "fgco2nat",
       "positive": "down",
       "provenance": {
