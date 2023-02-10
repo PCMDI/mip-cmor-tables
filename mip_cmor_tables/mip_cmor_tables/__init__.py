@@ -11,8 +11,10 @@ from typing import Any, Dict, List, Optional
 from warnings import warn
 from _collections_abc import dict_keys, dict_values
 
+__version__ = '0.0.1'
+
 # Following files to be ignored. Primarily for development
-FILES_TO_IGNORE = ['CMIP6Plus_CV.json']  
+FILES_TO_IGNORE = ['CMIP6Plus_CV.json']
 
 
 class MIPTableCollection(object):
@@ -180,8 +182,9 @@ class ChecksummedJSON(object):
         checksum = checksum_object(dictionary_copy)
 
         if self.checksum != checksum:
-            msg = ('Expected checksum   "{}"\n'
-                   'Calculated checksum "{}"').format(self.checksum, checksum)
+            msg = ('Filename            "{}"\n'
+                   'Expected checksum   "{}"\n'
+                   'Calculated checksum "{}"').format(self.filename, self.checksum, checksum)
             raise RuntimeError(msg)
 
     def update_checksum(self) -> None:
