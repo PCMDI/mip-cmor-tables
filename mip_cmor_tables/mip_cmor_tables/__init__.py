@@ -74,6 +74,8 @@ class MIPTableCollection(object):
             table_id = table_dict['Header']['table_id']
             if table_id != table.replace('.json', ''):
                 raise RuntimeError('"table_id" field in {} inconsistent with file name'.format(table))
+            if table_id not in self.generic_cv['table_id']:
+                warn('Table id "{}" not listed in generic CV list of tables'.format(table_id))
             self.tables[table_id] = table_dict
 
     def get_variable(self, mip_table: str, variable_name: str):
@@ -250,7 +252,7 @@ class MIPVariable:
     ]
     FLAGS = ['flag_meanings', 'flag_values']
 
-    parent: Optional[MIPTableCollection] = None
+    parent: None
     branded_variable_name: Optional[str] = None
     cell_measures: Optional[str] = None
     cell_methods: Optional[str] = None
@@ -292,6 +294,7 @@ class MIPVariable:
 
     @staticmethod
     def _assert(test: bool, message: str) -> None:
+
         assert test, message
 
     def check_against_miptablecollection(self, data: dict) -> None:
@@ -302,16 +305,19 @@ class MIPVariable:
         # cell_measures check
         # cell_methods_check
         # dimensions check
+        if self.parent is None:
+            raise RuntimeError('Cannot check when parent attribute does not point to a MIPTableCollection')
+        
         if 'dimensions' in data:
             self._assert(
                 isinstance(data['dimensions'], list), 
                 'dimensions must be a list'
             )
-            #for i in data['dimensions']:
-            #    self._assert(
-            #        i in self.parent.coordinate['axis_entry'],
-            #        'Dimensions "{}" not found in the coordinates.json file'.format(i)
-            #    )
+            for i in data['dimensions']:
+                self._assert(
+                     i in self.parent.coordinate['axis_entry'],
+                    'Dimensions "{}" not found in the coordinates.json file'.format(i)
+                )
         #frequency
         if 'frequency' in data:
             self._assert(
