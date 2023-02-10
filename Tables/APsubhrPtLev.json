@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 5a2a813b70d0aa044ae59f32b0d4836a",
+    "checksum": "md5: 8b99b13083da6d6faab924e4669f1e6f",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
@@ -29,7 +29,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hus",
       "positive": "",
       "provenance": {
@@ -62,7 +64,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Convective Mass Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "mc",
       "positive": "up",
       "provenance": {
@@ -95,7 +99,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta",
       "positive": "",
       "provenance": {
@@ -128,7 +134,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Tendency of Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tnhus",
       "positive": "",
       "provenance": {
@@ -161,7 +169,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Tendency of Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tnt",
       "positive": "",
       "provenance": {
@@ -194,7 +204,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Eastward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ua",
       "positive": "",
       "provenance": {
@@ -227,7 +239,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Northward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "va",
       "positive": "",
       "provenance": {
@@ -260,7 +274,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Omega (=dp/dt)",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wap",
       "positive": "",
       "provenance": {

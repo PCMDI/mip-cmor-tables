@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 29da9e2ea567d68bdac60df8bd20dfad",
+    "checksum": "md5: 4631c0e02208416eeef3261eb6b759a8",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -26,7 +26,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Cloud Ice Mixing Ratio",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "cldicemxrat27",
       "positive": "",
       "provenance": {
@@ -59,7 +61,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Cloud Water Mixing Ratio",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "cldwatmxrat27",
       "positive": "",
       "provenance": {
@@ -91,7 +95,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Convective Cloud Optical Depth",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "dtauc",
       "positive": "",
       "provenance": {
@@ -123,7 +129,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Stratiform Cloud Optical Depth",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "dtaus",
       "positive": "",
       "provenance": {
@@ -156,7 +164,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Graupel Mixing Ratio",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "grplmxrat27",
       "positive": "",
       "provenance": {
@@ -189,7 +199,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hus27",
       "positive": "",
       "provenance": {
@@ -222,7 +234,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hus7h",
       "positive": "",
       "provenance": {
@@ -255,7 +269,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Near-Surface Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "huss",
       "positive": "",
       "provenance": {
@@ -287,7 +303,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Longwave Flux Due to Volcanic Aerosols at the Surface",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "lwsffluxaero",
       "positive": "",
       "provenance": {
@@ -319,7 +337,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "TOA Outgoing Clear-Sky Longwave Flux Due to Volcanic Aerosols",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "lwtoafluxaerocs",
       "positive": "",
       "provenance": {
@@ -351,7 +371,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Surface Air Pressure",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ps",
       "positive": "",
       "provenance": {
@@ -383,7 +405,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Sea Level Pressure",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "psl",
       "positive": "",
       "provenance": {
@@ -416,7 +440,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Mass Fraction of Rain in Air",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rainmxrat27",
       "positive": "",
       "provenance": {
@@ -449,7 +475,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Relative Vorticity at 850hPa",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rv850",
       "positive": "",
       "provenance": {
@@ -482,7 +510,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Near-Surface Wind Speed",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "sfcWind",
       "positive": "",
       "provenance": {
@@ -515,7 +545,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Mass Fraction of Snow in Air",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "snowmxrat27",
       "positive": "",
       "provenance": {
@@ -547,7 +579,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Shortwave Heating Rate Due to Volcanic Aerosols",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "swsffluxaero",
       "positive": "",
       "provenance": {
@@ -579,7 +613,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "TOA Outgoing Clear-Sky Shortwave Flux Due to Volcanic Aerosols",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "swtoafluxaerocs",
       "positive": "",
       "provenance": {
@@ -612,7 +648,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta",
       "positive": "",
       "provenance": {
@@ -645,7 +683,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta27",
       "positive": "",
       "provenance": {
@@ -678,7 +718,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta7h",
       "positive": "",
       "provenance": {
@@ -711,7 +753,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Near-Surface Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tas",
       "positive": "",
       "provenance": {
@@ -743,7 +787,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Surface Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ts",
       "positive": "",
       "provenance": {
@@ -776,7 +822,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Eastward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ua",
       "positive": "",
       "provenance": {
@@ -809,7 +857,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Eastward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ua7h",
       "positive": "",
       "provenance": {
@@ -842,7 +892,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Eastward Near-Surface Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "uas",
       "positive": "",
       "provenance": {
@@ -875,7 +927,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Northward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "va",
       "positive": "",
       "provenance": {
@@ -908,7 +962,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Northward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "va7h",
       "positive": "",
       "provenance": {
@@ -941,7 +997,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Northward Near-Surface Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "vas",
       "positive": "",
       "provenance": {
@@ -974,7 +1032,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Relative Vorticity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "vortmean",
       "positive": "",
       "provenance": {
@@ -1007,7 +1067,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Wet Bulb Potential Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wbptemp7h",
       "positive": "",
       "provenance": {
@@ -1040,7 +1102,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Geopotential Height",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zg27",
       "positive": "",
       "provenance": {
@@ -1073,7 +1137,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Geopotential Height",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zg7h",
       "positive": "",
       "provenance": {

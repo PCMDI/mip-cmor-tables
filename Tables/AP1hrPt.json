@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 962b312a52ad15c3b68514511e8335d4",
+    "checksum": "md5: 01ecee484a3b7a6f49f4760d23e8a457",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "1hrPt",
       "long_name": "Sea Level Pressure",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "psl",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "1hrPt",
       "long_name": "TOA Outgoing Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlut",
       "positive": "up",
       "provenance": {
@@ -90,7 +94,9 @@
       ],
       "frequency": "1hrPt",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta",
       "positive": "",
       "provenance": {
@@ -123,7 +129,9 @@
       ],
       "frequency": "1hrPt",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta27",
       "positive": "",
       "provenance": {
@@ -156,7 +164,9 @@
       ],
       "frequency": "1hrPt",
       "long_name": "Tendency of Air Temperature Due to Radiative Heating",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntr27",
       "positive": "",
       "provenance": {
@@ -189,7 +199,9 @@
       ],
       "frequency": "1hrPt",
       "long_name": "Eastward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ua",
       "positive": "",
       "provenance": {
@@ -222,7 +234,9 @@
       ],
       "frequency": "1hrPt",
       "long_name": "Eastward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ua27",
       "positive": "",
       "provenance": {
@@ -255,7 +269,9 @@
       ],
       "frequency": "1hrPt",
       "long_name": "Eastward Acceleration Due to Non-Orographic Gravity Wave Drag",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "utendnogw27",
       "positive": "",
       "provenance": {
@@ -288,7 +304,9 @@
       ],
       "frequency": "1hrPt",
       "long_name": "Northward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "va",
       "positive": "",
       "provenance": {
@@ -321,7 +339,9 @@
       ],
       "frequency": "1hrPt",
       "long_name": "Northward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "va27",
       "positive": "",
       "provenance": {
@@ -354,7 +374,9 @@
       ],
       "frequency": "1hrPt",
       "long_name": "Northward Acceleration Due to Non-Orographic Gravity Wave Drag",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "vtendnogw27",
       "positive": "",
       "provenance": {
@@ -387,7 +409,9 @@
       ],
       "frequency": "1hrPt",
       "long_name": "Omega (=dp/dt)",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wap",
       "positive": "",
       "provenance": {
@@ -420,7 +444,9 @@
       ],
       "frequency": "1hrPt",
       "long_name": "Omega (=dp/dt)",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wap27",
       "positive": "",
       "provenance": {
@@ -453,7 +479,9 @@
       ],
       "frequency": "1hrPt",
       "long_name": "Geopotential Height",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zg27",
       "positive": "",
       "provenance": {

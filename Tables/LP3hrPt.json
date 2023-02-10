@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 4b8b2512434876adac8cef59bc296b63",
+    "checksum": "md5: 475e373f97ff0f1549cb232ccf181b7e",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -26,7 +26,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Moisture in Upper Portion of Soil Column",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrsos",
       "positive": "",
       "provenance": {
@@ -58,7 +60,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Surface Temperature Where Land or Sea Ice",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "tslsi",
       "positive": "",
       "provenance": {

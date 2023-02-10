@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 8b4610bbfdfa386326a88ac701270c95",
+    "checksum": "md5: c10a35b8a2dff5d452e0f5687ad8e442",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -26,7 +26,9 @@
       ],
       "frequency": "yr",
       "long_name": "Bare Soil Percentage Area Coverage",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "baresoilFrac",
       "positive": "",
       "provenance": {
@@ -59,7 +61,9 @@
       ],
       "frequency": "yr",
       "long_name": "Percentage Crop Cover",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "cropFrac",
       "positive": "",
       "provenance": {
@@ -92,7 +96,9 @@
       ],
       "frequency": "yr",
       "long_name": "Annual Gross Percentage That Was Transferred into This Tile from Other Land-Use Tiles",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "fracInLut",
       "positive": "",
       "provenance": {
@@ -125,7 +131,9 @@
       ],
       "frequency": "yr",
       "long_name": "Annual Gross Percentage of Land-Use Tile That Was Transferred into Other Land-Use Tiles",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "fracOutLut",
       "positive": "",
       "provenance": {
@@ -158,7 +166,9 @@
       ],
       "frequency": "yr",
       "long_name": "Natural Grass Area Percentage",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "grassFrac",
       "positive": "",
       "provenance": {
@@ -191,7 +201,9 @@
       ],
       "frequency": "yr",
       "long_name": "Percentage of Grid Cell That Is Land but neither Vegetation Covered nor Bare Soil",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "residualFrac",
       "positive": "",
       "provenance": {
@@ -224,7 +236,9 @@
       ],
       "frequency": "yr",
       "long_name": "Percentage Cover by Shrub",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "shrubFrac",
       "positive": "",
       "provenance": {
@@ -257,7 +271,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tree Cover Percentage",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "treeFrac",
       "positive": "",
       "provenance": {
@@ -290,7 +306,9 @@
       ],
       "frequency": "yr",
       "long_name": "Total Vegetated Percentage Cover",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "vegFrac",
       "positive": "",
       "provenance": {

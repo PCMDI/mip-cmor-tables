@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: f1bc213d658b56ec5de60d6b359d60c0",
+    "checksum": "md5: a1889c7b32ad17e68fef0871e1f200cf",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Ice Water Path",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clivi",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Total Cloud Cover Percentage",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clt",
       "positive": "",
       "provenance": {
@@ -89,7 +93,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Condensed Water Path",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clwvi",
       "positive": "",
       "provenance": {
@@ -121,7 +127,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Surface Upward Latent Heat Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hfls",
       "positive": "up",
       "provenance": {
@@ -153,7 +161,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Surface Upward Sensible Heat Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hfss",
       "positive": "up",
       "provenance": {
@@ -185,7 +195,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Precipitation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "pr",
       "positive": "",
       "provenance": {
@@ -217,7 +229,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Convective Precipitation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prc",
       "positive": "",
       "provenance": {
@@ -249,7 +263,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Precipitation Flux from Shallow Convection",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prcsh",
       "positive": "",
       "provenance": {
@@ -281,7 +297,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Rainfall Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prra",
       "positive": "",
       "provenance": {
@@ -313,7 +331,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Convective Rainfall Rate",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prrc",
       "positive": "",
       "provenance": {
@@ -345,7 +365,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Snowfall Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prsn",
       "positive": "",
       "provenance": {
@@ -377,7 +399,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Convective Snowfall Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prsnc",
       "positive": "",
       "provenance": {
@@ -409,7 +433,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Water Vapor Path",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prw",
       "positive": "",
       "provenance": {
@@ -441,7 +467,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Sea Level Pressure",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "psl",
       "positive": "",
       "provenance": {
@@ -473,7 +501,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Surface Downwelling Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlds",
       "positive": "down",
       "provenance": {
@@ -505,7 +535,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Surface Downwelling Clear-Sky Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rldscs",
       "positive": "down",
       "provenance": {
@@ -537,7 +569,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Surface Upwelling Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlus",
       "positive": "up",
       "provenance": {
@@ -569,7 +603,9 @@
       ],
       "frequency": "3hr",
       "long_name": "TOA Outgoing Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlut",
       "positive": "up",
       "provenance": {
@@ -601,7 +637,9 @@
       ],
       "frequency": "3hr",
       "long_name": "TOA Outgoing Clear-Sky Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlutcs",
       "positive": "up",
       "provenance": {
@@ -633,7 +671,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Surface Downwelling Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsds",
       "positive": "down",
       "provenance": {
@@ -665,7 +705,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Surface Downwelling Clear-Sky Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsdscs",
       "positive": "down",
       "provenance": {
@@ -697,7 +739,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Surface Diffuse Downwelling Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsdsdiff",
       "positive": "down",
       "provenance": {
@@ -729,7 +773,9 @@
       ],
       "frequency": "3hr",
       "long_name": "TOA Incident Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsdt",
       "positive": "down",
       "provenance": {
@@ -761,7 +807,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Surface Upwelling Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsus",
       "positive": "up",
       "provenance": {
@@ -793,7 +841,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Surface Upwelling Clear-Sky Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsuscs",
       "positive": "up",
       "provenance": {
@@ -825,7 +875,9 @@
       ],
       "frequency": "3hr",
       "long_name": "TOA Outgoing Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsut",
       "positive": "up",
       "provenance": {
@@ -857,7 +909,9 @@
       ],
       "frequency": "3hr",
       "long_name": "TOA Outgoing Clear-Sky Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsutcs",
       "positive": "up",
       "provenance": {
@@ -890,7 +944,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Near-Surface Wind Speed",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "sfcWind",
       "positive": "",
       "provenance": {
@@ -923,7 +979,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Eastward Near-Surface Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "uas",
       "positive": "",
       "provenance": {
@@ -956,7 +1014,9 @@
       ],
       "frequency": "3hr",
       "long_name": "Northward Near-Surface Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "vas",
       "positive": "",
       "provenance": {

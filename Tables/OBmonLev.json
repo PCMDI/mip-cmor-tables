@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 77ff7f333996caacac9c2f4eae5f9816",
+    "checksum": "md5: b43f144161585c50422d9a0a3d42dd3f",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
@@ -29,7 +29,9 @@
       ],
       "frequency": "mon",
       "long_name": "Aragonite Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "arag",
       "positive": "",
       "provenance": {
@@ -62,7 +64,9 @@
       ],
       "frequency": "mon",
       "long_name": "Bacterial Carbon Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "bacc",
       "positive": "",
       "provenance": {
@@ -95,7 +99,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Particulate Organic Matter Expressed as Iron in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "bfe",
       "positive": "",
       "provenance": {
@@ -128,7 +134,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Particulate Organic Matter Expressed as Silicon in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "bsi",
       "positive": "",
       "provenance": {
@@ -161,7 +169,9 @@
       ],
       "frequency": "mon",
       "long_name": "Calcite Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "calc",
       "positive": "",
       "provenance": {
@@ -194,7 +204,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "chl",
       "positive": "",
       "provenance": {
@@ -227,7 +239,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass Concentration of Calcareous Phytoplankton Expressed as Chlorophyll in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "chlcalc",
       "positive": "",
       "provenance": {
@@ -260,7 +274,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass Concentration of Diatoms Expressed as Chlorophyll in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "chldiat",
       "positive": "",
       "provenance": {
@@ -293,7 +309,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass Concentration of Diazotrophs Expressed as Chlorophyll in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "chldiaz",
       "positive": "",
       "provenance": {
@@ -326,7 +344,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass Concentration of Other Phytoplankton Expressed as Chlorophyll in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "chlmisc",
       "positive": "",
       "provenance": {
@@ -359,7 +379,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass Concentration of Picophytoplankton Expressed as Chlorophyll in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "chlpico",
       "positive": "",
       "provenance": {
@@ -392,7 +414,9 @@
       ],
       "frequency": "mon",
       "long_name": "Carbonate Ion Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "co3",
       "positive": "",
       "provenance": {
@@ -425,7 +449,9 @@
       ],
       "frequency": "mon",
       "long_name": "Abiotic Carbonate Ion Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "co3abio",
       "positive": "",
       "provenance": {
@@ -458,7 +484,9 @@
       ],
       "frequency": "mon",
       "long_name": "Natural Carbonate Ion Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "co3nat",
       "positive": "",
       "provenance": {
@@ -491,7 +519,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Carbonate Ion in Equilibrium with Pure Aragonite in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "co3satarag",
       "positive": "",
       "provenance": {
@@ -524,7 +554,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Carbonate Ion in Equilibrium with Pure Calcite in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "co3satcalc",
       "positive": "",
       "provenance": {
@@ -557,7 +589,9 @@
       ],
       "frequency": "mon",
       "long_name": "Detrital Organic Carbon Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "detoc",
       "positive": "",
       "provenance": {
@@ -590,7 +624,9 @@
       ],
       "frequency": "mon",
       "long_name": "Dissolved Iron Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "dfe",
       "positive": "",
       "provenance": {
@@ -623,7 +659,9 @@
       ],
       "frequency": "mon",
       "long_name": "Dissolved Inorganic Carbon-13 Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "dissi13c",
       "positive": "",
       "provenance": {
@@ -656,7 +694,9 @@
       ],
       "frequency": "mon",
       "long_name": "Dissolved Inorganic Carbon-14 Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "dissi14c",
       "positive": "",
       "provenance": {
@@ -689,7 +729,9 @@
       ],
       "frequency": "mon",
       "long_name": "Abiotic Dissolved Inorganic Carbon-14 Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "dissi14cabio",
       "positive": "",
       "provenance": {
@@ -722,7 +764,9 @@
       ],
       "frequency": "mon",
       "long_name": "Dissolved Inorganic Carbon Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "dissic",
       "positive": "",
       "provenance": {
@@ -755,7 +799,9 @@
       ],
       "frequency": "mon",
       "long_name": "Abiotic Dissolved Inorganic Carbon Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "dissicabio",
       "positive": "",
       "provenance": {
@@ -788,7 +834,9 @@
       ],
       "frequency": "mon",
       "long_name": "Natural Dissolved Inorganic Carbon Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "dissicnat",
       "positive": "",
       "provenance": {
@@ -821,7 +869,9 @@
       ],
       "frequency": "mon",
       "long_name": "Dissolved Organic Carbon Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "dissoc",
       "positive": "",
       "provenance": {
@@ -854,7 +904,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Dimethyl Sulphide in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "dmso",
       "positive": "",
       "provenance": {
@@ -887,7 +939,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downward Flux of Aragonite",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "exparag",
       "positive": "down",
       "provenance": {
@@ -920,7 +974,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downward Flux of Particulate Organic Carbon",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "expc",
       "positive": "down",
       "provenance": {
@@ -953,7 +1009,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downward Flux of Calcite",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "expcalc",
       "positive": "down",
       "provenance": {
@@ -986,7 +1044,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sinking Particulate Iron Flux",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "expfe",
       "positive": "down",
       "provenance": {
@@ -1019,7 +1079,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sinking Particulate Organic Nitrogen Flux",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "expn",
       "positive": "down",
       "provenance": {
@@ -1052,7 +1114,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sinking Particulate Organic Phosphorus Flux",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "expp",
       "positive": "down",
       "provenance": {
@@ -1085,7 +1149,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sinking Particulate Silicon Flux",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "expsi",
       "positive": "down",
       "provenance": {
@@ -1118,7 +1184,9 @@
       ],
       "frequency": "mon",
       "long_name": "Total Grazing of Phytoplankton by Zooplankton",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "graz",
       "positive": "",
       "provenance": {
@@ -1151,7 +1219,9 @@
       ],
       "frequency": "mon",
       "long_name": "Dissolved Ammonium Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "nh4",
       "positive": "",
       "provenance": {
@@ -1184,7 +1254,9 @@
       ],
       "frequency": "mon",
       "long_name": "Dissolved Nitrate Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "no3",
       "positive": "",
       "provenance": {
@@ -1217,7 +1289,9 @@
       ],
       "frequency": "mon",
       "long_name": "Dissolved Oxygen Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "o2",
       "positive": "",
       "provenance": {
@@ -1250,7 +1324,9 @@
       ],
       "frequency": "mon",
       "long_name": "Dissolved Oxygen Concentration at Saturation",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "o2sat",
       "positive": "",
       "provenance": {
@@ -1283,7 +1359,9 @@
       ],
       "frequency": "mon",
       "long_name": "pH",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "ph",
       "positive": "",
       "provenance": {
@@ -1316,7 +1394,9 @@
       ],
       "frequency": "mon",
       "long_name": "Abiotic pH",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "phabio",
       "positive": "",
       "provenance": {
@@ -1349,7 +1429,9 @@
       ],
       "frequency": "mon",
       "long_name": "Natural pH",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "phnat",
       "positive": "",
       "provenance": {
@@ -1382,7 +1464,9 @@
       ],
       "frequency": "mon",
       "long_name": "Phytoplankton Carbon Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "phyc",
       "positive": "",
       "provenance": {
@@ -1415,7 +1499,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Calcareous Phytoplankton Expressed as Carbon in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "phycalc",
       "positive": "",
       "provenance": {
@@ -1448,7 +1534,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Diatoms Expressed as Carbon in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "phydiat",
       "positive": "",
       "provenance": {
@@ -1481,7 +1569,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Diazotrophs Expressed as Carbon in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "phydiaz",
       "positive": "",
       "provenance": {
@@ -1514,7 +1604,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Total Phytoplankton Expressed as Iron in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "phyfe",
       "positive": "",
       "provenance": {
@@ -1547,7 +1639,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Miscellaneous Phytoplankton Expressed as Carbon in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "phymisc",
       "positive": "",
       "provenance": {
@@ -1580,7 +1674,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Total Phytoplankton Expressed as Nitrogen in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "phyn",
       "positive": "",
       "provenance": {
@@ -1613,7 +1709,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Total Phytoplankton Expressed as Phosphorus in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "phyp",
       "positive": "",
       "provenance": {
@@ -1646,7 +1744,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Picophytoplankton Expressed as Carbon in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "phypico",
       "positive": "",
       "provenance": {
@@ -1679,7 +1779,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Total Phytoplankton Expressed as Silicon in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "physi",
       "positive": "",
       "provenance": {
@@ -1712,7 +1814,9 @@
       ],
       "frequency": "mon",
       "long_name": "Total Dissolved Inorganic Phosphorus Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "po4",
       "positive": "",
       "provenance": {
@@ -1745,7 +1849,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Particulate Organic Matter Expressed as Nitrogen in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "pon",
       "positive": "",
       "provenance": {
@@ -1778,7 +1884,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Particulate Organic Matter Expressed as Phosphorus in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "pop",
       "positive": "",
       "provenance": {
@@ -1811,7 +1919,9 @@
       ],
       "frequency": "mon",
       "long_name": "Primary Carbon Production by Phytoplankton",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "pp",
       "positive": "",
       "provenance": {
@@ -1844,7 +1954,9 @@
       ],
       "frequency": "mon",
       "long_name": "Net Primary Mole Productivity of Carbon by Calcareous Phytoplankton",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "ppcalc",
       "positive": "",
       "provenance": {
@@ -1877,7 +1989,9 @@
       ],
       "frequency": "mon",
       "long_name": "Net Primary Organic Carbon Production by Diatoms",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "ppdiat",
       "positive": "",
       "provenance": {
@@ -1910,7 +2024,9 @@
       ],
       "frequency": "mon",
       "long_name": "Net Primary Mole Productivity of Carbon by Diazotrophs",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "ppdiaz",
       "positive": "",
       "provenance": {
@@ -1943,7 +2059,9 @@
       ],
       "frequency": "mon",
       "long_name": "Net Primary Organic Carbon Production by Other Phytoplankton",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "ppmisc",
       "positive": "",
       "provenance": {
@@ -1976,7 +2094,9 @@
       ],
       "frequency": "mon",
       "long_name": "Net Primary Mole Productivity of Carbon by Picophytoplankton",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "pppico",
       "positive": "",
       "provenance": {
@@ -2009,7 +2129,9 @@
       ],
       "frequency": "mon",
       "long_name": "Total Dissolved Inorganic Silicon Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "si",
       "positive": "",
       "provenance": {
@@ -2042,7 +2164,9 @@
       ],
       "frequency": "mon",
       "long_name": "Total Alkalinity",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "talk",
       "positive": "",
       "provenance": {
@@ -2075,7 +2199,9 @@
       ],
       "frequency": "mon",
       "long_name": "Natural Total Alkalinity",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "talknat",
       "positive": "",
       "provenance": {
@@ -2108,7 +2234,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Mesozooplankton Expressed as Carbon in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "zmeso",
       "positive": "",
       "provenance": {
@@ -2141,7 +2269,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Microzooplankton Expressed as Carbon in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "zmicro",
       "positive": "",
       "provenance": {
@@ -2174,7 +2304,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mole Concentration of Other Zooplankton Expressed as Carbon in Sea Water",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "zmisc",
       "positive": "",
       "provenance": {
@@ -2207,7 +2339,9 @@
       ],
       "frequency": "mon",
       "long_name": "Zooplankton Carbon Concentration",
-      "modeling_realm": "ocnBgchem",
+      "modeling_realm": [
+        "ocnBgchem"
+      ],
       "out_name": "zooc",
       "positive": "",
       "provenance": {

@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 8da749d4f7a625c02bbd1a2b840d8d97",
+    "checksum": "md5: 2b2edf4724b9b95470d492d53ba1bae3",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
@@ -29,7 +29,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Momentum XY Biharmonic Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difmxybo",
       "positive": "",
       "provenance": {
@@ -62,7 +64,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Momentum XY Laplacian Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difmxylo",
       "positive": "",
       "provenance": {
@@ -95,7 +99,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Tracer Bolus Biharmonic Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "diftrbbo",
       "positive": "",
       "provenance": {
@@ -128,7 +134,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Tracer Diffusivity Due to Parameterized Mesoscale Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "diftrblo",
       "positive": "",
       "provenance": {
@@ -161,7 +169,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Tracer Epineutral Biharmonic Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "diftrebo",
       "positive": "",
       "provenance": {
@@ -194,7 +204,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Tracer Epineutral Laplacian Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "diftrelo",
       "positive": "",
       "provenance": {
@@ -227,7 +239,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Tracer XY Biharmonic Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "diftrxybo",
       "positive": "",
       "provenance": {
@@ -260,7 +274,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Tracer XY Laplacian Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "diftrxylo",
       "positive": "",
       "provenance": {
@@ -293,7 +309,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Vertical Heat Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difvho",
       "positive": "",
       "provenance": {
@@ -326,7 +344,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Vertical Momentum Diffusivity Due to Background",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difvmbo",
       "positive": "",
       "provenance": {
@@ -359,7 +379,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Vertical Momentum Diffusivity Due to Form Drag",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difvmfdo",
       "positive": "",
       "provenance": {
@@ -392,7 +414,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Vertical Momentum Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difvmo",
       "positive": "",
       "provenance": {
@@ -425,7 +449,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Vertical Momentum Diffusivity Due to Tides",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difvmto",
       "positive": "",
       "provenance": {
@@ -458,7 +484,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Vertical Salt Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difvso",
       "positive": "",
       "provenance": {
@@ -491,7 +519,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Vertical Tracer Diffusivity Due to Background",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difvtrbo",
       "positive": "",
       "provenance": {
@@ -524,7 +554,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Vertical Tracer Diffusivity Due to Tides",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difvtrto",
       "positive": "",
       "provenance": {
@@ -557,7 +589,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Kinetic Energy Dissipation per Unit Area Due to Vertical Friction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "dispkevfo",
       "positive": "",
       "provenance": {
@@ -590,7 +624,9 @@
       ],
       "frequency": "monC",
       "long_name": "Ocean Kinetic Energy Dissipation per Unit Area Due to XY Friction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "dispkexyfo",
       "positive": "",
       "provenance": {
@@ -623,7 +659,9 @@
       ],
       "frequency": "monC",
       "long_name": "Tendency of Ocean Eddy Kinetic Energy Content Due to Parameterized Eddy Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tnkebto",
       "positive": "",
       "provenance": {
@@ -656,7 +694,9 @@
       ],
       "frequency": "monC",
       "long_name": "Tendency of Ocean Potential Energy Content",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tnpeo",
       "positive": "",
       "provenance": {
@@ -689,7 +729,9 @@
       ],
       "frequency": "monC",
       "long_name": "Tendency of Ocean Potential Energy Content Due to Tides",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tnpeot",
       "positive": "",
       "provenance": {
@@ -722,7 +764,9 @@
       ],
       "frequency": "monC",
       "long_name": "Tendency of Ocean Potential Energy Content Due to Background",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tnpeotb",
       "positive": "",
       "provenance": {
@@ -755,7 +799,9 @@
       ],
       "frequency": "monC",
       "long_name": "Depth Below Geoid of Ocean Layer",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "zfullo",
       "positive": "",
       "provenance": {
@@ -788,7 +834,9 @@
       ],
       "frequency": "monC",
       "long_name": "Depth Below Geoid of Interfaces Between Ocean Layers",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "zhalfo",
       "positive": "",
       "provenance": {

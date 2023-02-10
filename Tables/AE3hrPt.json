@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 718a10d7321004d0d50d032697af2341",
+    "checksum": "md5: 38be56f465fcab1d287d74e9156a0639",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Surface Downwelling Clear-Sky, Aerosol-Free Shortwave Radiation",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "rsdscsaf",
       "positive": "down",
       "provenance": {
@@ -58,7 +60,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Surface Downwelling Clear-Sky, Aerosol-Free Shortwave Radiation in Bands",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "rsdscsafbnd",
       "positive": "down",
       "provenance": {
@@ -90,7 +94,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Surface Upwelling Clean Clear-Sky Shortwave Radiation",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "rsuscsaf",
       "positive": "up",
       "provenance": {
@@ -123,7 +129,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "Surface Upwelling Clear-Sky, Aerosol-Free Shortwave Radiation in Bands",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "rsuscsafbnd",
       "positive": "up",
       "provenance": {
@@ -155,7 +163,9 @@
       ],
       "frequency": "3hrPt",
       "long_name": "TOA Outgoing Clear-Sky, Aerosol-Free Shortwave Radiation",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "rsutcsaf",
       "positive": "up",
       "provenance": {

@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 8389ac96fbd165af0422607f770d70bc",
+    "checksum": "md5: f3ce49cf9ddeaee56e05de69c94d0263",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "day",
       "long_name": "Canopy Albedo",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "albc",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "day",
       "long_name": "Snow Albedo",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "albsn",
       "positive": "",
       "provenance": {
@@ -89,7 +93,9 @@
       ],
       "frequency": "day",
       "long_name": "Aerodynamic Resistance",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "ares",
       "positive": "",
       "provenance": {
@@ -121,7 +127,9 @@
       ],
       "frequency": "day",
       "long_name": "Canopy Covered Area Percentage",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "cnc",
       "positive": "",
       "provenance": {
@@ -153,7 +161,9 @@
       ],
       "frequency": "day",
       "long_name": "Total Canopy Water Storage",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "cw",
       "positive": "",
       "provenance": {
@@ -185,7 +195,9 @@
       ],
       "frequency": "day",
       "long_name": "Change in Interception Storage",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "dcw",
       "positive": "",
       "provenance": {
@@ -217,7 +229,9 @@
       ],
       "frequency": "day",
       "long_name": "Change in Groundwater",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "dgw",
       "positive": "",
       "provenance": {
@@ -250,7 +264,9 @@
       ],
       "frequency": "day",
       "long_name": "Depth to Soil Thaw",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "dmlt",
       "positive": "",
       "provenance": {
@@ -282,7 +298,9 @@
       ],
       "frequency": "day",
       "long_name": "Change in River Storage",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "drivw",
       "positive": "",
       "provenance": {
@@ -314,7 +332,9 @@
       ],
       "frequency": "day",
       "long_name": "Change in Soil Moisture",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "dslw",
       "positive": "",
       "provenance": {
@@ -346,7 +366,9 @@
       ],
       "frequency": "day",
       "long_name": "Change in Snow Water Equivalent",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "dsn",
       "positive": "",
       "provenance": {
@@ -378,7 +400,9 @@
       ],
       "frequency": "day",
       "long_name": "Change in Surface Water Storage",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "dsw",
       "positive": "",
       "provenance": {
@@ -410,7 +434,9 @@
       ],
       "frequency": "day",
       "long_name": "Change in Surface Heat Storage",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "dtes",
       "positive": "",
       "provenance": {
@@ -442,7 +468,9 @@
       ],
       "frequency": "day",
       "long_name": "Change in Snow and Ice Cold Content",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "dtesn",
       "positive": "",
       "provenance": {
@@ -474,7 +502,9 @@
       ],
       "frequency": "day",
       "long_name": "Interception Evaporation",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "ec",
       "positive": "",
       "provenance": {
@@ -506,7 +536,9 @@
       ],
       "frequency": "day",
       "long_name": "Open Water Evaporation",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "eow",
       "positive": "",
       "provenance": {
@@ -538,7 +570,9 @@
       ],
       "frequency": "day",
       "long_name": "Bare Soil Evaporation",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "es",
       "positive": "",
       "provenance": {
@@ -570,7 +604,9 @@
       ],
       "frequency": "day",
       "long_name": "Snow Evaporation",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "esn",
       "positive": "",
       "provenance": {
@@ -602,7 +638,9 @@
       ],
       "frequency": "day",
       "long_name": "Evaporation Including Sublimation and Transpiration",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "evspsbl",
       "positive": "",
       "provenance": {
@@ -634,7 +672,9 @@
       ],
       "frequency": "day",
       "long_name": "Potential Evapotranspiration",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "evspsblpot",
       "positive": "",
       "provenance": {
@@ -666,7 +706,9 @@
       ],
       "frequency": "day",
       "long_name": "Leaf Area Index",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "lai",
       "positive": "",
       "provenance": {
@@ -699,7 +741,9 @@
       ],
       "frequency": "day",
       "long_name": "Average Layer Fraction of Frozen Moisture",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrfsofr",
       "positive": "",
       "provenance": {
@@ -732,7 +776,9 @@
       ],
       "frequency": "day",
       "long_name": "Average Layer Fraction of Liquid Moisture",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrlqso",
       "positive": "",
       "provenance": {
@@ -764,7 +810,9 @@
       ],
       "frequency": "day",
       "long_name": "Total Runoff",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrro",
       "positive": "",
       "provenance": {
@@ -796,7 +844,9 @@
       ],
       "frequency": "day",
       "long_name": "Subsurface Runoff",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrrob",
       "positive": "",
       "provenance": {
@@ -828,7 +878,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Runoff",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrros",
       "positive": "",
       "provenance": {
@@ -861,7 +913,9 @@
       ],
       "frequency": "day",
       "long_name": "Frozen Water Content of Soil Layer",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrsfl",
       "positive": "",
       "provenance": {
@@ -894,7 +948,9 @@
       ],
       "frequency": "day",
       "long_name": "Liquid Water Content of Soil Layer",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrsll",
       "positive": "",
       "provenance": {
@@ -926,7 +982,9 @@
       ],
       "frequency": "day",
       "long_name": "Total Soil Moisture Content",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrso",
       "positive": "",
       "provenance": {
@@ -959,7 +1017,9 @@
       ],
       "frequency": "day",
       "long_name": "Total Water Content of Soil Layer",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrsol",
       "positive": "",
       "provenance": {
@@ -992,7 +1052,9 @@
       ],
       "frequency": "day",
       "long_name": "Moisture in Upper Portion of Soil Column",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrsos",
       "positive": "",
       "provenance": {
@@ -1024,7 +1086,9 @@
       ],
       "frequency": "day",
       "long_name": "Total Soil Wetness",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrsow",
       "positive": "",
       "provenance": {
@@ -1056,7 +1120,9 @@
       ],
       "frequency": "day",
       "long_name": "Terrestrial Water Storage",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrtws",
       "positive": "",
       "provenance": {
@@ -1088,7 +1154,9 @@
       ],
       "frequency": "day",
       "long_name": "Nudging Increment of Water in Soil Moisture",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "nudgincsm",
       "positive": "",
       "provenance": {
@@ -1120,7 +1188,9 @@
       ],
       "frequency": "day",
       "long_name": "Nudging Increment of Water in Snow",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "nudgincswe",
       "positive": "",
       "provenance": {
@@ -1152,7 +1222,9 @@
       ],
       "frequency": "day",
       "long_name": "Precipitation onto Canopy",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "prveg",
       "positive": "",
       "provenance": {
@@ -1184,7 +1256,9 @@
       ],
       "frequency": "day",
       "long_name": "Groundwater Recharge from Soil Layer",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "qgwr",
       "positive": "",
       "provenance": {
@@ -1216,7 +1290,9 @@
       ],
       "frequency": "day",
       "long_name": "River Inflow",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "rivi",
       "positive": "",
       "provenance": {
@@ -1248,7 +1324,9 @@
       ],
       "frequency": "day",
       "long_name": "River Discharge",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "rivo",
       "positive": "",
       "provenance": {
@@ -1280,7 +1358,9 @@
       ],
       "frequency": "day",
       "long_name": "Root Zone Soil Moisture",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "rzwc",
       "positive": "",
       "provenance": {
@@ -1312,7 +1392,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Water Storage",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "sw",
       "positive": "",
       "provenance": {
@@ -1344,7 +1426,9 @@
       ],
       "frequency": "day",
       "long_name": "Vegetation Canopy Temperature",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "tcs",
       "positive": "",
       "provenance": {
@@ -1376,7 +1460,9 @@
       ],
       "frequency": "day",
       "long_name": "Temperature of Bare Soil",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "tgs",
       "positive": "",
       "provenance": {
@@ -1408,7 +1494,9 @@
       ],
       "frequency": "day",
       "long_name": "Transpiration",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "tran",
       "positive": "up",
       "provenance": {
@@ -1441,7 +1529,9 @@
       ],
       "frequency": "day",
       "long_name": "Temperature of Soil",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "tsl",
       "positive": "",
       "provenance": {
@@ -1473,7 +1563,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Temperature Where Land or Sea Ice",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "tslsi",
       "positive": "",
       "provenance": {
@@ -1505,7 +1597,9 @@
       ],
       "frequency": "day",
       "long_name": "Water Table Depth",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "wtd",
       "positive": "",
       "provenance": {

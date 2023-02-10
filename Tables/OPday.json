@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 7ba37f5de3337ec3ae329a9c0ca71a6d",
+    "checksum": "md5: 5b2246d3ba1a33c6a20a33cec93ee3d1",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "day",
       "long_name": "Ocean Mixed Layer Thickness Defined by Sigma T",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "mlotst",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "day",
       "long_name": "Mean Daily Maximum Ocean Mixed Layer Thickness Defined by Mixing Scheme",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "omldamax",
       "positive": "",
       "provenance": {
@@ -89,7 +93,9 @@
       ],
       "frequency": "day",
       "long_name": "Sea Surface Salinity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "sos",
       "positive": "",
       "provenance": {
@@ -121,7 +127,9 @@
       ],
       "frequency": "day",
       "long_name": "Square of Sea Surface Salinity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "sossq",
       "positive": "",
       "provenance": {
@@ -153,7 +161,9 @@
       ],
       "frequency": "day",
       "long_name": "Depth of 20 degree Celsius Isotherm",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "t20d",
       "positive": "",
       "provenance": {
@@ -185,7 +195,9 @@
       ],
       "frequency": "day",
       "long_name": "Sea Surface Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tos",
       "positive": "",
       "provenance": {
@@ -217,7 +229,9 @@
       ],
       "frequency": "day",
       "long_name": "Square of Sea Surface Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tossq",
       "positive": "",
       "provenance": {

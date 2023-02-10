@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 5aa94cc9926bb5c3aa965d15e93f6200",
+    "checksum": "md5: 07649d39292109a6fb489fbbca406123",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "1hrCM",
       "long_name": "TOA Outgoing Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlut",
       "positive": "up",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "1hrCM",
       "long_name": "TOA Outgoing Clear-Sky Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlutcs",
       "positive": "up",
       "provenance": {
@@ -89,7 +93,9 @@
       ],
       "frequency": "1hrCM",
       "long_name": "TOA Incident Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsdt",
       "positive": "down",
       "provenance": {
@@ -121,7 +127,9 @@
       ],
       "frequency": "1hrCM",
       "long_name": "TOA Outgoing Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsut",
       "positive": "up",
       "provenance": {
@@ -153,7 +161,9 @@
       ],
       "frequency": "1hrCM",
       "long_name": "TOA Outgoing Clear-Sky Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsutcs",
       "positive": "up",
       "provenance": {

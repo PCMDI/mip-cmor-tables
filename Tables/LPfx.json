@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 756c56055bda9b46f70d7acc3a491279",
+    "checksum": "md5: 55eda37b75730fbbff6abd40fae1e74e",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -24,7 +24,9 @@
       ],
       "frequency": "fx",
       "long_name": "Grid-Cell Area for River Model Variables",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "areacellr",
       "positive": "",
       "provenance": {
@@ -56,7 +58,9 @@
       ],
       "frequency": "fx",
       "long_name": "Clay Fraction",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "clayfrac",
       "positive": "",
       "provenance": {
@@ -88,7 +92,9 @@
       ],
       "frequency": "fx",
       "long_name": "Field Capacity",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "fldcapacity",
       "positive": "",
       "provenance": {
@@ -120,7 +126,9 @@
       ],
       "frequency": "fx",
       "long_name": "Saturated Hydraulic Conductivity",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "ksat",
       "positive": "",
       "provenance": {
@@ -151,7 +159,9 @@
       ],
       "frequency": "fx",
       "long_name": "Capacity of Soil to Store Water (Field Capacity)",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrsofc",
       "positive": "",
       "provenance": {
@@ -182,7 +192,9 @@
       ],
       "frequency": "fx",
       "long_name": "Surface Altitude",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "orog",
       "positive": "",
       "provenance": {
@@ -213,7 +225,9 @@
       ],
       "frequency": "fx",
       "long_name": "Maximum Root Depth",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "rootd",
       "positive": "",
       "provenance": {
@@ -245,7 +259,9 @@
       ],
       "frequency": "fx",
       "long_name": "Root Distribution",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "rootdsl",
       "positive": "",
       "provenance": {
@@ -277,7 +293,9 @@
       ],
       "frequency": "fx",
       "long_name": "Sand Fraction",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "sandfrac",
       "positive": "",
       "provenance": {
@@ -308,7 +326,9 @@
       ],
       "frequency": "fx",
       "long_name": "Land Ice Area Percentage",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "sftgif",
       "positive": "",
       "provenance": {
@@ -340,7 +360,9 @@
       ],
       "frequency": "fx",
       "long_name": "Thickness of Soil Layers",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "slthick",
       "positive": "",
       "provenance": {
@@ -371,7 +393,9 @@
       ],
       "frequency": "fx",
       "long_name": "Height of the Vegetation Canopy",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "vegHeight",
       "positive": "",
       "provenance": {
@@ -403,7 +427,9 @@
       ],
       "frequency": "fx",
       "long_name": "Wilting Point",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "wilt",
       "positive": "",
       "provenance": {

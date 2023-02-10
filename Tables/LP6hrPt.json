@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 48aad9e752b3c701e8a2114042e1cab3",
+    "checksum": "md5: cb4dd30153de2eae964770ef661a1d3c",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -26,7 +26,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Total Water Content of Soil Layer",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrsol",
       "positive": "",
       "provenance": {
@@ -59,7 +61,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Moisture in Upper Portion of Soil Column",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "mrsos",
       "positive": "",
       "provenance": {
@@ -92,7 +96,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Temperature of Soil",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "tsl",
       "positive": "",
       "provenance": {

@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 8cd5dedb23539ccb68494bc3af86a63a",
+    "checksum": "md5: 8b97818eea4cf662af5725fd74842304",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -24,7 +24,9 @@
       ],
       "frequency": "fx",
       "long_name": "Grid-Cell Area for Ice Sheet Variables",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "areacellg",
       "positive": "",
       "provenance": {
@@ -55,7 +57,9 @@
       ],
       "frequency": "fx",
       "long_name": "Geothermal Heat Flux Beneath Land Ice",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "hfgeoubed",
       "positive": "",
       "provenance": {
@@ -86,7 +90,9 @@
       ],
       "frequency": "fx",
       "long_name": "Ice Sheet Thickness",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "lithk",
       "positive": "",
       "provenance": {
@@ -117,7 +123,9 @@
       ],
       "frequency": "fx",
       "long_name": "Bedrock Altitude",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "topg",
       "positive": "",
       "provenance": {

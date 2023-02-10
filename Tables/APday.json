@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 22889cbe959cfdc077fdff1c2502728f",
+    "checksum": "md5: a343a605a972e4252f15c4d95c92c153",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "day",
       "long_name": "ISCCP Mean Cloud Albedo",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "albisccp",
       "positive": "",
       "provenance": {
@@ -58,7 +60,9 @@
       ],
       "frequency": "day",
       "long_name": "Aerosol Optical Depth at 550nm Due to Stratospheric Volcanic Aerosols",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "aod550volso4",
       "positive": "",
       "provenance": {
@@ -90,7 +94,9 @@
       ],
       "frequency": "day",
       "long_name": "Air Pressure at Convective Cloud Base",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ccb",
       "positive": "",
       "provenance": {
@@ -122,7 +128,9 @@
       ],
       "frequency": "day",
       "long_name": "Cloud Droplet Number Concentration of Convective Cloud Tops",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ccldncl",
       "positive": "",
       "provenance": {
@@ -154,7 +162,9 @@
       ],
       "frequency": "day",
       "long_name": "Air Pressure at Convective Cloud Top",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "cct",
       "positive": "",
       "provenance": {
@@ -187,7 +197,9 @@
       ],
       "frequency": "day",
       "long_name": "CALIPSO Percentage Cloud Cover",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clcalipso",
       "positive": "",
       "provenance": {
@@ -219,7 +231,9 @@
       ],
       "frequency": "day",
       "long_name": "Ice Crystal Number Concentration of Cloud Tops",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "cldnci",
       "positive": "",
       "provenance": {
@@ -251,7 +265,9 @@
       ],
       "frequency": "day",
       "long_name": "Column Integrated Cloud Droplet Number",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "cldnvi",
       "positive": "",
       "provenance": {
@@ -284,7 +300,9 @@
       ],
       "frequency": "day",
       "long_name": "CALIPSO High Level Cloud Area Percentage",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clhcalipso",
       "positive": "",
       "provenance": {
@@ -318,7 +336,9 @@
       ],
       "frequency": "day",
       "long_name": "ISCCP Cloud Area Percentage",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clisccp",
       "positive": "",
       "provenance": {
@@ -350,7 +370,9 @@
       ],
       "frequency": "day",
       "long_name": "Ice Water Path",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clivi",
       "positive": "",
       "provenance": {
@@ -382,7 +404,9 @@
       ],
       "frequency": "day",
       "long_name": "Convective Ice Water Path",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clivic",
       "positive": "",
       "provenance": {
@@ -415,7 +439,9 @@
       ],
       "frequency": "day",
       "long_name": "CALIPSO Low Level Cloud Cover Percentage",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "cllcalipso",
       "positive": "",
       "provenance": {
@@ -448,7 +474,9 @@
       ],
       "frequency": "day",
       "long_name": "CALIPSO Mid Level Cloud Cover Percentage",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clmcalipso",
       "positive": "",
       "provenance": {
@@ -480,7 +508,9 @@
       ],
       "frequency": "day",
       "long_name": "Total Cloud Cover Percentage",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clt",
       "positive": "",
       "provenance": {
@@ -512,7 +542,9 @@
       ],
       "frequency": "day",
       "long_name": "CALIPSO Total Cloud Cover Percentage",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "cltcalipso",
       "positive": "",
       "provenance": {
@@ -544,7 +576,9 @@
       ],
       "frequency": "day",
       "long_name": "ISCCP Total Cloud Cover Percentage",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "cltisccp",
       "positive": "",
       "provenance": {
@@ -576,7 +610,9 @@
       ],
       "frequency": "day",
       "long_name": "Condensed Water Path",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clwvi",
       "positive": "",
       "provenance": {
@@ -608,7 +644,9 @@
       ],
       "frequency": "day",
       "long_name": "Convective Condensed Water Path",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clwvic",
       "positive": "",
       "provenance": {
@@ -640,7 +678,9 @@
       ],
       "frequency": "day",
       "long_name": "Downward Heat Flux at Land Surface",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hfdsl",
       "positive": "down",
       "provenance": {
@@ -672,7 +712,9 @@
       ],
       "frequency": "day",
       "long_name": "Downward Heat Flux at Snow Base",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hfdsnb",
       "positive": "down",
       "provenance": {
@@ -704,7 +746,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Upward Latent Heat Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hfls",
       "positive": "up",
       "provenance": {
@@ -736,7 +780,9 @@
       ],
       "frequency": "day",
       "long_name": "Energy of Fusion",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hfmlt",
       "positive": "",
       "provenance": {
@@ -768,7 +814,9 @@
       ],
       "frequency": "day",
       "long_name": "Heat Transferred to Snowpack by Rainfall",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hfrs",
       "positive": "down",
       "provenance": {
@@ -800,7 +848,9 @@
       ],
       "frequency": "day",
       "long_name": "Energy of Sublimation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hfsbl",
       "positive": "",
       "provenance": {
@@ -832,7 +882,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Upward Sensible Heat Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hfss",
       "positive": "up",
       "provenance": {
@@ -865,7 +917,9 @@
       ],
       "frequency": "day",
       "long_name": "Relative Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hur",
       "positive": "",
       "provenance": {
@@ -898,7 +952,9 @@
       ],
       "frequency": "day",
       "long_name": "Near-Surface Relative Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hurs",
       "positive": "",
       "provenance": {
@@ -931,7 +987,9 @@
       ],
       "frequency": "day",
       "long_name": "Daily Maximum Near-Surface Relative Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hursmax",
       "positive": "",
       "provenance": {
@@ -964,7 +1022,9 @@
       ],
       "frequency": "day",
       "long_name": "Daily Minimum Near-Surface Relative Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hursmin",
       "positive": "",
       "provenance": {
@@ -997,7 +1057,9 @@
       ],
       "frequency": "day",
       "long_name": "Daily Minimum Near-Surface Relative Humidity over Crop Tile",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hursminCrop",
       "positive": "",
       "provenance": {
@@ -1030,7 +1092,9 @@
       ],
       "frequency": "day",
       "long_name": "Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hus19",
       "positive": "",
       "provenance": {
@@ -1063,7 +1127,9 @@
       ],
       "frequency": "day",
       "long_name": "Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hus8",
       "positive": "",
       "provenance": {
@@ -1096,7 +1162,9 @@
       ],
       "frequency": "day",
       "long_name": "Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hus850",
       "positive": "",
       "provenance": {
@@ -1129,7 +1197,9 @@
       ],
       "frequency": "day",
       "long_name": "Near-Surface Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "huss",
       "positive": "",
       "provenance": {
@@ -1163,7 +1233,9 @@
       ],
       "frequency": "day",
       "long_name": "MODIS Joint Distribution of Optical Thickness and Particle Size, Ice",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "jpdftaureicemodis",
       "positive": "",
       "provenance": {
@@ -1197,7 +1269,9 @@
       ],
       "frequency": "day",
       "long_name": "MODIS Optical Thickness-Particle Size Joint Distribution, Liquid",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "jpdftaureliqmodis",
       "positive": "",
       "provenance": {
@@ -1229,7 +1303,9 @@
       ],
       "frequency": "day",
       "long_name": "Load of Black Carbon Aerosol",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "loadbc",
       "positive": "",
       "provenance": {
@@ -1261,7 +1337,9 @@
       ],
       "frequency": "day",
       "long_name": "Load of Dust",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "loaddust",
       "positive": "",
       "provenance": {
@@ -1293,7 +1371,9 @@
       ],
       "frequency": "day",
       "long_name": "Load of NH4",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "loadnh4",
       "positive": "",
       "provenance": {
@@ -1325,7 +1405,9 @@
       ],
       "frequency": "day",
       "long_name": "Load of NO3",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "loadno3",
       "positive": "",
       "provenance": {
@@ -1357,7 +1439,9 @@
       ],
       "frequency": "day",
       "long_name": "Load of Dry Aerosol Organic Matter",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "loadoa",
       "positive": "",
       "provenance": {
@@ -1389,7 +1473,9 @@
       ],
       "frequency": "day",
       "long_name": "Load of Dry Aerosol Primary Organic Matter",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "loadpoa",
       "positive": "",
       "provenance": {
@@ -1421,7 +1507,9 @@
       ],
       "frequency": "day",
       "long_name": "Load of SO4",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "loadso4",
       "positive": "",
       "provenance": {
@@ -1453,7 +1541,9 @@
       ],
       "frequency": "day",
       "long_name": "Load of Dry Aerosol Secondary Organic Matter",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "loadsoa",
       "positive": "",
       "provenance": {
@@ -1485,7 +1575,9 @@
       ],
       "frequency": "day",
       "long_name": "Load of Sea-Salt Aerosol",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "loadss",
       "positive": "",
       "provenance": {
@@ -1518,7 +1610,9 @@
       ],
       "frequency": "day",
       "long_name": "PARASOL Reflectance",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "parasolRefl",
       "positive": "",
       "provenance": {
@@ -1550,7 +1644,9 @@
       ],
       "frequency": "day",
       "long_name": "ISCCP Mean Cloud Top Pressure",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "pctisccp",
       "positive": "",
       "provenance": {
@@ -1582,7 +1678,9 @@
       ],
       "frequency": "day",
       "long_name": "Precipitation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "pr",
       "positive": "",
       "provenance": {
@@ -1614,7 +1712,9 @@
       ],
       "frequency": "day",
       "long_name": "Precipitation over Crop Tile",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prCrop",
       "positive": "",
       "provenance": {
@@ -1646,7 +1746,9 @@
       ],
       "frequency": "day",
       "long_name": "Convective Precipitation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prc",
       "positive": "",
       "provenance": {
@@ -1678,7 +1780,9 @@
       ],
       "frequency": "day",
       "long_name": "Maximum Hourly Precipitation Rate",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prhmax",
       "positive": "",
       "provenance": {
@@ -1710,7 +1814,9 @@
       ],
       "frequency": "day",
       "long_name": "Rainfall Flux over Land",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prra",
       "positive": "",
       "provenance": {
@@ -1742,7 +1848,9 @@
       ],
       "frequency": "day",
       "long_name": "Convective Rainfall Rate",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prrc",
       "positive": "",
       "provenance": {
@@ -1774,7 +1882,9 @@
       ],
       "frequency": "day",
       "long_name": "Fraction of Rainfall on Snow",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prrsn",
       "positive": "",
       "provenance": {
@@ -1806,7 +1916,9 @@
       ],
       "frequency": "day",
       "long_name": "Snowfall Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prsn",
       "positive": "",
       "provenance": {
@@ -1838,7 +1950,9 @@
       ],
       "frequency": "day",
       "long_name": "Convective Snowfall Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prsnc",
       "positive": "",
       "provenance": {
@@ -1870,7 +1984,9 @@
       ],
       "frequency": "day",
       "long_name": "Fraction of Snowfall (Including Hail and Graupel) on Snow",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prsnsn",
       "positive": "",
       "provenance": {
@@ -1902,7 +2018,9 @@
       ],
       "frequency": "day",
       "long_name": "Water Vapor Path",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prw",
       "positive": "",
       "provenance": {
@@ -1934,7 +2052,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Air Pressure",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ps",
       "positive": "",
       "provenance": {
@@ -1966,7 +2086,9 @@
       ],
       "frequency": "day",
       "long_name": "Sea Level Pressure",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "psl",
       "positive": "",
       "provenance": {
@@ -1998,7 +2120,9 @@
       ],
       "frequency": "day",
       "long_name": "Cloud-Top Effective Droplet Radius in Convective Cloud",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffcclwtop",
       "positive": "",
       "provenance": {
@@ -2030,7 +2154,9 @@
       ],
       "frequency": "day",
       "long_name": "Cloud-Top Effective Droplet Radius in Stratiform Cloud",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffsclwtop",
       "positive": "",
       "provenance": {
@@ -2062,7 +2188,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Downwelling Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlds",
       "positive": "down",
       "provenance": {
@@ -2094,7 +2222,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Downwelling Clear-Sky Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rldscs",
       "positive": "down",
       "provenance": {
@@ -2126,7 +2256,9 @@
       ],
       "frequency": "day",
       "long_name": "Net Longwave Surface Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rls",
       "positive": "down",
       "provenance": {
@@ -2158,7 +2290,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Upwelling Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlus",
       "positive": "up",
       "provenance": {
@@ -2190,7 +2324,9 @@
       ],
       "frequency": "day",
       "long_name": "TOA Outgoing Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlut",
       "positive": "up",
       "provenance": {
@@ -2222,7 +2358,9 @@
       ],
       "frequency": "day",
       "long_name": "TOA Outgoing Clear-Sky Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlutcs",
       "positive": "up",
       "provenance": {
@@ -2254,7 +2392,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Downwelling Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsds",
       "positive": "down",
       "provenance": {
@@ -2286,7 +2426,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Downwelling Clear-Sky Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsdscs",
       "positive": "down",
       "provenance": {
@@ -2318,7 +2460,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Diffuse Downwelling Clear Sky Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsdscsdiff",
       "positive": "down",
       "provenance": {
@@ -2350,7 +2494,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Diffuse Downwelling Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsdsdiff",
       "positive": "down",
       "provenance": {
@@ -2382,7 +2528,9 @@
       ],
       "frequency": "day",
       "long_name": "TOA Incident Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsdt",
       "positive": "down",
       "provenance": {
@@ -2414,7 +2562,9 @@
       ],
       "frequency": "day",
       "long_name": "Net Shortwave Surface Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rss",
       "positive": "down",
       "provenance": {
@@ -2446,7 +2596,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Upwelling Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsus",
       "positive": "up",
       "provenance": {
@@ -2478,7 +2630,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Upwelling Clear-Sky Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsuscs",
       "positive": "up",
       "provenance": {
@@ -2510,7 +2664,9 @@
       ],
       "frequency": "day",
       "long_name": "TOA Outgoing Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsut",
       "positive": "up",
       "provenance": {
@@ -2542,7 +2698,9 @@
       ],
       "frequency": "day",
       "long_name": "TOA Outgoing Clear-Sky Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsutcs",
       "positive": "up",
       "provenance": {
@@ -2574,7 +2732,9 @@
       ],
       "frequency": "day",
       "long_name": "Sublimation of the Snow Free Area",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "sblnosn",
       "positive": "",
       "provenance": {
@@ -2606,7 +2766,9 @@
       ],
       "frequency": "day",
       "long_name": "Cloud Droplet Number Concentration of Stratiform Cloud Tops",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "scldncl",
       "positive": "",
       "provenance": {
@@ -2639,7 +2801,9 @@
       ],
       "frequency": "day",
       "long_name": "Daily-Mean Near-Surface Wind Speed",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "sfcWind",
       "positive": "",
       "provenance": {
@@ -2672,7 +2836,9 @@
       ],
       "frequency": "day",
       "long_name": "Daily Maximum Near-Surface Wind Speed",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "sfcWindmax",
       "positive": "",
       "provenance": {
@@ -2704,7 +2870,9 @@
       ],
       "frequency": "day",
       "long_name": "Water Flowing out of Snowpack",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "snmsl",
       "positive": "",
       "provenance": {
@@ -2736,7 +2904,9 @@
       ],
       "frequency": "day",
       "long_name": "Refreezing of Water in the Snow",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "snrefr",
       "positive": "",
       "provenance": {
@@ -2768,7 +2938,9 @@
       ],
       "frequency": "day",
       "long_name": "Snow Water Equivalent Intercepted by the Vegetation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "snwc",
       "positive": "",
       "provenance": {
@@ -2801,7 +2973,9 @@
       ],
       "frequency": "day",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta19",
       "positive": "",
       "provenance": {
@@ -2834,7 +3008,9 @@
       ],
       "frequency": "day",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta500",
       "positive": "",
       "provenance": {
@@ -2867,7 +3043,9 @@
       ],
       "frequency": "day",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta700",
       "positive": "",
       "provenance": {
@@ -2900,7 +3078,9 @@
       ],
       "frequency": "day",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta8",
       "positive": "",
       "provenance": {
@@ -2933,7 +3113,9 @@
       ],
       "frequency": "day",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta850",
       "positive": "",
       "provenance": {
@@ -2966,7 +3148,9 @@
       ],
       "frequency": "day",
       "long_name": "Near-Surface Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tas",
       "positive": "",
       "provenance": {
@@ -2999,7 +3183,9 @@
       ],
       "frequency": "day",
       "long_name": "Daily Maximum Near-Surface Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tasmax",
       "positive": "",
       "provenance": {
@@ -3032,7 +3218,9 @@
       ],
       "frequency": "day",
       "long_name": "Daily Maximum Near-Surface Air Temperature over Crop Tile",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tasmaxCrop",
       "positive": "",
       "provenance": {
@@ -3065,7 +3253,9 @@
       ],
       "frequency": "day",
       "long_name": "Daily Minimum Near-Surface Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tasmin",
       "positive": "",
       "provenance": {
@@ -3098,7 +3288,9 @@
       ],
       "frequency": "day",
       "long_name": "Daily Minimum Near-Surface Air Temperature over Crop Tile",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tasminCrop",
       "positive": "",
       "provenance": {
@@ -3130,7 +3322,9 @@
       ],
       "frequency": "day",
       "long_name": "Momentum Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tau",
       "positive": "",
       "provenance": {
@@ -3162,7 +3356,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Downward Eastward Wind Stress",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tauu",
       "positive": "down",
       "provenance": {
@@ -3194,7 +3390,9 @@
       ],
       "frequency": "day",
       "long_name": "Eastward Surface Stress from Planetary Boundary Layer Scheme",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tauupbl",
       "positive": "",
       "provenance": {
@@ -3226,7 +3424,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Downward Northward Wind Stress",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tauv",
       "positive": "down",
       "provenance": {
@@ -3258,7 +3458,9 @@
       ],
       "frequency": "day",
       "long_name": "Northward Surface Stress from Planetary Boundary Layer Scheme",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tauvpbl",
       "positive": "",
       "provenance": {
@@ -3290,7 +3492,9 @@
       ],
       "frequency": "day",
       "long_name": "2m Dewpoint Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tdps",
       "positive": "",
       "provenance": {
@@ -3322,7 +3526,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Radiative Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tr",
       "positive": "",
       "provenance": {
@@ -3354,7 +3560,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ts",
       "positive": "",
       "provenance": {
@@ -3386,7 +3594,9 @@
       ],
       "frequency": "day",
       "long_name": "Land Surface Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tsland",
       "positive": "",
       "provenance": {
@@ -3418,7 +3628,9 @@
       ],
       "frequency": "day",
       "long_name": "Snow Surface Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tsns",
       "positive": "",
       "provenance": {
@@ -3451,7 +3663,9 @@
       ],
       "frequency": "day",
       "long_name": "Eastward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ua19",
       "positive": "",
       "provenance": {
@@ -3484,7 +3698,9 @@
       ],
       "frequency": "day",
       "long_name": "Eastward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ua8",
       "positive": "",
       "provenance": {
@@ -3517,7 +3733,9 @@
       ],
       "frequency": "day",
       "long_name": "Eastward Near-Surface Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "uas",
       "positive": "",
       "provenance": {
@@ -3550,7 +3768,9 @@
       ],
       "frequency": "day",
       "long_name": "Northward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "va19",
       "positive": "",
       "provenance": {
@@ -3583,7 +3803,9 @@
       ],
       "frequency": "day",
       "long_name": "Northward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "va8",
       "positive": "",
       "provenance": {
@@ -3616,7 +3838,9 @@
       ],
       "frequency": "day",
       "long_name": "Northward Near-Surface Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "vas",
       "positive": "",
       "provenance": {
@@ -3649,7 +3873,9 @@
       ],
       "frequency": "day",
       "long_name": "Omega (=dp/dt)",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wap19",
       "positive": "",
       "provenance": {
@@ -3682,7 +3908,9 @@
       ],
       "frequency": "day",
       "long_name": "Pressure Tendency",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wap500",
       "positive": "",
       "provenance": {
@@ -3715,7 +3943,9 @@
       ],
       "frequency": "day",
       "long_name": "Omega (=dp/dt)",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wap8",
       "positive": "",
       "provenance": {
@@ -3748,7 +3978,9 @@
       ],
       "frequency": "day",
       "long_name": "Geopotential Height at 1000hPa",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zg1000",
       "positive": "",
       "provenance": {
@@ -3781,7 +4013,9 @@
       ],
       "frequency": "day",
       "long_name": "Geopotential Height",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zg19",
       "positive": "",
       "provenance": {
@@ -3814,7 +4048,9 @@
       ],
       "frequency": "day",
       "long_name": "Geopotential Height",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zg8",
       "positive": "",
       "provenance": {
@@ -3846,7 +4082,9 @@
       ],
       "frequency": "day",
       "long_name": "Height of Boundary Layer",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zmla",
       "positive": "",
       "provenance": {

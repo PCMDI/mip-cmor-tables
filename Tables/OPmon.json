@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: f6e81dad1c5833677353751fb08c429f",
+    "checksum": "md5: 90bb85f6bad5022452d9469c432936b6",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -23,7 +23,9 @@
       ],
       "frequency": "mon",
       "long_name": "Global Average Sea Water Conservative Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "bigthetaoga",
       "positive": "",
       "provenance": {
@@ -55,7 +57,9 @@
       ],
       "frequency": "mon",
       "long_name": "Water Evaporation Flux Where Ice Free Ocean over Sea",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "evs",
       "positive": "",
       "provenance": {
@@ -87,7 +91,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Downward CFC11 Flux",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "fgcfc11",
       "positive": "down",
       "provenance": {
@@ -119,7 +125,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Downward CFC12 Flux",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "fgcfc12",
       "positive": "down",
       "provenance": {
@@ -151,7 +159,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Downward SF6 Flux",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "fgsf6",
       "positive": "down",
       "provenance": {
@@ -183,7 +193,9 @@
       ],
       "frequency": "mon",
       "long_name": "Water Flux into Sea Water from Icebergs",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "ficeberg2d",
       "positive": "",
       "provenance": {
@@ -215,7 +227,9 @@
       ],
       "frequency": "mon",
       "long_name": "Water Flux into Sea Water from Land Ice",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "flandice",
       "positive": "",
       "provenance": {
@@ -247,7 +261,9 @@
       ],
       "frequency": "mon",
       "long_name": "Water Flux into Sea Water from Rivers",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "friver",
       "positive": "",
       "provenance": {
@@ -279,7 +295,10 @@
       ],
       "frequency": "mon",
       "long_name": "Water Flux into Sea Water Due to Sea Ice Thermodynamics",
-      "modeling_realm": "ocean seaIce",
+      "modeling_realm": [
+        "ocean",
+        "seaIce"
+      ],
       "out_name": "fsitherm",
       "positive": "",
       "provenance": {
@@ -311,7 +330,9 @@
       ],
       "frequency": "mon",
       "long_name": "Heat Flux Correction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfcorr",
       "positive": "down",
       "provenance": {
@@ -343,7 +364,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downward Heat Flux at Sea Water Surface",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfds",
       "positive": "down",
       "provenance": {
@@ -375,7 +398,9 @@
       ],
       "frequency": "mon",
       "long_name": "Temperature Flux Due to Evaporation Expressed as Heat Flux out of Sea Water",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfevapds",
       "positive": "up",
       "provenance": {
@@ -407,7 +432,9 @@
       ],
       "frequency": "mon",
       "long_name": "Upward Geothermal Heat Flux at Sea Floor",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfgeou",
       "positive": "up",
       "provenance": {
@@ -439,7 +466,9 @@
       ],
       "frequency": "mon",
       "long_name": "Heat Flux into Sea Water Due to Iceberg Thermodynamics",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfibthermds2d",
       "positive": "",
       "provenance": {
@@ -471,7 +500,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Downward Latent Heat Flux",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hflso",
       "positive": "down",
       "provenance": {
@@ -503,7 +534,9 @@
       ],
       "frequency": "mon",
       "long_name": "Temperature Flux Due to Rainfall Expressed as Heat Flux into Sea Water",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfrainds",
       "positive": "down",
       "provenance": {
@@ -535,7 +568,9 @@
       ],
       "frequency": "mon",
       "long_name": "Temperature Flux Due to Runoff Expressed as Heat Flux into Sea Water",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfrunoffds2d",
       "positive": "",
       "provenance": {
@@ -567,7 +602,10 @@
       ],
       "frequency": "mon",
       "long_name": "Heat Flux into Sea Water Due to Frazil Ice Formation",
-      "modeling_realm": "ocean seaIce",
+      "modeling_realm": [
+        "ocean",
+        "seaIce"
+      ],
       "out_name": "hfsifrazil2d",
       "positive": "",
       "provenance": {
@@ -599,7 +637,9 @@
       ],
       "frequency": "mon",
       "long_name": "Heat Flux into Sea Water Due to Snow Thermodynamics",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfsnthermds2d",
       "positive": "",
       "provenance": {
@@ -631,7 +671,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Downward Sensible Heat Flux",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfsso",
       "positive": "down",
       "provenance": {
@@ -663,7 +705,9 @@
       ],
       "frequency": "mon",
       "long_name": "Ocean Heat X Transport",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfx",
       "positive": "",
       "provenance": {
@@ -695,7 +739,9 @@
       ],
       "frequency": "mon",
       "long_name": "Ocean Heat Y Transport",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfy",
       "positive": "",
       "provenance": {
@@ -725,7 +771,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Water Mass",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "masso",
       "positive": "",
       "provenance": {
@@ -756,7 +804,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Water Transport",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "mfo",
       "positive": "",
       "provenance": {
@@ -788,7 +838,9 @@
       ],
       "frequency": "mon",
       "long_name": "Ocean Mixed Layer Thickness Defined by Sigma T",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "mlotst",
       "positive": "",
       "provenance": {
@@ -820,7 +872,9 @@
       ],
       "frequency": "mon",
       "long_name": "Maximum Ocean Mixed Layer Thickness Defined by Sigma T",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "mlotstmax",
       "positive": "",
       "provenance": {
@@ -852,7 +906,9 @@
       ],
       "frequency": "mon",
       "long_name": "Minimum Ocean Mixed Layer Thickness Defined by Sigma T",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "mlotstmin",
       "positive": "",
       "provenance": {
@@ -884,7 +940,9 @@
       ],
       "frequency": "mon",
       "long_name": "Square of Ocean Mixed Layer Thickness Defined by Sigma T",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "mlotstsq",
       "positive": "",
       "provenance": {
@@ -916,7 +974,9 @@
       ],
       "frequency": "mon",
       "long_name": "Ocean Barotropic Mass Streamfunction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "msftbarot",
       "positive": "",
       "provenance": {
@@ -949,7 +1009,9 @@
       ],
       "frequency": "mon",
       "long_name": "Ocean Y Overturning Mass Streamfunction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "msftyrho",
       "positive": "",
       "provenance": {
@@ -982,7 +1044,9 @@
       ],
       "frequency": "mon",
       "long_name": "Ocean Y Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "msftyrhompa",
       "positive": "",
       "provenance": {
@@ -1014,7 +1078,9 @@
       ],
       "frequency": "mon",
       "long_name": "Depth Integral of Product of Sea Water Density and Conservative Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "ocontempmint",
       "positive": "",
       "provenance": {
@@ -1046,7 +1112,9 @@
       ],
       "frequency": "mon",
       "long_name": "Integral with Respect to Depth of Product of Sea Water Density and Potential Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "opottempmint",
       "positive": "",
       "provenance": {
@@ -1078,7 +1146,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Water Pressure at Sea Floor",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "pbo",
       "positive": "",
       "provenance": {
@@ -1110,7 +1180,9 @@
       ],
       "frequency": "mon",
       "long_name": "Snowfall Flux where Ice Free Ocean over Sea",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "prsn",
       "positive": "",
       "provenance": {
@@ -1142,7 +1214,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Water Pressure at Sea Water Surface",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "pso",
       "positive": "",
       "provenance": {
@@ -1174,7 +1248,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Net Downward Longwave Radiation",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "rlntds",
       "positive": "down",
       "provenance": {
@@ -1206,7 +1282,9 @@
       ],
       "frequency": "mon",
       "long_name": "Net Downward Shortwave Radiation at Sea Water Surface",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "rsntds",
       "positive": "down",
       "provenance": {
@@ -1238,7 +1316,10 @@
       ],
       "frequency": "mon",
       "long_name": "Downward Sea Ice Basal Salt Flux",
-      "modeling_realm": "ocean seaIce",
+      "modeling_realm": [
+        "ocean",
+        "seaIce"
+      ],
       "out_name": "sfdsi",
       "positive": "down",
       "provenance": {
@@ -1270,7 +1351,9 @@
       ],
       "frequency": "mon",
       "long_name": "Salt Flux into Sea Water from Rivers",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "sfriver",
       "positive": "",
       "provenance": {
@@ -1302,7 +1385,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Water Salinity at Sea Floor",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "sob",
       "positive": "",
       "provenance": {
@@ -1332,7 +1417,9 @@
       ],
       "frequency": "mon",
       "long_name": "Global Mean Sea Water Salinity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "soga",
       "positive": "",
       "provenance": {
@@ -1364,7 +1451,9 @@
       ],
       "frequency": "mon",
       "long_name": "Depth Integral of Product of Sea Water Density and Prognostic Salinity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "somint",
       "positive": "",
       "provenance": {
@@ -1396,7 +1485,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Surface Salinity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "sos",
       "positive": "",
       "provenance": {
@@ -1426,7 +1517,9 @@
       ],
       "frequency": "mon",
       "long_name": "Global Average Sea Surface Salinity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "sosga",
       "positive": "",
       "provenance": {
@@ -1458,7 +1551,9 @@
       ],
       "frequency": "mon",
       "long_name": "Square of Sea Surface Salinity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "sossq",
       "positive": "",
       "provenance": {
@@ -1490,7 +1585,9 @@
       ],
       "frequency": "mon",
       "long_name": "Depth of 20 degree Celsius Isotherm",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "t20d",
       "positive": "",
       "provenance": {
@@ -1522,7 +1619,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Downward X Stress Correction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tauucorr",
       "positive": "down",
       "provenance": {
@@ -1554,7 +1653,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Water Surface Downward X Stress",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tauuo",
       "positive": "down",
       "provenance": {
@@ -1586,7 +1687,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Downward Y Stress Correction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tauvcorr",
       "positive": "down",
       "provenance": {
@@ -1618,7 +1721,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Water Surface Downward Y Stress",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tauvo",
       "positive": "down",
       "provenance": {
@@ -1648,7 +1753,9 @@
       ],
       "frequency": "mon",
       "long_name": "Global Average Sea Water Potential Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "thetaoga",
       "positive": "",
       "provenance": {
@@ -1680,7 +1787,9 @@
       ],
       "frequency": "mon",
       "long_name": "Vertically Averaged Sea Water Potential Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "thetaot",
       "positive": "",
       "provenance": {
@@ -1713,7 +1822,9 @@
       ],
       "frequency": "mon",
       "long_name": "Depth Average Potential Temperature of Upper 2000m",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "thetaot2000",
       "positive": "",
       "provenance": {
@@ -1746,7 +1857,9 @@
       ],
       "frequency": "mon",
       "long_name": "Depth Average Potential Temperature of Upper 300m",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "thetaot300",
       "positive": "",
       "provenance": {
@@ -1779,7 +1892,9 @@
       ],
       "frequency": "mon",
       "long_name": "Depth Average Potential Temperature of Upper 700m",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "thetaot700",
       "positive": "",
       "provenance": {
@@ -1811,7 +1926,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Water Potential Temperature at Sea Floor",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tob",
       "positive": "",
       "provenance": {
@@ -1843,7 +1960,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Surface Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tos",
       "positive": "",
       "provenance": {
@@ -1873,7 +1992,9 @@
       ],
       "frequency": "mon",
       "long_name": "Global Average Sea Surface Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tosga",
       "positive": "",
       "provenance": {
@@ -1905,7 +2026,9 @@
       ],
       "frequency": "mon",
       "long_name": "Square of Sea Surface Temperature",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "tossq",
       "positive": "",
       "provenance": {
@@ -1935,7 +2058,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Water Volume",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "volo",
       "positive": "",
       "provenance": {
@@ -1967,7 +2092,9 @@
       ],
       "frequency": "mon",
       "long_name": "Virtual Salt Flux into Sea Water",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "vsf",
       "positive": "",
       "provenance": {
@@ -1999,7 +2126,9 @@
       ],
       "frequency": "mon",
       "long_name": "Virtual Salt Flux Correction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "vsfcorr",
       "positive": "",
       "provenance": {
@@ -2031,7 +2160,9 @@
       ],
       "frequency": "mon",
       "long_name": "Virtual Salt Flux into Sea Water Due to Evaporation",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "vsfevap",
       "positive": "",
       "provenance": {
@@ -2063,7 +2194,9 @@
       ],
       "frequency": "mon",
       "long_name": "Virtual Salt Flux into Sea Water Due to Rainfall",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "vsfpr",
       "positive": "",
       "provenance": {
@@ -2095,7 +2228,9 @@
       ],
       "frequency": "mon",
       "long_name": "Virtual Salt Flux into Sea Water from Rivers",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "vsfriver",
       "positive": "",
       "provenance": {
@@ -2127,7 +2262,10 @@
       ],
       "frequency": "mon",
       "long_name": "Virtual Salt Flux into Sea Water Due to Sea Ice Thermodynamics",
-      "modeling_realm": "ocean seaIce",
+      "modeling_realm": [
+        "ocean",
+        "seaIce"
+      ],
       "out_name": "vsfsit",
       "positive": "",
       "provenance": {
@@ -2159,7 +2297,9 @@
       ],
       "frequency": "mon",
       "long_name": "Water Flux Correction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "wfcorr",
       "positive": "down",
       "provenance": {
@@ -2191,7 +2331,9 @@
       ],
       "frequency": "mon",
       "long_name": "Water Flux into Sea Water",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "wfo",
       "positive": "",
       "provenance": {
@@ -2223,7 +2365,9 @@
       ],
       "frequency": "mon",
       "long_name": "Water Flux into Sea Water Without Flux Correction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "wfonocorr",
       "positive": "",
       "provenance": {
@@ -2255,7 +2399,9 @@
       ],
       "frequency": "mon",
       "long_name": "Sea Surface Height Above Geoid",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "zos",
       "positive": "",
       "provenance": {
@@ -2287,7 +2433,9 @@
       ],
       "frequency": "mon",
       "long_name": "Square of Sea Surface Height Above Geoid",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "zossq",
       "positive": "",
       "provenance": {
@@ -2317,7 +2465,9 @@
       ],
       "frequency": "mon",
       "long_name": "Global Average Thermosteric Sea Level Change",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "zostoga",
       "positive": "",
       "provenance": {

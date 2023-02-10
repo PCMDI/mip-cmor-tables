@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: e1f883b93a245ac7a2ce4ca421672260",
+    "checksum": "md5: b2e8ad271c7871ffd378adb903704864",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Mass Balance Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "acabf",
       "positive": "",
       "provenance": {
@@ -57,7 +59,10 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Upward Latent Heat Flux",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "hfls",
       "positive": "up",
       "provenance": {
@@ -89,7 +94,10 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Upward Sensible Heat Flux",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "hfss",
       "positive": "up",
       "provenance": {
@@ -121,7 +129,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Ice Melt Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "icem",
       "positive": "",
       "provenance": {
@@ -153,7 +163,9 @@
       ],
       "frequency": "mon",
       "long_name": "Basal Specific Mass Balance Flux of Floating Ice Shelf",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "libmassbffl",
       "positive": "",
       "provenance": {
@@ -185,7 +197,9 @@
       ],
       "frequency": "mon",
       "long_name": "Basal Specific Mass Balance Flux of Grounded Ice Sheet",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "libmassbfgr",
       "positive": "",
       "provenance": {
@@ -217,7 +231,9 @@
       ],
       "frequency": "mon",
       "long_name": "Land Ice Calving Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "licalvf",
       "positive": "",
       "provenance": {
@@ -249,7 +265,9 @@
       ],
       "frequency": "mon",
       "long_name": "Land Ice Vertical Front Mass Balance Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "lifmassbf",
       "positive": "",
       "provenance": {
@@ -281,7 +299,9 @@
       ],
       "frequency": "mon",
       "long_name": "Basal Temperature of Floating Ice Shelf",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "litempbotfl",
       "positive": "",
       "provenance": {
@@ -313,7 +333,9 @@
       ],
       "frequency": "mon",
       "long_name": "Basal Temperature of Grounded Ice Sheet",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "litempbotgr",
       "positive": "",
       "provenance": {
@@ -345,7 +367,9 @@
       ],
       "frequency": "mon",
       "long_name": "Temperature at Top of Ice Sheet Model",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "litemptop",
       "positive": "",
       "provenance": {
@@ -377,7 +401,10 @@
       ],
       "frequency": "mon",
       "long_name": "Land Ice Runoff Flux",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "mrroLi",
       "positive": "",
       "provenance": {
@@ -409,7 +436,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Altitude",
-      "modeling_realm": "land",
+      "modeling_realm": [
+        "land"
+      ],
       "out_name": "orog",
       "positive": "",
       "provenance": {
@@ -441,7 +470,10 @@
       ],
       "frequency": "mon",
       "long_name": "Rainfall Flux over Land Ice",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "prra",
       "positive": "",
       "provenance": {
@@ -473,7 +505,10 @@
       ],
       "frequency": "mon",
       "long_name": "Snowfall Flux",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "prsn",
       "positive": "",
       "provenance": {
@@ -505,7 +540,10 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Downwelling Longwave Radiation",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "rlds",
       "positive": "down",
       "provenance": {
@@ -537,7 +575,10 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Upwelling Longwave Radiation",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "rlus",
       "positive": "up",
       "provenance": {
@@ -569,7 +610,10 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Downwelling Shortwave Radiation",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "rsds",
       "positive": "down",
       "provenance": {
@@ -601,7 +645,10 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Upwelling Shortwave Radiation",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "rsus",
       "positive": "up",
       "provenance": {
@@ -633,7 +680,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Snow and Ice Sublimation Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "sbl",
       "positive": "",
       "provenance": {
@@ -665,7 +714,10 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Area Percentage",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "snc",
       "positive": "",
       "provenance": {
@@ -697,7 +749,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Snow and Ice Refreeze Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "snicefreez",
       "positive": "",
       "provenance": {
@@ -729,7 +783,9 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Snow and Ice Melt Flux",
-      "modeling_realm": "landIce",
+      "modeling_realm": [
+        "landIce"
+      ],
       "out_name": "snicem",
       "positive": "",
       "provenance": {
@@ -761,7 +817,10 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Snow Melt",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "snm",
       "positive": "",
       "provenance": {
@@ -792,7 +851,10 @@
       ],
       "frequency": "mon",
       "long_name": "Near-Surface Air Temperature",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "tas",
       "positive": "",
       "provenance": {
@@ -824,7 +886,10 @@
       ],
       "frequency": "mon",
       "long_name": "Surface Temperature",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "ts",
       "positive": "",
       "provenance": {
@@ -856,7 +921,10 @@
       ],
       "frequency": "mon",
       "long_name": "Snow Internal Temperature",
-      "modeling_realm": "landIce land",
+      "modeling_realm": [
+        "landIce",
+        "land"
+      ],
       "out_name": "tsn",
       "positive": "",
       "provenance": {

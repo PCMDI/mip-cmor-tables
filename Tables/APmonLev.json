@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 1f19f557ebf1bde1020d3b63470a960e",
+    "checksum": "md5: 0c9abca8ed44dfda7d47e817e1a2dd18",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
@@ -29,7 +29,9 @@
       ],
       "frequency": "mon",
       "long_name": "Percentage Cloud Cover",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "cl",
       "positive": "",
       "provenance": {
@@ -62,7 +64,9 @@
       ],
       "frequency": "mon",
       "long_name": "Convective Cloud Area Percentage",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clc",
       "positive": "",
       "provenance": {
@@ -95,7 +99,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass Fraction of Cloud Ice",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "cli",
       "positive": "",
       "provenance": {
@@ -128,7 +134,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass Fraction of Convective Cloud Ice",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clic",
       "positive": "",
       "provenance": {
@@ -161,7 +169,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass Fraction of Stratiform Cloud Ice",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clis",
       "positive": "",
       "provenance": {
@@ -194,7 +204,9 @@
       ],
       "frequency": "mon",
       "long_name": "Percentage Cover of Stratiform Cloud",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "cls",
       "positive": "",
       "provenance": {
@@ -227,7 +239,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass Fraction of Cloud Liquid Water",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clw",
       "positive": "",
       "provenance": {
@@ -260,7 +274,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass Fraction of Convective Cloud Liquid Water",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clwc",
       "positive": "",
       "provenance": {
@@ -293,7 +309,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass Fraction of Stratiform Cloud Liquid Water",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "clws",
       "positive": "",
       "provenance": {
@@ -326,7 +344,9 @@
       ],
       "frequency": "mon",
       "long_name": "3D-Field of Transported CO2",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "co23D",
       "positive": "",
       "provenance": {
@@ -359,7 +379,9 @@
       ],
       "frequency": "mon",
       "long_name": "Number Concentration Coarse Mode Aerosol",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "conccmcn",
       "positive": "",
       "provenance": {
@@ -392,7 +414,9 @@
       ],
       "frequency": "mon",
       "long_name": "Aerosol Number Concentration",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "conccn",
       "positive": "",
       "provenance": {
@@ -425,7 +449,9 @@
       ],
       "frequency": "mon",
       "long_name": "Concentration of Dust",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "concdust",
       "positive": "",
       "provenance": {
@@ -458,7 +484,9 @@
       ],
       "frequency": "mon",
       "long_name": "Number Concentration of Nucleation Mode Aerosol",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "concnmcn",
       "positive": "",
       "provenance": {
@@ -491,7 +519,9 @@
       ],
       "frequency": "mon",
       "long_name": "Deep Convective Mass Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "dmc",
       "positive": "up",
       "provenance": {
@@ -524,7 +554,9 @@
       ],
       "frequency": "mon",
       "long_name": "Eddy Diffusivity Coefficient for Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "edt",
       "positive": "",
       "provenance": {
@@ -557,7 +589,9 @@
       ],
       "frequency": "mon",
       "long_name": "Eddy Viscosity Coefficient for Momentum",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "evu",
       "positive": "",
       "provenance": {
@@ -590,7 +624,9 @@
       ],
       "frequency": "mon",
       "long_name": "Relative Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hur",
       "positive": "",
       "provenance": {
@@ -623,7 +659,9 @@
       ],
       "frequency": "mon",
       "long_name": "Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hus",
       "positive": "",
       "provenance": {
@@ -656,7 +694,9 @@
       ],
       "frequency": "mon",
       "long_name": "Convective Mass Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "mc",
       "positive": "up",
       "provenance": {
@@ -689,7 +729,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downdraft Convective Mass Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "mcd",
       "positive": "down",
       "provenance": {
@@ -722,7 +764,9 @@
       ],
       "frequency": "mon",
       "long_name": "Convective Updraft Mass Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "mcu",
       "positive": "up",
       "provenance": {
@@ -755,7 +799,9 @@
       ],
       "frequency": "mon",
       "long_name": "Wet Diameter Mode Coarse Insoluble",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "md",
       "positive": "",
       "provenance": {
@@ -788,7 +834,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass of Water Vapor Containing Oxygen-17 (H2 17O) in Layer",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prw17O",
       "positive": "",
       "provenance": {
@@ -821,7 +869,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mass of Water Containing Deuterium (1H 2H O) in Layer",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prw2H",
       "positive": "",
       "provenance": {
@@ -854,7 +904,9 @@
       ],
       "frequency": "mon",
       "long_name": "Hydrometeor Effective Radius of Convective Cloud Ice",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffclic",
       "positive": "",
       "provenance": {
@@ -887,7 +939,9 @@
       ],
       "frequency": "mon",
       "long_name": "Hydrometeor Effective Radius of Stratiform Cloud Ice",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffclis",
       "positive": "",
       "provenance": {
@@ -920,7 +974,9 @@
       ],
       "frequency": "mon",
       "long_name": "Convective Cloud Liquid Droplet Effective Radius",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffclwc",
       "positive": "",
       "provenance": {
@@ -953,7 +1009,9 @@
       ],
       "frequency": "mon",
       "long_name": "Stratiform Cloud Liquid Droplet Effective Radius",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "reffclws",
       "positive": "",
       "provenance": {
@@ -986,7 +1044,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downwelling Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rld",
       "positive": "down",
       "provenance": {
@@ -1019,7 +1079,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downwelling Longwave Radiation 4XCO2 Atmosphere",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rld4co2",
       "positive": "down",
       "provenance": {
@@ -1052,7 +1114,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downwelling Clear-Sky Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rldcs",
       "positive": "down",
       "provenance": {
@@ -1085,7 +1149,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downwelling Clear-Sky Longwave Radiation 4XCO2 Atmosphere",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rldcs4co2",
       "positive": "down",
       "provenance": {
@@ -1118,7 +1184,9 @@
       ],
       "frequency": "mon",
       "long_name": "Upwelling Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlu",
       "positive": "up",
       "provenance": {
@@ -1151,7 +1219,9 @@
       ],
       "frequency": "mon",
       "long_name": "Upwelling Longwave Radiation 4XCO2 Atmosphere",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlu4co2",
       "positive": "up",
       "provenance": {
@@ -1184,7 +1254,9 @@
       ],
       "frequency": "mon",
       "long_name": "Upwelling Clear-Sky Longwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlucs",
       "positive": "up",
       "provenance": {
@@ -1217,7 +1289,9 @@
       ],
       "frequency": "mon",
       "long_name": "Upwelling Clear-Sky Longwave Radiation 4XCO2 Atmosphere",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rlucs4co2",
       "positive": "up",
       "provenance": {
@@ -1250,7 +1324,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downwelling Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsd",
       "positive": "down",
       "provenance": {
@@ -1283,7 +1359,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downwelling Shortwave Radiation 4XCO2 Atmosphere",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsd4co2",
       "positive": "down",
       "provenance": {
@@ -1316,7 +1394,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downwelling Clear-Sky Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsdcs",
       "positive": "down",
       "provenance": {
@@ -1349,7 +1429,9 @@
       ],
       "frequency": "mon",
       "long_name": "Downwelling Clear-Sky Shortwave Radiation 4XCO2 Atmosphere",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsdcs4co2",
       "positive": "down",
       "provenance": {
@@ -1382,7 +1464,9 @@
       ],
       "frequency": "mon",
       "long_name": "Upwelling Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsu",
       "positive": "up",
       "provenance": {
@@ -1415,7 +1499,9 @@
       ],
       "frequency": "mon",
       "long_name": "Upwelling Shortwave Radiation 4XCO2 Atmosphere",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsu4co2",
       "positive": "up",
       "provenance": {
@@ -1448,7 +1534,9 @@
       ],
       "frequency": "mon",
       "long_name": "Upwelling Clear-Sky Shortwave Radiation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsucs",
       "positive": "up",
       "provenance": {
@@ -1481,7 +1569,9 @@
       ],
       "frequency": "mon",
       "long_name": "Upwelling Clear-Sky Shortwave Radiation 4XCO2 Atmosphere",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rsucs4co2",
       "positive": "up",
       "provenance": {
@@ -1514,7 +1604,9 @@
       ],
       "frequency": "mon",
       "long_name": "Shallow Convective Mass Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "smc",
       "positive": "up",
       "provenance": {
@@ -1547,7 +1639,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mean-Squared Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "t2",
       "positive": "",
       "provenance": {
@@ -1580,7 +1674,9 @@
       ],
       "frequency": "mon",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta",
       "positive": "",
       "provenance": {
@@ -1613,7 +1709,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tnhus",
       "positive": "",
       "provenance": {
@@ -1646,7 +1744,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Specific Humidity Due to Advection",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tnhusa",
       "positive": "",
       "provenance": {
@@ -1679,7 +1779,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Specific Humidity Due to Convection",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tnhusc",
       "positive": "",
       "provenance": {
@@ -1712,7 +1814,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Specific Humidity Due to Numerical Diffusion",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tnhusd",
       "positive": "",
       "provenance": {
@@ -1745,7 +1849,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Specific Humidity Due to Model Physics",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tnhusmp",
       "positive": "",
       "provenance": {
@@ -1778,7 +1884,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Specific Humidity Due to Boundary Layer Mixing",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tnhuspbl",
       "positive": "",
       "provenance": {
@@ -1811,7 +1919,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Specific Humidity Due to Stratiform Clouds and Precipitation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tnhusscp",
       "positive": "",
       "provenance": {
@@ -1844,7 +1954,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Specific Humidity Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tnhusscpbl",
       "positive": "",
       "provenance": {
@@ -1877,7 +1989,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tnt",
       "positive": "",
       "provenance": {
@@ -1910,7 +2024,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Advection",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tnta",
       "positive": "",
       "provenance": {
@@ -1943,7 +2059,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Convection",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntc",
       "positive": "",
       "provenance": {
@@ -1976,7 +2094,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Numerical Diffusion",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntd",
       "positive": "",
       "provenance": {
@@ -2009,7 +2129,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Model Physics",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntmp",
       "positive": "",
       "provenance": {
@@ -2042,7 +2164,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Boundary Layer Mixing",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntpbl",
       "positive": "",
       "provenance": {
@@ -2075,7 +2199,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Radiative Heating",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntr",
       "positive": "",
       "provenance": {
@@ -2108,7 +2234,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Clear Sky Longwave Radiative Heating",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntrlcs",
       "positive": "",
       "provenance": {
@@ -2141,7 +2269,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Clear Sky Shortwave Radiative Heating",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntrscs",
       "positive": "",
       "provenance": {
@@ -2174,7 +2304,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Stratiform Clouds and Precipitation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntscp",
       "positive": "",
       "provenance": {
@@ -2207,7 +2339,9 @@
       ],
       "frequency": "mon",
       "long_name": "Tendency of Air Temperature Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tntscpbl",
       "positive": "",
       "provenance": {
@@ -2240,7 +2374,9 @@
       ],
       "frequency": "mon",
       "long_name": "Product of Air Temperature and Omega",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "twap",
       "positive": "",
       "provenance": {
@@ -2273,7 +2409,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mean-Squared Eastward Wind Speed",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "u2",
       "positive": "",
       "provenance": {
@@ -2306,7 +2444,9 @@
       ],
       "frequency": "mon",
       "long_name": "Product of Air Temperature and Eastward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ut",
       "positive": "",
       "provenance": {
@@ -2339,7 +2479,9 @@
       ],
       "frequency": "mon",
       "long_name": "Product of Eastward Wind and Northward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "uv",
       "positive": "",
       "provenance": {
@@ -2372,7 +2514,9 @@
       ],
       "frequency": "mon",
       "long_name": "Product of Eastward Wind and Omega",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "uwap",
       "positive": "",
       "provenance": {
@@ -2405,7 +2549,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mean-Squared Northward Wind Speed",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "v2",
       "positive": "",
       "provenance": {
@@ -2438,7 +2584,9 @@
       ],
       "frequency": "mon",
       "long_name": "Product of Air Temperature and Northward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "vt",
       "positive": "",
       "provenance": {
@@ -2471,7 +2619,9 @@
       ],
       "frequency": "mon",
       "long_name": "Product of Northward Wind and Omega",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "vwap",
       "positive": "",
       "provenance": {
@@ -2504,7 +2654,9 @@
       ],
       "frequency": "mon",
       "long_name": "Omega (=dp/dt)",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wap",
       "positive": "",
       "provenance": {
@@ -2537,7 +2689,9 @@
       ],
       "frequency": "mon",
       "long_name": "Mean-Squared Vertical Velocity (Omega)",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wap2",
       "positive": "",
       "provenance": {
@@ -2570,7 +2724,9 @@
       ],
       "frequency": "mon",
       "long_name": "Eastward Gravity Wave Drag",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "xgwdparam",
       "positive": "",
       "provenance": {
@@ -2603,7 +2759,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Gravity Wave Drag",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ygwdparam",
       "positive": "",
       "provenance": {
@@ -2636,7 +2794,9 @@
       ],
       "frequency": "mon",
       "long_name": "Geopotential Height",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zg",
       "positive": "",
       "provenance": {

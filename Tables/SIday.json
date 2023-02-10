@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 238854404094df517829985dc28baf18",
+    "checksum": "md5: f8061a0ec3c4b1642550fef0b8e847e6",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -26,7 +26,9 @@
       ],
       "frequency": "day",
       "long_name": "Sea-Ice Area Percentage (Ocean Grid)",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siconc",
       "positive": "",
       "provenance": {
@@ -59,7 +61,9 @@
       ],
       "frequency": "day",
       "long_name": "Sea-Ice Area Percentage (Atmospheric Grid)",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siconca",
       "positive": "",
       "provenance": {
@@ -91,7 +95,9 @@
       ],
       "frequency": "day",
       "long_name": "Snow Thickness",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sisnthick",
       "positive": "",
       "provenance": {
@@ -123,7 +129,9 @@
       ],
       "frequency": "day",
       "long_name": "Sea-Ice Speed",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sispeed",
       "positive": "",
       "provenance": {
@@ -155,7 +163,9 @@
       ],
       "frequency": "day",
       "long_name": "Surface Temperature of Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sitemptop",
       "positive": "",
       "provenance": {
@@ -187,7 +197,10 @@
       ],
       "frequency": "day",
       "long_name": "Sea Ice Thickness",
-      "modeling_realm": "seaIce ocean",
+      "modeling_realm": [
+        "seaIce",
+        "ocean"
+      ],
       "out_name": "sithick",
       "positive": "",
       "provenance": {
@@ -219,7 +232,9 @@
       ],
       "frequency": "day",
       "long_name": "Fraction of Time Steps with Sea Ice",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "sitimefrac",
       "positive": "",
       "provenance": {
@@ -251,7 +266,9 @@
       ],
       "frequency": "day",
       "long_name": "X-Component of Sea-Ice Velocity",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siu",
       "positive": "",
       "provenance": {
@@ -283,7 +300,9 @@
       ],
       "frequency": "day",
       "long_name": "Y-Component of Sea-Ice Velocity",
-      "modeling_realm": "seaIce",
+      "modeling_realm": [
+        "seaIce"
+      ],
       "out_name": "siv",
       "positive": "",
       "provenance": {

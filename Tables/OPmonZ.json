@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 0ac94adde6efb8f21bc30326c484d965",
+    "checksum": "md5: b51039f7a4cc99410857cf87603019bf",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Ocean Heat Transport",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfbasin",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Ocean Heat Transport Due to Parameterized Eddy Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfbasinpadv",
       "positive": "",
       "provenance": {
@@ -89,7 +93,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Ocean Heat Transport Due to Parameterized Mesoscale Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfbasinpmadv",
       "positive": "",
       "provenance": {
@@ -121,7 +127,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Ocean Heat Transport Due to Parameterized Mesoscale Diffusion",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfbasinpmdiff",
       "positive": "",
       "provenance": {
@@ -153,7 +161,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Ocean Heat Transport Due to Parameterized Submesoscale Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfbasinpsmadv",
       "positive": "",
       "provenance": {
@@ -185,7 +195,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Ocean Heat Transport Due to Gyre",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "htovgyre",
       "positive": "",
       "provenance": {
@@ -217,7 +229,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Ocean Heat Transport Due to Overturning",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "htovovrt",
       "positive": "",
       "provenance": {
@@ -250,7 +264,9 @@
       ],
       "frequency": "mon",
       "long_name": "Ocean Meridional Overturning Mass Streamfunction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "msftmrho",
       "positive": "",
       "provenance": {
@@ -283,7 +299,9 @@
       ],
       "frequency": "mon",
       "long_name": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "msftmrhompa",
       "positive": "",
       "provenance": {
@@ -316,7 +334,9 @@
       ],
       "frequency": "mon",
       "long_name": "Ocean Meridional Overturning Mass Streamfunction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "msftmz",
       "positive": "",
       "provenance": {
@@ -349,7 +369,9 @@
       ],
       "frequency": "mon",
       "long_name": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "msftmzmpa",
       "positive": "",
       "provenance": {
@@ -382,7 +404,9 @@
       ],
       "frequency": "mon",
       "long_name": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Submesoscale Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "msftmzsmpa",
       "positive": "",
       "provenance": {
@@ -415,7 +439,9 @@
       ],
       "frequency": "mon",
       "long_name": "Ocean Y Overturning Mass Streamfunction Due to Parameterized Submesoscale Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "msftyzsmpa",
       "positive": "",
       "provenance": {
@@ -447,7 +473,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Ocean Salt Transport",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "sltbasin",
       "positive": "",
       "provenance": {
@@ -479,7 +507,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Ocean Salt Transport Due to Gyre",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "sltovgyre",
       "positive": "",
       "provenance": {
@@ -511,7 +541,9 @@
       ],
       "frequency": "mon",
       "long_name": "Northward Ocean Salt Transport Due to Overturning",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "sltovovrt",
       "positive": "",
       "provenance": {

@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 787f63f599f050b60b0d680ceb933c26",
+    "checksum": "md5: a7318d442e24f8223a0996314164577f",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "1hr",
       "long_name": "NO2 Volume Mixing Ratio in Lowest Model Layer",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "sfno2",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "1hr",
       "long_name": "O3 Volume Mixing Ratio in Lowest Model Layer",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "sfo3",
       "positive": "",
       "provenance": {
@@ -89,7 +93,9 @@
       ],
       "frequency": "1hr",
       "long_name": "PM2.5 Mass Mixing Ratio in Lowest Model Layer",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "sfpm25",
       "positive": "",
       "provenance": {

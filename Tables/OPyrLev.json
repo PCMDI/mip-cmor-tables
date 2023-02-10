@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: d7cf714872b24650bb6c322f93d67b49",
+    "checksum": "md5: 3b9dee46305c0d77ec17fda3cd96452c",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
@@ -29,7 +29,9 @@
       ],
       "frequency": "yr",
       "long_name": "Mole Concentration of CFC11 in Sea Water",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "cfc11",
       "positive": "",
       "provenance": {
@@ -62,7 +64,9 @@
       ],
       "frequency": "yr",
       "long_name": "Mole Concentration of CFC12 in Sea Water",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "cfc12",
       "positive": "",
       "provenance": {
@@ -95,7 +99,9 @@
       ],
       "frequency": "yr",
       "long_name": "Ocean Momentum XY Biharmonic Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difmxybo",
       "positive": "",
       "provenance": {
@@ -128,7 +134,9 @@
       ],
       "frequency": "yr",
       "long_name": "Ocean Momentum XY Laplacian Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difmxylo",
       "positive": "",
       "provenance": {
@@ -161,7 +169,9 @@
       ],
       "frequency": "yr",
       "long_name": "Ocean Tracer Diffusivity Due to Parameterized Mesoscale Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "diftrblo",
       "positive": "",
       "provenance": {
@@ -194,7 +204,9 @@
       ],
       "frequency": "yr",
       "long_name": "Ocean Tracer Epineutral Laplacian Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "diftrelo",
       "positive": "",
       "provenance": {
@@ -227,7 +239,9 @@
       ],
       "frequency": "yr",
       "long_name": "Ocean Vertical Heat Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difvho",
       "positive": "",
       "provenance": {
@@ -260,7 +274,9 @@
       ],
       "frequency": "yr",
       "long_name": "Ocean Vertical Salt Diffusivity",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "difvso",
       "positive": "",
       "provenance": {
@@ -293,7 +309,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Dianeutral Mixing",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "ocontempdiff",
       "positive": "",
       "provenance": {
@@ -326,7 +344,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Eddy Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "ocontemppadvect",
       "positive": "",
       "provenance": {
@@ -359,7 +379,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Mesoscale Diffusion",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "ocontemppmdiff",
       "positive": "",
       "provenance": {
@@ -392,7 +414,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Parameterized Submesoscale Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "ocontemppsmadvect",
       "positive": "",
       "provenance": {
@@ -425,7 +449,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content Due to Residual Mean Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "ocontemprmadvect",
       "positive": "",
       "provenance": {
@@ -458,7 +484,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "ocontemptend",
       "positive": "",
       "provenance": {
@@ -491,7 +519,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Dianeutral Mixing",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "opottempdiff",
       "positive": "",
       "provenance": {
@@ -524,7 +554,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Eddy Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "opottemppadvect",
       "positive": "",
       "provenance": {
@@ -557,7 +589,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Mesoscale Diffusion",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "opottemppmdiff",
       "positive": "",
       "provenance": {
@@ -590,7 +624,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Parameterized Submesoscale Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "opottemppsmadvect",
       "positive": "",
       "provenance": {
@@ -623,7 +659,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Potential Temperature Expressed as Heat Content Due to Residual Mean Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "opottemprmadvect",
       "positive": "",
       "provenance": {
@@ -656,7 +694,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Potential Temperature Expressed as Heat Content",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "opottemptend",
       "positive": "",
       "provenance": {
@@ -689,7 +729,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Dianeutral Mixing",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "osaltdiff",
       "positive": "",
       "provenance": {
@@ -722,7 +764,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Eddy Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "osaltpadvect",
       "positive": "",
       "provenance": {
@@ -755,7 +799,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Mesoscale Diffusion",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "osaltpmdiff",
       "positive": "",
       "provenance": {
@@ -788,7 +834,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Submesoscale Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "osaltpsmadvect",
       "positive": "",
       "provenance": {
@@ -821,7 +869,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Residual Mean Advection",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "osaltrmadvect",
       "positive": "",
       "provenance": {
@@ -854,7 +904,9 @@
       ],
       "frequency": "yr",
       "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "osalttend",
       "positive": "",
       "provenance": {
@@ -887,7 +939,9 @@
       ],
       "frequency": "yr",
       "long_name": "Net Rate of Absorption of Shortwave Energy in Ocean Layer",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "rsdoabsorb",
       "positive": "",
       "provenance": {
@@ -920,7 +974,9 @@
       ],
       "frequency": "yr",
       "long_name": "Mole Concentration of SF6 in Sea Water",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "sf6",
       "positive": "",
       "provenance": {
@@ -953,7 +1009,9 @@
       ],
       "frequency": "yr",
       "long_name": "Ocean Grid-Cell Volume",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "volcello",
       "positive": "",
       "provenance": {
@@ -986,7 +1044,9 @@
       ],
       "frequency": "yr",
       "long_name": "Depth Below Geoid of Ocean Layer",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "zfullo",
       "positive": "",
       "provenance": {

@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: c23dc0b31e2afaefb51e9b0b8ff8f569",
+    "checksum": "md5: 058db879b7fb4a804bad461951d4b6d4",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Tendency of Air Temperature Due to Longwave Radiative Heating",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "tntrl",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "subhrPt",
       "long_name": "Tendency of Air Temperature Due to Shortwave Radiative Heating",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "tntrs",
       "positive": "",
       "provenance": {

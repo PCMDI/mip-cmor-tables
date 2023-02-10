@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: a457fd414a710c7521feb4728f94f157",
+    "checksum": "md5: 642f85a167c1a0884404a64b54b22c33",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
@@ -30,7 +30,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Aerosol Backscatter Coefficient",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "bs550aer",
       "positive": "",
       "provenance": {
@@ -64,7 +66,9 @@
       ],
       "frequency": "6hrPt",
       "long_name": "Aerosol Extinction Coefficient",
-      "modeling_realm": "aerosol",
+      "modeling_realm": [
+        "aerosol"
+      ],
       "out_name": "ec550aer",
       "positive": "",
       "provenance": {

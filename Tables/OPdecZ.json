@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: 731cc4599529331163335722b69012b0",
+    "checksum": "md5: 86729ff6ea0bcd578b97339946b1d321",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "dec",
       "long_name": "Northward Ocean Heat Transport",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "hfbasin",
       "positive": "",
       "provenance": {
@@ -58,7 +60,9 @@
       ],
       "frequency": "dec",
       "long_name": "Ocean Meridional Overturning Mass Streamfunction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "msftmrho",
       "positive": "",
       "provenance": {
@@ -91,7 +95,9 @@
       ],
       "frequency": "dec",
       "long_name": "Ocean Meridional Overturning Mass Streamfunction",
-      "modeling_realm": "ocean",
+      "modeling_realm": [
+        "ocean"
+      ],
       "out_name": "msftmz",
       "positive": "",
       "provenance": {

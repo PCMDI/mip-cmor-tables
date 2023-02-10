@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: d5a1648dab5ae740a8425fff24423488",
+    "checksum": "md5: 65be5f0a60229bf926ae355ad259a077",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -25,7 +25,9 @@
       ],
       "frequency": "day",
       "long_name": "Northward Component of the Eliassen-Palm Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "epfy",
       "positive": "",
       "provenance": {
@@ -57,7 +59,9 @@
       ],
       "frequency": "day",
       "long_name": "Upward Component of the Eliassen-Palm Flux",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "epfz",
       "positive": "up",
       "provenance": {
@@ -89,7 +93,9 @@
       ],
       "frequency": "day",
       "long_name": "Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hus",
       "positive": "",
       "provenance": {
@@ -121,7 +127,9 @@
       ],
       "frequency": "day",
       "long_name": "Transformed Eulerian Mean Mass Streamfunction",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "psitem",
       "positive": "",
       "provenance": {
@@ -153,7 +161,9 @@
       ],
       "frequency": "day",
       "long_name": "Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ta",
       "positive": "",
       "provenance": {
@@ -185,7 +195,9 @@
       ],
       "frequency": "day",
       "long_name": "Eastward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ua",
       "positive": "",
       "provenance": {
@@ -217,7 +229,9 @@
       ],
       "frequency": "day",
       "long_name": "Tendency of Eastward Wind Due to Eliassen-Palm Flux Divergence",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "utendepfd",
       "positive": "",
       "provenance": {
@@ -249,7 +263,9 @@
       ],
       "frequency": "day",
       "long_name": "Eastward Acceleration Due to Non-Orographic Gravity Wave Drag",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "utendnogw",
       "positive": "",
       "provenance": {
@@ -281,7 +297,9 @@
       ],
       "frequency": "day",
       "long_name": "Eastward Acceleration Due to Orographic Gravity Wave Drag",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "utendogw",
       "positive": "",
       "provenance": {
@@ -313,7 +331,9 @@
       ],
       "frequency": "day",
       "long_name": "Tendency of Eastward Wind Due to TEM Northward Advection and Coriolis Term",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "utendvtem",
       "positive": "",
       "provenance": {
@@ -345,7 +365,9 @@
       ],
       "frequency": "day",
       "long_name": "Tendency of Eastward Wind Due to TEM Upward Advection",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "utendwtem",
       "positive": "",
       "provenance": {
@@ -377,7 +399,9 @@
       ],
       "frequency": "day",
       "long_name": "Northward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "va",
       "positive": "",
       "provenance": {
@@ -409,7 +433,9 @@
       ],
       "frequency": "day",
       "long_name": "Transformed Eulerian Mean Northward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "vtem",
       "positive": "",
       "provenance": {
@@ -441,7 +467,9 @@
       ],
       "frequency": "day",
       "long_name": "Transformed Eulerian Mean Upward Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wtem",
       "positive": "",
       "provenance": {
@@ -473,7 +501,9 @@
       ],
       "frequency": "day",
       "long_name": "Geopotential Height",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zg",
       "positive": "",
       "provenance": {

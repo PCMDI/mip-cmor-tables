@@ -2,7 +2,7 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: b276caaae76976b1bd3e91fd7c67e80a",
+    "checksum": "md5: e0dac5ed13af8a1babb50f5c7046f601",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
@@ -26,7 +26,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Near-Surface Relative Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hurs",
       "positive": "",
       "provenance": {
@@ -59,7 +61,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Specific Humidity",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "hus4",
       "positive": "",
       "provenance": {
@@ -91,7 +95,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Precipitation",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "pr",
       "positive": "",
       "provenance": {
@@ -123,7 +129,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Maximum Hourly Precipitation Rate",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "prhmax",
       "positive": "",
       "provenance": {
@@ -155,7 +163,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Sea Level Pressure",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "psl",
       "positive": "",
       "provenance": {
@@ -188,7 +198,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Relative Vorticity at 850hPa",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "rv850",
       "positive": "",
       "provenance": {
@@ -221,7 +233,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Near-Surface Wind Speed",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "sfcWind",
       "positive": "",
       "provenance": {
@@ -254,7 +268,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Near-Surface Air Temperature",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "tas",
       "positive": "",
       "provenance": {
@@ -287,7 +303,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Eastward Wind at 100m",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "ua100m",
       "positive": "",
       "provenance": {
@@ -320,7 +338,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Eastward Near-Surface Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "uas",
       "positive": "",
       "provenance": {
@@ -353,7 +373,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Northward Wind at 100m",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "va100m",
       "positive": "",
       "provenance": {
@@ -386,7 +408,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Northward Near-Surface Wind",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "vas",
       "positive": "",
       "provenance": {
@@ -419,7 +443,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Omega (=dp/dt)",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wap4",
       "positive": "",
       "provenance": {
@@ -452,7 +478,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Maximum Wind Speed of Gust at 100m",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wsgmax100m",
       "positive": "",
       "provenance": {
@@ -485,7 +513,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Maximum Wind Speed of Gust at 10m",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "wsgmax10m",
       "positive": "",
       "provenance": {
@@ -518,7 +548,9 @@
       ],
       "frequency": "6hr",
       "long_name": "Geopotential Height at 1000hPa",
-      "modeling_realm": "atmos",
+      "modeling_realm": [
+        "atmos"
+      ],
       "out_name": "zg1000",
       "positive": "",
       "provenance": {
