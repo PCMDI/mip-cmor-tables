@@ -1,8 +1,8 @@
 {
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
-    "approx_interval": "<NEEDS WORK>",
-    "checksum": "md5: dd20a8877b3f40e73a129b55e3b7c2f8",
+    "approx_interval": 3650.0,
+    "checksum": "md5: 4fe86ef37c129a99488aa78e46ca9cdd",
     "cmor_version": "4.0",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
