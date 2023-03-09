@@ -1,6 +1,7 @@
 # (C) British Crown Copyright 2022, Met Office
 # CC0-1.0 License
 
+from collections import OrderedDict
 from copy import deepcopy
 from dataclasses import asdict, dataclass, field
 import hashlib
@@ -10,6 +11,7 @@ import os
 from typing import Any, Dict, List, Optional
 from warnings import warn
 from _collections_abc import dict_keys, dict_values
+
 
 __version__ = '0.0.1'
 
@@ -119,7 +121,7 @@ class ChecksummedJSON(object):
     CHECKSUM_KEY: str = 'checksum'
     CHECKSUM_LOCATION: str = 'Header'
 
-    def __init__(self, data_source: str or Dict or List, validate: bool = True):
+    def __init__(self, data_source: str or OrderedDict or Dict or List, validate: bool = True):
         """
         Class to load/hold/save a JSON dictionary with a checksum. The checksum is
         stored within a "Header" dictionary (CHECKSUM_LOCATION) under the key 
@@ -138,7 +140,7 @@ class ChecksummedJSON(object):
         if isinstance(data_source, str):
             self.filename = data_source
             self.read_json(data_source)
-        elif isinstance(data_source, (dict, list)):
+        elif isinstance(data_source, (OrderedDict, dict, list)):
             self.data = data_source
         else:
             raise RuntimeError('Could not work out what to do with data of type "{}"'.format(type(data_source)))
@@ -294,20 +296,19 @@ class MIPVariable:
 
     @staticmethod
     def _assert(test: bool, message: str) -> None:
-
         assert test, message
 
     def check_against_miptablecollection(self, data: dict) -> None:
         """
         Check a dictionary of fields to update the MIPVariable with 
         """
-        # branded variable name check
-        # cell_measures check
-        # cell_methods_check
-        # dimensions check
         if self.parent is None:
             raise RuntimeError('Cannot check when parent attribute does not point to a MIPTableCollection')
         
+        # TODO: branded variable name check
+        # TODO: cell_measures check
+        # TODO: cell_methods_check
+        # TODO: dimensions check
         if 'dimensions' in data:
             self._assert(
                 isinstance(data['dimensions'], list), 
@@ -318,7 +319,7 @@ class MIPVariable:
                      i in self.parent.coordinate['axis_entry'],
                     'Dimensions "{}" not found in the coordinates.json file'.format(i)
                 )
-        #frequency
+        # frequency
         if 'frequency' in data:
             self._assert(
                 isinstance(data['frequency'], str),
@@ -358,6 +359,9 @@ class MIPVariable:
             )
 
     def to_json(self) -> Dict:
+        """
+        Render object as JSON suitable for including in MIP table
+        """
         self.check()
         all_data = asdict(self)
         result = {i:all_data[i] for i in self.OUTPUT_FIELDS}
@@ -382,4 +386,3 @@ def checksum_object(obj):
     obj_str = json.dumps(obj, sort_keys=True)
     checksum_hex = hashlib.md5(obj_str.encode('utf8')).hexdigest()
     return 'md5: {}'.format(checksum_hex)
-        
