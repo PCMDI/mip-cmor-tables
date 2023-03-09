@@ -1,0 +1,35 @@
+{
+  "Header": {
+    "Conventions": "CF-1.7 CMIP-6.3",
+    "approx_interval": "<NEEDS WORK>",
+    "cmor_version": "3.7.0",
+    "data_specs_version": "6.3.0.0",
+    "generic_levels": "",
+    "int_missing_value": "-999",
+    "mip_era": "CMIP6Plus",
+    "missing_value": "1e20",
+    "product": "model-output",
+    "table_date": "2022-09-05",
+    "table_id": "Table LI3hrPt"
+  },
+  "variable_entry": {
+    "sbl": {
+      "cell_measures": "area: areacella",
+      "cell_methods": "area: mean time: point",
+      "comment": "The snow and ice sublimation flux is the loss of snow and ice mass per unit area from the surface resulting from their direct conversion to water vapor that enters the atmosphere.",
+      "dimensions": "longitude latitude time1",
+      "frequency": "3hrPt",
+      "long_name": "Surface Snow and Ice Sublimation Flux",
+      "modeling_realm": "landIce",
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
+      "out_name": "sbl",
+      "positive": "",
+      "standard_name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
+      "type": "real",
+      "units": "kg m-2 s-1",
+      "valid_max": "",
+      "valid_min": ""
+    }
+  }
+}

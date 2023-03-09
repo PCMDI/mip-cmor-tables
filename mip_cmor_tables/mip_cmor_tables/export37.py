@@ -105,6 +105,6 @@ def generate_37_tables(mip_table_location, cv_location, destination):
 
 
 if __name__ == '__main__':
-    generate_37_tables('../Tables', '../../CMIP6Plus_CVs', 'out')
+    generate_37_tables('../Tables', '../../CMIP6Plus_CVs', '../out')
 
     
