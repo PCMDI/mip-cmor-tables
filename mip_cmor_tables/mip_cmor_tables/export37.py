@@ -86,6 +86,8 @@ def generate_37_tables(mip_table_location, cv_location, destination):
         table_dict['Header']['table_id'] = 'Table {}'.format(table_dict['Header']['table_id'])
         table_dict['Header']['mip_era'] = mip_era
         table_dict['Header']['cmor_version'] = '3.7.0'
+        if isinstance(table_dict['Header']['generic_levels'], list):
+            table_dict['Header']['generic_levels'] = ' '.join(table_dict['Header']['generic_levels'])
         for variable in table_dict['variable_entry']:
             for key in ['branded_variable_name', 'provenance']:
                 del table_dict['variable_entry'][variable][key]
