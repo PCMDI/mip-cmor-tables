@@ -386,3 +386,4 @@ def checksum_object(obj):
     obj_str = json.dumps(obj, sort_keys=True)
     checksum_hex = hashlib.md5(obj_str.encode('utf8')).hexdigest()
     return 'md5: {}'.format(checksum_hex)
+
