@@ -154,5 +154,5 @@ if __name__ == '__main__':
     merged = dict(sorted(merged.items()))
 
     # Save the nested and merged variable information to a JSON file
-    with open('Tables/Auxillary/variables.json', 'w') as f:
+    with open('Auxillary/variables.json', 'w') as f:
         json.dump(merged, f, indent=2)
