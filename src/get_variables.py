@@ -22,7 +22,10 @@ def process_file(filepath):
         data = json.load(f)
 
     variables = {}
+    mipt = data['Header']["table_id"]
     for var in data['variable_entry'].values():
+        var['mip_table'] = mipt
+        
         try:
             name = var['out_name']
             # (var['out_name'], var['branded_variable_name'])
@@ -32,10 +35,12 @@ def process_file(filepath):
             continue
 
         if name not in variables:
+            var['mip_table'] = mipt
             variables[name] = var
         else:
             # Log conflict for duplicate variables
             logging.warning(f"Variable conflict: {name}")
+            raise KeyError(name)
 
     return variables
 
@@ -107,33 +112,33 @@ if __name__ == '__main__':
     for result in results:
         for name, var in result.items():
 
-            pv = copy.deepcopy(var['provenance'])
 
             # if 'provenance' not in merged[name]:
             # merged[name]['provenance'] = defaultdict(dict)
 
-            for MIP in pv:
-                if MIP not in var:
-                    var['tables'] = {}
-                    var['tables'][MIP] = {}
+            
+            if 'tables' not in var:
+                var['tables'] = {}
 
-                entry = pv[MIP]
-                for key in ['frequency', 'branded_variable_name', "modeling_realm", 'dimensions','validation','comment']:
-                    entry[key] = var[key]
-                del entry['variable_name']
+            entry = {}
+            for key in ['frequency', 'branded_variable_name', "modeling_realm", 'dimensions','validation','comment','provenance']:
+                entry[key] = var[key]
+            # del entry['variable_name']
 
-                var['tables'][MIP][entry['mip_table']]=dict(sorted(entry.items(),key=lambda x: (isinstance(x[1], (list, dict)), x[0])))
+            var['tables'][var['mip_table']]=dict(sorted(entry.items(),key=lambda x: (isinstance(x[1], (list, dict)), x[0])))
 
             if name in merged:
                 # Check for conflicts in variable information, specifically in 'provenance' key
-
-                if compare_dict(merged[name], var, ['provenance', 'frequency', 'branded_variable_name', "modeling_realm", 'cell_measures', 'cell_methods', 'dimensions','comment','validation']):
+     
+                if compare_dict(merged[name], var, ['tables','provenance', 'frequency', 'branded_variable_name', "modeling_realm", 'cell_measures', 'cell_methods', 'dimensions','comment','validation','mip_table']):
                     # dreq uid in provenances
                     # merged[name]['provenance'].append(var.get('provenance'))
-                    for MIP in var['provenance']:
+
+                    for MIP in var['tables']:
                         # merged[name]['provenance'][MIP][var['provenance'][entry['mip_table']]] = var['provenance'][MIP]
-                        # print('\n\n',var['provenance'][MIP],entry['mip_table'],'\n\n')
-                        merged[name]['tables'][MIP].update(var['provenance'][MIP])
+                        merged[name]['tables'].update(var['tables'][MIP])
+
+                        ...
                 else:
                     # Log conflicts in variable information
                     logging.warning(
@@ -141,7 +146,7 @@ if __name__ == '__main__':
             else:
 
                 merged[name] = clean(var, ['frequency', 'branded_variable_name',
-                                     "modeling_realm", 'cell_measures', 'cell_methods','dimensions','comment','validation','provenance'])
+                                     "modeling_realm", 'cell_measures', 'cell_methods','dimensions','comment','validation','provenance','mip_table'])
                 # merged[name]['dimensions'] = [
                 #     tuple(merged[name]['dimensions'])]
 
