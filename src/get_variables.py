@@ -90,7 +90,7 @@ def nest(dictionary_with_tuples):
 
 if __name__ == '__main__':
     # Find all JSON files in the 'Tables' directory
-    files = Path('./Tables').glob('*.json')
+    files = Path('../Tables').glob('*.json')
 
     # Set up logging
     log_file_path = '../.logs/var_diff.log'
@@ -156,3 +156,5 @@ if __name__ == '__main__':
     # Save the nested and merged variable information to a JSON file
     with open('../Auxillary/variables.json', 'w') as f:
         json.dump(merged, f, indent=2)
+
+    print(len(merged))
