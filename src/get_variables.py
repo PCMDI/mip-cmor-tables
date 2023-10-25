@@ -110,18 +110,19 @@ if __name__ == '__main__':
             pv = copy.deepcopy(var['provenance'])
 
             # if 'provenance' not in merged[name]:
-            #     merged[name]['provenance'] = defaultdict(dict)
+            # merged[name]['provenance'] = defaultdict(dict)
 
             for MIP in pv:
                 if MIP not in var:
-                    var['provenance'][MIP] = []
+                    var['tables'] = {}
+                    var['tables'][MIP] = {}
 
                 entry = pv[MIP]
                 for key in ['frequency', 'branded_variable_name', "modeling_realm", 'dimensions','validation','comment']:
                     entry[key] = var[key]
                 del entry['variable_name']
 
-                var['provenance'][MIP].append(dict(sorted(entry.items(),key=lambda x: (isinstance(x[1], (list, dict)), x[0]))))
+                var['tables'][MIP][entry['mip_table']]=dict(sorted(entry.items(),key=lambda x: (isinstance(x[1], (list, dict)), x[0])))
 
             if name in merged:
                 # Check for conflicts in variable information, specifically in 'provenance' key
@@ -130,15 +131,9 @@ if __name__ == '__main__':
                     # dreq uid in provenances
                     # merged[name]['provenance'].append(var.get('provenance'))
                     for MIP in var['provenance']:
-                        merged[name]['provenance'][MIP].append(
-                            var['provenance'][MIP])
-
-                        # merged[name]['dimensions'].append(
-                        #     tuple(var['dimensions']))
-
-                        # merged[name]['dimensions'] = list(
-                        #     set(merged[name]['dimensions']))
-
+                        # merged[name]['provenance'][MIP][var['provenance'][entry['mip_table']]] = var['provenance'][MIP]
+                        # print('\n\n',var['provenance'][MIP],entry['mip_table'],'\n\n')
+                        merged[name]['tables'][MIP].update(var['provenance'][MIP])
                 else:
                     # Log conflicts in variable information
                     logging.warning(
@@ -146,15 +141,24 @@ if __name__ == '__main__':
             else:
 
                 merged[name] = clean(var, ['frequency', 'branded_variable_name',
-                                     "modeling_realm", 'cell_measures', 'cell_methods','dimensions','comment','validation'])
+                                     "modeling_realm", 'cell_measures', 'cell_methods','dimensions','comment','validation','provenance'])
                 # merged[name]['dimensions'] = [
                 #     tuple(merged[name]['dimensions'])]
 
     # Sort merged dictionary by key
     merged = dict(sorted(merged.items()))
 
+
+
     # Save the nested and merged variable information to a JSON file
     with open('../Auxillary/variables.json', 'w') as f:
         json.dump(merged, f, indent=2)
 
     print(len(merged))
+
+
+
+'''
+preov cmip var list -> make the key the name 
+
+'''
