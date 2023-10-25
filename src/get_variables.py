@@ -25,7 +25,7 @@ def process_file(filepath):
     mipt = data['Header']["table_id"]
     for var in data['variable_entry'].values():
         var['mip_table'] = mipt
-        
+
         try:
             name = var['out_name']
             # (var['out_name'], var['branded_variable_name'])
@@ -134,11 +134,12 @@ if __name__ == '__main__':
                     # dreq uid in provenances
                     # merged[name]['provenance'].append(var.get('provenance'))
 
-                    for MIP in var['tables']:
-                        # merged[name]['provenance'][MIP][var['provenance'][entry['mip_table']]] = var['provenance'][MIP]
-                        merged[name]['tables'].update(var['tables'][MIP])
-
-                        ...
+                    # for MIP in var['tables']:
+                    #     # merged[name]['provenance'][MIP][var['provenance'][entry['mip_table']]] = var['provenance'][MIP]
+                    merged[name]['tables'].update(var['tables'])
+                    # inefficient I know.. 
+                    merged[name]['tables'] = dict(sorted(merged[name]['tables'].items()))
+                    ...
                 else:
                     # Log conflicts in variable information
                     logging.warning(
