@@ -117,11 +117,11 @@ if __name__ == '__main__':
                     var['provenance'][MIP] = []
 
                 entry = pv[MIP]
-                for key in ['frequency', 'branded_variable_name', "modeling_realm"]:
+                for key in ['frequency', 'branded_variable_name', "modeling_realm", 'dimensions']:
                     entry[key] = var[key]
                 del entry['variable_name']
 
-                var['provenance'][MIP].append(dict(sorted(entry.items())))
+                var['provenance'][MIP].append(dict(sorted(entry.items(),key=lambda x: (isinstance(x[1], (list, dict)), x[0]))))
 
             if name in merged:
                 # Check for conflicts in variable information, specifically in 'provenance' key
@@ -133,11 +133,11 @@ if __name__ == '__main__':
                         merged[name]['provenance'][MIP].append(
                             var['provenance'][MIP])
 
-                        merged[name]['dimensions'].append(
-                            tuple(var['dimensions']))
+                        # merged[name]['dimensions'].append(
+                        #     tuple(var['dimensions']))
 
-                        merged[name]['dimensions'] = list(
-                            set(merged[name]['dimensions']))
+                        # merged[name]['dimensions'] = list(
+                        #     set(merged[name]['dimensions']))
 
                 else:
                     # Log conflicts in variable information
@@ -147,8 +147,8 @@ if __name__ == '__main__':
 
                 merged[name] = clean(var, ['frequency', 'branded_variable_name',
                                      "modeling_realm", 'cell_measures', 'cell_methods'])
-                merged[name]['dimensions'] = [
-                    tuple(merged[name]['dimensions'])]
+                # merged[name]['dimensions'] = [
+                #     tuple(merged[name]['dimensions'])]
 
     # Sort merged dictionary by key
     merged = dict(sorted(merged.items()))
