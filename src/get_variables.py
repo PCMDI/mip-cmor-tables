@@ -93,7 +93,7 @@ if __name__ == '__main__':
     files = Path('./Tables').glob('*.json')
 
     # Set up logging
-    log_file_path = '.logs/var_diff.log'
+    log_file_path = '../.logs/var_diff.log'
     if os.path.exists(log_file_path):
         os.remove(log_file_path)
 
@@ -126,7 +126,7 @@ if __name__ == '__main__':
             if name in merged:
                 # Check for conflicts in variable information, specifically in 'provenance' key
 
-                if compare_dict(merged[name], var, ['provenance', 'frequency', 'branded_variable_name', "modeling_realm", 'cell_measures', 'cell_methods', 'dimensions']):
+                if compare_dict(merged[name], var, ['provenance', 'frequency', 'branded_variable_name', "modeling_realm", 'cell_measures', 'cell_methods', 'dimensions','comment']):
                     # dreq uid in provenances
                     # merged[name]['provenance'].append(var.get('provenance'))
                     for MIP in var['provenance']:
@@ -146,7 +146,7 @@ if __name__ == '__main__':
             else:
 
                 merged[name] = clean(var, ['frequency', 'branded_variable_name',
-                                     "modeling_realm", 'cell_measures', 'cell_methods'])
+                                     "modeling_realm", 'cell_measures', 'cell_methods','dimensions','comment'])
                 # merged[name]['dimensions'] = [
                 #     tuple(merged[name]['dimensions'])]
 
