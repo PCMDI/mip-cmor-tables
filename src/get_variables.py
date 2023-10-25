@@ -117,7 +117,7 @@ if __name__ == '__main__':
                     var['provenance'][MIP] = []
 
                 entry = pv[MIP]
-                for key in ['frequency', 'branded_variable_name', "modeling_realm", 'dimensions']:
+                for key in ['frequency', 'branded_variable_name', "modeling_realm", 'dimensions','validation','comment']:
                     entry[key] = var[key]
                 del entry['variable_name']
 
@@ -126,7 +126,7 @@ if __name__ == '__main__':
             if name in merged:
                 # Check for conflicts in variable information, specifically in 'provenance' key
 
-                if compare_dict(merged[name], var, ['provenance', 'frequency', 'branded_variable_name', "modeling_realm", 'cell_measures', 'cell_methods', 'dimensions','comment']):
+                if compare_dict(merged[name], var, ['provenance', 'frequency', 'branded_variable_name', "modeling_realm", 'cell_measures', 'cell_methods', 'dimensions','comment','validation']):
                     # dreq uid in provenances
                     # merged[name]['provenance'].append(var.get('provenance'))
                     for MIP in var['provenance']:
@@ -146,7 +146,7 @@ if __name__ == '__main__':
             else:
 
                 merged[name] = clean(var, ['frequency', 'branded_variable_name',
-                                     "modeling_realm", 'cell_measures', 'cell_methods','dimensions','comment'])
+                                     "modeling_realm", 'cell_measures', 'cell_methods','dimensions','comment','validation'])
                 # merged[name]['dimensions'] = [
                 #     tuple(merged[name]['dimensions'])]
 
