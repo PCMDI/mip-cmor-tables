@@ -6,6 +6,7 @@ from pathlib import Path
 from multiprocessing import Pool
 
 from collections import defaultdict
+import update_provenance as up
 
 
 def process_file(filepath):
@@ -95,10 +96,10 @@ def nest(dictionary_with_tuples):
 
 if __name__ == '__main__':
     # Find all JSON files in the 'Tables' directory
-    files = Path('../Tables').glob('*.json')
+    files = Path('../../Tables').glob('*.json')
 
     # Set up logging
-    log_file_path = '../.logs/var_diff.log'
+    log_file_path = '../../.logs/var_diff.log'
     if os.path.exists(log_file_path):
         os.remove(log_file_path)
 
@@ -147,17 +148,23 @@ if __name__ == '__main__':
             else:
 
                 merged[name] = clean(var, ['frequency', 'branded_variable_name',
-                                     "modeling_realm", 'cell_measures', 'cell_methods','dimensions','comment','validation','provenance','mip_table'])
+                                     "modeling_realm", 'cell_measures', 'cell_methods','dimensions','comment','validation','mip_table','provenance'])
                 # merged[name]['dimensions'] = [
                 #     tuple(merged[name]['dimensions'])]
+            merged[name] = dict(sorted(merged[name].items(),key=lambda x: (isinstance(x[1], (list, dict)), x[0])))
 
+    f,s,merged = up.prov(merged)
+    logging.error(f)
+
+            
     # Sort merged dictionary by key
     merged = dict(sorted(merged.items()))
 
 
 
+
     # Save the nested and merged variable information to a JSON file
-    with open('../Auxillary/variables.json', 'w') as f:
+    with open('../../Auxillary/variables.json', 'w') as f:
         json.dump(merged, f, indent=2)
 
     print(len(merged))

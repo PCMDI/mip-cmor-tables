@@ -353,6 +353,10 @@
             "dreq_uid": "baa7f8ae-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "LImon",
             "variable_name": "agesno"
+          },
+          "CMIP5": {
+            "mip_table": "LImon",
+            "variable_name": "agesno"
           }
         },
         "validation": {
@@ -415,6 +419,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa56de6-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "agessc"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "agessc"
           }
@@ -836,6 +844,10 @@
             "dreq_uid": "c9181982-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "aragos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "arag"
           }
         },
         "validation": {
@@ -872,6 +884,10 @@
             "dreq_uid": "baa83a12-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "fx",
             "variable_name": "areacella"
+          },
+          "CMIP5": {
+            "mip_table": "fx",
+            "variable_name": "areacello"
           }
         },
         "validation": {
@@ -1138,6 +1154,10 @@
             "dreq_uid": "c917ef02-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "baccos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "bacc"
           }
         },
         "validation": {
@@ -1276,6 +1296,10 @@
             "dreq_uid": "ba9f017c-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oyr",
             "variable_name": "bddtalk"
+          },
+          "CMIP5": {
+            "mip_table": "Oyr",
+            "variable_name": "bddtalk"
           }
         },
         "validation": {
@@ -1311,6 +1335,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "ba9ee7c8-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Oyr",
+            "variable_name": "bddtdic"
+          },
+          "CMIP5": {
             "mip_table": "Oyr",
             "variable_name": "bddtdic"
           }
@@ -1350,6 +1378,10 @@
             "dreq_uid": "ba9ef448-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oyr",
             "variable_name": "bddtdife"
+          },
+          "CMIP5": {
+            "mip_table": "Oyr",
+            "variable_name": "bddtdife"
           }
         },
         "validation": {
@@ -1385,6 +1417,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "ba9eebf6-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Oyr",
+            "variable_name": "bddtdin"
+          },
+          "CMIP5": {
             "mip_table": "Oyr",
             "variable_name": "bddtdin"
           }
@@ -1561,6 +1597,10 @@
             "dreq_uid": "c919d3d0-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "bfeos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "bfe"
           }
         },
         "validation": {
@@ -1882,6 +1922,10 @@
             "dreq_uid": "ba9fe13c-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "bsi"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "bsi"
           }
         },
         "validation": {
@@ -1907,6 +1951,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "ba9e5c72-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Oyr",
+            "variable_name": "bsi"
+          },
+          "CMIP5": {
             "mip_table": "Oyr",
             "variable_name": "bsi"
           }
@@ -4036,6 +4084,10 @@
             "dreq_uid": "c9180bae-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "calcos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "calc"
           }
         },
         "validation": {
@@ -4096,6 +4148,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa92652-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Amon",
+            "variable_name": "ccb"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "ccb"
           }
@@ -4255,6 +4311,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa96a0e-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Amon",
+            "variable_name": "cct"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "cct"
           }
@@ -4550,6 +4610,10 @@
             "dreq_uid": "baa98b1a-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Amon",
             "variable_name": "cfc113global"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "cfc113global"
           }
         },
         "validation": {
@@ -4583,6 +4647,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa9918c-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Amon",
+            "variable_name": "cfc11global"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "cfc11global"
           }
@@ -4682,6 +4750,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa99736-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Amon",
+            "variable_name": "cfc12global"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "cfc12global"
           }
@@ -4947,6 +5019,10 @@
             "dreq_uid": "a92e3b16-817c-11e6-a4e2-5404a60d96b5",
             "mip_table": "Amon",
             "variable_name": "ch4globalClim"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "ch4globalClim"
           }
         },
         "validation": {
@@ -5130,6 +5206,10 @@
             "dreq_uid": "ba9fb75c-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "chl"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "chl"
           }
         },
         "validation": {
@@ -5155,6 +5235,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "ba9e3274-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Oyr",
+            "variable_name": "chl"
+          },
+          "CMIP5": {
             "mip_table": "Oyr",
             "variable_name": "chl"
           }
@@ -5257,6 +5341,10 @@
             "dreq_uid": "c919877c-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "chlcalcos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "chlcalc"
           }
         },
         "validation": {
@@ -5357,6 +5445,10 @@
             "dreq_uid": "c9196b52-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "chldiatos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "chldiat"
           }
         },
         "validation": {
@@ -5557,6 +5649,10 @@
             "dreq_uid": "c919a342-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "chlmiscos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "chlmisc"
           }
         },
         "validation": {
@@ -5719,6 +5815,10 @@
             "dreq_uid": "c919953c-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "chlpicoos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "chlpico"
           }
         },
         "validation": {
@@ -5779,6 +5879,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baaa3984-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Amon",
+            "variable_name": "ci"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "ci"
           }
@@ -6641,6 +6745,10 @@
             "dreq_uid": "baaa8326-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Amon",
             "variable_name": "cli"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "cli"
           }
         },
         "validation": {
@@ -7348,6 +7456,10 @@
             "dreq_uid": "8b8a51ce-4a5b-11e6-9cd2-ac72891c3257",
             "mip_table": "Emon",
             "variable_name": "clmisr"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "cl"
           }
         },
         "validation": {
@@ -7799,6 +7911,10 @@
             "dreq_uid": "8b8a7154-4a5b-11e6-9cd2-ac72891c3257",
             "mip_table": "Emon",
             "variable_name": "cltmodis"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "clt"
           }
         },
         "validation": {
@@ -7861,6 +7977,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baab0382-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Amon",
+            "variable_name": "clw"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "clw"
           }
@@ -8528,6 +8648,10 @@
             "dreq_uid": "a92dfd68-817c-11e6-a4e2-5404a60d96b5",
             "mip_table": "Amon",
             "variable_name": "co2Clim"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "co2Clim"
           }
         },
         "validation": {
@@ -8594,6 +8718,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "a92e1244-817c-11e6-a4e2-5404a60d96b5",
+            "mip_table": "Amon",
+            "variable_name": "co2massClim"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "co2massClim"
           }
@@ -8932,6 +9060,10 @@
             "dreq_uid": "c91a38ca-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "co3os"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "co3"
           }
         },
         "validation": {
@@ -9230,6 +9362,10 @@
             "dreq_uid": "8baef7a4-4a5b-11e6-9cd2-ac72891c3257",
             "mip_table": "Emon",
             "variable_name": "columnmassflux"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "mc"
           }
         },
         "validation": {
@@ -9589,6 +9725,10 @@
             "dreq_uid": "ba9ecaa4-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oyr",
             "variable_name": "darag"
+          },
+          "CMIP5": {
+            "mip_table": "Oyr",
+            "variable_name": "darag"
           }
         },
         "validation": {
@@ -9624,6 +9764,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "ba9ec658-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Oyr",
+            "variable_name": "dcalc"
+          },
+          "CMIP5": {
             "mip_table": "Oyr",
             "variable_name": "dcalc"
           }
@@ -9907,6 +10051,10 @@
             "dreq_uid": "c917fcb8-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "detocos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "detoc"
           }
         },
         "validation": {
@@ -10007,6 +10155,10 @@
             "dreq_uid": "c9194000-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "dfeos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "dfe"
           }
         },
         "validation": {
@@ -10180,6 +10332,10 @@
             "dreq_uid": "a92a1efa-817c-11e6-a4e2-5404a60d96b5",
             "mip_table": "Oclim",
             "variable_name": "difmxybo2d"
+          },
+          "CMIP5": {
+            "mip_table": "Oclim",
+            "variable_name": "difmxybo2d"
           }
         },
         "validation": {
@@ -10278,6 +10434,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "a92a1360-817c-11e6-a4e2-5404a60d96b5",
+            "mip_table": "Oclim",
+            "variable_name": "difmxylo2d"
+          },
+          "CMIP5": {
             "mip_table": "Oclim",
             "variable_name": "difmxylo2d"
           }
@@ -10526,6 +10686,10 @@
             "dreq_uid": "a929e2dc-817c-11e6-a4e2-5404a60d96b5",
             "mip_table": "Oclim",
             "variable_name": "diftrebo2d"
+          },
+          "CMIP5": {
+            "mip_table": "Oclim",
+            "variable_name": "diftrebo2d"
           }
         },
         "validation": {
@@ -10626,6 +10790,10 @@
             "dreq_uid": "a929d724-817c-11e6-a4e2-5404a60d96b5",
             "mip_table": "Oclim",
             "variable_name": "diftrelo2d"
+          },
+          "CMIP5": {
+            "mip_table": "Oclim",
+            "variable_name": "diftrelo2d"
           }
         },
         "validation": {
@@ -10697,6 +10865,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "a929face-817c-11e6-a4e2-5404a60d96b5",
+            "mip_table": "Oclim",
+            "variable_name": "diftrxybo2d"
+          },
+          "CMIP5": {
             "mip_table": "Oclim",
             "variable_name": "diftrxybo2d"
           }
@@ -10772,6 +10944,10 @@
             "dreq_uid": "a929ef2a-817c-11e6-a4e2-5404a60d96b5",
             "mip_table": "Oclim",
             "variable_name": "diftrxylo2d"
+          },
+          "CMIP5": {
+            "mip_table": "Oclim",
+            "variable_name": "diftrxylo2d"
           }
         },
         "validation": {
@@ -10807,6 +10983,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baabe3d8-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Oclim",
+            "variable_name": "difvho"
+          },
+          "CMIP5": {
             "mip_table": "Oclim",
             "variable_name": "difvho"
           }
@@ -10873,6 +11053,10 @@
             "dreq_uid": "baabe63a-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oclim",
             "variable_name": "difvmbo"
+          },
+          "CMIP5": {
+            "mip_table": "Oclim",
+            "variable_name": "difvmbo"
           }
         },
         "validation": {
@@ -10908,6 +11092,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baabe8b0-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Oclim",
+            "variable_name": "difvmfdo"
+          },
+          "CMIP5": {
             "mip_table": "Oclim",
             "variable_name": "difvmfdo"
           }
@@ -10947,6 +11135,10 @@
             "dreq_uid": "baabeb12-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oclim",
             "variable_name": "difvmo"
+          },
+          "CMIP5": {
+            "mip_table": "Oclim",
+            "variable_name": "difvmo"
           }
         },
         "validation": {
@@ -10984,6 +11176,10 @@
             "dreq_uid": "baabed60-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oclim",
             "variable_name": "difvmto"
+          },
+          "CMIP5": {
+            "mip_table": "Oclim",
+            "variable_name": "difvmto"
           }
         },
         "validation": {
@@ -11019,6 +11215,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baabefb8-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Oclim",
+            "variable_name": "difvso"
+          },
+          "CMIP5": {
             "mip_table": "Oclim",
             "variable_name": "difvso"
           }
@@ -11085,6 +11285,10 @@
             "dreq_uid": "baabf242-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oclim",
             "variable_name": "difvtrbo"
+          },
+          "CMIP5": {
+            "mip_table": "Oclim",
+            "variable_name": "difvtrbo"
           }
         },
         "validation": {
@@ -11122,6 +11326,10 @@
             "dreq_uid": "baabf4ea-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oclim",
             "variable_name": "difvtrto"
+          },
+          "CMIP5": {
+            "mip_table": "Oclim",
+            "variable_name": "difvtrto"
           }
         },
         "validation": {
@@ -11157,6 +11365,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baabf756-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Oclim",
+            "variable_name": "dispkevfo"
+          },
+          "CMIP5": {
             "mip_table": "Oclim",
             "variable_name": "dispkevfo"
           }
@@ -11256,6 +11468,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "a92a2a80-817c-11e6-a4e2-5404a60d96b5",
+            "mip_table": "Oclim",
+            "variable_name": "dispkexyfo2d"
+          },
+          "CMIP5": {
             "mip_table": "Oclim",
             "variable_name": "dispkexyfo2d"
           }
@@ -11795,6 +12011,10 @@
             "dreq_uid": "803e5f7c-f906-11e6-a176-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "dissicos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "dissic"
           }
         },
         "validation": {
@@ -11895,6 +12115,10 @@
             "dreq_uid": "c917c48c-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "dissocos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "dissoc"
           }
         },
         "validation": {
@@ -12106,6 +12330,10 @@
             "dreq_uid": "c91a2a2e-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "dmsos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "dms"
           }
         },
         "validation": {
@@ -12141,6 +12369,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa0cbc4-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "dpco2"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "dpco2"
           }
@@ -12252,6 +12484,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa0cff2-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "dpo2"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "dpo2"
           }
@@ -13807,6 +14043,10 @@
             "dreq_uid": "5a361136-c77d-11e6-8a33-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "eparag100"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "eparag100"
           }
         },
         "validation": {
@@ -13842,6 +14082,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "5a35b628-c77d-11e6-8a33-5404a60d96b5",
+            "mip_table": "Omon",
+            "variable_name": "epc100"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "epc100"
           }
@@ -13881,6 +14125,10 @@
             "dreq_uid": "5a3602cc-c77d-11e6-8a33-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "epcalc100"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "epcalc100"
           }
         },
         "validation": {
@@ -13916,6 +14164,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "5a35e288-c77d-11e6-8a33-5404a60d96b5",
+            "mip_table": "Omon",
+            "variable_name": "epfe100"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "epfe100"
           }
@@ -14151,6 +14403,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "5a35f1ba-c77d-11e6-8a33-5404a60d96b5",
+            "mip_table": "Omon",
+            "variable_name": "epsi100"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "epsi100"
           }
@@ -14472,6 +14728,10 @@
             "dreq_uid": "baad5d9e-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Lmon",
             "variable_name": "evspsblsoi"
+          },
+          "CMIP5": {
+            "mip_table": "Lmon",
+            "variable_name": "evspsblsoi"
           }
         },
         "validation": {
@@ -14506,6 +14766,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baad6596-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Lmon",
+            "variable_name": "evspsblveg"
+          },
+          "CMIP5": {
             "mip_table": "Lmon",
             "variable_name": "evspsblveg"
           }
@@ -15235,6 +15499,10 @@
             "dreq_uid": "baad7f22-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Lmon",
             "variable_name": "fFire"
+          },
+          "CMIP5": {
+            "mip_table": "Lmon",
+            "variable_name": "fFire"
           }
         },
         "validation": {
@@ -15343,6 +15611,10 @@
             "dreq_uid": "baad86fc-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Lmon",
             "variable_name": "fGrazing"
+          },
+          "CMIP5": {
+            "mip_table": "Lmon",
+            "variable_name": "fGrazing"
           }
         },
         "validation": {
@@ -15415,6 +15687,10 @@
             "dreq_uid": "8b81c54a-4a5b-11e6-9cd2-ac72891c3257",
             "mip_table": "Emon",
             "variable_name": "fHarvestToAtmos"
+          },
+          "CMIP5": {
+            "mip_table": "Lmon",
+            "variable_name": "fHarvest"
           }
         },
         "validation": {
@@ -15523,6 +15799,10 @@
             "dreq_uid": "baad95d4-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Lmon",
             "variable_name": "fLitterSoil"
+          },
+          "CMIP5": {
+            "mip_table": "Lmon",
+            "variable_name": "fLitterSoil"
           }
         },
         "validation": {
@@ -15558,6 +15838,10 @@
           "CMIP6": {
             "dreq_uid": "d229196e-4a9f-11e6-b84e-ac72891c3257",
             "mip_table": "Emon",
+            "variable_name": "fLuc"
+          },
+          "CMIP5": {
+            "mip_table": "Lmon",
             "variable_name": "fLuc"
           }
         },
@@ -16535,6 +16819,10 @@
             "dreq_uid": "baadac22-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Lmon",
             "variable_name": "fVegSoil"
+          },
+          "CMIP5": {
+            "mip_table": "Lmon",
+            "variable_name": "fVegSoil"
           }
         },
         "validation": {
@@ -16681,6 +16969,10 @@
             "dreq_uid": "baa1522e-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "fbddtalk"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "fbddtalk"
           }
         },
         "validation": {
@@ -16716,6 +17008,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa13d20-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "fbddtdic"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "fbddtdic"
           }
@@ -16755,6 +17051,10 @@
             "dreq_uid": "baa149aa-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "fbddtdife"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "fbddtdife"
           }
         },
         "validation": {
@@ -16790,6 +17090,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa1414e-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "fbddtdin"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "fbddtdin"
           }
@@ -16829,6 +17133,10 @@
             "dreq_uid": "baa1457c-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "fbddtdip"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "fbddtdip"
           }
         },
         "validation": {
@@ -16864,6 +17172,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa14df6-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "fbddtdisi"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "fbddtdisi"
           }
@@ -16963,6 +17275,10 @@
             "dreq_uid": "baade44e-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Amon",
             "variable_name": "fco2fos"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "fco2fos"
           }
         },
         "validation": {
@@ -17022,6 +17338,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baaded68-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Amon",
+            "variable_name": "fco2nat"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "fco2nat"
           }
@@ -17086,6 +17406,10 @@
             "dreq_uid": "baa138fc-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "fddtalk"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "fddtalk"
           }
         },
         "validation": {
@@ -17121,6 +17445,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa123da-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "fddtdic"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "fddtdic"
           }
@@ -17160,6 +17488,10 @@
             "dreq_uid": "baa13064-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "fddtdife"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "fddtdife"
           }
         },
         "validation": {
@@ -17195,6 +17527,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa12812-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "fddtdin"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "fddtdin"
           }
@@ -17234,6 +17570,10 @@
             "dreq_uid": "baa12c36-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "fddtdip"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "fddtdip"
           }
         },
         "validation": {
@@ -17269,6 +17609,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa134b0-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "fddtdisi"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "fddtdisi"
           }
@@ -17308,6 +17652,10 @@
             "dreq_uid": "ba9f0a14-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oyr",
             "variable_name": "fediss"
+          },
+          "CMIP5": {
+            "mip_table": "Oyr",
+            "variable_name": "fediss"
           }
         },
         "validation": {
@@ -17343,6 +17691,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "ba9f05e6-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Oyr",
+            "variable_name": "fescav"
+          },
+          "CMIP5": {
             "mip_table": "Oyr",
             "variable_name": "fescav"
           }
@@ -17616,6 +17968,10 @@
             "dreq_uid": "baa0d420-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "fgco2"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "fgco2"
           }
         },
         "validation": {
@@ -17805,6 +18161,10 @@
             "dreq_uid": "baa0e906-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "fgdms"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "fgdms"
           }
         },
         "validation": {
@@ -17840,6 +18200,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa0e4ba-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "fgo2"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "fgo2"
           }
@@ -17915,6 +18279,10 @@
             "dreq_uid": "baa628c6-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "ficeberg"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "ficeberg2d"
           }
         },
         "validation": {
@@ -18305,6 +18673,10 @@
             "dreq_uid": "baa6247a-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "friver"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "friver"
           }
         },
         "validation": {
@@ -18414,6 +18786,10 @@
             "dreq_uid": "baa10aee-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "fsfe"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "fsfe"
           }
         },
         "validation": {
@@ -18451,6 +18827,10 @@
             "dreq_uid": "baa63136-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "fsitherm"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "fsitherm"
           }
         },
         "validation": {
@@ -18486,6 +18866,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa10292-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "fsn"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "fsn"
           }
@@ -19195,6 +19579,10 @@
             "dreq_uid": "baaeaf1e-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Amon",
             "variable_name": "hcfc22global"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "hcfc22global"
           }
         },
         "validation": {
@@ -19355,6 +19743,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa5c87c-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "hfbasin"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "hfbasin"
           }
@@ -19599,6 +19991,10 @@
             "dreq_uid": "baa6c33a-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "hfds"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "hfds"
           }
         },
         "validation": {
@@ -19699,6 +20095,10 @@
             "dreq_uid": "baaed890-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "LImon",
             "variable_name": "hfdsn"
+          },
+          "CMIP5": {
+            "mip_table": "LImon",
+            "variable_name": "hfdsn"
           }
         },
         "validation": {
@@ -19771,6 +20171,10 @@
             "dreq_uid": "baa67b8c-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "hfevapds"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "hfevapds"
           }
         },
         "validation": {
@@ -19830,6 +20234,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa67344-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "hfgeou"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "hfgeou"
           }
@@ -19981,6 +20389,10 @@
             "dreq_uid": "baa6a18e-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "hfibthermds"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "hfibthermds2d"
           }
         },
         "validation": {
@@ -20345,6 +20757,10 @@
             "dreq_uid": "ada94e1e-b17f-11e6-8975-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "hflso"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "hfls"
           }
         },
         "validation": {
@@ -20415,6 +20831,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa67768-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "hfrainds"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "hfrainds"
           }
@@ -20490,6 +20910,10 @@
             "dreq_uid": "baa68000-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "hfrunoffds"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "hfrunoffds2d"
           }
         },
         "validation": {
@@ -20600,6 +21024,10 @@
             "dreq_uid": "baa690b8-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "hfsifrazil"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "hfsifrazil2d"
           }
         },
         "validation": {
@@ -20674,6 +21102,10 @@
             "dreq_uid": "baa68852-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "hfsnthermds"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "hfsnthermds2d"
           }
         },
         "validation": {
@@ -21038,6 +21470,10 @@
             "dreq_uid": "ada95ca6-b17f-11e6-8975-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "hfsso"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "hfss"
           }
         },
         "validation": {
@@ -21074,6 +21510,10 @@
             "dreq_uid": "baa5e2e4-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "hfx"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "hfx"
           }
         },
         "validation": {
@@ -21108,6 +21548,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa5e758-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "hfy"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "hfy"
           }
@@ -21245,6 +21689,10 @@
             "dreq_uid": "baa5ef8c-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "htovgyre"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "htovgyre"
           }
         },
         "validation": {
@@ -21279,6 +21727,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa5f3ba-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "htovovrt"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "htovovrt"
           }
@@ -21680,6 +22132,10 @@
             "dreq_uid": "f32a8460-c38d-11e6-abc1-1b922e5e1118",
             "mip_table": "Eday",
             "variable_name": "hursminCrop"
+          },
+          "CMIP5": {
+            "mip_table": "day",
+            "variable_name": "hur"
           }
         },
         "validation": {
@@ -21707,6 +22163,10 @@
             "dreq_uid": "f32a805a-c38d-11e6-abc1-1b922e5e1118",
             "mip_table": "Emon",
             "variable_name": "hursminCrop"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "hur"
           }
         },
         "validation": {
@@ -22730,6 +23190,10 @@
             "dreq_uid": "c91e4b7c-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "intdic"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "intdic"
           }
         },
         "validation": {
@@ -22802,6 +23266,10 @@
             "dreq_uid": "baa0999c-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "intparag"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "intparag"
           }
         },
         "validation": {
@@ -22836,6 +23304,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa08984-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "intpbfe"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "intpbfe"
           }
@@ -22946,6 +23418,10 @@
             "dreq_uid": "baa08f6a-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "intpbsi"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "intpbsi"
           }
         },
         "validation": {
@@ -22982,6 +23458,10 @@
             "dreq_uid": "baa0944c-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "intpcalcite"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "intpcalcite"
           }
         },
         "validation": {
@@ -23016,6 +23496,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa0fe00-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "intpn2"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "intpn2"
           }
@@ -23956,6 +24440,10 @@
             "dreq_uid": "d22dd6ac-4a9f-11e6-b84e-ac72891c3257",
             "mip_table": "Emon",
             "variable_name": "laiLut"
+          },
+          "CMIP5": {
+            "mip_table": "Lmon",
+            "variable_name": "lai"
           }
         },
         "validation": {
@@ -26550,6 +27038,10 @@
             "dreq_uid": "baa5147c-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "masscello"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "masscello"
           }
         },
         "validation": {
@@ -26606,6 +27098,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa4f730-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "masso"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "masso"
           }
@@ -26943,6 +27439,10 @@
             "dreq_uid": "baa60bf2-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "mfo"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "mfo"
           }
         },
         "validation": {
@@ -27113,6 +27613,10 @@
             "dreq_uid": "1aab4e7a-b006-11e6-9289-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "mlotstmin"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "mlotst"
           }
         },
         "validation": {
@@ -27147,6 +27651,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa57ac0-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "mlotstsq"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "mlotstsq"
           }
@@ -27718,6 +28226,10 @@
             "dreq_uid": "bab1688a-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Lmon",
             "variable_name": "mrfso"
+          },
+          "CMIP5": {
+            "mip_table": "Lmon",
+            "variable_name": "mrfso"
           }
         },
         "validation": {
@@ -28053,6 +28565,10 @@
             "dreq_uid": "d22ddfda-4a9f-11e6-b84e-ac72891c3257",
             "mip_table": "Emon",
             "variable_name": "mrroLut"
+          },
+          "CMIP5": {
+            "mip_table": "Lmon",
+            "variable_name": "mrro"
           }
         },
         "validation": {
@@ -28149,6 +28665,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "bab19ff8-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Lmon",
+            "variable_name": "mrros"
+          },
+          "CMIP5": {
             "mip_table": "Lmon",
             "variable_name": "mrros"
           }
@@ -28411,6 +28931,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "bab1c08c-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "fx",
+            "variable_name": "mrsofc"
+          },
+          "CMIP5": {
             "mip_table": "fx",
             "variable_name": "mrsofc"
           }
@@ -28794,6 +29318,10 @@
             "dreq_uid": "baa57250-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "msftbarot"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "msftbarot"
           }
         },
         "validation": {
@@ -28959,6 +29487,10 @@
             "dreq_uid": "baa59d48-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "msftmz"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "msftmrhoz"
           }
         },
         "validation": {
@@ -29198,6 +29730,10 @@
             "dreq_uid": "baa5a662-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "msftyz"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "msftyrhoz"
           }
         },
         "validation": {
@@ -29496,6 +30032,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "a92e6316-817c-11e6-a4e2-5404a60d96b5",
+            "mip_table": "Amon",
+            "variable_name": "n2oglobalClim"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "n2oglobalClim"
           }
@@ -30255,6 +30795,10 @@
             "dreq_uid": "8b7eeef6-4a5b-11e6-9cd2-ac72891c3257",
             "mip_table": "Emon",
             "variable_name": "netAtmosLandCO2Flux"
+          },
+          "CMIP5": {
+            "mip_table": "Lmon",
+            "variable_name": "nbp"
           }
         },
         "validation": {
@@ -30355,6 +30899,10 @@
             "dreq_uid": "c9192462-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "nh4os"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "nh4"
           }
         },
         "validation": {
@@ -30566,6 +31114,10 @@
             "dreq_uid": "c91915f8-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "no3os"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "no3"
           }
         },
         "validation": {
@@ -31171,6 +31723,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa11336-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "o2min"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "o2min"
           }
@@ -33531,6 +34087,10 @@
             "dreq_uid": "81210f1c-bf17-11e6-b0d8-ac72891c3257",
             "mip_table": "LImon",
             "variable_name": "orogIs"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "orog"
           }
         },
         "validation": {
@@ -34098,6 +34658,10 @@
             "dreq_uid": "ba9ea0b0-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oyr",
             "variable_name": "parag"
+          },
+          "CMIP5": {
+            "mip_table": "Oyr",
+            "variable_name": "parag"
           }
         },
         "validation": {
@@ -34374,6 +34938,10 @@
             "dreq_uid": "ba9e9412-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oyr",
             "variable_name": "pbfe"
+          },
+          "CMIP5": {
+            "mip_table": "Oyr",
+            "variable_name": "pbfe"
           }
         },
         "validation": {
@@ -34408,6 +34976,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa4fb54-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "pbo"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "pbo"
           }
@@ -34447,6 +35019,10 @@
             "dreq_uid": "ba9e984a-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oyr",
             "variable_name": "pbsi"
+          },
+          "CMIP5": {
+            "mip_table": "Oyr",
+            "variable_name": "pbsi"
           }
         },
         "validation": {
@@ -34482,6 +35058,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "ba9e9c78-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Oyr",
+            "variable_name": "pcalc"
+          },
+          "CMIP5": {
             "mip_table": "Oyr",
             "variable_name": "pcalc"
           }
@@ -35063,6 +35643,10 @@
             "dreq_uid": "bab33d04-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Amon",
             "variable_name": "phalf"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "phalf"
           }
         },
         "validation": {
@@ -35225,6 +35809,10 @@
             "dreq_uid": "c918bbf8-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "phos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "ph"
           }
         },
         "validation": {
@@ -35299,6 +35887,10 @@
             "dreq_uid": "ba9f5398-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "phyc"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "phyc"
           }
         },
         "validation": {
@@ -35324,6 +35916,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "ba9dc05a-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Oyr",
+            "variable_name": "phyc"
+          },
+          "CMIP5": {
             "mip_table": "Oyr",
             "variable_name": "phyc"
           }
@@ -35426,6 +36022,10 @@
             "dreq_uid": "c9184416-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "phycalcos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "phycalc"
           }
         },
         "validation": {
@@ -35588,6 +36188,10 @@
             "dreq_uid": "c91827ba-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "phydiatos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "phydiat"
           }
         },
         "validation": {
@@ -35788,6 +36392,10 @@
             "dreq_uid": "c91a0cec-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "phyfeos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "phyfe"
           }
         },
         "validation": {
@@ -35888,6 +36496,10 @@
             "dreq_uid": "c9185fa0-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "phymiscos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "phymisc"
           }
         },
         "validation": {
@@ -35988,6 +36600,10 @@
             "dreq_uid": "c919f022-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "phynos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "phyn"
           }
         },
         "validation": {
@@ -36152,6 +36768,10 @@
             "dreq_uid": "c91851ea-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "phypicoos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "phypico"
           }
         },
         "validation": {
@@ -36188,6 +36808,10 @@
             "dreq_uid": "c919fe46-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "phypos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "phyp"
           }
         },
         "validation": {
@@ -36288,6 +36912,10 @@
             "dreq_uid": "c91a1b7e-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "physios"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "physi"
           }
         },
         "validation": {
@@ -36323,6 +36951,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "ba9e8fb2-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Oyr",
+            "variable_name": "pnitrate"
+          },
+          "CMIP5": {
             "mip_table": "Oyr",
             "variable_name": "pnitrate"
           }
@@ -36561,6 +37193,10 @@
             "dreq_uid": "c919b7b0-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "ponos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "pon"
           }
         },
         "validation": {
@@ -36661,6 +37297,10 @@
             "dreq_uid": "c919c610-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "popos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "pop"
           }
         },
         "validation": {
@@ -36789,6 +37429,10 @@
             "dreq_uid": "ba9ed724-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oyr",
             "variable_name": "ppcalc"
+          },
+          "CMIP5": {
+            "mip_table": "Oyr",
+            "variable_name": "dpocdtcalc"
           }
         },
         "validation": {
@@ -36853,6 +37497,10 @@
             "dreq_uid": "ba9eced2-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oyr",
             "variable_name": "ppdiat"
+          },
+          "CMIP5": {
+            "mip_table": "Oyr",
+            "variable_name": "pdi"
           }
         },
         "validation": {
@@ -36981,6 +37629,10 @@
             "dreq_uid": "ba9ee3a4-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oyr",
             "variable_name": "ppmisc"
+          },
+          "CMIP5": {
+            "mip_table": "Oyr",
+            "variable_name": "phypmisc"
           }
         },
         "validation": {
@@ -37082,6 +37734,10 @@
             "dreq_uid": "ba9edb84-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oyr",
             "variable_name": "pppico"
+          },
+          "CMIP5": {
+            "mip_table": "Oyr",
+            "variable_name": "dpocdtpico"
           }
         },
         "validation": {
@@ -37568,6 +38224,10 @@
             "dreq_uid": "bab40c20-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "3hr",
             "variable_name": "prc"
+          },
+          "CMIP5": {
+            "mip_table": "3hr",
+            "variable_name": "prc"
           }
         },
         "validation": {
@@ -37593,6 +38253,10 @@
           "CMIP6": {
             "dreq_uid": "e0ab4d54-4b7f-11e7-903f-5404a60d96b5",
             "mip_table": "CF3hr",
+            "variable_name": "prc"
+          },
+          "CMIP5": {
+            "mip_table": "3hr",
             "variable_name": "prc"
           }
         },
@@ -37620,6 +38284,10 @@
             "dreq_uid": "bab3fde8-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "day",
             "variable_name": "prc"
+          },
+          "CMIP5": {
+            "mip_table": "day",
+            "variable_name": "prc"
           }
         },
         "validation": {
@@ -37644,6 +38312,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "bab3f8a2-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Amon",
+            "variable_name": "prc"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "prc"
           }
@@ -37832,6 +38504,10 @@
             "dreq_uid": "d237723e-4a9f-11e6-b84e-ac72891c3257",
             "mip_table": "Eday",
             "variable_name": "prhmax"
+          },
+          "CMIP5": {
+            "mip_table": "day",
+            "variable_name": "pr"
           }
         },
         "validation": {
@@ -37858,6 +38534,10 @@
             "dreq_uid": "8b91ffaa-4a5b-11e6-9cd2-ac72891c3257",
             "mip_table": "Emon",
             "variable_name": "prhmax"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "pr"
           }
         },
         "validation": {
@@ -38166,6 +38846,10 @@
             "dreq_uid": "bab42912-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "3hr",
             "variable_name": "prsn"
+          },
+          "CMIP5": {
+            "mip_table": "3hr",
+            "variable_name": "prsn"
           }
         },
         "validation": {
@@ -38191,6 +38875,10 @@
           "CMIP6": {
             "dreq_uid": "e0ab4fc0-4b7f-11e7-903f-5404a60d96b5",
             "mip_table": "CF3hr",
+            "variable_name": "prsn"
+          },
+          "CMIP5": {
+            "mip_table": "3hr",
             "variable_name": "prsn"
           }
         },
@@ -38218,6 +38906,10 @@
             "dreq_uid": "bab43b50-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "day",
             "variable_name": "prsn"
+          },
+          "CMIP5": {
+            "mip_table": "day",
+            "variable_name": "prsn"
           }
         },
         "validation": {
@@ -38243,6 +38935,10 @@
           "CMIP6": {
             "dreq_uid": "bab42b88-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Amon",
+            "variable_name": "prsn"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
             "variable_name": "prsn"
           }
         },
@@ -38691,6 +39387,10 @@
             "dreq_uid": "bab45658-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Lmon",
             "variable_name": "prveg"
+          },
+          "CMIP5": {
+            "mip_table": "Lmon",
+            "variable_name": "prveg"
           }
         },
         "validation": {
@@ -39029,6 +39729,10 @@
             "dreq_uid": "bab47354-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "3hr",
             "variable_name": "ps"
+          },
+          "CMIP5": {
+            "mip_table": "3hr",
+            "variable_name": "ps"
           }
         },
         "validation": {
@@ -39130,6 +39834,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "bab47b56-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Amon",
+            "variable_name": "ps"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "ps"
           }
@@ -39470,6 +40178,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa4ff96-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "pso"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "pso"
           }
@@ -41541,6 +42253,10 @@
             "dreq_uid": "bab52b5a-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "3hr",
             "variable_name": "rlds"
+          },
+          "CMIP5": {
+            "mip_table": "3hr",
+            "variable_name": "rlds"
           }
         },
         "validation": {
@@ -41566,6 +42282,10 @@
           "CMIP6": {
             "dreq_uid": "e0ab54ac-4b7f-11e7-903f-5404a60d96b5",
             "mip_table": "CF3hr",
+            "variable_name": "rlds"
+          },
+          "CMIP5": {
+            "mip_table": "3hr",
             "variable_name": "rlds"
           }
         },
@@ -41593,6 +42313,10 @@
             "dreq_uid": "bab538d4-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "day",
             "variable_name": "rlds"
+          },
+          "CMIP5": {
+            "mip_table": "day",
+            "variable_name": "rlds"
           }
         },
         "validation": {
@@ -41617,6 +42341,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "bab52da8-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Amon",
+            "variable_name": "rlds"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "rlds"
           }
@@ -41770,6 +42498,10 @@
             "dreq_uid": "bab55f12-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "3hr",
             "variable_name": "rldscs"
+          },
+          "CMIP5": {
+            "mip_table": "3hr",
+            "variable_name": "rldscs"
           }
         },
         "validation": {
@@ -41795,6 +42527,10 @@
           "CMIP6": {
             "dreq_uid": "e0ab5718-4b7f-11e7-903f-5404a60d96b5",
             "mip_table": "CF3hr",
+            "variable_name": "rldscs"
+          },
+          "CMIP5": {
+            "mip_table": "3hr",
             "variable_name": "rldscs"
           }
         },
@@ -41846,6 +42582,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "bab5540e-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Amon",
+            "variable_name": "rldscs"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "rldscs"
           }
@@ -41909,6 +42649,10 @@
             "dreq_uid": "1ded891c-b00c-11e6-bdc9-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "rlntds"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "rlds"
           }
         },
         "validation": {
@@ -43023,6 +43767,10 @@
             "dreq_uid": "bab5c7fe-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "fx",
             "variable_name": "rootd"
+          },
+          "CMIP5": {
+            "mip_table": "fx",
+            "variable_name": "rootd"
           }
         },
         "validation": {
@@ -43461,6 +44209,10 @@
             "dreq_uid": "baa6ba98-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "rsdo"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "rsds"
           }
         },
         "validation": {
@@ -43561,6 +44313,10 @@
             "dreq_uid": "bab5df78-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "3hr",
             "variable_name": "rsds"
+          },
+          "CMIP5": {
+            "mip_table": "3hr",
+            "variable_name": "rsds"
           }
         },
         "validation": {
@@ -43586,6 +44342,10 @@
           "CMIP6": {
             "dreq_uid": "e0ab60be-4b7f-11e7-903f-5404a60d96b5",
             "mip_table": "CF3hr",
+            "variable_name": "rsds"
+          },
+          "CMIP5": {
+            "mip_table": "3hr",
             "variable_name": "rsds"
           }
         },
@@ -43613,6 +44373,10 @@
             "dreq_uid": "bab5ecd4-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "day",
             "variable_name": "rsds"
+          },
+          "CMIP5": {
+            "mip_table": "day",
+            "variable_name": "rsds"
           }
         },
         "validation": {
@@ -43637,6 +44401,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "bab5e1b2-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Amon",
+            "variable_name": "rsds"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "rsds"
           }
@@ -44003,6 +44771,10 @@
             "dreq_uid": "7b304028-a220-11e6-a33f-ac72891c3257",
             "mip_table": "E3hrPt",
             "variable_name": "rsdscsbnd"
+          },
+          "CMIP5": {
+            "mip_table": "3hr",
+            "variable_name": "rsdscs"
           }
         },
         "validation": {
@@ -44378,6 +45150,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa6b66a-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "rsntds"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "rsntds"
           }
@@ -45322,6 +46098,10 @@
             "dreq_uid": "7b3043b6-a220-11e6-a33f-ac72891c3257",
             "mip_table": "E3hrPt",
             "variable_name": "rsuscsbnd"
+          },
+          "CMIP5": {
+            "mip_table": "3hr",
+            "variable_name": "rsuscs"
           }
         },
         "validation": {
@@ -45786,6 +46566,10 @@
             "dreq_uid": "bab699c2-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "CFmon",
             "variable_name": "rsutcs4co2"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "rsutcs"
           }
         },
         "validation": {
@@ -45982,6 +46766,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "bab6a91c-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Amon",
+            "variable_name": "rtmt"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "rtmt"
           }
@@ -46444,6 +47232,10 @@
             "dreq_uid": "bab6d180-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Amon",
             "variable_name": "sci"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "sci"
           }
         },
         "validation": {
@@ -46787,6 +47579,10 @@
             "dreq_uid": "bab709de-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "day",
             "variable_name": "sfcWindmax"
+          },
+          "CMIP5": {
+            "mip_table": "day",
+            "variable_name": "sfcWindmax"
           }
         },
         "validation": {
@@ -46814,6 +47610,10 @@
             "dreq_uid": "fee11078-5270-11e6-bffa-5404a60d96b5",
             "mip_table": "Emon",
             "variable_name": "sfcWindmax"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "sfcWind"
           }
         },
         "validation": {
@@ -46876,6 +47676,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa662fa-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "sfdsi"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "sfdsi"
           }
@@ -47110,6 +47914,10 @@
             "dreq_uid": "baa66746-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "sfriver"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "sfriver"
           }
         },
         "validation": {
@@ -47310,6 +48118,10 @@
             "dreq_uid": "bab73a76-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "fx",
             "variable_name": "sftgif"
+          },
+          "CMIP5": {
+            "mip_table": "fx",
+            "variable_name": "sftgif"
           }
         },
         "validation": {
@@ -47482,6 +48294,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "bab742c8-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "fx",
+            "variable_name": "sftlf"
+          },
+          "CMIP5": {
             "mip_table": "fx",
             "variable_name": "sftlf"
           }
@@ -50975,6 +51791,10 @@
             "dreq_uid": "baa5f7de-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "sltovgyre"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "sltovgyre"
           }
         },
         "validation": {
@@ -51009,6 +51829,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa5fc0c-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "sltovovrt"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "sltovovrt"
           }
@@ -51255,6 +52079,10 @@
             "dreq_uid": "132b3e66-be44-11e6-9e13-f9e3356200b3",
             "mip_table": "LImon",
             "variable_name": "sncIs"
+          },
+          "CMIP5": {
+            "mip_table": "LImon",
+            "variable_name": "snc"
           }
         },
         "validation": {
@@ -51317,6 +52145,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "bab7e05c-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "LImon",
+            "variable_name": "snd"
+          },
+          "CMIP5": {
             "mip_table": "LImon",
             "variable_name": "snd"
           }
@@ -51885,6 +52717,10 @@
             "dreq_uid": "132b316e-be44-11e6-9e13-f9e3356200b3",
             "mip_table": "LImon",
             "variable_name": "snmIs"
+          },
+          "CMIP5": {
+            "mip_table": "LImon",
+            "variable_name": "snm"
           }
         },
         "validation": {
@@ -52120,6 +52956,10 @@
             "dreq_uid": "bab820b2-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "day",
             "variable_name": "snw"
+          },
+          "CMIP5": {
+            "mip_table": "day",
+            "variable_name": "snw"
           }
         },
         "validation": {
@@ -52145,6 +52985,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "bab81e50-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "LImon",
+            "variable_name": "snw"
+          },
+          "CMIP5": {
             "mip_table": "LImon",
             "variable_name": "snw"
           }
@@ -52247,6 +53091,10 @@
             "dreq_uid": "baa5491a-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "so"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "soga"
           }
         },
         "validation": {
@@ -52541,6 +53389,10 @@
             "dreq_uid": "bab83fc0-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "LImon",
             "variable_name": "sootsn"
+          },
+          "CMIP5": {
+            "mip_table": "LImon",
+            "variable_name": "sootsn"
           }
         },
         "validation": {
@@ -52687,6 +53539,10 @@
             "dreq_uid": "1aaaf7fe-b006-11e6-9289-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "sosga"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "sos"
           }
         },
         "validation": {
@@ -52784,6 +53640,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa0c7a0-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "spco2"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "spco2"
           }
@@ -54338,6 +55198,10 @@
             "dreq_uid": "c91897f4-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "talkos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "talk"
           }
         },
         "validation": {
@@ -55105,6 +55969,10 @@
             "dreq_uid": "bab96cc4-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Amon",
             "variable_name": "tauu"
+          },
+          "CMIP5": {
+            "mip_table": "Amon",
+            "variable_name": "tauu"
           }
         },
         "validation": {
@@ -55350,6 +56218,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "bab9888a-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Amon",
+            "variable_name": "tauv"
+          },
+          "CMIP5": {
             "mip_table": "Amon",
             "variable_name": "tauv"
           }
@@ -55883,6 +56755,10 @@
             "dreq_uid": "baa51d00-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "thetao"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "thetaoga"
           }
         },
         "validation": {
@@ -56845,6 +57721,10 @@
             "dreq_uid": "bab9e8c0-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oclim",
             "variable_name": "tnpeo"
+          },
+          "CMIP5": {
+            "mip_table": "Oclim",
+            "variable_name": "tnpeo"
           }
         },
         "validation": {
@@ -56908,6 +57788,10 @@
             "dreq_uid": "bab9eb4a-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Oclim",
             "variable_name": "tnpeot"
+          },
+          "CMIP5": {
+            "mip_table": "Oclim",
+            "variable_name": "tnpeot"
           }
         },
         "validation": {
@@ -56943,6 +57827,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "bab9edde-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Oclim",
+            "variable_name": "tnpeotb"
+          },
+          "CMIP5": {
             "mip_table": "Oclim",
             "variable_name": "tnpeotb"
           }
@@ -58513,6 +59401,10 @@
             "dreq_uid": "baa53ace-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "tosga"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "tos"
           }
         },
         "validation": {
@@ -58573,6 +59465,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa53ee8-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "tossq"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "tossq"
           }
@@ -58701,6 +59597,10 @@
             "dreq_uid": "baba8cbc-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "LImon",
             "variable_name": "tpf"
+          },
+          "CMIP5": {
+            "mip_table": "LImon",
+            "variable_name": "tpf"
           }
         },
         "validation": {
@@ -58797,6 +59697,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baba9752-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Lmon",
+            "variable_name": "tran"
+          },
+          "CMIP5": {
             "mip_table": "Lmon",
             "variable_name": "tran"
           }
@@ -59515,6 +60419,10 @@
             "dreq_uid": "babb0732-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Lmon",
             "variable_name": "tsl"
+          },
+          "CMIP5": {
+            "mip_table": "Lmon",
+            "variable_name": "tsl"
           }
         },
         "validation": {
@@ -59804,6 +60712,10 @@
             "dreq_uid": "132b199a-be44-11e6-9e13-f9e3356200b3",
             "mip_table": "LImon",
             "variable_name": "tsnIs"
+          },
+          "CMIP5": {
+            "mip_table": "LImon",
+            "variable_name": "tsn"
           }
         },
         "validation": {
@@ -60274,6 +61186,10 @@
             "dreq_uid": "917b79b6-267c-11e7-8933-ac72891c3257",
             "mip_table": "6hrPlev",
             "variable_name": "ua100m"
+          },
+          "CMIP5": {
+            "mip_table": "6hrPlev",
+            "variable_name": "ua"
           }
         },
         "validation": {
@@ -60800,6 +61716,10 @@
             "dreq_uid": "baa5942e-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "umo"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "umo"
           }
         },
         "validation": {
@@ -60862,6 +61782,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa586e6-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "uo"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "uo"
           }
@@ -61658,6 +62582,10 @@
             "dreq_uid": "917b7d94-267c-11e7-8933-ac72891c3257",
             "mip_table": "6hrPlev",
             "variable_name": "va100m"
+          },
+          "CMIP5": {
+            "mip_table": "6hrPlev",
+            "variable_name": "va"
           }
         },
         "validation": {
@@ -62454,6 +63382,10 @@
             "dreq_uid": "baa598c0-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "vmo"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "vmo"
           }
         },
         "validation": {
@@ -62552,6 +63484,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa58b1e-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "vo"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "vo"
           }
@@ -62729,6 +63665,10 @@
             "dreq_uid": "baa503ce-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "volo"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "volo"
           }
         },
         "validation": {
@@ -62838,6 +63778,10 @@
             "dreq_uid": "baa65a76-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "vsf"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "vsf"
           }
         },
         "validation": {
@@ -62910,6 +63854,10 @@
             "dreq_uid": "baa64df6-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "vsfevap"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "vsfevap"
           }
         },
         "validation": {
@@ -62944,6 +63892,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa649d2-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "vsfpr"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "vsfpr"
           }
@@ -62982,6 +63934,10 @@
             "dreq_uid": "baa65224-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "vsfriver"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "vsfriver"
           }
         },
         "validation": {
@@ -63017,6 +63973,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa65648-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "vsfsit"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "vsfsit"
           }
@@ -64049,6 +65009,10 @@
             "dreq_uid": "6f6acb20-9acb-11e6-b7ee-ac72891c3257",
             "mip_table": "Emon",
             "variable_name": "wetlandFrac"
+          },
+          "CMIP5": {
+            "mip_table": "Lmon",
+            "variable_name": "c4PftFrac"
           }
         },
         "validation": {
@@ -64399,6 +65363,10 @@
             "dreq_uid": "baa63578-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "wfo"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "wfo"
           }
         },
         "validation": {
@@ -64433,6 +65401,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa639b0-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "wfonocorr"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "wfonocorr"
           }
@@ -64506,6 +65478,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa58f74-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "wmo"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "wmo"
           }
@@ -66069,6 +67045,10 @@
             "dreq_uid": "3c565a72-b89b-11e6-be04-ac72891c3257",
             "mip_table": "Oclim",
             "variable_name": "zhalfo"
+          },
+          "CMIP5": {
+            "mip_table": "Oclim",
+            "variable_name": "zfull"
           }
         },
         "validation": {
@@ -66096,6 +67076,10 @@
             "dreq_uid": "5a4c1f6c-c77d-11e6-8a33-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "zhalfo"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "zfull"
           }
         },
         "validation": {
@@ -66196,6 +67180,10 @@
             "dreq_uid": "c9187c60-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "zmesoos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "zmeso"
           }
         },
         "validation": {
@@ -66296,6 +67284,10 @@
             "dreq_uid": "c9186d38-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "zmicroos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "zmicro"
           }
         },
         "validation": {
@@ -66396,6 +67388,10 @@
             "dreq_uid": "c9188a3e-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "zmiscos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "zoocmisc"
           }
         },
         "validation": {
@@ -66576,6 +67572,10 @@
             "dreq_uid": "baa11764-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "zo2min"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "zo2min"
           }
         },
         "validation": {
@@ -66676,6 +67676,10 @@
             "dreq_uid": "c917e0b6-c5e8-11e6-84e6-5404a60d96b5",
             "mip_table": "Omon",
             "variable_name": "zoocos"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "zooc"
           }
         },
         "validation": {
@@ -66710,6 +67714,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa507f2-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "zos"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "zos"
           }
@@ -66748,6 +67756,10 @@
             "dreq_uid": "baa50c2a-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "zossq"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "zossq"
           }
         },
         "validation": {
@@ -66780,6 +67792,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa51058-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "zostoga"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "zostoga"
           }
@@ -66818,6 +67834,10 @@
             "dreq_uid": "baa11fb6-e5dd-11e5-8482-ac72891c3257",
             "mip_table": "Omon",
             "variable_name": "zsatarag"
+          },
+          "CMIP5": {
+            "mip_table": "Omon",
+            "variable_name": "zsatarag"
           }
         },
         "validation": {
@@ -66852,6 +67872,10 @@
         "provenance": {
           "CMIP6": {
             "dreq_uid": "baa11b92-e5dd-11e5-8482-ac72891c3257",
+            "mip_table": "Omon",
+            "variable_name": "zsatcalc"
+          },
+          "CMIP5": {
             "mip_table": "Omon",
             "variable_name": "zsatcalc"
           }
