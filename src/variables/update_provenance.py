@@ -1,4 +1,4 @@
-
+from fuzzywuzzy import fuzz
       
 
 import json 
@@ -35,9 +35,19 @@ def prov(vars):
                         possible = None
                         for possible in cmip6map[table]:
                             try:
-                                vars[mp[v2['standard_name']]]['tables'][possible]['provenance'].update(newprov)
 
-                                success.append(vars[mp[v2['standard_name']]])
+                                if fuzz.ratio(var,vars[mp[v2['standard_name']]]['tables'][possible]['provenance']['CMIP6']['variable_name']) > 70 :
+
+                                    
+                                    vars[mp[v2['standard_name']]]['tables'][possible]['provenance'].update(newprov)
+
+
+                                    # Make sure that the variables are atleast similar
+
+
+                                    # print(fuzz.ratio(var,vars[mp[v2['standard_name']]]['tables'][possible]['provenance']['CMIP6']['variable_name']) ,var,vars[mp[v2['standard_name']]]['tables'][possible]['provenance']['CMIP6']['variable_name'])
+                                    
+                                    success.append(vars[mp[v2['standard_name']]])
 
                             except Exception as e:
                                 pass

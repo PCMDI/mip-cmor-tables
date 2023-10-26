@@ -99,7 +99,7 @@ if __name__ == '__main__':
     files = Path('../../Tables').glob('*.json')
 
     # Set up logging
-    log_file_path = '../../.logs/var_diff.log'
+    log_file_path = '../.logs/var_diff.log'
     if os.path.exists(log_file_path):
         os.remove(log_file_path)
 
@@ -164,7 +164,7 @@ if __name__ == '__main__':
 
 
     # Save the nested and merged variable information to a JSON file
-    with open('../../Auxillary/variables.json', 'w') as f:
+    with open('../../MIP_variables.json', 'w') as f:
         json.dump(merged, f, indent=2)
 
     print(len(merged))
