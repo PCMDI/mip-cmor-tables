@@ -1,8 +1,7 @@
 # mip-cmor-tables
 
-JSON tables for CMOR3 to create Model Intercomparison Project (MIP) datasets
+JSON tables to create Model Intercomparison Project (MIP) datasets
 
-### THIS REPOSITORY IS CURRENTLY UNDER ACTIVE DEVELOPMENT
 
 ## Contributors
 
