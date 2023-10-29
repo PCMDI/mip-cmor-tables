@@ -1,4 +1,4 @@
-{
+  {
   "abs550aer": {
     "long_name": "Ambient Aerosol Absorption Optical Thickness at 550nm",
     "out_name": "abs550aer",
