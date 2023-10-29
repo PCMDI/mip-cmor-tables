@@ -95,6 +95,7 @@ def nest(dictionary_with_tuples):
 
 
 if __name__ == '__main__':
+
     # Find all JSON files in the 'Tables' directory
     files = Path('../../Tables').glob('*.json')
 
@@ -108,6 +109,8 @@ if __name__ == '__main__':
 
     with Pool() as pool:
         results = pool.map(process_file, files)
+
+
 
     merged = defaultdict(dict)
     for result in results:

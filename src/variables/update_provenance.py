@@ -5,7 +5,9 @@ import json
 
 load = lambda f: json.load(open(f,'r'))
 
-
+m325 = json.load(open('mapping3to5.json'))
+m325 = dict([[(i['cmip5variable'],i['cmip5table']),i] for i in m325])
+# print(m325.keys())
 
 
 def prov(vars):
@@ -32,6 +34,10 @@ def prov(vars):
                     v2 = mipdata[table][var]
                     if 'standard_name' in v2 and v2['standard_name'] in mp:
                         newprov = {MIP:{'mip_table': table, 'variable_name': var}}
+                        if (var,table) in m325:
+                            value = m325[(var,table)]
+                            newprov.update({'CMIP3':{'mip_table': value['cmip3table'], 'variable_name': value['cmip3variable']}})
+
                         possible = None
                         for possible in cmip6map[table]:
                             try:
@@ -40,6 +46,7 @@ def prov(vars):
 
                                     
                                     vars[mp[v2['standard_name']]]['tables'][possible]['provenance'].update(newprov)
+
 
 
                                     # Make sure that the variables are atleast similar

@@ -28909,6 +28909,10 @@
           "CMIP5": {
             "mip_table": "fx",
             "variable_name": "mrsofc"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
+            "variable_name": "mrsofc"
           }
         },
         "validation": {
@@ -38180,6 +38184,10 @@
           "CMIP5": {
             "mip_table": "3hr",
             "variable_name": "prc"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
+            "variable_name": "prc"
           }
         },
         "validation": {
@@ -38209,6 +38217,10 @@
           },
           "CMIP5": {
             "mip_table": "3hr",
+            "variable_name": "prc"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
             "variable_name": "prc"
           }
         },
@@ -38794,6 +38806,10 @@
           "CMIP5": {
             "mip_table": "3hr",
             "variable_name": "prsn"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
+            "variable_name": "prsn"
           }
         },
         "validation": {
@@ -38823,6 +38839,10 @@
           },
           "CMIP5": {
             "mip_table": "3hr",
+            "variable_name": "prsn"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
             "variable_name": "prsn"
           }
         },
@@ -39677,6 +39697,10 @@
           "CMIP5": {
             "mip_table": "3hr",
             "variable_name": "ps"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
+            "variable_name": "ps"
           }
         },
         "validation": {
@@ -39783,6 +39807,10 @@
           },
           "CMIP5": {
             "mip_table": "Amon",
+            "variable_name": "ps"
+          },
+          "CMIP3": {
+            "mip_table": "aero",
             "variable_name": "ps"
           }
         },
@@ -42201,6 +42229,10 @@
           "CMIP5": {
             "mip_table": "3hr",
             "variable_name": "rlds"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
+            "variable_name": "rlds"
           }
         },
         "validation": {
@@ -42230,6 +42262,10 @@
           },
           "CMIP5": {
             "mip_table": "3hr",
+            "variable_name": "rlds"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
             "variable_name": "rlds"
           }
         },
@@ -42290,6 +42326,10 @@
           },
           "CMIP5": {
             "mip_table": "Amon",
+            "variable_name": "rlds"
+          },
+          "CMIP3": {
+            "mip_table": "A3",
             "variable_name": "rlds"
           }
         },
@@ -43715,6 +43755,10 @@
           "CMIP5": {
             "mip_table": "fx",
             "variable_name": "rootd"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
+            "variable_name": "rootd"
           }
         },
         "validation": {
@@ -44261,6 +44305,10 @@
           "CMIP5": {
             "mip_table": "3hr",
             "variable_name": "rsds"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
+            "variable_name": "rsds"
           }
         },
         "validation": {
@@ -44290,6 +44338,10 @@
           },
           "CMIP5": {
             "mip_table": "3hr",
+            "variable_name": "rsds"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
             "variable_name": "rsds"
           }
         },
@@ -44350,6 +44402,10 @@
           },
           "CMIP5": {
             "mip_table": "Amon",
+            "variable_name": "rsds"
+          },
+          "CMIP3": {
+            "mip_table": "A3",
             "variable_name": "rsds"
           }
         },
@@ -44718,6 +44774,10 @@
           },
           "CMIP5": {
             "mip_table": "3hr",
+            "variable_name": "rsdscs"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
             "variable_name": "rsdscs"
           }
         },
@@ -46045,6 +46105,10 @@
           },
           "CMIP5": {
             "mip_table": "3hr",
+            "variable_name": "rsuscs"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
             "variable_name": "rsuscs"
           }
         },
@@ -48066,6 +48130,10 @@
           "CMIP5": {
             "mip_table": "fx",
             "variable_name": "sftgif"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
+            "variable_name": "sftgif"
           }
         },
         "validation": {
@@ -48243,6 +48311,10 @@
           },
           "CMIP5": {
             "mip_table": "fx",
+            "variable_name": "sftlf"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
             "variable_name": "sftlf"
           }
         },
@@ -52027,6 +52099,10 @@
           "CMIP5": {
             "mip_table": "LImon",
             "variable_name": "snc"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
+            "variable_name": "snc"
           }
         },
         "validation": {
@@ -52094,6 +52170,10 @@
           },
           "CMIP5": {
             "mip_table": "LImon",
+            "variable_name": "snd"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
             "variable_name": "snd"
           }
         },
@@ -52665,6 +52745,10 @@
           "CMIP5": {
             "mip_table": "LImon",
             "variable_name": "snm"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
+            "variable_name": "snm"
           }
         },
         "validation": {
@@ -52934,6 +53018,10 @@
           },
           "CMIP5": {
             "mip_table": "LImon",
+            "variable_name": "snw"
+          },
+          "CMIP3": {
+            "mip_table": "A1",
             "variable_name": "snw"
           }
         },
