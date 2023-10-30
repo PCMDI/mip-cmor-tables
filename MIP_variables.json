@@ -39810,7 +39810,7 @@
             "variable_name": "ps"
           },
           "CMIP3": {
-            "mip_table": "aero",
+            "mip_table": "A1",
             "variable_name": "ps"
           }
         },
