@@ -2,8 +2,8 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 30.0,
-    "checksum": "md5: cff3579b5203ed652f6baa4c6e92e865",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
       "alevel",
@@ -12,12 +12,11 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "APmonLev"
   },
   "variable_entry": {
     "cl": {
-      "branded_variable_name": "cl_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Percentage cloud cover, including both large-scale and convective cloud.",
@@ -32,27 +31,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": 26.07,
+      "ok_min_mean_abs": "",
       "out_name": "cl",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baaa4302-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "Amon",
-          "variable_name": "cl"
-        }
-      },
       "standard_name": "cloud_area_fraction_in_atmosphere_layer",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": 26.07,
-        "ok_min_mean_abs": "",
-        "valid_max": 105.0,
-        "valid_min": 0.0
-      }
+      "valid_max": 105.0,
+      "valid_min": 0.0
     },
     "clc": {
-      "branded_variable_name": "clc_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Include only convective cloud.",
@@ -67,27 +56,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baaa557c-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "clc"
-        }
-      },
       "standard_name": "convective_cloud_area_fraction_in_atmosphere_layer",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cli": {
-      "branded_variable_name": "cli_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Includes both large-scale and convective cloud. This is calculated as the mass of cloud ice in the grid cell divided by the mass of air (including the water in all phases) in the grid cell. It includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
@@ -102,27 +81,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cli",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baaa8326-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "Amon",
-          "variable_name": "cli"
-        }
-      },
       "standard_name": "mass_fraction_of_cloud_ice_in_air",
       "type": "real",
       "units": "kg kg-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "clic": {
-      "branded_variable_name": "clic_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Calculated as the mass of convective cloud ice  in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
@@ -137,27 +106,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clic",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baaa8aa6-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "clic"
-        }
-      },
       "standard_name": "mass_fraction_of_convective_cloud_ice_in_air",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "clis": {
-      "branded_variable_name": "clis_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Calculated as the mass of stratiform cloud ice  in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
@@ -172,27 +131,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clis",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baaa8cd6-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "clis"
-        }
-      },
       "standard_name": "mass_fraction_of_stratiform_cloud_ice_in_air",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cls": {
-      "branded_variable_name": "cls_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Cloud area fraction (reported as a percentage) for the whole atmospheric column due to stratiform clouds, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud.",
@@ -207,27 +156,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cls",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baaac764-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "cls"
-        }
-      },
       "standard_name": "stratiform_cloud_area_fraction_in_atmosphere_layer",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "clw": {
-      "branded_variable_name": "clw_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Includes both large-scale and convective cloud. Calculate as the mass of cloud liquid water in the grid cell divided by the mass of air (including the water in all phases) in the grid cells. Precipitating hydrometeors are included ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
@@ -242,27 +181,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clw",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baab0382-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "Amon",
-          "variable_name": "clw"
-        }
-      },
       "standard_name": "mass_fraction_of_cloud_liquid_water_in_air",
       "type": "real",
       "units": "kg kg-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "clwc": {
-      "branded_variable_name": "clwc_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Calculated as the mass of convective cloud liquid water in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
@@ -277,27 +206,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clwc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baab0b2a-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "clwc"
-        }
-      },
       "standard_name": "mass_fraction_of_convective_cloud_liquid_water_in_air",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "clws": {
-      "branded_variable_name": "clws_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Calculated as the mass of stratiform cloud liquid water in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
@@ -312,27 +231,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clws",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baab0f3a-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "clws"
-        }
-      },
       "standard_name": "mass_fraction_of_stratiform_cloud_liquid_water_in_air",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "co23D": {
-      "branded_variable_name": "co23D_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "report 3D field of model simulated atmospheric CO2 mass mixing ration on model levels",
@@ -347,27 +256,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "co23D",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e705484a-aa7f-11e6-9a4a-5404a60d96b5",
-          "mip_table": "Emon",
-          "variable_name": "co23D"
-        }
-      },
       "standard_name": "mass_fraction_of_carbon_dioxide_tracer_in_air",
       "type": "real",
       "units": "kg kg-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "conccmcn": {
-      "branded_variable_name": "conccmcn_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "includes all particles with diameter larger than 1 micron",
@@ -382,27 +281,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "conccmcn",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "6f36c97e-9acb-11e6-b7ee-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "conccmcn"
-        }
-      },
       "standard_name": "number_concentration_of_coarse_mode_ambient_aerosol_particles_in_air",
       "type": "real",
       "units": "m-3",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "conccn": {
-      "branded_variable_name": "conccn_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "'Number concentration' means the number of particles or other specified objects per unit volume. 'Aerosol' means the system of suspended liquid or solid particles in air (except cloud droplets) and their carrier gas, the air itself. 'Ambient_aerosol' means that the aerosol is measured or modelled at the ambient state of pressure, temperature and relative humidity that exists in its immediate environment. 'Ambient aerosol particles' are aerosol particles that have taken up ambient water through hygroscopic growth. The extent of hygroscopic growth depends on the relative humidity and the composition of the particles.",
@@ -417,27 +306,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "conccn",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "6f36d5e0-9acb-11e6-b7ee-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "conccn"
-        }
-      },
       "standard_name": "number_concentration_of_ambient_aerosol_particles_in_air",
       "type": "real",
       "units": "m-3",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "concdust": {
-      "branded_variable_name": "concdust_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Mass concentration means mass per unit volume and is used in the construction mass_concentration_of_X_in_Y, where X is a material constituent of Y. A chemical species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox_expressed_as_nitrogen'. 'Aerosol' means the system of suspended liquid or solid particles in air (except cloud droplets) and their carrier gas, the air itself. Aerosol particles take up ambient water (a process known as hygroscopic growth) depending on the relative humidity and the composition of the particles. 'Dry aerosol particles' means aerosol particles without any water uptake.",
@@ -452,27 +331,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "concdust",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "6d5b0f08-a39e-11e6-8a8c-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "concdust"
-        }
-      },
       "standard_name": "mass_concentration_of_dust_dry_aerosol_particles_in_air",
       "type": "real",
       "units": "kg m-3",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "concnmcn": {
-      "branded_variable_name": "concnmcn_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "includes all particles with diameter smaller than 3 nm",
@@ -487,27 +356,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "concnmcn",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "6f36cfc8-9acb-11e6-b7ee-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "concnmcn"
-        }
-      },
       "standard_name": "number_concentration_of_nucleation_mode_ambient_aerosol_particles_in_air",
       "type": "real",
       "units": "m-3",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "dmc": {
-      "branded_variable_name": "dmc_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "The net mass flux  represents the difference between the updraft and downdraft components.   This is calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",
@@ -522,27 +381,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "dmc",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baac1790-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "dmc"
-        }
-      },
       "standard_name": "atmosphere_net_upward_deep_convective_mass_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "edt": {
-      "branded_variable_name": "edt_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Vertical diffusion coefficient for temperature due to parametrised eddies",
@@ -557,27 +406,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "edt",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "a94cab8c-817c-11e6-a4e2-5404a60d96b5",
-          "mip_table": "CFmon",
-          "variable_name": "edt"
-        }
-      },
       "standard_name": "atmosphere_heat_diffusivity",
       "type": "real",
       "units": "m2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "evu": {
-      "branded_variable_name": "evu_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Vertical diffusion coefficient for momentum due to parametrised eddies",
@@ -592,27 +431,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "evu",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "a94c9fc0-817c-11e6-a4e2-5404a60d96b5",
-          "mip_table": "CFmon",
-          "variable_name": "evu"
-        }
-      },
       "standard_name": "atmosphere_momentum_diffusivity",
       "type": "real",
       "units": "m2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "hur": {
-      "branded_variable_name": "hur_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
@@ -627,27 +456,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hur",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baafe8fc-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "hur"
-        }
-      },
       "standard_name": "relative_humidity",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "hus": {
-      "branded_variable_name": "hus_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
@@ -662,27 +481,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hus",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab00f1c-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "hus"
-        }
-      },
       "standard_name": "specific_humidity",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "mc": {
-      "branded_variable_name": "mc_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "The net mass flux should represent the difference between the updraft and downdraft components.  The flux is computed as the mass divided by the area of the grid cell.",
@@ -697,27 +506,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "mc",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab117b8-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "Amon",
-          "variable_name": "mc"
-        }
-      },
       "standard_name": "atmosphere_net_upward_convective_mass_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "mcd": {
-      "branded_variable_name": "mcd_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",
@@ -732,27 +531,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "mcd",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab12118-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "mcd"
-        }
-      },
       "standard_name": "atmosphere_downdraft_convective_mass_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "mcu": {
-      "branded_variable_name": "mcu_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics. The atmosphere convective mass flux is the vertical transport of mass for a field of cumulus clouds or thermals, given by the product of air density and vertical velocity. For an area-average, cell_methods should specify whether the average is over all the area or the area of updrafts only.",
@@ -767,27 +556,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "mcu",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab125a0-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "mcu"
-        }
-      },
       "standard_name": "atmosphere_updraft_convective_mass_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "md": {
-      "branded_variable_name": "md_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Emission from a primary source located anywhere within the atmosphere, including at the lower boundary (i.e. the surface of the earth). ",
@@ -802,27 +581,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "md",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "6f6bfc0c-9acb-11e6-b7ee-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "md"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "prw17O": {
-      "branded_variable_name": "prw17O_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Water vapor path for water molecules that contain oxygen-17 (H2 17O)",
@@ -837,27 +606,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "prw17O",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "6f68cf50-9acb-11e6-b7ee-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "prw17O"
-        }
-      },
       "standard_name": "mass_content_of_water_vapor_containing_17O_in_atmosphere_layer",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "prw2H": {
-      "branded_variable_name": "prw2H_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Water vapor path for water molecules that contain one atom of the hydrogen-2 isotope (1H 2H O)",
@@ -872,27 +631,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "prw2H",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "6f68d5cc-9acb-11e6-b7ee-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "prw2H"
-        }
-      },
       "standard_name": "mass_content_of_water_vapor_containing_single_2H_in_atmosphere_layer",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "reffclic": {
-      "branded_variable_name": "reffclic_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell).",
@@ -907,27 +656,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "reffclic",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b89e87e-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "reffclic"
-        }
-      },
       "standard_name": "effective_radius_of_convective_cloud_ice_particles",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "reffclis": {
-      "branded_variable_name": "reffclis_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell).",
@@ -942,27 +681,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "reffclis",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b89deba-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "reffclis"
-        }
-      },
       "standard_name": "effective_radius_of_stratiform_cloud_ice_particles",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "reffclwc": {
-      "branded_variable_name": "reffclwc_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Droplets are liquid.  The effective radius is defined as the ratio of the third moment over the second moment of the particle size distribution and the time-mean should be calculated, weighting the individual samples by the cloudy fraction of the grid cell.",
@@ -977,27 +706,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "reffclwc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b89e3a6-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "reffclwc"
-        }
-      },
       "standard_name": "effective_radius_of_convective_cloud_liquid_water_particles",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "reffclws": {
-      "branded_variable_name": "reffclws_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Droplets are liquid.  The effective radius is defined as the ratio of the third moment over the second moment of the particle size distribution and the time-mean should be calculated, weighting the individual samples by the cloudy fraction of the grid cell.",
@@ -1012,27 +731,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "reffclws",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b89d9a6-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "reffclws"
-        }
-      },
       "standard_name": "effective_radius_of_stratiform_cloud_liquid_water_particles",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rld": {
-      "branded_variable_name": "rld_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Downwelling Longwave Radiation (includes the fluxes at the surface and TOA)",
@@ -1047,27 +756,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rld",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab51cf0-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rld"
-        }
-      },
       "standard_name": "downwelling_longwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rld4co2": {
-      "branded_variable_name": "rld4co2_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Downwelling longwave radiation calculated using carbon dioxide concentrations increased fourfold (includes the fluxes at the surface and TOA)",
@@ -1082,27 +781,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rld4co2",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab51a98-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rld4co2"
-        }
-      },
       "standard_name": "downwelling_longwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rldcs": {
-      "branded_variable_name": "rldcs_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Downwelling clear-sky longwave radiation (includes the fluxes at the surface and TOA)",
@@ -1117,27 +806,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rldcs",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab5268c-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rldcs"
-        }
-      },
       "standard_name": "downwelling_longwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rldcs4co2": {
-      "branded_variable_name": "rldcs4co2_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Downwelling clear-sky longwave radiation calculated using carbon dioxide concentrations increased fourfold (includes the fluxes at the surface and TOA)",
@@ -1152,27 +831,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rldcs4co2",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab52196-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rldcs4co2"
-        }
-      },
       "standard_name": "downwelling_longwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlu": {
-      "branded_variable_name": "rlu_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Upwelling longwave radiation (includes the fluxes at the surface and TOA)",
@@ -1187,27 +856,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlu",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab56d68-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rlu"
-        }
-      },
       "standard_name": "upwelling_longwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlu4co2": {
-      "branded_variable_name": "rlu4co2_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Upwelling longwave radiation calculated using carbon dioxide concentrations increased fourfold (includes the fluxes at the surface and TOA)",
@@ -1222,27 +881,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlu4co2",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab56b24-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rlu4co2"
-        }
-      },
       "standard_name": "upwelling_longwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlucs": {
-      "branded_variable_name": "rlucs_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Upwelling clear-sky longwave radiation  (includes the fluxes at the surface and TOA)",
@@ -1257,27 +906,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlucs",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab5768c-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rlucs"
-        }
-      },
       "standard_name": "upwelling_longwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlucs4co2": {
-      "branded_variable_name": "rlucs4co2_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Upwelling clear-sky longwave radiation calculated using carbon dioxide concentrations increased fourfold (includes the fluxes at the surface and TOA)",
@@ -1292,27 +931,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlucs4co2",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab571f0-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rlucs4co2"
-        }
-      },
       "standard_name": "upwelling_longwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsd": {
-      "branded_variable_name": "rsd_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Downwelling shortwave radiation (includes the fluxes at the surface and top-of-atmosphere)",
@@ -1327,27 +956,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsd",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab5d424-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rsd"
-        }
-      },
       "standard_name": "downwelling_shortwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsd4co2": {
-      "branded_variable_name": "rsd4co2_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Downwelling shortwave radiation calculated using carbon dioxide concentrations increased fourfold",
@@ -1362,27 +981,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsd4co2",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab5cf9c-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rsd4co2"
-        }
-      },
       "standard_name": "downwelling_shortwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsdcs": {
-      "branded_variable_name": "rsdcs_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Downwelling clear-sky shortwave radiation (includes the fluxes at the surface and top-of-atmosphere)",
@@ -1397,27 +1006,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsdcs",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab5d898-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rsdcs"
-        }
-      },
       "standard_name": "downwelling_shortwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsdcs4co2": {
-      "branded_variable_name": "rsdcs4co2_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Downwelling clear-sky shortwave radiation calculated using carbon dioxide concentrations increased fourfold",
@@ -1432,27 +1031,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsdcs4co2",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab5d65e-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rsdcs4co2"
-        }
-      },
       "standard_name": "downwelling_shortwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsu": {
-      "branded_variable_name": "rsu_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Upwelling shortwave radiation  (includes also the fluxes at the surface and top of atmosphere)",
@@ -1467,27 +1056,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsu",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab64814-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rsu"
-        }
-      },
       "standard_name": "upwelling_shortwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsu4co2": {
-      "branded_variable_name": "rsu4co2_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Upwelling Shortwave Radiation calculated using carbon dioxide concentrations increased fourfold",
@@ -1502,27 +1081,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsu4co2",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab6438c-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rsu4co2"
-        }
-      },
       "standard_name": "upwelling_shortwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsucs": {
-      "branded_variable_name": "rsucs_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Upwelling clear-sky shortwave radiation  (includes the fluxes at the surface and TOA)",
@@ -1537,27 +1106,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsucs",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab64ee0-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rsucs"
-        }
-      },
       "standard_name": "upwelling_shortwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsucs4co2": {
-      "branded_variable_name": "rsucs4co2_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Upwelling clear-sky shortwave radiation calculated using carbon dioxide concentrations increased fourfold",
@@ -1572,27 +1131,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsucs4co2",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab64a6c-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "rsucs4co2"
-        }
-      },
       "standard_name": "upwelling_shortwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "smc": {
-      "branded_variable_name": "smc_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "The net mass flux represents the difference between the updraft and downdraft components.  For models with a distinct shallow convection scheme, this is calculated as convective mass flux divided by the area of the whole grid cell (not just the area of the cloud).",
@@ -1607,27 +1156,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "smc",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab7bdf2-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "smc"
-        }
-      },
       "standard_name": "atmosphere_net_upward_shallow_convective_mass_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "t2": {
-      "branded_variable_name": "t2_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Air temperature squared",
@@ -1642,27 +1181,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "t2",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8baf3f70-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "t2"
-        }
-      },
       "standard_name": "square_of_air_temperature",
       "type": "real",
       "units": "K2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ta": {
-      "branded_variable_name": "ta_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Air Temperature",
@@ -1677,27 +1206,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ta",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab8ff64-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "ta"
-        }
-      },
       "standard_name": "air_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tnhus": {
-      "branded_variable_name": "tnhus_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendency of Specific Humidity",
@@ -1712,27 +1231,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tnhus",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab9ca3e-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "tnhus"
-        }
-      },
       "standard_name": "tendency_of_specific_humidity",
       "type": "real",
       "units": "s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tnhusa": {
-      "branded_variable_name": "tnhusa_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendency of Specific Humidity due to Advection",
@@ -1747,27 +1256,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tnhusa",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab9ce44-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "tnhusa"
-        }
-      },
       "standard_name": "tendency_of_specific_humidity_due_to_advection",
       "type": "real",
       "units": "s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tnhusc": {
-      "branded_variable_name": "tnhusc_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendencies from cumulus convection scheme.",
@@ -1782,27 +1281,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tnhusc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab9d236-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "tnhusc"
-        }
-      },
       "standard_name": "tendency_of_specific_humidity_due_to_convection",
       "type": "real",
       "units": "s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tnhusd": {
-      "branded_variable_name": "tnhusd_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendency of specific humidity due to numerical diffusion.This includes any horizontal or vertical numerical moisture diffusion not associated with the parametrized moist physics or the resolved dynamics.  For example, any vertical diffusion which is part of the boundary layer mixing scheme should be excluded, as should any diffusion which is included in the terms from the resolved dynamics.   This term is required to check the closure of the moisture budget.",
@@ -1817,27 +1306,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tnhusd",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab9d6c8-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "tnhusd"
-        }
-      },
       "standard_name": "tendency_of_specific_humidity_due_to_diffusion",
       "type": "real",
       "units": "s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tnhusmp": {
-      "branded_variable_name": "tnhusmp_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendency of specific humidity due to model physics. This includes sources and sinks from parametrized moist physics (e.g. convection, boundary layer, stratiform condensation/evaporation, etc.) and excludes sources and sinks from resolved dynamics or from horizontal or vertical numerical diffusion not associated with model physics.  For example any diffusive mixing by the boundary layer scheme would be included.",
@@ -1852,27 +1331,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tnhusmp",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab9db28-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "tnhusmp"
-        }
-      },
       "standard_name": "tendency_of_specific_humidity_due_to_model_physics",
       "type": "real",
       "units": "s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tnhuspbl": {
-      "branded_variable_name": "tnhuspbl_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Includes all boundary layer terms including diffusive terms.",
@@ -1887,27 +1356,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tnhuspbl",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b89cee8-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "tnhuspbl"
-        }
-      },
       "standard_name": "tendency_of_specific_humidity_due_to_boundary_layer_mixing",
       "type": "real",
       "units": "s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tnhusscp": {
-      "branded_variable_name": "tnhusscp_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "The phrase 'tendency_of_X' means derivative of X with respect to time. 'Specific' means per unit mass. Specific humidity is the mass fraction of water vapor in (moist) air. The specification of a physical process by the phrase 'due_to_' process means that the quantity named is a single term in a sum of terms which together compose the general quantity named by omitting the phrase. A variable with the standard name of tendency_of_specific_humidity_due_to_stratiform_cloud_and_precipitation should contain the effects of all processes which convert stratiform clouds and precipitation to or from water vapor. In an atmosphere model, stratiform cloud is that produced by large-scale convergence (not the convection schemes).",
@@ -1922,27 +1381,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tnhusscp",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b89d456-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "tnhusscp"
-        }
-      },
       "standard_name": "tendency_of_specific_humidity_due_to_stratiform_cloud_and_precipitation",
       "type": "real",
       "units": "s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tnhusscpbl": {
-      "branded_variable_name": "tnhusscpbl_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendency of Specific Humidity Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing  (to be specified only in  models which do not separate budget terms for stratiform cloud, precipitation and boundary layer schemes.  Includes all boundary layer terms including and diffusive terms.)",
@@ -1957,27 +1406,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tnhusscpbl",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab9dfd8-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "tnhusscpbl"
-        }
-      },
       "standard_name": "tendency_of_specific_humidity_due_to_stratiform_cloud_and_precipitation_and_boundary_layer_mixing",
       "type": "real",
       "units": "s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tnt": {
-      "branded_variable_name": "tnt_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendency of Air Temperature",
@@ -1992,27 +1431,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tnt",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baba4b30-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "tnt"
-        }
-      },
       "standard_name": "tendency_of_air_temperature",
       "type": "real",
       "units": "K s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tnta": {
-      "branded_variable_name": "tnta_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendency of Air Temperature due to Advection",
@@ -2027,27 +1456,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tnta",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baba4f22-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "tnta"
-        }
-      },
       "standard_name": "tendency_of_air_temperature_due_to_advection",
       "type": "real",
       "units": "K s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tntc": {
-      "branded_variable_name": "tntc_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendencies from cumulus convection scheme.",
@@ -2062,27 +1481,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tntc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baba5300-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "tntc"
-        }
-      },
       "standard_name": "tendency_of_air_temperature_due_to_convection",
       "type": "real",
       "units": "K s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tntd": {
-      "branded_variable_name": "tntd_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "This includes any horizontal or vertical numerical temperature diffusion not associated with the parametrized moist physics or the resolved dynamics.  For example, any vertical diffusion which is part of the boundary layer mixing scheme should be excluded, as should any diffusion which is included in the terms from the resolved dynamics.   This term is required to check the closure of the temperature budget.",
@@ -2097,27 +1506,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tntd",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b89be4e-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "tntd"
-        }
-      },
       "standard_name": "tendency_of_air_temperature_due_to_diffusion",
       "type": "real",
       "units": "K s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tntmp": {
-      "branded_variable_name": "tntmp_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendency of air temperature due to model physics. This includes sources and sinks from parametrized physics (e.g. radiation, convection, boundary layer, stratiform condensation/evaporation, etc.). It excludes sources and sinks from resolved dynamics and numerical diffusion not associated with parametrized physics.  For example, any vertical diffusion which is part of the boundary layer mixing scheme should be included, while numerical diffusion applied in addition to physics or resolved dynamics should be excluded.  This term is required to check the closure of the heat budget.",
@@ -2132,27 +1531,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tntmp",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baba5d78-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "tntmp"
-        }
-      },
       "standard_name": "tendency_of_air_temperature_due_to_model_physics",
       "type": "real",
       "units": "K s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tntpbl": {
-      "branded_variable_name": "tntpbl_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Includes all boundary layer terms including diffusive terms.",
@@ -2167,27 +1556,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tntpbl",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b89c3ee-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "tntpbl"
-        }
-      },
       "standard_name": "tendency_of_air_temperature_due_to_boundary_layer_mixing",
       "type": "real",
       "units": "K s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tntr": {
-      "branded_variable_name": "tntr_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendency of Air Temperature due to Radiative Heating",
@@ -2202,27 +1581,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tntr",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baba617e-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "tntr"
-        }
-      },
       "standard_name": "tendency_of_air_temperature_due_to_radiative_heating",
       "type": "real",
       "units": "K s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tntrlcs": {
-      "branded_variable_name": "tntrlcs_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendency of Air Temperature due to Clear Sky Longwave Radiative Heating",
@@ -2237,27 +1606,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tntrlcs",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b89b296-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "tntrlcs"
-        }
-      },
       "standard_name": "tendency_of_air_temperature_due_to_longwave_heating_assuming_clear_sky",
       "type": "real",
       "units": "K s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tntrscs": {
-      "branded_variable_name": "tntrscs_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendency of Air Temperature due to Clear Sky Shortwave Radiative Heating",
@@ -2272,27 +1631,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tntrscs",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b89b84a-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "tntrscs"
-        }
-      },
       "standard_name": "tendency_of_air_temperature_due_to_shortwave_heating_assuming_clear_sky",
       "type": "real",
       "units": "K s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tntscp": {
-      "branded_variable_name": "tntscp_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "The phrase 'tendency_of_X' means derivative of X with respect to time. Air temperature is the bulk temperature of the air, not the surface (skin) temperature. The specification of a physical process by the phrase 'due_to_' process means that the quantity named is a single term in a sum of terms which together compose the general quantity named by omitting the phrase. A variable with the standard name tendency_of_air_temperature_due_to_stratiform_cloud_and_precipitation should contain net latent heating effects of all processes which convert stratiform clouds and precipitation between water vapour, liquid or ice phases. In an atmosphere model, stratiform cloud is that produced by large-scale convergence (not the convection schemes).",
@@ -2307,27 +1656,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tntscp",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b89c970-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "tntscp"
-        }
-      },
       "standard_name": "tendency_of_air_temperature_due_to_stratiform_cloud_and_precipitation",
       "type": "real",
       "units": "K s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tntscpbl": {
-      "branded_variable_name": "tntscpbl_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendency of Air Temperature Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing (to be specified only in  models which do not separate cloud, precipitation and boundary layer terms.  Includes all boundary layer terms including diffusive ones.)",
@@ -2342,27 +1681,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tntscpbl",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baba657a-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CFmon",
-          "variable_name": "tntscpbl"
-        }
-      },
       "standard_name": "tendency_of_air_temperature_due_to_stratiform_cloud_and_precipitation_and_boundary_layer_mixing",
       "type": "real",
       "units": "K s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "twap": {
-      "branded_variable_name": "twap_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Product of air temperature and pressure tendency",
@@ -2377,27 +1706,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "twap",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8baf62e8-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "twap"
-        }
-      },
       "standard_name": "product_of_lagrangian_tendency_of_air_pressure_and_air_temperature",
       "type": "real",
       "units": "K Pa s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "u2": {
-      "branded_variable_name": "u2_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "u*u",
@@ -2412,27 +1731,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "u2",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8baf2b66-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "u2"
-        }
-      },
       "standard_name": "square_of_eastward_wind",
       "type": "real",
       "units": "m2 s-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ut": {
-      "branded_variable_name": "ut_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Product of air temperature and eastward wind",
@@ -2447,27 +1756,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ut",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8baf56c2-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "ut"
-        }
-      },
       "standard_name": "product_of_eastward_wind_and_air_temperature",
       "type": "real",
       "units": "K m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "uv": {
-      "branded_variable_name": "uv_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "u*v",
@@ -2482,27 +1781,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "uv",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8baf4678-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "uv"
-        }
-      },
       "standard_name": "product_of_eastward_wind_and_northward_wind",
       "type": "real",
       "units": "m2 s-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "uwap": {
-      "branded_variable_name": "uwap_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "u*omega",
@@ -2517,27 +1806,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "uwap",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8baf4bfa-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "uwap"
-        }
-      },
       "standard_name": "product_of_eastward_wind_and_lagrangian_tendency_of_air_pressure",
       "type": "real",
       "units": "Pa m s-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "v2": {
-      "branded_variable_name": "v2_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "v*v",
@@ -2552,27 +1831,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "v2",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8baf330e-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "v2"
-        }
-      },
       "standard_name": "square_of_northward_wind",
       "type": "real",
       "units": "m2 s-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "vt": {
-      "branded_variable_name": "vt_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Product of air temperature and northward wind",
@@ -2587,27 +1856,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "vt",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8baf5c26-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "vt"
-        }
-      },
       "standard_name": "product_of_northward_wind_and_air_temperature",
       "type": "real",
       "units": "K m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "vwap": {
-      "branded_variable_name": "vwap_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "v*omega",
@@ -2622,27 +1881,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "vwap",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8baf5168-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "vwap"
-        }
-      },
       "standard_name": "product_of_northward_wind_and_lagrangian_tendency_of_air_pressure",
       "type": "real",
       "units": "Pa m s-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wap": {
-      "branded_variable_name": "wap_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
@@ -2657,27 +1906,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wap",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "b7e3ae1a-7c00-11e6-bcdf-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "wap"
-        }
-      },
       "standard_name": "lagrangian_tendency_of_air_pressure",
       "type": "real",
       "units": "Pa s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wap2": {
-      "branded_variable_name": "wap2_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "omega*omega",
@@ -2692,27 +1931,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wap2",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8baf39ee-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "wap2"
-        }
-      },
       "standard_name": "square_of_lagrangian_tendency_of_air_pressure",
       "type": "real",
       "units": "Pa2 s-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "xgwdparam": {
-      "branded_variable_name": "xgwdparam_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Parameterised x-component of gravity wave drag",
@@ -2727,27 +1956,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "xgwdparam",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8baf686a-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "xgwdparam"
-        }
-      },
       "standard_name": "atmosphere_eastward_stress_due_to_gravity_wave_drag",
       "type": "real",
       "units": "Pa",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ygwdparam": {
-      "branded_variable_name": "ygwdparam_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Parameterised y- component of gravity wave drag",
@@ -2762,27 +1981,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ygwdparam",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8baf6dd8-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "ygwdparam"
-        }
-      },
       "standard_name": "atmosphere_northward_stress_due_to_gravity_wave_drag",
       "type": "real",
       "units": "Pa",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "zg": {
-      "branded_variable_name": "zg_mon-ap-tav-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
@@ -2797,24 +2006,15 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "zg",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bea74c-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "zg"
-        }
-      },
       "standard_name": "geopotential_height",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

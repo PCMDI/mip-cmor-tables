@@ -2,19 +2,18 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 0.0,
-    "checksum": "md5: 3dd561b1fd1293d0fe711aabccd79de3",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "APfx"
   },
   "variable_entry": {
     "areacella": {
-      "branded_variable_name": "areacella_fx-ap-none-z0-hxy",
       "cell_measures": "",
       "cell_methods": "area: sum",
       "comment": "For atmospheres with more than 1 mesh (e.g., staggered grids), report areas that apply to surface vertical fluxes of energy.",
@@ -28,27 +27,17 @@
         "atmos",
         "land"
       ],
+      "ok_max_mean_abs": 1000000000000.0,
+      "ok_min_mean_abs": 100000.0,
       "out_name": "areacella",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baa83a12-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "fx",
-          "variable_name": "areacella"
-        }
-      },
       "standard_name": "cell_area",
       "type": "real",
       "units": "m2",
-      "validation": {
-        "ok_max_mean_abs": 1000000000000.0,
-        "ok_min_mean_abs": 100000.0,
-        "valid_max": 1000000000000.0,
-        "valid_min": 100000.0
-      }
+      "valid_max": 1000000000000.0,
+      "valid_min": 100000.0
     },
     "ps": {
-      "branded_variable_name": "ps_fx-ap-none-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean",
       "comment": "surface pressure (not mean sea-level pressure), 2-D field to calculate the 3-D pressure field from hybrid coordinates",
@@ -61,27 +50,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ps",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "b5eb92978a5ba87b82db9b70b12c65c65c151442",
-          "mip_table": "Efx",
-          "variable_name": "ps"
-        }
-      },
       "standard_name": "surface_air_pressure",
       "type": "real",
       "units": "Pa",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rld": {
-      "branded_variable_name": "rld_fx-ap-none-l-hm",
       "cell_measures": "",
       "cell_methods": "area: point",
       "comment": "Downwelling Longwave Radiation (includes the fluxes at the surface and TOA)",
@@ -94,27 +73,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rld",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d23b50a2-4a9f-11e6-b84e-ac72891c3257",
-          "mip_table": "Efx",
-          "variable_name": "rld"
-        }
-      },
       "standard_name": "downwelling_longwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlu": {
-      "branded_variable_name": "rlu_fx-ap-none-l-hm",
       "cell_measures": "",
       "cell_methods": "area: point",
       "comment": "Upwelling longwave radiation (includes the fluxes at the surface and TOA)",
@@ -127,27 +96,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlu",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d23b4346-4a9f-11e6-b84e-ac72891c3257",
-          "mip_table": "Efx",
-          "variable_name": "rlu"
-        }
-      },
       "standard_name": "upwelling_longwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsd": {
-      "branded_variable_name": "rsd_fx-ap-none-l-hm",
       "cell_measures": "",
       "cell_methods": "area: point",
       "comment": "Downwelling shortwave radiation (includes the fluxes at the surface and top-of-atmosphere)",
@@ -160,27 +119,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsd",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d23b555c-4a9f-11e6-b84e-ac72891c3257",
-          "mip_table": "Efx",
-          "variable_name": "rsd"
-        }
-      },
       "standard_name": "downwelling_shortwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsu": {
-      "branded_variable_name": "rsu_fx-ap-none-l-hm",
       "cell_measures": "",
       "cell_methods": "area: point",
       "comment": "Upwelling shortwave radiation  (includes also the fluxes at the surface and top of atmosphere)",
@@ -193,27 +142,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsu",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d23b4990-4a9f-11e6-b84e-ac72891c3257",
-          "mip_table": "Efx",
-          "variable_name": "rsu"
-        }
-      },
       "standard_name": "upwelling_shortwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "sftlf": {
-      "branded_variable_name": "sftlf_fx-ap-none-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean",
       "comment": "Percentage of horizontal area occupied by land.",
@@ -226,27 +165,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sftlf",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab742c8-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "fx",
-          "variable_name": "sftlf"
-        }
-      },
       "standard_name": "land_area_fraction",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": 100.0,
-        "valid_min": 0.0
-      }
+      "valid_max": 100.0,
+      "valid_min": 0.0
     },
     "siltfrac": {
-      "branded_variable_name": "siltfrac_fx-ap-none-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean where land",
       "comment": "Volume fraction of silt in soil",
@@ -260,27 +189,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "siltfrac",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "819641f0-f906-11e6-a176-5404a60d96b5",
-          "mip_table": "Efx",
-          "variable_name": "siltfrac"
-        }
-      },
       "standard_name": "volume_fraction_of_silt_in_soil",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "zfull": {
-      "branded_variable_name": "zfull_fx-ap-none-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean",
       "comment": "Height of full model levels above a reference ellipsoid. A reference ellipsoid is a mathematical figure that approximates the geoid. The geoid is a surface of constant geopotential with which mean sea level would coincide if the ocean were at rest. The ellipsoid is an approximation because the geoid is an irregular shape. A number of reference ellipsoids are defined for use in the field of geodesy. To specify which reference ellipsoid is being used, a grid_mapping variable should be attached to the data variable as described in Chapter 5.6 of the CF Convention.",
@@ -294,24 +213,15 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "zfull",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "0ea7a738776ef049ed7bef9c701a819c8c9ca036",
-          "mip_table": "fx",
-          "variable_name": "zfull"
-        }
-      },
       "standard_name": "height_above_reference_ellipsoid",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

@@ -2,19 +2,18 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 0.125,
-    "checksum": "md5: 41a804fb6293cc685d3f398a445ff439",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "OP3hrPt"
   },
   "variable_entry": {
     "tos": {
-      "branded_variable_name": "tos_3hr-op-tpt-z0-hxy",
       "cell_measures": "area: areacello",
       "cell_methods": "area: mean where sea time: point",
       "comment": "Temperature of upper boundary of the liquid ocean, including temperatures below sea-ice and floating ice shelves.",
@@ -28,24 +27,15 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tos",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "babb20b4-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "3hr",
-          "variable_name": "tos"
-        }
-      },
       "standard_name": "sea_surface_temperature",
       "type": "real",
       "units": "degC",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

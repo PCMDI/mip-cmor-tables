@@ -2,19 +2,18 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 365.0,
-    "checksum": "md5: 91230ee99efcfdcbb7214a97c4367f2d",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "LPyrPt"
   },
   "variable_entry": {
     "cLitter": {
-      "branded_variable_name": "cLitter_yr-ld-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean where land time: point",
       "comment": "'Litter' is dead plant material in or above the soil. It is distinct from coarse wood debris. The precise distinction between 'fine' and 'coarse' is model dependent. 'Content' indicates a quantity per unit area. The sum of the quantities with standard names surface_litter_mass_content_of_carbon and subsurface_litter_mass_content_of_carbon has the standard name litter_mass_content_of_carbon.",
@@ -28,27 +27,17 @@
       "modeling_realm": [
         "land"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cLitter",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d22e3a34-4a9f-11e6-b84e-ac72891c3257",
-          "mip_table": "Eyr",
-          "variable_name": "cLitter"
-        }
-      },
       "standard_name": "litter_mass_content_of_carbon",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cLitterLut": {
-      "branded_variable_name": "cLitterLut_yr-ld-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean where sector time: point",
       "comment": "end of year values (not annual mean)",
@@ -63,27 +52,17 @@
       "modeling_realm": [
         "land"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cLitterLut",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d22e279c-4a9f-11e6-b84e-ac72891c3257",
-          "mip_table": "Eyr",
-          "variable_name": "cLitterLut"
-        }
-      },
       "standard_name": "litter_mass_content_of_carbon",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cProduct": {
-      "branded_variable_name": "cProduct_yr-ld-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean where land time: point",
       "comment": "Carbon mass per unit area in that has been removed from the environment through  land use change.",
@@ -97,27 +76,17 @@
       "modeling_realm": [
         "land"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cProduct",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "3e26df20-b89b-11e6-be04-ac72891c3257",
-          "mip_table": "Eyr",
-          "variable_name": "cProduct"
-        }
-      },
       "standard_name": "carbon_mass_content_of_forestry_and_agricultural_products",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cProductLut": {
-      "branded_variable_name": "cProductLut_yr-ld-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean where sector time: point",
       "comment": "Anthropogenic pools associated with land use tiles into which harvests and cleared carbon are deposited before release into atmosphere PLUS any remaining anthropogenic pools that may be associated with lands which were converted into land use tiles during reported period. Examples of products include paper, cardboard, timber for construction, and crop harvest for food or fuel. Does NOT include residue which is deposited into soil or litter; end of year values (not annual mean).",
@@ -132,27 +101,17 @@
       "modeling_realm": [
         "land"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cProductLut",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "3e26d502-b89b-11e6-be04-ac72891c3257",
-          "mip_table": "Eyr",
-          "variable_name": "cProductLut"
-        }
-      },
       "standard_name": "carbon_mass_content_of_forestry_and_agricultural_products",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cSoil": {
-      "branded_variable_name": "cSoil_yr-ld-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean where land time: point",
       "comment": "Carbon mass in the full depth of the soil model.",
@@ -166,27 +125,17 @@
       "modeling_realm": [
         "land"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cSoil",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d22e30fc-4a9f-11e6-b84e-ac72891c3257",
-          "mip_table": "Eyr",
-          "variable_name": "cSoil"
-        }
-      },
       "standard_name": "soil_mass_content_of_carbon",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cSoilLut": {
-      "branded_variable_name": "cSoilLut_yr-ld-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean where sector time: point",
       "comment": "end of year values (not annual mean)",
@@ -201,27 +150,17 @@
       "modeling_realm": [
         "land"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cSoilLut",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d22e1ea0-4a9f-11e6-b84e-ac72891c3257",
-          "mip_table": "Eyr",
-          "variable_name": "cSoilLut"
-        }
-      },
       "standard_name": "soil_mass_content_of_carbon",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cVeg": {
-      "branded_variable_name": "cVeg_yr-ld-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean where land time: point",
       "comment": "Carbon mass per unit area in vegetation.",
@@ -235,27 +174,17 @@
       "modeling_realm": [
         "land"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cVeg",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d22e3598-4a9f-11e6-b84e-ac72891c3257",
-          "mip_table": "Eyr",
-          "variable_name": "cVeg"
-        }
-      },
       "standard_name": "vegetation_carbon_content",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cVegLut": {
-      "branded_variable_name": "cVegLut_yr-ld-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean where sector time: point",
       "comment": "end of year values (not annual mean)",
@@ -270,27 +199,17 @@
       "modeling_realm": [
         "land"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cVegLut",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d22e2328-4a9f-11e6-b84e-ac72891c3257",
-          "mip_table": "Eyr",
-          "variable_name": "cVegLut"
-        }
-      },
       "standard_name": "vegetation_carbon_content",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "fracLut": {
-      "branded_variable_name": "fracLut_yr-ld-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean where land over all_area_types time: point",
       "comment": "End of year values (not annual mean); note that percentage should be reported as percentage of land grid cell (example: frac_lnd = 0.5, frac_ocn = 0.5, frac_crop_lnd = 0.2 (of land portion of grid cell), then frac_lut(crop) = 0.5*0.2 = 0.1)",
@@ -305,24 +224,15 @@
       "modeling_realm": [
         "land"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "fracLut",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d22e4c68-4a9f-11e6-b84e-ac72891c3257",
-          "mip_table": "Eyr",
-          "variable_name": "fracLut"
-        }
-      },
       "standard_name": "area_fraction",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

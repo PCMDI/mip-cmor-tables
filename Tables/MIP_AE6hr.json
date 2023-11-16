@@ -2,19 +2,18 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 0.25,
-    "checksum": "md5: 20c327ad9c39956efa134cadd7e9ad49",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "AE6hr"
   },
   "variable_entry": {
     "bldep": {
-      "branded_variable_name": "bldep_6hr-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Boundary layer depth",
@@ -28,24 +27,15 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "bldep",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "917b897e-267c-11e7-8933-ac72891c3257",
-          "mip_table": "6hrPlev",
-          "variable_name": "bldep"
-        }
-      },
       "standard_name": "atmosphere_boundary_layer_thickness",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

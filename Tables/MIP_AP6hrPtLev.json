@@ -2,8 +2,8 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 0.25,
-    "checksum": "md5: 6f8d80e1ef47dd3689877830d2f894bf",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
       "alevel",
@@ -12,12 +12,11 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "AP6hrPtLev"
   },
   "variable_entry": {
     "hus": {
-      "branded_variable_name": "hus_6hr-ap-tpt-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
@@ -32,27 +31,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hus",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab009cc-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "6hrLev",
-          "variable_name": "hus"
-        }
-      },
       "standard_name": "specific_humidity",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "pfull": {
-      "branded_variable_name": "pfull_6hr-ap-tpt-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Air pressure on model levels",
@@ -67,27 +56,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "pfull",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d237b082-4a9f-11e6-b84e-ac72891c3257",
-          "mip_table": "6hrLev",
-          "variable_name": "pfull"
-        }
-      },
       "standard_name": "air_pressure",
       "type": "real",
       "units": "Pa",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ta": {
-      "branded_variable_name": "ta_6hr-ap-tpt-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Air Temperature",
@@ -102,27 +81,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ta",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab8f686-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "6hrLev",
-          "variable_name": "ta"
-        }
-      },
       "standard_name": "air_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ua": {
-      "branded_variable_name": "ua_6hr-ap-tpt-l-hxy",
       "cell_measures": "--OPT",
       "cell_methods": "time: point",
       "comment": "Zonal wind (positive in a eastward direction).",
@@ -137,27 +106,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ua",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "babb47a6-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "6hrLev",
-          "variable_name": "ua"
-        }
-      },
       "standard_name": "eastward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "va": {
-      "branded_variable_name": "va_6hr-ap-tpt-l-hxy",
       "cell_measures": "--OPT",
       "cell_methods": "time: point",
       "comment": "Meridional wind (positive in a northward direction).",
@@ -172,24 +131,15 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "va",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "babbaebc-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "6hrLev",
-          "variable_name": "va"
-        }
-      },
       "standard_name": "northward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

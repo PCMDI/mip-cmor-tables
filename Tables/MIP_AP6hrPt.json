@@ -2,19 +2,18 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 0.25,
-    "checksum": "md5: 8bedb354f2e199ec84f6860d8de5c578",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "AP6hrPt"
   },
   "variable_entry": {
     "cldicemxrat27": {
-      "branded_variable_name": "cldicemxrat_6hr-ap-tpt-p27-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Cloud ice mixing ratio",
@@ -29,27 +28,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cldicemxrat27",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f2c73d5e-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "cldicemxrat27"
-        }
-      },
       "standard_name": "cloud_ice_mixing_ratio",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cldwatmxrat27": {
-      "branded_variable_name": "cldwatmxrat_6hr-ap-tpt-p27-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Cloud water mixing ratio",
@@ -64,27 +53,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cldwatmxrat27",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f2af2732-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "cldwatmxrat27"
-        }
-      },
       "standard_name": "cloud_liquid_water_mixing_ratio",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "dtauc": {
-      "branded_variable_name": "dtauc_6hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "This is the in-cloud optical depth obtained by considering only the cloudy portion of the grid cell",
@@ -98,27 +77,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "dtauc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb09104-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "dtauc"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_convective_cloud",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "dtaus": {
-      "branded_variable_name": "dtaus_6hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "This is the in-cloud optical depth obtained by considering only the cloudy portion of the grid cell.",
@@ -132,27 +101,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "dtaus",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb08c22-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "dtaus"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_stratiform_cloud",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "grplmxrat27": {
-      "branded_variable_name": "grplmxrat_6hr-ap-tpt-p27-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Graupel mixing ratio",
@@ -167,27 +126,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "grplmxrat27",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f2c7dcbe-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "grplmxrat27"
-        }
-      },
       "standard_name": "mass_fraction_of_graupel_in_air",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "hus27": {
-      "branded_variable_name": "hus_6hr-ap-tpt-p27-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
@@ -202,27 +151,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hus27",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f26fcec0-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "hus27"
-        }
-      },
       "standard_name": "specific_humidity",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "hus7h": {
-      "branded_variable_name": "hus_6hr-ap-tpt-p7h-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
@@ -237,27 +176,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hus7h",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "71174f52-faa7-11e6-bfb7-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "hus7h"
-        }
-      },
       "standard_name": "specific_humidity",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "huss": {
-      "branded_variable_name": "huss_6hr-ap-tpt-h02-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Near-surface (usually, 2 meter) specific humidity.",
@@ -272,27 +201,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "huss",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "9138d264-267c-11e7-8933-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "huss"
-        }
-      },
       "standard_name": "specific_humidity",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "lwsffluxaero": {
-      "branded_variable_name": "lwsffluxaero_6hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "downwelling longwave  flux  due to volcanic aerosols at the surface to be diagnosed through double radiation call",
@@ -306,27 +225,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "lwsffluxaero",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f2900bb8-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "lwsffluxaero"
-        }
-      },
       "standard_name": "surface_downwelling_longwave_flux_in_air_due_to_volcanic_ambient_aerosol_particles",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "lwtoafluxaerocs": {
-      "branded_variable_name": "lwtoafluxaerocs_6hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "downwelling longwave flux due to volcanic aerosols at TOA under clear sky to be diagnosed through double radiation call",
@@ -340,27 +249,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "lwtoafluxaerocs",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f2723fde-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "lwtoafluxaerocs"
-        }
-      },
       "standard_name": "toa_outgoing_longwave_flux_due_to_volcanic_ambient_aerosol_particles_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ps": {
-      "branded_variable_name": "ps_6hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "surface pressure (not mean sea-level pressure), 2-D field to calculate the 3-D pressure field from hybrid coordinates",
@@ -374,27 +273,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ps",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab46b70-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "6hrLev",
-          "variable_name": "ps"
-        }
-      },
       "standard_name": "surface_air_pressure",
       "type": "real",
       "units": "Pa",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "psl": {
-      "branded_variable_name": "psl_6hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Sea Level Pressure",
@@ -408,27 +297,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "psl",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "816898e0-f906-11e6-a176-5404a60d96b5",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "psl"
-        }
-      },
       "standard_name": "air_pressure_at_mean_sea_level",
       "type": "real",
       "units": "Pa",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rainmxrat27": {
-      "branded_variable_name": "rainmxrat_6hr-ap-tpt-p27-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Rain mixing ratio",
@@ -443,27 +322,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rainmxrat27",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f27d9f32-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "rainmxrat27"
-        }
-      },
       "standard_name": "mass_fraction_of_liquid_precipitation_in_air",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rv850": {
-      "branded_variable_name": "rv850_6hr-ap-tpt-p0850-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Relative vorticity is the upward component of the vorticity vector i.e. the component which arises from horizontal velocity.",
@@ -478,27 +347,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rv850",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "7c70ee64-1ab7-11e7-8dfc-5404a60d96b5",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "rv850"
-        }
-      },
       "standard_name": "atmosphere_relative_vorticity",
       "type": "real",
       "units": "s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "sfcWind": {
-      "branded_variable_name": "sfcWind_6hr-ap-tpt-h010-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "near-surface (usually, 10 meters) wind speed.",
@@ -513,27 +372,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sfcWind",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "9138da2a-267c-11e7-8933-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "sfcWind"
-        }
-      },
       "standard_name": "wind_speed",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "snowmxrat27": {
-      "branded_variable_name": "snowmxrat_6hr-ap-tpt-p27-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Snow mixing ratio",
@@ -548,27 +397,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "snowmxrat27",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f2cb0dee-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "snowmxrat27"
-        }
-      },
       "standard_name": "mass_fraction_of_snow_in_air",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "swsffluxaero": {
-      "branded_variable_name": "swsffluxaero_6hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Shortwave heating rate due to volcanic aerosols to be diagnosed through double radiation call",
@@ -582,27 +421,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "swsffluxaero",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f26b4bc0-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "swsffluxaero"
-        }
-      },
       "standard_name": "surface_downwelling_shortwave_flux_in_air_due_to_volcanic_ambient_aerosol_particles",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "swtoafluxaerocs": {
-      "branded_variable_name": "swtoafluxaerocs_6hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Downwelling shortwave flux due to volcanic aerosols at TOA under clear sky to be diagnosed through double radiation call",
@@ -616,27 +445,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "swtoafluxaerocs",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f2b1228a-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "swtoafluxaerocs"
-        }
-      },
       "standard_name": "toa_outgoing_shortwave_flux_due_to_volcanic_ambient_aerosol_particles_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ta": {
-      "branded_variable_name": "ta_6hr-ap-tpt-p3-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Air Temperature",
@@ -651,27 +470,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ta",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "6a35d178-aa6a-11e6-9736-5404a60d96b5",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "ta"
-        }
-      },
       "standard_name": "air_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ta27": {
-      "branded_variable_name": "ta_6hr-ap-tpt-p27-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Air Temperature",
@@ -686,27 +495,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ta27",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f2ab3208-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "ta27"
-        }
-      },
       "standard_name": "air_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ta7h": {
-      "branded_variable_name": "ta_6hr-ap-tpt-p7h-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Air Temperature",
@@ -721,27 +520,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ta7h",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "713943fa-faa7-11e6-bfb7-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "ta7h"
-        }
-      },
       "standard_name": "air_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tas": {
-      "branded_variable_name": "tas_6hr-ap-tpt-h02-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "near-surface (usually, 2 meter) air temperature",
@@ -756,27 +545,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tas",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "9138d660-267c-11e7-8933-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "tas"
-        }
-      },
       "standard_name": "air_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ts": {
-      "branded_variable_name": "ts_6hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Temperature of the lower boundary of the atmosphere",
@@ -790,27 +569,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ts",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb06940-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "ts"
-        }
-      },
       "standard_name": "surface_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ua": {
-      "branded_variable_name": "ua_6hr-ap-tpt-p3-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Zonal wind (positive in a eastward direction).",
@@ -825,27 +594,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ua",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bae55ba-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "ua"
-        }
-      },
       "standard_name": "eastward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ua7h": {
-      "branded_variable_name": "ua_6hr-ap-tpt-p7h-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Zonal wind (positive in a eastward direction).",
@@ -860,27 +619,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ua7h",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "713f2efa-faa7-11e6-bfb7-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "ua7h"
-        }
-      },
       "standard_name": "eastward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "uas": {
-      "branded_variable_name": "uas_6hr-ap-tpt-h010-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Eastward component of the near-surface (usually, 10 meters)  wind",
@@ -895,27 +644,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "uas",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "9137a7fe-267c-11e7-8933-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "uas"
-        }
-      },
       "standard_name": "eastward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "va": {
-      "branded_variable_name": "va_6hr-ap-tpt-p3-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Meridional wind (positive in a northward direction).",
@@ -930,27 +669,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "va",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bae5aba-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "va"
-        }
-      },
       "standard_name": "northward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "va7h": {
-      "branded_variable_name": "va_6hr-ap-tpt-p7h-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Meridional wind (positive in a northward direction).",
@@ -965,27 +694,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "va7h",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "713fda6c-faa7-11e6-bfb7-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "va7h"
-        }
-      },
       "standard_name": "northward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "vas": {
-      "branded_variable_name": "vas_6hr-ap-tpt-h010-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Northward component of the near surface wind",
@@ -1000,27 +719,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "vas",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "9137adb2-267c-11e7-8933-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "vas"
-        }
-      },
       "standard_name": "northward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "vortmean": {
-      "branded_variable_name": "vortmean_6hr-ap-tpt-p0700-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Mean vorticity over 850,700,600 hPa",
@@ -1035,27 +744,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "vortmean",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "9137bc62-267c-11e7-8933-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "vortmean"
-        }
-      },
       "standard_name": "atmosphere_relative_vorticity",
       "type": "real",
       "units": "s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wbptemp7h": {
-      "branded_variable_name": "wbptemp_6hr-ap-tpt-p7h-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Wet bulb potential temperature",
@@ -1070,27 +769,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wbptemp7h",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "711ce354-faa7-11e6-bfb7-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "wbptemp7h"
-        }
-      },
       "standard_name": "wet_bulb_potential_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "zg27": {
-      "branded_variable_name": "zg_6hr-ap-tpt-p27-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
@@ -1105,27 +794,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "zg27",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb0333a-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "zg27"
-        }
-      },
       "standard_name": "geopotential_height",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "zg7h": {
-      "branded_variable_name": "zg_6hr-ap-tpt-p7h-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface.",
@@ -1140,24 +819,15 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "zg7h",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "7d943832-1ab7-11e7-8dfc-5404a60d96b5",
-          "mip_table": "6hrPlevPt",
-          "variable_name": "zg7h"
-        }
-      },
       "standard_name": "geopotential_height",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }
