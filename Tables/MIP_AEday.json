@@ -2,19 +2,18 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 1.0,
-    "checksum": "md5: 6acb0560d8ed310799261c053a4f3a55",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "AEday"
   },
   "variable_entry": {
     "cod": {
-      "branded_variable_name": "cod_day-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "The optical thickness is the integral along the path of radiation of a volume scattering/absorption/attenuation coefficient. The radiative flux is reduced by a factor exp(-optical_thickness) on traversing the path. A coordinate variable of radiation_wavelength or radiation_frequency can be specified to indicate that the optical thickness applies at specific wavelengths or frequencies. The atmosphere optical thickness applies to radiation passing through the entire atmosphere. 'Cloud' means the component of extinction owing to the presence of liquid or ice water particles. The specification of a physical process by the phrase due_to_process means that the quantity named is a  single term in a sum of terms which together compose the general quantity named by omitting the phrase.",
@@ -28,27 +27,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cod",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bdb4c2-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERday",
-          "variable_name": "cod"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_cloud",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "maxpblz": {
-      "branded_variable_name": "maxpblz_day-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: maximum",
       "comment": "maximum boundary layer height during the day (add cell_methods attribute: 'time: maximum')",
@@ -62,27 +51,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "maxpblz",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bdcaac-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERday",
-          "variable_name": "maxpblz"
-        }
-      },
       "standard_name": "atmosphere_boundary_layer_thickness",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "minpblz": {
-      "branded_variable_name": "minpblz_day-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: minimum",
       "comment": "minimum boundary layer height during the day (add cell_methods attribute: 'time: minimum')",
@@ -96,27 +75,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "minpblz",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bdd8ee-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERday",
-          "variable_name": "minpblz"
-        }
-      },
       "standard_name": "atmosphere_boundary_layer_thickness",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od550aer": {
-      "branded_variable_name": "od550aer_day-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "AOD from the ambient aerosols (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute 'wavelength: 550nm'",
@@ -131,27 +100,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od550aer",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "fda76476-96ec-11e6-b81e-c9e268aff03a",
-          "mip_table": "AERday",
-          "variable_name": "od550aer"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "sfo3max": {
-      "branded_variable_name": "sfo3max_day-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: maximum",
       "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.",
@@ -165,27 +124,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sfo3max",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "fda754f4-96ec-11e6-b81e-c9e268aff03a",
-          "mip_table": "AERday",
-          "variable_name": "sfo3max"
-        }
-      },
       "standard_name": "mole_fraction_of_ozone_in_air",
       "type": "real",
       "units": "mol mol-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "toz": {
-      "branded_variable_name": "toz_day-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Total ozone column calculated at 0 degrees C and 1 bar, such that 1m = 1e5 DU.",
@@ -199,27 +148,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "toz",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bdaba8-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERday",
-          "variable_name": "toz"
-        }
-      },
       "standard_name": "equivalent_thickness_at_stp_of_atmosphere_ozone_content",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ua10": {
-      "branded_variable_name": "ua10_day-ae-tav-p010-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Zonal wind on the 10 hPa surface",
@@ -234,27 +173,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ua10",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bdde3e-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERday",
-          "variable_name": "ua10"
-        }
-      },
       "standard_name": "eastward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "zg10": {
-      "branded_variable_name": "zg10_day-ae-tav-p010-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Geopotential height on the 10hPa surface",
@@ -269,27 +198,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "zg10",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bdc1ec-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERday",
-          "variable_name": "zg10"
-        }
-      },
       "standard_name": "geopotential_height",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "zg100": {
-      "branded_variable_name": "zg100_day-ae-tav-p0100-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Geopotential height on the 100 hPa surface",
@@ -304,27 +223,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "zg100",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19be0332-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERday",
-          "variable_name": "zg100"
-        }
-      },
       "standard_name": "geopotential_height",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "zg500": {
-      "branded_variable_name": "zg500_day-ae-tav-p0500-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "geopotential height on the 500 hPa surface",
@@ -339,24 +248,15 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "zg500",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "0fabb742-817d-11e6-b80b-5404a60d96b5",
-          "mip_table": "AERday",
-          "variable_name": "zg500"
-        }
-      },
       "standard_name": "geopotential_height",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

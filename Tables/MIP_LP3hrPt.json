@@ -2,19 +2,18 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 0.125,
-    "checksum": "md5: 1b08762f0c84735879d9183b94a4c88f",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "LP3hrPt"
   },
   "variable_entry": {
     "mrsos": {
-      "branded_variable_name": "mrsos_3hr-ld-tpt-z01s-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean where land time: point",
       "comment": "The mass of water in all phases in the upper 10cm of the  soil layer.",
@@ -29,27 +28,17 @@
       "modeling_realm": [
         "land"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "mrsos",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab1c668-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "3hr",
-          "variable_name": "mrsos"
-        }
-      },
       "standard_name": "mass_content_of_water_in_soil_layer",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tslsi": {
-      "branded_variable_name": "tslsi_3hr-ld-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean (comment: over land and sea ice) time: point",
       "comment": "Surface temperature of all surfaces except open ocean.",
@@ -63,24 +52,15 @@
       "modeling_realm": [
         "land"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tslsi",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "babb12ae-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "3hr",
-          "variable_name": "tslsi"
-        }
-      },
       "standard_name": "surface_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }
