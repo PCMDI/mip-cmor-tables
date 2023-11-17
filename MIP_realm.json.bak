@@ -1,0 +1,22 @@
+{
+    "realm":{
+        "aerosol":"Aerosol",
+        "atmos":"Atmosphere",
+        "atmosChem":"Atmospheric Chemistry",
+        "land":"Land Surface",
+        "landIce":"Land Ice",
+        "ocean":"Ocean",
+        "ocnBgchem":"Ocean Biogeochemistry",
+        "seaIce":"Sea Ice"
+    },
+    "version_metadata":{
+        "CV_collection_modified":"Sun Nov 12 10:41:04 2023 -0000",
+        "CV_collection_version":"6.5.0.0",
+        "source_type_CV_modified":"Sun Nov 12 11:41:04 2023 -0000",
+        "source_type_CV_note":"Replicating content from CMIP6_CVs upstream",
+        "author":"Daniel Ellis <daniel.ellis@ext.esa.int>",
+        "institution_id":"CMIP-IPO",
+        "previous_commit":"",
+        "specs_doc":"v6.3.0 "
+    }
+}
