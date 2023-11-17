@@ -55,3 +55,16 @@ jobs:
         run: python .github/libs/version.py -t ${GH_TOKEN}
         # working-directory: .github/libs  # Adjusted the working directory
         shell: bash
+
+
+      - name: Clear previous
+        run: |
+          if [ -z "$ACT" ]; then
+              timestamp=$(date -u +"%Y-%m-%d %H:%M UTC")
+              git add -A 
+              git commit -m 'Automated Versioning Update $timestamp' 
+              git push origin $(git rev-parse --abbrev-ref HEAD)
+          else
+            echo "Skipping this step in 'act' environment."
+          fi
+        shell: bash
