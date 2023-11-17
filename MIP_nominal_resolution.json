@@ -1,0 +1,29 @@
+{
+  "nominal_resolution": [
+    "0.5 km",
+    "1 km",
+    "10 km",
+    "100 km",
+    "1000 km",
+    "10000 km",
+    "1x1 degree",
+    "2.5 km",
+    "25 km",
+    "250 km",
+    "2500 km",
+    "5 km",
+    "50 km",
+    "500 km",
+    "5000 km"
+  ],
+  "version_metadata":{
+    "CV_collection_modified":"Sun Nov 12 10:41:04 2023 -0000",
+    "CV_collection_version":"6.5.0.0",
+    "source_type_CV_modified":"Sun Nov 12 11:41:04 2023 -0000",
+    "source_type_CV_note":"Replicating content from CMIP6_CVs upstream",
+    "author":"Daniel Ellis <daniel.ellis@ext.esa.int>",
+    "institution_id":"CMIP-IPO",
+    "previous_commit":"",
+    "specs_doc":"v6.3.0 "
+}
+}
