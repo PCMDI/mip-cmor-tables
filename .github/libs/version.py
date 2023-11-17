@@ -98,6 +98,10 @@ for f in files:
             commit_info = c
             break
 
+    if 'commit_info' not in locals():
+        print(commit_blocks)
+        sys.exit('no suitable commit found')
+
 
     ##########################################
     # extract commit info
