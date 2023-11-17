@@ -14,6 +14,7 @@ maintainers = json.load(open('.github/maintainer_institutes.json','r'))
     ##########################################
     # get repo information
     ##########################################
+
 tag = os.popen("git describe --tags --abbrev=0").read().strip()
 # release_date = subprocess.check_output(["git", "log", "-1", "--format=%aI", tag]).strip().decode("utf-8")
 
@@ -86,8 +87,16 @@ for f in files:
         continue
 
 
-    commit_info = os.popen(f'git log -n 1 -- {f} ').read()
-
+    
+    
+    skip = 'Author: CMIP-IPO: Automated GitHub Action <actions@wcrp-cmip.org>'  
+    # commit_info = os.popen(f'git log -n 1 -- {f} ').read()
+    full = os.popen(f'git log -- {f} ').read()
+    commit_blocks = re.split(r'\n(?=commit\s)', full)
+    for c in commit_blocks:
+        if skip not in c:
+            commit_info = c
+            break
 
 
     ##########################################
