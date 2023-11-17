@@ -99,7 +99,9 @@ for f in files:
             break
 
     if 'commit_info' not in locals():
+        print(f)
         print(commit_blocks)
+        print('no suitable commit found')
         sys.exit('no suitable commit found')
 
 

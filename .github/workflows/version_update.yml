@@ -8,7 +8,7 @@ on:
       - '*'
 
 jobs:
-  create-branch-and-update-files:
+  update_versioning:
     runs-on: ubuntu-latest
 
     env:
