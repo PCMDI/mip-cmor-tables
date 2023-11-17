@@ -2,19 +2,18 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 0.125,
-    "checksum": "md5: 68ff57948b42c27a75b4469006d04a73",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "AP3hrPt"
   },
   "variable_entry": {
     "albdiffbnd": {
-      "branded_variable_name": "albdiffbnd_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "time: point",
       "comment": "The fraction of the surface diffuse downwelling shortwave radiation flux which is reflected. If the diffuse radiation is isotropic, this term is equivalent to the integral of surface bidirectional reflectance over all incident angles and over all outgoing angles in the hemisphere above the surface. Reported in spectral frequency bands.",
@@ -29,27 +28,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "albdiffbnd",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "7b301206-a220-11e6-a33f-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "albdiffbnd"
-        }
-      },
       "standard_name": "surface_diffuse_shortwave_hemispherical_reflectance",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "albdirbnd": {
-      "branded_variable_name": "albdirbnd_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "time: point",
       "comment": "The fraction of the surface direct downwelling shortwave radiation flux which is reflected. It is equivalent to the surface bidirectional reflectance at the incident angle of the incoming solar radiation and integrated over all outgoing angles in the hemisphere above the surface.  Reported in spectral frequency bands.",
@@ -64,27 +53,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "albdirbnd",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "7b3016c0-a220-11e6-a33f-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "albdirbnd"
-        }
-      },
       "standard_name": "surface_direct_shortwave_hemispherical_reflectance",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cfadDbze94": {
-      "branded_variable_name": "cfadDbze94_3hr-ap-tpt-z40-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "CFAD (Cloud Frequency Altitude Diagrams) are frequency distributions of radar  reflectivity (or lidar scattering ratio) as a function of altitude. The variable cfadDbze94 is defined as the simulated relative frequency of occurrence of radar reflectivity in sampling volumes defined by altitude bins. The radar is observing at a frequency of 94GHz.",
@@ -100,27 +79,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cfadDbze94",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b8aaa70-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "cfadDbze94"
-        }
-      },
       "standard_name": "histogram_of_equivalent_reflectivity_factor_over_height_above_reference_ellipsoid",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cfadLidarsr532": {
-      "branded_variable_name": "cfadLidarsr532_3hr-ap-tpt-z40-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "CFAD (Cloud Frequency Altitude Diagrams) are frequency distributions of radar  reflectivity (or lidar scattering ratio) as a function of altitude. The variable cfadLidarsr532 is defined as the simulated relative frequency of lidar scattering ratio in sampling volumes defined by altitude bins. The lidar is observing at a wavelength of 532nm.",
@@ -136,27 +105,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cfadLidarsr532",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b8aaf66-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "cfadLidarsr532"
-        }
-      },
       "standard_name": "histogram_of_backscattering_ratio_in_air_over_height_above_reference_ellipsoid",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ci": {
-      "branded_variable_name": "ci_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Fraction of time that convection occurs in the grid cell.",
@@ -170,27 +129,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ci",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "edbce8fe-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "ci"
-        }
-      },
       "standard_name": "convection_time_fraction",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "clcalipso": {
-      "branded_variable_name": "clcalipso_3hr-ap-tpt-z40-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Percentage cloud cover in CALIPSO standard atmospheric layers.",
@@ -205,27 +154,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clcalipso",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b8aa070-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "clcalipso"
-        }
-      },
       "standard_name": "cloud_area_fraction_in_atmosphere_layer",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "clcalipso2": {
-      "branded_variable_name": "clcalipso2_3hr-ap-tpt-z40-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Clouds detected by CALIPSO but below the detectability threshold of CloudSat",
@@ -240,27 +179,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clcalipso2",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "b7c6f9d2-7c00-11e6-bcdf-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "clcalipso2"
-        }
-      },
       "standard_name": "cloud_area_fraction_in_atmosphere_layer",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "clhcalipso": {
-      "branded_variable_name": "clhcalipso_3hr-ap-tpt-p0220-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Percentage cloud cover in layer centred on 220hPa",
@@ -275,27 +204,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clhcalipso",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b8ac7d0-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "clhcalipso"
-        }
-      },
       "standard_name": "cloud_area_fraction_in_atmosphere_layer",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "clisccp": {
-      "branded_variable_name": "clisccp_3hr-ap-tpt-p7c-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Percentage cloud cover in optical depth categories.",
@@ -311,27 +230,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clisccp",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb0db0a-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "clisccp"
-        }
-      },
       "standard_name": "cloud_area_fraction_in_atmosphere_layer",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "clivi": {
-      "branded_variable_name": "clivi_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "mass of ice water in the column divided by the area of the column (not just the area of the cloudy portion of the column). Includes precipitating frozen hydrometeors ONLY if the precipitating hydrometeor affects the calculation of radiative transfer in model.",
@@ -345,27 +254,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clivi",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab3896-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "clivi"
-        }
-      },
       "standard_name": "atmosphere_mass_content_of_cloud_ice",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cllcalipso": {
-      "branded_variable_name": "cllcalipso_3hr-ap-tpt-p0840-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Percentage cloud cover in layer centred on 840hPa",
@@ -380,27 +279,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cllcalipso",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b8abdd0-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "cllcalipso"
-        }
-      },
       "standard_name": "cloud_area_fraction_in_atmosphere_layer",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "clmcalipso": {
-      "branded_variable_name": "clmcalipso_3hr-ap-tpt-p0560-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Percentage cloud cover in layer centred on 560hPa",
@@ -415,27 +304,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clmcalipso",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b8ac30c-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "clmcalipso"
-        }
-      },
       "standard_name": "cloud_area_fraction_in_atmosphere_layer",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "clmisr": {
-      "branded_variable_name": "clmisr_3hr-ap-tpt-z16-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Cloud percentage in spectral bands and layers as observed by the Multi-angle Imaging SpectroRadiometer (MISR) instrument. The first layer in each profile is reserved for a retrieval error flag.",
@@ -451,27 +330,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clmisr",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f294c644-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "clmisr"
-        }
-      },
       "standard_name": "cloud_area_fraction_in_atmosphere_layer",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "clt": {
-      "branded_variable_name": "clt_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud.",
@@ -485,27 +354,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": 90.0,
+      "ok_min_mean_abs": 10.0,
       "out_name": "clt",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab3cc4-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "clt"
-        }
-      },
       "standard_name": "cloud_area_fraction",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": 90.0,
-        "ok_min_mean_abs": 10.0,
-        "valid_max": 100.001,
-        "valid_min": -0.001
-      }
+      "valid_max": 100.001,
+      "valid_min": -0.001
     },
     "cltc": {
-      "branded_variable_name": "cltc_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Convective cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes only convective cloud.",
@@ -519,27 +378,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cltc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "baaaeeec-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "CF3hr",
-          "variable_name": "cltc"
-        }
-      },
       "standard_name": "convective_cloud_area_fraction",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cltcalipso": {
-      "branded_variable_name": "cltcalipso_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen by the  Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO) instrument. Includes both large-scale and convective cloud.",
@@ -553,27 +402,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cltcalipso",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b8ab8f8-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "cltcalipso"
-        }
-      },
       "standard_name": "cloud_area_fraction",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "clwvi": {
-      "branded_variable_name": "clwvi_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Mass of condensed (liquid + ice) water in the column divided by the area of the column (not just the area of the cloudy portion of the column). Includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model.",
@@ -587,27 +426,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clwvi",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab40e8-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "clwvi"
-        }
-      },
       "standard_name": "atmosphere_mass_content_of_cloud_condensed_water",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "evspsbl": {
-      "branded_variable_name": "evspsbl_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Evaporation at surface (also known as evapotranspiration): flux of water into the atmosphere due to conversion of both liquid and solid phases to vapor (from underlying surface and vegetation)",
@@ -621,27 +450,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "evspsbl",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "edbcec8c-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "evspsbl"
-        }
-      },
       "standard_name": "water_evapotranspiration_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "hfls": {
-      "branded_variable_name": "hfls_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "The surface called 'surface' means the lower boundary of the atmosphere. 'Upward' indicates a vector component which is positive when directed upward (negative downward). The surface latent heat flux is the exchange of heat between the surface and the air on account of evaporation (including sublimation). In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.",
@@ -655,27 +474,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": 110.0,
+      "ok_min_mean_abs": 30.0,
       "out_name": "hfls",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab4502-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "hfls"
-        }
-      },
       "standard_name": "surface_upward_latent_heat_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": 110.0,
-        "ok_min_mean_abs": 30.0,
-        "valid_max": 2400.0,
-        "valid_min": -800.0
-      }
+      "valid_max": 2400.0,
+      "valid_min": -800.0
     },
     "hfss": {
-      "branded_variable_name": "hfss_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air.",
@@ -689,27 +498,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": 60.0,
+      "ok_min_mean_abs": 5.0,
       "out_name": "hfss",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab4872-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "hfss"
-        }
-      },
       "standard_name": "surface_upward_sensible_heat_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": 60.0,
-        "ok_min_mean_abs": 5.0,
-        "valid_max": 2000.0,
-        "valid_min": -1000.0
-      }
+      "valid_max": 2000.0,
+      "valid_min": -1000.0
     },
     "hurs": {
-      "branded_variable_name": "hurs_3hr-ap-tpt-h02-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
@@ -724,27 +523,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hurs",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "edbcefb6-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "hurs"
-        }
-      },
       "standard_name": "relative_humidity",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "hus7h": {
-      "branded_variable_name": "hus_3hr-ap-tpt-p7h-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
@@ -759,27 +548,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hus7h",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f2c7178e-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "hus7h"
-        }
-      },
       "standard_name": "specific_humidity",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "huss": {
-      "branded_variable_name": "huss_3hr-ap-tpt-h02-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Near-surface (usually, 2 meter) specific humidity.",
@@ -794,27 +573,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "huss",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab034a6-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "3hr",
-          "variable_name": "huss"
-        }
-      },
       "standard_name": "specific_humidity",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "jpdftaureicemodis": {
-      "branded_variable_name": "jpdftaureicemodis_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Joint probability distribution function, giving probability of cloud as a function of optical thickness and particle size, as measured by MODIS. For cloud ice particles.",
@@ -830,27 +599,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "jpdftaureicemodis",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f26cb7e4-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "jpdftaureicemodis"
-        }
-      },
       "standard_name": "cloud_area_fraction_in_atmosphere_layer",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "jpdftaureliqmodis": {
-      "branded_variable_name": "jpdftaureliqmodis_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Joint probability distribution function, giving probability of cloud as a function of optical thickness and particle size, as measured by MODIS. For liquid cloud particles.",
@@ -866,27 +625,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "jpdftaureliqmodis",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f2aa2ed0-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "jpdftaureliqmodis"
-        }
-      },
       "standard_name": "cloud_area_fraction_in_atmosphere_layer",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "parasolRefl": {
-      "branded_variable_name": "parasolRefl_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean where sea time: point",
       "comment": "Simulated reflectance from PARASOL as seen at the top of the atmosphere for 5 solar zenith angles. Valid only over ocean and for one viewing direction (viewing zenith angle of 30 degrees and relative azimuth angle 320 degrees).",
@@ -901,27 +650,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "parasolRefl",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b8ab434-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "parasolRefl"
-        }
-      },
       "standard_name": "toa_bidirectional_reflectance",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "pr": {
-      "branded_variable_name": "pr_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "includes both liquid and solid phases",
@@ -935,27 +674,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "pr",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab4ae8-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "pr"
-        }
-      },
       "standard_name": "precipitation_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "prc": {
-      "branded_variable_name": "prc_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Convective precipitation at surface; includes both liquid and solid phases.",
@@ -969,27 +698,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "prc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab4d54-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "prc"
-        }
-      },
       "standard_name": "convective_precipitation_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "prsn": {
-      "branded_variable_name": "prsn_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "At surface; includes precipitation of all forms of water in the solid phase",
@@ -1003,27 +722,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "prsn",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab4fc0-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "prsn"
-        }
-      },
       "standard_name": "snowfall_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "prw": {
-      "branded_variable_name": "prw_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "vertically integrated through the atmospheric column",
@@ -1037,27 +746,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "prw",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab5254-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "prw"
-        }
-      },
       "standard_name": "atmosphere_mass_content_of_water_vapor",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ps": {
-      "branded_variable_name": "ps_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "surface pressure (not mean sea-level pressure), 2-D field to calculate the 3-D pressure field from hybrid coordinates",
@@ -1071,27 +770,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ps",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab47354-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "3hr",
-          "variable_name": "ps"
-        }
-      },
       "standard_name": "surface_air_pressure",
       "type": "real",
       "units": "Pa",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "psl": {
-      "branded_variable_name": "psl_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Sea Level Pressure",
@@ -1105,27 +794,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "psl",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bae83b4-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "CF3hr",
-          "variable_name": "psl"
-        }
-      },
       "standard_name": "air_pressure_at_mean_sea_level",
       "type": "real",
       "units": "Pa",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlds": {
-      "branded_variable_name": "rlds_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "The surface called 'surface' means the lower boundary of the atmosphere. 'longwave' means longwave radiation. Downwelling radiation is radiation from above. It does not mean 'net downward'. When thought of as being incident on a surface, a radiative flux is sometimes called 'irradiance'. In addition, it is identical with the quantity measured by a cosine-collector light-meter and sometimes called 'vector irradiance'. In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.",
@@ -1139,27 +818,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlds",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab54ac-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "rlds"
-        }
-      },
       "standard_name": "surface_downwelling_longwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rldscs": {
-      "branded_variable_name": "rldscs_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Surface downwelling clear-sky longwave radiation",
@@ -1173,27 +842,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rldscs",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab5718-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "rldscs"
-        }
-      },
       "standard_name": "surface_downwelling_longwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlus": {
-      "branded_variable_name": "rlus_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "The surface called 'surface' means the lower boundary of the atmosphere. 'longwave' means longwave radiation. Upwelling radiation is radiation from below. It does not mean 'net upward'. When thought of as being incident on a surface, a radiative flux is sometimes called 'irradiance'. In addition, it is identical with the quantity measured by a cosine-collector light-meter and sometimes called 'vector irradiance'. In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.",
@@ -1207,27 +866,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlus",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab598e-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "rlus"
-        }
-      },
       "standard_name": "surface_upwelling_longwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlut": {
-      "branded_variable_name": "rlut_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "at the top of the atmosphere (to be compared with satellite measurements)",
@@ -1241,27 +890,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlut",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab5bfa-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "rlut"
-        }
-      },
       "standard_name": "toa_outgoing_longwave_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlutcs": {
-      "branded_variable_name": "rlutcs_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Upwelling clear-sky longwave radiation at top of atmosphere",
@@ -1275,27 +914,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlutcs",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab5e66-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "rlutcs"
-        }
-      },
       "standard_name": "toa_outgoing_longwave_flux_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsds": {
-      "branded_variable_name": "rsds_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Surface solar irradiance for UV calculations.",
@@ -1309,27 +938,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsds",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab60be-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "rsds"
-        }
-      },
       "standard_name": "surface_downwelling_shortwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsdscs": {
-      "branded_variable_name": "rsdscs_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Surface solar irradiance clear sky for UV calculations",
@@ -1343,27 +962,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsdscs",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab6352-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "rsdscs"
-        }
-      },
       "standard_name": "surface_downwelling_shortwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsdscsbnd": {
-      "branded_variable_name": "rsdscsbnd_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "time: point",
       "comment": "Calculated with aerosols but without clouds. This is a standard clear-sky calculation",
@@ -1378,27 +987,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsdscsbnd",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "7b304028-a220-11e6-a33f-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "rsdscsbnd"
-        }
-      },
       "standard_name": "surface_downwelling_shortwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsdt": {
-      "branded_variable_name": "rsdt_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Shortwave radiation incident at the top of the atmosphere",
@@ -1412,27 +1011,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsdt",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab65aa-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "rsdt"
-        }
-      },
       "standard_name": "toa_incoming_shortwave_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsus": {
-      "branded_variable_name": "rsus_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "The surface called 'surface' means the lower boundary of the atmosphere. 'shortwave' means shortwave radiation. Upwelling radiation is radiation from below. It does not mean 'net upward'. When thought of as being incident on a surface, a radiative flux is sometimes called 'irradiance'. In addition, it is identical with the quantity measured by a cosine-collector light-meter and sometimes called 'vector irradiance'. In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.",
@@ -1446,27 +1035,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsus",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab67f8-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "rsus"
-        }
-      },
       "standard_name": "surface_upwelling_shortwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsuscs": {
-      "branded_variable_name": "rsuscs_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Surface Upwelling Clear-sky Shortwave Radiation",
@@ -1480,27 +1059,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsuscs",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "916bab76-267c-11e7-8933-ac72891c3257",
-          "mip_table": "CF3hr",
-          "variable_name": "rsuscs"
-        }
-      },
       "standard_name": "surface_upwelling_shortwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsuscsbnd": {
-      "branded_variable_name": "rsuscsbnd_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "time: point",
       "comment": "Calculated with aerosols but without clouds. This is a standard clear-sky calculation",
@@ -1515,27 +1084,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsuscsbnd",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "7b3043b6-a220-11e6-a33f-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "rsuscsbnd"
-        }
-      },
       "standard_name": "surface_upwelling_shortwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsut": {
-      "branded_variable_name": "rsut_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "at the top of the atmosphere",
@@ -1549,27 +1108,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsut",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab6a5a-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "rsut"
-        }
-      },
       "standard_name": "toa_outgoing_shortwave_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsutcs": {
-      "branded_variable_name": "rsutcs_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Calculated in the absence of clouds.",
@@ -1583,27 +1132,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsutcs",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab6cc6-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "rsutcs"
-        }
-      },
       "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsutcsafbnd": {
-      "branded_variable_name": "rsutcsafbnd_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "time: point",
       "comment": "Calculated in the absence of aerosols and clouds, following Ghan (2013, ACP). This requires a double-call in the radiation code with precisely the same meteorology.",
@@ -1618,27 +1157,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsutcsafbnd",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "916b7796-267c-11e7-8933-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "rsutcsafbnd"
-        }
-      },
       "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky_and_no_aerosol",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsutcsbnd": {
-      "branded_variable_name": "rsutcsbnd_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "time: point",
       "comment": "Calculated with aerosols but without clouds. This is a standard clear-sky calculation",
@@ -1653,27 +1182,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsutcsbnd",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "7b303c9a-a220-11e6-a33f-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "rsutcsbnd"
-        }
-      },
       "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rtmt": {
-      "branded_variable_name": "rtmt_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Net Downward Radiative Flux at Top of Model : I.e., at the top of that portion of the atmosphere where dynamics are explicitly treated by the model. This is reported only if it differs from the net downward radiative flux at the top of the atmosphere.",
@@ -1687,27 +1206,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rtmt",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "edbcf236-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "rtmt"
-        }
-      },
       "standard_name": "net_downward_radiative_flux_at_top_of_atmosphere_model",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "sci": {
-      "branded_variable_name": "sci_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Fraction of time that shallow convection occurs in the grid cell.",
@@ -1721,27 +1230,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sci",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "edbcf72c-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "sci"
-        }
-      },
       "standard_name": "shallow_convection_time_fraction",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "sfcWind": {
-      "branded_variable_name": "sfcWind_3hr-ap-tpt-h010-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "near-surface (usually, 10 meters) wind speed.",
@@ -1756,27 +1255,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sfcWind",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "e0ab6f28-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "sfcWind"
-        }
-      },
       "standard_name": "wind_speed",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "solbnd": {
-      "branded_variable_name": "solbnd_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "time: point",
       "comment": "Solar irradiance at a horizontal surface at top of atmosphere.",
@@ -1791,27 +1280,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "solbnd",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "7b301b5c-a220-11e6-a33f-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "solbnd"
-        }
-      },
       "standard_name": "toa_incoming_shortwave_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "sza": {
-      "branded_variable_name": "sza_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "The angle between the line of sight to the sun and the local vertical",
@@ -1825,27 +1304,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sza",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "7b305d7e-a220-11e6-a33f-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "sza"
-        }
-      },
       "standard_name": "solar_zenith_angle",
       "type": "real",
       "units": "degree",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ta7h": {
-      "branded_variable_name": "ta_3hr-ap-tpt-p7h-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Air Temperature",
@@ -1860,27 +1329,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ta7h",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f2a303d0-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "ta7h"
-        }
-      },
       "standard_name": "air_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tas": {
-      "branded_variable_name": "tas_3hr-ap-tpt-h02-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "near-surface (usually, 2 meter) air temperature",
@@ -1895,27 +1354,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tas",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab91b20-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "3hr",
-          "variable_name": "tas"
-        }
-      },
       "standard_name": "air_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tauu": {
-      "branded_variable_name": "tauu_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Downward eastward wind stress at the surface",
@@ -1929,27 +1378,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tauu",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "edbcf998-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "tauu"
-        }
-      },
       "standard_name": "surface_downward_eastward_stress",
       "type": "real",
       "units": "Pa",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tauv": {
-      "branded_variable_name": "tauv_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Downward northward wind stress at the surface",
@@ -1963,27 +1402,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tauv",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "edbcfbfa-4b7f-11e7-903f-5404a60d96b5",
-          "mip_table": "CF3hr",
-          "variable_name": "tauv"
-        }
-      },
       "standard_name": "surface_downward_northward_stress",
       "type": "real",
       "units": "Pa",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ts": {
-      "branded_variable_name": "ts_3hr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Temperature of the lower boundary of the atmosphere",
@@ -1997,27 +1426,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ts",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "7b309c62-a220-11e6-a33f-ac72891c3257",
-          "mip_table": "CF3hr",
-          "variable_name": "ts"
-        }
-      },
       "standard_name": "surface_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ua7h": {
-      "branded_variable_name": "ua_3hr-ap-tpt-p7h-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Zonal wind (positive in a eastward direction).",
@@ -2032,27 +1451,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ua7h",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f2ab1be2-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "ua7h"
-        }
-      },
       "standard_name": "eastward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "uas": {
-      "branded_variable_name": "uas_3hr-ap-tpt-h010-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Eastward component of the near-surface (usually, 10 meters)  wind",
@@ -2067,27 +1476,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "uas",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "babb5db8-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "3hr",
-          "variable_name": "uas"
-        }
-      },
       "standard_name": "eastward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "va7h": {
-      "branded_variable_name": "va_3hr-ap-tpt-p7h-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Meridional wind (positive in a northward direction).",
@@ -2102,27 +1501,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "va7h",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "f2acf552-26b8-11e7-8344-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "va7h"
-        }
-      },
       "standard_name": "northward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "vas": {
-      "branded_variable_name": "vas_3hr-ap-tpt-h010-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Northward component of the near surface wind",
@@ -2137,27 +1526,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "vas",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "babbdec8-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "3hr",
-          "variable_name": "vas"
-        }
-      },
       "standard_name": "northward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wap7h": {
-      "branded_variable_name": "wap_3hr-ap-tpt-p7h-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
@@ -2172,24 +1551,15 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wap7h",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8baea574-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E3hrPt",
-          "variable_name": "wap7h"
-        }
-      },
       "standard_name": "lagrangian_tendency_of_air_pressure",
       "type": "real",
       "units": "Pa s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

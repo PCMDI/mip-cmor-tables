@@ -2,19 +2,18 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 0.0,
-    "checksum": "md5: 121deb19d727da79215f8c62bd1c39e1",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "GIAfx"
   },
   "variable_entry": {
     "areacellg": {
-      "branded_variable_name": "areacellg_fx-ld-none-z0-hxyA",
       "cell_measures": "",
       "cell_methods": "area: sum",
       "comment": "Area of the target grid (not the interpolated area of the source grid).",
@@ -27,27 +26,17 @@
       "modeling_realm": [
         "land"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "areacellg",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d5b3804a-c78d-11e6-9b25-5404a60d96b5",
-          "mip_table": "IfxAnt",
-          "variable_name": "areacellg"
-        }
-      },
       "standard_name": "cell_area",
       "type": "real",
       "units": "m2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "hfgeoubed": {
-      "branded_variable_name": "hfgeoubed_fx-li-none-z0-hxyA",
       "cell_measures": "area: areacellg",
       "cell_methods": "area: mean where grounded_ice_sheet",
       "comment": "Upward geothermal heat flux per unit area into the base of grounded land ice. This is related to the geothermal heat flux out of the bedrock, but may be modified by horizontal transport due to run-off and by melting at the interface.",
@@ -60,27 +49,17 @@
       "modeling_realm": [
         "landIce"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hfgeoubed",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d5b3755a-c78d-11e6-9b25-5404a60d96b5",
-          "mip_table": "IfxAnt",
-          "variable_name": "hfgeoubed"
-        }
-      },
       "standard_name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "lithk": {
-      "branded_variable_name": "lithk_fx-li-none-z0-hxyA",
       "cell_measures": "area: areacellg",
       "cell_methods": "area: mean where ice_sheet",
       "comment": "The thickness of the ice sheet",
@@ -93,27 +72,17 @@
       "modeling_realm": [
         "landIce"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "lithk",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d5b37ca8-c78d-11e6-9b25-5404a60d96b5",
-          "mip_table": "IfxAnt",
-          "variable_name": "lithk"
-        }
-      },
       "standard_name": "land_ice_thickness",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "topg": {
-      "branded_variable_name": "topg_fx-li-none-z0-hxyA",
       "cell_measures": "area: areacellg",
       "cell_methods": "area: mean where grounded_ice_sheet",
       "comment": "The bedrock topography beneath the land ice",
@@ -126,24 +95,15 @@
       "modeling_realm": [
         "landIce"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "topg",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "d5b378fc-c78d-11e6-9b25-5404a60d96b5",
-          "mip_table": "IfxAnt",
-          "variable_name": "topg"
-        }
-      },
       "standard_name": "bedrock_altitude",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

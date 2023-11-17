@@ -2,19 +2,18 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 30.0,
-    "checksum": "md5: 6cddde4f43639aa2b3e9875c88b3ea51",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "AEmon"
   },
   "variable_entry": {
     "abs550aer": {
-      "branded_variable_name": "abs550aer_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Optical thickness of atmospheric aerosols at wavelength 550 nanometers.",
@@ -29,27 +28,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "abs550aer",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bebf2a-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "abs550aer"
-        }
-      },
       "standard_name": "atmosphere_absorption_optical_thickness_due_to_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "bldep": {
-      "branded_variable_name": "bldep_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Boundary layer depth",
@@ -63,27 +52,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "bldep",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "01d46c6c-c792-11e6-aa58-5404a60d96b5",
-          "mip_table": "AERmon",
-          "variable_name": "bldep"
-        }
-      },
       "standard_name": "atmosphere_boundary_layer_thickness",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ccn": {
-      "branded_variable_name": "ccn_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "proposed name: number_concentration_of_ambient_aerosol_in_air_at_liquid_water_cloud_top",
@@ -97,27 +76,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ccn",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19c04e94-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "ccn"
-        }
-      },
       "standard_name": "number_concentration_of_cloud_condensation_nuclei_at_stp_in_air",
       "type": "real",
       "units": "m-3",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "chepasoa": {
-      "branded_variable_name": "chepasoa_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "anthropogenic part of chepsoa",
@@ -131,27 +100,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "chepasoa",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf7d0c-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "chepasoa"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_secondary_particulate_organic_matter_dry_aerosol_particles_due_to_net_chemical_production",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "chepsoa": {
-      "branded_variable_name": "chepsoa_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "If model lumps secondary organic aerosol (SOA) emissions with primary organic aerosol (POA), then the sum of POA and SOA emissions is reported as OA emissions. Here, mass refers to the mass of primary organic matter, not mass of organic carbon alone.",
@@ -165,27 +124,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "chepsoa",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bed4b0-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "chepsoa"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_secondary_particulate_organic_matter_dry_aerosol_particles_due_to_net_chemical_production",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cltc": {
-      "branded_variable_name": "cltc_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Convective cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes only convective cloud.",
@@ -199,27 +148,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cltc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "01d412d0-c792-11e6-aa58-5404a60d96b5",
-          "mip_table": "AERmon",
-          "variable_name": "cltc"
-        }
-      },
       "standard_name": "convective_cloud_area_fraction",
       "type": "real",
       "units": "%",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "cod": {
-      "branded_variable_name": "cod_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "The optical thickness is the integral along the path of radiation of a volume scattering/absorption/attenuation coefficient. The radiative flux is reduced by a factor exp(-optical_thickness) on traversing the path. A coordinate variable of radiation_wavelength or radiation_frequency can be specified to indicate that the optical thickness applies at specific wavelengths or frequencies. The atmosphere optical thickness applies to radiation passing through the entire atmosphere. 'Cloud' means the component of extinction owing to the presence of liquid or ice water particles. The specification of a physical process by the phrase due_to_process means that the quantity named is a  single term in a sum of terms which together compose the general quantity named by omitting the phrase.",
@@ -233,27 +172,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cod",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf238e-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "cod"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_cloud",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "depdust": {
-      "branded_variable_name": "depdust_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Fdry mass deposition rate of dust",
@@ -267,27 +196,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "depdust",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "6f6bf34c-9acb-11e6-b7ee-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "depdust"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "drybc": {
-      "branded_variable_name": "drybc_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Dry deposition includes gravitational settling and turbulent deposition.",
@@ -301,27 +220,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "drybc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf7604-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "drybc"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles_due_to_dry_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "drydust": {
-      "branded_variable_name": "drydust_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Dry deposition includes gravitational settling and turbulent deposition.",
@@ -335,27 +244,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "drydust",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19c064c4-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "drydust"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_dry_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "drynh3": {
-      "branded_variable_name": "drynh3_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Dry Deposition includes gravitational settling and turbulent deposition",
@@ -369,27 +268,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "drynh3",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf8acc-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "drynh3"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_ammonia_due_to_dry_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "drynh4": {
-      "branded_variable_name": "drynh4_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Dry Deposition includes gravitational settling and turbulent deposition",
@@ -403,27 +292,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "drynh4",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf936e-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "drynh4"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_ammonium_dry_aerosol_particles_due_to_dry_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "drynoy": {
-      "branded_variable_name": "drynoy_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "NOy is the sum of all simulated oxidized nitrogen species out of NO, NO2, HNO3, HNO4, NO3 aerosol, NO3(radical), N2O5, PAN, other organic nitrates. Dry deposition includes gravitational settling and turbulent deposition.",
@@ -437,27 +316,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "drynoy",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bfdaae-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "drynoy"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_noy_expressed_as_nitrogen_due_to_dry_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "dryo3": {
-      "branded_variable_name": "dryo3_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Dry Deposition includes gravitational settling and turbulent deposition.",
@@ -471,27 +340,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "dryo3",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bebac0-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "dryo3"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_ozone_due_to_dry_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "dryoa": {
-      "branded_variable_name": "dryoa_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tendency of atmosphere mass content of organic dry aerosol due to dry deposition: This is the sum of dry deposition of primary organic aerosol (POA) and dry deposition of secondary organic aerosol (SOA). Here, mass refers to the mass of organic matter, not mass of organic carbon alone.  We recommend a scale factor of POM=1.4*OC, unless your model has more detailed info available. Was called dry_pom in old ACCMIP Excel table. Dry deposition includes gravitational settling and turbulent deposition.",
@@ -505,27 +364,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "dryoa",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf27e4-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "dryoa"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_particulate_organic_matter_dry_aerosol_particles_due_to_dry_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "dryso2": {
-      "branded_variable_name": "dryso2_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Dry Deposition includes gravitational settling and turbulent deposition",
@@ -539,27 +388,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "dryso2",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf521e-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "dryso2"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_sulfur_dioxide_due_to_dry_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "dryso4": {
-      "branded_variable_name": "dryso4_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Dry Deposition includes gravitational settling and turbulent deposition",
@@ -573,27 +412,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "dryso4",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf48fa-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "dryso4"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_sulfate_dry_aerosol_particles_due_to_dry_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "dryss": {
-      "branded_variable_name": "dryss_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Dry deposition includes gravitational settling and turbulent deposition.",
@@ -607,27 +436,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "dryss",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19c00b32-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "dryss"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_sea_salt_dry_aerosol_particles_due_to_dry_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "emiaco": {
-      "branded_variable_name": "emiaco_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Anthropogenic  emission of CO.",
@@ -641,27 +460,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "emiaco",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bfb3d0-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "emiaco"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_carbon_monoxide_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "emianox": {
-      "branded_variable_name": "emianox_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Store flux as Nitrogen. Anthropogenic fraction. NOx=NO+NO2, Includes agricultural waste burning but no other biomass burning. Integrate 3D emission field vertically to 2d field.",
@@ -675,27 +484,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "emianox",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf9c2e-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "emianox"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_nox_expressed_as_nitrogen_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "emiaoa": {
-      "branded_variable_name": "emiaoa_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "anthropogenic part of emioa",
@@ -709,27 +508,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "emiaoa",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bfaf84-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "emiaoa"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_particulate_organic_matter_dry_aerosol_particles_due_to_net_chemical_production_and_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "emibc": {
-      "branded_variable_name": "emibc_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Integrate 3D emission field vertically to 2d field.",
@@ -743,27 +532,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "emibc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19be87bc-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "emibc"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "emibvoc": {
-      "branded_variable_name": "emibvoc_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Integrate 3D emission field vertically to 2d field._If_ fixed molecular weight of NMVOC is not available in model, please provide in units of kilomole m-2 s-1 (i.e. kg m-2 s-1 as if model NMVOC had molecular weight of 1) and add a comment to your file.",
@@ -777,27 +556,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "emibvoc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf3928-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "emibvoc"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_biogenic_nmvoc_expressed_as_carbon_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "emico": {
-      "branded_variable_name": "emico_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Integrate 3D emission field vertically to 2d field.",
@@ -811,27 +580,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "emico",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bfe904-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "emico"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_carbon_monoxide_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "emidms": {
-      "branded_variable_name": "emidms_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Integrate 3D emission field vertically to 2d field.",
@@ -845,27 +604,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "emidms",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19c006c8-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "emidms"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_dimethyl_sulfide_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "emidust": {
-      "branded_variable_name": "emidust_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Integrate 3D emission field vertically to 2d field.",
@@ -879,27 +628,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "emidust",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19be5db4-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "emidust"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "emiisop": {
-      "branded_variable_name": "emiisop_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Integrate 3D emission field vertically to 2d field",
@@ -913,27 +652,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "emiisop",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19c03ecc-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "emiisop"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_isoprene_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "eminh3": {
-      "branded_variable_name": "eminh3_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Integrate 3D emission field vertically to 2d field.",
@@ -947,27 +676,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "eminh3",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19c0574a-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "eminh3"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_ammonia_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "eminox": {
-      "branded_variable_name": "eminox_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "NOx=NO+NO2. Integrate 3D emission field vertically to 2d field.",
@@ -981,27 +700,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "eminox",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bfbd76-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "eminox"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_nox_expressed_as_nitrogen_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "emioa": {
-      "branded_variable_name": "emioa_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "This is the sum of total emission of primary organic aerosol (POA) and total production of secondary organic aerosol (SOA) (emipoa+chepsoa). Here, mass refers to the mass of organic matter, not mass of organic carbon alone. We recommend a scale factor of POM=1.4*OC, unless your model has more detailed info available.  Integrate 3D chemical production and emission field vertically to 2d field.",
@@ -1015,27 +724,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "emioa",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bee41e-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "emioa"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_particulate_organic_matter_dry_aerosol_particles_due_to_net_chemical_production_and_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "emiso2": {
-      "branded_variable_name": "emiso2_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Integrate 3D emission field vertically to 2d field.",
@@ -1049,27 +748,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "emiso2",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19c023d8-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "emiso2"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_sulfur_dioxide_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "emiso4": {
-      "branded_variable_name": "emiso4_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Direct primary emission does not include secondary sulfate production. Integrate 3D emission field vertically to 2d field.",
@@ -1083,27 +772,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "emiso4",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19befb70-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "emiso4"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_sulfate_dry_aerosol_particles_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "emiss": {
-      "branded_variable_name": "emiss_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Integrate 3D emission field vertically to 2d field.",
@@ -1117,27 +796,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "emiss",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf3086-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "emiss"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_sea_salt_dry_aerosol_particles_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "emivoc": {
-      "branded_variable_name": "emivoc_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Integrate 3D emission field vertically to 2d field. _If_ fixed molecular weight of NMVOC is not available in model, please provide in units of kilomole m-2 s-1 (i.e. kg m-2 s-1 as if model NMVOC had molecular weight of 1) and add a comment to your file.",
@@ -1151,27 +820,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "emivoc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19c06d70-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "emivoc"
-        }
-      },
       "standard_name": "tendency_of_atmosphere_mass_content_of_nmvoc_due_to_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "lwp": {
-      "branded_variable_name": "lwp_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "The total mass of liquid water in cloud per unit area.",
@@ -1185,27 +844,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "lwp",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf71ae-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "lwp"
-        }
-      },
       "standard_name": "atmosphere_mass_content_of_cloud_liquid_water",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "mmrno3": {
-      "branded_variable_name": "mmrno3_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Dry mass fraction of nitrate aerosol particles in air.",
@@ -1219,27 +868,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "mmrno3",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "6f6be19a-9acb-11e6-b7ee-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "mmrno3"
-        }
-      },
       "standard_name": "mass_fraction_of_nitrate_dry_aerosol_particles_in_air",
       "type": "real",
       "units": "kg kg-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od440aer": {
-      "branded_variable_name": "od440aer_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "AOD from the ambient aerosols (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute 'wavelength: 440nm'",
@@ -1253,27 +892,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od440aer",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19beeb4e-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "od440aer"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od550aer": {
-      "branded_variable_name": "od550aer_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "AOD from the ambient aerosols (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute 'wavelength: 550nm'",
@@ -1288,27 +917,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od550aer",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19c01942-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "od550aer"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od550aerh2o": {
-      "branded_variable_name": "od550aerh2o_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "proposed name: atmosphere_optical_thickness_due_to_water_ambient_aerosol",
@@ -1323,27 +942,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od550aerh2o",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19c03616-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "od550aerh2o"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_water_in_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od550bb": {
-      "branded_variable_name": "od550bb_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "total organic aerosol AOD due to biomass burning (excluding so4, nitrate BB components)",
@@ -1358,27 +967,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od550bb",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bea26a-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "od550bb"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_particulate_organic_matter_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od550bc": {
-      "branded_variable_name": "od550bc_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Total aerosol AOD due to black carbon aerosol at a wavelength of 550 nanometres.",
@@ -1393,27 +992,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od550bc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf8f18-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "od550bc"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_black_carbon_ambient_aerosol",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od550csaer": {
-      "branded_variable_name": "od550csaer_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "AOD from the ambient aerosols in clear skies if od550aer is for all-sky (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute 'wavelength: 550nm'",
@@ -1428,27 +1017,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od550csaer",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "01d4dfbc-c792-11e6-aa58-5404a60d96b5",
-          "mip_table": "AERmon",
-          "variable_name": "od550csaer"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od550dust": {
-      "branded_variable_name": "od550dust_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Total aerosol AOD due to dust aerosol at a wavelength of 550 nanometres.",
@@ -1463,27 +1042,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od550dust",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf97d8-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "od550dust"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_dust_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od550lt1aer": {
-      "branded_variable_name": "od550lt1aer_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "od550 due to particles with wet diameter less than 1 um  (ambient here means wetted). When models do not include explicit size information, it can be assumed that all anthropogenic aerosols and natural secondary aerosols have diameter less than 1 um.",
@@ -1498,27 +1067,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od550lt1aer",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19be6656-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "od550lt1aer"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_pm1_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od550no3": {
-      "branded_variable_name": "od550no3_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Total aerosol AOD due to nitrate aerosol at a wavelength of 550 nanometres.",
@@ -1533,27 +1092,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od550no3",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bfd216-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "od550no3"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_nitrate_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od550oa": {
-      "branded_variable_name": "od550oa_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Total aerosol AOD due to organic aerosol at a wavelength of 550 nanometres.",
@@ -1568,27 +1117,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od550oa",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19c03a6c-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "od550oa"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_particulate_organic_matter_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od550so4": {
-      "branded_variable_name": "od550so4_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Total aerosol AOD due to sulfate aerosol at a wavelength of 550 nanometres.",
@@ -1603,27 +1142,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od550so4",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf19ca-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "od550so4"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_sulfate_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od550soa": {
-      "branded_variable_name": "od550soa_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Total organic aerosol AOD due to secondary aerosol  at a wavelength of 550 nanometres.",
@@ -1638,27 +1167,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od550soa",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "0facb764-817d-11e6-b80b-5404a60d96b5",
-          "mip_table": "AERmon",
-          "variable_name": "od550soa"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_particulate_organic_matter_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od550ss": {
-      "branded_variable_name": "od550ss_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Total aerosol AOD due to sea salt aerosol at a wavelength of 550 nanometres.",
@@ -1673,27 +1192,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od550ss",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bec380-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "od550ss"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_sea_salt_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "od870aer": {
-      "branded_variable_name": "od870aer_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "AOD from the ambient aerosols (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute 'wavelength: 870nm'",
@@ -1707,27 +1216,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "od870aer",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19c04a2a-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "od870aer"
-        }
-      },
       "standard_name": "atmosphere_optical_thickness_due_to_ambient_aerosol_particles",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "pod0": {
-      "branded_variable_name": "pod0_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: sum",
       "comment": "Accumulated stomatal ozone flux over the threshold of 0 mol m-2 s-1; Computation: Time Integral of (hourly above canopy ozone concentration * stomatal conductance * Rc/(Rb+Rc) )",
@@ -1741,27 +1240,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "pod0",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "01d364ca-c792-11e6-aa58-5404a60d96b5",
-          "mip_table": "AERmon",
-          "variable_name": "pod0"
-        }
-      },
       "standard_name": "integral_wrt_time_of_mole_stomatal_uptake_of_ozone",
       "type": "real",
       "units": "mol m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ptp": {
-      "branded_variable_name": "ptp_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "2D monthly mean thermal tropopause calculated using WMO tropopause definition on 3d temperature",
@@ -1775,27 +1264,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ptp",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19be3f96-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "ptp"
-        }
-      },
       "standard_name": "tropopause_air_pressure",
       "type": "real",
       "units": "Pa",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "reffclwtop": {
-      "branded_variable_name": "reffclwtop_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Droplets are liquid only.  This is the effective radius as seen from space over liquid cloudy portion of grid cell. This is the value from uppermost model layer with liquid cloud or, if available, or for some models it is the sum over all liquid cloud tops, no matter where they occur, as long as they are seen from the top of the atmosphere (TOA) each time sample when computing monthly mean. Reported values are weighted by total liquid cloud top fraction of  (as seen from TOA) each time sample when computing monthly mean.",
@@ -1809,27 +1288,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "reffclwtop",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bef6d4-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "reffclwtop"
-        }
-      },
       "standard_name": "effective_radius_of_cloud_liquid_water_particles_at_liquid_water_cloud_top",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlutaf": {
-      "branded_variable_name": "rlutaf_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Flux corresponding to rlut resulting from aerosol-free call to radiation, following Ghan (ACP, 2013)",
@@ -1843,27 +1312,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlutaf",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8feba756-267c-11e7-8933-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "rlutaf"
-        }
-      },
       "standard_name": "toa_outgoing_longwave_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlutcsaf": {
-      "branded_variable_name": "rlutcsaf_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Flux corresponding to rlutcs resulting from aerosol-free call to radiation, following Ghan (ACP, 2013)",
@@ -1877,27 +1336,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlutcsaf",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8febbae8-267c-11e7-8933-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "rlutcsaf"
-        }
-      },
       "standard_name": "toa_outgoing_longwave_flux_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsutaf": {
-      "branded_variable_name": "rsutaf_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Flux corresponding to rsut resulting from aerosol-free call to radiation, following Ghan (ACP, 2013)",
@@ -1911,27 +1360,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsutaf",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8feb097c-267c-11e7-8933-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "rsutaf"
-        }
-      },
       "standard_name": "toa_outgoing_shortwave_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsutcsaf": {
-      "branded_variable_name": "rsutcsaf_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Flux corresponding to rsutcs resulting from aerosol-free call to radiation, following Ghan (ACP, 2013)",
@@ -1945,27 +1384,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsutcsaf",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8feac232-267c-11e7-8933-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "rsutcsaf"
-        }
-      },
       "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky_and_no_aerosol",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "sedustCI": {
-      "branded_variable_name": "sedustCI_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Dry mass deposition rate of dust aerosol.",
@@ -1979,27 +1408,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sedustCI",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "6f6bf7ac-9acb-11e6-b7ee-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "sedustCI"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_insoluble_dust_dry_aerosol_particles_due_to_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tatp": {
-      "branded_variable_name": "tatp_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "2D monthly mean thermal tropopause calculated using WMO tropopause definition on 3d temperature",
@@ -2013,27 +1432,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tatp",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf81b2-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "tatp"
-        }
-      },
       "standard_name": "tropopause_air_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tntrl27": {
-      "branded_variable_name": "tntrl_mon-ae-tav-p27-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "time: mean",
       "comment": "Tendency of air temperature due to longwave radiative heating",
@@ -2048,27 +1457,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tntrl27",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bafcad0-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "tntrl27"
-        }
-      },
       "standard_name": "tendency_of_air_temperature_due_to_longwave_heating",
       "type": "real",
       "units": "K s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tntrs27": {
-      "branded_variable_name": "tntrs_mon-ae-tav-p27-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "time: mean",
       "comment": "Tendency of air temperature due to shortwave radiative heating",
@@ -2083,27 +1482,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tntrs27",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bafd07a-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Emon",
-          "variable_name": "tntrs27"
-        }
-      },
       "standard_name": "tendency_of_air_temperature_due_to_shortwave_heating",
       "type": "real",
       "units": "K s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "toz": {
-      "branded_variable_name": "toz_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Total ozone column calculated at 0 degrees C and 1 bar, such that 1m = 1e5 DU.",
@@ -2117,27 +1506,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "toz",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf12b8-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "toz"
-        }
-      },
       "standard_name": "equivalent_thickness_at_stp_of_atmosphere_ozone_content",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tropoz": {
-      "branded_variable_name": "tropoz_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Tropospheric ozone column, should be consistent with definition of tropopause used to calculate the pressure of the tropopause (ptp). Calculated at 0 degrees C and 1 bar, such that 1m = 1e5 DU.",
@@ -2151,27 +1530,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tropoz",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bff46c-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "tropoz"
-        }
-      },
       "standard_name": "equivalent_thickness_at_stp_of_atmosphere_ozone_content",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ttop": {
-      "branded_variable_name": "ttop_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "cloud_top refers to the top of the highest cloud. Air temperature is the bulk temperature of the air, not the surface (skin) temperature.",
@@ -2185,27 +1554,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ttop",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19be9072-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "ttop"
-        }
-      },
       "standard_name": "air_temperature_at_cloud_top",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wetbc": {
-      "branded_variable_name": "wetbc_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Surface deposition rate of black carbon (dry mass) due to wet processes",
@@ -2219,27 +1578,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wetbc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf5674-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "wetbc"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles_due_to_wet_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wetdust": {
-      "branded_variable_name": "wetdust_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Surface deposition rate of dust (dry mass) due to wet processes",
@@ -2253,27 +1602,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wetdust",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19be7024-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "wetdust"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_wet_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wetnh3": {
-      "branded_variable_name": "wetnh3_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Surface deposition rate of ammonia (NH3) due to wet processes",
@@ -2287,27 +1626,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wetnh3",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19be2a60-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "wetnh3"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_ammonia_due_to_wet_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wetnh4": {
-      "branded_variable_name": "wetnh4_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Surface deposition rate of ammonium (NH4) due to wet processes",
@@ -2321,27 +1650,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wetnh4",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19be22b8-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "wetnh4"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_ammonium_dry_aerosol_particles_due_to_wet_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wetnoy": {
-      "branded_variable_name": "wetnoy_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "NOy is the sum of all simulated oxidized nitrogen species, out of NO, NO2, HNO3, HNO4, NO3 aerosol, NO3 (radical), N2O5, PAN, other organic nitrates.",
@@ -2355,27 +1674,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wetnoy",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19beaf58-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "wetnoy"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_noy_expressed_as_nitrogen_due_to_wet_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wetoa": {
-      "branded_variable_name": "wetoa_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Deposition rate of organic matter in aerosols (measured by the dry mass) due to wet processes",
@@ -2389,27 +1698,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wetoa",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19bf34d2-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "wetoa"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_particulate_organic_matter_dry_aerosol_particles_due_to_wet_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wetso2": {
-      "branded_variable_name": "wetso2_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Deposition rate of sulfur dioxide due to wet processes",
@@ -2423,27 +1722,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wetso2",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19be2ec0-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "wetso2"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_sulfur_dioxide_due_to_wet_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wetso4": {
-      "branded_variable_name": "wetso4_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Deposition rate of sulfate aerosols (measured by the dry mass) due to wet processes",
@@ -2457,27 +1746,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wetso4",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19be330c-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "wetso4"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_sulfate_dry_aerosol_particles_due_to_wet_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wetss": {
-      "branded_variable_name": "wetss_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "Deposition rate of sea salt aerosols (measured by the dry mass) due to wet processes",
@@ -2491,27 +1770,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wetss",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19c0606e-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "wetss"
-        }
-      },
       "standard_name": "minus_tendency_of_atmosphere_mass_content_of_sea_salt_dry_aerosol_particles_due_to_wet_deposition",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ztp": {
-      "branded_variable_name": "ztp_mon-ae-tav-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: time: mean",
       "comment": "2D monthly mean thermal tropopause calculated using WMO tropopause definition on 3d temperature",
@@ -2525,24 +1794,15 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ztp",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "19be55a8-81b1-11e6-92de-ac72891c3257",
-          "mip_table": "AERmon",
-          "variable_name": "ztp"
-        }
-      },
       "standard_name": "tropopause_altitude",
       "type": "real",
       "units": "m",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

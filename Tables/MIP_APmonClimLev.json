@@ -2,8 +2,8 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 30.0,
-    "checksum": "md5: 9a5288136daa14d9981082143745a01f",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
       "alevel",
@@ -12,12 +12,11 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "APmonClimLev"
   },
   "variable_entry": {
     "pfull": {
-      "branded_variable_name": "pfull_mon-ap-tcla-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: mean within years time: mean over years",
       "comment": "Air pressure on model levels",
@@ -32,27 +31,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "pfull",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab32c1a-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "Amon",
-          "variable_name": "pfull"
-        }
-      },
       "standard_name": "air_pressure",
       "type": "real",
       "units": "Pa",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "phalf": {
-      "branded_variable_name": "phalf_mon-ap-tcla-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: mean within years time: mean over years",
       "comment": "Air pressure on model half-levels",
@@ -67,24 +56,15 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "phalf",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "bab33d04-e5dd-11e5-8482-ac72891c3257",
-          "mip_table": "Amon",
-          "variable_name": "phalf"
-        }
-      },
       "standard_name": "air_pressure",
       "type": "real",
       "units": "Pa",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

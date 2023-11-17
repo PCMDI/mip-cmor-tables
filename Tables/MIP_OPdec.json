@@ -2,19 +2,18 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 3650.0,
-    "checksum": "md5: ab6ddf42c59769c55d18421b7393e319",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "OPdec"
   },
   "variable_entry": {
     "bigthetaoga": {
-      "branded_variable_name": "bigthetaoga_dec-op-tav-z0-hm",
       "cell_measures": "",
       "cell_methods": "area: mean where sea time: mean",
       "comment": "Diagnostic should be contributed only for models using conservative temperature as prognostic field.",
@@ -26,27 +25,17 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "bigthetaoga",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "47953f1c-bb0b-11e6-8316-5980f7b176d1",
-          "mip_table": "Odec",
-          "variable_name": "bigthetaoga"
-        }
-      },
       "standard_name": "sea_water_conservative_temperature",
       "type": "real",
       "units": "degC",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "hfds": {
-      "branded_variable_name": "hfds_dec-op-tav-z0-hxy",
       "cell_measures": "area: areacello",
       "cell_methods": "area: mean where sea time: mean",
       "comment": "This is the net flux of heat entering the liquid water column through its upper surface (excluding any 'flux adjustment') .",
@@ -60,27 +49,17 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hfds",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "ac26ebd6-bb0d-11e6-83c8-bf7187cdbd68",
-          "mip_table": "Odec",
-          "variable_name": "hfds"
-        }
-      },
       "standard_name": "surface_downward_heat_flux_in_sea_water",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "masso": {
-      "branded_variable_name": "masso_dec-op-tav-z0-hm",
       "cell_measures": "",
       "cell_methods": "area: sum where sea time: mean",
       "comment": "Total mass of liquid sea water. For Boussinesq models, report this diagnostic as Boussinesq reference density times total volume.",
@@ -92,27 +71,17 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "masso",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "4794f818-bb0b-11e6-8316-5980f7b176d1",
-          "mip_table": "Odec",
-          "variable_name": "masso"
-        }
-      },
       "standard_name": "sea_water_mass",
       "type": "real",
       "units": "kg",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "msftyrho": {
-      "branded_variable_name": "msftyrho_dec-op-tav-rhon-hm",
       "cell_measures": "",
       "cell_methods": "time: mean grid_longitude: mean",
       "comment": "Overturning mass streamfunction arising from all advective mass transport processes, resolved and parameterized.",
@@ -127,27 +96,17 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "msftyrho",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "ab16e948-1026-11e8-9d87-1c4d70487308",
-          "mip_table": "Odec",
-          "variable_name": "msftyrho"
-        }
-      },
       "standard_name": "ocean_y_overturning_mass_streamfunction",
       "type": "real",
       "units": "kg s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "sfdsi": {
-      "branded_variable_name": "sfdsi_dec-op-tav-z0-hxy",
       "cell_measures": "area: areacello",
       "cell_methods": "area: mean where sea time: mean",
       "comment": "This field is physical, and it arises since sea ice has a nonzero salt content, so it exchanges salt with the liquid ocean upon melting and freezing.",
@@ -162,27 +121,17 @@
         "ocean",
         "seaIce"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sfdsi",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "47960082-bb0b-11e6-8316-5980f7b176d1",
-          "mip_table": "Odec",
-          "variable_name": "sfdsi"
-        }
-      },
       "standard_name": "downward_sea_ice_basal_salt_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "sfriver": {
-      "branded_variable_name": "sfriver_dec-op-tav-z0-hxy",
       "cell_measures": "area: areacello",
       "cell_methods": "area: mean where sea time: mean",
       "comment": "This field is physical, and it arises when rivers carry a nonzero salt content.  Often this is zero, with rivers assumed to be fresh.",
@@ -196,27 +145,17 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sfriver",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "47960e88-bb0b-11e6-8316-5980f7b176d1",
-          "mip_table": "Odec",
-          "variable_name": "sfriver"
-        }
-      },
       "standard_name": "salt_flux_into_sea_water_from_rivers",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "soga": {
-      "branded_variable_name": "soga_dec-op-tav-z0-hm",
       "cell_measures": "",
       "cell_methods": "area: mean where sea time: mean",
       "comment": "Sea water salinity is the salt content of sea water, often on the Practical Salinity Scale of 1978. However, the unqualified term 'salinity' is generic and does not necessarily imply any particular method of calculation. The units of salinity are dimensionless and the units attribute should normally be given as 1e-3 or 0.001 i.e. parts per thousand. ",
@@ -228,27 +167,17 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": 40.0,
+      "ok_min_mean_abs": 28.0,
       "out_name": "soga",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "479575c2-bb0b-11e6-8316-5980f7b176d1",
-          "mip_table": "Odec",
-          "variable_name": "soga"
-        }
-      },
       "standard_name": "sea_water_salinity",
       "type": "real",
       "units": "0.001",
-      "validation": {
-        "ok_max_mean_abs": 40.0,
-        "ok_min_mean_abs": 28.0,
-        "valid_max": 80.0,
-        "valid_min": 20.0
-      }
+      "valid_max": 80.0,
+      "valid_min": 20.0
     },
     "sos": {
-      "branded_variable_name": "sos_dec-op-tav-z0-hxy",
       "cell_measures": "area: areacello",
       "cell_methods": "area: mean where sea time: mean",
       "comment": "Sea water salinity is the salt content of sea water, often on the Practical Salinity Scale of 1978. However, the unqualified term 'salinity' is generic and does not necessarily imply any particular method of calculation. The units of salinity are dimensionless and the units attribute should normally be given as 1e-3 or 0.001 i.e. parts per thousand. ",
@@ -262,27 +191,17 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": 40.0,
+      "ok_min_mean_abs": 28.0,
       "out_name": "sos",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "47958396-bb0b-11e6-8316-5980f7b176d1",
-          "mip_table": "Odec",
-          "variable_name": "sos"
-        }
-      },
       "standard_name": "sea_surface_salinity",
       "type": "real",
       "units": "0.001",
-      "validation": {
-        "ok_max_mean_abs": 40.0,
-        "ok_min_mean_abs": 28.0,
-        "valid_max": 100.0,
-        "valid_min": -0.001
-      }
+      "valid_max": 100.0,
+      "valid_min": -0.001
     },
     "sosga": {
-      "branded_variable_name": "sosga_dec-op-tav-z0-hm",
       "cell_measures": "",
       "cell_methods": "area: mean where sea time: mean",
       "comment": "Sea water salinity is the salt content of sea water, often on the Practical Salinity Scale of 1978. However, the unqualified term 'salinity' is generic and does not necessarily imply any particular method of calculation. The units of salinity are dimensionless and the units attribute should normally be given as 1e-3 or 0.001 i.e. parts per thousand. ",
@@ -294,27 +213,17 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": 1600.0,
+      "ok_min_mean_abs": 780.0,
       "out_name": "sosga",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "47959106-bb0b-11e6-8316-5980f7b176d1",
-          "mip_table": "Odec",
-          "variable_name": "sosga"
-        }
-      },
       "standard_name": "sea_surface_salinity",
       "type": "real",
       "units": "0.001",
-      "validation": {
-        "ok_max_mean_abs": 1600.0,
-        "ok_min_mean_abs": 780.0,
-        "valid_max": 6400.0,
-        "valid_min": 400.0
-      }
+      "valid_max": 6400.0,
+      "valid_min": 400.0
     },
     "tauuo": {
-      "branded_variable_name": "tauuo_dec-op-tav-z0-hxy",
       "cell_measures": "area: areacello",
       "cell_methods": "area: mean where sea time: mean",
       "comment": "This is the stress on the liquid ocean from overlying atmosphere, sea ice, ice shelf, etc.",
@@ -328,27 +237,17 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tauuo",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "ac26fd4c-bb0d-11e6-83c8-bf7187cdbd68",
-          "mip_table": "Odec",
-          "variable_name": "tauuo"
-        }
-      },
       "standard_name": "downward_x_stress_at_sea_water_surface",
       "type": "real",
       "units": "N m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tauvo": {
-      "branded_variable_name": "tauvo_dec-op-tav-z0-hxy",
       "cell_measures": "area: areacello",
       "cell_methods": "area: mean where sea time: mean",
       "comment": "This is the stress on the liquid ocean from overlying atmosphere, sea ice, ice shelf, etc.",
@@ -362,27 +261,17 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tauvo",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "ac270e9a-bb0d-11e6-83c8-bf7187cdbd68",
-          "mip_table": "Odec",
-          "variable_name": "tauvo"
-        }
-      },
       "standard_name": "downward_y_stress_at_sea_water_surface",
       "type": "real",
       "units": "N m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "thetaoga": {
-      "branded_variable_name": "thetaoga_dec-op-tav-z0-hm",
       "cell_measures": "",
       "cell_methods": "area: mean where sea time: mean",
       "comment": "Diagnostic should be contributed even for models using conservative temperature as prognostic field",
@@ -394,27 +283,17 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "thetaoga",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "47953134-bb0b-11e6-8316-5980f7b176d1",
-          "mip_table": "Odec",
-          "variable_name": "thetaoga"
-        }
-      },
       "standard_name": "sea_water_potential_temperature",
       "type": "real",
       "units": "degC",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tos": {
-      "branded_variable_name": "tos_dec-op-tav-z0-hxy",
       "cell_measures": "area: areacello",
       "cell_methods": "area: mean where sea time: mean",
       "comment": "Temperature of upper boundary of the liquid ocean, including temperatures below sea-ice and floating ice shelves.",
@@ -428,27 +307,17 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tos",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "47954cc8-bb0b-11e6-8316-5980f7b176d1",
-          "mip_table": "Odec",
-          "variable_name": "tos"
-        }
-      },
       "standard_name": "sea_surface_temperature",
       "type": "real",
       "units": "degC",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tosga": {
-      "branded_variable_name": "tosga_dec-op-tav-z0-hm",
       "cell_measures": "",
       "cell_methods": "area: mean where sea time: mean",
       "comment": "Temperature of upper boundary of the liquid ocean, including temperatures below sea-ice and floating ice shelves.",
@@ -460,27 +329,17 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tosga",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "47955a92-bb0b-11e6-8316-5980f7b176d1",
-          "mip_table": "Odec",
-          "variable_name": "tosga"
-        }
-      },
       "standard_name": "sea_surface_temperature",
       "type": "real",
       "units": "degC",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "volo": {
-      "branded_variable_name": "volo_dec-op-tav-z0-hm",
       "cell_measures": "",
       "cell_methods": "area: sum where sea time: mean",
       "comment": "Total volume of liquid sea water.",
@@ -492,27 +351,17 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "volo",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "47950696-bb0b-11e6-8316-5980f7b176d1",
-          "mip_table": "Odec",
-          "variable_name": "volo"
-        }
-      },
       "standard_name": "sea_water_volume",
       "type": "real",
       "units": "m3",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wfo": {
-      "branded_variable_name": "wfo_dec-op-tav-z0-hxy",
       "cell_measures": "area: areacello",
       "cell_methods": "area: mean where sea time: mean",
       "comment": "Computed as the water flux into the ocean divided by the area of the ocean portion of the grid cell. This is the sum *wfonocorr* and *wfcorr*.",
@@ -526,24 +375,15 @@
       "modeling_realm": [
         "ocean"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wfo",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "4795f2d6-bb0b-11e6-8316-5980f7b176d1",
-          "mip_table": "Odec",
-          "variable_name": "wfo"
-        }
-      },
       "standard_name": "water_flux_into_sea_water",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

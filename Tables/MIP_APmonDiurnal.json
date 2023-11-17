@@ -2,19 +2,18 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 0.041667,
-    "checksum": "md5: 5d445b38b245a1c70838bc516e41acc0",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "APmonDiurnal"
   },
   "variable_entry": {
     "rlut": {
-      "branded_variable_name": "rlut_1hrCM-ap-tcld-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: mean within days time: mean over days",
       "comment": "at the top of the atmosphere (to be compared with satellite measurements)",
@@ -28,27 +27,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlut",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b8b5344-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E1hrClimMon",
-          "variable_name": "rlut"
-        }
-      },
       "standard_name": "toa_outgoing_longwave_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlutcs": {
-      "branded_variable_name": "rlutcs_1hrCM-ap-tcld-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: mean within days time: mean over days",
       "comment": "Upwelling clear-sky longwave radiation at top of atmosphere",
@@ -62,27 +51,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlutcs",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b8b5d08-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E1hrClimMon",
-          "variable_name": "rlutcs"
-        }
-      },
       "standard_name": "toa_outgoing_longwave_flux_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsdt": {
-      "branded_variable_name": "rsdt_1hrCM-ap-tcld-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: mean within days time: mean over days",
       "comment": "Shortwave radiation incident at the top of the atmosphere",
@@ -96,27 +75,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsdt",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b8b499e-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E1hrClimMon",
-          "variable_name": "rsdt"
-        }
-      },
       "standard_name": "toa_incoming_shortwave_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsut": {
-      "branded_variable_name": "rsut_1hrCM-ap-tcld-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: mean within days time: mean over days",
       "comment": "at the top of the atmosphere",
@@ -130,27 +99,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsut",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b8b4e80-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E1hrClimMon",
-          "variable_name": "rsut"
-        }
-      },
       "standard_name": "toa_outgoing_shortwave_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsutcs": {
-      "branded_variable_name": "rsutcs_1hrCM-ap-tcld-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: mean within days time: mean over days",
       "comment": "Calculated in the absence of clouds.",
@@ -164,24 +123,15 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsutcs",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8b8b57fe-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "E1hrClimMon",
-          "variable_name": "rsutcs"
-        }
-      },
       "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

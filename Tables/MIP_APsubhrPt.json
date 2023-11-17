@@ -2,19 +2,18 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 0.017361,
-    "checksum": "md5: d6b1b288ea134750fbd2e8321b8fc444",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "APsubhrPt"
   },
   "variable_entry": {
     "hfls": {
-      "branded_variable_name": "hfls_subhr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "The surface called 'surface' means the lower boundary of the atmosphere. 'Upward' indicates a vector component which is positive when directed upward (negative downward). The surface latent heat flux is the exchange of heat between the surface and the air on account of evaporation (including sublimation). In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.",
@@ -28,27 +27,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": 110.0,
+      "ok_min_mean_abs": 30.0,
       "out_name": "hfls",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb17eca-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "hfls"
-        }
-      },
       "standard_name": "surface_upward_latent_heat_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": 110.0,
-        "ok_min_mean_abs": 30.0,
-        "valid_max": 2400.0,
-        "valid_min": -800.0
-      }
+      "valid_max": 2400.0,
+      "valid_min": -800.0
     },
     "hfss": {
-      "branded_variable_name": "hfss_subhr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air.",
@@ -62,27 +51,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": 60.0,
+      "ok_min_mean_abs": 5.0,
       "out_name": "hfss",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb179fc-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "hfss"
-        }
-      },
       "standard_name": "surface_upward_sensible_heat_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": 60.0,
-        "ok_min_mean_abs": 5.0,
-        "valid_max": 2000.0,
-        "valid_min": -1000.0
-      }
+      "valid_max": 2000.0,
+      "valid_min": -1000.0
     },
     "huss": {
-      "branded_variable_name": "huss_subhr-ap-tpt-h02-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Near-surface (usually, 2 meter) specific humidity.",
@@ -97,27 +76,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "huss",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb16b9c-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "huss"
-        }
-      },
       "standard_name": "specific_humidity",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "pr": {
-      "branded_variable_name": "pr_subhr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "includes both liquid and solid phases",
@@ -131,27 +100,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "pr",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb15ca6-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "pr"
-        }
-      },
       "standard_name": "precipitation_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "prc": {
-      "branded_variable_name": "prc_subhr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Convective precipitation at surface; includes both liquid and solid phases.",
@@ -165,27 +124,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "prc",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb161c4-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "prc"
-        }
-      },
       "standard_name": "convective_precipitation_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "prw": {
-      "branded_variable_name": "prw_subhr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "vertically integrated through the atmospheric column",
@@ -199,27 +148,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "prw",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb191e4-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "prw"
-        }
-      },
       "standard_name": "atmosphere_mass_content_of_water_vapor",
       "type": "real",
       "units": "kg m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ps": {
-      "branded_variable_name": "ps_subhr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "surface pressure (not mean sea-level pressure), 2-D field to calculate the 3-D pressure field from hybrid coordinates",
@@ -233,27 +172,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ps",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "a1fa78aecfc6a17c21ff759d0b322306504a47e1",
-          "mip_table": "Esubhr",
-          "variable_name": "ps"
-        }
-      },
       "standard_name": "surface_air_pressure",
       "type": "real",
       "units": "Pa",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlut": {
-      "branded_variable_name": "rlut_subhr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "at the top of the atmosphere (to be compared with satellite measurements)",
@@ -267,27 +196,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlut",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb18d16-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "rlut"
-        }
-      },
       "standard_name": "toa_outgoing_longwave_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsdt": {
-      "branded_variable_name": "rsdt_subhr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Shortwave radiation incident at the top of the atmosphere",
@@ -301,27 +220,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsdt",
       "positive": "down",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb1838e-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "rsdt"
-        }
-      },
       "standard_name": "toa_incoming_shortwave_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsut": {
-      "branded_variable_name": "rsut_subhr-ap-tpt-z0-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "at the top of the atmosphere",
@@ -335,27 +244,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsut",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb18852-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "rsut"
-        }
-      },
       "standard_name": "toa_outgoing_shortwave_flux",
       "type": "real",
       "units": "W m-2",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tas": {
-      "branded_variable_name": "tas_subhr-ap-tpt-h02-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "near-surface (usually, 2 meter) air temperature",
@@ -370,24 +269,15 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tas",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb166b0-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "tas"
-        }
-      },
       "standard_name": "air_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

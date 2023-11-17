@@ -2,8 +2,8 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 0.25,
-    "checksum": "md5: be76a8e0a3d167741e358e7a7191c36a",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
       "alevel",
@@ -12,12 +12,11 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "AE6hrPtLev"
   },
   "variable_entry": {
     "bs550aer": {
-      "branded_variable_name": "bs550aer_6hr-ae-tpt-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Aerosol  Backscatter at 550nm and 180 degrees, computed from extinction and lidar ratio",
@@ -33,27 +32,17 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "bs550aer",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8fecd6da-267c-11e7-8933-ac72891c3257",
-          "mip_table": "6hrLev",
-          "variable_name": "bs550aer"
-        }
-      },
       "standard_name": "volume_scattering_function_of_radiative_flux_in_air_due_to_ambient_aerosol_particles",
       "type": "real",
       "units": "m-1 sr-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ec550aer": {
-      "branded_variable_name": "ec550aer_6hr-ae-tpt-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Aerosol volume extinction coefficient at 550nm wavelength.",
@@ -69,24 +58,15 @@
       "modeling_realm": [
         "aerosol"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ec550aer",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8feccd66-267c-11e7-8933-ac72891c3257",
-          "mip_table": "6hrLev",
-          "variable_name": "ec550aer"
-        }
-      },
       "standard_name": "volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles",
       "type": "real",
       "units": "m-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

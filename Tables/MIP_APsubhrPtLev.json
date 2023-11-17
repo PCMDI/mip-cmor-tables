@@ -2,8 +2,8 @@
   "Header": {
     "Conventions": "CF-1.7 CMIP-6.3",
     "approx_interval": 0.017361,
-    "checksum": "md5: e337ab63e03845e4e4d266c98c70d535",
-    "cmor_version": "4.0",
+    "checksum": "",
+    "cmor_version": "3.7.3",
     "data_specs_version": "6.3.0.0",
     "generic_levels": [
       "alevel",
@@ -12,12 +12,11 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2022-09-05",
+    "table_date": "2023-11-16",
     "table_id": "APsubhrPtLev"
   },
   "variable_entry": {
     "hus": {
-      "branded_variable_name": "hus_subhr-ap-tpt-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
@@ -32,27 +31,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hus",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb1a788-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "hus"
-        }
-      },
       "standard_name": "specific_humidity",
       "type": "real",
       "units": "1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "mc": {
-      "branded_variable_name": "mc_subhr-ap-tpt-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "The net mass flux should represent the difference between the updraft and downdraft components.  The flux is computed as the mass divided by the area of the grid cell.",
@@ -67,27 +56,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "mc",
       "positive": "up",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb1ac74-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "mc"
-        }
-      },
       "standard_name": "atmosphere_net_upward_convective_mass_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ta": {
-      "branded_variable_name": "ta_subhr-ap-tpt-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Air Temperature",
@@ -102,27 +81,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ta",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb1a17a-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "ta"
-        }
-      },
       "standard_name": "air_temperature",
       "type": "real",
       "units": "K",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tnhus": {
-      "branded_variable_name": "tnhus_subhr-ap-tpt-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Tendency of Specific Humidity",
@@ -137,27 +106,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tnhus",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb1b624-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "tnhus"
-        }
-      },
       "standard_name": "tendency_of_specific_humidity",
       "type": "real",
       "units": "s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "tnt": {
-      "branded_variable_name": "tnt_subhr-ap-tpt-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Tendency of Air Temperature",
@@ -172,27 +131,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tnt",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb1b156-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "tnt"
-        }
-      },
       "standard_name": "tendency_of_air_temperature",
       "type": "real",
       "units": "K s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "ua": {
-      "branded_variable_name": "ua_subhr-ap-tpt-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Zonal wind (positive in a eastward direction).",
@@ -207,27 +156,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ua",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb17060-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "ua"
-        }
-      },
       "standard_name": "eastward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "va": {
-      "branded_variable_name": "va_subhr-ap-tpt-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Meridional wind (positive in a northward direction).",
@@ -242,27 +181,17 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "va",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb17524-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "va"
-        }
-      },
       "standard_name": "northward_wind",
       "type": "real",
       "units": "m s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     },
     "wap": {
-      "branded_variable_name": "wap_subhr-ap-tpt-l-hxy",
       "cell_measures": "area: areacella",
       "cell_methods": "area: mean time: point",
       "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)",
@@ -277,24 +206,15 @@
       "modeling_realm": [
         "atmos"
       ],
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wap",
       "positive": "",
-      "provenance": {
-        "CMIP6": {
-          "dreq_uid": "8bb19c02-4a5b-11e6-9cd2-ac72891c3257",
-          "mip_table": "Esubhr",
-          "variable_name": "wap"
-        }
-      },
       "standard_name": "lagrangian_tendency_of_air_pressure",
       "type": "real",
       "units": "Pa s-1",
-      "validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
-      }
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }
