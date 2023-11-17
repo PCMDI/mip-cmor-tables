@@ -56,6 +56,18 @@ jobs:
         # working-directory: .github/libs  # Adjusted the working directory
         shell: bash
 
+      - name: Display Version Metadata for JSON Files
+        run: |
+          # Get the list of JSON files in the repository
+          json_files=$(git ls-tree --name-only -r HEAD | grep '\.json$')
+      
+          # Iterate over each JSON file and display 'version_metadata'
+          for json_file in $json_files; do
+            metadata=$(git show HEAD:$json_file | jq -r '.version_metadata')
+            echo "File: $json_file, Version Metadata: $metadata"
+          done
+        shell: bash
+
 
       - name: Write Changes
         run: |
