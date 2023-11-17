@@ -1,24 +1,28 @@
 {
-    "source_type":{
-        "AER":"aerosol treatment in an atmospheric model where concentrations are calculated based on emissions, transformation, and removal processes (rather than being prescribed or omitted entirely)",
-        "AGCM":"atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface",
-        "AOGCM":"coupled atmosphere-ocean global climate model, additionally including explicit representation of at least the land and sea ice",
-        "BGC":"biogeochemistry model component that at the very least accounts for carbon reservoirs and fluxes in the atmosphere, terrestrial biosphere, and ocean",
-        "CHEM":"chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them",
-        "ISM":"ice-sheet model that includes ice-flow",
-        "LAND":"land model run uncoupled from the atmosphere",
-        "OGCM":"ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
-        "RAD":"rad iation component of an atmospheric model run 'offline'",
-        "SLAB":"slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system"
+    "source_type": {
+        "AER": "aerosol treatment in an atmospheric model where concentrations are calculated based on emissions, transformation, and removal processes (rather than being prescribed or omitted entirely)",
+        "AGCM": "atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface",
+        "AOGCM": "coupled atmosphere-ocean global climate model, additionally including explicit representation of at least the land and sea ice",
+        "BGC": "biogeochemistry model component that at the very least accounts for carbon reservoirs and fluxes in the atmosphere, terrestrial biosphere, and ocean",
+        "CHEM": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them",
+        "ISM": "ice-sheet model that includes ice-flow",
+        "LAND": "land model run uncoupled from the atmosphere",
+        "OGCM": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
+        "RAD": "rad iation component of an atmospheric model run 'offline'",
+        "SLAB": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system"
     },
-    "version_metadata":{
-        "CV_collection_modified":"Sun Nov 12 10:41:04 2023 -0000",
-        "CV_collection_version":"6.5.0.0",
-        "source_type_CV_modified":"Sun Nov 12 11:41:04 2023 -0000",
-        "source_type_CV_note":"Replicating content from CMIP6_CVs upstream",
-        "author":"Daniel Ellis <daniel.ellis@ext.esa.int>",
-        "institution_id":"CMIP-IPO",
-        "previous_commit":"",
-        "specs_doc":"v6.3.0 "
+    "version_metadata": {
+        "version_metadata": {
+            "version_tag": "v6.5.0.0",
+            "checksum": "checksum",
+            "MIP_source_type_modified": "  Fri Nov 17 11:51:49 2023 +0000",
+            "MIP_source_type_note": "Adding some additional tables from those used in the CVs (#29)",
+            "commit": "4f737d56b3c7413a4451fe206993bcf3295d7f55",
+            "previous_commit": "",
+            "author": "Daniel Ellis",
+            "institution_id": "CMIP-IPO",
+            "CV_collection_version": "6.5.0.0",
+            "specs_doc": "v6.5.0"
+        }
     }
 }
