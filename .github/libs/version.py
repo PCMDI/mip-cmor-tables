@@ -91,7 +91,11 @@ for f in files:
     
     skip = 'Author: CMIP-IPO: Automated GitHub Action <actions@wcrp-cmip.org>'  
     # commit_info = os.popen(f'git log -n 1 -- {f} ').read()
+    print(f)
     full = os.popen(f'git log -- {f} ').read()
+
+    print(full)
+
     commit_blocks = re.split(r'\n(?=commit\s)', full)
     for c in commit_blocks:
         if skip not in c:
