@@ -57,7 +57,7 @@ jobs:
         shell: bash
 
 
-      - name: Clear previous
+      - name: Write Changes
         run: |
           if [ -z "$ACT" ]; then
               timestamp=$(date -u +"%Y-%m-%d %H:%M UTC")
@@ -68,3 +68,4 @@ jobs:
             echo "Skipping this step in 'act' environment."
           fi
         shell: bash
+        continue-on-error: true
