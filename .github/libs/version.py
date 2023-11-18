@@ -3,7 +3,7 @@ from collections import OrderedDict
 import argparse
 from urllib.request import Request, urlopen
 from checksum_tools import validate_checksum,calculate_checksum
-
+from datetime import datetime
 
     ##########################################
     # load the maintainer file
@@ -99,6 +99,8 @@ for f in files:
 
     commit_blocks = re.split(r'\n(?=commit\s)', full)
     for c in commit_blocks:
+        if 'reset-checksum' in c:
+                continue
         if skip not in c:
             if not commit_info:
                 commit_info = c
@@ -183,6 +185,18 @@ for f in files:
 
     with open(f,'w') as write:
         write.write(json.dumps(contents,indent=4))
+
+
+
+    ##########################################
+    # keep the individualised commit messages
+    ##########################################
+
+    timestamp_obj = datetime.strptime(commit_dict['commit_date'].lstrip(), "%a %b %d %H:%M:%S %Y %z")
+    formatted_timestamp = timestamp_obj.strftime("%y/%m/%d %H:%M")
+
+    os.popen(f"git add {f}")
+    os.popen(f"git commit -m '{formatted_timestamp} - {commit_dict['commit_message'][:50]}")
 
 
 # checksum. If checksum is not the same, update.
