@@ -76,9 +76,9 @@ jobs:
       - name: Write Changes
         run: |
           if [ -z "$ACT" ]; then
-              timestamp=$(date -u +"%Y-%m-%d %H:%M UTC")
-              git add -A 
-              git commit -m 'Automated Versioning Update' 
+            #   timestamp=$(date -u +"%Y-%m-%d %H:%M UTC")
+            #   git add -A 
+            #   git commit -m 'Automated Versioning Update' 
               git push origin $(git rev-parse --abbrev-ref HEAD)
           else
             echo "Skipping this step in 'act' environment."
