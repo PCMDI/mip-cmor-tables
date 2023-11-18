@@ -24,6 +24,7 @@
             "institution_id": "CMIP-IPO",
             "CV_collection_version": "6.5.0.0",
             "specs_doc": "v6.5.0"
-        }
+        },
+        "checksum": "md5: 1bebd03291c85008d7895ed526fd6465"
     }
 }
