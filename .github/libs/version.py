@@ -93,11 +93,18 @@ for f in files:
     # commit_info = os.popen(f'git log -n 1 -- {f} ').read()
     full = os.popen(f'git log -- {f} ').read()
 
+
+    previous_commit = ''
+    commit_info = False
+
     commit_blocks = re.split(r'\n(?=commit\s)', full)
     for c in commit_blocks:
         if skip not in c:
-            commit_info = c
-            break
+            if not commit_info:
+                commit_info = c
+            if commit_info and not previous_commit:
+                previous_commit = re.search(r"commit (\S+)", c)
+                break
 
     if 'commit_info' not in locals():
         print(f)
@@ -142,7 +149,7 @@ for f in files:
     # create a new version metadata 
     ##########################################
 
-    previous_commit = contents['version_metadata'].get('commit','')
+    # previous_commit = contents['version_metadata'].get('commit','')
     short = f.replace('.json','')
 
     template =  {"version_metadata":OrderedDict({
@@ -150,7 +157,7 @@ for f in files:
             "version_tag": tag,
             "checksum": 'checksum',
             
-            f"{short}_modified":commit_dict['commit_date'],
+            f"{short}_modified":commit_dict['commit_date'].lstrip(),
             f"{short}_note":commit_dict['commit_message'],
 
             "commit":commit_dict['commit_sha'],
@@ -169,6 +176,8 @@ for f in files:
     contents = OrderedDict(contents)
     del contents['version_metadata']
     contents['version_metadata'] = template
+
+    contents = calculate_checksum(contents)
 
     print('writing',f)
 

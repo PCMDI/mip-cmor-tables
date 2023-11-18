@@ -3230,7 +3230,7 @@
         "version_metadata": {
             "version_tag": "v6.5.0.0",
             "checksum": "checksum",
-            "Auxillary_files/MIP_coordinate_modified": "  Thu Nov 16 14:33:58 2023 +0000",
+            "Auxillary_files/MIP_coordinate_modified": "Thu Nov 16 14:33:58 2023 +0000",
             "Auxillary_files/MIP_coordinate_note": "Relocating auxillary files following review",
             "commit": "68524fc1ae4fb2b971cf12f8f30e074709cfb1e9",
             "previous_commit": "",

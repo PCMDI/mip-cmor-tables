@@ -1496,7 +1496,7 @@
         "version_metadata": {
             "version_tag": "v6.5.0.0",
             "checksum": "checksum",
-            "MIP_institutions_modified": "  Fri Nov 17 10:31:25 2023 +0000",
+            "MIP_institutions_modified": "Fri Nov 17 10:31:25 2023 +0000",
             "MIP_institutions_note": "Update MIP_institutions.json (MOHC)",
             "commit": "17666e03c311e081aa454271b0125060fc15eb58",
             "previous_commit": "",

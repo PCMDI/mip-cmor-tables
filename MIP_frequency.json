@@ -21,7 +21,7 @@
         "version_metadata": {
             "version_tag": "v6.5.0.0",
             "checksum": "checksum",
-            "MIP_frequency_modified": "  Sun Oct 29 17:19:02 2023 +0000",
+            "MIP_frequency_modified": "Sun Oct 29 17:19:02 2023 +0000",
             "MIP_frequency_note": "Adding additional content to the mip tables.",
             "commit": "20a503af99a8717f112f1e6c8d5e43922a0abab5",
             "previous_commit": "",

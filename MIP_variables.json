@@ -68061,7 +68061,7 @@
         "version_metadata": {
             "version_tag": "v6.5.0.0",
             "checksum": "checksum",
-            "MIP_variables_modified": "  Mon Oct 30 17:21:11 2023 +0000",
+            "MIP_variables_modified": "Mon Oct 30 17:21:11 2023 +0000",
             "MIP_variables_note": "noaero",
             "commit": "ea2b3774bae454d79ca5faccd9769e1707043ebf",
             "previous_commit": "",

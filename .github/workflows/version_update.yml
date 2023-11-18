@@ -63,10 +63,14 @@ jobs:
       
           # Iterate over each JSON file and display 'version_metadata'
           for json_file in $json_files; do
-            metadata=$(git show HEAD:$json_file | jq -r '.version_metadata')
+            metadata=$(git show HEAD:$json_file | jq '.version_metadata')
+            if [ $? -eq 0 ] && [ "$metadata" != "null" ]; then
+                
             echo "File: $json_file, Version Metadata: $metadata"
+            fi
           done
         shell: bash
+        continue-on-error: true
 
 
       - name: Write Changes
