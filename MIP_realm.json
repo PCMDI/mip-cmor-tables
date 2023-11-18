@@ -1,24 +1,24 @@
 {
-    "realm": {
-        "aerosol": "Aerosol",
-        "atmos": "Atmosphere",
-        "atmosChem": "Atmospheric Chemistry",
-        "land": "Land Surface",
-        "landIce": "Land Ice",
-        "ocean": "Ocean",
-        "ocnBgchem": "Ocean Biogeochemistry",
-        "seaIce": "Sea Ice"
-    },
-    "version_metadata": {
-        "version_tag": "v6.5.0.0",
-        "checksum": "md5: 68f551334e2204b2f20feba43c9966ad",
-        "MIP_realm_modified": "Fri Nov 17 11:51:49 2023 +0000",
-        "MIP_realm_note": "Adding some additional tables from those used in the CVs (#29)",
-        "commit": "4f737d56b3c7413a4451fe206993bcf3295d7f55",
-        "previous_commit": "",
-        "author": "Daniel Ellis",
-        "institution_id": "CMIP-IPO",
-        "CV_collection_version": "6.5.0.0",
-        "specs_doc": "v6.5.0"
-    }
+  "realm": {
+    "aerosol": "Aerosol",
+    "atmos": "Atmosphere",
+    "atmosChem": "Atmospheric Chemistry",
+    "land": "Land Surface",
+    "landIce": "Land Ice",
+    "ocean": "Ocean",
+    "ocnBgchem": "Ocean Biogeochemistry",
+    "seaIce": "Sea Ice"
+  },
+  "version_metadata": {
+    "version_tag": "v6.5.0.0",
+    "checksum": "reset",
+    "MIP_realm_modified": "Fri Nov 17 11:51:49 2023 +0000",
+    "MIP_realm_note": "Adding some additional tables from those used in the CVs (#29)",
+    "commit": "4f737d56b3c7413a4451fe206993bcf3295d7f55",
+    "previous_commit": "",
+    "author": "Daniel Ellis",
+    "institution_id": "CMIP-IPO",
+    "CV_collection_version": "6.5.0.0",
+    "specs_doc": "v6.5.0"
+  }
 }
