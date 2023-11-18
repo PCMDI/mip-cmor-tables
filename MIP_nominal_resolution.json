@@ -20,15 +20,15 @@
         "version_metadata": {
             "version_tag": "v6.5.0.0",
             "checksum": "checksum",
-            "MIP_nominal_resolution_modified": "Fri Nov 17 11:51:49 2023 +0000",
-            "MIP_nominal_resolution_note": "Adding some additional tables from those used in the CVs (#29)",
-            "commit": "4f737d56b3c7413a4451fe206993bcf33295d7f55",
+            "MIP_nominal_resolution_modified": "Sat Nov 18 00:15:57 2023 +0000",
+            "MIP_nominal_resolution_note": "testing versioning update (changed checksum)",
+            "commit": "bec4b4e8b800890ffc128ad07565030016fb08de",
             "previous_commit": "",
             "author": "Daniel Ellis",
             "institution_id": "CMIP-IPO",
             "CV_collection_version": "6.5.0.0",
             "specs_doc": "v6.5.0"
         },
-        "checksum": "md5: d671e9ba2baeb8e0ec971282bb95298d"
+        "checksum": "md5: 3023883c356cb616783982fc5e540edd"
     }
 }
