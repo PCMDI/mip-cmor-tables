@@ -216,6 +216,7 @@
             "institution_id": "MOHC",
             "CV_collection_version": "6.5.0.0",
             "specs_doc": "v6.5.0"
-        }
+        },
+        "checksum": "md5: d669be526dba76a842732f8a44d0e2c2"
     }
 }
