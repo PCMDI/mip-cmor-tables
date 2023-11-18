@@ -56,21 +56,21 @@ jobs:
         # working-directory: .github/libs  # Adjusted the working directory
         shell: bash
 
-      - name: Display Version Metadata for JSON Files
-        run: |
-          # Get the list of JSON files in the repository
-          json_files=$(git ls-tree --name-only -r HEAD | grep '\.json$')
+    #   - name: Display Version Metadata for JSON Files
+    #     run: |
+    #       # Get the list of JSON files in the repository
+    #       json_files=$(git ls-tree --name-only -r HEAD | grep '\.json$')
       
-          # Iterate over each JSON file and display 'version_metadata'
-          for json_file in $json_files; do
-            metadata=$(git show HEAD:$json_file | jq '.version_metadata')
-            if [ $? -eq 0 ] && [ "$metadata" != "null" ]; then
+    #       # Iterate over each JSON file and display 'version_metadata'
+    #       for json_file in $json_files; do
+    #         metadata=$(git show HEAD:$json_file | jq '.version_metadata')
+    #         if [ $? -eq 0 ] && [ "$metadata" != "null" ]; then
                 
-            echo "File: $json_file, Version Metadata: $metadata"
-            fi
-          done
-        shell: bash
-        continue-on-error: true
+    #         echo "File: $json_file, Version Metadata: $metadata"
+    #         fi
+    #       done
+    #     shell: bash
+    #     continue-on-error: true
 
 
       - name: Write Changes
@@ -78,7 +78,7 @@ jobs:
           if [ -z "$ACT" ]; then
               timestamp=$(date -u +"%Y-%m-%d %H:%M UTC")
               git add -A 
-              git commit -m 'Automated Versioning Update $timestamp' 
+              git commit -m 'Automated Versioning Update ${{timestamp}}' 
               git push origin $(git rev-parse --abbrev-ref HEAD)
           else
             echo "Skipping this step in 'act' environment."
