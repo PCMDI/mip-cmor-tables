@@ -1,32 +1,32 @@
 {
-  "frequency": {
-    "1hr": "sampled hourly",
-    "1hrCM": "monthly-mean diurnal cycle resolving each day into 1-hour means",
-    "1hrPt": "sampled hourly, at specified time point within an hour",
-    "3hr": "3 hourly mean samples",
-    "3hrPt": "sampled 3 hourly, at specified time point within the time period",
-    "6hr": "6 hourly mean samples",
-    "6hrPt": "sampled 6 hourly, at specified time point within the time period",
-    "day": "daily mean samples",
-    "dec": "decadal mean samples",
-    "fx": "fixed (time invariant) field",
-    "mon": "monthly mean samples",
-    "monC": "monthly climatology computed from monthly mean samples",
-    "monPt": "sampled monthly, at specified time point within the time period",
-    "subhrPt": "sampled sub-hourly, at specified time point within an hour",
-    "yr": "annual mean samples",
-    "yrPt": "sampled yearly, at specified time point within the time period"
-  },
-  "version_metadata": {
-    "version_tag": "v6.5.0.0",
-    "checksum": "reset",
-    "MIP_frequency_modified": "Sun Oct 29 17:19:02 2023 +0000",
-    "MIP_frequency_note": "Adding additional content to the mip tables.",
-    "commit": "20a503af99a8717f112f1e6c8d5e43922a0abab5",
-    "previous_commit": "",
-    "author": "Daniel Ellis",
-    "institution_id": "CMIP-IPO",
-    "CV_collection_version": "6.5.0.0",
-    "specs_doc": "v6.5.0"
-  }
+    "frequency": {
+        "1hr": "sampled hourly",
+        "1hrCM": "monthly-mean diurnal cycle resolving each day into 1-hour means",
+        "1hrPt": "sampled hourly, at specified time point within an hour",
+        "3hr": "3 hourly mean samples",
+        "3hrPt": "sampled 3 hourly, at specified time point within the time period",
+        "6hr": "6 hourly mean samples",
+        "6hrPt": "sampled 6 hourly, at specified time point within the time period",
+        "day": "daily mean samples",
+        "dec": "decadal mean samples",
+        "fx": "fixed (time invariant) field",
+        "mon": "monthly mean samples",
+        "monC": "monthly climatology computed from monthly mean samples",
+        "monPt": "sampled monthly, at specified time point within the time period",
+        "subhrPt": "sampled sub-hourly, at specified time point within an hour",
+        "yr": "annual mean samples",
+        "yrPt": "sampled yearly, at specified time point within the time period"
+    },
+    "version_metadata": {
+        "version_tag": "v6.5.0.0",
+        "checksum": "md5: c45c3c6583a249d199db2f94bb819933",
+        "MIP_frequency_modified": "Sun Oct 29 17:19:02 2023 +0000",
+        "MIP_frequency_note": "Adding additional content to the mip tables.",
+        "commit": "20a503af99a8717f112f1e6c8d5e43922a0abab5",
+        "previous_commit": "",
+        "author": "Daniel Ellis",
+        "institution_id": "CMIP-IPO",
+        "CV_collection_version": "6.5.0.0",
+        "specs_doc": "v6.5.0"
+    }
 }
