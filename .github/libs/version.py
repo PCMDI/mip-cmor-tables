@@ -197,8 +197,9 @@ for f in files:
     timestamp_obj = datetime.strptime(commit_dict['commit_date'].lstrip(), "%a %b %d %H:%M:%S %Y %z")
     formatted_timestamp = timestamp_obj.strftime("%y/%m/%d %H:%M")
 
-    os.popen(f"git add {f}")
-    os.popen(f"git commit -m '{formatted_timestamp} - {commit_dict['commit_message'][:50]}")
+    os.popen(f"git add {f}").read()
+    os.popen(f"git commit -m '{formatted_timestamp} - {commit_dict['commit_message'][:50]}").read()
+    # os.popen(f"git push").read()
 
 
 # checksum. If checksum is not the same, update.
