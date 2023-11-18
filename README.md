@@ -1,4 +1,5 @@
 # mip-cmor-tables
+![Versioning](https://github.com/PCMDI/mip-cmor-tables/actions/workflows/version_update.yml/badge.svg) 
 
 JSON tables to create Model Intercomparison Project (MIP) datasets
 
