@@ -170,7 +170,7 @@ for f in files:
             "CV_collection_version":CVs['tag_name'],
             "specs_doc":"v6.5.0"
 
-        })} 
+        })} re
 
 
     contents = OrderedDict(contents)

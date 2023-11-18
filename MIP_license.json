@@ -1,30 +1,30 @@
 {
-    "license": {
-        "license": "CMIP model data produced by <Your Institution; see CMIP_institution_id.json> is licensed under a <Creative Commons; select and insert a license_id; see below> License (<insert the matching license_url; see below>). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.",
-        "license_options": {
-            "CC BY 4.0": {
-                "license_id": "Creative Commons Attribution 4.0 International",
-                "license_url": "https://creativecommons.org/licenses/by/4.0/"
-            },
-            "CC0 1.0": {
-                "license_id": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
-                "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
-            }
-        }
-    },
-    "version_metadata": {
-        "version_metadata": {
-            "version_tag": "v6.5.0.0",
-            "checksum": "checksum",
-            "MIP_license_modified": "Fri Nov 17 11:51:49 2023 +0000",
-            "MIP_license_note": "Adding some additional tables from those used in the CVs (#29)",
-            "commit": "4f737d56b3c7413a4451fe206993bcf3295d7f55",
-            "previous_commit": "",
-            "author": "Daniel Ellis",
-            "institution_id": "CMIP-IPO",
-            "CV_collection_version": "6.5.0.0",
-            "specs_doc": "v6.5.0"
-        },
-        "checksum": "md5: 1bebd03291c85008d7895ed526fd6465"
+  "license": {
+    "license": "CMIP model data produced by <Your Institution; see CMIP_institution_id.json> is licensed under a <Creative Commons; select and insert a license_id; see below> License (<insert the matching license_url; see below>). Consult https://pcmdi.llnl.gov/CMIP6/TermsOfUse for terms of use governing CMIP6 output, including citation requirements and proper acknowledgment. The data producers and data providers make no warranty, either express or implied, including, but not limited to, warranties of merchantability and fitness for a particular purpose. All liabilities arising from the supply of the information (including any liability arising in negligence) are excluded to the fullest extent permitted by law.",
+    "license_options": {
+      "CC BY 4.0": {
+        "license_id": "Creative Commons Attribution 4.0 International",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "CC0 1.0": {
+        "license_id": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+        "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }
     }
+  },
+  "version_metadata": {
+    "version_metadata": {
+      "version_tag": "v6.5.0.0",
+      "checksum": "checksum",
+      "MIP_license_modified": "Fri Nov 17 11:51:49 2023 +0000",
+      "MIP_license_note": "Adding some additional tables from those used in the CVs (#29)",
+      "commit": "4f737d56b3c7413a4451fe206993bcf3295d7f55",
+      "previous_commit": "",
+      "author": "Daniel Ellis",
+      "institution_id": "CMIP-IPO",
+      "CV_collection_version": "6.5.0.0",
+      "specs_doc": "v6.5.0"
+    },
+    "checksum": "reset"
+  }
 }
