@@ -198,7 +198,7 @@ for f in files:
     formatted_timestamp = timestamp_obj.strftime("%y/%m/%d %H:%M")
 
     os.popen(f"git add {f}").read()
-    os.popen(f"git commit -m '{formatted_timestamp} - {commit_dict['commit_message'][:50]}").read()
+    os.popen(f"git commit -m '{formatted_timestamp} - {commit_dict['commit_message'][:50]}'").read()
     # os.popen(f"git push").read()
 
 
