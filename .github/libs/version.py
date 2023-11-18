@@ -100,7 +100,9 @@ for f in files:
     commit_blocks = re.split(r'\n(?=commit\s)', full)
     for c in commit_blocks:
         if 'reset-checksum' in c:
-                continue
+            continue
+        if 'Automated Versioning Update' in c:
+            continue
         if skip not in c:
             if not commit_info:
                 commit_info = c
