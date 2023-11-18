@@ -102,7 +102,7 @@ for f in files:
         if skip not in c:
             if not commit_info:
                 commit_info = c
-            if commit_info and not previous_commit:
+            elif commit_info and not previous_commit:
                 previous_commit = re.search(r"commit (\S+)", c)
                 break
 
