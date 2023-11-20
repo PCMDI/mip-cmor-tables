@@ -1,10 +1,10 @@
 {
   "Header": {
-    "Conventions": "CF-1.7 CMIP-6.3",
+    "Conventions": "CF-1.7 CMIP-6.5",
     "approx_interval": 30.0,
     "checksum": "",
-    "cmor_version": "3.7.3",
-    "data_specs_version": "6.3.0.0",
+    "cmor_version": "3.8.0",
+    "data_specs_version": "6.5.0.0",
     "generic_levels": "",
     "int_missing_value": "-999",
     "missing_value": "1e20",
@@ -842,8 +842,8 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 6.11e-06,
-      "ok_min_mean_abs": 1.449e-06,
+      "ok_max_mean_abs": 0.00000611,
+      "ok_min_mean_abs": 0.000001449,
       "out_name": "prsn",
       "positive": "",
       "standard_name": "snowfall_flux",
@@ -1653,8 +1653,8 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 6.051e-05,
-      "ok_min_mean_abs": 1.831e-05,
+      "ok_max_mean_abs": 0.00006051,
+      "ok_min_mean_abs": 0.00001831,
       "out_name": "wfo",
       "positive": "",
       "standard_name": "water_flux_into_sea_water",
