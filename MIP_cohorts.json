@@ -64,14 +64,14 @@
     },
     "version_metadata": {
         "version_tag": "v6.5.0.0",
-        "checksum": "md5: 7c31f9192f63460aa23565412927f627",
+        "checksum": "md5: e7fd6288a9f02e7f5eaa188f04a3d057",
         "MIP_cohorts_modified": "Sun Oct 29 17:19:02 2023 +0000",
         "MIP_cohorts_note": "Adding additional content to the mip tables.",
         "commit": "20a503af99a8717f112f1e6c8d5e43922a0abab5",
         "previous_commit": "",
         "author": "Daniel Ellis",
         "institution_id": "CMIP-IPO",
-        "CV_collection_version": "6.5.0.0",
+        "CV_collection_version": "v6.5.0.0",
         "specs_doc": "v6.5.0"
     }
 }
