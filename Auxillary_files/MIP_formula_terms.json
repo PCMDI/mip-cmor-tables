@@ -203,14 +203,14 @@
     },
     "version_metadata": {
         "version_tag": "v6.5.0.0",
-        "checksum": "md5: afffb06729292e91bb8297d18fa05df0",
+        "checksum": "md5: d7b58d1f6dda898216daa30984181797",
         "Auxillary_files/MIP_formula_terms_modified": "Thu Nov 16 14:33:58 2023 +0000",
         "Auxillary_files/MIP_formula_terms_note": "Relocating auxillary files following review",
         "commit": "68524fc1ae4fb2b971cf12f8f30e074709cfb1e9",
         "previous_commit": "",
         "author": "Matthew Mizielinski",
         "institution_id": "MOHC",
-        "CV_collection_version": "6.5.0.0",
+        "CV_collection_version": "v6.5.0.0",
         "specs_doc": "v6.5.0"
     }
 }
