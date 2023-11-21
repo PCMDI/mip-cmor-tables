@@ -68059,14 +68059,14 @@
     },
     "version_metadata": {
         "version_tag": "v6.5.0.0",
-        "checksum": "md5: b252c5ebf49ede628143a779c248ff58",
+        "checksum": "md5: d6159fb68f511e0aed11919dbabb8e6c",
         "MIP_variables_modified": "Mon Oct 30 17:21:11 2023 +0000",
         "MIP_variables_note": "noaero",
         "commit": "ea2b3774bae454d79ca5faccd9769e1707043ebf",
         "previous_commit": "",
         "author": "Daniel Ellis",
         "institution_id": "CMIP-IPO",
-        "CV_collection_version": "6.5.0.0",
+        "CV_collection_version": "v6.5.0.0",
         "specs_doc": "v6.5.0"
     }
 }
