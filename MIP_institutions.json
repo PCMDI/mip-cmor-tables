@@ -1494,14 +1494,14 @@
     },
     "version_metadata": {
         "version_tag": "v6.5.0.0",
-        "checksum": "md5: 7b76a19a0197ac3c862fb4963eda1ba6",
+        "checksum": "md5: 4b54424828275830581ad2dc38128257",
         "MIP_institutions_modified": "Fri Nov 17 10:31:25 2023 +0000",
         "MIP_institutions_note": "Update MIP_institutions.json (MOHC)",
         "commit": "17666e03c311e081aa454271b0125060fc15eb58",
         "previous_commit": "",
         "author": "Matthew Mizielinski",
         "institution_id": "MOHC",
-        "CV_collection_version": "6.5.0.0",
+        "CV_collection_version": "v6.5.0.0",
         "specs_doc": "v6.5.0"
     }
 }
