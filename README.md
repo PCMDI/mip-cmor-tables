@@ -3,6 +3,7 @@
 
 JSON tables to create Model Intercomparison Project (MIP) datasets
 
+A quick intro on how to make use of these tables is available on the [Wiki](../../wiki).
 
 ## Contributors
 
