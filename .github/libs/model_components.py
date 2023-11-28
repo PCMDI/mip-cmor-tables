@@ -2,23 +2,14 @@ import urllib.request
 import json
 from collections import OrderedDict
 import sys,os
-
+from _functions import sort_dict_recursive,airtable_request
+    
 base_id,table_name,view_name = 'appaZflpqbFjA6pwV/tblD5m3Bxsph5VjZ0/viwxN1LyTlEA2TZ5W'.split('/')
 
 # read from action
 api_key = sys.argv[1]  # Replace with your actual Airtable API key
 
-url = f'https://api.airtable.com/v0/{base_id}/{table_name}?view={view_name}'
-
-# Set up headers with your Airtable API key
-headers = {
-    'Authorization': f'Bearer {api_key}',
-    'Content-Type': 'application/json',
-}
-
-# Create a request with headers
-request = urllib.request.Request(url, headers=headers)
-
+request = airtable_request(base_id,table_name,view_name,api_key)
 
 model_components = {}
 
@@ -48,14 +39,6 @@ with urllib.request.urlopen(request) as response:
 
 
 
-def sort_dict_recursive(input_dict):
-    if isinstance(input_dict, dict):
-        return OrderedDict((key, sort_dict_recursive(value)) for key, value in sorted(input_dict.items()))
-    elif isinstance(input_dict, list):
-        return [sort_dict_recursive(item) for item in input_dict]
-    else:
-        return input_dict
-    
 
 model_components = sort_dict_recursive(model_components)
 
@@ -65,12 +48,13 @@ if __name__ == '__main__':
 
     # Write the dictionary to the JSON file
     with open(file_path, 'w') as json_file:
-        json.dump(model_components, json_file, indent=4)
+        json.dump({'model_components':model_components}, json_file, indent=4)
 
-import version
 
-tag = os.environ['GH_TOKEN']
-new_contents = version.process_files([file_path],tag=tag,write=False)
+    import version
 
-with open(file_path, 'w') as json_file:
-    json.dump(new_contents, json_file, indent=4)
+    tag = os.environ['GH_TOKEN']
+    new_contents = version.process_files([file_path],tag=tag,write=False)
+
+    with open(file_path, 'w') as json_file:
+        json.dump(new_contents, json_file, indent=4)
