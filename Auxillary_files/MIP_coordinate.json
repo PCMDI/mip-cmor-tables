@@ -3224,11 +3224,11 @@
         }
     },
     "version_metadata": {
-        "version_tag": "ghs_0vXw3OiQcoAHsp7hzcmbwAQR1PpVOP4epmuI",
-        "checksum": "md5: eae8a6cac780af039d4cd02bcd388be5",
-        "Auxillary_files/MIP_coordinate_modified": "Tue Nov 28 21:03:47 2023 +0000",
-        "Auxillary_files/MIP_coordinate_note": "23/11/16 14:33 - Relocating auxillary files following review",
-        "commit": "8583d1f80ce0fa124a04dc9a18d5f3de09126d1a",
+        "version_tag": "ghs_Bew7zRWsZtQEnk6FTrjseLgu5Lecj00l5dIK",
+        "checksum": "md5: 4d4f0dd51cea98fba5132d802d83943d",
+        "Auxillary_files/MIP_coordinate_modified": "Tue Nov 28 21:14:07 2023 +0000",
+        "Auxillary_files/MIP_coordinate_note": "Updating versioning and model_components scripts to process files individually.",
+        "commit": "50ee06a3b58fb2b064485d454203766327f4d770",
         "previous_commit": "",
         "author": "Daniel Ellis",
         "institution_id": "CMIP-IPO",
