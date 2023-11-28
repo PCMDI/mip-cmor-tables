@@ -20,7 +20,7 @@ headers = {
 request = urllib.request.Request(url, headers=headers)
 
 
-models = {}
+model_components = {}
 
 # Make the API request to get data in JSON format
 with urllib.request.urlopen(request) as response:
@@ -33,13 +33,13 @@ with urllib.request.urlopen(request) as response:
             realm = fields['realm']
             description = fields['description']
             resolution = fields['resolution']+' km'
-            if realm not in models: 
-                models[realm] = {}
-            if description not in models[realm]:
-                models[realm][description] = {'description' : description, 'native_nominal_resolutions':[]}
+            if realm not in model_components: 
+                model_components[realm] = {}
+            if description not in model_components[realm]:
+                model_components[realm][description] = {'description' : description, 'native_nominal_resolutions':[]}
 
-            if resolution not in models[realm][description]['native_nominal_resolutions']:
-                models[realm][description]['native_nominal_resolutions'].append(resolution)
+            if resolution not in model_components[realm][description]['native_nominal_resolutions']:
+                model_components[realm][description]['native_nominal_resolutions'].append(resolution)
            
 
 
@@ -57,15 +57,15 @@ def sort_dict_recursive(input_dict):
         return input_dict
     
 
-models = sort_dict_recursive(models)
+model_components = sort_dict_recursive(model_components)
 
+if __name__ == '__main__':
 
+    file_path = 'Auxillary_files/MIP_model_components.json'
 
-file_path = 'Auxillary_files/MIP_model_components.json'
-
-# Write the dictionary to the JSON file
-with open(file_path, 'w') as json_file:
-    json.dump(models, json_file, indent=4)
+    # Write the dictionary to the JSON file
+    with open(file_path, 'w') as json_file:
+        json.dump(model_components, json_file, indent=4)
 
 import version
 
