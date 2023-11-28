@@ -147,14 +147,14 @@
         }
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.0",
-        "checksum": "md5: 4eea8dcca0b2c99a68a5f0e98ea93488",
-        "Auxillary_files/MIP_grids_modified": "Thu Nov 16 14:33:58 2023 +0000",
-        "Auxillary_files/MIP_grids_note": "Relocating auxillary files following review",
-        "commit": "68524fc1ae4fb2b971cf12f8f30e074709cfb1e9",
+        "version_tag": "ghs_0vXw3OiQcoAHsp7hzcmbwAQR1PpVOP4epmuI",
+        "checksum": "md5: 413072947654d3a0fbba645b214b792b",
+        "Auxillary_files/MIP_grids_modified": "Tue Nov 28 21:03:47 2023 +0000",
+        "Auxillary_files/MIP_grids_note": "23/11/16 14:33 - Relocating auxillary files following review",
+        "commit": "06acc091cfe2784c29efd7073888102e2ee92f69",
         "previous_commit": "",
-        "author": "Matthew Mizielinski",
-        "institution_id": "MOHC",
+        "author": "Daniel Ellis",
+        "institution_id": "CMIP-IPO",
         "CV_collection_version": "v6.5.0.0",
         "specs_doc": "v6.5.0"
     }

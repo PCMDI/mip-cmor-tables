@@ -17,11 +17,11 @@
         "5000 km"
     ],
     "version_metadata": {
-        "version_tag": "v6.5.0.0",
-        "checksum": "md5: e7d1e6e4cf87c2dc5896f2fb8379fa1a",
-        "MIP_nominal_resolution_modified": "Fri Nov 17 11:51:49 2023 +0000",
-        "MIP_nominal_resolution_note": "Adding some additional tables from those used in the CVs (#29)",
-        "commit": "4f737d56b3c7413a4451fe206993bcf3295d7f55",
+        "version_tag": "ghs_0vXw3OiQcoAHsp7hzcmbwAQR1PpVOP4epmuI",
+        "checksum": "md5: dfc90a56a914cc742814ad29b75baade",
+        "MIP_nominal_resolution_modified": "Tue Nov 28 21:03:45 2023 +0000",
+        "MIP_nominal_resolution_note": "23/11/28 21:02 - 23/11/28 21:01 - 23/11/17 11:51 - Adding some addi",
+        "commit": "892b00eaaa23d4488f52d13346a26ed1e11a273f",
         "previous_commit": "",
         "author": "Daniel Ellis",
         "institution_id": "CMIP-IPO",

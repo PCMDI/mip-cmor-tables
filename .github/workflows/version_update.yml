@@ -39,10 +39,10 @@ jobs:
       - name: Set up Git
         run: |
           git config user.email "actions@wcrp-cmip.org"
-          git config user.name "CMIP-IPO: Automated GitHub Action"
+          git config user.name "CMIP-IPO GitHub Automation"
           git config credential.helper store
           git config --global user.email "actions@wcrp-cmip.org"
-          git config --global user.name "CMIP-IPO GitHub Action"
+          git config --global user.name "CMIP-IPO GitHub Automation"
           git config --global push.default current
           echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
         shell: bash

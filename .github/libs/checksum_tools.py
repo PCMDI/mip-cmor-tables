@@ -56,8 +56,10 @@ def validate_checksum(dictionary, checksum_location='version_metadata',error = F
     if (error) & ('checksum' not in dictionary[checksum_location]):
         raise KeyError('No checksum to validate')
     dictionary_copy = deepcopy(dictionary)
+
     try:del dictionary_copy[checksum_location]['checksum']
     except:...
+    
     checksum = _checksum(dictionary_copy)
     if dictionary[checksum_location].get('checksum','no_checksum') != checksum:
         if error:

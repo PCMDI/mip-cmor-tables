@@ -13,11 +13,11 @@
         }
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.0",
-        "checksum": "md5: 573bd13f10151b963087d4c378494f8a",
-        "MIP_license_modified": "Fri Nov 17 11:51:49 2023 +0000",
-        "MIP_license_note": "Adding some additional tables from those used in the CVs (#29)",
-        "commit": "4f737d56b3c7413a4451fe206993bcf3295d7f55",
+        "version_tag": "ghs_0vXw3OiQcoAHsp7hzcmbwAQR1PpVOP4epmuI",
+        "checksum": "md5: af8b38bec0d6c39741dc3e5501d715c7",
+        "MIP_license_modified": "Tue Nov 28 21:03:46 2023 +0000",
+        "MIP_license_note": "23/11/28 21:02 - 23/11/28 21:01 - 23/11/17 11:51 - Adding some addi",
+        "commit": "2008aa16fa59fcaf5a0a8960bd425befeebd58fb",
         "previous_commit": "",
         "author": "Daniel Ellis",
         "institution_id": "CMIP-IPO",

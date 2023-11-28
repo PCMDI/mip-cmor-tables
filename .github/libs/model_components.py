@@ -1,7 +1,7 @@
 import urllib.request
 import json
 from collections import OrderedDict
-import sys
+import sys,os
 
 base_id,table_name,view_name = 'appaZflpqbFjA6pwV/tblD5m3Bxsph5VjZ0/viwxN1LyTlEA2TZ5W'.split('/')
 
@@ -59,8 +59,18 @@ def sort_dict_recursive(input_dict):
 
 models = sort_dict_recursive(models)
 
-file_path = 'output.json'
+
+
+file_path = 'Auxillary_files/MIP_model_components.json'
 
 # Write the dictionary to the JSON file
-with open('Auxillary_files/MIP_model_components.json', 'w') as json_file:
-    json.dump(models, json_file, indent=2)
+with open(file_path, 'w') as json_file:
+    json.dump(models, json_file, indent=4)
+
+import version
+
+tag = os.environ['GH_TOKEN']
+new_contents = version.process_files([file_path],tag=tag,write=False)
+
+with open(file_path, 'w') as json_file:
+    json.dump(new_contents, json_file, indent=4)

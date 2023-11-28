@@ -47,11 +47,11 @@
         "grz": "regridded zonal mean data reported on the data provider's preferred latitude target grid"
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.0",
-        "checksum": "md5: db0a3a75ed5db79845ebc49a64001608",
-        "MIP_grid_label_modified": "Fri Nov 17 11:51:49 2023 +0000",
-        "MIP_grid_label_note": "Adding some additional tables from those used in the CVs (#29)",
-        "commit": "4f737d56b3c7413a4451fe206993bcf3295d7f55",
+        "version_tag": "ghs_0vXw3OiQcoAHsp7hzcmbwAQR1PpVOP4epmuI",
+        "checksum": "md5: 3a47fad3486edfd28e9ea37a5fcd47f7",
+        "MIP_grid_label_modified": "Tue Nov 28 21:03:46 2023 +0000",
+        "MIP_grid_label_note": "23/11/28 21:02 - 23/11/28 21:01 - 23/11/17 11:51 - Adding some addi",
+        "commit": "f70c6d47af74eb55b1bc2ef9110bba3cf3af89e0",
         "previous_commit": "",
         "author": "Daniel Ellis",
         "institution_id": "CMIP-IPO",

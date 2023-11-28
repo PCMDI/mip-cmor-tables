@@ -12,11 +12,11 @@
         "SLAB": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system"
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.0",
-        "checksum": "md5: f638ee9cf0df72764d2fd3449a1f938b",
-        "MIP_source_type_modified": "Fri Nov 17 11:51:49 2023 +0000",
-        "MIP_source_type_note": "Adding some additional tables from those used in the CVs (#29)",
-        "commit": "4f737d56b3c7413a4451fe206993bcf3295d7f55",
+        "version_tag": "ghs_0vXw3OiQcoAHsp7hzcmbwAQR1PpVOP4epmuI",
+        "checksum": "md5: 8f8fcfbaefb15cba3c7035f19ec425ec",
+        "MIP_source_type_modified": "Tue Nov 28 21:03:46 2023 +0000",
+        "MIP_source_type_note": "23/11/28 21:02 - 23/11/28 21:01 - 23/11/17 11:51 - Adding some addi",
+        "commit": "b3b99464321e92772c2af046e09fffc6d9dbe626",
         "previous_commit": "",
         "author": "Daniel Ellis",
         "institution_id": "CMIP-IPO",

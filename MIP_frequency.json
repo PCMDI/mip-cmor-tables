@@ -18,11 +18,11 @@
         "yrPt": "sampled yearly, at specified time point within the time period"
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.0",
-        "checksum": "md5: c6f7c2e274126c8097a4e2fb7a4e4783",
-        "MIP_frequency_modified": "Sun Oct 29 17:19:02 2023 +0000",
-        "MIP_frequency_note": "Adding additional content to the mip tables.",
-        "commit": "20a503af99a8717f112f1e6c8d5e43922a0abab5",
+        "version_tag": "ghs_0vXw3OiQcoAHsp7hzcmbwAQR1PpVOP4epmuI",
+        "checksum": "md5: 8789245e8c5a89e4d98baab49315861f",
+        "MIP_frequency_modified": "Tue Nov 28 21:03:46 2023 +0000",
+        "MIP_frequency_note": "23/11/28 21:02 - 23/11/28 21:01 - 23/10/29 17:19 - Adding additiona",
+        "commit": "e7acd46951b411d5d087b5fc18c9e8e00b8a819b",
         "previous_commit": "",
         "author": "Daniel Ellis",
         "institution_id": "CMIP-IPO",

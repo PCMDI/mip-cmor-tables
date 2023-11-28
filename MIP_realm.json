@@ -10,11 +10,11 @@
         "seaIce": "Sea Ice"
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.0",
-        "checksum": "md5: d054e91e58e13859b20711265562cefd",
-        "MIP_realm_modified": "Fri Nov 17 11:51:49 2023 +0000",
-        "MIP_realm_note": "Adding some additional tables from those used in the CVs (#29)",
-        "commit": "4f737d56b3c7413a4451fe206993bcf3295d7f55",
+        "version_tag": "ghs_0vXw3OiQcoAHsp7hzcmbwAQR1PpVOP4epmuI",
+        "checksum": "md5: 428e0e0754b939e071ea1de22802e2e6",
+        "MIP_realm_modified": "Tue Nov 28 21:03:46 2023 +0000",
+        "MIP_realm_note": "23/11/28 21:02 - 23/11/28 21:01 - 23/11/17 11:51 - Adding some addi",
+        "commit": "7661fcc74d336be7ce145a27eecffb7d40e6f6b9",
         "previous_commit": "",
         "author": "Daniel Ellis",
         "institution_id": "CMIP-IPO",

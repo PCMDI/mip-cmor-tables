@@ -1493,14 +1493,14 @@
         "consortiums": []
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.0",
-        "checksum": "md5: 4b54424828275830581ad2dc38128257",
-        "MIP_institutions_modified": "Fri Nov 17 10:31:25 2023 +0000",
-        "MIP_institutions_note": "Update MIP_institutions.json (MOHC)",
-        "commit": "17666e03c311e081aa454271b0125060fc15eb58",
+        "version_tag": "ghs_0vXw3OiQcoAHsp7hzcmbwAQR1PpVOP4epmuI",
+        "checksum": "md5: 3d982d19225d8e94242dad80d6fd2954",
+        "MIP_institutions_modified": "Tue Nov 28 21:03:46 2023 +0000",
+        "MIP_institutions_note": "23/11/28 21:02 - 23/11/28 21:01 - 23/11/17 10:31 - Update MIP_insti",
+        "commit": "6c5398b08d256edbad4bb1dea656e769764ee098",
         "previous_commit": "",
-        "author": "Matthew Mizielinski",
-        "institution_id": "MOHC",
+        "author": "Daniel Ellis",
+        "institution_id": "CMIP-IPO",
         "CV_collection_version": "v6.5.0.0",
         "specs_doc": "v6.5.0"
     }
