@@ -13,6 +13,12 @@
                     "250 km"
                 ]
             },
+            "SPRINTARS6.0": {
+                "description": "SPRINTARS6.0",
+                "native_nominal_resolutions": [
+                    "250 km"
+                ]
+            },
             "UKCA-GLOMAP-mode": {
                 "description": "UKCA-GLOMAP-mode",
                 "native_nominal_resolutions": [
@@ -138,8 +144,8 @@
         }
     },
     "version_metadata": {
-        "version_tag": "ghs_q0dqENeoSNnnyuVyr9yShKwuBvRJSB35o3lY",
-        "checksum": "md5: 3a5ba774b8a47030dd3a1c3f205f18d9",
+        "version_tag": "ghs_ZXXuFBO96szo1RqgZ348h369UXALFq15JtZ7",
+        "checksum": "md5: a587a8eda50a8eb66020cd9af54070f4",
         "Auxillary_files/MIP_model_components_modified": "new file",
         "Auxillary_files/MIP_model_components_note": "no previous commit",
         "commit": "none",
