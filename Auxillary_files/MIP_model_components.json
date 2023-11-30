@@ -76,7 +76,8 @@
             "JSBACH3.20": {
                 "description": "JSBACH3.20",
                 "native_nominal_resolutions": [
-                    "100 km"
+                    "100 km",
+                    "250 km"
                 ]
             },
             "JULES-HadGEM3-GL7.1": {
@@ -174,8 +175,8 @@
         }
     },
     "version_metadata": {
-        "version_tag": "ghs_Hz0hk0IAHnbeyuoeI3xcu3V5cKJqGv3HC06W",
-        "checksum": "md5: 25e024b9acd957cb9a46e825c9bec01d",
+        "version_tag": "ghs_sxX4ZCMHru09homeAkV4Drx9OGb9in3JGnPa",
+        "checksum": "md5: a18b6c26a383d8b74eb04722e557bcf8",
         "Auxillary_files/MIP_model_components_modified": "new file",
         "Auxillary_files/MIP_model_components_note": "no previous commit",
         "commit": "none",
