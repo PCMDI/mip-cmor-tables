@@ -144,7 +144,8 @@
             "HAMOCC6": {
                 "description": "HAMOCC6",
                 "native_nominal_resolutions": [
-                    "50 km"
+                    "50 km",
+                    "250 km"
                 ]
             }
         },
@@ -176,8 +177,8 @@
         }
     },
     "version_metadata": {
-        "version_tag": "ghs_0Vw2NFX3VLd5GEDurNZQZeC2GnrZSi3RxOYV",
-        "checksum": "md5: 1449b2c7e0c9025c4b4f67230c44b124",
+        "version_tag": "ghs_RePo7U4Wqb9ozvJgjk4yj3o4DmQod80bj8U6",
+        "checksum": "md5: 6d113b9617c9415bcde4ccfff513126d",
         "Auxillary_files/MIP_model_components_modified": "new file",
         "Auxillary_files/MIP_model_components_note": "no previous commit",
         "commit": "none",
