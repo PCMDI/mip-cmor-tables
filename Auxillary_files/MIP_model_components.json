@@ -78,6 +78,12 @@
                 "native_nominal_resolutions": [
                     "250 km"
                 ]
+            },
+            "MATSIRO6.0": {
+                "description": "MATSIRO6.0",
+                "native_nominal_resolutions": [
+                    "250 km"
+                ]
             }
         },
         "landIce": {
@@ -156,8 +162,8 @@
         }
     },
     "version_metadata": {
-        "version_tag": "ghs_lUKBuxJiSuV5lONagn0vww8dUYCPIS3r0aBZ",
-        "checksum": "md5: ff82a83a603cb5ba13ea0af41e60ac53",
+        "version_tag": "ghs_JfuzV9GRv8dXhVQmO4YTOT4tUHPIm43Sr3hd",
+        "checksum": "md5: 7645ca68a6865728e90e35e04622830a",
         "Auxillary_files/MIP_model_components_modified": "new file",
         "Auxillary_files/MIP_model_components_note": "no previous commit",
         "commit": "none",
