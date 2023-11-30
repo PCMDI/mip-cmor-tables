@@ -95,6 +95,12 @@
             }
         },
         "ocean": {
+            "COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)": {
+                "description": "COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)",
+                "native_nominal_resolutions": [
+                    "100 km"
+                ]
+            },
             "MICOM (1 degree resolution; 360 x 384; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])": {
                 "description": "MICOM (1 degree resolution; 360 x 384; 70 levels; top grid cell minimum 0-2.5 m [native model uses hybrid density and generic upper-layer coordinate interpolated to z-level for contributed data])",
                 "native_nominal_resolutions": [
@@ -150,8 +156,8 @@
         }
     },
     "version_metadata": {
-        "version_tag": "ghs_3OkXAcXccrWpFlDnkZNwbQeCdpwe6u1aNXon",
-        "checksum": "md5: 93321437f088bab55033e396d1f6dfc0",
+        "version_tag": "ghs_lUKBuxJiSuV5lONagn0vww8dUYCPIS3r0aBZ",
+        "checksum": "md5: ff82a83a603cb5ba13ea0af41e60ac53",
         "Auxillary_files/MIP_model_components_modified": "new file",
         "Auxillary_files/MIP_model_components_note": "no previous commit",
         "commit": "none",
