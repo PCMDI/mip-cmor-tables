@@ -153,6 +153,12 @@
                     "100 km"
                 ]
             },
+            "COCO4.9": {
+                "description": "COCO4.9",
+                "native_nominal_resolutions": [
+                    "100 km"
+                ]
+            },
             "unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)": {
                 "description": "unnamed (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)",
                 "native_nominal_resolutions": [
@@ -162,8 +168,8 @@
         }
     },
     "version_metadata": {
-        "version_tag": "ghs_JfuzV9GRv8dXhVQmO4YTOT4tUHPIm43Sr3hd",
-        "checksum": "md5: 7645ca68a6865728e90e35e04622830a",
+        "version_tag": "ghs_fN4vKpdQ0spyaOKkjXX2k1jYJWr32N2csg73",
+        "checksum": "md5: c28a75857fbcd9aa8e7aa93fbb3d8284",
         "Auxillary_files/MIP_model_components_modified": "new file",
         "Auxillary_files/MIP_model_components_note": "no previous commit",
         "commit": "none",
