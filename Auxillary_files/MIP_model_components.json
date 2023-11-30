@@ -33,6 +33,12 @@
                     "250 km"
                 ]
             },
+            "CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)": {
+                "description": "CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)",
+                "native_nominal_resolutions": [
+                    "250 km"
+                ]
+            },
             "ECHAM6.3 (spectral T127; 384 x 192 longitude/latitude; 95 levels; top level 0.01 hPa)": {
                 "description": "ECHAM6.3 (spectral T127; 384 x 192 longitude/latitude; 95 levels; top level 0.01 hPa)",
                 "native_nominal_resolutions": [
@@ -144,8 +150,8 @@
         }
     },
     "version_metadata": {
-        "version_tag": "ghs_ZXXuFBO96szo1RqgZ348h369UXALFq15JtZ7",
-        "checksum": "md5: a587a8eda50a8eb66020cd9af54070f4",
+        "version_tag": "ghs_3OkXAcXccrWpFlDnkZNwbQeCdpwe6u1aNXon",
+        "checksum": "md5: 93321437f088bab55033e396d1f6dfc0",
         "Auxillary_files/MIP_model_components_modified": "new file",
         "Auxillary_files/MIP_model_components_note": "no previous commit",
         "commit": "none",
