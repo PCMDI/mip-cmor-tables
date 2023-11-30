@@ -4,7 +4,8 @@
             ", prescribed MACv2-SP": {
                 "description": ", prescribed MACv2-SP",
                 "native_nominal_resolutions": [
-                    "100 km"
+                    "100 km",
+                    "250 km"
                 ]
             },
             "OsloAero": {
@@ -175,8 +176,8 @@
         }
     },
     "version_metadata": {
-        "version_tag": "ghs_sxX4ZCMHru09homeAkV4Drx9OGb9in3JGnPa",
-        "checksum": "md5: a18b6c26a383d8b74eb04722e557bcf8",
+        "version_tag": "ghs_0Vw2NFX3VLd5GEDurNZQZeC2GnrZSi3RxOYV",
+        "checksum": "md5: 1449b2c7e0c9025c4b4f67230c44b124",
         "Auxillary_files/MIP_model_components_modified": "new file",
         "Auxillary_files/MIP_model_components_note": "no previous commit",
         "commit": "none",
