@@ -45,6 +45,12 @@
                     "100 km"
                 ]
             },
+            "ECHAM6.3 (spectral T63; 192 x 96 longitude/latitude; 47 levels; top level 0.01 hPa)": {
+                "description": "ECHAM6.3 (spectral T63; 192 x 96 longitude/latitude; 47 levels; top level 0.01 hPa)",
+                "native_nominal_resolutions": [
+                    "250 km"
+                ]
+            },
             "MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85)": {
                 "description": "MetUM-HadGEM3-GA7.1 (N96; 192 x 144 longitude/latitude; 85 levels; top level 85)",
                 "native_nominal_resolutions": [
@@ -168,8 +174,8 @@
         }
     },
     "version_metadata": {
-        "version_tag": "ghs_fN4vKpdQ0spyaOKkjXX2k1jYJWr32N2csg73",
-        "checksum": "md5: c28a75857fbcd9aa8e7aa93fbb3d8284",
+        "version_tag": "ghs_Hz0hk0IAHnbeyuoeI3xcu3V5cKJqGv3HC06W",
+        "checksum": "md5: 25e024b9acd957cb9a46e825c9bec01d",
         "Auxillary_files/MIP_model_components_modified": "new file",
         "Auxillary_files/MIP_model_components_note": "no previous commit",
         "commit": "none",
