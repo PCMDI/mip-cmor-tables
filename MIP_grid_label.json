@@ -47,8 +47,8 @@
         "grz": "regridded zonal mean data reported on the data provider's preferred latitude target grid"
     },
     "version_metadata": {
-        "version_tag": "ghs_8hrOXyH6IqmM5SE8fOwURCdflz7y080RpBoS",
-        "checksum": "md5: e6cb5dd072f80db5dd51bc975d3edd24",
+        "version_tag": "ghs_JFJ8xVwrAFDV3413yPJLCjcXAr75ih3ksse8",
+        "checksum": "md5: d339aaf502a3f7e5afd84ecab44af08f",
         "MIP_grid_label_modified": "Tue Nov 28 21:14:07 2023 +0000",
         "MIP_grid_label_note": "Updating versioning and model_components scripts to process files individually.",
         "commit": "50ee06a3b58fb2b064485d454203766327f4d770",
