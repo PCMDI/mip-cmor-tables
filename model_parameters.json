@@ -1,0 +1,47 @@
+{
+    "realm": {
+        "aerosol": "Aerosol",
+        "atmos": "Atmosphere",
+        "atmosChem": "Atmospheric Chemistry",
+        "land": "Land Surface",
+        "landIce": "Land Ice",
+        "ocean": "Ocean",
+        "ocnBgchem": "Ocean Biogeochemistry",
+        "seaIce": "Sea Ice"
+    },
+    "source_type": {
+        "AER": "aerosol treatment in an atmospheric model where concentrations are calculated based on emissions, transformation, and removal processes (rather than being prescribed or omitted entirely)",
+        "AGCM": "atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface",
+        "AOGCM": "coupled atmosphere-ocean global climate model, additionally including explicit representation of at least the land and sea ice",
+        "BGC": "biogeochemistry model component that at the very least accounts for carbon reservoirs and fluxes in the atmosphere, terrestrial biosphere, and ocean",
+        "CHEM": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them",
+        "ISM": "ice-sheet model that includes ice-flow",
+        "LAND": "land model run uncoupled from the atmosphere",
+        "OGCM": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
+        "RAD": "rad iation component of an atmospheric model run 'offline'",
+        "SLAB": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system"
+    },
+    "citation": {
+        "article": "An article from a journal, magazine, newspaper, or periodical.",
+        "book": "A book where the publisher is clearly identifiable.",
+        "booklet": "A printed work that is bound, but does not have a clearly identifiable publisher or supporting institution.",
+        "inbook": "A section, such as a chapter, or a page range within a book.",
+        "inproceedings": "A paper that has been published in conference proceedings.",
+        "manual": "A technical manual for a machine software such as would come with a purchase to explain operation to the new owner.",
+        "masterthesis": "A thesis written for the Masters level degree.",
+        "misc": "Used if 'none' of the other entry types quite match the source. Frequently used to cite web pages, but can be anything from lecture slides to personal notes.",
+        "phdthesis": "A thesis written for the PhD level degree.",
+        "proceedings": "A conference proceeding.",
+        "techreport": "An institutionally published report such as a report from a school, a government organization, an organization, or a company. This entry type is also frequently used for white papers and working papers.",
+        "unpublished": "A document that has not been officially published such as a paper draft or manuscript in preparation."
+    },
+    "calendar": {
+        "standard": "A mixed Gregorian/Julian calendar which is Gregorian after 1582-10-15, and Julian before.",
+        "proleptic_gregorian": "A calendar with the Gregorian rules for leap-years extended to dates before 1582-10-15.",
+        "julian": "The Julian calendar, in which a year is a leap year if it is divisible by 4, even if it is also divisible by 100.",
+        "360_day": "A calendar in which all years are 360 days, and divided into 30 day months.",
+        "365_day": "A calendar with no leap years, i.e. all years are 365 days long.",
+        "366_day": "A calendar in which every year is a leap year, i.e. all years are 366 days long.",
+        "none": "No calendar."
+    }
+}
