@@ -1,0 +1,91 @@
+{
+    "grid": {
+        "horizontal_grid_discretization": {
+            "regular_lat_lon_grid": "A rectilinear latitude-longitude grid with evenly spaced latitude points and evenly spaced longitude points.",
+            "regular_gaussian_grid": "A Gaussian grid for which the number of longitudinal points is constant for each latitude.",
+            "reduced_gaussian_grid": "A Gaussian grid for which the number of longitudinal points is reduced as the poles are approached.",
+            "spectral_gaussian_grid": "A grid based on spherical harmonic expansion, whose truncation is related to a Gaussian grid.",
+            "rotated_pole_grid": "A regular latitude-longitude grid with rotated to define a different north pole location.",
+            "stretched_grid": "A grid with higher resolution concentrated over an area of interest, at the expense of lower resolution elsewhere.",
+            "displaced_pole_grid": "An ocean grid whose poles are not antipodean, typically with the northern pole displaced to lie over land.",
+            "tripolar_grid": "A global curvilinear ocean grid with a southern pole and two northern poles all placed over land.",
+            "cubed_sphere_grid": "The spherical surface as six coupled square regions.",
+            "icosahedral_geodesic_grid": "A grid that at uses triangular tiles based on the subdivision of an icosahedron.",
+            "yin_yang_grid": "Two overlapping grid patches.",
+            "unstructured_triangular_grid": "An unstructured mesh consisting solely of triangles.",
+            "unstructured_polygonal_grid": "An unstructured mesh consisting of arbitrary polygons.",
+            "plane_projection_grid": "Any transformation employed to represent the spherical surface of the globe on a plane",
+            "none": "There is no horizontal discretization."
+        },
+        "horizontal_grid_mapping_names_crs": {
+            "albers_conical_equal_area": "none",
+            "azimuthal_equidistant": "none",
+            "geostationary": "none",
+            "lambert_azimuthal_equal_area": "none",
+            "lambert_conformal_conic": "none",
+            "lambert_cylindrical_equal_area": "none",
+            "latitude_longitude †": "none",
+            "orthographic": "none",
+            "polar_stereographic": "none",
+            "rotated_latitude_longitude †": "none",
+            "sinusoidal": "none",
+            "stereographic": "none",
+            "transverse_mercator": "none",
+            "vertical_perspective": "none"
+        },
+        "horizontal_grid_coverage": {
+            "global": "The grid covers the entire surface of the Earth.",
+            "limited_area": "The grid covers a contiguous part of the surface of the Earth."
+        },
+        "horizontal_grid_refinement": {
+            "static_grid": "The total number of grid points stays constant during the model run and there is no grid refinement, i.e. the grid is held fixed.",
+            "dynamically_stretched_grid": "The total number of grid points stays constant during the model run, but grid points can be dynamically relocated.",
+            "adaptive_mesh_refinement": "The total number of grid points varies during the model run. The grid is refined locally in advance of any important physical processes that need additional grid resolution, and coarsened when the additional resolution is no longer needed."
+        },
+        "horizontal_grid_arrangement": {
+            "A_grid": "none",
+            "B_grid": "none",
+            "C_grid": "none",
+            "D_grid": "none",
+            "E_grid": "none"
+        },
+        "horizontal_grid_nominal_resolution": {
+            "0.5": "none",
+            "1": "none",
+            "2.5": "none",
+            "5": "none",
+            "10": "none",
+            "25": "none",
+            "50": "none",
+            "100": "none",
+            "250": "none",
+            "500": "none",
+            "1000": "none",
+            "2500": "none",
+            "5000": "none",
+            "10000": "none"
+        },
+        "vertical_grid_discretization": {
+            "none": "no vertical discretization.",
+            "height": "none",
+            "geopotential_height": "none",
+            "air_pressure": "none",
+            "air_density": "none",
+            "air_potential_temperature": "none",
+            "atmosphere_ln_pressure_coordinate": "none",
+            "atmosphere_sigma_coordinate": "none",
+            "atmosphere_hybrid_sigma_pressure_coordinate": "none",
+            "atmosphere_hybrid_height_coordinate": "none",
+            "atmosphere_sleve_coordinate": "none",
+            "depth": "none",
+            "sea_water_density": "none",
+            "sea_water_pressure": "none",
+            "sea_water_potential_temperature": "none",
+            "ocean_sigma_coordinate": "none",
+            "ocean_s_coordinate": "none",
+            "ocean_sigma_z_coordinate": "none",
+            "ocean_double_sigma_coordinate": "none",
+            "land_ice_sigma_coordinate": "none"
+        }
+    }
+}
