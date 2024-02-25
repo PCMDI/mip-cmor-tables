@@ -1,6 +1,6 @@
 {
     "AER": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Atmospheric and Environmental Research",
             "aliases": [],
             "acronyms": [
@@ -26,7 +26,7 @@
         "consortiums": []
     },
     "AS-RCEC": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Research Center for Environmental Changes, Academia Sinica",
             "aliases": [],
             "acronyms": [
@@ -52,7 +52,7 @@
         "consortiums": []
     },
     "AWI": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Alfred Wegener Institute for Polar and Marine Research",
             "aliases": [],
             "acronyms": [
@@ -78,7 +78,7 @@
         "consortiums": []
     },
     "BCC": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Beijing Biocytogen (China)",
             "aliases": [],
             "acronyms": [],
@@ -102,7 +102,7 @@
         "consortiums": []
     },
     "CAMS": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Chinese Academy of Meteorological Sciences",
             "aliases": [],
             "acronyms": [
@@ -128,7 +128,7 @@
         "consortiums": []
     },
     "CAS": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Chinese Academy of Sciences",
             "aliases": [],
             "acronyms": [
@@ -154,7 +154,7 @@
         "consortiums": []
     },
     "CCCR-IITM": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Indian Institute of Tropical Meteorology",
             "aliases": [],
             "acronyms": [
@@ -180,7 +180,7 @@
         "consortiums": []
     },
     "CCCma": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Environment and Climate Change Canada",
             "aliases": [],
             "acronyms": [
@@ -206,7 +206,7 @@
         "consortiums": []
     },
     "CEDA": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Centre for Environmental Data Analysis",
             "aliases": [],
             "acronyms": [
@@ -232,7 +232,7 @@
         "consortiums": []
     },
     "CMCC": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Euro-Mediterranean Center for Climate Change",
             "aliases": [],
             "acronyms": [
@@ -258,7 +258,7 @@
         "consortiums": []
     },
     "CNES": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Centre National d'\u00c9tudes Spatiales",
             "aliases": [],
             "acronyms": [
@@ -284,7 +284,7 @@
         "consortiums": []
     },
     "CSIRO": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Commonwealth Scientific and Industrial Research Organisation",
             "aliases": [],
             "acronyms": [
@@ -310,7 +310,7 @@
         "consortiums": []
     },
     "DKRZ": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "German Climate Computing Centre",
             "aliases": [],
             "acronyms": [
@@ -336,7 +336,7 @@
         "consortiums": []
     },
     "DWD": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "German Meteorological Service",
             "aliases": [],
             "acronyms": [
@@ -362,7 +362,7 @@
         "consortiums": []
     },
     "ECMWF": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "European Centre for Medium-Range Weather Forecasts",
             "aliases": [],
             "acronyms": [
@@ -388,7 +388,7 @@
         "consortiums": []
     },
     "ESSO": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Indian National Centre for Ocean Information Services",
             "aliases": [],
             "acronyms": [
@@ -414,7 +414,7 @@
         "consortiums": []
     },
     "IACETH": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "ETH Zurich",
             "aliases": [
                 "Swiss Federal Institute of Technology in Zurich",
@@ -443,7 +443,7 @@
         "consortiums": []
     },
     "INM": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Institute of Numerical Mathematics",
             "aliases": [],
             "acronyms": [
@@ -469,7 +469,7 @@
         "consortiums": []
     },
     "IPSL": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Institut Pierre-Simon Laplace",
             "aliases": [],
             "acronyms": [
@@ -495,7 +495,7 @@
         "consortiums": []
     },
     "ImperialCollege": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Imperial College London",
             "aliases": [],
             "acronyms": [],
@@ -519,7 +519,7 @@
         "consortiums": []
     },
     "JAXA": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Japan Aerospace Exploration Agency",
             "aliases": [
                 "Dokuritsu-gy\u014dsei-h\u014djin Uch\u016b K\u014dk\u016b Kenky\u016b Kaihatsu Kik\u014d",
@@ -548,7 +548,7 @@
         "consortiums": []
     },
     "KIOST": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Korea Institute of Ocean Science and Technology",
             "aliases": [
                 "Korean Ocean Research and Development Institute"
@@ -576,7 +576,7 @@
         "consortiums": []
     },
     "LLNL": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Lawrence Livermore National Laboratory",
             "aliases": [
                 "United States Department of Energy National Nuclear Security Administration Lawrence Livermore National Laboratory",
@@ -608,7 +608,7 @@
         "consortiums": []
     },
     "MOHC": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Met Office Hadley Centre",
             "aliases": [],
             "acronyms": [],
@@ -632,7 +632,7 @@
         "consortiums": []
     },
     "MPI-B": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Max Planck Institute for Biogeochemistry",
             "aliases": [],
             "acronyms": [],
@@ -656,7 +656,7 @@
         "consortiums": []
     },
     "MPI-M": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Max Planck Institute for Meteorology",
             "aliases": [],
             "acronyms": [
@@ -682,7 +682,7 @@
         "consortiums": []
     },
     "MRI": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Japan Meteorological Agency",
             "aliases": [
                 "Kish\u014d-ch\u014d"
@@ -710,7 +710,7 @@
         "consortiums": []
     },
     "NASA-GISS": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Goddard Institute for Space Studies",
             "aliases": [],
             "acronyms": [
@@ -736,7 +736,7 @@
         "consortiums": []
     },
     "NASA-GSFC": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Goddard Space Flight Center",
             "aliases": [],
             "acronyms": [
@@ -762,7 +762,7 @@
         "consortiums": []
     },
     "NASA-JPL": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Jet Propulsion Laboratory",
             "aliases": [
                 "Jet Propulsion Lab",
@@ -791,7 +791,7 @@
         "consortiums": []
     },
     "NASA-LaRC": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Langley Research Center",
             "aliases": [],
             "acronyms": [
@@ -817,7 +817,7 @@
         "consortiums": []
     },
     "NCAR": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "National Center for Atmospheric Research",
             "aliases": [],
             "acronyms": [
@@ -843,7 +843,7 @@
         "consortiums": []
     },
     "NCAS": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Uks",
             "aliases": [],
             "acronyms": [],
@@ -867,7 +867,7 @@
         "consortiums": []
     },
     "NERC": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Natural Environment Research Council",
             "aliases": [],
             "acronyms": [
@@ -893,7 +893,7 @@
         "consortiums": []
     },
     "NIWA": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "National Institute of Water and Atmospheric Research",
             "aliases": [
                 "Taihoro Nukurangi"
@@ -921,7 +921,7 @@
         "consortiums": []
     },
     "NOAA-NCEI": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "NOAA National Centers for Environmental Information",
             "aliases": [
                 "National Climatic Data Center",
@@ -954,7 +954,7 @@
         "consortiums": []
     },
     "NTU": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "National Taiwan University",
             "aliases": [],
             "acronyms": [
@@ -980,7 +980,7 @@
         "consortiums": []
     },
     "NUIST": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Nanjing University",
             "aliases": [
                 "Nanking University"
@@ -1009,7 +1009,7 @@
         "consortiums": []
     },
     "OSU": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Oregon State University",
             "aliases": [],
             "acronyms": [
@@ -1035,7 +1035,7 @@
         "consortiums": []
     },
     "PCMDI": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Lawrence Livermore National Laboratory",
             "aliases": [
                 "United States Department of Energy National Nuclear Security Administration Lawrence Livermore National Laboratory",
@@ -1067,7 +1067,7 @@
         "consortiums": []
     },
     "PNNL-JGCRI": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Joint Global Change Research Institute",
             "aliases": [],
             "acronyms": [
@@ -1093,7 +1093,7 @@
         "consortiums": []
     },
     "PNNL-WACCEM": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Pacific Northwest National Laboratory",
             "aliases": [],
             "acronyms": [
@@ -1119,7 +1119,7 @@
         "consortiums": []
     },
     "RSS": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Remote Sensing Systems (United States)",
             "aliases": [],
             "acronyms": [
@@ -1145,7 +1145,7 @@
         "consortiums": []
     },
     "SNU": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Seoul National University",
             "aliases": [
                 "Seoul Daehakgyo"
@@ -1173,7 +1173,7 @@
         "consortiums": []
     },
     "SOLARIS-HEPPA": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
             "aliases": [
                 "Leibniz Institute of Marine Sciences"
@@ -1201,7 +1201,7 @@
         "consortiums": []
     },
     "THU": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Tsinghua University",
             "aliases": [],
             "acronyms": [
@@ -1227,7 +1227,7 @@
         "consortiums": []
     },
     "UA": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "University of Arizona",
             "aliases": [],
             "acronyms": [
@@ -1253,7 +1253,7 @@
         "consortiums": []
     },
     "UCI": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "University of California, Irvine",
             "aliases": [
                 "UC Irvine"
@@ -1281,7 +1281,7 @@
         "consortiums": []
     },
     "UCSB": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "University of California, Santa Barbara",
             "aliases": [
                 "UC Santa Barbara"
@@ -1309,7 +1309,7 @@
         "consortiums": []
     },
     "UColorado": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "University of Colorado System",
             "aliases": [],
             "acronyms": [
@@ -1335,7 +1335,7 @@
         "consortiums": []
     },
     "UHH": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Universit\u00e4t Hamburg",
             "aliases": [
                 "University of Hamburg"
@@ -1363,7 +1363,7 @@
         "consortiums": []
     },
     "UReading": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "University of Reading",
             "aliases": [],
             "acronyms": [],
@@ -1387,7 +1387,7 @@
         "consortiums": []
     },
     "UW": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "University of Washington",
             "aliases": [],
             "acronyms": [
@@ -1413,7 +1413,7 @@
         "consortiums": []
     },
     "UoM": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "University of Melbourne",
             "aliases": [
                 "Melbourne University"
@@ -1439,7 +1439,7 @@
         "consortiums": []
     },
     "UofMD": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "University of Maryland, College Park",
             "aliases": [],
             "acronyms": [
@@ -1465,7 +1465,7 @@
         "consortiums": []
     },
     "VUA": {
-        "indentifiers": {
+        "identifiers": {
             "institution_name": "Vrije Universiteit Amsterdam",
             "aliases": [
                 "VU Amsterdam"
