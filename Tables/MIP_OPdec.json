@@ -9,7 +9,7 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2023-11-16",
+    "table_date": "2024-02-28",
     "table_id": "OPdec"
   },
   "variable_entry": {
@@ -167,15 +167,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 40.0,
-      "ok_min_mean_abs": 28.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "soga",
       "positive": "",
       "standard_name": "sea_water_salinity",
       "type": "real",
       "units": "0.001",
-      "valid_max": 80.0,
-      "valid_min": 20.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "sos": {
       "cell_measures": "area: areacello",
@@ -191,15 +191,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 40.0,
-      "ok_min_mean_abs": 28.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sos",
       "positive": "",
       "standard_name": "sea_surface_salinity",
       "type": "real",
       "units": "0.001",
-      "valid_max": 100.0,
-      "valid_min": -0.001
+      "valid_max": "",
+      "valid_min": ""
     },
     "sosga": {
       "cell_measures": "",
@@ -213,15 +213,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 1600.0,
-      "ok_min_mean_abs": 780.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sosga",
       "positive": "",
       "standard_name": "sea_surface_salinity",
       "type": "real",
       "units": "0.001",
-      "valid_max": 6400.0,
-      "valid_min": 400.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "tauuo": {
       "cell_measures": "area: areacello",

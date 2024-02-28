@@ -9,7 +9,7 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2023-11-16",
+    "table_date": "2024-02-28",
     "table_id": "OPmon"
   },
   "variable_entry": {
@@ -842,15 +842,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 0.00000611,
-      "ok_min_mean_abs": 0.000001449,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "prsn",
       "positive": "",
       "standard_name": "snowfall_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "valid_max": 0.0002987,
-      "valid_min": 0.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "pso": {
       "cell_measures": "area: areacello",
@@ -1009,15 +1009,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 40.0,
-      "ok_min_mean_abs": 28.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "soga",
       "positive": "",
       "standard_name": "sea_water_salinity",
       "type": "real",
       "units": "0.001",
-      "valid_max": 80.0,
-      "valid_min": 20.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "somint": {
       "cell_measures": "area: areacello",
@@ -1057,15 +1057,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 40.0,
-      "ok_min_mean_abs": 28.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sos",
       "positive": "",
       "standard_name": "sea_surface_salinity",
       "type": "real",
       "units": "0.001",
-      "valid_max": 100.0,
-      "valid_min": -0.001
+      "valid_max": "",
+      "valid_min": ""
     },
     "sosga": {
       "cell_measures": "",
@@ -1079,15 +1079,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 1600.0,
-      "ok_min_mean_abs": 780.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sosga",
       "positive": "",
       "standard_name": "sea_surface_salinity",
       "type": "real",
       "units": "0.001",
-      "valid_max": 6400.0,
-      "valid_min": 400.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "sossq": {
       "cell_measures": "area: areacello",
@@ -1103,15 +1103,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 1600.0,
-      "ok_min_mean_abs": 780.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sossq",
       "positive": "",
       "standard_name": "square_of_sea_surface_salinity",
       "type": "real",
       "units": "1e-06",
-      "valid_max": 10000.0,
-      "valid_min": 0.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "t20d": {
       "cell_measures": "area: areacello",
@@ -1392,15 +1392,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 30.4,
-      "ok_min_mean_abs": -1.1,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tos",
       "positive": "",
       "standard_name": "sea_surface_temperature",
       "type": "real",
       "units": "degC",
-      "valid_max": 51.2,
-      "valid_min": -15.7
+      "valid_max": "",
+      "valid_min": ""
     },
     "tosga": {
       "cell_measures": "",
@@ -1653,15 +1653,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 0.00006051,
-      "ok_min_mean_abs": 0.00001831,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "wfo",
       "positive": "",
       "standard_name": "water_flux_into_sea_water",
       "type": "real",
       "units": "kg m-2 s-1",
-      "valid_max": 0.03952,
-      "valid_min": -0.005411
+      "valid_max": "",
+      "valid_min": ""
     },
     "wfonocorr": {
       "cell_measures": "area: areacello",
@@ -1701,15 +1701,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 1.572,
-      "ok_min_mean_abs": 0.008384,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "zos",
       "positive": "",
       "standard_name": "sea_surface_height_above_geoid",
       "type": "real",
       "units": "m",
-      "valid_max": 9.575,
-      "valid_min": -13.97
+      "valid_max": "",
+      "valid_min": ""
     },
     "zossq": {
       "cell_measures": "area: areacello",
@@ -1747,15 +1747,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 0.2998,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "zostoga",
       "positive": "",
       "standard_name": "global_average_thermosteric_sea_level_change",
       "type": "real",
       "units": "m",
-      "valid_max": 0.3734,
-      "valid_min": -0.1375
+      "valid_max": "",
+      "valid_min": ""
     }
   }
 }

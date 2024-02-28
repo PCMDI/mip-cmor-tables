@@ -9,7 +9,7 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2023-11-16",
+    "table_date": "2024-02-28",
     "table_id": "LPmon"
   },
   "variable_entry": {
@@ -2792,15 +2792,15 @@
         "land",
         "landIce"
       ],
-      "ok_max_mean_abs": 940.3,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "mrfso",
       "positive": "",
       "standard_name": "soil_frozen_water_content",
       "type": "real",
       "units": "kg m-2",
-      "valid_max": 5763.0,
-      "valid_min": 0.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "mrlso": {
       "cell_measures": "area: areacella",
@@ -2840,15 +2840,15 @@
       "modeling_realm": [
         "land"
       ],
-      "ok_max_mean_abs": 0.00001874,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "mrro",
       "positive": "",
       "standard_name": "runoff_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "valid_max": 0.001065,
-      "valid_min": -0.0002019
+      "valid_max": "",
+      "valid_min": ""
     },
     "mrroLut": {
       "cell_measures": "area: areacella",
@@ -2889,15 +2889,15 @@
       "modeling_realm": [
         "land"
       ],
-      "ok_max_mean_abs": 0.00001302,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "mrros",
       "positive": "",
       "standard_name": "surface_runoff_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "valid_max": 0.0009825,
-      "valid_min": -0.000006802
+      "valid_max": "",
+      "valid_min": ""
     },
     "mrsfl": {
       "cell_measures": "area: areacella",
@@ -2963,15 +2963,15 @@
       "modeling_realm": [
         "land"
       ],
-      "ok_max_mean_abs": 3038.0,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "mrso",
       "positive": "",
       "standard_name": "mass_content_of_water_in_soil",
       "type": "real",
       "units": "kg m-2",
-      "valid_max": 5717.0,
-      "valid_min": -64.17
+      "valid_max": "",
+      "valid_min": ""
     },
     "mrsoLut": {
       "cell_measures": "area: areacella",
@@ -3038,15 +3038,15 @@
       "modeling_realm": [
         "land"
       ],
-      "ok_max_mean_abs": 123.3,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "mrsos",
       "positive": "",
       "standard_name": "mass_content_of_water_in_soil_layer",
       "type": "real",
       "units": "kg m-2",
-      "valid_max": 146.5,
-      "valid_min": -2.008
+      "valid_max": "",
+      "valid_min": ""
     },
     "mrsosLut": {
       "cell_measures": "area: areacella",

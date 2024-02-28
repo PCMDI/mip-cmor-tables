@@ -9,7 +9,7 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2023-11-16",
+    "table_date": "2024-02-28",
     "table_id": "APmon"
   },
   "variable_entry": {
@@ -51,15 +51,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 100000.0,
-      "ok_min_mean_abs": 5000.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ccb",
       "positive": "",
       "standard_name": "air_pressure_at_convective_cloud_base",
       "type": "real",
       "units": "Pa",
-      "valid_max": 115000.0,
-      "valid_min": 0.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "cct": {
       "cell_measures": "area: areacella",
@@ -75,15 +75,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 100000.0,
-      "ok_min_mean_abs": 5000.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "cct",
       "positive": "",
       "standard_name": "air_pressure_at_convective_cloud_top",
       "type": "real",
       "units": "Pa",
-      "valid_max": 115000.0,
-      "valid_min": 0.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "cfadDbze94": {
       "cell_measures": "area: areacella",
@@ -269,15 +269,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 0.9,
-      "ok_min_mean_abs": 0.02,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ci",
       "positive": "",
       "standard_name": "convection_time_fraction",
       "type": "real",
       "units": "1",
-      "valid_max": 1.001,
-      "valid_min": -0.001
+      "valid_max": "",
+      "valid_min": ""
     },
     "clcalipso": {
       "cell_measures": "area: areacella",
@@ -565,15 +565,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 0.1187,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "clivi",
       "positive": "",
       "standard_name": "atmosphere_mass_content_of_cloud_ice",
       "type": "real",
       "units": "kg m-2",
-      "valid_max": 1.535,
-      "valid_min": -0.000001872
+      "valid_max": "",
+      "valid_min": ""
     },
     "cllcalipso": {
       "cell_measures": "area: areacella",
@@ -665,15 +665,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 90.0,
-      "ok_min_mean_abs": 10.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clt",
       "positive": "",
       "standard_name": "cloud_area_fraction",
       "type": "real",
       "units": "%",
-      "valid_max": 100.001,
-      "valid_min": -0.001
+      "valid_max": "",
+      "valid_min": ""
     },
     "cltcalipso": {
       "cell_measures": "area: areacella",
@@ -785,15 +785,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 0.2846,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "clwvi",
       "positive": "",
       "standard_name": "atmosphere_mass_content_of_cloud_condensed_water",
       "type": "real",
       "units": "kg m-2",
-      "valid_max": 3.364,
-      "valid_min": -0.000003827
+      "valid_max": "",
+      "valid_min": ""
     },
     "clwvic": {
       "cell_measures": "area: areacella",
@@ -1032,8 +1032,8 @@
       "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_natural_sources",
       "type": "real",
       "units": "kg m-2 s-1",
-      "valid_max": 0.000002,
-      "valid_min": -0.00002
+      "valid_max": "",
+      "valid_min": ""
     },
     "grplmxrat27": {
       "cell_measures": "area: areacella",
@@ -1097,15 +1097,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 110.0,
-      "ok_min_mean_abs": 30.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hfls",
       "positive": "up",
       "standard_name": "surface_upward_latent_heat_flux",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 1800.0,
-      "valid_min": -400.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "hfss": {
       "cell_measures": "area: areacella",
@@ -1121,15 +1121,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 60.0,
-      "ok_min_mean_abs": 5.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hfss",
       "positive": "up",
       "standard_name": "surface_upward_sensible_heat_flux",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 2000.0,
-      "valid_min": -1000.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "hur": {
       "cell_measures": "area: areacella",
@@ -1146,15 +1146,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 90.0,
-      "ok_min_mean_abs": 10.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hur",
       "positive": "",
       "standard_name": "relative_humidity",
       "type": "real",
       "units": "%",
-      "valid_max": 105.0,
-      "valid_min": -0.001
+      "valid_max": "",
+      "valid_min": ""
     },
     "hurs": {
       "cell_measures": "area: areacella",
@@ -1171,15 +1171,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 99.0,
-      "ok_min_mean_abs": 50.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hurs",
       "positive": "",
       "standard_name": "relative_humidity",
       "type": "real",
       "units": "%",
-      "valid_max": 100.001,
-      "valid_min": -0.001
+      "valid_max": "",
+      "valid_min": ""
     },
     "hursminCrop": {
       "cell_measures": "area: areacella",
@@ -1221,15 +1221,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 0.01041,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "hus19",
       "positive": "",
       "standard_name": "specific_humidity",
       "type": "real",
       "units": "1",
-      "valid_max": 0.02841,
-      "valid_min": -0.000299
+      "valid_max": "",
+      "valid_min": ""
     },
     "hus27": {
       "cell_measures": "area: areacella",
@@ -1296,15 +1296,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 0.012,
-      "ok_min_mean_abs": 0.005,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "huss",
       "positive": "",
       "standard_name": "specific_humidity",
       "type": "real",
       "units": "1",
-      "valid_max": 0.03,
-      "valid_min": 0.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "intuadse": {
       "cell_measures": "area: areacella",
@@ -1882,15 +1882,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 0.00004,
-      "ok_min_mean_abs": 0.000014999999999999999,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "pr",
       "positive": "",
       "standard_name": "precipitation_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "valid_max": 0.0015,
-      "valid_min": -0.000001
+      "valid_max": "",
+      "valid_min": ""
     },
     "pr17O": {
       "cell_measures": "area: areacella",
@@ -2002,15 +2002,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 0.00004,
-      "ok_min_mean_abs": 0.000003,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "prc",
       "positive": "",
       "standard_name": "convective_precipitation_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "valid_max": 0.0015,
-      "valid_min": -0.000001
+      "valid_max": "",
+      "valid_min": ""
     },
     "prhmax": {
       "cell_measures": "area: areacella",
@@ -2074,15 +2074,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 0.000008,
-      "ok_min_mean_abs": 0.000001,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "prsn",
       "positive": "",
       "standard_name": "snowfall_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "valid_max": 0.0008,
-      "valid_min": -0.000001
+      "valid_max": "",
+      "valid_min": ""
     },
     "prsn17O": {
       "cell_measures": "area: areacella",
@@ -2170,15 +2170,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 26.0,
-      "ok_min_mean_abs": 12.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "prw",
       "positive": "",
       "standard_name": "atmosphere_mass_content_of_water_vapor",
       "type": "real",
       "units": "kg m-2",
-      "valid_max": 90.0,
-      "valid_min": 0.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "ps": {
       "cell_measures": "area: areacella",
@@ -2194,15 +2194,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 100000.0,
-      "ok_min_mean_abs": 93000.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ps",
       "positive": "",
       "standard_name": "surface_air_pressure",
       "type": "real",
       "units": "Pa",
-      "valid_max": 112000.0,
-      "valid_min": 47500.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "psl": {
       "cell_measures": "area: areacella",
@@ -2218,15 +2218,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 106000.0,
-      "ok_min_mean_abs": 96000.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "psl",
       "positive": "",
       "standard_name": "air_pressure_at_mean_sea_level",
       "type": "real",
       "units": "Pa",
-      "valid_max": 109000.0,
-      "valid_min": 91000.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "rainmxrat27": {
       "cell_measures": "area: areacella",
@@ -2267,15 +2267,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 330.0,
-      "ok_min_mean_abs": 260.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlds",
       "positive": "down",
       "standard_name": "surface_downwelling_longwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 520.0,
-      "valid_min": 30.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "rldscs": {
       "cell_measures": "area: areacella",
@@ -2291,15 +2291,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 310.0,
-      "ok_min_mean_abs": 220.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rldscs",
       "positive": "down",
       "standard_name": "surface_downwelling_longwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 550.0,
-      "valid_min": 25.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "rls": {
       "cell_measures": "area: areacella",
@@ -2339,15 +2339,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 380.0,
-      "ok_min_mean_abs": 320.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlus",
       "positive": "up",
       "standard_name": "surface_upwelling_longwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 660.0,
-      "valid_min": 43.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlut": {
       "cell_measures": "area: areacella",
@@ -2363,15 +2363,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 305.0,
-      "ok_min_mean_abs": 205.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlut",
       "positive": "up",
       "standard_name": "toa_outgoing_longwave_flux",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 385.0,
-      "valid_min": 65.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlut4co2": {
       "cell_measures": "area: areacella",
@@ -2411,15 +2411,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 270.0,
-      "ok_min_mean_abs": 220.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rlutcs",
       "positive": "up",
       "standard_name": "toa_outgoing_longwave_flux_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 390.0,
-      "valid_min": 65.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "rlutcs4co2": {
       "cell_measures": "area: areacella",
@@ -2459,15 +2459,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 200.0,
-      "ok_min_mean_abs": 120.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsds",
       "positive": "down",
       "standard_name": "surface_downwelling_shortwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 550.0,
-      "valid_min": -0.1
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsdscs": {
       "cell_measures": "area: areacella",
@@ -2555,15 +2555,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 315.8,
-      "ok_min_mean_abs": 282.6,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsdt",
       "positive": "down",
       "standard_name": "toa_incoming_shortwave_flux",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 580.4,
-      "valid_min": 0.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "rss": {
       "cell_measures": "area: areacella",
@@ -2603,15 +2603,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 90.0,
-      "ok_min_mean_abs": 10.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsus",
       "positive": "up",
       "standard_name": "surface_upwelling_shortwave_flux_in_air",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 480.0,
-      "valid_min": -0.1
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsuscs": {
       "cell_measures": "area: areacella",
@@ -2627,15 +2627,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 90.0,
-      "ok_min_mean_abs": 10.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsuscs",
       "positive": "up",
       "standard_name": "surface_upwelling_shortwave_flux_in_air_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 480.0,
-      "valid_min": -0.1
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsut": {
       "cell_measures": "area: areacella",
@@ -2651,15 +2651,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 160.0,
-      "ok_min_mean_abs": 60.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsut",
       "positive": "up",
       "standard_name": "toa_outgoing_shortwave_flux",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 480.0,
-      "valid_min": -0.1
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsut4co2": {
       "cell_measures": "area: areacella",
@@ -2699,15 +2699,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 120.0,
-      "ok_min_mean_abs": 30.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rsutcs",
       "positive": "up",
       "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 480.0,
-      "valid_min": -0.1
+      "valid_max": "",
+      "valid_min": ""
     },
     "rsutcs4co2": {
       "cell_measures": "area: areacella",
@@ -2747,15 +2747,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 150.0,
-      "ok_min_mean_abs": 40.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "rtmt",
       "positive": "down",
       "standard_name": "net_downward_radiative_flux_at_top_of_atmosphere_model",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 250.0,
-      "valid_min": -250.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "sci": {
       "cell_measures": "area: areacella",
@@ -2771,15 +2771,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 0.9,
-      "ok_min_mean_abs": 0.02,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sci",
       "positive": "",
       "standard_name": "shallow_convection_time_fraction",
       "type": "real",
       "units": "1",
-      "valid_max": 1.001,
-      "valid_min": -0.001
+      "valid_max": "",
+      "valid_min": ""
     },
     "sconcdust": {
       "cell_measures": "area: areacella",
@@ -2868,15 +2868,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 15.0,
-      "ok_min_mean_abs": 1.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sfcWind",
       "positive": "",
       "standard_name": "wind_speed",
       "type": "real",
       "units": "m s-1",
-      "valid_max": 80.0,
-      "valid_min": 0.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "sfcWindmax": {
       "cell_measures": "area: areacella",
@@ -3039,15 +3039,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 299.8,
-      "ok_min_mean_abs": 194.3,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ta",
       "positive": "",
       "standard_name": "air_temperature",
       "type": "real",
       "units": "K",
-      "valid_max": 336.3,
-      "valid_min": 157.1
+      "valid_max": "",
+      "valid_min": ""
     },
     "ta27": {
       "cell_measures": "area: areacella",
@@ -3089,15 +3089,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 295.0,
-      "ok_min_mean_abs": 255.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tas",
       "positive": "",
       "standard_name": "air_temperature",
       "type": "real",
       "units": "K",
-      "valid_max": 350.0,
-      "valid_min": 170.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "tasmax": {
       "cell_measures": "area: areacella",
@@ -3114,15 +3114,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 300.0,
-      "ok_min_mean_abs": 260.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tasmax",
       "positive": "",
       "standard_name": "air_temperature",
       "type": "real",
       "units": "K",
-      "valid_max": 355.0,
-      "valid_min": 175.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "tasmaxCrop": {
       "cell_measures": "area: areacella",
@@ -3164,15 +3164,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 290.0,
-      "ok_min_mean_abs": 250.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tasmin",
       "positive": "",
       "standard_name": "air_temperature",
       "type": "real",
       "units": "K",
-      "valid_max": 345.0,
-      "valid_min": 165.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "tasminCrop": {
       "cell_measures": "area: areacella",
@@ -3213,15 +3213,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 0.2,
-      "ok_min_mean_abs": 0.01,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tauu",
       "positive": "down",
       "standard_name": "surface_downward_eastward_stress",
       "type": "real",
       "units": "Pa",
-      "valid_max": 10.0,
-      "valid_min": -10.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "tauv": {
       "cell_measures": "area: areacella",
@@ -3237,15 +3237,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 0.2,
-      "ok_min_mean_abs": 0.01,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "tauv",
       "positive": "down",
       "standard_name": "surface_downward_northward_stress",
       "type": "real",
       "units": "Pa",
-      "valid_max": 10.0,
-      "valid_min": -10.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "tdps": {
       "cell_measures": "area: areacella",
@@ -3310,15 +3310,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 295.0,
-      "ok_min_mean_abs": 255.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ts",
       "positive": "",
       "standard_name": "surface_temperature",
       "type": "real",
       "units": "K",
-      "valid_max": 340.0,
-      "valid_min": 170.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "ua19": {
       "cell_measures": "area: areacella",
@@ -3335,15 +3335,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 22.42,
-      "ok_min_mean_abs": 1.101,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "ua19",
       "positive": "",
       "standard_name": "eastward_wind",
       "type": "real",
       "units": "m s-1",
-      "valid_max": 136.6,
-      "valid_min": -68.65
+      "valid_max": "",
+      "valid_min": ""
     },
     "ua27": {
       "cell_measures": "area: areacella",
@@ -3410,15 +3410,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 10.0,
-      "ok_min_mean_abs": 1.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "uas",
       "positive": "",
       "standard_name": "eastward_wind",
       "type": "real",
       "units": "m s-1",
-      "valid_max": 80.0,
-      "valid_min": -80.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "uqint": {
       "cell_measures": "area: areacella",
@@ -3509,15 +3509,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 4.679,
-      "ok_min_mean_abs": 0.9886,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "va19",
       "positive": "",
       "standard_name": "northward_wind",
       "type": "real",
       "units": "m s-1",
-      "valid_max": 69.93,
-      "valid_min": -71.1
+      "valid_max": "",
+      "valid_min": ""
     },
     "va27": {
       "cell_measures": "area: areacella",
@@ -3584,15 +3584,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 10.0,
-      "ok_min_mean_abs": 1.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "vas",
       "positive": "",
       "standard_name": "northward_wind",
       "type": "real",
       "units": "m s-1",
-      "valid_max": 80.0,
-      "valid_min": -80.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "vqint": {
       "cell_measures": "area: areacella",
@@ -3683,15 +3683,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 0.04256,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "wap",
       "positive": "",
       "standard_name": "lagrangian_tendency_of_air_pressure",
       "type": "real",
       "units": "Pa s-1",
-      "valid_max": 2.319,
-      "valid_min": -1.126
+      "valid_max": "",
+      "valid_min": ""
     },
     "zg": {
       "cell_measures": "area: areacella",
@@ -3708,15 +3708,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 32990.0,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "zg",
       "positive": "",
       "standard_name": "geopotential_height",
       "type": "real",
       "units": "m",
-      "valid_max": 34370.0,
-      "valid_min": -719.7
+      "valid_max": "",
+      "valid_min": ""
     },
     "zg27": {
       "cell_measures": "area: areacella",

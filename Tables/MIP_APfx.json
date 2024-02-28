@@ -9,7 +9,7 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2023-11-16",
+    "table_date": "2024-02-28",
     "table_id": "APfx"
   },
   "variable_entry": {
@@ -27,15 +27,15 @@
         "atmos",
         "land"
       ],
-      "ok_max_mean_abs": 1000000000000.0,
-      "ok_min_mean_abs": 100000.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "areacella",
       "positive": "",
       "standard_name": "cell_area",
       "type": "real",
       "units": "m2",
-      "valid_max": 1000000000000.0,
-      "valid_min": 100000.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "ps": {
       "cell_measures": "area: areacella",
@@ -172,8 +172,8 @@
       "standard_name": "land_area_fraction",
       "type": "real",
       "units": "%",
-      "valid_max": 100.0,
-      "valid_min": 0.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "siltfrac": {
       "cell_measures": "area: areacella",
