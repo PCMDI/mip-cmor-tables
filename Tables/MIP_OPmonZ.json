@@ -178,7 +178,7 @@
       "standard_name": "northward_ocean_heat_transport_due_to_overturning",
       "type": "real",
       "units": "W",
-      "valid_max": ""E+16,
+      "valid_max": "",
       "valid_min": ""
     },
     "msftmrho": {
