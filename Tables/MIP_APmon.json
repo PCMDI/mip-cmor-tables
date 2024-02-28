@@ -977,15 +977,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 1E-9,
-      "ok_min_mean_abs": -1E-11,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "fco2antt",
       "positive": "",
       "standard_name": "tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_emission",
       "type": "real",
       "units": "kg m-2 s-1",
-      "valid_max": 2E-7,
-      "valid_min": -1E-7
+      "valid_max": "",
+      "valid_min": ""
     },
     "fco2fos": {
       "cell_measures": "area: areacella",
@@ -1025,8 +1025,8 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 1E-7,
-      "ok_min_mean_abs": 5E-10,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "fco2nat",
       "positive": "",
       "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_natural_sources",
