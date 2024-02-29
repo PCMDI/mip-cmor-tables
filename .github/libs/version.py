@@ -48,7 +48,7 @@ def get_latest_tag_info(repo_owner, repo_name, github_token=None):
     return None
 
 
-def process_files(files,token = None, branch=None,write=True):
+def process_files(files,token = None, branch=None,force=False):
     CVs = get_latest_tag_info('WCRP-CMIP', 'CMIP6Plus_CVs', token)
 
     for f in files:
@@ -135,7 +135,12 @@ def process_files(files,token = None, branch=None,write=True):
         ##########################################
 
         short = f.replace('.json','')
-
+        
+        try:
+            old_checksum = contents['version_metadata']['checksum'] 
+        except:
+            old_checksum = ''
+            
         template =  OrderedDict({
             "version_tag": tag,
             "checksum": 'checksum',
@@ -153,14 +158,17 @@ def process_files(files,token = None, branch=None,write=True):
         del contents['version_metadata']
         contents['version_metadata'] = template
 
-        contents = calculate_checksum(contents)
+        contents = calculate_checksum(contents,update=True)
 
         # print('writing', f)
 
-        if write:
+        if old_checksum != contents['version_metadata']['checksum'] or force:
 
             with open(f, 'w') as write:
                 write.write(json.dumps(contents, indent=4))
+                
+                import pprint
+                pprint.pprint(contents['version_metadata'])
 
             ##########################################
             # keep the individualized commit messages
@@ -169,11 +177,11 @@ def process_files(files,token = None, branch=None,write=True):
             print(author_match.group(1),f)
             print(commit_dict['commit_message'])
 
-            os.popen(f"git add {f}").read()
+            # os.popen(f"git add {f}").read()
 
-            os.popen(f'git commit --author="{author_match.group(1)}" -m "{commit_dict["commit_message"]}"').read()
+            # os.popen(f'git commit --author="{author_match.group(1)}" -m "{commit_dict["commit_message"]}"').read()
             
-    os.popen('git push').read()
+    # os.popen('git push').read()
 
     
 
