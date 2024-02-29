@@ -9,7 +9,7 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2023-11-16",
+    "table_date": "2024-02-28",
     "table_id": "OPmonZ"
   },
   "variable_entry": {
@@ -147,15 +147,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 236400000000000.0,
-      "ok_min_mean_abs": 59100000000000.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "htovgyre",
       "positive": "",
       "standard_name": "northward_ocean_heat_transport_due_to_gyre",
       "type": "real",
       "units": "W",
-      "valid_max": 2691000000000000.0,
-      "valid_min": -1772000000000000.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "htovovrt": {
       "cell_measures": "",
@@ -171,15 +171,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 815600000000000.0,
-      "ok_min_mean_abs": 203900000000000.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "htovovrt",
       "positive": "",
       "standard_name": "northward_ocean_heat_transport_due_to_overturning",
       "type": "real",
       "units": "W",
-      "valid_max": 1.305E+16,
-      "valid_min": -6263000000000000.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "msftmrho": {
       "cell_measures": "",

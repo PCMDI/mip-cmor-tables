@@ -9,7 +9,7 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2023-11-16",
+    "table_date": "2024-02-28",
     "table_id": "SImon"
   },
   "variable_entry": {
@@ -167,15 +167,15 @@
       "modeling_realm": [
         "seaIce"
       ],
-      "ok_max_mean_abs": 40.0,
-      "ok_min_mean_abs": 1.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "siconc",
       "positive": "",
       "standard_name": "sea_ice_area_fraction",
       "type": "real",
       "units": "%",
-      "valid_max": 100.001,
-      "valid_min": -0.001
+      "valid_max": "",
+      "valid_min": ""
     },
     "siconca": {
       "cell_measures": "area: areacella",
@@ -1730,15 +1730,15 @@
         "seaIce",
         "ocean"
       ],
-      "ok_max_mean_abs": 4.0,
-      "ok_min_mean_abs": 0.05,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sithick",
       "positive": "",
       "standard_name": "sea_ice_thickness",
       "type": "real",
       "units": "m",
-      "valid_max": 200.0,
-      "valid_min": -0.001
+      "valid_max": "",
+      "valid_min": ""
     },
     "sitimefrac": {
       "cell_measures": "area: areacello",

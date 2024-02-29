@@ -9,7 +9,7 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2023-11-16",
+    "table_date": "2024-02-28",
     "table_id": "LImon"
   },
   "variable_entry": {
@@ -439,15 +439,15 @@
       "modeling_realm": [
         "landIce"
       ],
-      "ok_max_mean_abs": 0.0001,
-      "ok_min_mean_abs": 0.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "sbl",
       "positive": "",
       "standard_name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
       "type": "real",
       "units": "kg m-2 s-1",
-      "valid_max": 0.001,
-      "valid_min": -0.0005
+      "valid_max": "",
+      "valid_min": ""
     },
     "sblIs": {
       "cell_measures": "area: areacella",
@@ -536,15 +536,15 @@
         "landIce",
         "land"
       ],
-      "ok_max_mean_abs": 78.46,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "snc",
       "positive": "",
       "standard_name": "surface_snow_area_fraction",
       "type": "real",
       "units": "%",
-      "valid_max": 105.0,
-      "valid_min": 0.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "sncIs": {
       "cell_measures": "area: areacella",
@@ -585,15 +585,15 @@
         "landIce",
         "land"
       ],
-      "ok_max_mean_abs": 4.503,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "snd",
       "positive": "",
       "standard_name": "surface_snow_thickness",
       "type": "real",
       "units": "m",
-      "valid_max": 962.9,
-      "valid_min": 0.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "snicefreezIs": {
       "cell_measures": "area: areacella",
@@ -658,15 +658,15 @@
         "landIce",
         "land"
       ],
-      "ok_max_mean_abs": 0.000006123,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "snm",
       "positive": "",
       "standard_name": "surface_snow_melt_flux",
       "type": "real",
       "units": "kg m-2 s-1",
-      "valid_max": 0.0003926,
-      "valid_min": 0.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "snmIs": {
       "cell_measures": "area: areacella",
@@ -707,15 +707,15 @@
         "landIce",
         "land"
       ],
-      "ok_max_mean_abs": 12130.0,
+      "ok_max_mean_abs": "",
       "ok_min_mean_abs": "",
       "out_name": "snw",
       "positive": "",
       "standard_name": "surface_snow_amount",
       "type": "real",
       "units": "kg m-2",
-      "valid_max": 955500.0,
-      "valid_min": -0.007542
+      "valid_max": "",
+      "valid_min": ""
     },
     "sootsn": {
       "cell_measures": "area: areacella",

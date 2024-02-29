@@ -9,7 +9,7 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2023-11-16",
+    "table_date": "2024-02-28",
     "table_id": "APday"
   },
   "variable_entry": {
@@ -370,15 +370,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 90.0,
-      "ok_min_mean_abs": 10.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "clt",
       "positive": "",
       "standard_name": "cloud_area_fraction",
       "type": "real",
       "units": "%",
-      "valid_max": 100.001,
-      "valid_min": -0.001
+      "valid_max": "",
+      "valid_min": ""
     },
     "cltcalipso": {
       "cell_measures": "area: areacella",
@@ -538,15 +538,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 110.0,
-      "ok_min_mean_abs": 30.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hfls",
       "positive": "up",
       "standard_name": "surface_upward_latent_heat_flux",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 1800.0,
-      "valid_min": -400.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "hfmlt": {
       "cell_measures": "area: areacella",
@@ -634,15 +634,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 60.0,
-      "ok_min_mean_abs": 5.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hfss",
       "positive": "up",
       "standard_name": "surface_upward_sensible_heat_flux",
       "type": "real",
       "units": "W m-2",
-      "valid_max": 2000.0,
-      "valid_min": -1000.0
+      "valid_max": "",
+      "valid_min": ""
     },
     "hur": {
       "cell_measures": "area: areacella",
@@ -659,15 +659,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 90.0,
-      "ok_min_mean_abs": 10.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hur",
       "positive": "",
       "standard_name": "relative_humidity",
       "type": "real",
       "units": "%",
-      "valid_max": 105.0,
-      "valid_min": -0.001
+      "valid_max": "",
+      "valid_min": ""
     },
     "hurs": {
       "cell_measures": "area: areacella",
@@ -809,15 +809,15 @@
       "modeling_realm": [
         "atmos"
       ],
-      "ok_max_mean_abs": 0.01,
-      "ok_min_mean_abs": 0.00001,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "hus8",
       "positive": "",
       "standard_name": "specific_humidity",
       "type": "real",
       "units": "1",
-      "valid_max": 0.06,
-      "valid_min": -0.001
+      "valid_max": "",
+      "valid_min": ""
     },
     "hus850": {
       "cell_measures": "area: areacella",

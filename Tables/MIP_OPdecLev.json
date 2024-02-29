@@ -12,7 +12,7 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": "model-output",
-    "table_date": "2023-11-16",
+    "table_date": "2024-02-28",
     "table_id": "OPdecLev"
   },
   "variable_entry": {
@@ -131,15 +131,15 @@
       "modeling_realm": [
         "ocean"
       ],
-      "ok_max_mean_abs": 40.0,
-      "ok_min_mean_abs": 28.0,
+      "ok_max_mean_abs": "",
+      "ok_min_mean_abs": "",
       "out_name": "so",
       "positive": "",
       "standard_name": "sea_water_salinity",
       "type": "real",
       "units": "0.001",
-      "valid_max": 100.0,
-      "valid_min": -0.001
+      "valid_max": "",
+      "valid_min": ""
     },
     "thetao": {
       "cell_measures": "area: areacello volume: volcello",
