@@ -58,75 +58,77 @@ def process_files(files,token = None, branch=None,force=False):
         if 'version_metadata' not in contents:
             contents['version_metadata'] = dict(checksum='', commit='')
 
-        if validate_checksum(contents):
-            print(f,'checksum the same')
-            continue
+
+        # this now has a different setup due to CVs.  
+        # if validate_checksum(contents):
+        #     print(f,'checksum the same')
+        #     continue
+            
+
+        skip = 'CMIP-IPO: Automated GitHub Action <actions@wcrp-cmip.org>'  
+        # commit_info = os.popen(f'git log -n 1 -- {f} ').read()
+        full = os.popen(f'git log -- {f} ').read()
+
+
+        previous_commit = ''
+        commit_info = False
+        
         
 
-    skip = 'CMIP-IPO: Automated GitHub Action <actions@wcrp-cmip.org>'  
-    # commit_info = os.popen(f'git log -n 1 -- {f} ').read()
-    full = os.popen(f'git log -- {f} ').read()
+        commit_blocks = re.split(r'\n(?=commit\s)', full)
+        for c in commit_blocks:
+            if 'reset-checksum' in c:
+                continue
+            if 'Automated Versioning Update' in c:
+                continue
+            if skip not in c:
+                if not commit_info:
+                    commit_info = c
+                elif commit_info and not previous_commit:
+                    previous_commit = re.search(r"commit (\S+)", c)
+                    break
+
+        if 'commit_info' not in locals():
+            print(f)
+            print(commit_blocks)
+            print('no suitable commit found')
+            sys.exit('no suitable commit found')
 
 
-    previous_commit = ''
-    commit_info = False
-    
-    
+        ##########################################
+        # extract commit info
+        ##########################################
 
-    commit_blocks = re.split(r'\n(?=commit\s)', full)
-    for c in commit_blocks:
-        if 'reset-checksum' in c:
-            continue
-        if 'Automated Versioning Update' in c:
-            continue
-        if skip not in c:
-            if not commit_info:
-                commit_info = c
-            elif commit_info and not previous_commit:
-                previous_commit = re.search(r"commit (\S+)", c)
-                break
+        commit_dict = {}
 
-    if 'commit_info' not in locals():
-        print(f)
-        print(commit_blocks)
-        print('no suitable commit found')
-        sys.exit('no suitable commit found')
+        # Extract information using regular expressions
+        commit_match = re.search(r"commit (\S+)", commit_info)
+        author_match = re.search(r"Author: (.+)", commit_info)
+        date_match = re.search(r"Date: (.+)", commit_info)
+        commit_message_match = re.search(r"    (.+)", commit_info)
 
+        if commit_match:
+            commit_dict["commit_sha"] = commit_match.group(1)
 
-    ##########################################
-    # extract commit info
-    ##########################################
+        if author_match:
+            author_info = author_match.group(1).split(" <")
+            commit_dict["author_name"] = author_info[0]
+            try:
+                commit_dict["author_institute"] = maintainers[author_info[0]]['institute']
+                commit_dict["author_name"] = maintainers[author_info[0]]['published_name']
+            except:
+                commit_dict["author_name"] = author_match.group(1)
+                
+                print( f'Please add \n\t "{author_info[0]}": \n\t\t','{"institute": "", "published_name": "Name you wish to use"}')
+                # this was a keyerror
+                
+            commit_dict["author_email"] = author_info[1][:-1]  
 
-    commit_dict = {}
+        if date_match:
+            commit_dict["commit_date"] = date_match.group(1)
 
-    # Extract information using regular expressions
-    commit_match = re.search(r"commit (\S+)", commit_info)
-    author_match = re.search(r"Author: (.+)", commit_info)
-    date_match = re.search(r"Date: (.+)", commit_info)
-    commit_message_match = re.search(r"    (.+)", commit_info)
-
-    if commit_match:
-        commit_dict["commit_sha"] = commit_match.group(1)
-
-    if author_match:
-        author_info = author_match.group(1).split(" <")
-        commit_dict["author_name"] = author_info[0]
-        try:
-            commit_dict["author_institute"] = maintainers[author_info[0]]['institute']
-            commit_dict["author_name"] = maintainers[author_info[0]]['published_name']
-        except:
-            commit_dict["author_name"] = author_match.group(1)
-            
-            print( f'Please add \n\t "{author_info[0]}": \n\t\t','{"institute": "", "published_name": "Name you wish to use"}')
-            # this was a keyerror
-            
-        commit_dict["author_email"] = author_info[1][:-1]  
-
-    if date_match:
-        commit_dict["commit_date"] = date_match.group(1)
-
-    if commit_message_match:
-        commit_dict["commit_message"] = commit_message_match.group(1)
+        if commit_message_match:
+            commit_dict["commit_message"] = commit_message_match.group(1)
 
 
 
