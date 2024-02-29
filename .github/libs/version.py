@@ -198,7 +198,13 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Retrieve details for the latest tag of a GitHub repository.")
     parser.add_argument("-t", "--token", help="gh token")
     parser.add_argument("-b","--branch" ,help="branch name")
+    parser.add_argument("-n","--newrelease" ,help="tag name")
 
     args = parser.parse_args()
+    
     if args.branch == 'main':
-        process_files(files, token=args.token, branch = args.branch)
+        if args.newrelease:
+            process_files(files, token=args.token, branch = args.branch, force = True, )
+        else:
+            process_files(files, token=args.token, branch = args.branch)
+            
