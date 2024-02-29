@@ -52,25 +52,10 @@ jobs:
 
       - name: Update Versioning
         id: run-python-script
-        run: python .github/libs/version.py -t ${GH_TOKEN}
+        run: python .github/libs/version.py -t ${GH_TOKEN} -b $(git rev-parse --abbrev-ref HEAD)
         # working-directory: .github/libs  # Adjusted the working directory
         shell: bash
 
-    #   - name: Display Version Metadata for JSON Files
-    #     run: |
-    #       # Get the list of JSON files in the repository
-    #       json_files=$(git ls-tree --name-only -r HEAD | grep '\.json$')
-      
-    #       # Iterate over each JSON file and display 'version_metadata'
-    #       for json_file in $json_files; do
-    #         metadata=$(git show HEAD:$json_file | jq '.version_metadata')
-    #         if [ $? -eq 0 ] && [ "$metadata" != "null" ]; then
-                
-    #         echo "File: $json_file, Version Metadata: $metadata"
-    #         fi
-    #       done
-    #     shell: bash
-    #     continue-on-error: true
 
 
       - name: Write Changes
