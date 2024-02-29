@@ -14,19 +14,11 @@ import argparse
 ##########################################
 
 maintainers = json.load(open('.github/maintainer_institutes.json', 'r'))
-
 ##########################################
 # get repo information
 ##########################################
-
 tag = os.popen("git describe --tags --abbrev=0").read().strip()
 # release_date = subprocess.check_output(["git", "log", "-1", "--format=%aI", tag]).strip().decode("utf-8")
-
-
-##########################################
-# read api keys
-##########################################
-
 
 
 ##########################################
@@ -56,8 +48,8 @@ def get_latest_tag_info(repo_owner, repo_name, github_token=None):
     return None
 
 
-def process_files(files,tag=None,write=True):
-    CVs = get_latest_tag_info('WCRP-CMIP', 'CMIP6Plus_CVs', tag)
+def process_files(files,token = None, branch=None,write=True):
+    CVs = get_latest_tag_info('WCRP-CMIP', 'CMIP6Plus_CVs', token)
 
     for f in files:
         print(f)
@@ -71,59 +63,72 @@ def process_files(files,tag=None,write=True):
             continue
         
 
-        skip = 'Author: CMIP-IPO GitHub Automation <actions@wcrp-cmip.org>'
-        
-        # commit_info = os.popen(f'git log -n 1 -- {f} ').read()
-        full = os.popen(f'git log -- {f} ').read()
+    skip = 'CMIP-IPO: Automated GitHub Action <actions@wcrp-cmip.org>'  
+    # commit_info = os.popen(f'git log -n 1 -- {f} ').read()
+    full = os.popen(f'git log -- {f} ').read()
 
-        previous_commit = ''
-        commit_info = ''
 
-        commit_blocks = re.split(r'\n(?=commit\s)', full)
-        for c in commit_blocks:
-            if 'reset-checksum' in c or 'reset_checksum' in c:
-                continue
-            if 'Automated Versioning Update' in c:
-                continue
-            if skip not in c and 'CMIP-IPO: Automated GitHub Action' not in c:
-                if not commit_info:
-                    commit_info = c
-                elif commit_info and not previous_commit:
-                    previous_commit = re.search(r"commit (\S+)", c)
-                    break
+    previous_commit = ''
+    commit_info = False
+    
+    
 
-        if 'commit_info' not in locals():
-            print(f)
-            print(commit_blocks)
-            print('no suitable commit found')
-            sys.exit('no suitable commit found')
+    commit_blocks = re.split(r'\n(?=commit\s)', full)
+    for c in commit_blocks:
+        if 'reset-checksum' in c:
+            continue
+        if 'Automated Versioning Update' in c:
+            continue
+        if skip not in c:
+            if not commit_info:
+                commit_info = c
+            elif commit_info and not previous_commit:
+                previous_commit = re.search(r"commit (\S+)", c)
+                break
 
-        commit_dict = {}
+    if 'commit_info' not in locals():
+        print(f)
+        print(commit_blocks)
+        print('no suitable commit found')
+        sys.exit('no suitable commit found')
 
-        # Extract information using regular expressions
-        commit_match = re.search(r"commit (\S+)", commit_info) 
-        author_match = re.search(r"Author: (.+)", commit_info) 
-        date_match = re.search(r"Date: (.+)", commit_info)
-        commit_message_match = re.search(r"    (.+)", commit_info)
 
-        if commit_match:
-            commit_dict["commit_sha"] = commit_match.group(1)
+    ##########################################
+    # extract commit info
+    ##########################################
 
-        if author_match:
-            author_info = author_match.group(1).split(" <")
-            commit_dict["author_name"] = author_info[0]
-            try:
-                commit_dict["author_institute"] = maintainers[author_info[0]]['institute']
-                commit_dict["author_name"] = maintainers[author_info[0]]['published_name']
-            except:
-                raise KeyError(f'Please add \n\t "{author_info[0]}": \n\t\t','{"institute": "", "published_name": "Name you wish to use"}')
-            commit_dict["author_email"] = author_info[1][:-1]
+    commit_dict = {}
 
-        if date_match:
-            commit_dict["commit_date"] = date_match.group(1)
+    # Extract information using regular expressions
+    commit_match = re.search(r"commit (\S+)", commit_info)
+    author_match = re.search(r"Author: (.+)", commit_info)
+    date_match = re.search(r"Date: (.+)", commit_info)
+    commit_message_match = re.search(r"    (.+)", commit_info)
 
-        if commit_message_match:
-            commit_dict["commit_message"] = commit_message_match.group(1)
+    if commit_match:
+        commit_dict["commit_sha"] = commit_match.group(1)
+
+    if author_match:
+        author_info = author_match.group(1).split(" <")
+        commit_dict["author_name"] = author_info[0]
+        try:
+            commit_dict["author_institute"] = maintainers[author_info[0]]['institute']
+            commit_dict["author_name"] = maintainers[author_info[0]]['published_name']
+        except:
+            commit_dict["author_name"] = author_match.group(1)
+            
+            print( f'Please add \n\t "{author_info[0]}": \n\t\t','{"institute": "", "published_name": "Name you wish to use"}')
+            # this was a keyerror
+            
+        commit_dict["author_email"] = author_info[1][:-1]  
+
+    if date_match:
+        commit_dict["commit_date"] = date_match.group(1)
+
+    if commit_message_match:
+        commit_dict["commit_message"] = commit_message_match.group(1)
+
+
 
         ##########################################
         # create a new version metadata
@@ -161,24 +166,25 @@ def process_files(files,tag=None,write=True):
             # keep the individualized commit messages
             ##########################################
             
-            if 'commit_date' in commit_dict:
-                timestamp_obj = datetime.strptime(commit_dict.get('commit_date').lstrip(), "%a %b %d %H:%M:%S %Y %z")
-            else: 
-                timestamp_obj = datetime.now()
-            formatted_timestamp = timestamp_obj.strftime("%y/%m/%d %H:%M")
+            print(author_match.group(1),f)
+            print(commit_dict['commit_message'])
 
             os.popen(f"git add {f}").read()
-            os.popen(f"git commit -m '{formatted_timestamp} - {commit_dict.get('commit_message','no commit message')[:50]}'").read()
-        else: 
-            return contents
+
+            os.popen(f'git commit --author="{author_match.group(1)}" -m "{commit_dict["commit_message"]}"').read()
+            
+    os.popen('git push').read()
+
+    
 
 if __name__ == "__main__":
     files = glob.glob('*.json')
     files.extend(glob.glob('Auxillary_files/*.json'))
 
     parser = argparse.ArgumentParser(description="Retrieve details for the latest tag of a GitHub repository.")
-    parser.add_argument("-t", "--tag", help="tag number")
+    parser.add_argument("-t", "--token", help="gh token")
+    parser.add_argument("-b","--branch" ,help="branch name")
 
     args = parser.parse_args()
 
-    process_files(files,tag=args.tag)
+    process_files(files, token=args.token, branch = args.branch)
