@@ -200,5 +200,5 @@ if __name__ == "__main__":
     parser.add_argument("-b","--branch" ,help="branch name")
 
     args = parser.parse_args()
-
-    process_files(files, token=args.token, branch = args.branch)
+    if args.branch == 'main':
+        process_files(files, token=args.token, branch = args.branch)
