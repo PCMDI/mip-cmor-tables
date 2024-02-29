@@ -1,0 +1,26 @@
+{
+    "source_type": {
+        "AER": "aerosol treatment in an atmospheric model where concentrations are calculated based on emissions, transformation, and removal processes (rather than being prescribed or omitted entirely)",
+        "AGCM": "atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface",
+        "AOGCM": "coupled atmosphere-ocean global climate model, additionally including explicit representation of at least the land and sea ice",
+        "BGC": "biogeochemistry model component that at the very least accounts for carbon reservoirs and fluxes in the atmosphere, terrestrial biosphere, and ocean",
+        "CHEM": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them",
+        "ISM": "ice-sheet model that includes ice-flow",
+        "LAND": "land model run uncoupled from the atmosphere",
+        "OGCM": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
+        "RAD": "rad iation component of an atmospheric model run 'offline'",
+        "SLAB": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system"
+    },
+    "version_metadata": {
+        "version_tag": "ghs_8hrOXyH6IqmM5SE8fOwURCdflz7y080RpBoS",
+        "checksum": "md5: 0efe679688a3f736f48d53e5664afec6",
+        "MIP_source_type_modified": "Tue Nov 28 21:14:07 2023 +0000",
+        "MIP_source_type_note": "Updating versioning and model_components scripts to process files individually.",
+        "commit": "50ee06a3b58fb2b064485d454203766327f4d770",
+        "previous_commit": "",
+        "author": "Daniel Ellis",
+        "institution_id": "CMIP-IPO",
+        "CV_collection_version": "v6.5.0.0",
+        "specs_doc": "v6.5.0"
+    }
+}

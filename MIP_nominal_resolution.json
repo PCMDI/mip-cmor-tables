@@ -1,0 +1,31 @@
+{
+    "nominal_resolution": [
+        "0.5 km",
+        "1 km",
+        "10 km",
+        "100 km",
+        "1000 km",
+        "10000 km",
+        "1x1 degree",
+        "2.5 km",
+        "25 km",
+        "250 km",
+        "2500 km",
+        "5 km",
+        "50 km",
+        "500 km",
+        "5000 km"
+    ],
+    "version_metadata": {
+        "version_tag": "ghs_8hrOXyH6IqmM5SE8fOwURCdflz7y080RpBoS",
+        "checksum": "md5: c9cd69e41c0c6b875bdbc096b613f7e9",
+        "MIP_nominal_resolution_modified": "Tue Nov 28 21:14:07 2023 +0000",
+        "MIP_nominal_resolution_note": "Updating versioning and model_components scripts to process files individually.",
+        "commit": "50ee06a3b58fb2b064485d454203766327f4d770",
+        "previous_commit": "",
+        "author": "Daniel Ellis",
+        "institution_id": "CMIP-IPO",
+        "CV_collection_version": "v6.5.0.0",
+        "specs_doc": "v6.5.0"
+    }
+}
