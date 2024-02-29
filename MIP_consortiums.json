@@ -202,15 +202,14 @@
         }
     },
     "version_metadata": {
-        "version_tag": "ghs_8hrOXyH6IqmM5SE8fOwURCdflz7y080RpBoS",
-        "checksum": "md5: 8ddc2e21ab7b2892a26a35e8c68c8c14",
+        "version_tag": "v6.5.0.0",
+        "checksum": "md5: 96043a8112e6596024a6f5269723e950",
         "MIP_consortiums_modified": "Tue Nov 28 21:14:07 2023 +0000",
         "MIP_consortiums_note": "Updating versioning and model_components scripts to process files individually.",
         "commit": "50ee06a3b58fb2b064485d454203766327f4d770",
         "previous_commit": "",
         "author": "Daniel Ellis",
-        "institution_id": "CMIP-IPO",
-        "CV_collection_version": "v6.5.0.0",
+        "CV_collection_version": "v6.5.1.1",
         "specs_doc": "v6.5.0"
     }
 }
