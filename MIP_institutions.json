@@ -1493,11 +1493,11 @@
         "consortiums": []
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.0",
+        "version_tag": "v6.5.0.1",
         "checksum": "md5: bde145381d03581e8b2b81e5c2e93ab9",
-        "MIP_institutions_modified": "Sun Feb 25 19:42:31 2024 +0000",
+        "MIP_institutions_modified": "Thu Feb 29 16:22:42 2024 +0000",
         "MIP_institutions_note": "Fixing spelling of identifiers",
-        "commit": "56ac66ef9cb470955763e0a364fb6c672d9250c5",
+        "commit": "d47a581f5238b411943b5fe90897239c976a3263",
         "previous_commit": "",
         "author": "Daniel Ellis",
         "CV_collection_version": "v6.5.1.1",
