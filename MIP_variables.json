@@ -68060,11 +68060,11 @@
         }
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.0",
+        "version_tag": "v6.5.0.1",
         "checksum": "md5: 1cc6552b31f82a7223a680bd385d6dfd",
-        "MIP_variables_modified": "Tue Nov 28 21:14:07 2023 +0000",
+        "MIP_variables_modified": "Thu Feb 29 16:22:42 2024 +0000",
         "MIP_variables_note": "Updating versioning and model_components scripts to process files individually.",
-        "commit": "50ee06a3b58fb2b064485d454203766327f4d770",
+        "commit": "7693ad510e4ac3b6fbe2713b2db4dce209832ad6",
         "previous_commit": "",
         "author": "Daniel Ellis",
         "CV_collection_version": "v6.5.1.1",
