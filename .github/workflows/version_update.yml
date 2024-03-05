@@ -3,13 +3,18 @@ name: File Versioning
 on:
   push:
     branches:
-      - '*'
-    tags:
-      - '*'
+      - 'main'
+  #   tags:
+  #     - '*'
+  release:
+    types:
+      - 'created'
 
 jobs:
   update_versioning:
     runs-on: ubuntu-latest
+    outputs:
+      steps_completed: ${{ steps.steps_completed.outputs.run-python-script }}
 
     env:
       API_KEY: ${{ secrets.API_KEY }}
@@ -53,8 +58,13 @@ jobs:
       - name: Update Versioning
         id: run-python-script
         run: |
-          if [[ "${{ github.event_name }}" == "push" && "${{ startsWith(github.ref, 'refs/tags/') }}" == "true" ]]; then
+          git pull origin main
+          echo "${{github.event_name}} ${{github.ref}}"
+          if [[ "${{ github.event_name }}" == "release"  ]]; then
             echo "This is a tag release."
+            # && "${{ startsWith(github.ref, 'refs/tags/') }}" == "true"
+            git checkout main
+            git pull origin main
             export TAG_NAME=$(echo "${{ github.ref }}" | sed 's|refs/tags/||')
             python .github/libs/version.py -t ${GH_TOKEN} -b $(git rev-parse --abbrev-ref HEAD) -n ${TAG_NAME}
           else
@@ -71,10 +81,8 @@ jobs:
       - name: Write Changes
         run: |
           if [ -z "$ACT" ]; then
-            #   timestamp=$(date -u +"%Y-%m-%d %H:%M UTC")
-            #   git add -A 
-            #   git commit -m 'Automated Versioning Update' 
-              git push origin $(git rev-parse --abbrev-ref HEAD)
+            
+              git push origin main
           else
             echo "Skipping this step in 'act' environment."
           fi
