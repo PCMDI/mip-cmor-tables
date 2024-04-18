@@ -2,7 +2,7 @@
 name: Add Consortium
 about: Adding a new consortium
 title: 'Add Consortium: CONSORTIUM'
-labels: ''
+labels: 'add_consortium'
 assignees: ''
 
 ---
