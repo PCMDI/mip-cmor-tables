@@ -28,7 +28,7 @@ jobs:
         run: |
           title=$(echo "${{ steps.read_title.outputs.title }}" | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]' | tr -d ' ')
           if [[ "$title" == *"add consortium"* ]]; then
-            echo "::set-output name=script::/add/consortium.py"
+            echo "::set-output name=script::add/consortium.py"
           else
             echo "::set-output name=script::default_script.py"
           fi
@@ -42,7 +42,7 @@ jobs:
           ISSUE_BODY: ${{ steps.read_body.outputs.body }}
           ISSUE_SUBMITTER: ${{ steps.read_submitter.outputs.submitter }}
         run: |
-          out=python "${{ steps.determine_script.outputs.script }}"
+          out=python ".github/libs/${{ steps.determine_script.outputs.script }}"
           echo "::set-output name=outname::$out"
           
 
