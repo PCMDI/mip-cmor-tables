@@ -27,10 +27,10 @@ jobs:
         id: determine_script
         run: |
           title=$(echo "${{ steps.read_title.outputs.title }}" | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]' | tr -d ' ')
-          if [[ "$title" == *"add consortium"* ]]; then
+          if [[ "$title" == *"Add Consortium"* ]]; then
             echo "::set-output name=script::add/consortium.py"
           else
-            echo "::set-output name=script::default_script.py"
+            # echo "::set-output name=script::default_script.py"
           fi
 
 
