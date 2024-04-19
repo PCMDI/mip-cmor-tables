@@ -33,7 +33,9 @@ jobs:
         id: run_python
         env:
           ISSUE_TITLE: ${{ steps.read_issue.outputs.title }}
-          ISSUE_BODY: ${{ steps.read_issue.outputs.body }}
+          ISSUE_BODY: |
+                ${{ steps.read_issue.outputs.body }}
+                # pipe should preseve newline properties. 
           ISSUE_SUBMITTER: ${{ steps.read_issue.outputs.submitter }}
         run: |
           script="${{ steps.determine_script.outputs.script }}"
