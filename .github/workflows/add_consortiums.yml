@@ -31,6 +31,7 @@ jobs:
             echo "::set-output name=script::add/consortium.py"
           else
             # echo "::set-output name=script::default_script.py"
+            echo ""
           fi
 
 
