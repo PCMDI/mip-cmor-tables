@@ -19,7 +19,8 @@ def parse_md(body):
     template_data = {}
 
     # Read lines from the file
-    lines = [i for i in body.split('\n') if i.strip(' ')[0] != '#']
+    lines = body.split('\n')
+    # [i for i in body.split('\n') if i.strip(' ')[0] != '#']
 
     # Iterate over each line
     current_key = None
