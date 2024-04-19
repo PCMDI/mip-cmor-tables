@@ -29,8 +29,8 @@ name_regex = r"\*\*Name\*\*\n(.*?)\n"
 part_of_regex = r"\*\*Who is this part of \*\*\n(.*?)\n"
 
 # Extract values using regular expressions
-consortium_name = re.search(name_regex, issue_title, re.DOTALL).group(1).strip()
-part_of = re.search(part_of_regex, text, re.DOTALL).group(1).strip()
+consortium_name = re.search(name_regex, issue_body, re.DOTALL).group(1).strip()
+part_of = re.search(part_of_regex, issue_body, re.DOTALL).group(1).strip()
 
 print("Consortium Name:", consortium_name)
 print("Part of:", part_of)
