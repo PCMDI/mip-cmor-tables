@@ -20,7 +20,6 @@ def parse_md(body):
 
     # Read lines from the file
     lines = body.split('\n')
-    # [i for i in body.split('\n') if i.strip(' ')[0] != '#']
 
     # Iterate over each line
     current_key = None
@@ -29,7 +28,7 @@ def parse_md(body):
         line = line.strip()
 
         # Skip empty lines and lines starting with '##' (section headings)
-        if not line or line.startswith("##"):
+        if not line or line.startswith("#"):
             continue
 
         # Check for lines containing '**'
