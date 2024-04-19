@@ -24,6 +24,8 @@ issue_body = os.environ.get('ISSUE_BODY')
 issue_submitter = os.environ.get('ISSUE_SUBMITTER')
 
 
+print(issue_body, issue_submitter)
+
 # Define regular expressions to extract the values
 name_regex = r"\*\*Name\*\*\n(.*?)\n"
 part_of_regex = r"\*\*Who is this part of \*\*\n(.*?)\n"
