@@ -17,16 +17,21 @@ import re
 # - CMIP institution 2
 # """
 
-import sys
-text = sys.argv[1]
+import os
+
+issue_title = os.environ.get('ISSUE_TITLE')
+issue_body = os.environ.get('ISSUE_BODY')
+issue_submitter = os.environ.get('ISSUE_SUBMITTER')
+
 
 # Define regular expressions to extract the values
 name_regex = r"\*\*Name\*\*\n(.*?)\n"
 part_of_regex = r"\*\*Who is this part of \*\*\n(.*?)\n"
 
 # Extract values using regular expressions
-consortium_name = re.search(name_regex, text, re.DOTALL).group(1).strip()
+consortium_name = re.search(name_regex, issue_title, re.DOTALL).group(1).strip()
 part_of = re.search(part_of_regex, text, re.DOTALL).group(1).strip()
 
 print("Consortium Name:", consortium_name)
 print("Part of:", part_of)
+print(issue_body, issue_submitter)
