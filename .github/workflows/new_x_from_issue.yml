@@ -32,7 +32,8 @@ jobs:
         id: run_python
         env:
           ISSUE_TITLE: ${{ steps.read_issue.outputs.title }}
-          ISSUE_BODY: github.event.issue.body
+          ISSUE_BODY: |
+              ${{ github.event.issue.body }}
           # pipe should preseve newline properties for multilines
           ISSUE_SUBMITTER: ${{ steps.read_issue.outputs.submitter }}
         run: |
