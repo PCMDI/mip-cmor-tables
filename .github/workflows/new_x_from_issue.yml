@@ -15,7 +15,6 @@ jobs:
         id: read_issue
         run: |
           echo "::set-output name=title::${{ github.event.issue.title }}"
-          # echo "::set-output name=body::${{ github.event.issue.body }}"
           echo "::set-output name=submitter::${{ github.event.issue.user.login }}"
 
       - name: Determine script to run
