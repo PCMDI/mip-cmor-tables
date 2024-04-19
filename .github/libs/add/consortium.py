@@ -14,11 +14,12 @@ def parse_md(body):
 
     # Remove comments using re.sub
     body = re.sub(pattern, '', body, flags=re.DOTALL)
+    print(body)
 
     template_data = {}
 
     # Read lines from the file
-    lines = [i for i in body.split('\n') if i.strip()[0] != '#']
+    lines = [i for i in body.split('\n') if i.strip(' ')[0] != '#']
 
     # Iterate over each line
     current_key = None
