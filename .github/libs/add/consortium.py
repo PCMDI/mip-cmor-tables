@@ -23,6 +23,8 @@ issue_title = os.environ.get('ISSUE_TITLE')
 issue_body = os.environ.get('ISSUE_BODY')
 issue_submitter = os.environ.get('ISSUE_SUBMITTER')
 
+print(os.popen('github.event.issue.body').read())
+
 
 print(issue_body, issue_submitter)
 
