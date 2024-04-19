@@ -44,7 +44,12 @@ def parse_md(body):
         else:
             # If it's a continuation of the previous line, append it to the value
             if current_key:
+                if '**' in line: 
+                    current_key = None
+                    continue
                 template_data[current_key] += " " + line
+
+        
 
     return template_data
 
