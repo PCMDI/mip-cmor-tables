@@ -74,44 +74,44 @@ payload = {
 
 
 
-cmd = f'''
-gh api {repos.split("github.com/")[1]/dispatches \\
-  --field event_type="consortium" \\
-  --field client_payload="{payload}"
-'''
+# cmd = f'''
+# gh api {repos.split("github.com/")[1]/dispatches \\
+#   --field event_type="consortium" \\
+#   --field client_payload="{payload}"
+# '''
 
-print(os.popen(cmd).read())
-
-
+# print(os.popen(cmd).read())
 
 
 
 
 
 
-# import json
-# from urllib import request
 
-# # Construct the request headers
-# headers = {
-#     "Accept": "application/vnd.github.everest-preview+json",
-#     "Authorization": f"token {token}",
-#     "Content-Type": "application/json"
-# }
 
-# # Encode the payload
-# datapayload = json.dumps(payload).encode('utf-8')
+import json
+from urllib import request
 
-# # Make the POST request
-# req = request.Request(f"{repo}/dispatches", data=datapayload, headers=headers, method='POST')
+# Construct the request headers
+headers = {
+    "Accept": "application/vnd.github.everest-preview+json",
+    "Authorization": f"token {token}",
+    "Content-Type": "application/json"
+}
 
-# # Perform the request
-# try:
-#     with request.urlopen(req) as response:
-#         if response.getcode() == 204:
-#             print("Dispatch event triggered successfully.")
-#         else:
-#             print(f"Failed to trigger dispatch event. Status code: {response.getcode()}")
-#             print(response.read().decode('utf-8'))
-# except Exception as e:
-#     print(f"Error: {e}")
+# Encode the payload
+datapayload = json.dumps(payload).encode('utf-8')
+
+# Make the POST request
+req = request.Request(f"{repo}/dispatches", data=datapayload, headers=headers, method='POST')
+
+# Perform the request
+try:
+    with request.urlopen(req) as response:
+        if response.getcode() == 204:
+            print("Dispatch event triggered successfully.")
+        else:
+            print(f"Failed to trigger dispatch event. Status code: {response.getcode()}")
+            print(response.read().decode('utf-8'))
+except Exception as e:
+    print(f"Error: {e}")
