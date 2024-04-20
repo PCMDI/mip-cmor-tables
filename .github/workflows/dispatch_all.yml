@@ -1,5 +1,4 @@
-name: Adding new Consortium
-
+name: A new addition.
 on:
   repository_dispatch:
     types:
