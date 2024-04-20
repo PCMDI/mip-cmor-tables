@@ -27,6 +27,8 @@ jobs:
           # PAYLOAD_DATA: ${{ github.event.client_payload.data }}
           NAME: ${{ github.event.client_payload.name }}
           ISSUE: ${{ github.event.client_payload.issue }}
+          PAYLOAD_DATA: ${{ github.event.client_payload }}
+            
         run: |
             base_branch="main"
             feature_branch='consortium_$NAME'
@@ -47,7 +49,6 @@ jobs:
             fi
 
 
-            PAYLOAD_DATA=${{ github.event.client_payload.data }}
             
             content=$(python .github/libs/parse/consortium.py)
             
