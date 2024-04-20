@@ -17,8 +17,6 @@ jobs:
         run: |
           echo "Received Payload from"
           echo "author: ${{ github.event.client_payload.author }}"
-        
-
           
       - name: Create Pull Request
         env:
@@ -27,7 +25,6 @@ jobs:
           REPO: ${{ github.repository }}
           DATA: ${{ github.event.client_payload.data }}
         run: |  
-
           base_branch="main"
           feature_branch="consortium_${{ github.event.client_payload.name }}"
           git pull
