@@ -23,7 +23,7 @@ conly = consortiums["consortiums"]
 
 
 if data['acronym'] in conly:
-  close_issue(issue_number,f'{data['name']} already exists in the consortium list. Please review request.')
+  close_issue(issue_number,f'{data["name"]} already exists in the consortium list. Please review request.')
 
 error = ''
 inst = {}
