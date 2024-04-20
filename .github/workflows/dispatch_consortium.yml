@@ -29,12 +29,12 @@ jobs:
           ISSUE: ${{ github.event.client_payload.issue }}
         run: |
             base_branch="main"
-            feature_branch="consortium_$NAME"
+            feature_branch='consortium_$NAME'
             
             git pull
             
-            remote_branch="origin/$feature_branch"
-            branch_info=$(git rev-parse --verify "$remote_branch" >/dev/null 2>&1 || true)
+            remote_branch='origin/$feature_branch'
+            branch_info=$(git rev-parse --verify '$remote_branch' >/dev/null 2>&1 || true)
             echo "branch info: $branch_info"
             
             if [ -n "$branch_info" ]; then
