@@ -72,7 +72,7 @@ def update_issue_title (issue_number,kind,payload):
 
 
 def update_issue(issue_number,comment,err=True):
-    print(os.popen(f'gh issue comment create {issue_number} --body "{comment}"'))
+    print(os.popen(f'gh issue comment {issue_number} --body "{comment}"'))
     if err: sys.exit(comment)
 
 def close_issue(issue_number, comment,err=True):
