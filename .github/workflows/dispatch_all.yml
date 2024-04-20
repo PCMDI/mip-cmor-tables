@@ -63,8 +63,8 @@ jobs:
               git checkout -b $feature_branch
             fi
 
+            python .github/libs/parse/${KIND}.py
 
-            
             content=$( python .github/libs/parse/${KIND}.py )
 
             

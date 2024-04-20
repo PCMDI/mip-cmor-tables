@@ -136,7 +136,7 @@ institutions['institutions'] = ilist
 
 
 # Serialize back to JSON
-new_json_data = jw(data, getfile('institutions')[0])
+jw(data, getfile('institutions')[0])
 
 
 
