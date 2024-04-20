@@ -31,7 +31,7 @@ for i in data['institutions']:
   if i not in institutions:
     error += f' - Institution [{i}] does not exists in the institutions file. Please add this to proceed.\n'
   else:
-    inst[i] = f'{i} [{institutions[i]['identifiers']['ror']} - {institutions[i]['identifiers']['institution_name']}]'
+    inst[i] = f"{i} [{institutions[i]['identifiers']['ror']} - {institutions[i]['identifiers']['institution_name']}]"
   
 if error: update_issue(issue_number,error)
 
