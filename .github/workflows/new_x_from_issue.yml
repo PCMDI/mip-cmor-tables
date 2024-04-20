@@ -40,6 +40,8 @@ jobs:
   
       - name: Determine script to run
         id: determine_script
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # title=$(echo "${{ steps.read_issue.outputs.title }}" | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]' | tr -d ' ')
           # # this flattens the title and removed spaces, punctuation and case
