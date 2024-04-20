@@ -45,7 +45,7 @@ jobs:
           # # this flattens the title and removed spaces, punctuation and case
           # if [[ "$title" == *"addconsortium"* ]]; then
 
-          for label in ${github.event.issue.labels}; do
+          for label in $github.event.issue.labels; do
             echo "$label"
             if [[ "$label" == *"consortium"* ]]; then
               echo "'$label' contains 'add_component'"
