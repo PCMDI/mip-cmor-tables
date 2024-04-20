@@ -53,7 +53,9 @@ jobs:
           for label in $labels; do
             echo "$label"
             if [[ "$label" == *"consortium"* ]]; then
-              echo "'$label' contains 'add_component'"
+              # echo "'$label' contains 'add_component'"
+              echo "::set-output name=script::add/consortium.py"
+              
               break
             fi
           done
