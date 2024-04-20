@@ -124,6 +124,7 @@ update_issue(issue_number,f"# Sanity Check: \n Is `{data['full_name']}` the same
 
 ilist[data['acronym']] = new_entry
 
+# print for pull request
 print( {data['acronym'] : new_entry })
 
 
@@ -131,13 +132,11 @@ ilist = OrderedDict(sorted(ilist.items(), key=lambda item: item[0]))
 
 institutions['institutions'] = ilist
 
-print(institutions.keys())
 
-json.dumps(ilist)
-json.dumps(institutions)
+
 
 # Serialize back to JSON
-jw(data, getfile('institutions')[0])
+jw(institutions, getfile('institutions')[0])
 
 
 
