@@ -1,4 +1,4 @@
-name: Source_ID_dispatch
+name: Adding new Consortium
 
 on:
   repository_dispatch:
