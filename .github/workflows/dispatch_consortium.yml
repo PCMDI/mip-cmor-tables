@@ -49,7 +49,7 @@ jobs:
 
 
             
-            content=$(PAYLOAD_DATA=${{github.event.client_payload}} python .github/libs/parse/consortium.py)
+            content=$( python .github/libs/parse/consortium.py "${{github.event.client_payload}}")
 
             
             
