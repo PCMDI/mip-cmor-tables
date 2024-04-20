@@ -39,13 +39,11 @@ def get_ror_data(name):
             return json_data
     except urllib.error.HTTPError as e:
         err = f"Error: {e.code} - {e.reason}"
-        print(err)
-        fail.append(err)
+        # print(err)
         return None
     except urllib.error.URLError as e:
         err = f"Error: {e.reason}"
-        print(err)
-        fail.append(err)
+        # print(err)
         return None
 
 
@@ -133,7 +131,10 @@ ilist = OrderedDict(sorted(ilist.items(), key=lambda item: item[0]))
 
 institutions['institutions'] = ilist
 
-print(ilist)
+print(institutions.keys())
+
+json.dumps(ilist)
+json.dumps(institutions)
 
 # Serialize back to JSON
 jw(data, getfile('institutions')[0])
