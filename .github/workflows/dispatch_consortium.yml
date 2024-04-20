@@ -28,8 +28,6 @@ jobs:
           DATA: ${{ github.event.client_payload.data }}
         run: |  
 
-          github_token="${{ secrets.GITHUB_TOKEN }}"
-
           base_branch="main"
           feature_branch="consortium_${{ github.event.client_payload.name }}"
           git pull
@@ -110,6 +108,8 @@ jobs:
             \`\`\`json
             $content
             \`\`\`
+
+            Resolves #${{github.event.client_payload.issue}}
             
             " --reviewer $GITHUB_USERNAME
 
