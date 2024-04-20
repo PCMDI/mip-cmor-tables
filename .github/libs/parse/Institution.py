@@ -126,9 +126,10 @@ update_issue(issue_number,f"# Sanity Check: \n Is `{data['full_name']}` the same
 
 ilist[data['acronym']] = new_entry
 
+print( {data['acronym'] : new_entry })
 
 
-ilist = OrderedDict(sorted(ilist.items(), key=lambda item: item))
+ilist = OrderedDict(sorted(ilist.items(), key=lambda item: item[0]))
 
 institutions['institutions'] = ilist
 
