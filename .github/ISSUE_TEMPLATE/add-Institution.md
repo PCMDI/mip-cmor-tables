@@ -29,7 +29,7 @@ To get an institutions ROR code we can see if it exists on ror.org. For the entr
 
 ``` configfile
 
-[institution]
+[institutions]
     Acronym = "CMIP-IPO"
     Full_Name = "Coupled Model Intercomparison Project: International Project Office"
     ROR = "000fg4e24"
