@@ -40,7 +40,7 @@ payload = {
         "name": data['acronym'], # we need this to define the pull request
         "issue": issue_number,
         "author" : issue_submitter,
-        "data" : json.dumps(data).encode('utf-8')
+        "data" : json.dumps(data)
     }
 }
 
