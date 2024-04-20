@@ -12,12 +12,8 @@ from action_functions import update_issue,jr,jw,getfile,close_issue
 # data
 issue_number = os.environ['ISSUE']
 data = os.environ['PAYLOAD_DATA']
-
-print(f'--{data}--')
-
 data = json.loads(str(data))
 
-print(data)
 
 # Load Existing
 consortiums = jr(getfile('consortiums')[0])
@@ -28,13 +24,13 @@ conly = consortiums["consortiums"]
 
 
 if data['acronym'] in conly:
-  close_issue(issue_number,f'# Closing issue. \n {data["acronym"]} already exists in the consortium list. \n\n Please review request and resubmit.')
+  close_issue(issue_number,f'# Closing issue. \n `{data["acronym"]}` already exists in the consortium list. \n\n Please review request and resubmit.')
 
 error = ''
 inst = {}
 for i in data['institutions']:
   if i not in institutions:
-    error += f'    - Institution [{i}] does not exists in the institutions file. Please add this to proceed.\n'
+    error += f'    - Institution [`{i}`] does not exists in the institutions file. Please add this to proceed.\n'
   else:
     inst[i] = f"{i} [{institutions[i]['identifiers']['ror']} - {institutions[i]['identifiers']['institution_name']}]"
   
@@ -63,18 +59,3 @@ new_json_data = jw(data, getfile('consortiums')[0])
 
 
 
-
-
-
-
-
-
-
-# with open('del.txt','w') as r:
-#   r.write(data)
-
-# os.popen('git add -A').read()
-
-# 
-
-# print(data)
