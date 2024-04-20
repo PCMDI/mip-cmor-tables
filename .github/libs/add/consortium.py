@@ -1,11 +1,15 @@
 import re
 import os
+import re,configparser
+import json,ast
+from io import StringIO
 
+issue_number = os.environ.get('github.event.issue.number')
 issue_title = os.environ.get('ISSUE_TITLE')
 issue_body = os.environ.get('ISSUE_BODY')
 issue_submitter = os.environ.get('ISSUE_SUBMITTER')
 
-print(issue_body, issue_submitter)
+print(issue_number, issue_body, issue_submitter)
 
 
 def parse_md(body):
@@ -16,42 +20,28 @@ def parse_md(body):
     body = re.sub(pattern, '', body, flags=re.DOTALL)
     print(body)
 
-    template_data = {}
+    config_str = re.search(r'```\sconfigfile(.*?)```',body, re.DOTALL).group(1)
+   
 
-    # Read lines from the file
-    lines = body.split('\n')
+    # Create a file-like object from the string
+    config_file = StringIO(config_str)
+    
+    # Create a ConfigParser object
+    config = configparser.ConfigParser()
+    
+    # Read configuration from the file-like object
+    config.read_file(config_file)
 
-    # Iterate over each line
-    current_key = None
-    for line in lines:
-        # Strip leading and trailing whitespaces
-        line = line.strip()
+    # Initialize an empty dictionary to hold the configuration data
+    config_dict = {}
 
-        # Skip empty lines and lines starting with '##' (section headings)
-        if not line or line.startswith("#"):
-            continue
-
-        # Check for lines containing '**'
-        if line.startswith("**") and ":" in line:
-            # Extract key and value
-            key, value = line.split(":", 1)
-            key = key.strip("**").strip()
-            value = value.strip()
-
-            # Store the current key-value pair
-            template_data[key] = value
-            current_key = key
-        else:
-            # If it's a continuation of the previous line, append it to the value
-            if current_key:
-                if '**' in line: 
-                    current_key = None
-                    continue
-                template_data[current_key] += " " + line
-
-        
-
-    return template_data
+    # Iterate over sections and options
+    for section in config.sections():
+        config_dict[section] = {}
+        for option in config.options(section):
+            config_dict[section][option] = ast.literal_eval(config.get(section, option))
+    
+    return config_dict
 
 
 parsed = parse_md(issue_body)
