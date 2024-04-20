@@ -63,7 +63,7 @@ data['institutions'] = parsed['institutions']['cmip6_acronyms']
 
 
 payload = {
-    "event_type": __name__,
+    "event_type": __file__.split('/')[-1].replace('.py',''),
     "client_payload": {
         "issue": issue_number,
         "author" : issue_submitter,
