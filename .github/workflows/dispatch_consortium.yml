@@ -24,7 +24,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REQ_AUTHOR: ${{ github.event.client_payload.author }}
-          PAYLOAD_DATA: ${{ github.event.client_payload.data }}
+          # PAYLOAD_DATA: ${{ github.event.client_payload.data }}
           NAME: ${{ github.event.client_payload.name }}
           ISSUE: ${{ github.event.client_payload.issue }}
         run: |
@@ -45,6 +45,9 @@ jobs:
               echo "checkout new"
               git checkout -b $feature_branch
             fi
+
+
+            PAYLOAD_DATA=${{ github.event.client_payload.data }}
             
             content=$(python .github/libs/parse/consortium.py)
             
