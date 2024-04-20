@@ -1,4 +1,4 @@
-name: New Consortium Processing
+name: New Issue Processing
 
 on:
   issues:
@@ -14,8 +14,13 @@ jobs:
       - name: Read issue details
         id: read_issue
         run: |
+          repo_owner=${{ github.event.repository.owner.login }}
+          repo_name=${{ github.event.repository.name }}
+          repo_url="https://github.com/${repo_owner}/${repo_name}"
+          
           echo "::set-output name=title::${{ github.event.issue.title }}"
           echo "::set-output name=submitter::${{ github.event.issue.user.login }}"
+          echo "::set-output name=url::${{ repo_url }}"
 
       - name: Determine script to run
         id: determine_script
@@ -36,6 +41,8 @@ jobs:
               ${{ github.event.issue.body }}
           # pipe should preseve newline properties for multilines
           ISSUE_SUBMITTER: ${{ steps.read_issue.outputs.submitter }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          REPO: ${{ steps.read_issue.outputs.url }}
         run: |
           script="${{ steps.determine_script.outputs.script }}"
           if [ "$script" == "default" ]; then
