@@ -12,10 +12,9 @@ from action_functions import update_issue,jr,jw,getfile,close_issue
 # data
 issue_number = os.environ['ISSUE']
 data = os.environ['PAYLOAD_DATA']
+data = json.loads(str(data))
 
-print('dd',data)
-
-data = json.loads(data)
+print(data)
 
 # Load Existing
 consortiums = jr(getfile('Consortiums')[0])
