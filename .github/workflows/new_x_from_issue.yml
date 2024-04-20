@@ -52,20 +52,18 @@ jobs:
           
           for label in $labels; do
             echo "$label"
-            if [[ "$label" == *"consortium"* ]]; then
+            if [[ "$label" == *"institution"* ]]; then
+              # echo "'$label' contains 'add_institution'"
+              echo "::set-output name=script::add/Institution.py"
+              break
+            elif [[ "$label" == *"consortium"* ]]; then
               # echo "'$label' contains 'add_component'"
-              echo "::set-output name=script::add/consortium.py"
-              
+              echo "::set-output name=script::add/Consortium.py"
               break
             fi
           done
           
-          # if [[ "$labels" == *"add_consortium"* ]]; then
-          #   echo "::set-output name=script::add/consortium.py"
-          # else
-          #   echo "default"
-          # fi
-  
+
       - name: Run Python script
         id: run_python
         env:
@@ -85,7 +83,3 @@ jobs:
             python ".github/libs/$script" 
           fi
   
-      # - name: Create branch
-      #   run: |
-      #     title=$(echo "${{ steps.read_issue.outputs.title }}" | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]' | tr -d ' ')
-      #     git checkout -b "$title"
