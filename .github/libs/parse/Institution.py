@@ -136,7 +136,8 @@ institutions['institutions'] = ilist
 # Serialize back to JSON
 jw(institutions, getfile('institutions')[0])
 
-os.popen(f'git commit -a "New entry {data["acronym"]} to the Institutions file"').read()
+os.popen(f'git add -A"').read()
+os.popen(f'git commit -m "New entry {data["acronym"]} to the Institutions file"').read()
 
 
 
