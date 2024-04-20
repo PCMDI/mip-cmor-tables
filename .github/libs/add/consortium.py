@@ -8,7 +8,7 @@ issue_number = os.environ.get('ISSUE_NUMBER')
 issue_title = os.environ.get('ISSUE_TITLE')
 issue_body = os.environ.get('ISSUE_BODY')
 issue_submitter = os.environ.get('ISSUE_SUBMITTER')
-repo = os.environ.get('REPO').replace('https://github.com','https://api.github.com')
+repo = os.environ.get('REPO').replace('https://github.com','https://api.github.com/repos')
 token = os.environ.get('GH_TOKEN')
 
 print(repo,issue_number, issue_body, issue_submitter,token)
@@ -74,29 +74,44 @@ payload = {
 
 
 
-import json
-from urllib import request
+cmd = f'''
+gh api {repos.split("github.com/")[1]/dispatches \
+  --field event_type="consortium" \
+  --field client_payload="{payload}"
+'''
 
-# Construct the request headers
-headers = {
-    "Accept": "application/vnd.github.everest-preview+json",
-    "Authorization": f"token {token}",
-    "Content-Type": "application/json"
-}
+print(os.popen(cmd).read()))
 
-# Encode the payload
-datapayload = json.dumps(payload).encode('utf-8')
 
-# Make the POST request
-req = request.Request(f"{repo}/dispatches", data=datapayload, headers=headers, method='POST')
 
-# Perform the request
-try:
-    with request.urlopen(req) as response:
-        if response.getcode() == 204:
-            print("Dispatch event triggered successfully.")
-        else:
-            print(f"Failed to trigger dispatch event. Status code: {response.getcode()}")
-            print(response.read().decode('utf-8'))
-except Exception as e:
-    print(f"Error: {e}")
+
+
+
+
+
+# import json
+# from urllib import request
+
+# # Construct the request headers
+# headers = {
+#     "Accept": "application/vnd.github.everest-preview+json",
+#     "Authorization": f"token {token}",
+#     "Content-Type": "application/json"
+# }
+
+# # Encode the payload
+# datapayload = json.dumps(payload).encode('utf-8')
+
+# # Make the POST request
+# req = request.Request(f"{repo}/dispatches", data=datapayload, headers=headers, method='POST')
+
+# # Perform the request
+# try:
+#     with request.urlopen(req) as response:
+#         if response.getcode() == 204:
+#             print("Dispatch event triggered successfully.")
+#         else:
+#             print(f"Failed to trigger dispatch event. Status code: {response.getcode()}")
+#             print(response.read().decode('utf-8'))
+# except Exception as e:
+#     print(f"Error: {e}")
