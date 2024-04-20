@@ -5,6 +5,6 @@ data = sys.argv[1]
 
 print(data)
 
-data = json.loads(data)
+# data = json.loads(data)
 
-print(data)
+# print(data)
