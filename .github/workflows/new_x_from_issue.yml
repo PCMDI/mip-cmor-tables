@@ -5,12 +5,28 @@ on:
     types: [opened, edited]
 
 jobs:
+
   process_template:
     runs-on: ubuntu-latest
+    permissions:
+          actions: write
+          checks: write
+          contents: write
+          deployments: write
+          id-token: write
+          issues: write
+          # discussions: write
+          packages: write
+          pages: write
+          pull-requests: write
+          repository-projects: write
+          # security-events: write
+          statuses: write
+          
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-
+  
       - name: Read issue details
         id: read_issue
         run: |
@@ -21,7 +37,7 @@ jobs:
           echo "::set-output name=title::${{ github.event.issue.title }}"
           echo "::set-output name=submitter::${{ github.event.issue.user.login }}"
           echo "::set-output name=url::$repo_url"
-
+  
       - name: Determine script to run
         id: determine_script
         run: |
@@ -32,7 +48,7 @@ jobs:
           else
             echo "default"
           fi
-
+  
       - name: Run Python script
         id: run_python
         env:
@@ -51,7 +67,7 @@ jobs:
           else
             python ".github/libs/$script" 
           fi
-
+  
       # - name: Create branch
       #   run: |
       #     title=$(echo "${{ steps.read_issue.outputs.title }}" | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]' | tr -d ' ')
