@@ -76,7 +76,7 @@ def update_issue(issue_number,comment,err=True):
     if err: sys.exit(comment)
 
 def close_issue(issue_number, comment,err=True):
-    print(os.popen(f'gh issue close {issue_number} --message "{comment}"'))
+    print(os.popen(f'gh issue close {issue_number} -c "{comment}"'))
     if err: sys.exit(comment)
     
 def jr(file):
