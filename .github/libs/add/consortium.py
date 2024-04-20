@@ -9,6 +9,7 @@ issue_title = os.environ.get('ISSUE_TITLE')
 issue_body = os.environ.get('ISSUE_BODY')
 issue_submitter = os.environ.get('ISSUE_SUBMITTER')
 repo = os.environ.get('REPO')
+token = os.environ.get('GH_TOKEN')
 
 print(repo,issue_number, issue_body, issue_submitter)
 
@@ -47,3 +48,48 @@ def parse_md(body):
 
 parsed = parse_md(issue_body)
 print(parsed)
+
+
+'''
+Lets submit the data to a dispatch event
+'''
+
+
+# {'consortium': {'acronym': 'TC', 'name': 'Test Consortium'}, 'consortium.institutions': {'cmip6_acronyms': ['CMIP-IPO', 'WCRP']}}
+# Construct the dispatch event payload
+
+data = parsed['consortium']
+data['institutions'] = parsed['institutions']['cmip6_acronyms']
+
+
+payload = {
+    "event_type": __name__,
+    "client_payload": {
+        "issue": issue_number,
+        "author" : issue_submitter,
+        "data" : data
+    }
+}
+
+# Construct the request headers
+headers = {
+    "Accept": "application/vnd.github.v3+json",
+    "Authorization": f"Bearer {token}"
+}
+
+# Make the POST request
+response = requests.post(
+    f"{repo}/dispatches",
+    headers=headers,
+    json=payload
+)
+
+# Check the response
+if response.status_code == 204:
+    print("Dispatch event triggered successfully.")
+else:
+    print(f"Failed to trigger dispatch event. Status code: {response.status_code}")
+    print(response.text)
+
+
+
