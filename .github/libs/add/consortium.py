@@ -11,7 +11,7 @@ issue_submitter = os.environ.get('ISSUE_SUBMITTER')
 repo = os.environ.get('REPO').replace('https://github.com','https://api.github.com')
 token = os.environ.get('GH_TOKEN')
 
-print(repo,issue_number, issue_body, issue_submitter)
+print(repo,issue_number, issue_body, issue_submitter,token)
 
 
 def parse_md(body):
