@@ -56,7 +56,7 @@ def parse_ror_data(ror_data):
     if ror_data:
 
         return {
-            "indentifiers": {
+            "identifiers": {
                 'institution_name': ror_data['name'],
                 'aliases': ror_data.get('aliases', []),
                 'acronyms': ror_data.get('acronyms', []),
