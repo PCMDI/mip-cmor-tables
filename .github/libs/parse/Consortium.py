@@ -12,6 +12,9 @@ from action_functions import update_issue,jr,jw,getfile,close_issue
 # data
 issue_number = os.environ['ISSUE']
 data = os.environ['PAYLOAD_DATA']
+
+print(f'--{data}--')
+
 data = json.loads(str(data))
 
 print(data)
