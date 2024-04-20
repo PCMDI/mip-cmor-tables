@@ -69,12 +69,12 @@ jobs:
             content=$( python .github/libs/parse/${KIND}.py )
 
             
-            
+            echo "${REQ_AUTHOR}"
             git config --global user.email "${REQ_AUTHOR}@users.noreply.github.com"
             git config --global user.name "${REQ_AUTHOR}"
             
-            git add *consortiums.json
-            git commit -m "Adding $NAME to consortiums"
+            git add -A
+            git commit -m "Adding $NAME to ${KiND}"
             git push origin $feature_branch --force
             
             if [ -n "$branch_info" ]; then
