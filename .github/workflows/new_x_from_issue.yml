@@ -48,6 +48,7 @@ jobs:
           labels="${{ github.event.issue.labels }}"
 
           for label in $labels; do
+            echo "$label"
             if [[ "$label" == *"consortium"* ]]; then
               echo "'$label' contains 'add_component'"
               break
