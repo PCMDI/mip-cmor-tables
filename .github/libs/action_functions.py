@@ -83,7 +83,7 @@ def jr(file):
     return json.load(open(file,'r'))
 
 def jw(file,data):
-    return json.dumps(data,open(file,'w'), indent=4)
+    return json.dump(data,open(file,'w'), indent=4)
 
 def getfile(fileend):
     import glob
