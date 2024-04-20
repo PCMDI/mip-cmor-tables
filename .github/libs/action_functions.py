@@ -82,7 +82,7 @@ def close_issue(issue_number, comment,err=True):
 def jr(file):
     return json.load(open(file,'r'))
 
-def jw(file,data):
+def jw(data,file):
     return json.dump(data,open(file,'w'), indent=4)
 
 def getfile(fileend):

@@ -122,6 +122,7 @@ new_entry = parse_ror_data(dta)
 
 update_issue(issue_number,f"# Sanity Check: \n Is `{data['full_name']}` the same as {new_entry['identifiers']['institution_name']}",False)
 
+
 ilist[data['acronym']] = new_entry
 
 # print for pull request
@@ -133,7 +134,8 @@ ilist = OrderedDict(sorted(ilist.items(), key=lambda item: item[0]))
 institutions['institutions'] = ilist
 
 
-
+json.dumps(ilist)
+json.dumps(institutions)
 
 # Serialize back to JSON
 jw(institutions, getfile('institutions')[0])
