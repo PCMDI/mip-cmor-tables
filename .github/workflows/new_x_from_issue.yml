@@ -47,13 +47,18 @@ jobs:
 
           labels="${{ github.event.issue.labels }}"
 
-          echo " labels ${{ github.event.issue.labels }}"
+          for label in $labels; do
+            if [[ "$label" == *"consortium"* ]]; then
+              echo "'$label' contains 'add_component'"
+              break
+            fi
+          done
           
-          if [[ "$labels" == *"add_consortium"* ]]; then
-            echo "::set-output name=script::add/consortium.py"
-          else
-            echo "default"
-          fi
+          # if [[ "$labels" == *"add_consortium"* ]]; then
+          #   echo "::set-output name=script::add/consortium.py"
+          # else
+          #   echo "default"
+          # fi
   
       - name: Run Python script
         id: run_python
