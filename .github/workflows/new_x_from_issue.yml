@@ -2,7 +2,7 @@ name: New Issue Processing
 
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, labeled]
 
 jobs:
 
@@ -41,9 +41,12 @@ jobs:
       - name: Determine script to run
         id: determine_script
         run: |
-          title=$(echo "${{ steps.read_issue.outputs.title }}" | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]' | tr -d ' ')
-          # this flattens the title and removed spaces, punctuation and case
-          if [[ "$title" == *"addconsortium"* ]]; then
+          # title=$(echo "${{ steps.read_issue.outputs.title }}" | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]' | tr -d ' ')
+          # # this flattens the title and removed spaces, punctuation and case
+          # if [[ "$title" == *"addconsortium"* ]]; then
+
+          labels="${{ github.event.issue.labels }}"
+          if [[ "$labels" == *"add_consortium"* ]]; then
             echo "::set-output name=script::add/consortium.py"
           else
             echo "default"
