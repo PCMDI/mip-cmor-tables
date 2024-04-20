@@ -120,7 +120,7 @@ dta = get_ror_data(data['ror'])
 new_entry = parse_ror_data(dta)
 
 
-update_issue(issue_number,f"# Sanity Check: \n Is {data['full_name']} the same as {new_entry['identifiers']['institution_name']}",False)
+update_issue(issue_number,f"# Sanity Check: \n Is '{data['full_name']}' the same as '{new_entry['identifiers']['institution_name']}'",False)
 
 
 ilist[data['acronym']] = new_entry
