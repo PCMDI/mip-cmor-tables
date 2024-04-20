@@ -27,7 +27,7 @@ jobs:
           # PAYLOAD_DATA: ${{ github.event.client_payload.data }}
           NAME: ${{ github.event.client_payload.name }}
           ISSUE: ${{ github.event.client_payload.issue }}
-          PAYLOAD_DATA: ${{ github.event.client_payload }}
+          
             
         run: |
             base_branch="main"
@@ -50,7 +50,9 @@ jobs:
 
 
             
-            content=$(python .github/libs/parse/consortium.py)
+            content=$(PAYLOAD_DATA=${{github.event.client_payload}} python .github/libs/parse/consortium.py)
+
+            
             
             git config --global user.email "${REQ_AUTHOR}@users.noreply.github.com"
             git config --global user.name "${REQ_AUTHOR}"
