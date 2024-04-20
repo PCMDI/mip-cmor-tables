@@ -133,7 +133,7 @@ ilist = OrderedDict(sorted(ilist.items(), key=lambda item: item[0]))
 
 institutions['institutions'] = ilist
 
-
+print(ilist)
 
 # Serialize back to JSON
 jw(data, getfile('institutions')[0])
