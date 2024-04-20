@@ -23,9 +23,15 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AUTHOR: ${{ github.event.client_payload.author }}
           DATA: ${{ github.event.client_payload.data }}
+          NAME: ${{ github.event.client_payload.name }}
+          # JSDATA: ${{ fromJSON(github.event.client_payload.data) }}
         run: |  
+
+          echo "Received Payload:"
+          echo "${{ toJson(github.event.client_payload) }}"
+        
           base_branch="main"
-          feature_branch="consortium_${{ github.event.client_payload.name }}"
+          feature_branch="consortium_$NAME"
           git pull
           
           remote_branch="origin/$feature_branch"
