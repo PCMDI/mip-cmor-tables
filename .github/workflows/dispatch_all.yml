@@ -64,7 +64,7 @@ jobs:
             fi
 
 
-            
+            python .github/libs/parse/${KIND}.py
             content=$( python .github/libs/parse/${KIND}.py )
 
             
