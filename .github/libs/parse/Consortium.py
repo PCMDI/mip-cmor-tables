@@ -20,8 +20,8 @@ data = json.loads(str(data))
 print(data)
 
 # Load Existing
-consortiums = jr(getfile('Consortiums')[0])
-institutions = jr(getfile('Institution')[0])['institutions']
+consortiums = jr(getfile('consortiums')[0])
+institutions = jr(getfile('institutions')[0])['institutions']
 
 # Add new value and sort
 conly = consortiums["consortiums"]
@@ -51,7 +51,7 @@ sorted_consortiums = OrderedDict(sorted(conly.items()))
 data["consortiums"] = sorted_consortiums
 
 # Serialize back to JSON
-new_json_data = jw(data, getfile('Consortiums')[0])
+new_json_data = jw(data, getfile('consortiums')[0])
 
 
 
