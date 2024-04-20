@@ -80,7 +80,7 @@ gh api {repos.split("github.com/")[1]/dispatches \
   --field client_payload="{payload}"
 '''
 
-print(os.popen(cmd).read()))
+print(os.popen(cmd).read())
 
 
 
