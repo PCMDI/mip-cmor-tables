@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-# Add Consortium Template
+# New Institution Request
 
 To request a new item please ammend the following template below to reflect the items you are interested in. 
 Conditions on naming conventions and permissable items can be found on the (WIKI)[https://wiki.mipcvs.dev/CMIP6Plus/Rules/institution/] and relevant github page
