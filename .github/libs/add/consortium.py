@@ -8,8 +8,9 @@ issue_number = os.environ.get('ISSUE_NUMBER')
 issue_title = os.environ.get('ISSUE_TITLE')
 issue_body = os.environ.get('ISSUE_BODY')
 issue_submitter = os.environ.get('ISSUE_SUBMITTER')
+repo = os.environ.get('REPO')
 
-print(issue_number, issue_body, issue_submitter)
+print(repo,issue_number, issue_body, issue_submitter)
 
 
 def parse_md(body):
