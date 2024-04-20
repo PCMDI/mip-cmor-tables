@@ -43,6 +43,7 @@ jobs:
           ISSUE_SUBMITTER: ${{ steps.read_issue.outputs.submitter }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
           REPO: ${{ steps.read_issue.outputs.url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           script="${{ steps.determine_script.outputs.script }}"
           if [ "$script" == "default" ]; then
@@ -51,7 +52,7 @@ jobs:
             python ".github/libs/$script" 
           fi
 
-      - name: Create branch
-        run: |
-          title=$(echo "${{ steps.read_issue.outputs.title }}" | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]' | tr -d ' ')
-          git checkout -b "$title"
+      # - name: Create branch
+      #   run: |
+      #     title=$(echo "${{ steps.read_issue.outputs.title }}" | tr -d '[:punct:]' | tr '[:upper:]' '[:lower:]' | tr -d ' ')
+      #     git checkout -b "$title"
