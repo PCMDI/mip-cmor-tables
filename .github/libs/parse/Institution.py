@@ -5,7 +5,7 @@ from collections import OrderedDict
 parent_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 sys.path.append(parent_dir)
 
-from action_functions import update_issue,jr,jw,getfile,close_issue
+from action_functions import update_issue,jr,jw,getfile,close_issue,pp
 
 # data
 issue_number = os.environ['ISSUE']
@@ -126,7 +126,7 @@ update_issue(issue_number,f"# Sanity Check: \n Is {data['full_name']} the same a
 ilist[data['acronym']] = new_entry
 
 # print for pull request
-print( {data['acronym'] : new_entry })
+pp( {data['acronym'] : new_entry })
 
 
 ilist = OrderedDict(sorted(ilist.items(), key=lambda item: item[0]))

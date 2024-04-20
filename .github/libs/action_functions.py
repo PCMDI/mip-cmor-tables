@@ -72,8 +72,10 @@ def update_issue_title (issue_number,kind,payload):
 
 
 def update_issue(issue_number,comment,err=True):
-    print(os.popen(f'gh issue comment {issue_number} --body "{comment}"'))
-    if err: sys.exit(comment)
+    out = os.popen(f'gh issue comment {issue_number} --body "{comment}"')
+    if err: 
+        print(out)
+        sys.exit(comment)
 
 def close_issue(issue_number, comment,err=True):
     print(os.popen(f'gh issue close {issue_number} -c "{comment}"'))
@@ -88,3 +90,7 @@ def jw(data,file):
 def getfile(fileend):
     import glob
     return glob.glob(f'*{fileend}.json')
+
+def pp(js):
+    import pprint
+    pprint.pprint(js)
