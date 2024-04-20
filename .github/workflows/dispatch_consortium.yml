@@ -31,7 +31,7 @@ jobs:
             
         run: |
             base_branch="main"
-            feature_branch='consortium_$NAME'
+            feature_branch="consortium_${{NAME}}"
             
             git pull
             
