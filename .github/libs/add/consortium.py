@@ -73,6 +73,8 @@ payload = {
 }
 
 
+# change issue name to reflect contents. 
+print(os.popen(f'gh issue edit {issue_number} --title "Add Consortium: {payloda["client_payload"]["name"]}"').read())
 
 
 # cmd = f'''
