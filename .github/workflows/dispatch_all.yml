@@ -92,7 +92,7 @@ jobs:
                 
                 Adding the following updated data.
                 
-                \`\`\`json
+                \`\`\`js
                 $content
                 \`\`\`
                 
@@ -114,7 +114,7 @@ jobs:
               
               Adding the following new data.
               
-              \`\`\`json
+              \`\`\`js
               $content
               \`\`\`
               
