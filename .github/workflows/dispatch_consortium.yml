@@ -28,10 +28,9 @@ jobs:
           NAME: ${{ github.event.client_payload.name }}
           ISSUE: ${{ github.event.client_payload.issue }}
           
-            
         run: |
             base_branch="main"
-            feature_branch="consortium_${{NAME}}"
+            feature_branch="consortium_$NAME"
             
             git pull
             
