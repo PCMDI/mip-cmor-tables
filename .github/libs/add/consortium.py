@@ -79,15 +79,16 @@ from urllib import request
 
 # Construct the request headers
 headers = {
-    "Accept": "application/vnd.github.v3+json",
-    "Authorization": f"Bearer {token}"
+    "Accept": "application/vnd.github.everest-preview+json",
+    "Authorization": f"token {token}",
+    "Content-Type": "application/json"
 }
 
 # Encode the payload
-data = json.dumps(payload).encode('utf-8')
+datapayload = json.dumps(payload).encode('utf-8')
 
 # Make the POST request
-req = request.Request(f"{repo}/dispatches", data=data, headers=headers, method='POST')
+req = request.Request(f"{repo}/dispatches", data=datapayload, headers=headers, method='POST')
 
 # Perform the request
 try:
