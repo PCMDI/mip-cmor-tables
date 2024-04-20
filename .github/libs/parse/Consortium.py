@@ -24,13 +24,13 @@ conly = consortiums["consortiums"]
 
 
 if data['acronym'] in conly:
-  close_issue(issue_number,f'# Closing issue. \n `{data["acronym"]}` already exists in the consortium list. \n\n Please review request and resubmit.')
+  close_issue(issue_number,f'# Closing issue. \n {data["acronym"]} already exists in the consortium list. \n\n Please review request and resubmit.')
 
 error = ''
 inst = {}
 for i in data['institutions']:
   if i not in institutions:
-    error += f'    - Institution [`{i}`] does not exists in the institutions file. Please add this to proceed.\n'
+    error += f'    - Institution [{i}] does not exists in the institutions file. Please add this to proceed.\n'
   else:
     inst[i] = f"{i} [{institutions[i]['identifiers']['ror']} - {institutions[i]['identifiers']['institution_name']}]"
   

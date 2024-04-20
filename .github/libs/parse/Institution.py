@@ -114,13 +114,13 @@ Get the Data
 '''
 
 if data['acronym'] in ilist:
-  close_issue(issue_number,f'# Closing issue. \n `{data["acronym"]}` already exists in the consortium list. \n\n Please review request and resubmit.')
+  close_issue(issue_number,f'# Closing issue. \n {data["acronym"]} already exists in the consortium list. \n\n Please review request and resubmit.')
 
 dta = get_ror_data(data['ror'])
 new_entry = parse_ror_data(dta)
 
 
-update_issue(issue_number,f"# Sanity Check: \n Is `{data['full_name']}` the same as {new_entry['identifiers']['institution_name']}",False)
+update_issue(issue_number,f"# Sanity Check: \n Is {data['full_name']} the same as {new_entry['identifiers']['institution_name']}",False)
 
 
 ilist[data['acronym']] = new_entry
@@ -133,12 +133,10 @@ ilist = OrderedDict(sorted(ilist.items(), key=lambda item: item[0]))
 
 institutions['institutions'] = ilist
 
-
-json.dumps(ilist)
-json.dumps(institutions)
-
 # Serialize back to JSON
 jw(institutions, getfile('institutions')[0])
+
+os.popen(f'git commit -a "New entry {data['acronym']} to the Institutions file"')
 
 
 
