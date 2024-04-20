@@ -1,6 +1,6 @@
 import json, os
 
-data = os.environ['DATA']
+data = os.environ['PAYLOAD_DATA']
 
 data = json.loads(data)
 
