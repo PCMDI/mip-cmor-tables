@@ -1,7 +1,6 @@
-import re
-import os
+
+import os,sys,json,ast
 import re,configparser
-import json,ast
 from io import StringIO
 
 
@@ -67,6 +66,25 @@ def dispatch(token,payload,repo):
         print(f"Error: {e}")
 
 
-def update_issue (issue_number,kind,payload):
+def update_issue_title (issue_number,kind,payload):
     # change issue name to reflect contents. 
     print(os.popen(f'gh issue edit {issue_number} --title "Add {kind}: {payload["client_payload"]["name"]}"').read())
+
+
+def update_issue(issue_number,comment,err=True):
+    print(os.popen(f'gh issue comment create {issue_number} --body "{comment}"'))
+    if err: sys.exit(comment)
+
+def close_issue(issue_number, comment,err=True):
+    print(os.popen(f'gh issue close {issue_number} --message "{comment}"'))
+    if err: sys.exit(comment)
+    
+def jr(file):
+    return json.load(open(file,'r'))
+
+def jw(file,data):
+    return json.dump(data,open(file,'w'), indent=4)
+
+def getfile(fileend):
+    import glob
+    return glob.glob(f'*{fileend}.json')

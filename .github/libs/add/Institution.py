@@ -1,11 +1,11 @@
 
 import json,sys,os,re
 
-# Add the current directory to the Python path
-current_dir = os.path.dirname(os.path.realpath(__file__))
-sys.path.append(current_dir)
+# Add the parent directory to the Python path
+parent_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+sys.path.append(parent_dir)
 
-from functions import parse_md, dispatch, update_issue
+from action_functions import parse_md, dispatch, update_issue
 
 
 issue_number = os.environ.get('ISSUE_NUMBER')

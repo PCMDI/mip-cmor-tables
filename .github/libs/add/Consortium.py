@@ -2,10 +2,14 @@
 import json,sys,os,re
 
 # Add the current directory to the Python path
-current_dir = os.path.dirname(os.path.realpath(__file__))
-sys.path.append(current_dir)
+# current_dir = os.path.dirname(os.path.realpath(__file__))
+# sys.path.append(current_dir)
 
-from functions import parse_md, dispatch, update_issue
+# Get the parent directory of the current file
+parent_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+sys.path.append(parent_dir)
+
+from action_functions import parse_md, dispatch, update_issue_title
 
 
 issue_number = os.environ.get('ISSUE_NUMBER')
@@ -28,9 +32,6 @@ data = parsed['consortium']
 data['institutions'] = parsed['institutions']['cmip6_acronyms']
 
 
-
-
-
 kind = __file__.split('/')[-1].replace('.py','')
 
 payload = {
@@ -43,8 +44,7 @@ payload = {
     }
 }
 
-update_issue (issue_number,kind,payload)
-
+update_issue_title(issue_number,kind,payload)
 
 dispatch(token,payload,repo)
 
