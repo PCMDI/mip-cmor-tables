@@ -1,23 +1,39 @@
 ---
 name: Add Consortium
 about: Adding a new consortium
-title: 'Add Consortium: CONSORTIUM'
+title: 'New Consortium'
 labels: 'add_consortium'
 assignees: ''
 
 ---
 
-# Adding a new Consortium
-We wish to add a new consortium to [MIP_Consotiums](https://github.com/wolfiex/mip-cmor-tables/blob/main/MIP_consortiums.json)
+# Add Consortium Template
 
-Use the below table to provide your consortium names
+To request a new item please ammend the following template below to reflect the items you are interested in. 
+Conditions on naming conventions and permissable items can be found on the WIKI and relevant github pages (links to be added. )
 
-## Do not forget to add consortium name to issue title.  
+<!---  info 
+
+We are trialing the addition of new components using the configuration file format. 
+To use this please fill out the template below keeping the spacing and indentation of the file. 
+
+--->
+
+## Contents (what we wish to add)
 
 
-**Name**
-CONSORTIUM-NAME
+``` configfile
 
-**Who is this part of **
-- CMIP institution 1 
-- CMIP institution 2
+[consortium]
+    Acronym = "CMIP"
+    Name = "Coupled Model Intercomparison Project"
+    
+    [institutions]
+        cmip6_acronyms = [
+                "CMIP-IPO",
+                "WCRP"
+            ]
+
+```
+
+
