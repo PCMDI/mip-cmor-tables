@@ -17,11 +17,11 @@ def parse_md(body):
     pattern = r'<!---(.*?)--->'
 
     # Remove comments using re.sub
-    body = re.sub(pattern, '', body, flags=re.DOTALL)
-    print(body)
+    body = re.sub(r'/r/n',r'/n', re.sub(pattern, '', body, flags=re.DOTALL))
+    
 
     config_str = re.search(r'```\sconfigfile(.*?)```',body, re.DOTALL).group(1)
-   
+    print(config_str)
 
     # Create a file-like object from the string
     config_file = StringIO(config_str)
