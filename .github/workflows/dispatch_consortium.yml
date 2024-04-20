@@ -22,7 +22,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           AUTHOR: ${{ github.event.client_payload.author }}
-          REPO: ${{ github.repository }}
           DATA: ${{ github.event.client_payload.data }}
         run: |  
           base_branch="main"
