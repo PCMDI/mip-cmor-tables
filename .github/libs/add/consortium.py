@@ -75,8 +75,8 @@ payload = {
 
 
 cmd = f'''
-gh api {repos.split("github.com/")[1]/dispatches \
-  --field event_type="consortium" \
+gh api {repos.split("github.com/")[1]/dispatches \\
+  --field event_type="consortium" \\
   --field client_payload="{payload}"
 '''
 
