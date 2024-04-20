@@ -71,25 +71,31 @@ payload = {
     }
 }
 
+
+
+
+import json
+from urllib import request
+
 # Construct the request headers
 headers = {
     "Accept": "application/vnd.github.v3+json",
     "Authorization": f"Bearer {token}"
 }
 
+# Encode the payload
+data = json.dumps(payload).encode('utf-8')
+
 # Make the POST request
-response = requests.post(
-    f"{repo}/dispatches",
-    headers=headers,
-    json=payload
-)
+req = request.Request(f"{repo}/dispatches", data=data, headers=headers, method='POST')
 
-# Check the response
-if response.status_code == 204:
-    print("Dispatch event triggered successfully.")
-else:
-    print(f"Failed to trigger dispatch event. Status code: {response.status_code}")
-    print(response.text)
-
-
-
+# Perform the request
+try:
+    with request.urlopen(req) as response:
+        if response.getcode() == 204:
+            print("Dispatch event triggered successfully.")
+        else:
+            print(f"Failed to trigger dispatch event. Status code: {response.getcode()}")
+            print(response.read().decode('utf-8'))
+except Exception as e:
+    print(f"Error: {e}")
