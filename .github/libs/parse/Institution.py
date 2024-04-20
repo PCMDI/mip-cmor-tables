@@ -115,16 +115,16 @@ def parse_ror_data(ror_data):
 Get the Data
 '''
 
-if data['Acronym'] in ilist:
-  close_issue(issue_number,f'# Closing issue. \n `{data["Acronym"]}` already exists in the consortium list. \n\n Please review request and resubmit.')
+if data['acronym'] in ilist:
+  close_issue(issue_number,f'# Closing issue. \n `{data["acronym"]}` already exists in the consortium list. \n\n Please review request and resubmit.')
 
-dta = get_ror_data(data['ROR'])
+dta = get_ror_data(data['ror'])
 new_entry = parse_ror_data(dta)
 
 
-update_issue(issue_number,f"# Sanity Check: \n Is `{data['Full_Name']}` the same as {new_entry['identifiers']['institution_name']}",False)
+update_issue(issue_number,f"# Sanity Check: \n Is `{data['full_name']}` the same as {new_entry['identifiers']['institution_name']}",False)
 
-ilist[data['Acronym']] = new_entry
+ilist[data['acronym']] = new_entry
 
 
 
