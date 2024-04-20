@@ -2,7 +2,8 @@ name: New Issue Processing
 
 on:
   issues:
-    types: [opened, edited, labeled]
+    types: [edited, labeled]
+    # opened
 
 jobs:
 
