@@ -1,6 +1,7 @@
 import json, os
 
-data = os.environ['PAYLOAD_DATA']
+data = sys.argv[1]
+# os.environ['PAYLOAD_DATA']
 
 print(data)
 
