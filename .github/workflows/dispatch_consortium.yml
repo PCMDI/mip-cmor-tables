@@ -28,74 +28,74 @@ jobs:
           NAME: ${{ github.event.client_payload.name }}
           ISSUE: ${{ github.event.client_payload.issue }}
         run: |
-          base_branch="main"
-          feature_branch="consortium_$NAME"
-
-          git pull
-
-          remote_branch="origin/$feature_branch"
-          branch_info=$(git rev-parse --verify "$remote_branch" >/dev/null 2>&1 || true)
-          echo "branch info: $branch_info"
-
-          if [ -n "$branch_info" ]; then
-            echo "checkout existing"
-            git checkout $feature_branch
-            git reset --hard origin/main
-          else
-            echo "checkout new"
-            git checkout -b $feature_branch
-          fi
-
-          content=$(python .github/libs/parse/consortium.py)
-
-          git config --global user.email "${REQ_AUTHOR}@users.noreply.github.com"
-          git config --global user.name "${REQ_AUTHOR}"
-
-          git add *consortiums.json
-          git commit -m "Adding $NAME to consortiums"
-          git push origin $feature_branch --force
-
-          if [ -n "$branch_info" ]; then
-            pull_requests=$(curl -s -H "Authorization: token $GH_TOKEN" \
-              "https://api.github.com/repos/${{ github.repository }}/pulls?state=open&head=$feature_branch" | jq -r '.[].number')
-
-            echo "pull requests ${pull_requests}"
-
-            for pr_number in $pull_requests; do
-              echo "running pull request $pr_number"
-
-              comment_body="This pull request (#$pr_number) was automatically updated by a GitHub Actions workflow.
-
+            base_branch="main"
+            feature_branch="consortium_$NAME"
+            
+            git pull
+            
+            remote_branch="origin/$feature_branch"
+            branch_info=$(git rev-parse --verify "$remote_branch" >/dev/null 2>&1 || true)
+            echo "branch info: $branch_info"
+            
+            if [ -n "$branch_info" ]; then
+              echo "checkout existing"
+              git checkout $feature_branch
+              git reset --hard origin/main
+            else
+              echo "checkout new"
+              git checkout -b $feature_branch
+            fi
+            
+            content=$(python .github/libs/parse/consortium.py)
+            
+            git config --global user.email "${REQ_AUTHOR}@users.noreply.github.com"
+            git config --global user.name "${REQ_AUTHOR}"
+            
+            git add *consortiums.json
+            git commit -m "Adding $NAME to consortiums"
+            git push origin $feature_branch --force
+            
+            if [ -n "$branch_info" ]; then
+              pull_requests=$(curl -s -H "Authorization: token $GH_TOKEN" \
+                "https://api.github.com/repos/${{ github.repository }}/pulls?state=open&head=$feature_branch" | jq -r '.[].number')
+            
+              echo "pull requests ${pull_requests}"
+            
+              for pr_number in $pull_requests; do
+                echo "running pull request $pr_number"
+            
+                comment_body="This pull request (#$pr_number) was automatically updated by a GitHub Actions workflow.
+            
+                Data submitted by @$REQ_AUTHOR
+                
+                Adding the following updated data.
+                
+                \`\`\`json
+                $content
+                \`\`\`
+                
+                
+                Resolves #$ISSUE
+                "
+            
+                echo "comment- $comment_body"
+            
+                gh pr comment $pr_number --body "$comment_body"
+                echo "Comment added to pull request #$pr_number"
+              done
+            else
+              echo "clean pull"
+              gh pr create --base $base_branch --head $feature_branch --title "New Source ID - add $NAME" --body \
+                "This pull request was automatically created by a GitHub Actions workflow.
+            
               Data submitted by @$REQ_AUTHOR
               
-              Adding the following updated data.
+              Adding the following new data.
               
               \`\`\`json
               $content
               \`\`\`
               
-              
               Resolves #$ISSUE
-              "
-
-              echo "comment- $comment_body"
-
-              gh pr comment $pr_number --body "$comment_body"
-              echo "Comment added to pull request #$pr_number"
-            done
-          else
-            echo "clean pull"
-            gh pr create --base $base_branch --head $feature_branch --title "New Source ID - add $NAME" --body \
-              "This pull request was automatically created by a GitHub Actions workflow.
-
-            Data submitted by @$RE!_AUTHOR
-            
-            Adding the following new data.
-            
-            \`\`\`json
-            $content
-            \`\`\`
-            
-            Resolves #$ISSUE
-            " --reviewer $GITHUB_REPOSITORY_OWNER
-          fi
+              " --reviewer $GITHUB_REPOSITORY_OWNER
+            fi
