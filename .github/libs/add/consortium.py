@@ -4,7 +4,7 @@ import re,configparser
 import json,ast
 from io import StringIO
 
-issue_number = os.environ.get('github.event.issue.number')
+issue_number = os.environ.get('ISSUE_NUMBER')
 issue_title = os.environ.get('ISSUE_TITLE')
 issue_body = os.environ.get('ISSUE_BODY')
 issue_submitter = os.environ.get('ISSUE_SUBMITTER')
