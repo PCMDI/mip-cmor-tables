@@ -1495,14 +1495,14 @@
         }
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.1",
-        "checksum": "md5: bde145381d03581e8b2b81e5c2e93ab9",
-        "MIP_institutions_modified": "Thu Feb 29 16:22:42 2024 +0000",
-        "MIP_institutions_note": "Fixing spelling of identifiers",
-        "commit": "d47a581f5238b411943b5fe90897239c976a3263",
+        "version_tag": "v6.5.0.2",
+        "checksum": "md5: 77cb0ee5320b6c869410e8f431807ff6",
+        "MIP_institutions_modified": "Sat Apr 20 23:41:28 2024 +0100",
+        "MIP_institutions_note": "Issues, Templates, and Action scripts update (#49)",
+        "commit": "0d6b27424192b3b07cc8394e85162122871c8d7a",
         "previous_commit": "",
-        "author": "Daniel Ellis",
-        "CV_collection_version": "v6.5.1.1",
+        "author": "Dan Ellis <daniel.ellis@ext.esa.int>",
+        "CV_collection_version": "v6.5.1.3",
         "specs_doc": "v6.5.0"
     }
 }
