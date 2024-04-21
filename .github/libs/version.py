@@ -13,7 +13,7 @@ import argparse
 # load the maintainer file
 ##########################################
 
-maintainers = json.load(open('.github/maintainer_institutes.json', 'r'))
+# maintainers = json.load(open('.github/maintainer_institutes.json', 'r'))
 ##########################################
 # get repo information
 ##########################################
@@ -114,14 +114,14 @@ def process_files(files,token = None, branch=None,force=False):
         if author_match:
             author_info = author_match.group(1).split(" <")
             commit_dict["author_name"] = author_info[0]
-            try:
-                commit_dict["author_institute"] = maintainers[author_info[0]]['institute']
-                commit_dict["author_name"] = maintainers[author_info[0]]['published_name']
-            except:
-                commit_dict["author_name"] = author_match.group(1)
-                
-                print( f'Please add \n\t "{author_info[0]}": \n\t\t','{"institute": "", "published_name": "Name you wish to use"}')
-                # this was a keyerror
+            # try:
+            #     commit_dict["author_institute"] = maintainers[author_info[0]]['institute']
+            #     commit_dict["author_name"] = maintainers[author_info[0]]['published_name']
+            # except:
+            commit_dict["author_name"] = author_match.group(1)
+            
+            # print( f'Please add \n\t "{author_info[0]}": \n\t\t','{"institute": "", "published_name": "Name you wish to use"}')
+            # this was a keyerror
                 
             commit_dict["author_email"] = author_info[1][:-1]  
 
