@@ -114,7 +114,7 @@ Get the Data
 '''
 
 if data['acronym'] in ilist:
-  close_issue(issue_number,f'# Closing issue. \n {data["acronym"]} already exists in the consortium list. \n\n Please review request and resubmit.')
+  close_issue(issue_number,f'# Closing issue. \n {data["acronym"]} already exists in the institution list. \n\n Please review request and resubmit.')
 
 dta = get_ror_data(data['ror'])
 new_entry = parse_ror_data(dta)
