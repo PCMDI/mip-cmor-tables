@@ -258,6 +258,33 @@
             },
             "consortiums": []
         },
+        "CMIP-IPO": {
+            "identifiers": {
+                "institution_name": "WCRP-CMIP International Project Office",
+                "aliases": [],
+                "acronyms": [
+                    "CMIP-IPO",
+                    "WCRP-CMIP"
+                ],
+                "labels": [],
+                "ror": "000fg4e24",
+                "url": [
+                    "https://wcrp-cmip.org"
+                ],
+                "established": 2021,
+                "type": "Nonprofit"
+            },
+            "location": {
+                "lat": 51.59947,
+                "lon": -1.29175,
+                "city": "Harwell",
+                "country": [
+                    "United Kingdom",
+                    "GB"
+                ]
+            },
+            "consortiums": []
+        },
         "CNES": {
             "identifiers": {
                 "institution_name": "Centre National d'\u00c9tudes Spatiales",
