@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opmon-zossq",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "baa50c2a-e5dd-11e5-8482-ac72891c3257",
+        "mip_table": "Omon",
+        "variable_name": "zossq"
+    },
+    "CMIP5": {
+        "mip_table": "Omon",
+        "variable_name": "zossq"
+    }
+}

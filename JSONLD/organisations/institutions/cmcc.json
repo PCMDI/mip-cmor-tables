@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/cmcc",
+    "@type": "cmip:institution",
+    "institution:cmip_acronym": "CMCC",
+    "institution:ror": "01tf11a61",
+    "institution:name": "Euro-Mediterranean Center for Climate Change",
+    "institution:url": [
+        "http://www.cmcc.it/"
+    ],
+    "institution:established": 2005,
+    "institution:type": "Nonprofit",
+    "institution:labels": [],
+    "institution:aliases": [],
+    "institution:acronyms": [
+        "CMCC"
+    ],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/01tf11a61",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 40.33942,
+            "location:lon": 18.086602,
+            "location:city": "Lecce",
+            "location:country": [
+                "Italy",
+                "IT"
+            ]
+        }
+    }
+}

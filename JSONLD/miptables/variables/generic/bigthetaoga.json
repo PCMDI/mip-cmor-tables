@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/bigthetaoga",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Global Average Sea Water Conservative Temperature",
+    "variable:out_name": "bigthetaoga",
+    "variable:positive": "",
+    "variable:standard_name": "sea_water_conservative_temperature",
+    "variable:type": "real",
+    "variable:units": [
+        "degC"
+    ]
+}

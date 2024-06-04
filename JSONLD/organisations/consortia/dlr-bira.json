@@ -1,0 +1,18 @@
+{
+    "@id": "mip-cmor-tables:organisations/consortia/dlr-bira",
+    "@type": "cmip:consortium",
+    "consortium:cmip_acronym": "DLR-BIRA",
+    "consortium:description": "DLR-BIRA",
+    "consortium:url": "",
+    "consortium:changes": "",
+    "consortium:members": {
+        "@set": [
+            {
+                "@id": "Deutsches Zentrum fur Luft- und Raumfahrt"
+            },
+            {
+                "@id": "Royal Belgian Institute for Space Aeronomy"
+            }
+        ]
+    }
+}

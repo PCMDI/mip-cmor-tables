@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apmon-hursmincrop",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "f32a805a-c38d-11e6-abc1-1b922e5e1118",
+        "mip_table": "Emon",
+        "variable_name": "hursminCrop"
+    }
+}

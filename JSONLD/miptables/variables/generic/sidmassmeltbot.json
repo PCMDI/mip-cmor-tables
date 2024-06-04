@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sidmassmeltbot",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea-Ice Mass Change Through Bottom Melting",
+    "variable:out_name": "sidmassmeltbot",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_sea_ice_amount_due_to_basal_melting",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

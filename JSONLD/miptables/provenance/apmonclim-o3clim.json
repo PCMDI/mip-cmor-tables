@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apmonclim-o3clim",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "59fc01c6-c77d-11e6-8a33-5404a60d96b5",
+        "mip_table": "Amon",
+        "variable_name": "o3Clim"
+    }
+}

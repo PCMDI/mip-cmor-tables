@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/hfrunoffds2d",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Temperature Flux Due to Runoff Expressed as Heat Flux into Sea Water",
+    "variable:out_name": "hfrunoffds2d",
+    "variable:positive": "",
+    "variable:standard_name": "temperature_flux_due_to_runoff_expressed_as_heat_flux_into_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

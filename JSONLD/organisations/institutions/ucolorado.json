@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/ucolorado",
+    "@type": "cmip:institution",
+    "institution:cmip_acronym": "UColorado",
+    "institution:ror": "00jc20583",
+    "institution:name": "University of Colorado System",
+    "institution:url": [
+        "http://www.cu.edu/"
+    ],
+    "institution:established": 1876,
+    "institution:type": "Education",
+    "institution:labels": [],
+    "institution:aliases": [],
+    "institution:acronyms": [
+        "CU"
+    ],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/00jc20583",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 40.01499,
+            "location:lon": -105.27055,
+            "location:city": "Boulder",
+            "location:country": [
+                "United States",
+                "US"
+            ]
+        }
+    }
+}

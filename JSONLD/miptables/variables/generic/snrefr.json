@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/snrefr",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Refreezing of Water in the Snow",
+    "variable:out_name": "snrefr",
+    "variable:positive": "",
+    "variable:standard_name": "surface_snow_and_ice_refreezing_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

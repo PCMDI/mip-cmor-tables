@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/clw",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Mass Fraction of Cloud Liquid Water",
+    "variable:out_name": "clw",
+    "variable:positive": "",
+    "variable:standard_name": "mass_fraction_of_cloud_liquid_water_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "kg-1"
+    ]
+}

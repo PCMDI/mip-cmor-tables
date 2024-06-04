@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/aemon-tatp",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "19bf81b2-81b1-11e6-92de-ac72891c3257",
+        "mip_table": "AERmon",
+        "variable_name": "tatp"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/obmon-co3os",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "c91a38ca-c5e8-11e6-84e6-5404a60d96b5",
+        "mip_table": "Omon",
+        "variable_name": "co3os"
+    },
+    "CMIP5": {
+        "mip_table": "Omon",
+        "variable_name": "co3"
+    }
+}

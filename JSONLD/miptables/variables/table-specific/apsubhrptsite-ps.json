@@ -1,0 +1,28 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptsite-ps",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/ps"
+    },
+    "variable:branded_variable_name": "ps_subhr-ap-tpt-z0-hxys",
+    "variable:comment": "surface pressure (not mean sea-level pressure), 2-D field to calculate the 3-D pressure field from hybrid coordinates",
+    "variable:frequency": "subhrPt",
+    "variable:dimensions": [
+        "site",
+        "time1"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-ps"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

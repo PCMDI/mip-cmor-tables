@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-psl",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "800753d8-f906-11e6-a176-5404a60d96b5",
+        "mip_table": "CFsubhr",
+        "variable_name": "psl"
+    }
+}

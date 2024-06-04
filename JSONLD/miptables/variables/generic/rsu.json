@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rsu",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Upwelling Shortwave Radiation",
+    "variable:out_name": "rsu",
+    "variable:positive": "up",
+    "variable:standard_name": "upwelling_shortwave_flux_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

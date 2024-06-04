@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apmonlev-mc",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "bab117b8-e5dd-11e5-8482-ac72891c3257",
+        "mip_table": "Amon",
+        "variable_name": "mc"
+    }
+}

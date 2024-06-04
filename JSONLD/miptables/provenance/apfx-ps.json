@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apfx-ps",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "b5eb92978a5ba87b82db9b70b12c65c65c151442",
+        "mip_table": "Efx",
+        "variable_name": "ps"
+    }
+}

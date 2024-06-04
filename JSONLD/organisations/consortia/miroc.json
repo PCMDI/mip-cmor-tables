@@ -1,0 +1,24 @@
+{
+    "@id": "mip-cmor-tables:organisations/consortia/miroc",
+    "@type": "cmip:consortium",
+    "consortium:cmip_acronym": "MIROC",
+    "consortium:description": "MIROC",
+    "consortium:url": "",
+    "consortium:changes": "",
+    "consortium:members": {
+        "@set": [
+            {
+                "@id": "JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa 236-0001, Japan)"
+            },
+            {
+                "@id": "AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba 277-8564, Japan)"
+            },
+            {
+                "@id": "NIES (National Institute for Environmental Studies, Ibaraki 305-8506, Japan)"
+            },
+            {
+                "@id": "R-CCS (RIKEN Center for Computational Science, Hyogo 650-0047, Japan)"
+            }
+        ]
+    }
+}

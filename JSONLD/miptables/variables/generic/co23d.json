@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/co23d",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "3D-Field of Transported CO2",
+    "variable:out_name": "co23D",
+    "variable:positive": "",
+    "variable:standard_name": "mass_fraction_of_carbon_dioxide_tracer_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "kg-1"
+    ]
+}

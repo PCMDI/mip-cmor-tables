@@ -1,0 +1,68 @@
+{
+    "@id": "mip-cmor-tables:miptables/tables/opdec",
+    "@type": "cmip:dr-table",
+    "table:table_id": "OPdec",
+    "table:Conventions": "CF-1.7 CMIP-6.5",
+    "table:approx_interval": 3650.0,
+    "table:checksum": "",
+    "table:cmor_version": "3.8.0",
+    "table:release": "v6.5.0.2",
+    "table:data_specs_version": "6.5.0.0",
+    "table:generic_levels": [],
+    "table:int_missing_value": "-999",
+    "table:missing_value": "1e20",
+    "table:product": {
+        "@id": "mip-cmor-tables:auxillary/product/model-output"
+    },
+    "table:table_date": "2024-02-28",
+    "table:variable_entry": [
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-bigthetaoga"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-hfds"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-masso"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-msftyrho"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-sfdsi"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-sfriver"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-soga"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-sos"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-sosga"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-tauuo"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-tauvo"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-thetaoga"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-tos"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-tosga"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-volo"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-wfo"
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/aemonlev-o3ste",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "fdb19130-96ec-11e6-b81e-c9e268aff03a",
+        "mip_table": "AERmon",
+        "variable_name": "o3ste"
+    }
+}

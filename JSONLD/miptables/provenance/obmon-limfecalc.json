@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/obmon-limfecalc",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "baa0449c-e5dd-11e5-8482-ac72891c3257",
+        "mip_table": "Omon",
+        "variable_name": "limfecalc"
+    }
+}

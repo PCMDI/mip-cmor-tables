@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-ta",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/ta"
+    },
+    "variable:branded_variable_name": "ta_6hr-ap-tpt-p3-hxy",
+    "variable:comment": "Air Temperature",
+    "variable:frequency": "6hrPt",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "plev3",
+        "time1"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-ta"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

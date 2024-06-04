@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/ceda",
+    "@type": "cmip:institution",
+    "institution:cmip_acronym": "CEDA",
+    "institution:ror": "04j4kad11",
+    "institution:name": "Centre for Environmental Data Analysis",
+    "institution:url": [
+        "https://www.ceda.ac.uk/"
+    ],
+    "institution:established": 2005,
+    "institution:type": "Government",
+    "institution:labels": [],
+    "institution:aliases": [],
+    "institution:acronyms": [
+        "CEDA"
+    ],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/04j4kad11",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 53.41667,
+            "location:lon": -0.96667,
+            "location:city": "Harwell",
+            "location:country": [
+                "United Kingdom",
+                "GB"
+            ]
+        }
+    }
+}

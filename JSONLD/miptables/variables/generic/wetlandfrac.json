@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/wetlandfrac",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Wetland Percentage Cover",
+    "variable:out_name": "wetlandFrac",
+    "variable:positive": "",
+    "variable:standard_name": "area_fraction",
+    "variable:type": "real",
+    "variable:units": [
+        "%"
+    ]
+}

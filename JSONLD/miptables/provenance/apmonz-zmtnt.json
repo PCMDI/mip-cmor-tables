@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apmonz-zmtnt",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "feeaf906-96ec-11e6-b81e-c9e268aff03a",
+        "mip_table": "EmonZ",
+        "variable_name": "zmtnt"
+    }
+}

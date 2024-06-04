@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apday-hursmax",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "5a071ff2-c77d-11e6-8a33-5404a60d96b5",
+        "mip_table": "day",
+        "variable_name": "hursmax"
+    }
+}

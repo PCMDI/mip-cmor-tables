@@ -1,0 +1,32 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-sfdsi",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/sfdsi"
+    },
+    "variable:branded_variable_name": "sfdsi_dec-op-tav-z0-hxy",
+    "variable:comment": "This field is physical, and it arises since sea ice has a nonzero salt content, so it exchanges salt with the liquid ocean upon melting and freezing.",
+    "variable:frequency": "dec",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocean"
+        },
+        {
+            "@id": "mip-cmor-tables:modellingrealms/seaIce"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/opdec-sfdsi"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

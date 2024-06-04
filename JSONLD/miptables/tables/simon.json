@@ -1,0 +1,275 @@
+{
+    "@id": "mip-cmor-tables:miptables/tables/simon",
+    "@type": "cmip:dr-table",
+    "table:table_id": "SImon",
+    "table:Conventions": "CF-1.7 CMIP-6.5",
+    "table:approx_interval": 30.0,
+    "table:checksum": "",
+    "table:cmor_version": "3.8.0",
+    "table:release": "v6.5.0.2",
+    "table:data_specs_version": "6.5.0.0",
+    "table:generic_levels": [],
+    "table:int_missing_value": "-999",
+    "table:missing_value": "1e20",
+    "table:product": {
+        "@id": "mip-cmor-tables:auxillary/product/model-output"
+    },
+    "table:table_date": "2024-02-28",
+    "table:variable_entry": [
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sfdsi"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siage"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siareaacrossline"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siarean"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siareas"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sicompstren"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siconc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siconca"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidconcdyn"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidconcth"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidmassdyn"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidmassevapsubl"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidmassgrowthbot"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidmassgrowthwat"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidmasslat"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidmassmeltbot"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidmassmelttop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidmasssi"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidmassth"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidmasstranx"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidmasstrany"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidragbot"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sidragtop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siextentn"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siextents"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sifb"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siflcondbot"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siflcondtop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siflfwbot"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siflfwdrain"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sifllatstop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sifllwdtop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sifllwutop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siflsenstop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siflsensupbot"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siflswdbot"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siflswdtop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siflswutop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siforcecoriolx"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siforcecorioly"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siforceintstrx"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siforceintstry"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siforcetiltx"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siforcetilty"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sihc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siitdconc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siitdsnconc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siitdsnthick"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siitdthick"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-simass"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-simassacrossline"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-simpconc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-simpmass"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-simprefrozen"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sipr"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sirdgconc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sirdgthick"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sisali"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sisaltmass"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sisnconc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sisnhc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sisnmass"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sisnthick"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sispeed"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sistrxdtop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sistrxubot"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sistrydtop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sistryubot"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sitempbot"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sitempsnic"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sitemptop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sithick"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sitimefrac"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siu"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siv"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sivol"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sivoln"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sivols"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sndmassdyn"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sndmassmelt"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sndmasssi"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sndmasssnf"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sndmasssubl"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sndmasswindrif"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-snmassacrossline"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apfx-siltfrac",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/siltfrac"
+    },
+    "variable:branded_variable_name": "siltfrac_fx-ap-none-l-hxy",
+    "variable:comment": "Volume fraction of silt in soil",
+    "variable:frequency": "fx",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apfx-siltfrac"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/o2sat",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Dissolved Oxygen Concentration at Saturation",
+    "variable:out_name": "o2sat",
+    "variable:positive": "",
+    "variable:standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water_at_saturation",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3"
+    ]
+}

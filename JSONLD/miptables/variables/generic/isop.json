@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/isop",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Isoprene Volume Mixing Ratio",
+    "variable:out_name": "isop",
+    "variable:positive": "",
+    "variable:standard_name": "mole_fraction_of_isoprene_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "mol-1"
+    ]
+}

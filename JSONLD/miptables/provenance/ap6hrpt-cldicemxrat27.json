@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-cldicemxrat27",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "f2c73d5e-26b8-11e7-8344-ac72891c3257",
+        "mip_table": "6hrPlevPt",
+        "variable_name": "cldicemxrat27"
+    }
+}

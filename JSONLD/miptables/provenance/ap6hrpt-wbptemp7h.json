@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-wbptemp7h",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "711ce354-faa7-11e6-bfb7-ac72891c3257",
+        "mip_table": "6hrPlevPt",
+        "variable_name": "wbptemp7h"
+    }
+}

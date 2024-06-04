@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apmon-od443dust",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "6f6c00c6-9acb-11e6-b7ee-ac72891c3257",
+        "mip_table": "Emon",
+        "variable_name": "od443dust"
+    }
+}

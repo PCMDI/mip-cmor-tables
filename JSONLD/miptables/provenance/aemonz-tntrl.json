@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/aemonz-tntrl",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "11ecb9cc-c14f-11e6-bb78-ac72891c3257",
+        "mip_table": "EmonZ",
+        "variable_name": "tntrl"
+    }
+}

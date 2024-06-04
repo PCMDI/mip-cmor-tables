@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/ficeberg2d",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Water Flux into Sea Water from Icebergs",
+    "variable:out_name": "ficeberg2d",
+    "variable:positive": "",
+    "variable:standard_name": "water_flux_into_sea_water_from_icebergs",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

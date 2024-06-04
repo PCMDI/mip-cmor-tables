@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/lim",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Ice Sheet Mass",
+    "variable:out_name": "lim",
+    "variable:positive": "",
+    "variable:standard_name": "land_ice_mass",
+    "variable:type": "real",
+    "variable:units": [
+        "kg"
+    ]
+}

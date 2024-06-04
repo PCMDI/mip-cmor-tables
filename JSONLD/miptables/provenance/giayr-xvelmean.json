@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/giayr-xvelmean",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "d5b48206-c78d-11e6-9b25-5404a60d96b5",
+        "mip_table": "IyrAnt",
+        "variable_name": "xvelmean"
+    }
+}

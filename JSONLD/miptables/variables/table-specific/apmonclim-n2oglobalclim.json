@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonclim-n2oglobalclim",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/n2oglobalclim"
+    },
+    "variable:branded_variable_name": "n2oglobal_mon-ap-tcla-z0-hm",
+    "variable:comment": "Global mean Nitrous Oxide (N2O)",
+    "variable:frequency": "monC",
+    "variable:dimensions": [
+        "time2"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        },
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmosChem"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apmonclim-n2oglobalclim"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

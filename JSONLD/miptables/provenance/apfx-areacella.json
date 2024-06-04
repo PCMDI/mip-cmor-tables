@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apfx-areacella",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "baa83a12-e5dd-11e5-8482-ac72891c3257",
+        "mip_table": "fx",
+        "variable_name": "areacella"
+    },
+    "CMIP5": {
+        "mip_table": "fx",
+        "variable_name": "areacello"
+    }
+}

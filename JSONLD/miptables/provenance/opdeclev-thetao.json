@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opdeclev-thetao",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "479522ca-bb0b-11e6-8316-5980f7b176d1",
+        "mip_table": "Odec",
+        "variable_name": "thetao"
+    }
+}

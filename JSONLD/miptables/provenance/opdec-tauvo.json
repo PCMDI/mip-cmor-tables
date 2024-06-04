@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opdec-tauvo",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "ac270e9a-bb0d-11e6-83c8-bf7187cdbd68",
+        "mip_table": "Odec",
+        "variable_name": "tauvo"
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "@id": "mip-cmor-tables:miptables/tables/apmonz",
+    "@type": "cmip:dr-table",
+    "table:table_id": "APmonZ",
+    "table:Conventions": "CF-1.7 CMIP-6.5",
+    "table:approx_interval": 30.0,
+    "table:checksum": "",
+    "table:cmor_version": "3.8.0",
+    "table:release": "v6.5.0.2",
+    "table:data_specs_version": "6.5.0.0",
+    "table:generic_levels": [],
+    "table:int_missing_value": "-999",
+    "table:missing_value": "1e20",
+    "table:product": {
+        "@id": "mip-cmor-tables:auxillary/product/model-output"
+    },
+    "table:table_date": "2023-11-16",
+    "table:variable_entry": [
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-epfy"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-epfz"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-jo2"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-jo3"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-tntc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-tntmp"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-tntnogw"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-tntogw"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-tntrlcs"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-tntrscs"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-tntscp"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-utendepfd"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-utendnogw"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-vtem"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-vtendnogw"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-wtem"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-xgwdparam"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-ygwdparam"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-zg"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-zmtnt"
+        }
+    ]
+}

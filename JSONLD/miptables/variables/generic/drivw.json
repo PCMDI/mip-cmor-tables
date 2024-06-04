@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/drivw",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Change in River Storage",
+    "variable:out_name": "drivw",
+    "variable:positive": "",
+    "variable:standard_name": "change_over_time_in_river_water_amount",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sndmasssnf",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Snow Mass Change Through Snow Fall",
+    "variable:out_name": "sndmasssnf",
+    "variable:positive": "",
+    "variable:standard_name": "snowfall_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

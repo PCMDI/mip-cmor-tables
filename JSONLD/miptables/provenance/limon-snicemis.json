@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/limon-snicemis",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "8120e3a2-bf17-11e6-b0d8-ac72891c3257",
+        "mip_table": "LImon",
+        "variable_name": "snicemIs"
+    }
+}

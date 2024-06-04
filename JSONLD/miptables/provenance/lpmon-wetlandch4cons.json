@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/lpmon-wetlandch4cons",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "8b822918-4a5b-11e6-9cd2-ac72891c3257",
+        "mip_table": "Emon",
+        "variable_name": "wetlandCH4cons"
+    }
+}

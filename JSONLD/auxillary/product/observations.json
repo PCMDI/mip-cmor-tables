@@ -1,0 +1,6 @@
+{
+    "@type": "cmip:product",
+    "@id": "mip-cmor-tables:auxillary/product/observations",
+    "product:kind": "observations",
+    "product:description": "Data collected from direct measurements of the climate system. This includes data from ground stations, satellites, buoys, and other observational platforms, which serve as a reference for validating and comparing model outputs."
+}

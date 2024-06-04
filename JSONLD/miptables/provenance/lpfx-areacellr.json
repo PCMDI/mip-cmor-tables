@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/lpfx-areacellr",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "8306180c-76ca-11e7-ba39-ac72891c3257",
+        "mip_table": "fx",
+        "variable_name": "areacellr"
+    }
+}

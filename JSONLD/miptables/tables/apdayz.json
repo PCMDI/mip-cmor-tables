@@ -1,0 +1,65 @@
+{
+    "@id": "mip-cmor-tables:miptables/tables/apdayz",
+    "@type": "cmip:dr-table",
+    "table:table_id": "APdayZ",
+    "table:Conventions": "CF-1.7 CMIP-6.5",
+    "table:approx_interval": 1.0,
+    "table:checksum": "",
+    "table:cmor_version": "3.8.0",
+    "table:release": "v6.5.0.2",
+    "table:data_specs_version": "6.5.0.0",
+    "table:generic_levels": [],
+    "table:int_missing_value": "-999",
+    "table:missing_value": "1e20",
+    "table:product": {
+        "@id": "mip-cmor-tables:auxillary/product/model-output"
+    },
+    "table:table_date": "2023-11-16",
+    "table:variable_entry": [
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-epfy"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-epfz"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-hus"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-psitem"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-ta"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-ua"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-utendepfd"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-utendnogw"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-utendogw"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-utendvtem"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-utendwtem"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-va"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-vtem"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-wtem"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-zg"
+        }
+    ]
+}

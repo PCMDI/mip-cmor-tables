@@ -1,0 +1,32 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/solaris-heppa",
+    "@type": "cmip:institution",
+    "institution:cmip_acronym": "SOLARIS-HEPPA",
+    "institution:ror": "02h2x0161",
+    "institution:name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+    "institution:url": [
+        "http://www.geomar.de/en/"
+    ],
+    "institution:established": 2004,
+    "institution:type": "Facility",
+    "institution:labels": [],
+    "institution:aliases": [
+        "Leibniz Institute of Marine Sciences"
+    ],
+    "institution:acronyms": [
+        "IFM-GEOMAR"
+    ],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/02h2x0161",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 54.327138,
+            "location:lon": 10.180141,
+            "location:city": "Kiel",
+            "location:country": [
+                "Germany",
+                "DE"
+            ]
+        }
+    }
+}

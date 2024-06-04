@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/cnes",
+    "@type": "cmip:institution",
+    "institution:cmip_acronym": "CNES",
+    "institution:ror": "04h1h0y33",
+    "institution:name": "Centre National d'\u00c9tudes Spatiales",
+    "institution:url": [
+        "https://www.cnes.fr"
+    ],
+    "institution:established": 1961,
+    "institution:type": "Government",
+    "institution:labels": [],
+    "institution:aliases": [],
+    "institution:acronyms": [
+        "CNES"
+    ],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/04h1h0y33",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 48.85341,
+            "location:lon": 2.3488,
+            "location:city": "Paris",
+            "location:country": [
+                "France",
+                "FR"
+            ]
+        }
+    }
+}

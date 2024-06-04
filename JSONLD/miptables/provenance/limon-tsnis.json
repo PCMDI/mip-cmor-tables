@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/limon-tsnis",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "132b199a-be44-11e6-9e13-f9e3356200b3",
+        "mip_table": "LImon",
+        "variable_name": "tsnIs"
+    },
+    "CMIP5": {
+        "mip_table": "LImon",
+        "variable_name": "tsn"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-ua19",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/ua19"
+    },
+    "variable:branded_variable_name": "ua_mon-ap-tav-p19-hxy",
+    "variable:comment": "Zonal wind (positive in a eastward direction).",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apmon-ua19"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": 22.42,
+        "ok_min_mean_abs": 1.101,
+        "valid_max": 136.6,
+        "valid_min": -68.65
+    }
+}

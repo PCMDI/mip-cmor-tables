@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/obmon-baccos",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "c917ef02-c5e8-11e6-84e6-5404a60d96b5",
+        "mip_table": "Omon",
+        "variable_name": "baccos"
+    },
+    "CMIP5": {
+        "mip_table": "Omon",
+        "variable_name": "bacc"
+    }
+}

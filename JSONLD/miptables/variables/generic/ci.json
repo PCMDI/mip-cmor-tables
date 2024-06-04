@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/ci",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Fraction of Time Convection Occurs in Cell",
+    "variable:out_name": "ci",
+    "variable:positive": "",
+    "variable:standard_name": "convection_time_fraction",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

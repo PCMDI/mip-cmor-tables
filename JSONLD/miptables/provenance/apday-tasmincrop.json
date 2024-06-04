@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apday-tasmincrop",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "2eb1b0aa-b64e-11e6-b9ee-ac72891c3257",
+        "mip_table": "Eday",
+        "variable_name": "tasminCrop"
+    }
+}

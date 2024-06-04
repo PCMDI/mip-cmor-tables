@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/lpmon-tsoilpools",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "e70723c2-aa7f-11e6-9a4a-5404a60d96b5",
+        "mip_table": "Emon",
+        "variable_name": "tSoilPools"
+    }
+}

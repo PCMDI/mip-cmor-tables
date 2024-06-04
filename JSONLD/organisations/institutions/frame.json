@@ -1,0 +1,24 @@
+{
+    "@context": {
+        "@vocab": "institution:",
+        "location": {
+            "@context": {
+                "@vocab": "location:"
+            }
+        }
+    },
+    "@type": "cmip:institution",
+    "cmip_acronym": "",
+    "ror": "",
+    "name": "",
+    "url": "",
+    "established": "",
+    "type": "",
+    "labels": {},
+    "aliases": {},
+    "acronyms": {},
+    "location": {
+        "@explicit": "true"
+    },
+    "@explicit": "true"
+}

@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sfo3max",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Daily Maximum O3 Volume Mixing Ratio in Lowest Model Layer",
+    "variable:out_name": "sfo3max",
+    "variable:positive": "",
+    "variable:standard_name": "mole_fraction_of_ozone_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "mol-1"
+    ]
+}

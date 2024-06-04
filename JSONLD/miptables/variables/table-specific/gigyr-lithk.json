@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-lithk",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/lithk"
+    },
+    "variable:branded_variable_name": "lithk_yr-li-tav-z0-hxyG",
+    "variable:comment": "The thickness of the ice sheet",
+    "variable:frequency": "yr",
+    "variable:dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/landIce"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/gigyr-lithk"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

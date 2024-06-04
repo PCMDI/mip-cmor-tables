@@ -1,0 +1,101 @@
+{
+    "@id": "mip-cmor-tables:miptables/tables/giamon",
+    "@type": "cmip:dr-table",
+    "table:table_id": "GIAmon",
+    "table:Conventions": "CF-1.7 CMIP-6.5",
+    "table:approx_interval": 30.0,
+    "table:checksum": "",
+    "table:cmor_version": "3.8.0",
+    "table:release": "v6.5.0.2",
+    "table:data_specs_version": "6.5.0.0",
+    "table:generic_levels": [],
+    "table:int_missing_value": "-999",
+    "table:missing_value": "1e20",
+    "table:product": {
+        "@id": "mip-cmor-tables:auxillary/product/model-output"
+    },
+    "table:table_date": "2024-02-28",
+    "table:variable_entry": [
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-acabf"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-hfls"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-hfss"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-icem"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-libmassbffl"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-libmassbfgr"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-licalvf"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-lifmassbf"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-litempbotfl"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-litempbotgr"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-litemptop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-mrroli"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-orog"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-prra"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-prsn"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-rlds"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-rlus"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-rsds"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-rsus"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-sbl"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-snc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-snicefreez"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-snicem"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-snm"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-tas"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-ts"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-tsn"
+        }
+    ]
+}

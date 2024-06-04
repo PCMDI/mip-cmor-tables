@@ -1,0 +1,18 @@
+{
+    "@id": "mip-cmor-tables:organisations/consortia/nims-kma",
+    "@type": "cmip:consortium",
+    "consortium:cmip_acronym": "NIMS-KMA",
+    "consortium:description": "NIMS-KMA",
+    "consortium:url": "",
+    "consortium:changes": "",
+    "consortium:members": {
+        "@set": [
+            {
+                "@id": "National Institute of Meteorological Sciences"
+            },
+            {
+                "@id": "Korea Meteorological Administration"
+            }
+        ]
+    }
+}

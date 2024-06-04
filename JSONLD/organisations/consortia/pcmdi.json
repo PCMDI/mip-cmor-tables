@@ -1,0 +1,18 @@
+{
+    "@id": "mip-cmor-tables:organisations/consortia/pcmdi",
+    "@type": "cmip:consortium",
+    "consortium:cmip_acronym": "PCMDI",
+    "consortium:description": "PCMDI",
+    "consortium:url": "",
+    "consortium:changes": "",
+    "consortium:members": {
+        "@set": [
+            {
+                "@id": "Program for Climate Model Diagnosis and Intercomparison"
+            },
+            {
+                "@id": "Lawrence Livermore National Laboratory, Livermore, CA 94550, USA"
+            }
+        ]
+    }
+}

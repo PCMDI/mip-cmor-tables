@@ -1,0 +1,17 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-rlds",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "e0ab54ac-4b7f-11e7-903f-5404a60d96b5",
+        "mip_table": "CF3hr",
+        "variable_name": "rlds"
+    },
+    "CMIP5": {
+        "mip_table": "3hr",
+        "variable_name": "rlds"
+    },
+    "CMIP3": {
+        "mip_table": "A1",
+        "variable_name": "rlds"
+    }
+}

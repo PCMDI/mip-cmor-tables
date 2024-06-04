@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sfcwindmax",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Daily Maximum Near-Surface Wind Speed",
+    "variable:out_name": "sfcWindmax",
+    "variable:positive": "",
+    "variable:standard_name": "wind_speed",
+    "variable:type": "real",
+    "variable:units": [
+        "m",
+        "s-1"
+    ]
+}

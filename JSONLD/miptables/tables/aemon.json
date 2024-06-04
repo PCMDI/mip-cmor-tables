@@ -1,0 +1,242 @@
+{
+    "@id": "mip-cmor-tables:miptables/tables/aemon",
+    "@type": "cmip:dr-table",
+    "table:table_id": "AEmon",
+    "table:Conventions": "CF-1.7 CMIP-6.5",
+    "table:approx_interval": 30.0,
+    "table:checksum": "",
+    "table:cmor_version": "3.8.0",
+    "table:release": "v6.5.0.2",
+    "table:data_specs_version": "6.5.0.0",
+    "table:generic_levels": [],
+    "table:int_missing_value": "-999",
+    "table:missing_value": "1e20",
+    "table:product": {
+        "@id": "mip-cmor-tables:auxillary/product/model-output"
+    },
+    "table:table_date": "2023-11-16",
+    "table:variable_entry": [
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-abs550aer"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-bldep"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-ccn"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-chepasoa"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-chepsoa"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-cltc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-cod"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-depdust"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-drybc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-drydust"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-drynh3"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-drynh4"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-drynoy"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-dryo3"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-dryoa"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-dryso2"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-dryso4"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-dryss"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emiaco"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emianox"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emiaoa"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emibc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emibvoc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emico"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emidms"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emidust"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emiisop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-eminh3"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-eminox"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emioa"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emiso2"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emiso4"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emiss"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emivoc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-lwp"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-mmrno3"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-od440aer"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-od550aer"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-od550aerh2o"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-od550bb"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-od550bc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-od550csaer"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-od550dust"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-od550lt1aer"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-od550no3"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-od550oa"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-od550so4"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-od550soa"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-od550ss"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-od870aer"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-pod0"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-ptp"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-reffclwtop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-rlutaf"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-rlutcsaf"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-rsutaf"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-rsutcsaf"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-sedustci"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-tatp"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-tntrl27"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-tntrs27"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-toz"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-tropoz"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-ttop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-wetbc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-wetdust"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-wetnh3"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-wetnh4"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-wetnoy"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-wetoa"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-wetso2"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-wetso4"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-wetss"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-ztp"
+        }
+    ]
+}

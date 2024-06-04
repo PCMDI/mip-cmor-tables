@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/nasa-gsfc",
+    "@type": "cmip:institution",
+    "institution:cmip_acronym": "NASA-GSFC",
+    "institution:ror": "0171mag52",
+    "institution:name": "Goddard Space Flight Center",
+    "institution:url": [
+        "https://www.nasa.gov/centers/goddard/home/index.html"
+    ],
+    "institution:established": 1959,
+    "institution:type": "Facility",
+    "institution:labels": [],
+    "institution:aliases": [],
+    "institution:acronyms": [
+        "GSFC"
+    ],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/0171mag52",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 39.00455,
+            "location:lon": -76.87553,
+            "location:city": "Greenbelt",
+            "location:country": [
+                "United States",
+                "US"
+            ]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/simon-simassacrossline",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "7109b964-faa7-11e6-bfb7-ac72891c3257",
+        "mip_table": "SImon",
+        "variable_name": "simassacrossline"
+    }
+}

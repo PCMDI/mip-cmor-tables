@@ -1,0 +1,15 @@
+{
+    "@id": "mip-cmor-tables:organisations/consortia/cnrm-cerfacs",
+    "@type": "cmip:consortium",
+    "consortium:cmip_acronym": "CNRM-Cerfacs",
+    "consortium:description": "CNRM-Cerfacs",
+    "consortium:url": "",
+    "consortium:changes": "",
+    "consortium:members": {
+        "@set": [
+            {
+                "@id": "CNRM (Centre National de Recherches Meteorologiques, Toulouse 31057, France), CERFACS (Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique, Toulouse 31100, France)"
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opyr-somint",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "1aaf4d2c-b006-11e6-9289-ac72891c3257",
+        "mip_table": "Oyr",
+        "variable_name": "somint"
+    }
+}

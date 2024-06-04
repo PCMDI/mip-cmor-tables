@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/vqint",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Northward Humidity Transport",
+    "variable:out_name": "vqint",
+    "variable:positive": "",
+    "variable:standard_name": "integral_wrt_height_of_product_of_northward_wind_and_specific_humidity",
+    "variable:type": "real",
+    "variable:units": [
+        "m2",
+        "s-1"
+    ]
+}

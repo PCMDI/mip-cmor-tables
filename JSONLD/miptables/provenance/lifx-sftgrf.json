@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/lifx-sftgrf",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "b7f330ce-7c00-11e6-bcdf-ac72891c3257",
+        "mip_table": "Efx",
+        "variable_name": "sftgrf"
+    }
+}

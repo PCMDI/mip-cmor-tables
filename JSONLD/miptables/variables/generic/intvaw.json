@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/intvaw",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Vertically Integrated Northward Moisture Transport",
+    "variable:out_name": "intvaw",
+    "variable:positive": "",
+    "variable:standard_name": "northward_atmosphere_water_transport_across_unit_distance",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-1",
+        "s-1"
+    ]
+}

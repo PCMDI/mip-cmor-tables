@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apmonclim-ch4globalclim",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "a92e3b16-817c-11e6-a4e2-5404a60d96b5",
+        "mip_table": "Amon",
+        "variable_name": "ch4globalClim"
+    },
+    "CMIP5": {
+        "mip_table": "Amon",
+        "variable_name": "ch4globalClim"
+    }
+}

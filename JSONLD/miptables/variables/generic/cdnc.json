@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/cdnc",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Cloud Liquid Droplet Number Concentration",
+    "variable:out_name": "cdnc",
+    "variable:positive": "",
+    "variable:standard_name": "number_concentration_of_cloud_liquid_water_particles_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "m-3"
+    ]
+}

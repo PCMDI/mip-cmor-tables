@@ -1,0 +1,119 @@
+{
+    "@id": "mip-cmor-tables:miptables/tables/ap6hrpt",
+    "@type": "cmip:dr-table",
+    "table:table_id": "AP6hrPt",
+    "table:Conventions": "CF-1.7 CMIP-6.5",
+    "table:approx_interval": 0.25,
+    "table:checksum": "",
+    "table:cmor_version": "3.8.0",
+    "table:release": "v6.5.0.2",
+    "table:data_specs_version": "6.5.0.0",
+    "table:generic_levels": [],
+    "table:int_missing_value": "-999",
+    "table:missing_value": "1e20",
+    "table:product": {
+        "@id": "mip-cmor-tables:auxillary/product/model-output"
+    },
+    "table:table_date": "2023-11-16",
+    "table:variable_entry": [
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-cldicemxrat27"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-cldwatmxrat27"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-dtauc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-dtaus"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-grplmxrat27"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-hus27"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-hus7h"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-huss"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-lwsffluxaero"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-lwtoafluxaerocs"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-ps"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-psl"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-rainmxrat27"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-rv850"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-sfcwind"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-snowmxrat27"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-swsffluxaero"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-swtoafluxaerocs"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-ta"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-ta27"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-ta7h"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-tas"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-ts"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-ua"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-ua7h"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-uas"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-va"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-va7h"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-vas"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-vortmean"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-wbptemp7h"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-zg27"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-zg7h"
+        }
+    ]
+}

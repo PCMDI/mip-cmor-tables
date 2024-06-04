@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/lpyrpt-cproduct",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "3e26df20-b89b-11e6-be04-ac72891c3257",
+        "mip_table": "Eyr",
+        "variable_name": "cProduct"
+    }
+}

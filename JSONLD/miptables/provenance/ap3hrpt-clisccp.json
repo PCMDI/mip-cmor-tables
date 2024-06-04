@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-clisccp",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "8bb0db0a-4a5b-11e6-9cd2-ac72891c3257",
+        "mip_table": "E3hrPt",
+        "variable_name": "clisccp"
+    }
+}

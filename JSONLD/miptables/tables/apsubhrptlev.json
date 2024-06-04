@@ -1,0 +1,47 @@
+{
+    "@id": "mip-cmor-tables:miptables/tables/apsubhrptlev",
+    "@type": "cmip:dr-table",
+    "table:table_id": "APsubhrPtLev",
+    "table:Conventions": "CF-1.7 CMIP-6.5",
+    "table:approx_interval": 0.017361,
+    "table:checksum": "",
+    "table:cmor_version": "3.8.0",
+    "table:release": "v6.5.0.2",
+    "table:data_specs_version": "6.5.0.0",
+    "table:generic_levels": [
+        "alevel",
+        "alevhalf"
+    ],
+    "table:int_missing_value": "-999",
+    "table:missing_value": "1e20",
+    "table:product": {
+        "@id": "mip-cmor-tables:auxillary/product/model-output"
+    },
+    "table:table_date": "2023-11-16",
+    "table:variable_entry": [
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptlev-hus"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptlev-mc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptlev-ta"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptlev-tnhus"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptlev-tnt"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptlev-ua"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptlev-va"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptlev-wap"
+        }
+    ]
+}

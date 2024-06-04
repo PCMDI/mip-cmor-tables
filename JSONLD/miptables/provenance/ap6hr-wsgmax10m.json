@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/ap6hr-wsgmax10m",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "ef05c7e6-34cb-11e7-8257-5404a60d96b5",
+        "mip_table": "6hrPlev",
+        "variable_name": "wsgmax10m"
+    }
+}

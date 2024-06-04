@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/obmon-epsi100",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "5a35f1ba-c77d-11e6-8a33-5404a60d96b5",
+        "mip_table": "Omon",
+        "variable_name": "epsi100"
+    },
+    "CMIP5": {
+        "mip_table": "Omon",
+        "variable_name": "epsi100"
+    }
+}

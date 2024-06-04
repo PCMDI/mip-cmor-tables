@@ -1,0 +1,224 @@
+{
+    "@id": "mip-cmor-tables:miptables/tables/obmonlev",
+    "@type": "cmip:dr-table",
+    "table:table_id": "OBmonLev",
+    "table:Conventions": "CF-1.7 CMIP-6.5",
+    "table:approx_interval": 30.0,
+    "table:checksum": "",
+    "table:cmor_version": "3.8.0",
+    "table:release": "v6.5.0.2",
+    "table:data_specs_version": "6.5.0.0",
+    "table:generic_levels": [
+        "olevel",
+        "olevhalf"
+    ],
+    "table:int_missing_value": "-999",
+    "table:missing_value": "1e20",
+    "table:product": {
+        "@id": "mip-cmor-tables:auxillary/product/model-output"
+    },
+    "table:table_date": "2023-11-16",
+    "table:variable_entry": [
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-arag"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-bacc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-bfe"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-bsi"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-calc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-chl"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-chlcalc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-chldiat"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-chldiaz"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-chlmisc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-chlpico"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-co3"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-co3abio"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-co3nat"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-co3satarag"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-co3satcalc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-detoc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-dfe"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-dissi13c"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-dissi14c"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-dissi14cabio"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-dissic"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-dissicabio"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-dissicnat"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-dissoc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-dmso"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-exparag"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-expc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-expcalc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-expfe"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-expn"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-expp"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-expsi"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-graz"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-nh4"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-no3"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-o2"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-o2sat"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-ph"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-phabio"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-phnat"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-phyc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-phycalc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-phydiat"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-phydiaz"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-phyfe"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-phymisc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-phyn"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-phyp"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-phypico"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-physi"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-po4"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-pon"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-pop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-pp"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-ppcalc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-ppdiat"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-ppdiaz"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-ppmisc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-pppico"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-si"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-talk"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-talknat"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-zmeso"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-zmicro"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-zmisc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/obmonlev-zooc"
+        }
+    ]
+}

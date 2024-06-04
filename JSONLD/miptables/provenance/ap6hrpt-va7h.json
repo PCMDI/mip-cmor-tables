@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-va7h",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "713fda6c-faa7-11e6-bfb7-ac72891c3257",
+        "mip_table": "6hrPlevPt",
+        "variable_name": "va7h"
+    }
+}

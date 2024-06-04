@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/lpmon-treefracbdldcd",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "6f6a70da-9acb-11e6-b7ee-ac72891c3257",
+        "mip_table": "Emon",
+        "variable_name": "treeFracBdlDcd"
+    }
+}

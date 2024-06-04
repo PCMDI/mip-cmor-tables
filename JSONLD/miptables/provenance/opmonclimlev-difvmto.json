@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opmonclimlev-difvmto",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "baabed60-e5dd-11e5-8482-ac72891c3257",
+        "mip_table": "Oclim",
+        "variable_name": "difvmto"
+    },
+    "CMIP5": {
+        "mip_table": "Oclim",
+        "variable_name": "difvmto"
+    }
+}

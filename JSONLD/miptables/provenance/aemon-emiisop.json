@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/aemon-emiisop",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "19c03ecc-81b1-11e6-92de-ac72891c3257",
+        "mip_table": "AERmon",
+        "variable_name": "emiisop"
+    }
+}

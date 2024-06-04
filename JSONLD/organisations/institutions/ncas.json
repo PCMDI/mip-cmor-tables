@@ -1,0 +1,28 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/ncas",
+    "@type": "cmip:institution",
+    "institution:cmip_acronym": "NCAS",
+    "institution:ror": "03q36cn05",
+    "institution:name": "Uks",
+    "institution:url": [
+        "http://www.uksresearch.com/"
+    ],
+    "institution:established": 1997,
+    "institution:type": "Facility",
+    "institution:labels": [],
+    "institution:aliases": [],
+    "institution:acronyms": [],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/03q36cn05",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 33.72148,
+            "location:lon": 73.04329,
+            "location:city": "Islamabad",
+            "location:country": [
+                "Pakistan",
+                "PK"
+            ]
+        }
+    }
+}

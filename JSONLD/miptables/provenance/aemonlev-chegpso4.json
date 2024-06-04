@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/aemonlev-chegpso4",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "19bfb81c-81b1-11e6-92de-ac72891c3257",
+        "mip_table": "AERmon",
+        "variable_name": "chegpso4"
+    }
+}

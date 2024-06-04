@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-fco2nat",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "800a51aa-f906-11e6-a176-5404a60d96b5",
+        "mip_table": "CFsubhr",
+        "variable_name": "fco2nat"
+    }
+}

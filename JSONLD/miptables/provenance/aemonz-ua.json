@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/aemonz-ua",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "f1f36fa2-aa70-11e6-9736-5404a60d96b5",
+        "mip_table": "AERmonZ",
+        "variable_name": "ua"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/pbfe",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Biogenic Iron Production",
+    "variable:out_name": "pbfe",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_mole_concentration_of_iron_in_sea_water_due_to_biological_production",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3",
+        "s-1"
+    ]
+}

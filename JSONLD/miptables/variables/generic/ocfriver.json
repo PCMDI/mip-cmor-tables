@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/ocfriver",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Flux of Organic Carbon into Ocean Surface by Runoff",
+    "variable:out_name": "ocfriver",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_ocean_mole_content_of_organic_carbon_due_to_runoff_and_sediment_dissolution",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-2",
+        "s-1"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apmonclim-co2clim",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "a92dfd68-817c-11e6-a4e2-5404a60d96b5",
+        "mip_table": "Amon",
+        "variable_name": "co2Clim"
+    },
+    "CMIP5": {
+        "mip_table": "Amon",
+        "variable_name": "co2Clim"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "@id": "mip-cmor-tables:organisations/consortia/iamc",
+    "@type": "cmip:consortium",
+    "consortium:cmip_acronym": "IAMC",
+    "consortium:description": "Integrated Assessment Modeling Consortium",
+    "consortium:url": "",
+    "consortium:changes": "",
+    "consortium:members": {
+        "@set": [
+            {
+                "@id": "Integrated Assessment Modeling Consortium"
+            }
+        ]
+    }
+}

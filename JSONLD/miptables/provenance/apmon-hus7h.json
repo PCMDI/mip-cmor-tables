@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apmon-hus7h",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "81d83384-aa6a-11e6-9736-5404a60d96b5",
+        "mip_table": "Emon",
+        "variable_name": "hus"
+    }
+}

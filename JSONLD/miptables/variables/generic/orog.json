@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/orog",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Altitude",
+    "variable:out_name": "orog",
+    "variable:positive": "",
+    "variable:standard_name": "surface_altitude",
+    "variable:type": "real",
+    "variable:units": [
+        "m"
+    ]
+}

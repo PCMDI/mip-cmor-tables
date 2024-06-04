@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opmonlev-hfibthermds",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "baa6a18e-e5dd-11e5-8482-ac72891c3257",
+        "mip_table": "Omon",
+        "variable_name": "hfibthermds"
+    },
+    "CMIP5": {
+        "mip_table": "Omon",
+        "variable_name": "hfibthermds2d"
+    }
+}

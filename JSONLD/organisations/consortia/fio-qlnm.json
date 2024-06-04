@@ -1,0 +1,18 @@
+{
+    "@id": "mip-cmor-tables:organisations/consortia/fio-qlnm",
+    "@type": "cmip:consortium",
+    "consortium:cmip_acronym": "FIO-QLNM",
+    "consortium:description": "FIO-QLNM",
+    "consortium:url": "",
+    "consortium:changes": "",
+    "consortium:members": {
+        "@set": [
+            {
+                "@id": "FIO (First Institute of Oceanography, Ministry of Natural Resources, Qingdao 266061, China)"
+            },
+            {
+                "@id": "QNLM (Qingdao National Laboratory for Marine Science and Technology, Qingdao 266237, China)"
+            }
+        ]
+    }
+}

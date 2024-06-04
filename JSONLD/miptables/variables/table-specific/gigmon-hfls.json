@@ -1,0 +1,32 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-hfls",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/hfls"
+    },
+    "variable:branded_variable_name": "hfls_mon-li-tav-z0-hxyG",
+    "variable:comment": "The surface called 'surface' means the lower boundary of the atmosphere. 'Upward' indicates a vector component which is positive when directed upward (negative downward). The surface latent heat flux is the exchange of heat between the surface and the air on account of evaporation (including sublimation). In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/landIce"
+        },
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/gigmon-hfls"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": 110,
+        "ok_min_mean_abs": 30,
+        "valid_max": 1800,
+        "valid_min": -400
+    }
+}

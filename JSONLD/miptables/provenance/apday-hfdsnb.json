@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apday-hfdsnb",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "f2fb0ac8-c38d-11e6-abc1-1b922e5e1118",
+        "mip_table": "Eday",
+        "variable_name": "hfdsnb"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/ap6hrptlev-hus",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "bab009cc-e5dd-11e5-8482-ac72891c3257",
+        "mip_table": "6hrLev",
+        "variable_name": "hus"
+    }
+}

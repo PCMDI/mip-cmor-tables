@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sivols",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea-Ice Volume South",
+    "variable:out_name": "sivols",
+    "variable:positive": "",
+    "variable:standard_name": "sea_ice_volume",
+    "variable:type": "real",
+    "variable:units": [
+        "1e3",
+        "km3"
+    ]
+}

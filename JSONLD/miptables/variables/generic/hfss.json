@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/hfss",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Upward Sensible Heat Flux",
+    "variable:out_name": "hfss",
+    "variable:positive": "up",
+    "variable:standard_name": "surface_upward_sensible_heat_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

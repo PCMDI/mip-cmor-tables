@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/aeday-zg500",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "0fabb742-817d-11e6-b80b-5404a60d96b5",
+        "mip_table": "AERday",
+        "variable_name": "zg500"
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "@id": "mip-cmor-tables:miptables/tables/gigmon",
+    "@type": "cmip:dr-table",
+    "table:table_id": "GIGmon",
+    "table:Conventions": "CF-1.7 CMIP-6.5",
+    "table:approx_interval": 30.0,
+    "table:checksum": "",
+    "table:cmor_version": "3.8.0",
+    "table:release": "v6.5.0.2",
+    "table:data_specs_version": "6.5.0.0",
+    "table:generic_levels": [],
+    "table:int_missing_value": "-999",
+    "table:missing_value": "1e20",
+    "table:product": {
+        "@id": "mip-cmor-tables:auxillary/product/model-output"
+    },
+    "table:table_date": "2024-02-28",
+    "table:variable_entry": [
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-acabf"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-hfls"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-hfss"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-icem"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-libmassbffl"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-libmassbfgr"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-licalvf"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-lifmassbf"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-litempbotfl"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-litempbotgr"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-litemptop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-mrroli"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-orog"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-prra"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-prsn"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-rlds"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-rlus"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-rsds"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-rsus"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-sbl"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-snc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-snicefreez"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-snicem"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-snm"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-tas"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-ts"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-tsn"
+        }
+    ]
+}

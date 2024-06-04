@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-jpdftaureliqmodis",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "f2aa2ed0-26b8-11e7-8344-ac72891c3257",
+        "mip_table": "E3hrPt",
+        "variable_name": "jpdftaureliqmodis"
+    }
+}

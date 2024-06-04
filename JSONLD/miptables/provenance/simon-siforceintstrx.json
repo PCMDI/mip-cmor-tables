@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/simon-siforceintstrx",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "7147c57e-faa7-11e6-bfb7-ac72891c3257",
+        "mip_table": "SImon",
+        "variable_name": "siforceintstrx"
+    }
+}

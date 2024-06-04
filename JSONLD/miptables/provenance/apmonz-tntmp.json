@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apmonz-tntmp",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "607e74a6-bf0e-11e6-aae4-ac72891c3257",
+        "mip_table": "EmonZ",
+        "variable_name": "tntmp"
+    }
+}

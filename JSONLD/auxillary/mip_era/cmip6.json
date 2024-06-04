@@ -1,0 +1,8 @@
+{
+    "@type": "cmip:mip_era",
+    "@id": "mip-cmor-tables:auxillary/mip_era/cmip6",
+    "mip:name": "CMIP6",
+    "mip:url": "https://wcrp-cmip.org/CMIP6",
+    "mip:start": "2999",
+    "mip:end": "2999"
+}

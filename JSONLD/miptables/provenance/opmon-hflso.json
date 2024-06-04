@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opmon-hflso",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "ada94e1e-b17f-11e6-8975-5404a60d96b5",
+        "mip_table": "Omon",
+        "variable_name": "hflso"
+    },
+    "CMIP5": {
+        "mip_table": "Omon",
+        "variable_name": "hfls"
+    }
+}

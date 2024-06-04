@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/dtauc",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Convective Cloud Optical Depth",
+    "variable:out_name": "dtauc",
+    "variable:positive": "",
+    "variable:standard_name": "atmosphere_optical_thickness_due_to_convective_cloud",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Consortium Data Schema",
+    "type": "object",
+    "properties": {
+        "@id": {
+            "type": "string",
+            "pattern": "^mip-cmor-tables:organisations/consortia/.*$"
+        },
+        "@type": {
+            "type": "string",
+            "enum": [
+                "cmip:consortium"
+            ]
+        },
+        "consortium:cmip_acronym": {
+            "type": "string"
+        },
+        "consortium:description": {
+            "type": "string"
+        },
+        "consortium:url": {
+            "type": "string"
+        },
+        "consortium:changes": {
+            "type": "string"
+        },
+        "consortium:members": {
+            "type": "object",
+            "properties": {
+                "@set": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "@id": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "@id"
+                        ]
+                    }
+                }
+            },
+            "required": [
+                "@set"
+            ]
+        }
+    },
+    "required": [
+        "@id",
+        "@type",
+        "consortium:cmip_acronym",
+        "consortium:description",
+        "consortium:url",
+        "consortium:changes",
+        "consortium:members"
+    ]
+}

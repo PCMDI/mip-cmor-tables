@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/dpo2",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Delta O2 Partial Pressure",
+    "variable:out_name": "dpo2",
+    "variable:positive": "",
+    "variable:standard_name": "surface_molecular_oxygen_partial_pressure_difference_between_sea_water_and_air",
+    "variable:type": "real",
+    "variable:units": [
+        "Pa"
+    ]
+}

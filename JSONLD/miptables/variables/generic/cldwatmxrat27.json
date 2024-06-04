@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/cldwatmxrat27",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Cloud Water Mixing Ratio",
+    "variable:out_name": "cldwatmxrat27",
+    "variable:positive": "",
+    "variable:standard_name": "cloud_liquid_water_mixing_ratio",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

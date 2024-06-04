@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-lifmassbf",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/lifmassbf"
+    },
+    "variable:branded_variable_name": "lifmassbf_mon-li-tav-z0-hxyA",
+    "variable:comment": "Total mass balance at the ice front (or vertical margin). It includes both iceberg calving and melt on vertical ice front",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "xant",
+        "yant",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/landIce"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/giamon-lifmassbf"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

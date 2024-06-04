@@ -1,0 +1,28 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/opfx-basin",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/basin"
+    },
+    "variable:branded_variable_name": "basin_fx-op-none-z0-hxy",
+    "variable:comment": "A variable with the standard name of region contains strings which indicate geographical regions. These strings must be chosen from the standard region list.",
+    "variable:frequency": "fx",
+    "variable:dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocean"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/opfx-basin"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

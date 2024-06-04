@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opday-mlotst",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "8168b848-f906-11e6-a176-5404a60d96b5",
+        "mip_table": "Eday",
+        "variable_name": "mlotst"
+    }
+}

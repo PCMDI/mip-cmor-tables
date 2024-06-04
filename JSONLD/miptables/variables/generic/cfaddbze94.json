@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/cfaddbze94",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "CloudSat Radar Reflectivity CFAD",
+    "variable:out_name": "cfadDbze94",
+    "variable:positive": "",
+    "variable:standard_name": "histogram_of_equivalent_reflectivity_factor_over_height_above_reference_ellipsoid",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

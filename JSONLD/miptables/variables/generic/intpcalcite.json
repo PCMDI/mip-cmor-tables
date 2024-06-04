@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/intpcalcite",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Calcite Production",
+    "variable:out_name": "intpcalcite",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_ocean_mole_content_of_calcite_expressed_as_carbon_due_to_biological_production",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-2",
+        "s-1"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "@id": "mip-cmor-tables:miptables/tables/opmonz",
+    "@type": "cmip:dr-table",
+    "table:table_id": "OPmonZ",
+    "table:Conventions": "CF-1.7 CMIP-6.5",
+    "table:approx_interval": 30.0,
+    "table:checksum": "",
+    "table:cmor_version": "3.8.0",
+    "table:release": "v6.5.0.2",
+    "table:data_specs_version": "6.5.0.0",
+    "table:generic_levels": [],
+    "table:int_missing_value": "-999",
+    "table:missing_value": "1e20",
+    "table:product": {
+        "@id": "mip-cmor-tables:auxillary/product/model-output"
+    },
+    "table:table_date": "2024-02-28",
+    "table:variable_entry": [
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-hfbasin"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-hfbasinpadv"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-hfbasinpmadv"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-hfbasinpmdiff"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-hfbasinpsmadv"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-htovgyre"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-htovovrt"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-msftmrho"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-msftmrhompa"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-msftmz"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-msftmzmpa"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-msftmzsmpa"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-msftyzsmpa"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-sltbasin"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-sltovgyre"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-sltovovrt"
+        }
+    ]
+}

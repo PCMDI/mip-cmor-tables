@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/aemon-depdust",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "6f6bf34c-9acb-11e6-b7ee-ac72891c3257",
+        "mip_table": "Emon",
+        "variable_name": "depdust"
+    }
+}

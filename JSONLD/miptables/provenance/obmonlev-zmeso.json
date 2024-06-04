@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/obmonlev-zmeso",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "c92305ae-c5e8-11e6-84e6-5404a60d96b5",
+        "mip_table": "Omon",
+        "variable_name": "zmeso"
+    }
+}

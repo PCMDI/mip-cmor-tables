@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opdeclev-volcello",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "0d321850-1027-11e8-9d87-1c4d70487308",
+        "mip_table": "Odec",
+        "variable_name": "volcello"
+    }
+}

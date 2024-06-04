@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/intdic",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Dissolved Inorganic Carbon Content",
+    "variable:out_name": "intdic",
+    "variable:positive": "",
+    "variable:standard_name": "ocean_mass_content_of_dissolved_inorganic_carbon",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/co2",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Mole Fraction of CO2",
+    "variable:out_name": "co2",
+    "variable:positive": "",
+    "variable:standard_name": "mole_fraction_of_carbon_dioxide_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "mol-1"
+    ]
+}

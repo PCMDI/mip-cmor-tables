@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/simon-sivol",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "71291d86-faa7-11e6-bfb7-ac72891c3257",
+        "mip_table": "SImon",
+        "variable_name": "sivol"
+    }
+}

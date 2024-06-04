@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/lpmon-nlitter",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "6f6b0a36-9acb-11e6-b7ee-ac72891c3257",
+        "mip_table": "Emon",
+        "variable_name": "nLitter"
+    }
+}

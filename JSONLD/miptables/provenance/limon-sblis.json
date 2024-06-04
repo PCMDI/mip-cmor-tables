@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/limon-sblis",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "132b2aca-be44-11e6-9e13-f9e3356200b3",
+        "mip_table": "LImon",
+        "variable_name": "sblIs"
+    }
+}

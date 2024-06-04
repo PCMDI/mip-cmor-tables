@@ -1,0 +1,47 @@
+{
+    "@id": "mip-cmor-tables:miptables/tables/siday",
+    "@type": "cmip:dr-table",
+    "table:table_id": "SIday",
+    "table:Conventions": "CF-1.7 CMIP-6.5",
+    "table:approx_interval": 1.0,
+    "table:checksum": "",
+    "table:cmor_version": "3.8.0",
+    "table:release": "v6.5.0.2",
+    "table:data_specs_version": "6.5.0.0",
+    "table:generic_levels": [],
+    "table:int_missing_value": "-999",
+    "table:missing_value": "1e20",
+    "table:product": {
+        "@id": "mip-cmor-tables:auxillary/product/model-output"
+    },
+    "table:table_date": "2024-02-28",
+    "table:variable_entry": [
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/siday-siconc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/siday-siconca"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/siday-sisnthick"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/siday-sispeed"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/siday-sitemptop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/siday-sithick"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/siday-sitimefrac"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/siday-siu"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/siday-siv"
+        }
+    ]
+}

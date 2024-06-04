@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/obmon-ponos",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "c919b7b0-c5e8-11e6-84e6-5404a60d96b5",
+        "mip_table": "Omon",
+        "variable_name": "ponos"
+    },
+    "CMIP5": {
+        "mip_table": "Omon",
+        "variable_name": "pon"
+    }
+}

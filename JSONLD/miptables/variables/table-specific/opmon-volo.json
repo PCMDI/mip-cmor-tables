@@ -1,0 +1,27 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmon-volo",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/volo"
+    },
+    "variable:branded_variable_name": "volo_mon-op-tav-z0-hm",
+    "variable:comment": "Total volume of liquid sea water.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocean"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/opmon-volo"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

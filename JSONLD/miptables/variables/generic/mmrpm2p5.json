@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/mmrpm2p5",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "PM2.5 Mass Mixing Ratio",
+    "variable:out_name": "mmrpm2p5",
+    "variable:positive": "",
+    "variable:standard_name": "mass_fraction_of_pm2p5_dry_aerosol_particles_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "kg-1"
+    ]
+}

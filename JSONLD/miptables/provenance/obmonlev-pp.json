@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/obmonlev-pp",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "d934ae66-90cb-11e8-8e2e-a44cc8186c64",
+        "mip_table": "Omon",
+        "variable_name": "pp"
+    }
+}

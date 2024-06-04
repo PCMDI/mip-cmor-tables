@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/lpmon-fahlut",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "3e26b0c2-b89b-11e6-be04-ac72891c3257",
+        "mip_table": "Emon",
+        "variable_name": "fahLut"
+    }
+}

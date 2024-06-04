@@ -1,0 +1,8 @@
+{
+    "consortia": {
+        "@context": {
+            "@vocab": "consortia",
+            "@base": "https://github.com/PCMDI/mip-cmor-tables/tree/json-ld/JSONLD/consortia"
+        }
+    }
+}

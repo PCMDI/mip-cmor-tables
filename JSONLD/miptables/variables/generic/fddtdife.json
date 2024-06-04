@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/fddtdife",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Rate of Change of Net Dissolved Inorganic Iron",
+    "variable:out_name": "fddtdife",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_iron",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-2",
+        "s-1"
+    ]
+}

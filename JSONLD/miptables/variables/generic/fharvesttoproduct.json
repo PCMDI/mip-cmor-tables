@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/fharvesttoproduct",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Harvested Biomass That Goes into Product Pool",
+    "variable:out_name": "fHarvestToProduct",
+    "variable:positive": "",
+    "variable:standard_name": "mass_flux_of_carbon_into_forestry_and_agricultural_products_due_to_crop_harvesting",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

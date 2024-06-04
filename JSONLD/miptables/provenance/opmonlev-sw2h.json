@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opmonlev-sw2h",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "fdca5cc2-4d35-11e8-be0a-1c4d70487308",
+        "mip_table": "Emon",
+        "variable_name": "sw2H"
+    }
+}

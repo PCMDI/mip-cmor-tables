@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/aeday-od550aer",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "fda76476-96ec-11e6-b81e-c9e268aff03a",
+        "mip_table": "AERday",
+        "variable_name": "od550aer"
+    }
+}

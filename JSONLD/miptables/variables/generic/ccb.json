@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/ccb",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Air Pressure at Convective Cloud Base",
+    "variable:out_name": "ccb",
+    "variable:positive": "",
+    "variable:standard_name": "air_pressure_at_convective_cloud_base",
+    "variable:type": "real",
+    "variable:units": [
+        "Pa"
+    ]
+}

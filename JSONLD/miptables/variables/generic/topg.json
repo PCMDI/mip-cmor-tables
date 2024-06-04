@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/topg",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Bedrock Altitude",
+    "variable:out_name": "topg",
+    "variable:positive": "",
+    "variable:standard_name": "bedrock_altitude",
+    "variable:type": "real",
+    "variable:units": [
+        "m"
+    ]
+}

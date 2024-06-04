@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/obmon-dissicos",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "803e5f7c-f906-11e6-a176-5404a60d96b5",
+        "mip_table": "Omon",
+        "variable_name": "dissicos"
+    },
+    "CMIP5": {
+        "mip_table": "Omon",
+        "variable_name": "dissic"
+    }
+}

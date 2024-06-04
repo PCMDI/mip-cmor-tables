@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opmon-fgsf6",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "ba9b44a6-e5dd-11e5-8482-ac72891c3257",
+        "mip_table": "Omon",
+        "variable_name": "fgsf6"
+    }
+}

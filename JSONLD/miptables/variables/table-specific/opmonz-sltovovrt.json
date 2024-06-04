@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-sltovovrt",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/sltovovrt"
+    },
+    "variable:branded_variable_name": "sltovovrt_mon-op-tav-z0-hys",
+    "variable:comment": "From all advective mass transport processes, resolved and parameterized.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "latitude",
+        "basin",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocean"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/opmonz-sltovovrt"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

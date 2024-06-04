@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/c2h6",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "C2H6 Volume Mixing Ratio",
+    "variable:out_name": "c2h6",
+    "variable:positive": "",
+    "variable:standard_name": "mole_fraction_of_ethane_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "mol-1"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/prcrop",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Precipitation over Crop Tile",
+    "variable:out_name": "prCrop",
+    "variable:positive": "",
+    "variable:standard_name": "precipitation_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

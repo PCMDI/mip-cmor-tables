@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apday-rsdscsdiff",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "7d8c6a76-1ab7-11e7-8dfc-5404a60d96b5",
+        "mip_table": "Eday",
+        "variable_name": "rsdscsdiff"
+    }
+}

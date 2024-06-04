@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/slthick",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Thickness of Soil Layers",
+    "variable:out_name": "slthick",
+    "variable:positive": "",
+    "variable:standard_name": "cell_thickness",
+    "variable:type": "real",
+    "variable:units": [
+        "m"
+    ]
+}

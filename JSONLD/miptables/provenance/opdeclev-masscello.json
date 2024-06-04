@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opdeclev-masscello",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "8872d1a8-1027-11e8-9d87-1c4d70487308",
+        "mip_table": "Odec",
+        "variable_name": "masscello"
+    }
+}

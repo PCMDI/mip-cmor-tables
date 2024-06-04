@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/phypicoos",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Mole Concentration of Picophytoplankton Expressed as Carbon in Sea Water",
+    "variable:out_name": "phypicoos",
+    "variable:positive": "",
+    "variable:standard_name": "mole_concentration_of_picophytoplankton_expressed_as_carbon_in_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3"
+    ]
+}

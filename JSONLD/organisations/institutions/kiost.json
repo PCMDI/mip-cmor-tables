@@ -1,0 +1,32 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/kiost",
+    "@type": "cmip:institution",
+    "institution:cmip_acronym": "KIOST",
+    "institution:ror": "032m55064",
+    "institution:name": "Korea Institute of Ocean Science and Technology",
+    "institution:url": [
+        "http://eng.kiost.ac/"
+    ],
+    "institution:established": 1973,
+    "institution:type": "Facility",
+    "institution:labels": [],
+    "institution:aliases": [
+        "Korean Ocean Research and Development Institute"
+    ],
+    "institution:acronyms": [
+        "KIOST"
+    ],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/032m55064",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 35.10168,
+            "location:lon": 129.03004,
+            "location:city": "Busan",
+            "location:country": [
+                "South Korea",
+                "KR"
+            ]
+        }
+    }
+}

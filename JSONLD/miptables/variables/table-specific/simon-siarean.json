@@ -1,0 +1,27 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siarean",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/siarean"
+    },
+    "variable:branded_variable_name": "siarean_mon-si-tav-z0-hm",
+    "variable:comment": "total area of sea ice in the Northern hemisphere",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/seaIce"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/simon-siarean"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

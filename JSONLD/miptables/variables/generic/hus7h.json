@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/hus7h",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Specific Humidity",
+    "variable:out_name": "hus7h",
+    "variable:positive": "",
+    "variable:standard_name": "specific_humidity",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

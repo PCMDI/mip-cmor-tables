@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sidmasssi",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea-Ice Mass Change Through Snow-to-Ice Conversion",
+    "variable:out_name": "sidmasssi",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_sea_ice_amount_due_to_conversion_of_snow_to_sea_ice",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

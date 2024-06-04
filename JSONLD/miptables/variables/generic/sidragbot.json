@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sidragbot",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Ocean Drag Coefficient",
+    "variable:out_name": "sidragbot",
+    "variable:positive": "",
+    "variable:standard_name": "sea_ice_basal_drag_coefficient_for_momentum_in_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

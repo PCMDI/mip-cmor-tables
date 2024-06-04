@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/rss",
+    "@type": "cmip:institution",
+    "institution:cmip_acronym": "RSS",
+    "institution:ror": "01vp8h012",
+    "institution:name": "Remote Sensing Systems (United States)",
+    "institution:url": [
+        "http://www.remss.com/"
+    ],
+    "institution:established": 1974,
+    "institution:type": "Company",
+    "institution:labels": [],
+    "institution:aliases": [],
+    "institution:acronyms": [
+        "RSS"
+    ],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/01vp8h012",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 38.443733,
+            "location:lon": -122.717185,
+            "location:city": "Santa Rosa",
+            "location:country": [
+                "United States",
+                "US"
+            ]
+        }
+    }
+}

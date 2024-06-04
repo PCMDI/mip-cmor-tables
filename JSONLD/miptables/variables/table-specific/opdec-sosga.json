@@ -1,0 +1,27 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-sosga",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/sosga"
+    },
+    "variable:branded_variable_name": "sosga_dec-op-tav-z0-hm",
+    "variable:comment": "Sea water salinity is the salt content of sea water, often on the Practical Salinity Scale of 1978. However, the unqualified term 'salinity' is generic and does not necessarily imply any particular method of calculation. The units of salinity are dimensionless and the units attribute should normally be given as 1e-3 or 0.001 i.e. parts per thousand. ",
+    "variable:frequency": "dec",
+    "variable:dimensions": [
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocean"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/opdec-sosga"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": 1600,
+        "ok_min_mean_abs": 780,
+        "valid_max": 6400,
+        "valid_min": 400
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/hursmin",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Daily Minimum Near-Surface Relative Humidity",
+    "variable:out_name": "hursmin",
+    "variable:positive": "",
+    "variable:standard_name": "relative_humidity",
+    "variable:type": "real",
+    "variable:units": [
+        "%"
+    ]
+}

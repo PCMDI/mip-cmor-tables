@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/limnsw",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Ice Sheet Mass That Does not Displace Sea Water",
+    "variable:out_name": "limnsw",
+    "variable:positive": "",
+    "variable:standard_name": "land_ice_mass_not_displacing_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "kg"
+    ]
+}

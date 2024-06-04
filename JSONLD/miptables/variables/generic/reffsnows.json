@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/reffsnows",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Hydrometeor Effective Radius of Stratiform Snowfall",
+    "variable:out_name": "reffsnows",
+    "variable:positive": "",
+    "variable:standard_name": "effective_radius_of_stratiform_cloud_snow_particles",
+    "variable:type": "real",
+    "variable:units": [
+        "m"
+    ]
+}

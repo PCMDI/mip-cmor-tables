@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/uofmd",
+    "@type": "cmip:institution",
+    "institution:cmip_acronym": "UofMD",
+    "institution:ror": "047s2c258",
+    "institution:name": "University of Maryland, College Park",
+    "institution:url": [
+        "http://www.umd.edu/"
+    ],
+    "institution:established": 1856,
+    "institution:type": "Education",
+    "institution:labels": [],
+    "institution:aliases": [],
+    "institution:acronyms": [
+        "UMD"
+    ],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/047s2c258",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 38.98067,
+            "location:lon": -76.93692,
+            "location:city": "College Park",
+            "location:country": [
+                "United States",
+                "US"
+            ]
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/ap3hr-uas",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "7b1a301c-a220-11e6-a33f-ac72891c3257",
+        "mip_table": "E3hr",
+        "variable_name": "uas"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/siday-siconc",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "85c3e888-357c-11e7-8257-5404a60d96b5",
+        "mip_table": "SIday",
+        "variable_name": "siconc"
+    }
+}

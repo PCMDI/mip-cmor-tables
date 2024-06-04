@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opmon-mlotstmin",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "1aab4e7a-b006-11e6-9289-ac72891c3257",
+        "mip_table": "Omon",
+        "variable_name": "mlotstmin"
+    },
+    "CMIP5": {
+        "mip_table": "Omon",
+        "variable_name": "mlotst"
+    }
+}

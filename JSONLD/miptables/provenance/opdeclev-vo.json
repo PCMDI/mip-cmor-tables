@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opdeclev-vo",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "4795b9ce-bb0b-11e6-8316-5980f7b176d1",
+        "mip_table": "Odec",
+        "variable_name": "vo"
+    }
+}

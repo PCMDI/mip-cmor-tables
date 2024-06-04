@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/ua",
+    "@type": "cmip:institution",
+    "institution:cmip_acronym": "UA",
+    "institution:ror": "03m2x1q45",
+    "institution:name": "University of Arizona",
+    "institution:url": [
+        "http://www.arizona.edu/"
+    ],
+    "institution:established": 1885,
+    "institution:type": "Education",
+    "institution:labels": [],
+    "institution:aliases": [],
+    "institution:acronyms": [
+        "UA"
+    ],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/03m2x1q45",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 32.22174,
+            "location:lon": -110.92648,
+            "location:city": "Tucson",
+            "location:country": [
+                "United States",
+                "US"
+            ]
+        }
+    }
+}

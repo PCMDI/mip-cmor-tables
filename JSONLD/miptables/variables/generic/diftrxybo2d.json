@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/diftrxybo2d",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Ocean Tracer XY Biharmonic Diffusivity",
+    "variable:out_name": "diftrxybo2d",
+    "variable:positive": "",
+    "variable:standard_name": "ocean_tracer_xy_biharmonic_diffusivity",
+    "variable:type": "real",
+    "variable:units": [
+        "m4",
+        "s-1"
+    ]
+}

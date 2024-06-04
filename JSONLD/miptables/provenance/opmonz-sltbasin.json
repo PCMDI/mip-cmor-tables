@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opmonz-sltbasin",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "f2b4239a-26b8-11e7-8344-ac72891c3257",
+        "mip_table": "EmonZ",
+        "variable_name": "sltbasin"
+    }
+}

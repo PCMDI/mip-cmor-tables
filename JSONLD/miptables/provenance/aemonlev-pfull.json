@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/aemonlev-pfull",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "01d46078-c792-11e6-aa58-5404a60d96b5",
+        "mip_table": "AERmon",
+        "variable_name": "pfull"
+    }
+}

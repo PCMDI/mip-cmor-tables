@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/giamon-rlus",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "d5b33fa4-c78d-11e6-9b25-5404a60d96b5",
+        "mip_table": "ImonAnt",
+        "variable_name": "rlus"
+    }
+}

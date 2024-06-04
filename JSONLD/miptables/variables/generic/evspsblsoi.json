@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/evspsblsoi",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Water Evaporation from Soil",
+    "variable:out_name": "evspsblsoi",
+    "variable:positive": "",
+    "variable:standard_name": "water_evaporation_flux_from_soil",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

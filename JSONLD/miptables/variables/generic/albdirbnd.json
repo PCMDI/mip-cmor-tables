@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/albdirbnd",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Direct Surface Albedo for Each Band",
+    "variable:out_name": "albdirbnd",
+    "variable:positive": "",
+    "variable:standard_name": "surface_direct_shortwave_hemispherical_reflectance",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

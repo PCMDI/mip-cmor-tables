@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/lpmon-tsl",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "babb0732-e5dd-11e5-8482-ac72891c3257",
+        "mip_table": "Lmon",
+        "variable_name": "tsl"
+    },
+    "CMIP5": {
+        "mip_table": "Lmon",
+        "variable_name": "tsl"
+    }
+}

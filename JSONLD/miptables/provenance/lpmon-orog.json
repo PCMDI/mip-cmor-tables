@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/lpmon-orog",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "7d91ee42-1ab7-11e7-8dfc-5404a60d96b5",
+        "mip_table": "Emon",
+        "variable_name": "orog"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sidconcth",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea-Ice Area Percentage Tendency Due to Thermodynamics",
+    "variable:out_name": "sidconcth",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_sea_ice_area_fraction_due_to_thermodynamics",
+    "variable:type": "real",
+    "variable:units": [
+        "s-1"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/lpfx-sftgif",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "bab73a76-e5dd-11e5-8482-ac72891c3257",
+        "mip_table": "fx",
+        "variable_name": "sftgif"
+    },
+    "CMIP5": {
+        "mip_table": "fx",
+        "variable_name": "sftgif"
+    },
+    "CMIP3": {
+        "mip_table": "A1",
+        "variable_name": "sftgif"
+    }
+}

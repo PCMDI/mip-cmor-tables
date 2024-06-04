@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/ps",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Air Pressure",
+    "variable:out_name": "ps",
+    "variable:positive": "",
+    "variable:standard_name": "surface_air_pressure",
+    "variable:type": "real",
+    "variable:units": [
+        "Pa"
+    ]
+}

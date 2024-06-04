@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/siforcetilty",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea-Surface Tilt Term in Force Balance (Y-Component)",
+    "variable:out_name": "siforcetilty",
+    "variable:positive": "",
+    "variable:standard_name": "sea_ice_y_force_per_unit_area_due_to_sea_surface_tilt",
+    "variable:type": "real",
+    "variable:units": [
+        "N",
+        "m-2"
+    ]
+}

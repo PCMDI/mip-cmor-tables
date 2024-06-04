@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/lpmon-rhlut",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "d22da074-4a9f-11e6-b84e-ac72891c3257",
+        "mip_table": "Emon",
+        "variable_name": "rhLut"
+    }
+}

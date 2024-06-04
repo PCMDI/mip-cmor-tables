@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apday-huss",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "bab0238a-e5dd-11e5-8482-ac72891c3257",
+        "mip_table": "day",
+        "variable_name": "huss"
+    }
+}

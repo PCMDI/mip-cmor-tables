@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/nasa-giss",
+    "@type": "cmip:institution",
+    "institution:cmip_acronym": "NASA-GISS",
+    "institution:ror": "01cyfxe35",
+    "institution:name": "Goddard Institute for Space Studies",
+    "institution:url": [
+        "http://www.giss.nasa.gov/"
+    ],
+    "institution:established": 1961,
+    "institution:type": "Facility",
+    "institution:labels": [],
+    "institution:aliases": [],
+    "institution:acronyms": [
+        "GISS"
+    ],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/01cyfxe35",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 40.71427,
+            "location:lon": -74.00597,
+            "location:city": "New York",
+            "location:country": [
+                "United States",
+                "US"
+            ]
+        }
+    }
+}

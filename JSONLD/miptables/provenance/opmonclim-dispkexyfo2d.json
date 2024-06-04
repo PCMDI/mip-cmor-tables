@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/opmonclim-dispkexyfo2d",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "a92a2a80-817c-11e6-a4e2-5404a60d96b5",
+        "mip_table": "Oclim",
+        "variable_name": "dispkexyfo2d"
+    },
+    "CMIP5": {
+        "mip_table": "Oclim",
+        "variable_name": "dispkexyfo2d"
+    }
+}

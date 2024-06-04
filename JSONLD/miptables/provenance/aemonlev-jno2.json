@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/aemonlev-jno2",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "01d3111e-c792-11e6-aa58-5404a60d96b5",
+        "mip_table": "AERmon",
+        "variable_name": "jno2"
+    }
+}

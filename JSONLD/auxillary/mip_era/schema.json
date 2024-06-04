@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "cmip:mip_era",
+    "type": "object",
+    "properties": {
+        "@type": {
+            "type": "string",
+            "const": "cmip:mip_era",
+            "description": "The type of the JSON-LD object"
+        },
+        "@id": {
+            "type": "string",
+            "format": "uri",
+            "description": "The unique identifier for the object, must be a valid URI"
+        },
+        "mip:name": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9-_]+$",
+            "description": "The name of the MIP, must contain only alphanumeric characters, hyphens, or underscores"
+        },
+        "mip:url": {
+            "type": "string",
+            "format": "uri",
+            "description": "The URL related to the MIP, must be a valid URL"
+        },
+        "mip:start": {
+            "type": "string",
+            "format": "year",
+            "description": "The start date of the MIP"
+        },
+        "mip:end": {
+            "type": "string",
+            "format": "year",
+            "description": "The end date of the MIP (optional)"
+        }
+    },
+    "required": [
+        "@type",
+        "@id",
+        "mip:name",
+        "mip:url",
+        "mip:start"
+    ],
+    "additionalProperties": false
+}

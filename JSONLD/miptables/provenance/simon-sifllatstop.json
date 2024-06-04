@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/simon-sifllatstop",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "7127cbc0-faa7-11e6-bfb7-ac72891c3257",
+        "mip_table": "SImon",
+        "variable_name": "sifllatstop"
+    }
+}

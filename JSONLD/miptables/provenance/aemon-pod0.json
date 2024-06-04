@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/aemon-pod0",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "01d364ca-c792-11e6-aa58-5404a60d96b5",
+        "mip_table": "AERmon",
+        "variable_name": "pod0"
+    }
+}

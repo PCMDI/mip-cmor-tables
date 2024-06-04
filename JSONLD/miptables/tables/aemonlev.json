@@ -1,0 +1,191 @@
+{
+    "@id": "mip-cmor-tables:miptables/tables/aemonlev",
+    "@type": "cmip:dr-table",
+    "table:table_id": "AEmonLev",
+    "table:Conventions": "CF-1.7 CMIP-6.5",
+    "table:approx_interval": 30.0,
+    "table:checksum": "",
+    "table:cmor_version": "3.8.0",
+    "table:release": "v6.5.0.2",
+    "table:data_specs_version": "6.5.0.0",
+    "table:generic_levels": [
+        "alevel",
+        "alevhalf"
+    ],
+    "table:int_missing_value": "-999",
+    "table:missing_value": "1e20",
+    "table:product": {
+        "@id": "mip-cmor-tables:auxillary/product/model-output"
+    },
+    "table:table_date": "2023-11-16",
+    "table:variable_entry": [
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-airmass"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-aoanh"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-c2h2"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-c2h6"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-c3h6"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-c3h8"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-cdnc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-ch3coch3"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-ch4"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-cheaqpso4"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-chegpso4"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-co"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-co2"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-dms"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-ec550aer"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-emilnox"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-h2o"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-hcho"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-hcl"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-hno3"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-isop"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-jno2"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-lossch4"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-lossco"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-lossn2o"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-mmraerh2o"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-mmrbc"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-mmrdust"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-mmrnh4"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-mmrno3"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-mmroa"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-mmrpm1"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-mmrpm10"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-mmrpm2p5"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-mmrso4"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-mmrsoa"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-mmrss"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-n2o"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-nh50"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-no"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-no2"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-o3"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-o3loss"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-o3prod"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-o3ste"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-oh"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-pan"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-pfull"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-phalf"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-photo1d"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-so2"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-tntrl"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-tntrs"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-ua"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-va"
+        },
+        {
+            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-wa"
+        }
+    ]
+}

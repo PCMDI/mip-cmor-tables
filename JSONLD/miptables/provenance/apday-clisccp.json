@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/apday-clisccp",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "2ab66434-c07e-11e6-8775-5404a60d96b5",
+        "mip_table": "CFday",
+        "variable_name": "clisccp"
+    }
+}

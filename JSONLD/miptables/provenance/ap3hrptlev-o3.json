@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/ap3hrptlev-o3",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "d5d7e570-c78d-11e6-9b25-5404a60d96b5",
+        "mip_table": "E3hrPt",
+        "variable_name": "o3"
+    }
+}

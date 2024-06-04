@@ -1,0 +1,9 @@
+{
+    "@id": "mip-cmor-tables:miptables/provenance/ap3hr-clt",
+    "@type": "cmip:provenance",
+    "CMIP6": {
+        "dreq_uid": "baaad560-e5dd-11e5-8482-ac72891c3257",
+        "mip_table": "3hr",
+        "variable_name": "clt"
+    }
+}

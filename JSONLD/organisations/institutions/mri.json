@@ -1,0 +1,32 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/mri",
+    "@type": "cmip:institution",
+    "institution:cmip_acronym": "MRI",
+    "institution:ror": "02772kk97",
+    "institution:name": "Japan Meteorological Agency",
+    "institution:url": [
+        "http://www.jma.go.jp/jma/indexe.html"
+    ],
+    "institution:established": 1956,
+    "institution:type": "Other",
+    "institution:labels": [],
+    "institution:aliases": [
+        "Kish\u014d-ch\u014d"
+    ],
+    "institution:acronyms": [
+        "JMA"
+    ],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/02772kk97",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 35.6895,
+            "location:lon": 139.69171,
+            "location:city": "Tokyo",
+            "location:country": [
+                "Japan",
+                "JP"
+            ]
+        }
+    }
+}
