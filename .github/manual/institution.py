@@ -43,6 +43,7 @@ command = [sys.executable, __file__.replace('manual','libs/parse')]
 for entry in entries:
     # Split each entry into its components
     acronym, name, ror, *cmip = entry.split(',')
+    print(acronym)
 
     # Create the payload for submission
     payload = {
@@ -53,6 +54,7 @@ for entry in entries:
 
     # Set the environment variables
     env = os.environ.copy()
+    # .copy()
     # none, auto, manual, commented out
     env['SUBMIT'] = 'auto'
     
@@ -62,8 +64,29 @@ for entry in entries:
 
     print(command)
     # Run the command and capture the output
-    result = subprocess.run(command, env=env, capture_output=True, text=True,shell=True)
+    
+    
+    
+    try:
+        result = subprocess.run(' '.join(command), shell=True, check=True, text=True, capture_output=True, env=env)
+        print("Output:", result.stdout)
+        print("Error:", result.stderr)
+    except subprocess.CalledProcessError as e:
+        print(f"Command '{command}' failed with return code {e.returncode}")
+        print("Output:", e.output)
+        print("Error:", e.stderr)
+    
+    
+    # result = os.popen(' '.join(command), 'w')
+    
+    # print(result.read())
+    
+    # print('next')
+    
+    # result = subprocess.Popen(command, env=env,stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, shell=True)
 
-    # Print the output
-    print(f"STDOUT for {payload['acronym']}:\n{result.stdout.strip()}\n")
-    print(f"STDERR for {payload['acronym']}:\n{result.stderr.strip()}\n")
+    # print(result)
+    # stdout, stderr = result.communicate()
+    # # Print the output
+    # print(f"STDOUT for {payload['acronym']}:\n{stdout.strip()}\n")
+    # print(f"STDERR for {payload['acronym']}:\n{stderr.strip()}\n")

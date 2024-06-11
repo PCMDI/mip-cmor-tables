@@ -58,7 +58,7 @@ def dispatch(token,payload,repo):
     try:
         with request.urlopen(req) as response:
             if response.getcode() == 204:
-                print("Dispatch event triggered successfully.")
+                print("\n\nDispatch event triggered successfully.")
             else:
                 print(f"Failed to trigger dispatch event. Status code: {response.getcode()}")
                 print(response.read().decode('utf-8'))
@@ -68,7 +68,7 @@ def dispatch(token,payload,repo):
 
 def update_issue_title (issue_number,kind,payload):
     if issue_number < 0:
-        print('Updating: ',payload["client_payload"]["name"])
+        print('\033[91m\n\nUpdating: ',payload["client_payload"]["name"],'\033[0m')
         return 0
     # change issue name to reflect contents. 
     print(os.popen(f'gh issue edit {issue_number} --title "Add {kind}: {payload["client_payload"]["name"]}"').read())
@@ -78,7 +78,7 @@ def update_issue(issue_number,comment,err=True):
     
     
     if issue_number < 0:
-        print(comment)
+        print('\033[91m\n\n',comment,'\033[0m')
         return 0
     
     out = os.popen(f'gh issue comment {issue_number} --body "{comment}"')
@@ -89,7 +89,7 @@ def update_issue(issue_number,comment,err=True):
 
 def close_issue(issue_number, comment,err=True):
     if issue_number < 0:
-        print(comment)
+        print('\033[91m\n\n',comment,'\033[0m')
         return 0
     print(os.popen(f'gh issue close {issue_number} -c "{comment}"'))
     if err: sys.exit(comment)

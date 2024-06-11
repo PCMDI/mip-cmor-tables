@@ -19,6 +19,7 @@ issue_number = int(os.environ['ISSUE'])
 data = os.environ['PAYLOAD_DATA']
 data = json.loads(str(data))
 data['acronym'] = data['acronym'].replace(' ','')
+print(data['acronym'])
 
 '''
 Functions 
@@ -133,12 +134,13 @@ if 'SUBMIT' in os.environ:
         sys.exit(' skipping the submission.' )
     if os.environ['SUBMIT'] == 'none':
         sys.exit(' skipping the submission.' )
-    elif os.environ['SUBMIT'] == 'manual':
-        # this does not work
-        inp = input('Submit to the repository? [y/n]')
-        if not inp.lower() != 'y':
-            sys.exit(' skipping the submission.' )
+    # elif os.environ['SUBMIT'] == 'manual':
+    #     # this does not work
+    #     inp = input('Submit to the repository? [y/n]')
+    #     if not inp.lower() != 'y':
+    #         sys.exit(' skipping the submission.' )
     elif os.environ['SUBMIT'] == 'auto':
+        print("auto",outfile)
         pass
     else:
         sys.exit(' skipping the submission.' )
@@ -149,9 +151,10 @@ jw(jsn_ordered, outfile)
 # normal entries if not specified.
 os.popen(f'git add -A"').read()
 if 'OVERRIDE_AUTHOR' in os.environ:
-    os.popen(f'git commit --author="{os.environ["OVERRIDE_AUTHOR"]} {os.environ["OVERRIDE_AUTHOR"]}@users.noreply.github.com" -m "New entry {data["acronym"]} to the Institutions LD file"').read()
+    write = os.popen(f'git commit -a --author="{os.environ["OVERRIDE_AUTHOR"].strip()} <{os.environ["OVERRIDE_AUTHOR"].strip()}@users.noreply.github.com>" -m "New entry {data["acronym"]} to the Institutions LD file"').read()
+    print(write)
 else: 
-    os.popen(f'git commit -m "New entry {data["acronym"]} to the Institutions LD file"').read()
+    os.popen(f'git commit -a -m "New entry {data["acronym"]} to the Institutions LD file"').read()
 
 
 
