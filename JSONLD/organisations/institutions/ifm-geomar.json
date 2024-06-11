@@ -1,7 +1,7 @@
 {
-    "@id": "mip-cmor-tables:organisations/institutions/solaris-heppa",
+    "@id": "mip-cmor-tables:organisations/institutions/ifm-geomar",
     "@type": "cmip:institution",
-    "institution:cmip_acronym": "SOLARIS-HEPPA",
+    "institution:cmip_acronym": "IFM-GEOMAR",
     "institution:ror": "02h2x0161",
     "institution:name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
     "institution:url": [

@@ -1,27 +1,5 @@
 [
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/land.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/auxillary/realm/land.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-11T19:57:22+01:00",
-        "version:commit": {
-            "hash": "3e7ae29d6a88199d32aa189d27e8fc77bcfec286",
-            "message": "framing update",
-            "author": {
-                "name": "Daniel Ellis",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:auxillary/realm/land"
-        }
-    },
-    {
         "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/ocean.json",
         "@type": "version",
         "version:file": "../../JSONLD/auxillary/realm/ocean.json",
@@ -44,9 +22,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/aerosol.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/land.json",
         "@type": "version",
-        "version:file": "../../JSONLD/auxillary/realm/aerosol.json",
+        "version:file": "../../JSONLD/auxillary/realm/land.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -62,7 +40,51 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:auxillary/realm/aerosol"
+            "@id": "../../mip-cmor-tables:auxillary/realm/land"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/seaIce.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/auxillary/realm/seaIce.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-11T19:57:22+01:00",
+        "version:commit": {
+            "hash": "3e7ae29d6a88199d32aa189d27e8fc77bcfec286",
+            "message": "framing update",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:auxillary/realm/seaIce"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/atmosChem.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/auxillary/realm/atmosChem.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-11T19:57:22+01:00",
+        "version:commit": {
+            "hash": "3e7ae29d6a88199d32aa189d27e8fc77bcfec286",
+            "message": "framing update",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:auxillary/realm/atmosChem"
         }
     },
     {
@@ -110,9 +132,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/seaIce.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/aerosol.json",
         "@type": "version",
-        "version:file": "../../JSONLD/auxillary/realm/seaIce.json",
+        "version:file": "../../JSONLD/auxillary/realm/aerosol.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -128,29 +150,7 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:auxillary/realm/seaIce"
-        }
-    },
-    {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/atmosChem.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/auxillary/realm/atmosChem.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-11T19:57:22+01:00",
-        "version:commit": {
-            "hash": "3e7ae29d6a88199d32aa189d27e8fc77bcfec286",
-            "message": "framing update",
-            "author": {
-                "name": "Daniel Ellis",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:auxillary/realm/atmosChem"
+            "@id": "../../mip-cmor-tables:auxillary/realm/aerosol"
         }
     }
 ]

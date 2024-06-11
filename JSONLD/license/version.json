@@ -1,8 +1,8 @@
 [
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc-by-4.0.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc-by-sa-4.0.json",
         "@type": "version",
-        "version:file": "../../JSONLD/license/cc-by-4.0.json",
+        "version:file": "../../JSONLD/license/cc-by-sa-4.0.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -18,7 +18,7 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:license/cc-by-4.0"
+            "@id": "../../mip-cmor-tables:license/cc-by-sa-4.0"
         }
     },
     {
@@ -44,9 +44,9 @@
         }
     },
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc-by-sa-4.0.json",
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc-by-4.0.json",
         "@type": "version",
-        "version:file": "../../JSONLD/license/cc-by-sa-4.0.json",
+        "version:file": "../../JSONLD/license/cc-by-4.0.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -62,7 +62,7 @@
             }
         },
         "version:data": {
-            "@id": "../../mip-cmor-tables:license/cc-by-sa-4.0"
+            "@id": "../../mip-cmor-tables:license/cc-by-4.0"
         }
     },
     {

@@ -142,6 +142,12 @@
         "ror": "05a28rw58",
         "institution": true
     },
+    "IFM-GEOMAR": {
+        "cmip_acronym": "IFM-GEOMAR",
+        "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+        "ror": "02h2x0161",
+        "institution": true
+    },
     "ImperialCollege": {
         "cmip_acronym": "ImperialCollege",
         "name": "Imperial College London",
@@ -332,12 +338,6 @@
         "cmip_acronym": "SNU",
         "name": "Seoul National University",
         "ror": "04h9pn542",
-        "institution": true
-    },
-    "SOLARIS-HEPPA": {
-        "cmip_acronym": "SOLARIS-HEPPA",
-        "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
-        "ror": "02h2x0161",
         "institution": true
     },
     "THU": {

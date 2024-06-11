@@ -7,11 +7,11 @@
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-11T19:57:22+01:00",
+        "version:previous_updates": 2,
+        "version:date": "2024-06-11T20:24:13+01:00",
         "version:commit": {
-            "hash": "3e7ae29d6a88199d32aa189d27e8fc77bcfec286",
-            "message": "framing update",
+            "hash": "b619cb7885b6786c8f159b28616ddc51e8ad2744",
+            "message": "update to solaris-heppa to link with institutions",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"

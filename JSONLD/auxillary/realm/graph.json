@@ -4,22 +4,28 @@
     "ldroot": "/JSONLD/auxillary/realm",
     "@graph": [
         {
-            "@id": "mip-cmor-tables:/auxillary/realm/land",
-            "@type": "cmip:realm",
-            "realm:name": "land",
-            "realm:description": "Land Surface"
-        },
-        {
             "@id": "mip-cmor-tables:/auxillary/realm/ocean",
             "@type": "cmip:realm",
             "realm:name": "ocean",
             "realm:description": "Ocean"
         },
         {
-            "@id": "mip-cmor-tables:/auxillary/realm/aerosol",
+            "@id": "mip-cmor-tables:/auxillary/realm/land",
             "@type": "cmip:realm",
-            "realm:name": "aerosol",
-            "realm:description": "Aerosol"
+            "realm:name": "land",
+            "realm:description": "Land Surface"
+        },
+        {
+            "@id": "mip-cmor-tables:/auxillary/realm/seaIce",
+            "@type": "cmip:realm",
+            "realm:name": "seaIce",
+            "realm:description": "Sea Ice"
+        },
+        {
+            "@id": "mip-cmor-tables:/auxillary/realm/atmosChem",
+            "@type": "cmip:realm",
+            "realm:name": "atmosChem",
+            "realm:description": "Atmospheric Chemistry"
         },
         {
             "@context": {
@@ -34,16 +40,10 @@
             "realm:description": "Atmosphere"
         },
         {
-            "@id": "mip-cmor-tables:/auxillary/realm/seaIce",
+            "@id": "mip-cmor-tables:/auxillary/realm/aerosol",
             "@type": "cmip:realm",
-            "realm:name": "seaIce",
-            "realm:description": "Sea Ice"
-        },
-        {
-            "@id": "mip-cmor-tables:/auxillary/realm/atmosChem",
-            "@type": "cmip:realm",
-            "realm:name": "atmosChem",
-            "realm:description": "Atmospheric Chemistry"
+            "realm:name": "aerosol",
+            "realm:description": "Aerosol"
         }
     ],
     "files": [
