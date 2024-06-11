@@ -14,28 +14,32 @@
                 {
                     "@type": "consortia:member",
                     "consortia:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/aristotleuniversityofthessaloniki"
+                        "@id": "mip-cmor-tables:organisations/institutions/auot"
                     },
                     "consortia:membership_type": "current",
                     "consortia:dates": [
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         }
                     ]
                 },
                 {
                     "@type": "consortia:member",
                     "consortia:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/astronomicalobservatoryofrome"
+                        "@id": "mip-cmor-tables:organisations/institutions/aor"
                     },
                     "consortia:membership_type": "current",
                     "consortia:dates": [
                         {
                             "from": 2025,
                             "to": "-",
-                            "phase": "CMIP7"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip7"
+                            }
                         }
                     ]
                 },
@@ -49,7 +53,9 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         }
                     ]
                 },
@@ -63,7 +69,9 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         }
                     ]
                 },
@@ -77,12 +85,16 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         },
                         {
                             "from": 2025,
                             "to": "-",
-                            "phase": "CMIP7"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip7"
+                            }
                         }
                     ]
                 },
@@ -96,7 +108,9 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         }
                     ]
                 },
@@ -110,7 +124,9 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         }
                     ]
                 },
@@ -124,26 +140,32 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         }
                     ]
                 },
                 {
                     "@type": "consortia:member",
                     "consortia:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/iaacsic"
+                        "@id": "mip-cmor-tables:organisations/institutions/iaa-csic"
                     },
                     "consortia:membership_type": "current",
                     "consortia:dates": [
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         },
                         {
                             "from": 2025,
                             "to": "-",
-                            "phase": "CMIP7"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip7"
+                            }
                         }
                     ]
                 },
@@ -157,12 +179,16 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         },
                         {
                             "from": 2025,
                             "to": "-",
-                            "phase": "CMIP7"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip7"
+                            }
                         }
                     ]
                 },
@@ -176,12 +202,16 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         },
                         {
                             "from": 2025,
                             "to": "-",
-                            "phase": "CMIP7"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip7"
+                            }
                         }
                     ]
                 },
@@ -195,12 +225,16 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         },
                         {
                             "from": 2025,
                             "to": "-",
-                            "phase": "CMIP7"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip7"
+                            }
                         }
                     ]
                 },
@@ -214,26 +248,32 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         },
                         {
                             "from": 2025,
                             "to": "-",
-                            "phase": "CMIP7"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip7"
+                            }
                         }
                     ]
                 },
                 {
                     "@type": "consortia:member",
                     "consortia:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/metoffice"
+                        "@id": "mip-cmor-tables:organisations/institutions/mohc"
                     },
                     "consortia:membership_type": "current",
                     "consortia:dates": [
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         }
                     ]
                 },
@@ -247,12 +287,16 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         },
                         {
                             "from": 2025,
                             "to": "-",
-                            "phase": "CMIP7"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip7"
+                            }
                         }
                     ]
                 },
@@ -266,12 +310,16 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         },
                         {
                             "from": 2025,
                             "to": "-",
-                            "phase": "CMIP7"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip7"
+                            }
                         }
                     ]
                 },
@@ -285,12 +333,16 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         },
                         {
                             "from": 2025,
                             "to": "-",
-                            "phase": "CMIP7"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip7"
+                            }
                         }
                     ]
                 },
@@ -304,7 +356,9 @@
                         {
                             "from": 2025,
                             "to": "-",
-                            "phase": "CMIP7"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip7"
+                            }
                         }
                     ]
                 },
@@ -318,12 +372,16 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         },
                         {
                             "from": 2025,
                             "to": "-",
-                            "phase": "CMIP7"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip7"
+                            }
                         }
                     ]
                 },
@@ -337,7 +395,9 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         }
                     ]
                 },
@@ -351,26 +411,32 @@
                         {
                             "from": 2013,
                             "to": 2022,
-                            "phase": "CMIP6"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip6"
+                            }
                         },
                         {
                             "from": 2025,
                             "to": "-",
-                            "phase": "CMIP7"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip7"
+                            }
                         }
                     ]
                 },
                 {
                     "@type": "consortia:member",
                     "consortia:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/wdcgg"
+                        "@id": "mip-cmor-tables:organisations/institutions/uooulu"
                     },
                     "consortia:membership_type": "current",
                     "consortia:dates": [
                         {
                             "from": 2025,
                             "to": "-",
-                            "phase": "CMIP7"
+                            "phase": {
+                                "@id": "mip-cmor-tables:auxillary/mip_era/cmip7"
+                            }
                         }
                     ]
                 }

@@ -1,27 +1,5 @@
 [
     {
-        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip_era/cmip6.json",
-        "@type": "version",
-        "version:file": "../../JSONLD/auxillary/mip_era/cmip6.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
-        "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
-            "message": "adding JSON-ld files",
-            "author": {
-                "name": "Daniel",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "../../mip-cmor-tables:auxillary/mip_era/cmip6"
-        }
-    },
-    {
         "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip_era/cmip5.json",
         "@type": "version",
         "version:file": "../../JSONLD/auxillary/mip_era/cmip5.json",
@@ -30,9 +8,9 @@
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:date": "2024-06-11T18:58:05+01:00",
         "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "hash": "5e9f49b8d90ab18b141737bf72b55534296a61af",
             "message": "adding JSON-ld files",
             "author": {
                 "name": "Daniel",
@@ -44,6 +22,41 @@
         }
     },
     {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip_era/cmip7.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/auxillary/mip_era/cmip7.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 0,
+        "version:data": {
+            "@id": "../../mip-cmor-tables:auxillary/mip_era/cmip7"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip_era/cmip6.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/auxillary/mip_era/cmip6.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-06-11T18:58:05+01:00",
+        "version:commit": {
+            "hash": "5e9f49b8d90ab18b141737bf72b55534296a61af",
+            "message": "adding JSON-ld files",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:auxillary/mip_era/cmip6"
+        }
+    },
+    {
         "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip_era/cmip6plus.json",
         "@type": "version",
         "version:file": "../../JSONLD/auxillary/mip_era/cmip6plus.json",
@@ -52,9 +65,9 @@
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-06-02T22:48:45+01:00",
+        "version:date": "2024-06-11T18:58:05+01:00",
         "version:commit": {
-            "hash": "c3950327326f54c4006fa52dc5ff0a884b408aa7",
+            "hash": "5e9f49b8d90ab18b141737bf72b55534296a61af",
             "message": "adding JSON-ld files",
             "author": {
                 "name": "Daniel",

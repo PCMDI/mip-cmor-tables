@@ -4,22 +4,10 @@
     "ldroot": "/JSONLD/auxillary/product",
     "@graph": [
         {
-            "@context": {
-                "@vocab": "product:",
-                "@base": "https://github.com/PCMDI/mip-cmor-tables"
-            }
-        },
-        {
             "@type": "cmip:product",
             "@id": "mip-cmor-tables:auxillary/product/forcing-dataset",
             "product:kind": "forcing-dataset",
             "product:description": "Data sets used to drive model simulations. These include external factors like greenhouse gas concentrations, solar radiation, and land use changes that influence the climate model outputs."
-        },
-        {
-            "@type": "cmip:product",
-            "@id": "mip-cmor-tables:auxillary/product/model-output",
-            "product:kind": "model-output",
-            "product:description": "Output produced from a model simulation. This includes the various data points and metrics generated as a result of running climate models, which simulate physical, chemical, and biological processes affecting the climate system."
         },
         {
             "@type": "cmip:product",
@@ -29,9 +17,21 @@
         },
         {
             "@type": "cmip:product",
+            "@id": "mip-cmor-tables:auxillary/product/model-output",
+            "product:kind": "model-output",
+            "product:description": "Output produced from a model simulation. This includes the various data points and metrics generated as a result of running climate models, which simulate physical, chemical, and biological processes affecting the climate system."
+        },
+        {
+            "@type": "cmip:product",
             "@id": "mip-cmor-tables:auxillary/product/observations",
             "product:kind": "observations",
             "product:description": "Data collected from direct measurements of the climate system. This includes data from ground stations, satellites, buoys, and other observational platforms, which serve as a reference for validating and comparing model outputs."
+        },
+        {
+            "@context": {
+                "@vocab": "product:",
+                "@base": "https://github.com/PCMDI/mip-cmor-tables"
+            }
         }
     ],
     "files": [

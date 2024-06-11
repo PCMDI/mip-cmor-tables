@@ -3,6 +3,6 @@
     "@id": "mip-cmor-tables:auxillary/mip_era/cmip6plus",
     "mip:name": "CMIP6Plus",
     "mip:url": "https://wcrp-cmip.org/CMIP6Plus",
-    "mip:start": "2999",
-    "mip:end": "2999"
+    "mip:start": 2023,
+    "mip:end": 2999
 }

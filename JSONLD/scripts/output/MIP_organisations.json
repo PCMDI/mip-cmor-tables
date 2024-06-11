@@ -10,16 +10,34 @@
         "ror": "04cg70g73",
         "institution": true
     },
+    "AoR": {
+        "cmip_acronym": "AoR",
+        "name": "Astronomical Observatory of Rome",
+        "ror": "02hnp4676",
+        "institution": true
+    },
     "AS-RCEC": {
         "cmip_acronym": "AS-RCEC",
         "name": "Research Center for Environmental Changes, Academia Sinica",
         "ror": "050qpg053",
         "institution": true
     },
+    "AUoT": {
+        "cmip_acronym": "AUoT",
+        "name": "Aristotle University of Thessaloniki",
+        "ror": "02j61yw88",
+        "institution": true
+    },
     "AWI": {
         "cmip_acronym": "AWI",
         "name": "Alfred Wegener Institute for Polar and Marine Research",
         "ror": "032e6b942",
+        "institution": true
+    },
+    "BAS": {
+        "cmip_acronym": "BAS",
+        "name": "British Antarctic Survey",
+        "ror": "01rhff309",
         "institution": true
     },
     "BCC": {
@@ -88,6 +106,12 @@
         "ror": "02nrqs528",
         "institution": true
     },
+    "EAWAG": {
+        "cmip_acronym": "EAWAG",
+        "name": "Swiss Federal Institute of Aquatic Science and Technology",
+        "ror": "00pc48d59",
+        "institution": true
+    },
     "ECMWF": {
         "cmip_acronym": "ECMWF",
         "name": "European Centre for Medium-Range Weather Forecasts",
@@ -98,6 +122,18 @@
         "cmip_acronym": "ESSO",
         "name": "Indian National Centre for Ocean Information Services",
         "ror": "04xbqmj23",
+        "institution": true
+    },
+    "FMI": {
+        "cmip_acronym": "FMI",
+        "name": "Finnish Meteorological Institute",
+        "ror": "05hppb561",
+        "institution": true
+    },
+    "FUBerlin": {
+        "cmip_acronym": "FUBerlin",
+        "name": "Freie Universität Berlin",
+        "ror": "046ak2485",
         "institution": true
     },
     "IACETH": {
@@ -124,6 +160,12 @@
         "ror": "02haar591",
         "institution": true
     },
+    "ISSI": {
+        "cmip_acronym": "ISSI",
+        "name": "International Space Science Institute",
+        "ror": "01xm30661",
+        "institution": true
+    },
     "JAXA": {
         "cmip_acronym": "JAXA",
         "name": "Japan Aerospace Exploration Agency",
@@ -136,17 +178,29 @@
         "ror": "032m55064",
         "institution": true
     },
+    "KIT": {
+        "cmip_acronym": "KIT",
+        "name": "Karlsruhe Institute of Technology",
+        "ror": "04t3en479",
+        "institution": true
+    },
     "LLNL": {
         "cmip_acronym": "LLNL",
         "name": "Lawrence Livermore National Laboratory",
         "ror": "041nk4h53",
         "institution": true
     },
+    "LPC2E": {
+        "cmip_acronym": "LPC2E",
+        "name": "Laboratoire de Physique et Chimie de l’Environnement et de l’Espace",
+        "ror": "049k66y27",
+        "institution": true
+    },
     "MOHC": {
         "cmip_acronym": "MOHC",
-        "name": "Met Office Hadley Centre",
-        "ror": "",
-        "institution": false
+        "name": "Met Office",
+        "ror": "01ch2yn61",
+        "institution": true
     },
     "MPI-B": {
         "cmip_acronym": "MPI-B",
@@ -158,6 +212,12 @@
         "cmip_acronym": "MPI-M",
         "name": "Max Planck Institute for Meteorology",
         "ror": "05esem239",
+        "institution": true
+    },
+    "MPS": {
+        "cmip_acronym": "MPS",
+        "name": "Max Planck Institute for Solar System Research",
+        "ror": "02j6gm739",
         "institution": true
     },
     "MRI": {
@@ -244,6 +304,12 @@
         "ror": "041nk4h53",
         "institution": true
     },
+    "PMOD": {
+        "cmip_acronym": "PMOD",
+        "name": "Physikalisch-Meteorologisches Observatorium Davos",
+        "ror": "02gtrqv93",
+        "institution": true
+    },
     "PNNL-JGCRI": {
         "cmip_acronym": "PNNL-JGCRI",
         "name": "Joint Global Change Research Institute",
@@ -310,16 +376,46 @@
         "ror": "00g30e956",
         "institution": true
     },
+    "UoBergen": {
+        "cmip_acronym": "UoBergen",
+        "name": "University of Bergen",
+        "ror": "03zga2b32",
+        "institution": true
+    },
     "UofMD": {
         "cmip_acronym": "UofMD",
         "name": "University of Maryland, College Park",
         "ror": "047s2c258",
         "institution": true
     },
+    "UoLeeds": {
+        "cmip_acronym": "UoLeeds",
+        "name": "University of Leeds",
+        "ror": "024mrxd33",
+        "institution": true
+    },
     "UoM": {
         "cmip_acronym": "UoM",
         "name": "University of Melbourne",
         "ror": "01ej9dk98",
+        "institution": true
+    },
+    "UoMontreal": {
+        "cmip_acronym": "UoMontreal",
+        "name": "Université de Montréal",
+        "ror": "0161xgx34",
+        "institution": true
+    },
+    "UoOtago": {
+        "cmip_acronym": "UoOtago",
+        "name": "University of Otago",
+        "ror": "01jmxt844",
+        "institution": true
+    },
+    "UoOulu": {
+        "cmip_acronym": "UoOulu",
+        "name": "University of Oulu",
+        "ror": "03yj89h83",
         "institution": true
     },
     "UReading": {

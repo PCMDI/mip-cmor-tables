@@ -1,27 +1,8 @@
 {
-    "@id": "https://github.com/WCRP-CMIP/CMIP6Plus_CVs/blob/main/JSONLD/model/realms",
+    "@id": "https://github.com/PCMDI/mip-cmor-tables//JSONLD/auxillary/realm",
     "@type": "cmip:graph",
-    "@vocab": "",
-    "ldroot": "./model/realms",
+    "ldroot": "/JSONLD/auxillary/realm",
     "@graph": [
-        {
-            "@id": "mip-cmor-tables:/auxillary/realm/aerosol",
-            "@type": "cmip:realm",
-            "realm:name": "aerosol",
-            "realm:description": "Aerosol"
-        },
-        {
-            "@id": "mip-cmor-tables:/auxillary/realm/atmos",
-            "@type": "cmip:realm",
-            "realm:name": "atmos",
-            "realm:description": "Atmosphere"
-        },
-        {
-            "@id": "mip-cmor-tables:/auxillary/realm/atmosChem",
-            "@type": "cmip:realm",
-            "realm:name": "atmosChem",
-            "realm:description": "Atmospheric Chemistry"
-        },
         {
             "@id": "mip-cmor-tables:/auxillary/realm/land",
             "@type": "cmip:realm",
@@ -35,19 +16,43 @@
             "realm:description": "Ocean"
         },
         {
+            "@id": "mip-cmor-tables:/auxillary/realm/aerosol",
+            "@type": "cmip:realm",
+            "realm:name": "aerosol",
+            "realm:description": "Aerosol"
+        },
+        {
+            "@context": {
+                "@base": "https://github.com/WCRP-CMIP/CMIP6Plus_CVs",
+                "@vocab": "realm:"
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:/auxillary/realm/atmos",
+            "@type": "cmip:realm",
+            "realm:name": "atmos",
+            "realm:description": "Atmosphere"
+        },
+        {
             "@id": "mip-cmor-tables:/auxillary/realm/seaIce",
             "@type": "cmip:realm",
             "realm:name": "seaIce",
             "realm:description": "Sea Ice"
+        },
+        {
+            "@id": "mip-cmor-tables:/auxillary/realm/atmosChem",
+            "@type": "cmip:realm",
+            "realm:name": "atmosChem",
+            "realm:description": "Atmospheric Chemistry"
         }
     ],
     "files": [
+        "ocean.json",
+        "land.json",
         "aerosol.json",
         "atmos.json",
-        "atmosChem.json",
         "context.json",
-        "land.json",
-        "ocean.json",
-        "seaIce.json"
+        "seaIce.json",
+        "atmosChem.json"
     ]
 }

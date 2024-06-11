@@ -5,32 +5,41 @@
     "@graph": [
         {
             "@type": "cmip:mip_era",
-            "@id": "mip-cmor-tables:auxillary/mip_era/cmip6",
-            "mip:name": "CMIP6",
-            "mip:url": "https://wcrp-cmip.org/CMIP6",
-            "mip:start": "2999",
-            "mip:end": "2999"
-        },
-        {
-            "@type": "cmip:mip_era",
             "@id": "mip-cmor-tables:auxillary/mip_era/cmip5",
             "mip:name": "CMIP5",
             "mip:url": "https://wcrp-cmip.org/CMIP5",
-            "mip:start": "2999",
-            "mip:end": "2999"
+            "mip:start": 2999,
+            "mip:end": 2999
+        },
+        {
+            "@type": "cmip:mip_era",
+            "@id": "mip-cmor-tables:auxillary/mip_era/cmip7",
+            "mip:name": "CMIP7",
+            "mip:url": "https://wcrp-cmip.org/CMIP7",
+            "mip:start": 2025,
+            "mip:end": 2999
+        },
+        {
+            "@type": "cmip:mip_era",
+            "@id": "mip-cmor-tables:auxillary/mip_era/cmip6",
+            "mip:name": "CMIP6",
+            "mip:url": "https://wcrp-cmip.org/CMIP6",
+            "mip:start": 2013,
+            "mip:end": 2024
         },
         {
             "@type": "cmip:mip_era",
             "@id": "mip-cmor-tables:auxillary/mip_era/cmip6plus",
             "mip:name": "CMIP6Plus",
             "mip:url": "https://wcrp-cmip.org/CMIP6Plus",
-            "mip:start": "2999",
-            "mip:end": "2999"
+            "mip:start": 2023,
+            "mip:end": 2999
         }
     ],
     "files": [
         "cmip5.json",
         "cmip6plus.json",
+        "cmip7.json",
         "cmip6.json"
     ]
 }

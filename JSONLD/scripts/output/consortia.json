@@ -4,10 +4,10 @@
     "description": "SOLARIS HEPPA Consortium",
     "members": [
         {
-            "institution": "mip-cmor-tables:organisations/institutions/aristotleuniversityofthessaloniki"
+            "institution": "mip-cmor-tables:organisations/institutions/auot"
         },
         {
-            "institution": "mip-cmor-tables:organisations/institutions/astronomicalobservatoryofrome"
+            "institution": "mip-cmor-tables:organisations/institutions/aor"
         },
         {
             "institution": "mip-cmor-tables:organisations/institutions/bas"
@@ -28,7 +28,7 @@
             "institution": "mip-cmor-tables:organisations/institutions/gsfc"
         },
         {
-            "institution": "mip-cmor-tables:organisations/institutions/iaacsic"
+            "institution": "mip-cmor-tables:organisations/institutions/iaa-csic"
         },
         {
             "institution": "mip-cmor-tables:organisations/institutions/issi"
@@ -43,7 +43,7 @@
             "institution": "mip-cmor-tables:organisations/institutions/lpc2e"
         },
         {
-            "institution": "mip-cmor-tables:organisations/institutions/metoffice"
+            "institution": "mip-cmor-tables:organisations/institutions/mohc"
         },
         {
             "institution": "mip-cmor-tables:organisations/institutions/mps"
@@ -67,7 +67,7 @@
             "institution": "mip-cmor-tables:organisations/institutions/uootago"
         },
         {
-            "institution": "mip-cmor-tables:organisations/institutions/wdcgg"
+            "institution": "mip-cmor-tables:organisations/institutions/uooulu"
         }
     ],
     "url": "https://solarisheppa.geomar.de"
