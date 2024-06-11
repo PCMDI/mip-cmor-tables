@@ -1,0 +1,28 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/uootago",
+    "@type": "cmip:institution",
+    "institution:acronyms": [],
+    "institution:aliases": [],
+    "institution:cmip_acronym": "UoOtago",
+    "institution:established": 1869,
+    "institution:labels": [],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/01jmxt844",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": -45.87416,
+            "location:lon": -45.87416,
+            "location:city": "Dunedin",
+            "location:country": [
+                "New Zealand",
+                "NZ"
+            ]
+        }
+    },
+    "institution:name": "University of Otago",
+    "institution:ror": "01jmxt844",
+    "institution:type": "Education",
+    "institution:url": [
+        "http://www.otago.ac.nz/"
+    ]
+}
