@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/mps",
+    "@type": "cmip:institution",
+    "institution:acronyms": [
+        "MPS"
+    ],
+    "institution:aliases": [],
+    "institution:cmip_acronym": "MPS",
+    "institution:established": 1934,
+    "institution:labels": [],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/02j6gm739",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 51.561218,
+            "location:lon": 51.561218,
+            "location:city": "G\u00f6ttingen",
+            "location:country": [
+                "Germany",
+                "DE"
+            ]
+        }
+    },
+    "institution:name": "Max Planck Institute for Solar System Research",
+    "institution:ror": "02j6gm739",
+    "institution:type": "Facility",
+    "institution:url": [
+        "http://www.mps.mpg.de/en"
+    ]
+}
