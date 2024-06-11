@@ -1,0 +1,28 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/uoleeds",
+    "@type": "cmip:institution",
+    "institution:acronyms": [],
+    "institution:aliases": [],
+    "institution:cmip_acronym": "UoLeeds",
+    "institution:established": 1904,
+    "institution:labels": [],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/024mrxd33",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 53.79648,
+            "location:lon": 53.79648,
+            "location:city": "Leeds",
+            "location:country": [
+                "United Kingdom",
+                "GB"
+            ]
+        }
+    },
+    "institution:name": "University of Leeds",
+    "institution:ror": "024mrxd33",
+    "institution:type": "Education",
+    "institution:url": [
+        "http://www.leeds.ac.uk/"
+    ]
+}
