@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/auot",
+    "@type": "cmip:institution",
+    "institution:acronyms": [],
+    "institution:aliases": [
+        "Aristotelian University"
+    ],
+    "institution:cmip_acronym": "AUoT",
+    "institution:established": 1925,
+    "institution:labels": [],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/02j61yw88",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 40.64361,
+            "location:lon": 40.64361,
+            "location:city": "Thessaloniki",
+            "location:country": [
+                "Greece",
+                "GR"
+            ]
+        }
+    },
+    "institution:name": "Aristotle University of Thessaloniki",
+    "institution:ror": "02j61yw88",
+    "institution:type": "Education",
+    "institution:url": [
+        "https://www.auth.gr/en"
+    ]
+}
