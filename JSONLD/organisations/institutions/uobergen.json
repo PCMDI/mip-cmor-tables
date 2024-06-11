@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/uobergen",
+    "@type": "cmip:institution",
+    "institution:acronyms": [
+        "UiB"
+    ],
+    "institution:aliases": [],
+    "institution:cmip_acronym": "UoBergen",
+    "institution:established": 1946,
+    "institution:labels": [],
+    "institution:location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/03zga2b32",
+        "@type": "institution:location",
+        "@nest": {
+            "location:lat": 60.39299,
+            "location:lon": 60.39299,
+            "location:city": "Bergen",
+            "location:country": [
+                "Norway",
+                "NO"
+            ]
+        }
+    },
+    "institution:name": "University of Bergen",
+    "institution:ror": "03zga2b32",
+    "institution:type": "Education",
+    "institution:url": [
+        "http://www.uib.no/"
+    ]
+}
