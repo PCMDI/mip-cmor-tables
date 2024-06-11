@@ -1,0 +1,6 @@
+{
+    "@id": "mip-cmor-tables:/auxillary/realm/ocean",
+    "@type": "cmip:realm",
+    "realm:name": "ocean",
+    "realm:description": "Ocean"
+}

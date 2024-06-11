@@ -1,0 +1,6 @@
+{
+    "@id": "mip-cmor-tables:auxillary/source_type/chem",
+    "@type": "cmip:source_type",
+    "source-type:name": "CHEM",
+    "source-type:description": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them"
+}

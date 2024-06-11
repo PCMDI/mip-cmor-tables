@@ -1,6 +1,0 @@
-{
-  "@context": {
-    "@base": "https://github.com/PCMDI/mip-cmor-tables"
-  },
-  "basepath": "mip-cmor-tables"
-}

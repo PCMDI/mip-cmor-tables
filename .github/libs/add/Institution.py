@@ -11,7 +11,7 @@ sys.path.append(parent_dir)
 
 from action_functions import parse_md, dispatch, update_issue_title
 
-
+# generic 
 issue_number = os.environ.get('ISSUE_NUMBER')
 issue_title = os.environ.get('ISSUE_TITLE')
 issue_body = os.environ.get('ISSUE_BODY')
@@ -19,7 +19,7 @@ issue_submitter = os.environ.get('ISSUE_SUBMITTER')
 repo = os.environ.get('REPO').replace('https://github.com','https://api.github.com/repos')
 token = os.environ.get('GH_TOKEN')
 
-
+#  get content. 
 parsed = parse_md(issue_body)
 
 
@@ -27,8 +27,7 @@ parsed = parse_md(issue_body)
 Lets submit the data to a dispatch event
 '''
 
-
-data = parsed['institutions']
+data = parsed['institution']
 
 
 kind = __file__.split('/')[-1].replace('.py','')

@@ -1,0 +1,6 @@
+{
+    "@id": "mip-cmor-tables:/auxillary/realm/land",
+    "@type": "cmip:realm",
+    "realm:name": "land",
+    "realm:description": "Land Surface"
+}

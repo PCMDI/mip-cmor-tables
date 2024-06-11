@@ -1,6 +1,10 @@
 {
     "@context": {
-        "@vocab": "mip:",
-        "@base": "https://github.com/PCMDI/mip-cmor-tables"
-    }
+        "@vocab": "mip:"
+    },
+    "@type": "cmip:mip_era",
+    "name": "",
+    "url": "",
+    "start": "",
+    "end": ""
 }

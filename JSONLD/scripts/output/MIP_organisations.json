@@ -1,0 +1,343 @@
+{
+    "SOLARIS HEPPA": {
+        "cmip_acronym": "SOLARIS HEPPA",
+        "description": "SOLARIS HEPPA Consortium",
+        "institution": false
+    },
+    "AER": {
+        "cmip_acronym": "AER",
+        "name": "Atmospheric and Environmental Research",
+        "ror": "04cg70g73",
+        "institution": true
+    },
+    "AS-RCEC": {
+        "cmip_acronym": "AS-RCEC",
+        "name": "Research Center for Environmental Changes, Academia Sinica",
+        "ror": "050qpg053",
+        "institution": true
+    },
+    "AWI": {
+        "cmip_acronym": "AWI",
+        "name": "Alfred Wegener Institute for Polar and Marine Research",
+        "ror": "032e6b942",
+        "institution": true
+    },
+    "BCC": {
+        "cmip_acronym": "BCC",
+        "name": "Beijing Biocytogen (China)",
+        "ror": "01spyyb53",
+        "institution": true
+    },
+    "CAMS": {
+        "cmip_acronym": "CAMS",
+        "name": "Chinese Academy of Meteorological Sciences",
+        "ror": "034b53w38",
+        "institution": true
+    },
+    "CAS": {
+        "cmip_acronym": "CAS",
+        "name": "Chinese Academy of Sciences",
+        "ror": "034t30j35",
+        "institution": true
+    },
+    "CCCma": {
+        "cmip_acronym": "CCCma",
+        "name": "Environment and Climate Change Canada",
+        "ror": "026ny0e17",
+        "institution": true
+    },
+    "CCCR-IITM": {
+        "cmip_acronym": "CCCR-IITM",
+        "name": "Indian Institute of Tropical Meteorology",
+        "ror": "03jf2m686",
+        "institution": true
+    },
+    "CEDA": {
+        "cmip_acronym": "CEDA",
+        "name": "Centre for Environmental Data Analysis",
+        "ror": "04j4kad11",
+        "institution": true
+    },
+    "CMCC": {
+        "cmip_acronym": "CMCC",
+        "name": "Euro-Mediterranean Center for Climate Change",
+        "ror": "01tf11a61",
+        "institution": true
+    },
+    "CNES": {
+        "cmip_acronym": "CNES",
+        "name": "Centre National d'Études Spatiales",
+        "ror": "04h1h0y33",
+        "institution": true
+    },
+    "CSIRO": {
+        "cmip_acronym": "CSIRO",
+        "name": "Commonwealth Scientific and Industrial Research Organisation",
+        "ror": "03qn8fb07",
+        "institution": true
+    },
+    "DKRZ": {
+        "cmip_acronym": "DKRZ",
+        "name": "German Climate Computing Centre",
+        "ror": "03ztgj037",
+        "institution": true
+    },
+    "DWD": {
+        "cmip_acronym": "DWD",
+        "name": "German Meteorological Service",
+        "ror": "02nrqs528",
+        "institution": true
+    },
+    "ECMWF": {
+        "cmip_acronym": "ECMWF",
+        "name": "European Centre for Medium-Range Weather Forecasts",
+        "ror": "014w0fd65",
+        "institution": true
+    },
+    "ESSO": {
+        "cmip_acronym": "ESSO",
+        "name": "Indian National Centre for Ocean Information Services",
+        "ror": "04xbqmj23",
+        "institution": true
+    },
+    "IACETH": {
+        "cmip_acronym": "IACETH",
+        "name": "ETH Zurich",
+        "ror": "05a28rw58",
+        "institution": true
+    },
+    "ImperialCollege": {
+        "cmip_acronym": "ImperialCollege",
+        "name": "Imperial College London",
+        "ror": "041kmwe10",
+        "institution": true
+    },
+    "INM": {
+        "cmip_acronym": "INM",
+        "name": "Institute of Numerical Mathematics",
+        "ror": "00520ey40",
+        "institution": true
+    },
+    "IPSL": {
+        "cmip_acronym": "IPSL",
+        "name": "Institut Pierre-Simon Laplace",
+        "ror": "02haar591",
+        "institution": true
+    },
+    "JAXA": {
+        "cmip_acronym": "JAXA",
+        "name": "Japan Aerospace Exploration Agency",
+        "ror": "059yhyy33",
+        "institution": true
+    },
+    "KIOST": {
+        "cmip_acronym": "KIOST",
+        "name": "Korea Institute of Ocean Science and Technology",
+        "ror": "032m55064",
+        "institution": true
+    },
+    "LLNL": {
+        "cmip_acronym": "LLNL",
+        "name": "Lawrence Livermore National Laboratory",
+        "ror": "041nk4h53",
+        "institution": true
+    },
+    "MOHC": {
+        "cmip_acronym": "MOHC",
+        "name": "Met Office Hadley Centre",
+        "ror": "",
+        "institution": false
+    },
+    "MPI-B": {
+        "cmip_acronym": "MPI-B",
+        "name": "Max Planck Institute for Biogeochemistry",
+        "ror": "051yxp643",
+        "institution": true
+    },
+    "MPI-M": {
+        "cmip_acronym": "MPI-M",
+        "name": "Max Planck Institute for Meteorology",
+        "ror": "05esem239",
+        "institution": true
+    },
+    "MRI": {
+        "cmip_acronym": "MRI",
+        "name": "Japan Meteorological Agency",
+        "ror": "02772kk97",
+        "institution": true
+    },
+    "NASA-GISS": {
+        "cmip_acronym": "NASA-GISS",
+        "name": "Goddard Institute for Space Studies",
+        "ror": "01cyfxe35",
+        "institution": true
+    },
+    "NASA-GSFC": {
+        "cmip_acronym": "NASA-GSFC",
+        "name": "Goddard Space Flight Center",
+        "ror": "0171mag52",
+        "institution": true
+    },
+    "NASA-JPL": {
+        "cmip_acronym": "NASA-JPL",
+        "name": "Jet Propulsion Laboratory",
+        "ror": "027k65916",
+        "institution": true
+    },
+    "NASA-LaRC": {
+        "cmip_acronym": "NASA-LaRC",
+        "name": "Langley Research Center",
+        "ror": "0399mhs52",
+        "institution": true
+    },
+    "NCAR": {
+        "cmip_acronym": "NCAR",
+        "name": "National Center for Atmospheric Research",
+        "ror": "05cvfcr44",
+        "institution": true
+    },
+    "NCAS": {
+        "cmip_acronym": "NCAS",
+        "name": "Uks",
+        "ror": "03q36cn05",
+        "institution": true
+    },
+    "NERC": {
+        "cmip_acronym": "NERC",
+        "name": "Natural Environment Research Council",
+        "ror": "02b5d8509",
+        "institution": true
+    },
+    "NIWA": {
+        "cmip_acronym": "NIWA",
+        "name": "National Institute of Water and Atmospheric Research",
+        "ror": "04hxcaz34",
+        "institution": true
+    },
+    "NOAA-NCEI": {
+        "cmip_acronym": "NOAA-NCEI",
+        "name": "NOAA National Centers for Environmental Information",
+        "ror": "04r0wrp59",
+        "institution": true
+    },
+    "NTU": {
+        "cmip_acronym": "NTU",
+        "name": "National Taiwan University",
+        "ror": "05bqach95",
+        "institution": true
+    },
+    "NUIST": {
+        "cmip_acronym": "NUIST",
+        "name": "Nanjing University",
+        "ror": "01rxvg760",
+        "institution": true
+    },
+    "OSU": {
+        "cmip_acronym": "OSU",
+        "name": "Oregon State University",
+        "ror": "00ysfqy60",
+        "institution": true
+    },
+    "PCMDI": {
+        "cmip_acronym": "PCMDI",
+        "name": "Lawrence Livermore National Laboratory",
+        "ror": "041nk4h53",
+        "institution": true
+    },
+    "PNNL-JGCRI": {
+        "cmip_acronym": "PNNL-JGCRI",
+        "name": "Joint Global Change Research Institute",
+        "ror": "058cmd703",
+        "institution": true
+    },
+    "PNNL-WACCEM": {
+        "cmip_acronym": "PNNL-WACCEM",
+        "name": "Pacific Northwest National Laboratory",
+        "ror": "05h992307",
+        "institution": true
+    },
+    "RSS": {
+        "cmip_acronym": "RSS",
+        "name": "Remote Sensing Systems (United States)",
+        "ror": "01vp8h012",
+        "institution": true
+    },
+    "SNU": {
+        "cmip_acronym": "SNU",
+        "name": "Seoul National University",
+        "ror": "04h9pn542",
+        "institution": true
+    },
+    "SOLARIS-HEPPA": {
+        "cmip_acronym": "SOLARIS-HEPPA",
+        "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+        "ror": "02h2x0161",
+        "institution": true
+    },
+    "THU": {
+        "cmip_acronym": "THU",
+        "name": "Tsinghua University",
+        "ror": "03cve4549",
+        "institution": true
+    },
+    "UA": {
+        "cmip_acronym": "UA",
+        "name": "University of Arizona",
+        "ror": "03m2x1q45",
+        "institution": true
+    },
+    "UCI": {
+        "cmip_acronym": "UCI",
+        "name": "University of California, Irvine",
+        "ror": "04gyf1771",
+        "institution": true
+    },
+    "UColorado": {
+        "cmip_acronym": "UColorado",
+        "name": "University of Colorado System",
+        "ror": "00jc20583",
+        "institution": true
+    },
+    "UCSB": {
+        "cmip_acronym": "UCSB",
+        "name": "University of California, Santa Barbara",
+        "ror": "02t274463",
+        "institution": true
+    },
+    "UHH": {
+        "cmip_acronym": "UHH",
+        "name": "Universität Hamburg",
+        "ror": "00g30e956",
+        "institution": true
+    },
+    "UofMD": {
+        "cmip_acronym": "UofMD",
+        "name": "University of Maryland, College Park",
+        "ror": "047s2c258",
+        "institution": true
+    },
+    "UoM": {
+        "cmip_acronym": "UoM",
+        "name": "University of Melbourne",
+        "ror": "01ej9dk98",
+        "institution": true
+    },
+    "UReading": {
+        "cmip_acronym": "UReading",
+        "name": "University of Reading",
+        "ror": "05v62cm79",
+        "institution": true
+    },
+    "UW": {
+        "cmip_acronym": "UW",
+        "name": "University of Washington",
+        "ror": "00cvxb145",
+        "institution": true
+    },
+    "VUA": {
+        "cmip_acronym": "VUA",
+        "name": "Vrije Universiteit Amsterdam",
+        "ror": "008xxew50",
+        "institution": true
+    }
+}

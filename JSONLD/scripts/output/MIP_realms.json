@@ -1,0 +1,26 @@
+{
+    "aerosol": {
+        "description": "Aerosol",
+        "name": "aerosol"
+    },
+    "atmos": {
+        "description": "Atmosphere",
+        "name": "atmos"
+    },
+    "atmosChem": {
+        "description": "Atmospheric Chemistry",
+        "name": "atmosChem"
+    },
+    "land": {
+        "description": "Land Surface",
+        "name": "land"
+    },
+    "ocean": {
+        "description": "Ocean",
+        "name": "ocean"
+    },
+    "seaIce": {
+        "description": "Sea Ice",
+        "name": "seaIce"
+    }
+}

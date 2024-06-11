@@ -1,0 +1,6 @@
+{
+    "@id": "mip-cmor-tables:/auxillary/realm/seaIce",
+    "@type": "cmip:realm",
+    "realm:name": "seaIce",
+    "realm:description": "Sea Ice"
+}

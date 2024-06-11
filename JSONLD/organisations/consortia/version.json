@@ -1,0 +1,24 @@
+[
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia/solaris-heppa.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/organisations/consortia/solaris-heppa.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 2,
+        "version:date": "2024-06-07T15:50:29+01:00",
+        "version:commit": {
+            "hash": "f4d68e8553205d0da4b81f8e0246946221a26c89",
+            "message": "build script fix.",
+            "author": {
+                "name": "Daniel",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:organisations/consortia/solaris-heppa"
+        }
+    }
+]

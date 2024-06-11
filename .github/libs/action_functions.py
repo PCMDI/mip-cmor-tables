@@ -67,17 +67,30 @@ def dispatch(token,payload,repo):
 
 
 def update_issue_title (issue_number,kind,payload):
+    if issue_number < 0:
+        print('Updating: ',payload["client_payload"]["name"])
+        return 0
     # change issue name to reflect contents. 
     print(os.popen(f'gh issue edit {issue_number} --title "Add {kind}: {payload["client_payload"]["name"]}"').read())
 
 
 def update_issue(issue_number,comment,err=True):
+    
+    
+    if issue_number < 0:
+        print(comment)
+        return 0
+    
     out = os.popen(f'gh issue comment {issue_number} --body "{comment}"')
+    
     if err: 
         print(out)
         sys.exit(comment)
 
 def close_issue(issue_number, comment,err=True):
+    if issue_number < 0:
+        print(comment)
+        return 0
     print(os.popen(f'gh issue close {issue_number} -c "{comment}"'))
     if err: sys.exit(comment)
     

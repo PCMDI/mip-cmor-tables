@@ -1,21 +1,22 @@
 {
     "@context": {
-        "@vocab": "consortium:",
-        "members": {
+      "@vocab": "consortium:",
+      "consortium:members": {
+        "@context": {
+          "@vocab": "institution:",
+          "location": {
             "@context": {
-                "@vocab": "institution:",
-                "location": {
-                    "@context": {
-                        "@vocab": "location:"
-                    }
-                }
+              "@vocab": "location:"
             }
-        },
-        "@type": "cmip:consortium",
-        "cmip_acronym": "",
-        "description": "",
-        "url": "",
-        "changes": "",
-        "members": {}
-    }
-}
+          }
+        }
+      }
+    },
+    "@type": "cmip:consortium",
+    "cmip_acronym": "",
+    "description": "",
+    "url": "",
+    "changes": "",
+    "members": {}
+  }
+  

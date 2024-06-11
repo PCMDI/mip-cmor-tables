@@ -1,0 +1,6 @@
+{
+    "@id": "mip-cmor-tables:/auxillary/realm/atmosChem",
+    "@type": "cmip:realm",
+    "realm:name": "atmosChem",
+    "realm:description": "Atmospheric Chemistry"
+}

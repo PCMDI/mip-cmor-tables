@@ -1,11 +1,11 @@
 {
     "@context": {
-        "@vocab": "institution:",
-        "location": {
-            "@context": {
-                "@vocab": "location:"
-            }
+      "@vocab": "institution:",
+      "location": {
+        "@context": {
+          "@vocab": "location:"
         }
+      }
     },
     "@type": "cmip:institution",
     "cmip_acronym": "",
@@ -18,7 +18,8 @@
     "aliases": {},
     "acronyms": {},
     "location": {
-        "@explicit": "true"
+      "@explicit": true
     },
-    "@explicit": "true"
-}
+    "@explicit": true
+  }
+  

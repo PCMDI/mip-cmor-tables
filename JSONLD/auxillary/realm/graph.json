@@ -1,0 +1,53 @@
+{
+    "@id": "https://github.com/WCRP-CMIP/CMIP6Plus_CVs/blob/main/JSONLD/model/realms",
+    "@type": "cmip:graph",
+    "@vocab": "",
+    "ldroot": "./model/realms",
+    "@graph": [
+        {
+            "@id": "mip-cmor-tables:/auxillary/realm/aerosol",
+            "@type": "cmip:realm",
+            "realm:name": "aerosol",
+            "realm:description": "Aerosol"
+        },
+        {
+            "@id": "mip-cmor-tables:/auxillary/realm/atmos",
+            "@type": "cmip:realm",
+            "realm:name": "atmos",
+            "realm:description": "Atmosphere"
+        },
+        {
+            "@id": "mip-cmor-tables:/auxillary/realm/atmosChem",
+            "@type": "cmip:realm",
+            "realm:name": "atmosChem",
+            "realm:description": "Atmospheric Chemistry"
+        },
+        {
+            "@id": "mip-cmor-tables:/auxillary/realm/land",
+            "@type": "cmip:realm",
+            "realm:name": "land",
+            "realm:description": "Land Surface"
+        },
+        {
+            "@id": "mip-cmor-tables:/auxillary/realm/ocean",
+            "@type": "cmip:realm",
+            "realm:name": "ocean",
+            "realm:description": "Ocean"
+        },
+        {
+            "@id": "mip-cmor-tables:/auxillary/realm/seaIce",
+            "@type": "cmip:realm",
+            "realm:name": "seaIce",
+            "realm:description": "Sea Ice"
+        }
+    ],
+    "files": [
+        "aerosol.json",
+        "atmos.json",
+        "atmosChem.json",
+        "context.json",
+        "land.json",
+        "ocean.json",
+        "seaIce.json"
+    ]
+}

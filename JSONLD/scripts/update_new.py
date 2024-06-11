@@ -59,9 +59,10 @@ def read_json_file_mmap(file: str, directory: str) -> Tuple[Dict[str, Any], Dict
 
 def read_all_json_files(directory: str, base_dir: str) -> Tuple[str, str]:
     """Read and process all JSON files in a directory."""
-    skipped = [f"{directory}/{f}" for f in DEFAULT_SKIP_FILES]
+    # skipped = [f"{directory}/{f}" for f in DEFAULT_SKIP_FILES]
     try:
-        files = [f for f in os.listdir(directory) if f.endswith('.json') and f not in skipped]
+        files = [f for f in os.listdir(directory) if f.endswith('.json') and f not in DEFAULT_SKIP_FILES]
+        # print(files)
     except FileNotFoundError:
         print('<<<   Dir does not exist:', directory)
         return None,None
