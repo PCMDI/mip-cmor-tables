@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/dissicabio",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Abiotic Dissolved Inorganic Carbon Concentration",
     "variable:out_name": "dissicabio",
     "variable:positive": "",

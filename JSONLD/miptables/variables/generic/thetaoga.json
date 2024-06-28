@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/thetaoga",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Global Average Sea Water Potential Temperature",
     "variable:out_name": "thetaoga",
     "variable:positive": "",

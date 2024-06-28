@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/dtes",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Change in Surface Heat Storage",
     "variable:out_name": "dtes",
     "variable:positive": "",

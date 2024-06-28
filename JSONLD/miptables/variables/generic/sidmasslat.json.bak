@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sidmasslat",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Lateral Sea Ice Melt Rate",
+    "variable:out_name": "sidmasslat",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_sea_ice_amount_due_to_lateral_melting",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

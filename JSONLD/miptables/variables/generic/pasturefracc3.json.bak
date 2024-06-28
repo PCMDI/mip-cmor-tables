@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/pasturefracc3",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "C3 Pasture Area Percentage",
+    "variable:out_name": "pastureFracC3",
+    "variable:positive": "",
+    "variable:standard_name": "area_fraction",
+    "variable:type": "real",
+    "variable:units": [
+        "%"
+    ]
+}

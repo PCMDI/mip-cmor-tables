@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fddtalk",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Rate of Change of Total Alkalinity",
     "variable:out_name": "fddtalk",
     "variable:positive": "",

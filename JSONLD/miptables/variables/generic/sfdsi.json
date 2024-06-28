@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sfdsi",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Downward Sea Ice Basal Salt Flux",
     "variable:out_name": "sfdsi",
     "variable:positive": "down",

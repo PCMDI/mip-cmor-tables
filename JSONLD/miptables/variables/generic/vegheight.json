@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/vegheight",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Height of the Vegetation Canopy",
     "variable:out_name": "vegHeight",
     "variable:positive": "",

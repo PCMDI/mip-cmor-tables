@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/t20d",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Depth of 20 degree Celsius Isotherm",
     "variable:out_name": "t20d",
     "variable:positive": "",

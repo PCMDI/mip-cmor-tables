@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonlev-reffclic",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/reffclic"
+    },
+    "variable:branded_variable_name": "reffclic_mon-ap-tav-l-hxy",
+    "variable:comment": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell).",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apmonlev-reffclic"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

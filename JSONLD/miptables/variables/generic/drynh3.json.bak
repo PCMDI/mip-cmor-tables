@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/drynh3",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Dry Deposition Rate of NH3",
+    "variable:out_name": "drynh3",
+    "variable:positive": "",
+    "variable:standard_name": "minus_tendency_of_atmosphere_mass_content_of_ammonia_due_to_dry_deposition",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/ygwdparam",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Northward Gravity Wave Drag",
     "variable:out_name": "ygwdparam",
     "variable:positive": "",

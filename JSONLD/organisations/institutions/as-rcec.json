@@ -1,27 +1,27 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/as-rcec",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "AS-RCEC",
-    "institution:ror": "050qpg053",
-    "institution:name": "Research Center for Environmental Changes, Academia Sinica",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "AS-RCEC",
+    "ror": "050qpg053",
+    "name": "Research Center for Environmental Changes, Academia Sinica",
+    "url": [
         "http://www.rcec.sinica.edu.tw/"
     ],
-    "institution:established": null,
-    "institution:type": "Facility",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
+    "established": 0,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
         "RCEC"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/050qpg053",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 25.040712,
-            "location:lon": 121.614171,
-            "location:city": "Taipei",
-            "location:country": [
+            "lat": 25.040712,
+            "lon": 121.614171,
+            "city": "Taipei",
+            "country": [
                 "Taiwan",
                 "TW"
             ]

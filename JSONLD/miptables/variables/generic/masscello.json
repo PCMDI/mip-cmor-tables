@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/masscello",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ocean Grid-Cell Mass per Area",
     "variable:out_name": "masscello",
     "variable:positive": "",

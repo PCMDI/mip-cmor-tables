@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/rsut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "TOA Outgoing Shortwave Radiation",
     "variable:out_name": "rsut",
     "variable:positive": "up",

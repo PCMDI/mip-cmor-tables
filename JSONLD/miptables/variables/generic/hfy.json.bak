@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/hfy",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Ocean Heat Y Transport",
+    "variable:out_name": "hfy",
+    "variable:positive": "",
+    "variable:standard_name": "ocean_heat_y_transport",
+    "variable:type": "real",
+    "variable:units": [
+        "W"
+    ]
+}

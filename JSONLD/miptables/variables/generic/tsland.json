@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/tsland",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Land Surface Temperature",
     "variable:out_name": "tsland",
     "variable:positive": "",

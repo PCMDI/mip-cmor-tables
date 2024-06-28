@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/clittertree",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Carbon Mass in Litter on Tree Tiles",
     "variable:out_name": "cLitterTree",
     "variable:positive": "",

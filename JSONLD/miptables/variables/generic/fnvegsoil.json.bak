@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/fnvegsoil",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Total Nitrogen Mass Flux from Vegetation Directly to Soil",
+    "variable:out_name": "fNVegSoil",
+    "variable:positive": "",
+    "variable:standard_name": "nitrogen_mass_flux_into_soil_from_vegetation_excluding_litter",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

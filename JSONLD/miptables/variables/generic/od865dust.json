@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/od865dust",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Dust Optical Depth at 865nm",
     "variable:out_name": "od865dust",
     "variable:positive": "",

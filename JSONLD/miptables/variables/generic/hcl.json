@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/hcl",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "HCl Volume Mixing Ratio",
     "variable:out_name": "hcl",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/volcello",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ocean Grid-Cell Volume",
     "variable:out_name": "volcello",
     "variable:positive": "",

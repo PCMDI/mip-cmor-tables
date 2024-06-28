@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/provenance/aemon-drydust",
-    "@type": "cmip:provenance",
+    "@type": "provenance",
     "CMIP6": {
         "dreq_uid": "19c064c4-81b1-11e6-92de-ac72891c3257",
         "mip_table": "AERmon",

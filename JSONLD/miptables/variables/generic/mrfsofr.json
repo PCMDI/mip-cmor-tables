@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mrfsofr",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Average Layer Fraction of Frozen Moisture",
     "variable:out_name": "mrfsofr",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/wfonocorr",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Water Flux into Sea Water Without Flux Correction",
     "variable:out_name": "wfonocorr",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/hfcorr",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Heat Flux Correction",
     "variable:out_name": "hfcorr",
     "variable:positive": "down",

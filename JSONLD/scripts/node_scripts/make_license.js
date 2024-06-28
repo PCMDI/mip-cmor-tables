@@ -18,10 +18,8 @@ async function main() {
     const frame = {
         "@context": {
         },
-        "@type": ["cmip:license"],
+        "@type": ["mip:license"],
         // "@explicit": true,
-
-
 
     }
 
@@ -45,7 +43,8 @@ async function main() {
                 output[element["kind"]] = element
             });
 
-            console.log(output)
+            // console.log(output)
+            console.log(__filename);
 
             cld.writeFile(output, './output/MIP_license.json')
         })

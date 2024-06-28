@@ -1,0 +1,418 @@
+{
+    "@id": "https://github.com/PCMDI/mip-cmor-tables/JSONLD/grid/label",
+    "@type": "graph",
+    "@context": {
+        "@vocab": "grid-label:",
+        "@base": "https://github.com/PCMDI/mip-cmor-tables"
+    },
+    "ldroot": "/JSONLD/grid/label",
+    "@graph": [
+        {
+            "@id": "mip-cmor-tables:grid/label/gr5",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr5",
+            "grid-label:short name": "Regridded Greenland Alternate 5",
+            "grid-label:description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr8z",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr8z",
+            "grid-label:short name": "Regridded Greenland Zonal Mean Alternate z",
+            "grid-label:description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr1g",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr1g",
+            "grid-label:short name": "Regridded Greenland Alternate g",
+            "grid-label:description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr2a",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr2a",
+            "grid-label:short name": "Regridded Antarctica Greenland Alternate a",
+            "grid-label:description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "antarctica"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr3g",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr3g",
+            "grid-label:short name": "Regridded Greenland Alternate g",
+            "grid-label:description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr9",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr9",
+            "grid-label:short name": "Regridded Greenland Alternate 9",
+            "grid-label:description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr8",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr8",
+            "grid-label:short name": "Regridded Greenland Alternate 8",
+            "grid-label:description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/grz",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "grz",
+            "grid-label:short name": "Regridded Greenland Zonal Mean",
+            "grid-label:description": "regridded zonal mean data reported on the data provider's preferred latitude target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr4a",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr4a",
+            "grid-label:short name": "Regridded Antarctica Greenland Alternate a",
+            "grid-label:description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "antarctica"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr7g",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr7g",
+            "grid-label:short name": "Regridded Greenland Alternate g",
+            "grid-label:description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr5g",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr5g",
+            "grid-label:short name": "Regridded Greenland Alternate g",
+            "grid-label:description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr4",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr4",
+            "grid-label:short name": "Regridded Greenland Alternate 4",
+            "grid-label:description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr4g",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr4g",
+            "grid-label:short name": "Regridded Greenland Alternate g",
+            "grid-label:description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gnz",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gnz",
+            "grid-label:short name": "Grid Native Greenland Zonal Mean",
+            "grid-label:description": "zonal mean data reported on a model's native latitude grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr9z",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr9z",
+            "grid-label:short name": "Regridded Greenland Zonal Mean Alternate z",
+            "grid-label:description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr2",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr2",
+            "grid-label:short name": "Regridded Greenland Alternate 2",
+            "grid-label:description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr6a",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr6a",
+            "grid-label:short name": "Regridded Antarctica Greenland Alternate a",
+            "grid-label:description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "antarctica"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr1a",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr1a",
+            "grid-label:short name": "Regridded Antarctica Greenland Alternate a",
+            "grid-label:description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "antarctica"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr7a",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr7a",
+            "grid-label:short name": "Regridded Antarctica Greenland Alternate a",
+            "grid-label:description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "antarctica"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr3",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr3",
+            "grid-label:short name": "Regridded Greenland Alternate 3",
+            "grid-label:description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr6g",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr6g",
+            "grid-label:short name": "Regridded Greenland Alternate g",
+            "grid-label:description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr3a",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr3a",
+            "grid-label:short name": "Regridded Antarctica Greenland Alternate a",
+            "grid-label:description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "antarctica"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gn",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gn",
+            "grid-label:short name": "Grid Native Greenland",
+            "grid-label:description": "data reported on a model's native grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr2g",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr2g",
+            "grid-label:short name": "Regridded Greenland Alternate g",
+            "grid-label:description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr5a",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr5a",
+            "grid-label:short name": "Regridded Antarctica Greenland Alternate a",
+            "grid-label:description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "antarctica"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr9a",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr9a",
+            "grid-label:short name": "Regridded Antarctica Greenland Alternate a",
+            "grid-label:description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "antarctica"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr3z",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr3z",
+            "grid-label:short name": "Regridded Greenland Zonal Mean Alternate z",
+            "grid-label:description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gm",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gm",
+            "grid-label:short name": "Greenland",
+            "grid-label:description": "global mean data",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gna",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gna",
+            "grid-label:short name": "Grid Native Antarctica Greenland",
+            "grid-label:description": "data reported on a native grid in the region of Antarctica",
+            "grid-label:region": "antarctica"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr8g",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr8g",
+            "grid-label:short name": "Regridded Greenland Alternate g",
+            "grid-label:description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr1",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr1",
+            "grid-label:short name": "Regridded Greenland Alternate 1",
+            "grid-label:description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr5z",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr5z",
+            "grid-label:short name": "Regridded Greenland Zonal Mean Alternate z",
+            "grid-label:description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr1z",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr1z",
+            "grid-label:short name": "Regridded Greenland Zonal Mean Alternate z",
+            "grid-label:description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr2z",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr2z",
+            "grid-label:short name": "Regridded Greenland Zonal Mean Alternate z",
+            "grid-label:description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr7",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr7",
+            "grid-label:short name": "Regridded Greenland Alternate 7",
+            "grid-label:description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/grg",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "grg",
+            "grid-label:short name": "Regridded Greenland",
+            "grid-label:description": "regridded data in the region of Greenland reported on the data provider's preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gng",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gng",
+            "grid-label:short name": "Grid Native Greenland",
+            "grid-label:description": "data reported on a native grid in the region of Greenland",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr6",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr6",
+            "grid-label:short name": "Regridded Greenland Alternate 6",
+            "grid-label:description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr7z",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr7z",
+            "grid-label:short name": "Regridded Greenland Zonal Mean Alternate z",
+            "grid-label:description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gra",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gra",
+            "grid-label:short name": "Regridded Antarctica Greenland",
+            "grid-label:description": "regridded data in the region of Antarctica reported on the data provider's preferred target grid",
+            "grid-label:region": "antarctica"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr",
+            "grid-label:short name": "Regridded Greenland",
+            "grid-label:description": "regridded data reported on the data provider's preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr9g",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr9g",
+            "grid-label:short name": "Regridded Greenland Alternate g",
+            "grid-label:description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr6z",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr6z",
+            "grid-label:short name": "Regridded Greenland Zonal Mean Alternate z",
+            "grid-label:description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+            "grid-label:region": "greenland"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr8a",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr8a",
+            "grid-label:short name": "Regridded Antarctica Greenland Alternate a",
+            "grid-label:description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+            "grid-label:region": "antarctica"
+        },
+        {
+            "@id": "mip-cmor-tables:grid/label/gr4z",
+            "@type": "mip:grid-label",
+            "grid-label:acronym": "gr4z",
+            "grid-label:short name": "Regridded Greenland Zonal Mean Alternate z",
+            "grid-label:description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+            "grid-label:region": "greenland"
+        }
+    ],
+    "files": [
+        "gr3g.json",
+        "gr5.json",
+        "gr2a.json",
+        "gr8z.json",
+        "gr9.json",
+        "gr1g.json",
+        "gr4a.json",
+        "gr5g.json",
+        "gr8.json",
+        "grz.json",
+        "gr7g.json",
+        "gr6a.json",
+        "gr4.json",
+        "gnz.json",
+        "gr1a.json",
+        "gr3a.json",
+        "gr3.json",
+        "gr2g.json",
+        "gr9z.json",
+        "gr7a.json",
+        "gr6g.json",
+        "gr2.json",
+        "gr4g.json",
+        "gn.json",
+        "gr5a.json",
+        "gr3z.json",
+        "gm.json",
+        "gr9a.json",
+        "gr8g.json",
+        "gna.json",
+        "gr1.json",
+        "gr1z.json",
+        "gr5z.json",
+        "grg.json",
+        "gr7z.json",
+        "gng.json",
+        "gr.json",
+        "gr7.json",
+        "gr2z.json",
+        "gr9g.json",
+        "gr8a.json",
+        "gra.json",
+        "gr6z.json",
+        "gr6.json",
+        "gr4z.json"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmon-fgcfc12",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/fgcfc12"
+    },
+    "variable:branded_variable_name": "fgcfc12_mon-op-tav-z0-hxy",
+    "variable:comment": "gas exchange flux of CFC12",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocean"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/opmon-fgcfc12"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

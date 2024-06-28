@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/csoiltree",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Carbon Mass in Soil on Tree Tiles",
     "variable:out_name": "cSoilTree",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/intpoc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Particulate Organic Carbon Content",
     "variable:out_name": "intpoc",
     "variable:positive": "",

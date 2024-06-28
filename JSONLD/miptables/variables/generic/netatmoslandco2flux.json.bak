@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/netatmoslandco2flux",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Net Flux of CO2 Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1]",
+    "variable:out_name": "netAtmosLandCO2Flux",
+    "variable:positive": "down",
+    "variable:standard_name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

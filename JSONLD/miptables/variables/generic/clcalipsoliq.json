@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/clcalipsoliq",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "CALIPSO Liquid Cloud Percentage",
     "variable:out_name": "clcalipsoliq",
     "variable:positive": "",

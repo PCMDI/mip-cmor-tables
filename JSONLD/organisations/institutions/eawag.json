@@ -1,30 +1,30 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/eawag",
-    "@type": "cmip:institution",
-    "institution:acronyms": [
+    "@type": "institution",
+    "acronyms": [
         "EAWAG"
     ],
-    "institution:aliases": [],
-    "institution:cmip_acronym": "EAWAG",
-    "institution:established": 1936,
-    "institution:labels": [],
-    "institution:location": {
+    "aliases": [],
+    "cmip_acronym": "EAWAG",
+    "established": 1936,
+    "labels": [],
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/00pc48d59",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 47.39724,
-            "location:lon": 47.39724,
-            "location:city": "D\u00fcbendorf",
-            "location:country": [
+            "lat": 47.39724,
+            "lon": 47.39724,
+            "city": "D\u00fcbendorf",
+            "country": [
                 "Switzerland",
                 "CH"
             ]
         }
     },
-    "institution:name": "Swiss Federal Institute of Aquatic Science and Technology",
-    "institution:ror": "00pc48d59",
-    "institution:type": "Facility",
-    "institution:url": [
+    "name": "Swiss Federal Institute of Aquatic Science and Technology",
+    "ror": "00pc48d59",
+    "type": "Facility",
+    "url": [
         "http://www.eawag.ch/en/"
     ]
 }

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/tauupbl",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Eastward Surface Stress from Planetary Boundary Layer Scheme",
     "variable:out_name": "tauupbl",
     "variable:positive": "",

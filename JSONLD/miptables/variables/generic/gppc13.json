@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/gppc13",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Carbon-13 Mass Flux out of Atmosphere Due to Gross Primary Production on Land [kgC m-2 s-1]",
     "variable:out_name": "gppc13",
     "variable:positive": "",

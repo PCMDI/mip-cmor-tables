@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hr-prsnc",
-    "@type": "cmip:table-variable",
+    "@type": "table-variable",
     "variable:generic": {
         "@id": "mip-cmor-tables:miptables/variables/generic/prsnc"
     },

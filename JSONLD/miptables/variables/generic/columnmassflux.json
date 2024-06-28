@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/columnmassflux",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Column Integrated Mass Flux",
     "variable:out_name": "columnmassflux",
     "variable:positive": "up",

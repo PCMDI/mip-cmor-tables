@@ -1,0 +1,32 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-tpf",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/tpf"
+    },
+    "variable:branded_variable_name": "tpf_mon-li-tav-z0-hxy",
+    "variable:comment": "The mean thickness of the permafrost layer in the land portion of the grid cell.  Reported as zero in permafrost-free regions.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/landIce"
+        },
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/limon-tpf"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

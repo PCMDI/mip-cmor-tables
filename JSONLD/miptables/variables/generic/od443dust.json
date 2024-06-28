@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/od443dust",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Optical Thickness at 443nm Dust",
     "variable:out_name": "od443dust",
     "variable:positive": "",

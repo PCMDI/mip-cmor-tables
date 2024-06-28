@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonlev-prw2h",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/prw2h"
+    },
+    "variable:branded_variable_name": "prw2H_mon-ap-tav-l-hxy",
+    "variable:comment": "Water vapor path for water molecules that contain one atom of the hydrogen-2 isotope (1H 2H O)",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apmonlev-prw2h"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

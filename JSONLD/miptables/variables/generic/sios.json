@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sios",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Total Dissolved Inorganic Silicon Concentration",
     "variable:out_name": "sios",
     "variable:positive": "",

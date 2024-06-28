@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/tsoilpools",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Turnover Rate of Each Model Soil Carbon Pool",
     "variable:out_name": "tSoilPools",
     "variable:positive": "",

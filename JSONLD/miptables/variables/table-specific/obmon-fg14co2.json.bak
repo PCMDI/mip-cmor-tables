@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/obmon-fg14co2",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/fg14co2"
+    },
+    "variable:branded_variable_name": "fg14co2_mon-oc-tav-z0-hxy",
+    "variable:comment": "Gas exchange flux of carbon-14 as CO2 (positive into ocean)",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocnBgchem"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/obmon-fg14co2"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

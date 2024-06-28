@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/omldamax",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Mean Daily Maximum Ocean Mixed Layer Thickness Defined by Mixing Scheme",
     "variable:out_name": "omldamax",
     "variable:positive": "",

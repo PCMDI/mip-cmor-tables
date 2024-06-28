@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/siforcecoriolx",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Coriolis Force Term in Force Balance (X-Component)",
+    "variable:out_name": "siforcecoriolx",
+    "variable:positive": "",
+    "variable:standard_name": "sea_ice_x_force_per_unit_area_due_to_coriolis_effect",
+    "variable:type": "real",
+    "variable:units": [
+        "N",
+        "m-2"
+    ]
+}

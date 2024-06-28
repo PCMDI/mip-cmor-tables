@@ -1,27 +1,27 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/awi",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "AWI",
-    "institution:ror": "032e6b942",
-    "institution:name": "Alfred Wegener Institute for Polar and Marine Research",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "AWI",
+    "ror": "032e6b942",
+    "name": "Alfred Wegener Institute for Polar and Marine Research",
+    "url": [
         "https://www.awi.de"
     ],
-    "institution:established": 1980,
-    "institution:type": "Facility",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
+    "established": 1980,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
         "AWI"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/032e6b942",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 53.53615,
-            "location:lon": 8.59298,
-            "location:city": "Bremerhaven",
-            "location:country": [
+            "lat": 53.53615,
+            "lon": 8.59298,
+            "city": "Bremerhaven",
+            "country": [
                 "Germany",
                 "DE"
             ]

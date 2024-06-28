@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/soga",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Global Mean Sea Water Salinity",
     "variable:out_name": "soga",
     "variable:positive": "",

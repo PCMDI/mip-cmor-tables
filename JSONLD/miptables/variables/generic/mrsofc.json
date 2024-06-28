@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mrsofc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Capacity of Soil to Store Water (Field Capacity)",
     "variable:out_name": "mrsofc",
     "variable:positive": "",

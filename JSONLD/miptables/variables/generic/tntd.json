@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/tntd",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Tendency of Air Temperature Due to Numerical Diffusion",
     "variable:out_name": "tntd",
     "variable:positive": "",

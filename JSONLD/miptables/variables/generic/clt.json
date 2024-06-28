@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/clt",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Total Cloud Cover Percentage",
     "variable:out_name": "clt",
     "variable:positive": "",

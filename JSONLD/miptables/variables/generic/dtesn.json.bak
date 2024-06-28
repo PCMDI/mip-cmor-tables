@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/dtesn",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Change in Snow and Ice Cold Content",
+    "variable:out_name": "dtesn",
+    "variable:positive": "",
+    "variable:standard_name": "change_over_time_in_thermal_energy_content_of_ice_and_snow_on_land",
+    "variable:type": "real",
+    "variable:units": [
+        "J",
+        "m-2"
+    ]
+}

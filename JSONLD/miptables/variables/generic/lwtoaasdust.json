@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/lwtoaasdust",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "TOA All-Sky Longwave Radiative Forcing Due to Dust",
     "variable:out_name": "lwtoaasdust",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/ugrido",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "UGRID Grid Specification",
     "variable:out_name": "ugrido",
     "variable:positive": "",

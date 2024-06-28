@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/chepsoa",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Chemical Production of Dry Aerosol Secondary Organic Matter",
     "variable:out_name": "chepsoa",
     "variable:positive": "",

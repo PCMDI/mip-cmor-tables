@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rsd4co2",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Downwelling Shortwave Radiation 4XCO2 Atmosphere",
+    "variable:out_name": "rsd4co2",
+    "variable:positive": "down",
+    "variable:standard_name": "downwelling_shortwave_flux_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

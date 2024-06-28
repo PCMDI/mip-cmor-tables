@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/difmxylo2d",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ocean Momentum XY Laplacian Diffusivity",
     "variable:out_name": "difmxylo2d",
     "variable:positive": "",

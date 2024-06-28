@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/rv850",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Relative Vorticity at 850hPa",
     "variable:out_name": "rv850",
     "variable:positive": "",

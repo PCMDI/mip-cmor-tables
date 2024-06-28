@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/ocontemptend",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content",
     "variable:out_name": "ocontemptend",
     "variable:positive": "",

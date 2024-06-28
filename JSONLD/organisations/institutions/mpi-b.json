@@ -1,25 +1,25 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/mpi-b",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "MPI-B",
-    "institution:ror": "051yxp643",
-    "institution:name": "Max Planck Institute for Biogeochemistry",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "MPI-B",
+    "ror": "051yxp643",
+    "name": "Max Planck Institute for Biogeochemistry",
+    "url": [
         "http://www.bgc-jena.mpg.de/"
     ],
-    "institution:established": 1997,
-    "institution:type": "Facility",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [],
-    "institution:location": {
+    "established": 1997,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [],
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/051yxp643",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 50.910556,
-            "location:lon": 11.567222,
-            "location:city": "Jena",
-            "location:country": [
+            "lat": 50.910556,
+            "lon": 11.567222,
+            "city": "Jena",
+            "country": [
                 "Germany",
                 "DE"
             ]

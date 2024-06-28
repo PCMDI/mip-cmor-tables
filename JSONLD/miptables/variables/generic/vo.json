@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/vo",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Sea Water Y Velocity",
     "variable:out_name": "vo",
     "variable:positive": "",

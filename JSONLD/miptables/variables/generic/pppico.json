@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/pppico",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Net Primary Mole Productivity of Carbon by Picophytoplankton",
     "variable:out_name": "pppico",
     "variable:positive": "",

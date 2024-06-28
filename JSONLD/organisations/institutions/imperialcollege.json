@@ -1,25 +1,25 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/imperialcollege",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "ImperialCollege",
-    "institution:ror": "041kmwe10",
-    "institution:name": "Imperial College London",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "ImperialCollege",
+    "ror": "041kmwe10",
+    "name": "Imperial College London",
+    "url": [
         "http://www.imperial.ac.uk/"
     ],
-    "institution:established": 1907,
-    "institution:type": "Education",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [],
-    "institution:location": {
+    "established": 1907,
+    "type": "Education",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [],
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/041kmwe10",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 51.4986,
-            "location:lon": -0.175478,
-            "location:city": "London",
-            "location:country": [
+            "lat": 51.4986,
+            "lon": -0.175478,
+            "city": "London",
+            "country": [
                 "United Kingdom",
                 "GB"
             ]

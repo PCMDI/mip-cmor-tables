@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/diftrblo2d",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ocean Tracer Diffusivity Due to Parameterized Mesoscale Advection",
     "variable:out_name": "diftrblo2d",
     "variable:positive": "",

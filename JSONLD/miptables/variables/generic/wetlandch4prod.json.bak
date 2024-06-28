@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/wetlandch4prod",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Grid Averaged Methane Production (Methanogenesis) from Wetlands",
+    "variable:out_name": "wetlandCH4prod",
+    "variable:positive": "",
+    "variable:standard_name": "surface_upward_mass_flux_of_methane_due_to_emission_from_wetland_biological_production",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

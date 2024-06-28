@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/phyn",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Mole Concentration of Total Phytoplankton Expressed as Nitrogen in Sea Water",
     "variable:out_name": "phyn",
     "variable:positive": "",

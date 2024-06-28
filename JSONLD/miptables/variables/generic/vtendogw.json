@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/vtendogw",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Northward Acceleration Due to Orographic Gravity Wave Drag",
     "variable:out_name": "vtendogw",
     "variable:positive": "",

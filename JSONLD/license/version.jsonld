@@ -1,0 +1,90 @@
+[
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc-by-4.0.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/license/cc-by-4.0.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 2,
+        "version:date": "2024-06-28T18:32:01+01:00",
+        "version:commit": {
+            "hash": "2f38b09e8114ce0c0726eed79f51e18066630426",
+            "message": "Updating the JSON format for clarity",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:license/cc-by-4.0"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc0-1.0.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/license/cc0-1.0.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 2,
+        "version:date": "2024-06-28T18:32:01+01:00",
+        "version:commit": {
+            "hash": "2f38b09e8114ce0c0726eed79f51e18066630426",
+            "message": "Updating the JSON format for clarity",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:license/cc0-1.0"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc-by-nc-sa-4.0.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/license/cc-by-nc-sa-4.0.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 2,
+        "version:date": "2024-06-28T18:32:01+01:00",
+        "version:commit": {
+            "hash": "2f38b09e8114ce0c0726eed79f51e18066630426",
+            "message": "Updating the JSON format for clarity",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:license/cc-by-nc-sa-4.0"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc-by-sa-4.0.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/license/cc-by-sa-4.0.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 2,
+        "version:date": "2024-06-28T18:32:01+01:00",
+        "version:commit": {
+            "hash": "2f38b09e8114ce0c0726eed79f51e18066630426",
+            "message": "Updating the JSON format for clarity",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:license/cc-by-sa-4.0"
+        }
+    }
+]

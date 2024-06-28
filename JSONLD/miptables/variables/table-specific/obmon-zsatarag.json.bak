@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/obmon-zsatarag",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/zsatarag"
+    },
+    "variable:branded_variable_name": "zsatarag_mon-oc-tav-z0-hxy",
+    "variable:comment": "Depth of aragonite saturation horizon (0 if undersaturated at all depths, 'missing' if supersaturated at all depths; if multiple horizons exist, the shallowest should be taken).",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocnBgchem"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/obmon-zsatarag"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

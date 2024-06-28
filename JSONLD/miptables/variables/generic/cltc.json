@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/cltc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Convective Cloud Cover Percentage",
     "variable:out_name": "cltc",
     "variable:positive": "",

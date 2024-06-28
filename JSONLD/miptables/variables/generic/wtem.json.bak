@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/wtem",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Transformed Eulerian Mean Upward Wind",
+    "variable:out_name": "wtem",
+    "variable:positive": "",
+    "variable:standard_name": "upward_transformed_eulerian_mean_air_velocity",
+    "variable:type": "real",
+    "variable:units": [
+        "m",
+        "s-1"
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/tables/opyr",
-    "@type": "cmip:dr-table",
+    "@type": "dr-table",
     "table:table_id": "OPyr",
     "table:Conventions": "CF-1.7 CMIP-6.5",
     "table:approx_interval": 365.0,

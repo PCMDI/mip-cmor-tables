@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/co3satcalcos",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Mole Concentration of Carbonate Ion in Equilibrium with Pure Calcite in Sea Water",
     "variable:out_name": "co3satcalcos",
     "variable:positive": "",

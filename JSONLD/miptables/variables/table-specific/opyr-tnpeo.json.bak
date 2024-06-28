@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/opyr-tnpeo",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/tnpeo"
+    },
+    "variable:branded_variable_name": "tnpeo_yr-op-tav-z0-hxy",
+    "variable:comment": "Rate that work is done against vertical stratification, as measured by the vertical heat and salt diffusivity. Report here as depth integrated two-dimensional field.",
+    "variable:frequency": "yr",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocean"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/opyr-tnpeo"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

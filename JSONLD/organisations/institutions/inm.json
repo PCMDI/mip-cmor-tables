@@ -1,27 +1,27 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/inm",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "INM",
-    "institution:ror": "00520ey40",
-    "institution:name": "Institute of Numerical Mathematics",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "INM",
+    "ror": "00520ey40",
+    "name": "Institute of Numerical Mathematics",
+    "url": [
         "http://www.inm.ras.ru/inm_en_ver/index.htm"
     ],
-    "institution:established": 1980,
-    "institution:type": "Facility",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
+    "established": 1980,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
         "INM RAS"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/00520ey40",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 55.762997,
-            "location:lon": 37.625605,
-            "location:city": "Moscow",
-            "location:country": [
+            "lat": 55.762997,
+            "lon": 37.625605,
+            "city": "Moscow",
+            "country": [
                 "Russia",
                 "RU"
             ]

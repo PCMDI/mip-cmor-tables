@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/table_specific/giayr-lim",
-    "@type": "cmip:table-variable",
+    "@type": "table-variable",
     "variable:generic": {
         "@id": "mip-cmor-tables:miptables/variables/generic/lim"
     },

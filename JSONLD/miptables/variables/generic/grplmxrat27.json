@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/grplmxrat27",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Graupel Mixing Ratio",
     "variable:out_name": "grplmxrat27",
     "variable:positive": "",

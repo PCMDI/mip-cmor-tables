@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/jpdftaureliqmodis",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "MODIS Optical Thickness-Particle Size Joint Distribution, Liquid",
     "variable:out_name": "jpdftaureliqmodis",
     "variable:positive": "",

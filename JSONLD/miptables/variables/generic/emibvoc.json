@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/emibvoc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Total Emission Rate of Biogenic NMVOC",
     "variable:out_name": "emibvoc",
     "variable:positive": "",

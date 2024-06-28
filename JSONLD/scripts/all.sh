@@ -16,12 +16,14 @@ do
   # Check if it is a file (not a directory)
   if [ -f "$FILE" ]; then
     # Run your command here, e.g., print the file name
-    echo "Processing file: $FILE"
+    
+    echo -e "\033[94m Processing file: $FILE \033[90m"
     # skip files that start with x
         if [[ "$filename" != x* ]]; then
     node $FILE
     fi
     
+     echo -e "\033[0m"
     # Example command: Run a script or command with the file as an argument
     # ./your_command "$FILE"
   fi

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mrrob",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Subsurface Runoff",
     "variable:out_name": "mrrob",
     "variable:positive": "",

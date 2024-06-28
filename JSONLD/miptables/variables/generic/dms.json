@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/dms",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Dimethyl Sulphide (DMS) Mole Fraction",
     "variable:out_name": "dms",
     "variable:positive": "",

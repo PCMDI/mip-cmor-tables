@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/siareaacrossline",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Sea-Ice Area Flux Through Straits",
     "variable:out_name": "siareaacrossline",
     "variable:positive": "",

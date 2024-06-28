@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/agesno",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Mean Age of Snow",
     "variable:out_name": "agesno",
     "variable:positive": "",

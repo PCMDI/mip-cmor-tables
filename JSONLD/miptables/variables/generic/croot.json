@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/croot",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Carbon Mass in Roots",
     "variable:out_name": "cRoot",
     "variable:positive": "",

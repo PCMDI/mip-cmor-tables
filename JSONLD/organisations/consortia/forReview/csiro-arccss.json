@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/csiro-arccss",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "CSIRO-ARCCSS",
     "consortium:description": "CSIRO-ARCCSS",
     "consortium:url": "",

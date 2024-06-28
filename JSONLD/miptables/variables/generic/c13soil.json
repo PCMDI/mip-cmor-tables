@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/c13soil",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Mass of 13C in Soil Pool",
     "variable:out_name": "c13Soil",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/ut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Product of Air Temperature and Eastward Wind",
     "variable:out_name": "ut",
     "variable:positive": "",

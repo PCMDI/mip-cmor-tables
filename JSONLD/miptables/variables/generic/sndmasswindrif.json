@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sndmasswindrif",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Snow Mass Rate of Change Through Wind Drift of Snow",
     "variable:out_name": "sndmasswindrif",
     "variable:positive": "",

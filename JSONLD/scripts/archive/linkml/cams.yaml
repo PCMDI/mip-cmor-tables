@@ -1,0 +1,10 @@
+# cmip_instance.yaml
+# linkml-validate -s instituitons.yaml cams.yaml
+# mip_eras:
+  # - 
+id: "mip-cmor-tables:auxillary/mip_era/cmip6"
+# type: "cmip:mip_era"
+name: "CMIP6"
+url: "https://wcrp-cmip.org/CMIP6"
+start: 2013
+end: 2024

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/intpbfe",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Iron Production",
     "variable:out_name": "intpbfe",
     "variable:positive": "",

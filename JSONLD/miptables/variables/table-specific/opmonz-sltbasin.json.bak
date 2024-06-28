@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-sltbasin",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/sltbasin"
+    },
+    "variable:branded_variable_name": "sltbasin_mon-op-tav-z0-hys",
+    "variable:comment": "function of latitude, basin",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "latitude",
+        "basin",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocean"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/opmonz-sltbasin"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

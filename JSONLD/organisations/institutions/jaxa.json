@@ -1,30 +1,30 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/jaxa",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "JAXA",
-    "institution:ror": "059yhyy33",
-    "institution:name": "Japan Aerospace Exploration Agency",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "JAXA",
+    "ror": "059yhyy33",
+    "name": "Japan Aerospace Exploration Agency",
+    "url": [
         "http://global.jaxa.jp/"
     ],
-    "institution:established": 2003,
-    "institution:type": "Facility",
-    "institution:labels": [],
-    "institution:aliases": [
+    "established": 2003,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [
         "Dokuritsu-gy\u014dsei-h\u014djin Uch\u016b K\u014dk\u016b Kenky\u016b Kaihatsu Kik\u014d",
         "Independent Administrative Institution on Aerospace Research and Development"
     ],
-    "institution:acronyms": [
+    "acronyms": [
         "JAXA"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/059yhyy33",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 35.680834,
-            "location:lon": 139.558269,
-            "location:city": "Tokyo",
-            "location:country": [
+            "lat": 35.680834,
+            "lon": 139.558269,
+            "city": "Tokyo",
+            "country": [
                 "Japan",
                 "JP"
             ]

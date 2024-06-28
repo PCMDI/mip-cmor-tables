@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/dsn",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Change in Snow Water Equivalent",
     "variable:out_name": "dsn",
     "variable:positive": "",

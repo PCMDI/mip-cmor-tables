@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/limnpico",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Nitrogen Limitation of Picophytoplankton",
     "variable:out_name": "limnpico",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/tables/aeday",
-    "@type": "cmip:dr-table",
+    "@type": "dr-table",
     "table:table_id": "AEday",
     "table:Conventions": "CF-1.7 CMIP-6.5",
     "table:approx_interval": 1.0,

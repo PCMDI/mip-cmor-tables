@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/prw18o",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Mass of Water Vapor Containing Oxygen-18 (H2 18O) in Layer",
+    "variable:out_name": "prw18O",
+    "variable:positive": "",
+    "variable:standard_name": "mass_content_of_water_vapor_containing_18O_in_atmosphere_layer",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

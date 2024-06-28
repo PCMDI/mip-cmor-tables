@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/nh4",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Dissolved Ammonium Concentration",
     "variable:out_name": "nh4",
     "variable:positive": "",

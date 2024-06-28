@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sftlf",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Percentage of the Grid Cell Occupied by Land (Including Lakes)",
+    "variable:out_name": "sftlf",
+    "variable:positive": "",
+    "variable:standard_name": "land_area_fraction",
+    "variable:type": "real",
+    "variable:units": [
+        "%"
+    ]
+}

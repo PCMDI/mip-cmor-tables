@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/snmsl",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Water Flowing out of Snowpack",
+    "variable:out_name": "snmsl",
+    "variable:positive": "",
+    "variable:standard_name": "liquid_water_mass_flux_into_soil_due_to_surface_snow_melt",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

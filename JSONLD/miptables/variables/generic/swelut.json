@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/swelut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Snow Water Equivalent on Land-Use Tile",
     "variable:out_name": "sweLut",
     "variable:positive": "",

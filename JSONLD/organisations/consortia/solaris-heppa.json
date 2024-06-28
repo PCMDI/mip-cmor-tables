@@ -1,18 +1,18 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/solaris_heppa",
-    "@type": "cmip:consortium",
-    "consortium:cmip_acronym": "SOLARIS HEPPA",
-    "consortium:description": "SOLARIS HEPPA Consortium",
-    "consortium:url": "https://solarisheppa.geomar.de",
-    "consortium:changes": "",
-    "consortium:members": [
+    "@type": "consortium",
+    "cmip_acronym": "SOLARIS HEPPA",
+    "description": "SOLARIS HEPPA Consortium",
+    "url": "https://solarisheppa.geomar.de",
+    "changes": "",
+    "members": [
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/auot"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -24,11 +24,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/aor"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2025,
                     "to": "-",
@@ -40,11 +40,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/bas"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -56,11 +56,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/eawag"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -72,11 +72,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/fmi"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -95,11 +95,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/fuberlin"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -111,11 +111,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/geomar"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -127,11 +127,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/gsfc"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -143,11 +143,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/iaa-csic"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -166,11 +166,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/issi"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -189,11 +189,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/kit"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -212,11 +212,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/lasp"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -235,11 +235,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/lpc2e"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -258,11 +258,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/mohc"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -274,11 +274,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/mps"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -297,11 +297,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/ncar"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -320,11 +320,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/pmod"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -342,12 +342,12 @@
             ]
         },
         {
-            "@type": "consortia:member",
-            "consortia:institution": {
+            "@tyconsortia:pe": "member",
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/uobergen"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2025,
                     "to": "-",
@@ -359,11 +359,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/uoleeds"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -382,11 +382,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/uomontreal"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -398,11 +398,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/uootago"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2013,
                     "to": 2022,
@@ -421,11 +421,11 @@
         },
         {
             "@type": "consortia:member",
-            "consortia:institution": {
+            "institution": {
                 "@id": "mip-cmor-tables:organisations/institutions/uooulu"
             },
-            "consortia:membership_type": "current",
-            "consortia:dates": [
+            "membership_type": "current",
+            "dates": [
                 {
                     "from": 2025,
                     "to": "-",

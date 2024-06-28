@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/bddtdic",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Rate of Change of Dissolved Inorganic Carbon Due to Biological Activity",
     "variable:out_name": "bddtdic",
     "variable:positive": "",

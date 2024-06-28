@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/provenance/aemonlev-ch4",
-    "@type": "cmip:provenance",
+    "@type": "provenance",
     "CMIP6": {
         "dreq_uid": "19bfc492-81b1-11e6-92de-ac72891c3257",
         "mip_table": "AERmon",

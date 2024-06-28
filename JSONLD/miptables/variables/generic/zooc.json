@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/zooc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Zooplankton Carbon Concentration",
     "variable:out_name": "zooc",
     "variable:positive": "",

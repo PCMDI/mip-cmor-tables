@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/phycalcos",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Mole Concentration of Calcareous Phytoplankton Expressed as Carbon in Sea Water",
     "variable:out_name": "phycalcos",
     "variable:positive": "",

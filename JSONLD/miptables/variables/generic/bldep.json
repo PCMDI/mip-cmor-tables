@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/bldep",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Boundary Layer Depth",
     "variable:out_name": "bldep",
     "variable:positive": "",

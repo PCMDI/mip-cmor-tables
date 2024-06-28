@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/flandice",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Water Flux into Sea Water from Land Ice",
     "variable:out_name": "flandice",
     "variable:positive": "",

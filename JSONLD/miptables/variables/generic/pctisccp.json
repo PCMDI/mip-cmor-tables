@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/pctisccp",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "ISCCP Mean Cloud Top Pressure",
     "variable:out_name": "pctisccp",
     "variable:positive": "",

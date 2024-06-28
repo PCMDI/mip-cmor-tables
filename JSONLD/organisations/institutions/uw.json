@@ -1,27 +1,27 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/uw",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "UW",
-    "institution:ror": "00cvxb145",
-    "institution:name": "University of Washington",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "UW",
+    "ror": "00cvxb145",
+    "name": "University of Washington",
+    "url": [
         "http://www.washington.edu/"
     ],
-    "institution:established": 1861,
-    "institution:type": "Education",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
+    "established": 1861,
+    "type": "Education",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
         "UW"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/00cvxb145",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 47.60621,
-            "location:lon": -122.33207,
-            "location:city": "Seattle",
-            "location:country": [
+            "lat": 47.60621,
+            "lon": -122.33207,
+            "city": "Seattle",
+            "country": [
                 "United States",
                 "US"
             ]

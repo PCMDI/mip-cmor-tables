@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/vsf",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Virtual Salt Flux into Sea Water",
     "variable:out_name": "vsf",
     "variable:positive": "",

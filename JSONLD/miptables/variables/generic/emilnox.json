@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/emilnox",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Layer-Integrated Lightning Production of NOx",
     "variable:out_name": "emilnox",
     "variable:positive": "",

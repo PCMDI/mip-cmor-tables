@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mmrsoa",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Secondary Organic Aerosol Mass Mixing Ratio",
     "variable:out_name": "mmrsoa",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/diftrelo",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ocean Tracer Epineutral Laplacian Diffusivity",
     "variable:out_name": "diftrelo",
     "variable:positive": "",

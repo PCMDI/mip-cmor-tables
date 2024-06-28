@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/rhlitter",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Litter on Land",
     "variable:out_name": "rhLitter",
     "variable:positive": "",

@@ -35,7 +35,7 @@ from pyld import jsonld
 
 # Constants
 SHORTHAND = "mip-cmor-tables:"
-DEFAULT_SKIP_FILES = ['schema.json', 'graph.json', ".DS_Store", "create.ipynb", "version.json"]
+DEFAULT_SKIP_FILES = ['schema.jsonld', 'graph.jsonld', ".DS_Store", "create.ipynb", "version.json"]
 DEFAULT_SKIP_DIRS = ['JSONLD/archive', 'JSONLD/scripts']
 
 graphfile = './compiled/graph_data.json'
@@ -48,6 +48,18 @@ def get_repo_info() -> Tuple[str, str, str]:
     return repo, cv_tag, mip_tag
 
 REPO, CVTAG, MIPTAG = get_repo_info()
+
+def errprint(*text):
+    RED = "\033[91m"
+    RESET = "\033[0m"
+    print(RED,text,RESET)
+    
+    
+def bprint(*text):
+    other = "\033[94m"
+    RESET = "\033[0m"
+    print(other,text,RESET)
+
 
 def read_json_file_mmap(file: str, directory: str) -> Tuple[Dict[str, Any], Dict[str, Any]]:
     """Read a JSON file using memory mapping for efficiency."""
@@ -64,15 +76,28 @@ def read_all_json_files(directory: str, base_dir: str) -> Tuple[str, str]:
         files = [f for f in os.listdir(directory) if f.endswith('.json') and f not in DEFAULT_SKIP_FILES]
         # print(files)
     except FileNotFoundError:
-        print('<<<   Dir does not exist:', directory)
+        errprint('<<<   Dir does not exist:', directory)
         return None,None
     
     
-    if 'frame.json' not in files:
-        print('>>>   Skipping ', directory)
+    if not os.path.exists(f"{directory}/frame.jsonld"):
+        bprint('\t >>>   SKIP ', directory)
         return None, None
     
-    files.remove("frame.json")
+    try:
+        frame = json.load(open(f"{directory}/frame.jsonld", 'r'))
+        prefix = frame['@context']['@vocab'].replace('_','-')
+        context = frame['@context']
+        # print('>>>   PASS ', directory)
+    except Exception as e:
+        errprint('<<<  Error',e,  directory)
+        return None, None
+    
+    
+    
+
+    
+    # files.remove("frame.json")
     all_data = []
     versioning = []
 
@@ -82,30 +107,48 @@ def read_all_json_files(directory: str, base_dir: str) -> Tuple[str, str]:
         for future in concurrent.futures.as_completed(future_to_file):
             try:
                 data, v = future.result()
+                
+                data['@type'] = f"mip:{data['@type']}"
                 all_data.append(data)
                 versioning.append(v)
             except Exception as exc:
-                print(f'File {future_to_file[future]} generated an exception: {exc}')
+                errprint(f'File {future_to_file[future]} generated an exception: {exc}')
+                
+                
+    # write prefix to all_data
+    # write context to graph 
+    all_data = [{prefix + k if not k.startswith('@') else k: v for k, v in z.items()} for z in all_data]
+    
+    # print(all_data[0])
+    
+    
+     
 
     complete_graph = {
-        "@id": directory.replace(base_dir, REPO).replace('blob/main/JSONLD', ''),
-        "@type": "cmip:graph",
+        "@id": directory.replace(base_dir, REPO).replace('blob/main/JSONLD/', ''),
+        "@type": "graph",
+        "@context": context,
         "ldroot": directory.removeprefix(base_dir),
         "@graph": all_data,
         "files": files
     }
 
     # JSON-LD conformance test
+    
+    
     try:
         jsonld.expand(complete_graph)
-        print(f"JSON-LD conformance test passed: {directory}")
+        print(f" \t PASS JSON-LD conformance: {directory}")
     except jsonld.JsonLdError as e:
-        print(f"JSON-LD conformance test failed: {directory}: {e}")
+        errprint(f"<<< FAIL JSON-LD conformance test: {directory}: {e}")
+        
+        
+    
 
     # Write graph and versioning
-    gpath = f"{directory}/graph.json"
+    gpath = f"{directory}/graph.jsonld"
     json.dump(complete_graph, open(gpath, 'w'),indent=4)  # Minified for efficiency
-    vpath = f"{directory}/version.json"
+    vpath = f"{directory}/version.jsonld"
     json.dump(versioning, open(vpath, 'w'),indent=4)  # Minified for efficiency
     
     return gpath, vpath

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/osaltrmadvect",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Residual Mean Advection",
     "variable:out_name": "osaltrmadvect",
     "variable:positive": "",

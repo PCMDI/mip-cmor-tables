@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/si",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Total Dissolved Inorganic Silicon Concentration",
+    "variable:out_name": "si",
+    "variable:positive": "",
+    "variable:standard_name": "mole_concentration_of_dissolved_inorganic_silicon_in_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3"
+    ]
+}

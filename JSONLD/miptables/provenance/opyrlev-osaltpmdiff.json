@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/provenance/opyrlev-osaltpmdiff",
-    "@type": "cmip:provenance",
+    "@type": "provenance",
     "CMIP6": {
         "dreq_uid": "baa4844e-e5dd-11e5-8482-ac72891c3257",
         "mip_table": "Oyr",

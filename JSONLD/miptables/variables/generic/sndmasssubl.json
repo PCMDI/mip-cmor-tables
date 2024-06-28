@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sndmasssubl",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Snow Mass Rate of Change Through Evaporation or Sublimation",
     "variable:out_name": "sndmasssubl",
     "variable:positive": "",

@@ -1,27 +1,27 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/dwd",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "DWD",
-    "institution:ror": "02nrqs528",
-    "institution:name": "German Meteorological Service",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "DWD",
+    "ror": "02nrqs528",
+    "name": "German Meteorological Service",
+    "url": [
         "http://www.dwd.de/"
     ],
-    "institution:established": 1952,
-    "institution:type": "Facility",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
+    "established": 1952,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
         "DWD"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/02nrqs528",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 50.103322,
-            "location:lon": 8.747606,
-            "location:city": "Offenbach",
-            "location:country": [
+            "lat": 50.103322,
+            "lon": 8.747606,
+            "city": "Offenbach",
+            "country": [
                 "Germany",
                 "DE"
             ]

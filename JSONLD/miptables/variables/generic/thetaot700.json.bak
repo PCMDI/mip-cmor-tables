@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/thetaot700",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Depth Average Potential Temperature of Upper 700m",
+    "variable:out_name": "thetaot700",
+    "variable:positive": "",
+    "variable:standard_name": "sea_water_potential_temperature",
+    "variable:type": "real",
+    "variable:units": [
+        "degC"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/tsis",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Ice Sheet Surface Temperature",
+    "variable:out_name": "tsIs",
+    "variable:positive": "",
+    "variable:standard_name": "surface_temperature",
+    "variable:type": "real",
+    "variable:units": [
+        "K"
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/drydust",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Dry Deposition Rate of Dust",
     "variable:out_name": "drydust",
     "variable:positive": "",

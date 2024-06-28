@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/tntmp",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Tendency of Air Temperature Due to Model Physics",
     "variable:out_name": "tntmp",
     "variable:positive": "",

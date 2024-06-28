@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/nudgincswe",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Nudging Increment of Water in Snow",
     "variable:out_name": "nudgincswe",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/dfeos",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Dissolved Iron Concentration",
     "variable:out_name": "dfeos",
     "variable:positive": "",

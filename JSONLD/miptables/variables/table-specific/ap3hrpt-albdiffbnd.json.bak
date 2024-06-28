@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrpt-albdiffbnd",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/albdiffbnd"
+    },
+    "variable:branded_variable_name": "albdiffbnd_3hr-ap-tpt-z0-hxy",
+    "variable:comment": "The fraction of the surface diffuse downwelling shortwave radiation flux which is reflected. If the diffuse radiation is isotropic, this term is equivalent to the integral of surface bidirectional reflectance over all incident angles and over all outgoing angles in the hemisphere above the surface. Reported in spectral frequency bands.",
+    "variable:frequency": "3hrPt",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "spectband",
+        "time1"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-albdiffbnd"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

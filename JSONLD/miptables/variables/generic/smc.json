@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/smc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Shallow Convective Mass Flux",
     "variable:out_name": "smc",
     "variable:positive": "up",

@@ -1,27 +1,27 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/thu",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "THU",
-    "institution:ror": "03cve4549",
-    "institution:name": "Tsinghua University",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "THU",
+    "ror": "03cve4549",
+    "name": "Tsinghua University",
+    "url": [
         "http://www.tsinghua.edu.cn/publish/newthuen/"
     ],
-    "institution:established": 1911,
-    "institution:type": "Education",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
+    "established": 1911,
+    "type": "Education",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
         "THU"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/03cve4549",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 39.999585,
-            "location:lon": 116.325414,
-            "location:city": "Beijing",
-            "location:country": [
+            "lat": 39.999585,
+            "lon": 116.325414,
+            "city": "Beijing",
+            "country": [
                 "China",
                 "CN"
             ]

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sosga",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Global Average Sea Surface Salinity",
     "variable:out_name": "sosga",
     "variable:positive": "",

@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmondiurnal-rsdt",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/rsdt"
+    },
+    "variable:branded_variable_name": "rsdt_1hrCM-ap-tcld-z0-hxy",
+    "variable:comment": "Shortwave radiation incident at the top of the atmosphere",
+    "variable:frequency": "1hrCM",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time3"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apmondiurnal-rsdt"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

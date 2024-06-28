@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclim-difmxybo2d",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/difmxybo2d"
+    },
+    "variable:branded_variable_name": "difmxybo_mon-op-tcla-z0-hxy",
+    "variable:comment": "Lateral biharmonic viscosity applied to the momentum equations.",
+    "variable:frequency": "monC",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time2"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocean"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/opmonclim-difmxybo2d"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

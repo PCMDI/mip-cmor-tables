@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpfx-slthick",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/slthick"
+    },
+    "variable:branded_variable_name": "slthick_fx-ld-none-l-hxy",
+    "variable:comment": "'Thickness' means the vertical extent of a layer. 'Cell' refers to a model grid cell.",
+    "variable:frequency": "fx",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/lpfx-slthick"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/opottempmint",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Integral with Respect to Depth of Product of Sea Water Density and Potential Temperature",
     "variable:out_name": "opottempmint",
     "variable:positive": "",

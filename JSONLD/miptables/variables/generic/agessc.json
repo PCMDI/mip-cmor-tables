@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/agessc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Sea Water Age Since Surface Contact",
     "variable:out_name": "agessc",
     "variable:positive": "",

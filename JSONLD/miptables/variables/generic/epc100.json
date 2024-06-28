@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/epc100",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Downward Flux of Particulate Organic Carbon",
     "variable:out_name": "epc100",
     "variable:positive": "",

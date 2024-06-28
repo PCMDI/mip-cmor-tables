@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/provenance/obyrlev-ppmisc",
-    "@type": "cmip:provenance",
+    "@type": "provenance",
     "CMIP6": {
         "dreq_uid": "ba9ee3a4-e5dd-11e5-8482-ac72891c3257",
         "mip_table": "Oyr",

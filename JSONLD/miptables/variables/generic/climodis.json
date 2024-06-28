@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/climodis",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "MODIS Ice Cloud Area Percentage",
     "variable:out_name": "climodis",
     "variable:positive": "",

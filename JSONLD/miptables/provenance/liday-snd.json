@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/provenance/liday-snd",
-    "@type": "cmip:provenance",
+    "@type": "provenance",
     "CMIP6": {
         "dreq_uid": "b7ccdf0a-7c00-11e6-bcdf-ac72891c3257",
         "mip_table": "Eday",

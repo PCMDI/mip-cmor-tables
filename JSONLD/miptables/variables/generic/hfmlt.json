@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/hfmlt",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Energy of Fusion",
     "variable:out_name": "hfmlt",
     "variable:positive": "",

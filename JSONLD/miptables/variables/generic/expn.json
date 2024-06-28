@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/expn",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Sinking Particulate Organic Nitrogen Flux",
     "variable:out_name": "expn",
     "variable:positive": "down",

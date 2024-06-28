@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/osaltpadvect",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Eddy Advection",
     "variable:out_name": "osaltpadvect",
     "variable:positive": "",

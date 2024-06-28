@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/n2o",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Mole Fraction of N2O",
     "variable:out_name": "n2o",
     "variable:positive": "",

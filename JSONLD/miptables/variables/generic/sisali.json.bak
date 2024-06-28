@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sisali",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea Ice Salinity",
+    "variable:out_name": "sisali",
+    "variable:positive": "",
+    "variable:standard_name": "sea_ice_salinity",
+    "variable:type": "real",
+    "variable:units": [
+        "0.001"
+    ]
+}

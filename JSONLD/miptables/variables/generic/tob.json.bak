@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/tob",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea Water Potential Temperature at Sea Floor",
+    "variable:out_name": "tob",
+    "variable:positive": "",
+    "variable:standard_name": "sea_water_potential_temperature_at_sea_floor",
+    "variable:type": "real",
+    "variable:units": [
+        "degC"
+    ]
+}

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/cldnci",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ice Crystal Number Concentration of Cloud Tops",
     "variable:out_name": "cldnci",
     "variable:positive": "",

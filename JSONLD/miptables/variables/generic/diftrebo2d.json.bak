@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/diftrebo2d",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Ocean Tracer Epineutral Biharmonic Diffusivity",
+    "variable:out_name": "diftrebo2d",
+    "variable:positive": "",
+    "variable:standard_name": "ocean_tracer_epineutral_biharmonic_diffusivity",
+    "variable:type": "real",
+    "variable:units": [
+        "m4",
+        "s-1"
+    ]
+}

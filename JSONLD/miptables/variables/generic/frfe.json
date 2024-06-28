@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/frfe",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Iron Loss to Sediments",
     "variable:out_name": "frfe",
     "variable:positive": "",

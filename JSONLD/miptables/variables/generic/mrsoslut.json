@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mrsoslut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Moisture in Upper Portion of Soil Column of Land-Use Tile",
     "variable:out_name": "mrsosLut",
     "variable:positive": "",

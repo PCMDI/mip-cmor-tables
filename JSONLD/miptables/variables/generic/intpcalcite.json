@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/intpcalcite",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Calcite Production",
     "variable:out_name": "intpcalcite",
     "variable:positive": "",

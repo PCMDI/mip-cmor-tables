@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/airmass",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Vertically Integrated Mass Content of Air in Layer",
     "variable:out_name": "airmass",
     "variable:positive": "",

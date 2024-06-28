@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/osalttend",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Tendency of Sea Water Salinity Expressed as Salt Content",
     "variable:out_name": "osalttend",
     "variable:positive": "",

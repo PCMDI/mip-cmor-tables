@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-jo2",
-    "@type": "cmip:table-variable",
+    "@type": "table-variable",
     "variable:generic": {
         "@id": "mip-cmor-tables:miptables/variables/generic/jo2"
     },

@@ -1,27 +1,27 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/osu",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "OSU",
-    "institution:ror": "00ysfqy60",
-    "institution:name": "Oregon State University",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "OSU",
+    "ror": "00ysfqy60",
+    "name": "Oregon State University",
+    "url": [
         "http://oregonstate.edu/"
     ],
-    "institution:established": 1868,
-    "institution:type": "Education",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
+    "established": 1868,
+    "type": "Education",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
         "OSU"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/00ysfqy60",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 44.56457,
-            "location:lon": -123.26204,
-            "location:city": "Corvallis",
-            "location:country": [
+            "lat": 44.56457,
+            "lon": -123.26204,
+            "city": "Corvallis",
+            "country": [
                 "United States",
                 "US"
             ]

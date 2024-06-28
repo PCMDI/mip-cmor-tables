@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/aemon-emibvoc",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/emibvoc"
+    },
+    "variable:branded_variable_name": "emibvoc_mon-ae-tav-z0-hxy",
+    "variable:comment": "Integrate 3D emission field vertically to 2d field._If_ fixed molecular weight of NMVOC is not available in model, please provide in units of kilomole m-2 s-1 (i.e. kg m-2 s-1 as if model NMVOC had molecular weight of 1) and add a comment to your file.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/aerosol"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/aemon-emibvoc"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

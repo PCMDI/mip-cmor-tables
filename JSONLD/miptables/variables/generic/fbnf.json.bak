@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/fbnf",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Biological Nitrogen Fixation",
+    "variable:out_name": "fBNF",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_soil_and_vegetation_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_fixation",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

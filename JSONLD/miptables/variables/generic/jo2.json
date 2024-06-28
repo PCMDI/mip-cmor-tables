@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/jo2",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Photolysis Rate of Diatomic Molecular Oxygen",
     "variable:out_name": "jo2",
     "variable:positive": "",

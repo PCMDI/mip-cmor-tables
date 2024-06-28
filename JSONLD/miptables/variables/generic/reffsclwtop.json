@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/reffsclwtop",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Cloud-Top Effective Droplet Radius in Stratiform Cloud",
     "variable:out_name": "reffsclwtop",
     "variable:positive": "",

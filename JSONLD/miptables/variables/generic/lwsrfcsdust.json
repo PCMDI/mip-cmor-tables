@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/lwsrfcsdust",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Clear-Sky Surface Longwave Radiative Flux Due to Dust",
     "variable:out_name": "lwsrfcsdust",
     "variable:positive": "",

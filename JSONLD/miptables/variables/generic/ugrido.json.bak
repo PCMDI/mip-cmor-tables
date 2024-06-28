@@ -1,0 +1,10 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/ugrido",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "UGRID Grid Specification",
+    "variable:out_name": "ugrido",
+    "variable:positive": "",
+    "variable:standard_name": "longitude",
+    "variable:type": "real",
+    "variable:units": []
+}

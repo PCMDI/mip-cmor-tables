@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sf6",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Mole Concentration of SF6 in Sea Water",
     "variable:out_name": "sf6",
     "variable:positive": "",

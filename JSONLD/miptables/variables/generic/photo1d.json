@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/photo1d",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Photolysis Rate of Ozone (O3) to Excited Atomic Oxygen (the Singlet D State, O1D)",
     "variable:out_name": "photo1d",
     "variable:positive": "",

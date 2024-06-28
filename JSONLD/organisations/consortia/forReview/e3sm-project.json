@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/e3sm-project",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "E3SM-Project",
     "consortium:description": "E3SM-Project",
     "consortium:url": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mrlso",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Soil Liquid Water Content",
     "variable:out_name": "mrlso",
     "variable:positive": "",

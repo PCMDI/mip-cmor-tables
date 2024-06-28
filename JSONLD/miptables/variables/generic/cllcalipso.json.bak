@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/cllcalipso",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "CALIPSO Low Level Cloud Cover Percentage",
+    "variable:out_name": "cllcalipso",
+    "variable:positive": "",
+    "variable:standard_name": "cloud_area_fraction_in_atmosphere_layer",
+    "variable:type": "real",
+    "variable:units": [
+        "%"
+    ]
+}

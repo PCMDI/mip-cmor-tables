@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/co3natos",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Natural Carbonate Ion Concentration",
     "variable:out_name": "co3natos",
     "variable:positive": "",

@@ -1,6 +1,0 @@
-{
-    "@id": "mip-cmor-tables:auxillary/source_type/aogcm",
-    "@type": "cmip:source_type",
-    "source-type:name": "AOGCM",
-    "source-type:description": "coupled atmosphere-ocean global climate model, additionally including explicit representation of at least the land and sea ice"
-}

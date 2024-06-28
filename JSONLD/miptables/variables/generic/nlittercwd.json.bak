@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/nlittercwd",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Nitrogen Mass in Coarse Woody Debris",
+    "variable:out_name": "nLitterCwd",
+    "variable:positive": "",
+    "variable:standard_name": "wood_debris_mass_content_of_nitrogen",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

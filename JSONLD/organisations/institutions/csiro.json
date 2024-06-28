@@ -1,27 +1,27 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/csiro",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "CSIRO",
-    "institution:ror": "03qn8fb07",
-    "institution:name": "Commonwealth Scientific and Industrial Research Organisation",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "CSIRO",
+    "ror": "03qn8fb07",
+    "name": "Commonwealth Scientific and Industrial Research Organisation",
+    "url": [
         "http://www.csiro.au/"
     ],
-    "institution:established": 1926,
-    "institution:type": "Government",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
+    "established": 1926,
+    "type": "Government",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
         "CSIRO"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/03qn8fb07",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": -35.28346,
-            "location:lon": 149.12807,
-            "location:city": "Canberra",
-            "location:country": [
+            "lat": -35.28346,
+            "lon": 149.12807,
+            "city": "Canberra",
+            "country": [
                 "Australia",
                 "AU"
             ]

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/messy-consortium",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "MESSy-Consortium",
     "consortium:description": "The Modular Earth Submodel System (MESSy) Consortium",
     "consortium:url": "",

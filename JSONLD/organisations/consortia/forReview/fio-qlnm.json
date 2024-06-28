@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/fio-qlnm",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "FIO-QLNM",
     "consortium:description": "FIO-QLNM",
     "consortium:url": "",

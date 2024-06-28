@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/nwdfraclut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Non-Woody Vegetation Percentage Cover",
     "variable:out_name": "nwdFracLut",
     "variable:positive": "",

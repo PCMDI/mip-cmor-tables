@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/dissocos",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Dissolved Organic Carbon Concentration",
     "variable:out_name": "dissocos",
     "variable:positive": "",

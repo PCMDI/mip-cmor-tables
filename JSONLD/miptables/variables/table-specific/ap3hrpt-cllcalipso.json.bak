@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrpt-cllcalipso",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/cllcalipso"
+    },
+    "variable:branded_variable_name": "cllcalipso_3hr-ap-tpt-p0840-hxy",
+    "variable:comment": "Percentage cloud cover in layer centred on 840hPa",
+    "variable:frequency": "3hrPt",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "p840"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-cllcalipso"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

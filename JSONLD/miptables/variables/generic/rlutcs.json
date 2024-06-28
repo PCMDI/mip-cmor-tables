@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/rlutcs",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "TOA Outgoing Clear-Sky Longwave Radiation",
     "variable:out_name": "rlutcs",
     "variable:positive": "up",

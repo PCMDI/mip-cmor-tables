@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sidmasstrany",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Y-Component of Sea-Ice Mass Transport",
     "variable:out_name": "sidmasstrany",
     "variable:positive": "",

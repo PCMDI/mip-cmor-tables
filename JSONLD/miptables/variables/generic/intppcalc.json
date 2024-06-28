@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/intppcalc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Net Primary Mole Productivity of Carbon by Calcareous Phytoplankton",
     "variable:out_name": "intppcalc",
     "variable:positive": "",

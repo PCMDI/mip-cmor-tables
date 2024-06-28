@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-co2s",
-    "@type": "cmip:table-variable",
+    "@type": "table-variable",
     "variable:generic": {
         "@id": "mip-cmor-tables:miptables/variables/generic/co2s"
     },

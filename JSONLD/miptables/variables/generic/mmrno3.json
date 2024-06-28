@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mmrno3",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "NO3 Aerosol Mass Mixing Ratio",
     "variable:out_name": "mmrno3",
     "variable:positive": "",

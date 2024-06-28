@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/msftyrho",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ocean Y Overturning Mass Streamfunction",
     "variable:out_name": "msftyrho",
     "variable:positive": "",

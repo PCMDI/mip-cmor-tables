@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apday-snrefr",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/snrefr"
+    },
+    "variable:branded_variable_name": "snrefr_day-ap-tav-z0-hxy",
+    "variable:comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics. The surface called 'surface' means the lower boundary of the atmosphere. 'Surface snow and ice refreezing flux' means the mass flux of surface  meltwater which refreezes within the snow or firn.",
+    "variable:frequency": "day",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apday-snrefr"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

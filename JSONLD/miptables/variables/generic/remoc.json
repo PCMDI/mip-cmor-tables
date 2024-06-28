@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/remoc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Remineralization of Organic Carbon",
     "variable:out_name": "remoc",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sisnhc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Snow Heat Content per Unit Area",
     "variable:out_name": "sisnhc",
     "variable:positive": "",

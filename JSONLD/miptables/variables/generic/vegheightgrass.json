@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/vegheightgrass",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Height of Grass",
     "variable:out_name": "vegHeightGrass",
     "variable:positive": "",

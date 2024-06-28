@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/hfsslut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Sensible Heat Flux on Land-Use Tile",
     "variable:out_name": "hfssLut",
     "variable:positive": "up",

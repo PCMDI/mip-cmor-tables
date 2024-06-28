@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-sbl",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/sbl"
+    },
+    "variable:branded_variable_name": "sbl_mon-li-tav-z0-hxy",
+    "variable:comment": "The snow and ice sublimation flux is the loss of snow and ice mass per unit area from the surface resulting from their direct conversion to water vapor that enters the atmosphere.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/landIce"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/limon-sbl"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": 0.0001,
+        "ok_min_mean_abs": 0,
+        "valid_max": 0.001,
+        "valid_min": -0.0005
+    }
+}

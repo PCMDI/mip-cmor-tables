@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sossq",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Square of Sea Surface Salinity",
     "variable:out_name": "sossq",
     "variable:positive": "",

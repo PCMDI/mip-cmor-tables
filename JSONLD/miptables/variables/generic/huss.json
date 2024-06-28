@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/huss",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Near-Surface Specific Humidity",
     "variable:out_name": "huss",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fveglittersenescence",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Total Carbon Mass Flux from Vegetation to Litter as a Result of Leaf, Branch, and Root Senescence",
     "variable:out_name": "fVegLitterSenescence",
     "variable:positive": "",

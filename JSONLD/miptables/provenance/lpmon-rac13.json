@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/provenance/lpmon-rac13",
-    "@type": "cmip:provenance",
+    "@type": "provenance",
     "CMIP6": {
         "dreq_uid": "6f6b4384-9acb-11e6-b7ee-ac72891c3257",
         "mip_table": "Emon",

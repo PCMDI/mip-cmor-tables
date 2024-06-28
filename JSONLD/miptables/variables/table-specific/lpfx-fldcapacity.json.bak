@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpfx-fldcapacity",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/fldcapacity"
+    },
+    "variable:branded_variable_name": "fldcapacity_fx-ld-none-l-hxy",
+    "variable:comment": "The field capacity of soil is the maximum content of water it can retain against gravitational drainage. Provide as a percentage of the soil volume.",
+    "variable:frequency": "fx",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/lpfx-fldcapacity"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

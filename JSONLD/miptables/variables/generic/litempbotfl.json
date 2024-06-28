@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/litempbotfl",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Basal Temperature of Floating Ice Shelf",
     "variable:out_name": "litempbotfl",
     "variable:positive": "",

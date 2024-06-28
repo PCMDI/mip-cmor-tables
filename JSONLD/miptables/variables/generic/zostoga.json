@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/zostoga",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Global Average Thermosteric Sea Level Change",
     "variable:out_name": "zostoga",
     "variable:positive": "",

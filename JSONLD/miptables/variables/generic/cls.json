@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/cls",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Percentage Cover of Stratiform Cloud",
     "variable:out_name": "cls",
     "variable:positive": "",

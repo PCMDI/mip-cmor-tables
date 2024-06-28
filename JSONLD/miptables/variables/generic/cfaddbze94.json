@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/cfaddbze94",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "CloudSat Radar Reflectivity CFAD",
     "variable:out_name": "cfadDbze94",
     "variable:positive": "",

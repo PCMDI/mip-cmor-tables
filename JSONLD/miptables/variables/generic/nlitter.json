@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/nlitter",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Nitrogen Mass in Litter Pool",
     "variable:out_name": "nLitter",
     "variable:positive": "",

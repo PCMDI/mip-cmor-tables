@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sistresave",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Average Normal Stress in Sea Ice",
     "variable:out_name": "sistresave",
     "variable:positive": "",

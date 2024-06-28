@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/csoilmedium",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Carbon Mass in Medium Soil Pool",
     "variable:out_name": "cSoilMedium",
     "variable:positive": "",

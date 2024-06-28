@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/zmisc",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Mole Concentration of Other Zooplankton Expressed as Carbon in Sea Water",
+    "variable:out_name": "zmisc",
+    "variable:positive": "",
+    "variable:standard_name": "mole_concentration_of_miscellaneous_zooplankton_expressed_as_carbon_in_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3"
+    ]
+}

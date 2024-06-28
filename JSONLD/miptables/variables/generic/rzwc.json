@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/rzwc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Root Zone Soil Moisture",
     "variable:out_name": "rzwc",
     "variable:positive": "",

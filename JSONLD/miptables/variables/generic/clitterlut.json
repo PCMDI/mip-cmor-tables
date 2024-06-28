@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/clitterlut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Carbon  in Above and Below-Ground Litter Pools on Land-Use Tiles",
     "variable:out_name": "cLitterLut",
     "variable:positive": "",

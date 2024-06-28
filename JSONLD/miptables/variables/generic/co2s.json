@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/co2s",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Atmosphere CO2",
     "variable:out_name": "co2s",
     "variable:positive": "",

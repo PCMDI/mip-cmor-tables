@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fharvesttoproduct",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Harvested Biomass That Goes into Product Pool",
     "variable:out_name": "fHarvestToProduct",
     "variable:positive": "",

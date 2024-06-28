@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/grassfracc4",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "C4 Natural Grass Area Percentage",
+    "variable:out_name": "grassFracC4",
+    "variable:positive": "",
+    "variable:standard_name": "area_fraction",
+    "variable:type": "real",
+    "variable:units": [
+        "%"
+    ]
+}

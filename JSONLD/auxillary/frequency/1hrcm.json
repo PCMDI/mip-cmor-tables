@@ -1,0 +1,8 @@
+{
+    "@id": "mip-cmor-tables:auxillary/frequency/1hrcm",
+    "@type": "frequency",
+    "name": "1hrCM",
+    "description": "monthly-mean diurnal cycle resolving each day into 1-hour means",
+    "unit": "hour",
+    "long_name": "1 Hour Climatology Monthly"
+}

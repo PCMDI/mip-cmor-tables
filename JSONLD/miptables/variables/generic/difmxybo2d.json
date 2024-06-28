@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/difmxybo2d",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ocean Momentum XY Biharmonic Diffusivity",
     "variable:out_name": "difmxybo2d",
     "variable:positive": "",

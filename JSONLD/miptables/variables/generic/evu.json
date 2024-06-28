@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/evu",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Eddy Viscosity Coefficient for Momentum",
     "variable:out_name": "evu",
     "variable:positive": "",

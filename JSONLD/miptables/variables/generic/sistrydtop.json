@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sistrydtop",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Y-Component of Atmospheric Stress on Sea Ice",
     "variable:out_name": "sistrydtop",
     "variable:positive": "down",

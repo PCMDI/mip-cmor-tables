@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/ch3coch3",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "CH3COCH3 Volume Mixing Ratio",
     "variable:out_name": "ch3coch3",
     "variable:positive": "",

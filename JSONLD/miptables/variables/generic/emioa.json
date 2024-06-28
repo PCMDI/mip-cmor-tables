@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/emioa",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Primary Emission and Chemical Production of Dry Aerosol Organic Matter",
     "variable:out_name": "emioa",
     "variable:positive": "",

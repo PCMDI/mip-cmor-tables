@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/csoillut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Carbon in Soil Pool on Land-Use Tiles",
     "variable:out_name": "cSoilLut",
     "variable:positive": "",

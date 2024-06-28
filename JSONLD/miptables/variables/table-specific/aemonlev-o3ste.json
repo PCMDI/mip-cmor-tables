@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-o3ste",
-    "@type": "cmip:table-variable",
+    "@type": "table-variable",
     "variable:generic": {
         "@id": "mip-cmor-tables:miptables/variables/generic/o3ste"
     },

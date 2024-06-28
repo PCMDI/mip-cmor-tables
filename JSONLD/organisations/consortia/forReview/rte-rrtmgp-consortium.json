@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/rte-rrtmgp-consortium",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "RTE-RRTMGP-Consortium",
     "consortium:description": "RTE-RRTMGP-Consortium",
     "consortium:url": "",

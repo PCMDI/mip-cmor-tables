@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/rsdcs",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Downwelling Clear-Sky Shortwave Radiation",
     "variable:out_name": "rsdcs",
     "variable:positive": "down",

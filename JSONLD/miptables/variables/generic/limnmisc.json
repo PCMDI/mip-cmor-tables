@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/limnmisc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Nitrogen Limitation of Other Phytoplankton",
     "variable:out_name": "limnmisc",
     "variable:positive": "",

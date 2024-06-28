@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/maxpblz",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Maximum PBL Height",
     "variable:out_name": "maxpblz",
     "variable:positive": "",

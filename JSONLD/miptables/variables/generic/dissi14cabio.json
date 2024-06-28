@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/dissi14cabio",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Abiotic Dissolved Inorganic Carbon-14 Concentration",
     "variable:out_name": "dissi14cabio",
     "variable:positive": "",

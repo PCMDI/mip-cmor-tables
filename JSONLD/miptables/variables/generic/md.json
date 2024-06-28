@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/md",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Wet Diameter Mode Coarse Insoluble",
     "variable:out_name": "md",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/siflcondtop",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Net Conductive Heat Flux in Ice at the Surface",
     "variable:out_name": "siflcondtop",
     "variable:positive": "down",

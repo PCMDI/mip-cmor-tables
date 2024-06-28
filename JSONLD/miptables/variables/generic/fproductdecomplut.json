@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fproductdecomplut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Net Carbon Mass Flux from Wood and Agricultural Product Pools on Land Use Tile into Atmosphere [kgC m-2 s-1]",
     "variable:out_name": "fProductDecompLut",
     "variable:positive": "",

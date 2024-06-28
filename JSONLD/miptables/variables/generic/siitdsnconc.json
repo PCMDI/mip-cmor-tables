@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/siitdsnconc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Snow Area Percentages in Ice Thickness Categories",
     "variable:out_name": "siitdsnconc",
     "variable:positive": "",

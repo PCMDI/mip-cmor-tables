@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/bs550aer",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Aerosol Backscatter Coefficient",
     "variable:out_name": "bs550aer",
     "variable:positive": "",

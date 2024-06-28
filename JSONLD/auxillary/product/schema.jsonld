@@ -1,0 +1,27 @@
+{
+    "type": "object",
+    "properties": {
+        "@type": {
+            "type": "string",
+            "enum": [
+                "product"
+            ]
+        },
+        "@id": {
+            "type": "string",
+            "pattern": "^mip-cmor-tables:auxillary/product/.+$"
+        },
+        "kind": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "@type",
+        "@id",
+        "kind",
+        "description"
+    ]
+}

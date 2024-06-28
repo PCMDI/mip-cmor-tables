@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonlev-pabigthetao",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/pabigthetao"
+    },
+    "variable:branded_variable_name": "pabigthetao_mon-op-tav-l-hxy",
+    "variable:comment": "A passive tracer in an ocean model whose surface flux does not come from the atmosphere but is imposed externally upon the simulated climate system. The surface flux is expressed as a heat flux and converted to a passive tracer increment as if it were a heat flux being added to conservative temperature. The passive tracer is transported within the ocean as if it were conservative temperature. The passive tracer is zero in the control climate of the model. ",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocean"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/opmonlev-pabigthetao"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

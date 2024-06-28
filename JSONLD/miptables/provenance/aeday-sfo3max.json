@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/provenance/aeday-sfo3max",
-    "@type": "cmip:provenance",
+    "@type": "provenance",
     "CMIP6": {
         "dreq_uid": "fda754f4-96ec-11e6-b81e-c9e268aff03a",
         "mip_table": "AERday",

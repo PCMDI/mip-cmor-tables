@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/o2",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Dissolved Oxygen Concentration",
+    "variable:out_name": "o2",
+    "variable:positive": "",
+    "variable:standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3"
+    ]
+}

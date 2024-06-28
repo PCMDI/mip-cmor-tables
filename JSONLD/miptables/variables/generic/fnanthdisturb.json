@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fnanthdisturb",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Nitrogen Mass Flux out of Land Due to any Human Activity",
     "variable:out_name": "fNAnthDisturb",
     "variable:positive": "",

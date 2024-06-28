@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/rubisco",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "RUBISCO",
     "consortium:description": "RUBISCO",
     "consortium:url": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sedustci",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Sedimentation Flux of Dust Mode Coarse Insoluble",
     "variable:out_name": "sedustCI",
     "variable:positive": "",

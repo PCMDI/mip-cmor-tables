@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/bsi",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Mole Concentration of Particulate Organic Matter Expressed as Silicon in Sea Water",
     "variable:out_name": "bsi",
     "variable:positive": "",

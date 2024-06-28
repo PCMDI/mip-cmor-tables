@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/talknatos",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Natural Total Alkalinity",
     "variable:out_name": "talknatos",
     "variable:positive": "",

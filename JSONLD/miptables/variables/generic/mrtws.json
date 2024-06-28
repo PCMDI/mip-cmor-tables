@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mrtws",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Terrestrial Water Storage",
     "variable:out_name": "mrtws",
     "variable:positive": "",

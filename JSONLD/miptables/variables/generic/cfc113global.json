@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/cfc113global",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Global Mean Mole Fraction of CFC113",
     "variable:out_name": "cfc113global",
     "variable:positive": "",

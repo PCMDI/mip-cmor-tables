@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/residualfrac",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Percentage of Grid Cell That Is Land but neither Vegetation Covered nor Bare Soil",
     "variable:out_name": "residualFrac",
     "variable:positive": "",

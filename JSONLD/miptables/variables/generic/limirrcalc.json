@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/limirrcalc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Irradiance Limitation of Calcareous Phytoplankton",
     "variable:out_name": "limirrcalc",
     "variable:positive": "",

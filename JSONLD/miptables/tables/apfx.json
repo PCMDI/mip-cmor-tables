@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/tables/apfx",
-    "@type": "cmip:dr-table",
+    "@type": "dr-table",
     "table:table_id": "APfx",
     "table:Conventions": "CF-1.7 CMIP-6.5",
     "table:approx_interval": 0.0,

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/zsatcalc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Calcite Saturation Depth",
     "variable:out_name": "zsatcalc",
     "variable:positive": "",

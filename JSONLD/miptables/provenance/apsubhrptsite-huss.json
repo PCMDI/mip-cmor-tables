@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-huss",
-    "@type": "cmip:provenance",
+    "@type": "provenance",
     "CMIP6": {
         "dreq_uid": "8007c976-f906-11e6-a176-5404a60d96b5",
         "mip_table": "CFsubhr",

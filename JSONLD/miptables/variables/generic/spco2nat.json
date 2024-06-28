@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/spco2nat",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Natural Surface Aqueous Partial Pressure of CO2",
     "variable:out_name": "spco2nat",
     "variable:positive": "",

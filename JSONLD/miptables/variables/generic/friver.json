@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/friver",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Water Flux into Sea Water from Rivers",
     "variable:out_name": "friver",
     "variable:positive": "",

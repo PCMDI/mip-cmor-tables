@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/frn",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Nitrogen Loss to Sediments and Through Denitrification",
     "variable:out_name": "frn",
     "variable:positive": "",

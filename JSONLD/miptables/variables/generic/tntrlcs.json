@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/tntrlcs",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Tendency of Air Temperature Due to Clear Sky Longwave Radiative Heating",
     "variable:out_name": "tntrlcs",
     "variable:positive": "",

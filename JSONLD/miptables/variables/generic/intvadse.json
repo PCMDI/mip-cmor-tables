@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/intvadse",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Vertically Integrated Northward Dry Static Energy Transport",
     "variable:out_name": "intvadse",
     "variable:positive": "",

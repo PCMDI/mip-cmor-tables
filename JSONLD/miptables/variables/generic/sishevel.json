@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sishevel",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Maximum Shear of Sea-Ice Velocity Field",
     "variable:out_name": "sishevel",
     "variable:positive": "",

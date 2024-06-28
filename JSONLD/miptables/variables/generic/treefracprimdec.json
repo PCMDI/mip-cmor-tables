@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/treefracprimdec",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Percentage Cover by Primary Deciduous Tree",
     "variable:out_name": "treeFracPrimDec",
     "variable:positive": "",

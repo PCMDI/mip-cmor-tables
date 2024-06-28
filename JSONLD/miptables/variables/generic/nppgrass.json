@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/nppgrass",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Net Primary Production on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "variable:out_name": "nppGrass",
     "variable:positive": "",

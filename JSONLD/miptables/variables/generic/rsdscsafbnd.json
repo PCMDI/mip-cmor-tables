@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/rsdscsafbnd",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Downwelling Clear-Sky, Aerosol-Free Shortwave Radiation in Bands",
     "variable:out_name": "rsdscsafbnd",
     "variable:positive": "down",

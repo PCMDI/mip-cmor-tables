@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/incois-nio-ipsl",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "INCOIS-NIO-IPSL",
     "consortium:description": "INCOIS-NIO-IPSL",
     "consortium:url": "",

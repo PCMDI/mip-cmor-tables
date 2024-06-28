@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/simassacrossline",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Sea Mass Area Flux Through Straits",
     "variable:out_name": "simassacrossline",
     "variable:positive": "",

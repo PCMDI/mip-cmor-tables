@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fvegsoil",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Total Carbon Mass Flux from Vegetation Directly to Soil",
     "variable:out_name": "fVegSoil",
     "variable:positive": "",

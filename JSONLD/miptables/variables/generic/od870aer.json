@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/od870aer",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ambient Aerosol Optical Depth at 870nm",
     "variable:out_name": "od870aer",
     "variable:positive": "",

@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/o3loss",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "O3 Destruction Rate",
+    "variable:out_name": "o3loss",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_atmosphere_mole_concentration_of_ozone_due_to_chemical_destruction",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3",
+        "s-1"
+    ]
+}

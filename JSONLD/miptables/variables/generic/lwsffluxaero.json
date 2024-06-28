@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/lwsffluxaero",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Longwave Flux Due to Volcanic Aerosols at the Surface",
     "variable:out_name": "lwsffluxaero",
     "variable:positive": "",

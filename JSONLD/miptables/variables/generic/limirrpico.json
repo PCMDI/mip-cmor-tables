@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/limirrpico",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Irradiance Limitation of Picophytoplankton",
     "variable:out_name": "limirrpico",
     "variable:positive": "",

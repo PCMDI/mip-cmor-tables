@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/mmrdust",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Dust Aerosol Mass Mixing Ratio",
+    "variable:out_name": "mmrdust",
+    "variable:positive": "",
+    "variable:standard_name": "mass_fraction_of_dust_dry_aerosol_particles_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "kg-1"
+    ]
+}

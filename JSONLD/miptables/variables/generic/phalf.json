@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/phalf",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Pressure on Model Half-Levels",
     "variable:out_name": "phalf",
     "variable:positive": "",

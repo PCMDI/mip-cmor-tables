@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/dmsos",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Mole Concentration of Dimethyl Sulphide in Sea Water",
     "variable:out_name": "dmsos",
     "variable:positive": "",

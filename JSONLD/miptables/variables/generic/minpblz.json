@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/minpblz",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Minimum PBL Height",
     "variable:out_name": "minpblz",
     "variable:positive": "",

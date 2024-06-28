@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mrrolut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Total Runoff from Land-Use Tile",
     "variable:out_name": "mrroLut",
     "variable:positive": "",

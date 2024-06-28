@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/csoillevels",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Carbon Mass in Each Model Soil Level (Summed over All Soil Carbon Pools in That Level)",
     "variable:out_name": "cSoilLevels",
     "variable:positive": "",

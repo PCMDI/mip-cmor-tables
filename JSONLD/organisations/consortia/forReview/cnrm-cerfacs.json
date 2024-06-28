@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/cnrm-cerfacs",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "CNRM-Cerfacs",
     "consortium:description": "CNRM-Cerfacs",
     "consortium:url": "",

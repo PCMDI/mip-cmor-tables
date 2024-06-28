@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/lossco",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Monthly Loss of Atmospheric Carbon Monoxide",
     "variable:out_name": "lossco",
     "variable:positive": "",

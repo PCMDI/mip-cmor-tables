@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/pcmdi",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "PCMDI",
     "consortium:description": "PCMDI",
     "consortium:url": "",

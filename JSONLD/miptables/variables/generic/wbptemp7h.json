@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/wbptemp7h",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Wet Bulb Potential Temperature",
     "variable:out_name": "wbptemp7h",
     "variable:positive": "",

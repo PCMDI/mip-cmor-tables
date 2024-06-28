@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/clmcalipso",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "CALIPSO Mid Level Cloud Cover Percentage",
     "variable:out_name": "clmcalipso",
     "variable:positive": "",

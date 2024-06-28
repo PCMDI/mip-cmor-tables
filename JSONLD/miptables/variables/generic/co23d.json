@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/co23d",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "3D-Field of Transported CO2",
     "variable:out_name": "co23D",
     "variable:positive": "",

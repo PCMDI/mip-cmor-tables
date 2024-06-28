@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/swtoaasdust",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "All-Sky Shortwave Flux Due to Dust at Toa",
     "variable:out_name": "swtoaasdust",
     "variable:positive": "",

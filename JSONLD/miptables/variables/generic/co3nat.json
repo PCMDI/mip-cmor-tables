@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/co3nat",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Natural Carbonate Ion Concentration",
     "variable:out_name": "co3nat",
     "variable:positive": "",

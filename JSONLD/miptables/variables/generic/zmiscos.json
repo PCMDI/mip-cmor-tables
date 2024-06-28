@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/zmiscos",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Mole Concentration of Other Zooplankton Expressed as Carbon in Sea Water",
     "variable:out_name": "zmiscos",
     "variable:positive": "",

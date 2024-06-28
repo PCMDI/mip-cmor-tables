@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/conccn",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Aerosol Number Concentration",
     "variable:out_name": "conccn",
     "variable:positive": "",

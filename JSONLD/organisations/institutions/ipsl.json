@@ -1,27 +1,27 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/ipsl",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "IPSL",
-    "institution:ror": "02haar591",
-    "institution:name": "Institut Pierre-Simon Laplace",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "IPSL",
+    "ror": "02haar591",
+    "name": "Institut Pierre-Simon Laplace",
+    "url": [
         "https://www.ipsl.fr/en/"
     ],
-    "institution:established": 1991,
-    "institution:type": "Facility",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
+    "established": 1991,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
         "IPSL"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/02haar591",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 48.855675,
-            "location:lon": 2.332105,
-            "location:city": "Paris",
-            "location:country": [
+            "lat": 48.855675,
+            "lon": 2.332105,
+            "city": "Paris",
+            "country": [
                 "France",
                 "FR"
             ]

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/icfriver",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Flux of Inorganic Carbon into Ocean Surface by Runoff",
     "variable:out_name": "icfriver",
     "variable:positive": "",

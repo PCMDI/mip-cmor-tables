@@ -1,0 +1,32 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmon-vsfsit",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/vsfsit"
+    },
+    "variable:branded_variable_name": "vsfsit_mon-op-tav-z0-hxy",
+    "variable:comment": "This variable measures the virtual salt flux into sea water due to the melting of sea ice. It is set to zero in models which receive a real water flux.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocean"
+        },
+        {
+            "@id": "mip-cmor-tables:modellingrealms/seaIce"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/opmon-vsfsit"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

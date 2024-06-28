@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/areacellg",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Grid-Cell Area for Ice Sheet Variables",
     "variable:out_name": "areacellg",
     "variable:positive": "",

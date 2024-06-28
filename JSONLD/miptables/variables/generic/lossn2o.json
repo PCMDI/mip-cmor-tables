@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/lossn2o",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Monthly Loss of Atmospheric Nitrous Oxide",
     "variable:out_name": "lossn2o",
     "variable:positive": "",

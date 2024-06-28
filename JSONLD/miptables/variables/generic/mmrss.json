@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mmrss",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Sea-Salt Aerosol Mass Mixing Ratio",
     "variable:out_name": "mmrss",
     "variable:positive": "",

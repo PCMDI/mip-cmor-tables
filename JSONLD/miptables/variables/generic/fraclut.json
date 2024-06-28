@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fraclut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Percentage of Grid Cell for Each Land-Use Tile",
     "variable:out_name": "fracLut",
     "variable:positive": "",

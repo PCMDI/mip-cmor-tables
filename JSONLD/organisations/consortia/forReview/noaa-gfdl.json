@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/noaa-gfdl",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "NOAA-GFDL",
     "consortium:description": "NOAA-GFDL",
     "consortium:url": "",

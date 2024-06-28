@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/clmisr",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Percentage Cloud Cover as Calculated by the MISR Simulator (Including Error Flag)",
     "variable:out_name": "clmisr",
     "variable:positive": "",

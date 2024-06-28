@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/ph",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "pH",
     "variable:out_name": "ph",
     "variable:positive": "",

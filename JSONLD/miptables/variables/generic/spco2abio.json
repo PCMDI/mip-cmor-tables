@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/spco2abio",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Abiotic Surface Aqueous Partial Pressure of CO2",
     "variable:out_name": "spco2abio",
     "variable:positive": "",

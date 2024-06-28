@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/siforcecoriolx",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Coriolis Force Term in Force Balance (X-Component)",
     "variable:out_name": "siforcecoriolx",
     "variable:positive": "",

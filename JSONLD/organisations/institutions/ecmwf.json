@@ -1,27 +1,27 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/ecmwf",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "ECMWF",
-    "institution:ror": "014w0fd65",
-    "institution:name": "European Centre for Medium-Range Weather Forecasts",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "ECMWF",
+    "ror": "014w0fd65",
+    "name": "European Centre for Medium-Range Weather Forecasts",
+    "url": [
         "http://www.ecmwf.int/"
     ],
-    "institution:established": 1975,
-    "institution:type": "Other",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
+    "established": 1975,
+    "type": "Other",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
         "ECMWF"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/014w0fd65",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 51.45625,
-            "location:lon": -0.97113,
-            "location:city": "Reading",
-            "location:country": [
+            "lat": 51.45625,
+            "lon": -0.97113,
+            "city": "Reading",
+            "country": [
                 "United Kingdom",
                 "GB"
             ]

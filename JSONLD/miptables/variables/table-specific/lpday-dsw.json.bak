@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-dsw",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/dsw"
+    },
+    "variable:branded_variable_name": "dsw_day-ld-tav-z0-hxy",
+    "variable:comment": "The phrase 'land_water_amount', often known as 'Terrestrial Water Storage', includes: surface liquid water (water in rivers, wetlands, lakes, reservoirs, rainfall intercepted by the canopy); surface ice and snow (glaciers, ice caps, grounded ice sheets not displacing sea water, river and lake ice, other surface ice such as frozen flood water, snow lying on the surface and intercepted by the canopy); subsurface water (liquid and frozen soil water, groundwater).",
+    "variable:frequency": "day",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/lpday-dsw"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

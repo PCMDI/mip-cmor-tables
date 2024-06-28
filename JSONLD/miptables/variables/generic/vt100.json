@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/vt100",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Northward Eddy Temperature Flux",
     "variable:out_name": "vt100",
     "variable:positive": "",

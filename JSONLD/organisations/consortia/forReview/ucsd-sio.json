@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/ucsd-sio",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "UCSD-SIO",
     "consortium:description": "UCSD-SIO",
     "consortium:url": "",

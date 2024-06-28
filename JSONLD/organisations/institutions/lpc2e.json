@@ -1,30 +1,30 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/lpc2e",
-    "@type": "cmip:institution",
-    "institution:acronyms": [
+    "@type": "institution",
+    "acronyms": [
         "LPC2E"
     ],
-    "institution:aliases": [],
-    "institution:cmip_acronym": "LPC2E",
-    "institution:established": 2012,
-    "institution:labels": [],
-    "institution:location": {
+    "aliases": [],
+    "cmip_acronym": "LPC2E",
+    "established": 2012,
+    "labels": [],
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/049k66y27",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 47.90289,
-            "location:lon": 47.90289,
-            "location:city": "Orl\u00e9ans",
-            "location:country": [
+            "lat": 47.90289,
+            "lon": 47.90289,
+            "city": "Orl\u00e9ans",
+            "country": [
                 "France",
                 "FR"
             ]
         }
     },
-    "institution:name": "Laboratoire de Physique et Chimie de l\u2019Environnement et de l\u2019Espace",
-    "institution:ror": "049k66y27",
-    "institution:type": "Facility",
-    "institution:url": [
+    "name": "Laboratoire de Physique et Chimie de l\u2019Environnement et de l\u2019Espace",
+    "ror": "049k66y27",
+    "type": "Facility",
+    "url": [
         "https://www.lpc2e.cnrs.fr"
     ]
 }

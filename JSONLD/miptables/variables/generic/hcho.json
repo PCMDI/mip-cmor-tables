@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/hcho",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Formaldehyde Volume Mixing Ratio",
     "variable:out_name": "hcho",
     "variable:positive": "",

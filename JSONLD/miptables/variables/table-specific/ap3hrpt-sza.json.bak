@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrpt-sza",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/sza"
+    },
+    "variable:branded_variable_name": "sza_3hr-ap-tpt-z0-hxy",
+    "variable:comment": "The angle between the line of sight to the sun and the local vertical",
+    "variable:frequency": "3hrPt",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-sza"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/concnmcn",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Number Concentration of Nucleation Mode Aerosol",
     "variable:out_name": "concnmcn",
     "variable:positive": "",

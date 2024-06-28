@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/expp",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Sinking Particulate Organic Phosphorus Flux",
     "variable:out_name": "expp",
     "variable:positive": "down",

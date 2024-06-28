@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/cropfracc4",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Percentage Cover by C4 Crops",
+    "variable:out_name": "cropFracC4",
+    "variable:positive": "",
+    "variable:standard_name": "area_fraction",
+    "variable:type": "real",
+    "variable:units": [
+        "%"
+    ]
+}

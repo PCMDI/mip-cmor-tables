@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/siflsensupbot",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Net Upward Sensible Heat Flux Under Sea Ice",
     "variable:out_name": "siflsensupbot",
     "variable:positive": "up",

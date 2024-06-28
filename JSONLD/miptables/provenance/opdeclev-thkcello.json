@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/provenance/opdeclev-thkcello",
-    "@type": "cmip:provenance",
+    "@type": "provenance",
     "CMIP6": {
         "dreq_uid": "479514a6-bb0b-11e6-8316-5980f7b176d1",
         "mip_table": "Odec",

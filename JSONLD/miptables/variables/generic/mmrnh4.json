@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mmrnh4",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "NH4 Mass Mixing Ratio",
     "variable:out_name": "mmrnh4",
     "variable:positive": "",

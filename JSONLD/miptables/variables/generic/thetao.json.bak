@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/thetao",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea Water Potential Temperature",
+    "variable:out_name": "thetao",
+    "variable:positive": "",
+    "variable:standard_name": "sea_water_potential_temperature",
+    "variable:type": "real",
+    "variable:units": [
+        "degC"
+    ]
+}

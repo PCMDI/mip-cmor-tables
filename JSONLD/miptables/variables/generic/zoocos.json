@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/zoocos",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Zooplankton Carbon Concentration",
     "variable:out_name": "zoocos",
     "variable:positive": "",

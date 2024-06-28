@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/dmlt",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Depth to Soil Thaw",
     "variable:out_name": "dmlt",
     "variable:positive": "",

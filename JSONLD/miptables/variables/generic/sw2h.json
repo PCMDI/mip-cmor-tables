@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sw2h",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Isotopic Ratio of Deuterium in Sea Water",
     "variable:out_name": "sw2H",
     "variable:positive": "",

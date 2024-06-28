@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/wfcorr",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Water Flux Correction",
     "variable:out_name": "wfcorr",
     "variable:positive": "down",

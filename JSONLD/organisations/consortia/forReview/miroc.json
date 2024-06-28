@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/miroc",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "MIROC",
     "consortium:description": "MIROC",
     "consortium:url": "",

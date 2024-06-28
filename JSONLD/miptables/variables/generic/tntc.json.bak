@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/tntc",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Tendency of Air Temperature Due to Convection",
+    "variable:out_name": "tntc",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_air_temperature_due_to_convection",
+    "variable:type": "real",
+    "variable:units": [
+        "K",
+        "s-1"
+    ]
+}

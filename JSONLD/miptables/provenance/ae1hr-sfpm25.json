@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/provenance/ae1hr-sfpm25",
-    "@type": "cmip:provenance",
+    "@type": "provenance",
     "CMIP6": {
         "dreq_uid": "19c074b4-81b1-11e6-92de-ac72891c3257",
         "mip_table": "AERhr",

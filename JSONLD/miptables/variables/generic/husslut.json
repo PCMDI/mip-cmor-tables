@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/husslut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Near-Surface Specific Humidity on Land-Use Tile",
     "variable:out_name": "hussLut",
     "variable:positive": "",

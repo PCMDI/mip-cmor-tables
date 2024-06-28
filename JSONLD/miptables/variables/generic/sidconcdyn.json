@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sidconcdyn",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Sea-Ice Area Percentage Tendency Due to Dynamics",
     "variable:out_name": "sidconcdyn",
     "variable:positive": "",

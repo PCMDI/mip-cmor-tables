@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fnlandtoocean",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Lateral Transfer of Nitrogen out of Grid Cell That Eventually Goes into Ocean",
     "variable:out_name": "fNLandToOcean",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fgsf6",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Downward SF6 Flux",
     "variable:out_name": "fgsf6",
     "variable:positive": "down",

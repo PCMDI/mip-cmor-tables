@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/ncc",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "NCC",
     "consortium:description": "NCC",
     "consortium:url": "",

@@ -1,0 +1,8 @@
+{
+    "@id": "mip-cmor-tables:auxillary/frequency/yr",
+    "@type": "frequency",
+    "name": "yr",
+    "description": "annual mean samples",
+    "unit": "year",
+    "long_name": "Yearly Frequency"
+}

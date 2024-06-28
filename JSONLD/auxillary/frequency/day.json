@@ -1,0 +1,8 @@
+{
+    "@id": "mip-cmor-tables:auxillary/frequency/day",
+    "@type": "frequency",
+    "name": "day",
+    "description": "daily mean samples",
+    "unit": "day",
+    "long_name": "Daily Frequency"
+}

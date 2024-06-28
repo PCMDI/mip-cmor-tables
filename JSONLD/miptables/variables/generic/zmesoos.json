@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/zmesoos",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Mole Concentration of Mesozooplankton Expressed as Carbon in Sea Water",
     "variable:out_name": "zmesoos",
     "variable:positive": "",

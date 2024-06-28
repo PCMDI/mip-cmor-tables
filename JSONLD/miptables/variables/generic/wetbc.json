@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/wetbc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Wet Deposition Rate of Black Carbon Aerosol Mass",
     "variable:out_name": "wetbc",
     "variable:positive": "",

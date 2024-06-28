@@ -1,27 +1,27 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/pnnl-jgcri",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "PNNL-JGCRI",
-    "institution:ror": "058cmd703",
-    "institution:name": "Joint Global Change Research Institute",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "PNNL-JGCRI",
+    "ror": "058cmd703",
+    "name": "Joint Global Change Research Institute",
+    "url": [
         "http://www.globalchange.umd.edu/"
     ],
-    "institution:established": 2001,
-    "institution:type": "Facility",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
+    "established": 2001,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
         "JGCRI"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/058cmd703",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 38.971106,
-            "location:lon": -76.9217851,
-            "location:city": "Riverdale Park",
-            "location:country": [
+            "lat": 38.971106,
+            "lon": -76.9217851,
+            "city": "Riverdale Park",
+            "country": [
                 "United States",
                 "US"
             ]

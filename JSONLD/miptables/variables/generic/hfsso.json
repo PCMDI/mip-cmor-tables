@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/hfsso",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Downward Sensible Heat Flux",
     "variable:out_name": "hfsso",
     "variable:positive": "down",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/zg1000",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Geopotential Height at 1000hPa",
     "variable:out_name": "zg1000",
     "variable:positive": "",

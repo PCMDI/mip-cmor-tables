@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/bigthetao",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Sea Water Conservative Temperature",
     "variable:out_name": "bigthetao",
     "variable:positive": "",

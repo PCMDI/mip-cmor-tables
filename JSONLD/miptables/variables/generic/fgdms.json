@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fgdms",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Upward Flux of DMS",
     "variable:out_name": "fgdms",
     "variable:positive": "up",

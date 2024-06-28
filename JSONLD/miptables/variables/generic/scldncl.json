@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/scldncl",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Cloud Droplet Number Concentration of Stratiform Cloud Tops",
     "variable:out_name": "scldncl",
     "variable:positive": "",

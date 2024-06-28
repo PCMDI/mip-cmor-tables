@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mmraerh2o",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Aerosol Water Mass Mixing Ratio",
     "variable:out_name": "mmraerh2o",
     "variable:positive": "",

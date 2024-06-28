@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/limfediaz",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Iron Limitation of Diazotrophs",
     "variable:out_name": "limfediaz",
     "variable:positive": "",

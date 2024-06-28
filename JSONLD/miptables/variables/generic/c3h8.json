@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/c3h8",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "C3H8 Volume Mixing Ratio",
     "variable:out_name": "c3h8",
     "variable:positive": "",

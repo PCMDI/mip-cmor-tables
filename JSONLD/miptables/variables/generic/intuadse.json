@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/intuadse",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Vertically Integrated Eastward Dry Statice Energy Transport",
     "variable:out_name": "intuadse",
     "variable:positive": "",

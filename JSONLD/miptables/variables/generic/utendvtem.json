@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/utendvtem",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Tendency of Eastward Wind Due to TEM Northward Advection and Coriolis Term",
     "variable:out_name": "utendvtem",
     "variable:positive": "",

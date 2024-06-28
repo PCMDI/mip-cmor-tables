@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/irrlut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Irrigation Flux Including any Irrigation for Crops, Trees, Pasture, or Urban Lawns",
     "variable:out_name": "irrLut",
     "variable:positive": "down",

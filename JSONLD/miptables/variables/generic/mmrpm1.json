@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mmrpm1",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "PM1.0 Mass Mixing Ratio",
     "variable:out_name": "mmrpm1",
     "variable:positive": "",

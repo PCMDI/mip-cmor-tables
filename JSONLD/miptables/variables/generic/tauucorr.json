@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/tauucorr",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Downward X Stress Correction",
     "variable:out_name": "tauucorr",
     "variable:positive": "down",

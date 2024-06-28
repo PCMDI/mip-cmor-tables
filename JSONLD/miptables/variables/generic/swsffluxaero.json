@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/swsffluxaero",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Shortwave Heating Rate Due to Volcanic Aerosols",
     "variable:out_name": "swsffluxaero",
     "variable:positive": "",

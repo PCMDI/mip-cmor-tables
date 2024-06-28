@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/vtem",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Transformed Eulerian Mean Northward Wind",
     "variable:out_name": "vtem",
     "variable:positive": "",

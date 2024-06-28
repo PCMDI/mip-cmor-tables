@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fddtdip",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Rate of Change of Net Dissolved Inorganic Phosphorus",
     "variable:out_name": "fddtdip",
     "variable:positive": "",

@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/emiaco",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Total Emission Rate of Anthropogenic CO",
+    "variable:out_name": "emiaco",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_atmosphere_mass_content_of_carbon_monoxide_due_to_emission",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

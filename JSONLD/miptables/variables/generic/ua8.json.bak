@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/ua8",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Eastward Wind",
+    "variable:out_name": "ua8",
+    "variable:positive": "",
+    "variable:standard_name": "eastward_wind",
+    "variable:type": "real",
+    "variable:units": [
+        "m",
+        "s-1"
+    ]
+}

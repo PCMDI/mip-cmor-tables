@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fgco2",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Downward Mass Flux of Carbon as CO2 [kgC m-2 s-1]",
     "variable:out_name": "fgco2",
     "variable:positive": "down",

@@ -1,30 +1,30 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/nasa-jpl",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "NASA-JPL",
-    "institution:ror": "027k65916",
-    "institution:name": "Jet Propulsion Laboratory",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "NASA-JPL",
+    "ror": "027k65916",
+    "name": "Jet Propulsion Laboratory",
+    "url": [
         "http://www.jpl.nasa.gov/"
     ],
-    "institution:established": 1936,
-    "institution:type": "Facility",
-    "institution:labels": [],
-    "institution:aliases": [
+    "established": 1936,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [
         "Jet Propulsion Lab",
         "Jet Propulsion Laboratory, California Institute of Technology"
     ],
-    "institution:acronyms": [
+    "acronyms": [
         "JPL"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/027k65916",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 34.19917,
-            "location:lon": -118.18785,
-            "location:city": "La Ca\u00f1ada Flintridge",
-            "location:country": [
+            "lat": 34.19917,
+            "lon": -118.18785,
+            "city": "La Ca\u00f1ada Flintridge",
+            "country": [
                 "United States",
                 "US"
             ]

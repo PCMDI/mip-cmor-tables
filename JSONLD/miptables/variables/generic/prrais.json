@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/prrais",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ice Sheet Rainfall Rate",
     "variable:out_name": "prraIs",
     "variable:positive": "",

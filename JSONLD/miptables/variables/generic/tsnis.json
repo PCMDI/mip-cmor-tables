@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/tsnis",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ice Sheet Snow Internal Temperature",
     "variable:out_name": "tsnIs",
     "variable:positive": "",

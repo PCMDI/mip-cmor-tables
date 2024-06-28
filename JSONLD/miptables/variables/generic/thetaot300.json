@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/thetaot300",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Depth Average Potential Temperature of Upper 300m",
     "variable:out_name": "thetaot300",
     "variable:positive": "",

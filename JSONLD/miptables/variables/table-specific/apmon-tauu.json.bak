@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-tauu",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/tauu"
+    },
+    "variable:branded_variable_name": "tauu_mon-ap-tav-z0-hxy",
+    "variable:comment": "Downward eastward wind stress at the surface",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apmon-tauu"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": 0.2,
+        "ok_min_mean_abs": 0.01,
+        "valid_max": 10,
+        "valid_min": -10
+    }
+}

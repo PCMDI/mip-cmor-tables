@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/ho2",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "HO2 Volume Mixing Ratio",
     "variable:out_name": "ho2",
     "variable:positive": "",

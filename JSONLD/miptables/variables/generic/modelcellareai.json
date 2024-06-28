@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/modelcellareai",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "The Cell Area of the Ice Sheet Model",
     "variable:out_name": "modelCellAreai",
     "variable:positive": "",

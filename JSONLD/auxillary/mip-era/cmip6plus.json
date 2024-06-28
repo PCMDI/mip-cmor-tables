@@ -1,0 +1,8 @@
+{
+    "@type": "mip-era",
+    "@id": "mip-cmor-tables:auxillary/mip_era/cmip6plus",
+    "name": "CMIP6Plus",
+    "url": "https://wcrp-cmip.org/CMIP6Plus",
+    "start": 2023,
+    "end": 2999
+}

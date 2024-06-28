@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/wetdust",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Wet Deposition Rate of Dust",
     "variable:out_name": "wetdust",
     "variable:positive": "",

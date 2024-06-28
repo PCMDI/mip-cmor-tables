@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/evs",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Water Evaporation Flux Where Ice Free Ocean over Sea",
     "variable:out_name": "evs",
     "variable:positive": "",

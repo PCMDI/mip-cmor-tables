@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrpt-clhcalipso",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/clhcalipso"
+    },
+    "variable:branded_variable_name": "clhcalipso_3hr-ap-tpt-p0220-hxy",
+    "variable:comment": "Percentage cloud cover in layer centred on 220hPa",
+    "variable:frequency": "3hrPt",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "p220"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-clhcalipso"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

@@ -1,11 +1,11 @@
 {
     "@id": "https://github.com/PCMDI/mip-cmor-tables//JSONLD/miptables/tables",
-    "@type": "cmip:graph",
+    "@type": "graph",
     "ldroot": "/JSONLD/miptables/tables",
     "@graph": [
         {
             "@id": "mip-cmor-tables:miptables/tables/ae1hr",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AE1hr",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.041667,
@@ -34,7 +34,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/apday",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "APday",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 1.0,
@@ -411,7 +411,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/aeday",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AEday",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 1.0,
@@ -461,7 +461,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/opmon",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OPmon",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -700,7 +700,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/aemonlev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AEmonLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -891,7 +891,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/li3hrpt",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "LI3hrPt",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.125,
@@ -914,7 +914,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/obyrlev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OByrLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 365.0,
@@ -1183,7 +1183,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/apfx",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "APfx",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.0,
@@ -1230,7 +1230,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/ap3hr",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AP3hr",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.125,
@@ -1340,7 +1340,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/gigyr",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "GIGyr",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 365.0,
@@ -1459,7 +1459,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/apmondiurnal",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "APmonDiurnal",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.041667,
@@ -1494,7 +1494,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/giafx",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "GIAfx",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.0,
@@ -1526,7 +1526,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/opmonlev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OPmonLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -1711,7 +1711,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/opdec",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OPdec",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 3650.0,
@@ -1779,7 +1779,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/giayr",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "GIAyr",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 365.0,
@@ -1898,7 +1898,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/limon",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "LImon",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -2023,7 +2023,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/lifx",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "LIfx",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.0,
@@ -2049,7 +2049,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/opdeclev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OPdecLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 3650.0,
@@ -2105,7 +2105,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/opyrlev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OPyrLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 365.0,
@@ -2218,7 +2218,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/simonpt",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "SImonPt",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -2250,7 +2250,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/obday",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OBday",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 1.0,
@@ -2276,7 +2276,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/ap3hrpt",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AP3hrPt",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.125,
@@ -2485,7 +2485,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/ap1hr",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AP1hr",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.041667,
@@ -2517,7 +2517,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/ae3hrpt",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AE3hrPt",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.125,
@@ -2552,7 +2552,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/lp3hrpt",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "LP3hrPt",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.125,
@@ -2578,7 +2578,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/ap6hrptz",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AP6hrPtZ",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.25,
@@ -2604,7 +2604,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/apmonclim",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "APmonClim",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -2645,7 +2645,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/gigfx",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "GIGfx",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.0,
@@ -2677,7 +2677,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/giamon",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "GIAmon",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -2778,7 +2778,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/lp3hr",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "LP3hr",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.125,
@@ -2810,7 +2810,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/acmon",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "ACmon",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -2833,7 +2833,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/apdayz",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "APdayZ",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 1.0,
@@ -2898,7 +2898,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/aemonz",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AEmonZ",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -2972,7 +2972,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/lpday",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "LPday",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 1.0,
@@ -3133,7 +3133,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/opmonz",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OPmonZ",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -3201,7 +3201,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/obmon",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OBmon",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -3614,7 +3614,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/opfx",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OPfx",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.0,
@@ -3661,7 +3661,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/obmonlev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OBmonLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -3885,7 +3885,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/liday",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "LIday",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 1.0,
@@ -3941,7 +3941,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/lp6hrpt",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "LP6hrPt",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.25,
@@ -3970,7 +3970,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/apsubhrptlev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "APsubhrPtLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.017361,
@@ -4017,7 +4017,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/ae6hrpt",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AE6hrPt",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.25,
@@ -4040,7 +4040,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/opdecz",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OPdecZ",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 3650.0,
@@ -4069,7 +4069,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/simon",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "SImon",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -4344,7 +4344,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/apsubhrpt",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "APsubhrPt",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.017361,
@@ -4397,7 +4397,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/ap6hrpt",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AP6hrPt",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.25,
@@ -4516,7 +4516,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/apmonclimlev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "APmonClimLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -4545,7 +4545,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/obyr",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OByr",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 365.0,
@@ -4580,7 +4580,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/op3hrpt",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OP3hrPt",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.125,
@@ -4603,7 +4603,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/ap6hrptlev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AP6hrPtLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.25,
@@ -4641,7 +4641,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/ap3hrptlev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AP3hrPtLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.125,
@@ -4790,7 +4790,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/lpmon",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "LPmon",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -5464,7 +5464,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/lpyr",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "LPyr",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 365.0,
@@ -5511,7 +5511,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/apmonz",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "APmonZ",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -5591,7 +5591,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/opday",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OPday",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 1.0,
@@ -5632,7 +5632,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/gigmon",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "GIGmon",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -5733,7 +5733,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/lpyrpt",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "LPyrPt",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 365.0,
@@ -5780,7 +5780,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/apdaylev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "APdayLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 1.0,
@@ -5842,7 +5842,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/siday",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "SIday",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 1.0,
@@ -5889,7 +5889,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/li6hrpt",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "LI6hrPt",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.25,
@@ -5912,7 +5912,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/ae3hrptlev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AE3hrPtLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.125,
@@ -5947,7 +5947,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/lpfx",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "LPfx",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.0,
@@ -6006,7 +6006,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/acmonz",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "ACmonZ",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -6035,7 +6035,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/opmonclim",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OPmonClim",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -6085,7 +6085,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/opmonclimlev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OPmonClimLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -6180,7 +6180,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/apmonlev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "APmonLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -6443,7 +6443,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/apsubhrptsite",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "APsubhrPtSite",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.017361,
@@ -6724,7 +6724,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/aemon",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AEmon",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -6966,7 +6966,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/aesubhrptsite",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AEsubhrPtSite",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.017361,
@@ -6992,7 +6992,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/apmon",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "APmon",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 30.0,
@@ -7471,7 +7471,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/lisubhrptsite",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "LIsubhrPtSite",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.017361,
@@ -7494,7 +7494,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/ae6hr",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AE6hr",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.25,
@@ -7517,7 +7517,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/ae6hrptlev",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AE6hrPtLev",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.25,
@@ -7546,7 +7546,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/opyr",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "OPyr",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 365.0,
@@ -7584,7 +7584,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/ap6hr",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AP6hr",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.25,
@@ -7652,7 +7652,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/ap1hrpt",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AP1hrPt",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.041667,
@@ -7714,7 +7714,7 @@
         },
         {
             "@id": "mip-cmor-tables:miptables/tables/aesubhrpt",
-            "@type": "cmip:dr-table",
+            "@type": "dr-table",
             "table:table_id": "AEsubhrPt",
             "table:Conventions": "CF-1.7 CMIP-6.5",
             "table:approx_interval": 0.017361,

@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-clt",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/clt"
+    },
+    "variable:branded_variable_name": "clt_mon-ap-tav-z0-hxy",
+    "variable:comment": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apmon-clt"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": 90,
+        "ok_min_mean_abs": 10,
+        "valid_max": 100.001,
+        "valid_min": -0.001
+    }
+}

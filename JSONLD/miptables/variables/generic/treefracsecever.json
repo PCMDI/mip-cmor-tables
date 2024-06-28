@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/treefracsecever",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Percentage Cover by Secondary Evergreen Trees",
     "variable:out_name": "treeFracSecEver",
     "variable:positive": "",

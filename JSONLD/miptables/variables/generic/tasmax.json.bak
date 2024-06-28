@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/tasmax",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Daily Maximum Near-Surface Air Temperature",
+    "variable:out_name": "tasmax",
+    "variable:positive": "",
+    "variable:standard_name": "air_temperature",
+    "variable:type": "real",
+    "variable:units": [
+        "K"
+    ]
+}

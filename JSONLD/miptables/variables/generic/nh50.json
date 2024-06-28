@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/nh50",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Artificial Tracer with 50 Day Lifetime",
     "variable:out_name": "nh50",
     "variable:positive": "",

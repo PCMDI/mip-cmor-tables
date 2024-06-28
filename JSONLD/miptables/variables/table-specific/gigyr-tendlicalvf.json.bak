@@ -1,0 +1,27 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-tendlicalvf",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/tendlicalvf"
+    },
+    "variable:branded_variable_name": "tendlicalvf_yr-li-tav-z0-hmG",
+    "variable:comment": "The total calving flux over land ice is a spatial integration of the calving flux",
+    "variable:frequency": "yr",
+    "variable:dimensions": [
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/landIce"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/gigyr-tendlicalvf"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

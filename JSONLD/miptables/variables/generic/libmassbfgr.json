@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/libmassbfgr",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Basal Specific Mass Balance Flux of Grounded Ice Sheet",
     "variable:out_name": "libmassbfgr",
     "variable:positive": "",

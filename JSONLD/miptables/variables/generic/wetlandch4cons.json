@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/wetlandch4cons",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Grid Averaged Methane Consumption (Methanotrophy) from Wetlands",
     "variable:out_name": "wetlandCH4cons",
     "variable:positive": "",

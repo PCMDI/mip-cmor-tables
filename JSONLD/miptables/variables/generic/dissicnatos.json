@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/dissicnatos",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Natural Dissolved Inorganic Carbon Concentration",
     "variable:out_name": "dissicnatos",
     "variable:positive": "",

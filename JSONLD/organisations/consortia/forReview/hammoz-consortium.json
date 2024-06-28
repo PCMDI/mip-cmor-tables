@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/hammoz-consortium",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "HAMMOZ-Consortium",
     "consortium:description": "HAMMOZ-Consortium",
     "consortium:url": "",

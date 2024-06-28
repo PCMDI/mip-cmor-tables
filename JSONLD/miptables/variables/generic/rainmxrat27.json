@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/rainmxrat27",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Mass Fraction of Rain in Air",
     "variable:out_name": "rainmxrat27",
     "variable:positive": "",

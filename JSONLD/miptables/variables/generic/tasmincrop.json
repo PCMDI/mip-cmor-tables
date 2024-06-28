@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/tasmincrop",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Daily Minimum Near-Surface Air Temperature over Crop Tile",
     "variable:out_name": "tasminCrop",
     "variable:positive": "",

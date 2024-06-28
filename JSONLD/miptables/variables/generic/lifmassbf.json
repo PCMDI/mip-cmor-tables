@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/lifmassbf",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Land Ice Vertical Front Mass Balance Flux",
     "variable:out_name": "lifmassbf",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/aeroptbnd",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Aerosol Level Absorption Optical Thickness for Each Band",
     "variable:out_name": "aeroptbnd",
     "variable:positive": "",

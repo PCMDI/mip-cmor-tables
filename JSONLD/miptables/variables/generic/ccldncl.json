@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/ccldncl",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Cloud Droplet Number Concentration of Convective Cloud Tops",
     "variable:out_name": "ccldncl",
     "variable:positive": "",

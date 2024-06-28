@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/hfevapds",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Temperature Flux Due to Evaporation Expressed as Heat Flux out of Sea Water",
     "variable:out_name": "hfevapds",
     "variable:positive": "up",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/flulccresiduelut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Carbon Transferred to Soil or Litter Pools Due to Land-Use or Land-Cover Change Processes on Tile",
     "variable:out_name": "fLulccResidueLut",
     "variable:positive": "",

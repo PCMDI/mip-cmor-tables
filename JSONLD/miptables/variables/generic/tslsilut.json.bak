@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/tslsilut",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Temperature on Landuse Tile",
+    "variable:out_name": "tslsiLut",
+    "variable:positive": "",
+    "variable:standard_name": "surface_temperature",
+    "variable:type": "real",
+    "variable:units": [
+        "K"
+    ]
+}

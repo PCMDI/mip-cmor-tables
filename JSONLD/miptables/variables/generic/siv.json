@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/siv",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Y-Component of Sea-Ice Velocity",
     "variable:out_name": "siv",
     "variable:positive": "",

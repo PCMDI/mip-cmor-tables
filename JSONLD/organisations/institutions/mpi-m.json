@@ -1,27 +1,27 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/mpi-m",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "MPI-M",
-    "institution:ror": "05esem239",
-    "institution:name": "Max Planck Institute for Meteorology",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "MPI-M",
+    "ror": "05esem239",
+    "name": "Max Planck Institute for Meteorology",
+    "url": [
         "http://www.mpimet.mpg.de/en/home.html"
     ],
-    "institution:established": 1975,
-    "institution:type": "Facility",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
+    "established": 1975,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
         "MPI-M"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/05esem239",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 53.567794,
-            "location:lon": 9.975468,
-            "location:city": "Hamburg",
-            "location:country": [
+            "lat": 53.567794,
+            "lon": 9.975468,
+            "city": "Hamburg",
+            "country": [
                 "Germany",
                 "DE"
             ]

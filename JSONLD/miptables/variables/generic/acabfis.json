@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/acabfis",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ice Sheet Surface Mass Balance Flux",
     "variable:out_name": "acabfIs",
     "variable:positive": "",

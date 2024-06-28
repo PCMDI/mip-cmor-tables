@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/pfull",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Pressure at Model Full-Levels",
     "variable:out_name": "pfull",
     "variable:positive": "",

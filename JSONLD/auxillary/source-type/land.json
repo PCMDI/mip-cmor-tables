@@ -1,0 +1,6 @@
+{
+  "@id": "mip-cmor-tables:auxillary/source-type/land",
+  "@type": "source-type",
+  "name": "LAND",
+  "description": "land model run uncoupled from the atmosphere"
+}

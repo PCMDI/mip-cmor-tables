@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/evspsblpot",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Potential Evapotranspiration",
     "variable:out_name": "evspsblpot",
     "variable:positive": "",

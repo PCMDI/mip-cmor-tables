@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sftof",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea Area Percentage",
+    "variable:out_name": "sftof",
+    "variable:positive": "",
+    "variable:standard_name": "sea_area_fraction",
+    "variable:type": "real",
+    "variable:units": [
+        "%"
+    ]
+}

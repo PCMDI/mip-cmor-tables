@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/tgs",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Temperature of Bare Soil",
     "variable:out_name": "tgs",
     "variable:positive": "",

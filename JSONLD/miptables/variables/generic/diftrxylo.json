@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/diftrxylo",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ocean Tracer XY Laplacian Diffusivity",
     "variable:out_name": "diftrxylo",
     "variable:positive": "",

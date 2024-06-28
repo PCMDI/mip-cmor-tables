@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/tntnogw",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Temperature Tendency Due to Non-Orographic Gravity Wave Dissipation",
     "variable:out_name": "tntnogw",
     "variable:positive": "",

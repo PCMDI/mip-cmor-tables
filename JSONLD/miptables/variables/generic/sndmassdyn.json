@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sndmassdyn",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Snow Mass Rate of Change Through Advection by Sea-Ice Dynamics",
     "variable:out_name": "sndmassdyn",
     "variable:positive": "",

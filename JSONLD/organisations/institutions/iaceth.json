@@ -1,30 +1,30 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/iaceth",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "IACETH",
-    "institution:ror": "05a28rw58",
-    "institution:name": "ETH Zurich",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "IACETH",
+    "ror": "05a28rw58",
+    "name": "ETH Zurich",
+    "url": [
         "https://ethz.ch"
     ],
-    "institution:established": 1855,
-    "institution:type": "Education",
-    "institution:labels": [],
-    "institution:aliases": [
+    "established": 1855,
+    "type": "Education",
+    "labels": [],
+    "aliases": [
         "Swiss Federal Institute of Technology in Zurich",
         "Eidgen\u00f6ssische Technische Hochschule Z\u00fcrich",
         "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Zurich",
         "Politecnico Federale di Zurigo"
     ],
-    "institution:acronyms": [],
-    "institution:location": {
+    "acronyms": [],
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/05a28rw58",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 47.36667,
-            "location:lon": 8.55,
-            "location:city": "Zurich",
-            "location:country": [
+            "lat": 47.36667,
+            "lon": 8.55,
+            "city": "Zurich",
+            "country": [
                 "Switzerland",
                 "CH"
             ]

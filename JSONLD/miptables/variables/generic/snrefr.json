@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/snrefr",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Refreezing of Water in the Snow",
     "variable:out_name": "snrefr",
     "variable:positive": "",

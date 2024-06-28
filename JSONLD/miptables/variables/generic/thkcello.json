@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/thkcello",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ocean Model Cell Thickness",
     "variable:out_name": "thkcello",
     "variable:positive": "",

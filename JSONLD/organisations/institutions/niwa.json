@@ -1,29 +1,29 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/niwa",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "NIWA",
-    "institution:ror": "04hxcaz34",
-    "institution:name": "National Institute of Water and Atmospheric Research",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "NIWA",
+    "ror": "04hxcaz34",
+    "name": "National Institute of Water and Atmospheric Research",
+    "url": [
         "https://www.niwa.co.nz/"
     ],
-    "institution:established": 1992,
-    "institution:type": "Facility",
-    "institution:labels": [],
-    "institution:aliases": [
+    "established": 1992,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [
         "Taihoro Nukurangi"
     ],
-    "institution:acronyms": [
+    "acronyms": [
         "NIWA"
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/04hxcaz34",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": -36.84403,
-            "location:lon": 174.76172,
-            "location:city": "Auckland",
-            "location:country": [
+            "lat": -36.84403,
+            "lon": 174.76172,
+            "city": "Auckland",
+            "country": [
                 "New Zealand",
                 "NZ"
             ]

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/albdirbnd",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Direct Surface Albedo for Each Band",
     "variable:out_name": "albdirbnd",
     "variable:positive": "",

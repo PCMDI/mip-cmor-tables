@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/rsdoabsorb",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Net Rate of Absorption of Shortwave Energy in Ocean Layer",
     "variable:out_name": "rsdoabsorb",
     "variable:positive": "",

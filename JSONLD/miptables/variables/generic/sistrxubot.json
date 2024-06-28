@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sistrxubot",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "X-Component of Ocean Stress on Sea Ice",
     "variable:out_name": "sistrxubot",
     "variable:positive": "up",

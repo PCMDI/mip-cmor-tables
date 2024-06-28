@@ -1,25 +1,25 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/ureading",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "UReading",
-    "institution:ror": "05v62cm79",
-    "institution:name": "University of Reading",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "UReading",
+    "ror": "05v62cm79",
+    "name": "University of Reading",
+    "url": [
         "http://www.reading.ac.uk/"
     ],
-    "institution:established": 1926,
-    "institution:type": "Education",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [],
-    "institution:location": {
+    "established": 1926,
+    "type": "Education",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [],
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/05v62cm79",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 51.440832,
-            "location:lon": -0.942503,
-            "location:city": "Reading",
-            "location:country": [
+            "lat": 51.440832,
+            "lon": -0.942503,
+            "city": "Reading",
+            "country": [
                 "United Kingdom",
                 "GB"
             ]

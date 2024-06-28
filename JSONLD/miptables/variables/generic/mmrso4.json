@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mmrso4",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Aerosol Sulfate Mass Mixing Ratio",
     "variable:out_name": "mmrso4",
     "variable:positive": "",

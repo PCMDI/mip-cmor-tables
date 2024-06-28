@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rh",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Total Heterotrophic Respiration on Land as Carbon Mass Flux [kgC m-2 s-1]",
+    "variable:out_name": "rh",
+    "variable:positive": "up",
+    "variable:standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_heterotrophic_respiration",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonclim-ch4globalclim",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/ch4globalclim"
+    },
+    "variable:branded_variable_name": "ch4global_mon-ap-tcla-z0-hm",
+    "variable:comment": "Global Mean Mole Fraction of CH4",
+    "variable:frequency": "monC",
+    "variable:dimensions": [
+        "time2"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        },
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmosChem"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apmonclim-ch4globalclim"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

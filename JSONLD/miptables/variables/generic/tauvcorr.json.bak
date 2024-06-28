@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/tauvcorr",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Downward Y Stress Correction",
+    "variable:out_name": "tauvcorr",
+    "variable:positive": "down",
+    "variable:standard_name": "downward_y_stress_correction_at_sea_water_surface",
+    "variable:type": "real",
+    "variable:units": [
+        "N",
+        "m-2"
+    ]
+}

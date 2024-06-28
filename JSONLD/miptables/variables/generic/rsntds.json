@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/rsntds",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Net Downward Shortwave Radiation at Sea Water Surface",
     "variable:out_name": "rsntds",
     "variable:positive": "down",

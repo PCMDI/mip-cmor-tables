@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fracoutlut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Annual Gross Percentage of Land-Use Tile That Was Transferred into Other Land-Use Tiles",
     "variable:out_name": "fracOutLut",
     "variable:positive": "",

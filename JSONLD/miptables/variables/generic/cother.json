@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/cother",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Carbon Mass in Vegetation Components Other than Leaves, Stems and Roots",
     "variable:out_name": "cOther",
     "variable:positive": "",

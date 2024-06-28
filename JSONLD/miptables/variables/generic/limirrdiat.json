@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/limirrdiat",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Irradiance Limitation of Diatoms",
     "variable:out_name": "limirrdiat",
     "variable:positive": "",

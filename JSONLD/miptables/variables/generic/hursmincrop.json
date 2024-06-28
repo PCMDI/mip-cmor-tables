@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/hursmincrop",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Daily Minimum Near-Surface Relative Humidity over Crop Tile",
     "variable:out_name": "hursminCrop",
     "variable:positive": "",

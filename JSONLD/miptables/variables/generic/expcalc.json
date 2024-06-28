@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/expcalc",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Downward Flux of Calcite",
     "variable:out_name": "expcalc",
     "variable:positive": "down",

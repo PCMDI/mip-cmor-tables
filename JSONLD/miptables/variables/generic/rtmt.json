@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/rtmt",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Net Downward Radiative Flux at Top of Model",
     "variable:out_name": "rtmt",
     "variable:positive": "down",

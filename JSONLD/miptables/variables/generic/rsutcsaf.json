@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/rsutcsaf",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "TOA Outgoing Clear-Sky, Aerosol-Free Shortwave Radiation",
     "variable:out_name": "rsutcsaf",
     "variable:positive": "up",

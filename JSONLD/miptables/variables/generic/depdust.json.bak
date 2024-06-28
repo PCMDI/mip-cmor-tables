@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/depdust",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Total Deposition Rate of Dust",
+    "variable:out_name": "depdust",
+    "variable:positive": "",
+    "variable:standard_name": "minus_tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_deposition",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

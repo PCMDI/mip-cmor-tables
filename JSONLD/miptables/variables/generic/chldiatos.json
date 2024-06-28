@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/chldiatos",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Mass Concentration of Diatoms Expressed as Chlorophyll in Sea Water",
     "variable:out_name": "chldiatos",
     "variable:positive": "",

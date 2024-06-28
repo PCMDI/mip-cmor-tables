@@ -1,0 +1,8 @@
+{
+    "@type": "mip-era",
+    "@id": "mip-cmor-tables:auxillary/mip_era/cmip7",
+    "name": "CMIP7",
+    "url": "https://wcrp-cmip.org/CMIP7",
+    "start": 2025,
+    "end": 2999
+}

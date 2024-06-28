@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mmrpm2p5",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "PM2.5 Mass Mixing Ratio",
     "variable:out_name": "mmrpm2p5",
     "variable:positive": "",

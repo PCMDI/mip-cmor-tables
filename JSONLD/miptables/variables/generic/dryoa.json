@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/dryoa",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Dry Deposition Rate of Dry Aerosol Total Organic Matter",
     "variable:out_name": "dryoa",
     "variable:positive": "",

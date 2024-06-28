@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/provenance/lpfx-fldcapacity",
-    "@type": "cmip:provenance",
+    "@type": "provenance",
     "CMIP6": {
         "dreq_uid": "f2fabe42-c38d-11e6-abc1-1b922e5e1118",
         "mip_table": "Efx",

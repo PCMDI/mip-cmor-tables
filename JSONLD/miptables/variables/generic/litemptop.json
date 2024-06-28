@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/litemptop",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Temperature at Top of Ice Sheet Model",
     "variable:out_name": "litemptop",
     "variable:positive": "",

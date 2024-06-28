@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/msftbarot",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ocean Barotropic Mass Streamfunction",
     "variable:out_name": "msftbarot",
     "variable:positive": "",

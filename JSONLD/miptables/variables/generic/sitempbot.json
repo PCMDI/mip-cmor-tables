@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sitempbot",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Temperature at Ice-Ocean Interface",
     "variable:out_name": "sitempbot",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/dpco2abio",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Abiotic Delta Pco Partial Pressure",
     "variable:out_name": "dpco2abio",
     "variable:positive": "",

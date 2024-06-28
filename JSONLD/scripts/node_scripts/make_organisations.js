@@ -18,7 +18,7 @@ async function main() {
     const frame = {
         "@context": {
         },
-        "@type": ["cmip:institution", "cmip:consortium"],
+        "@type": ["mip:institution", "mip:consortium"],
         "@explicit": true,
 
         "consortium:cmip_acronym": "",
@@ -60,7 +60,8 @@ async function main() {
                 output[element["cmip_acronym"]] = element
             });
 
-            console.log(output)
+            // console.log(output)
+            console.log(__filename);
 
             cld.writeFile(output, './output/MIP_organisations.json')
         })

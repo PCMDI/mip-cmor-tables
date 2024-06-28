@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/exparag",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Downward Flux of Aragonite",
     "variable:out_name": "exparag",
     "variable:positive": "down",

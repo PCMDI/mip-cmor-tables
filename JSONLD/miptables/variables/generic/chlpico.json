@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/chlpico",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Mass Concentration of Picophytoplankton Expressed as Chlorophyll in Sea Water",
     "variable:out_name": "chlpico",
     "variable:positive": "",

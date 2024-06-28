@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/tendlibmassbf",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Total Basal Mass Balance Flux",
     "variable:out_name": "tendlibmassbf",
     "variable:positive": "",

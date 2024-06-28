@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/taslut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Near-Surface Air Temperature on Land Use Tile",
     "variable:out_name": "tasLut",
     "variable:positive": "",

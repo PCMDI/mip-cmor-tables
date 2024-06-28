@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/rsdcsaf",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Downwelling Clear-Sky, Aerosol-Free Shortwave Radiation",
     "variable:out_name": "rsdcsaf",
     "variable:positive": "down",

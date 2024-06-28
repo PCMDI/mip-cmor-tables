@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rlu4co2",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Upwelling Longwave Radiation 4XCO2 Atmosphere",
+    "variable:out_name": "rlu4co2",
+    "variable:positive": "up",
+    "variable:standard_name": "upwelling_longwave_flux_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

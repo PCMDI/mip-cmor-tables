@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/c14veg",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Mass of 14C in Vegetation",
+    "variable:out_name": "c14Veg",
+    "variable:positive": "",
+    "variable:standard_name": "vegetation_mass_content_of_14C",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

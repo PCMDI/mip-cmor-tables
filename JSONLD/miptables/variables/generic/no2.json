@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/no2",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "NO2 Volume Mixing Ratio",
     "variable:out_name": "no2",
     "variable:positive": "",

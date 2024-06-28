@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fescav",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Non-Biogenic Iron Scavenging",
     "variable:out_name": "fescav",
     "variable:positive": "",

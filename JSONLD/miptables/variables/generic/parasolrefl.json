@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/parasolrefl",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "PARASOL Reflectance",
     "variable:out_name": "parasolRefl",
     "variable:positive": "",

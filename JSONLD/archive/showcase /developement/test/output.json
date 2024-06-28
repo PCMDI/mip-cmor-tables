@@ -1,7 +1,7 @@
 {
   "AER.json": {
     "@id": "mip-cmor-tables/institutions/AER",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "04cg70g73",
     "name": "Atmospheric and Environmental Research",
     "url": [
@@ -28,7 +28,7 @@
   },
   "AS-RCEC.json": {
     "@id": "mip-cmor-tables/institutions/AS-RCEC",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "050qpg053",
     "name": "Research Center for Environmental Changes, Academia Sinica",
     "url": [
@@ -55,7 +55,7 @@
   },
   "BCC.json": {
     "@id": "mip-cmor-tables/institutions/BCC",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "01spyyb53",
     "name": "Beijing Biocytogen (China)",
     "url": [
@@ -80,7 +80,7 @@
   },
   "CAMS.json": {
     "@id": "mip-cmor-tables/institutions/CAMS",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "034b53w38",
     "name": "Chinese Academy of Meteorological Sciences",
     "url": [
@@ -107,7 +107,7 @@
   },
   "CAS.json": {
     "@id": "mip-cmor-tables/institutions/CAS",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "034t30j35",
     "name": "Chinese Academy of Sciences",
     "url": [
@@ -134,7 +134,7 @@
   },
   "CCCma.json": {
     "@id": "mip-cmor-tables/institutions/CCCma",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "026ny0e17",
     "name": "Environment and Climate Change Canada",
     "url": [
@@ -161,7 +161,7 @@
   },
   "CCCR-IITM.json": {
     "@id": "mip-cmor-tables/institutions/CCCR-IITM",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "03jf2m686",
     "name": "Indian Institute of Tropical Meteorology",
     "url": [
@@ -188,7 +188,7 @@
   },
   "CSIRO.json": {
     "@id": "mip-cmor-tables/institutions/CSIRO",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "03qn8fb07",
     "name": "Commonwealth Scientific and Industrial Research Organisation",
     "url": [
@@ -215,7 +215,7 @@
   },
   "CEDA.json": {
     "@id": "mip-cmor-tables/institutions/CEDA",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "04j4kad11",
     "name": "Centre for Environmental Data Analysis",
     "url": [
@@ -242,7 +242,7 @@
   },
   "CMCC.json": {
     "@id": "mip-cmor-tables/institutions/CMCC",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "01tf11a61",
     "name": "Euro-Mediterranean Center for Climate Change",
     "url": [
@@ -269,7 +269,7 @@
   },
   "DWD.json": {
     "@id": "mip-cmor-tables/institutions/DWD",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "02nrqs528",
     "name": "German Meteorological Service",
     "url": [
@@ -296,7 +296,7 @@
   },
   "CNES.json": {
     "@id": "mip-cmor-tables/institutions/CNES",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "04h1h0y33",
     "name": "Centre National d'Études Spatiales",
     "url": [
@@ -323,7 +323,7 @@
   },
   "DKRZ.json": {
     "@id": "mip-cmor-tables/institutions/DKRZ",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "03ztgj037",
     "name": "German Climate Computing Centre",
     "url": [
@@ -350,7 +350,7 @@
   },
   "ESSO.json": {
     "@id": "mip-cmor-tables/institutions/ESSO",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "04xbqmj23",
     "name": "Indian National Centre for Ocean Information Services",
     "url": [
@@ -377,7 +377,7 @@
   },
   "AWI.json": {
     "@id": "mip-cmor-tables/institutions/AWI",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "032e6b942",
     "name": "Alfred Wegener Institute for Polar and Marine Research",
     "url": [
@@ -404,7 +404,7 @@
   },
   "IACETH.json": {
     "@id": "mip-cmor-tables/institutions/IACETH",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "05a28rw58",
     "name": "ETH Zurich",
     "url": [
@@ -434,7 +434,7 @@
   },
   "INM.json": {
     "@id": "mip-cmor-tables/institutions/INM",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "00520ey40",
     "name": "Institute of Numerical Mathematics",
     "url": [
@@ -461,7 +461,7 @@
   },
   "ECMWF.json": {
     "@id": "mip-cmor-tables/institutions/ECMWF",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "014w0fd65",
     "name": "European Centre for Medium-Range Weather Forecasts",
     "url": [
@@ -488,7 +488,7 @@
   },
   "IPSL.json": {
     "@id": "mip-cmor-tables/institutions/IPSL",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "02haar591",
     "name": "Institut Pierre-Simon Laplace",
     "url": [
@@ -515,7 +515,7 @@
   },
   "JAXA.json": {
     "@id": "mip-cmor-tables/institutions/JAXA",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "059yhyy33",
     "name": "Japan Aerospace Exploration Agency",
     "url": [
@@ -545,7 +545,7 @@
   },
   "ImperialCollege.json": {
     "@id": "mip-cmor-tables/institutions/ImperialCollege",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "041kmwe10",
     "name": "Imperial College London",
     "url": [
@@ -570,7 +570,7 @@
   },
   "KIOST.json": {
     "@id": "mip-cmor-tables/institutions/KIOST",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "032m55064",
     "name": "Korea Institute of Ocean Science and Technology",
     "url": [
@@ -599,7 +599,7 @@
   },
   "LLNL.json": {
     "@id": "mip-cmor-tables/institutions/LLNL",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "041nk4h53",
     "name": "Lawrence Livermore National Laboratory",
     "url": [
@@ -632,7 +632,7 @@
   },
   "MPI-B.json": {
     "@id": "mip-cmor-tables/institutions/MPI-B",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "051yxp643",
     "name": "Max Planck Institute for Biogeochemistry",
     "url": [
@@ -657,7 +657,7 @@
   },
   "MOHC.json": {
     "@id": "mip-cmor-tables/institutions/MOHC",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "",
     "name": "Met Office Hadley Centre",
     "url": [
@@ -682,7 +682,7 @@
   },
   "MPI-M.json": {
     "@id": "mip-cmor-tables/institutions/MPI-M",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "05esem239",
     "name": "Max Planck Institute for Meteorology",
     "url": [
@@ -709,7 +709,7 @@
   },
   "MRI.json": {
     "@id": "mip-cmor-tables/institutions/MRI",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "02772kk97",
     "name": "Japan Meteorological Agency",
     "url": [
@@ -738,7 +738,7 @@
   },
   "NASA-GISS.json": {
     "@id": "mip-cmor-tables/institutions/NASA-GISS",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "01cyfxe35",
     "name": "Goddard Institute for Space Studies",
     "url": [
@@ -765,7 +765,7 @@
   },
   "NASA-GSFC.json": {
     "@id": "mip-cmor-tables/institutions/NASA-GSFC",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "0171mag52",
     "name": "Goddard Space Flight Center",
     "url": [
@@ -792,7 +792,7 @@
   },
   "NASA-JPL.json": {
     "@id": "mip-cmor-tables/institutions/NASA-JPL",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "027k65916",
     "name": "Jet Propulsion Laboratory",
     "url": [
@@ -822,7 +822,7 @@
   },
   "NASA-LaRC.json": {
     "@id": "mip-cmor-tables/institutions/NASA-LaRC",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "0399mhs52",
     "name": "Langley Research Center",
     "url": [
@@ -849,7 +849,7 @@
   },
   "NCAR.json": {
     "@id": "mip-cmor-tables/institutions/NCAR",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "05cvfcr44",
     "name": "National Center for Atmospheric Research",
     "url": [
@@ -876,7 +876,7 @@
   },
   "NCAS.json": {
     "@id": "mip-cmor-tables/institutions/NCAS",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "03q36cn05",
     "name": "Uks",
     "url": [
@@ -901,7 +901,7 @@
   },
   "NOAA-NCEI.json": {
     "@id": "mip-cmor-tables/institutions/NOAA-NCEI",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "04r0wrp59",
     "name": "NOAA National Centers for Environmental Information",
     "url": [
@@ -935,7 +935,7 @@
   },
   "NTU.json": {
     "@id": "mip-cmor-tables/institutions/NTU",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "05bqach95",
     "name": "National Taiwan University",
     "url": [
@@ -962,7 +962,7 @@
   },
   "NIWA.json": {
     "@id": "mip-cmor-tables/institutions/NIWA",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "04hxcaz34",
     "name": "National Institute of Water and Atmospheric Research",
     "url": [
@@ -991,7 +991,7 @@
   },
   "NERC.json": {
     "@id": "mip-cmor-tables/institutions/NERC",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "02b5d8509",
     "name": "Natural Environment Research Council",
     "url": [
@@ -1018,7 +1018,7 @@
   },
   "OSU.json": {
     "@id": "mip-cmor-tables/institutions/OSU",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "00ysfqy60",
     "name": "Oregon State University",
     "url": [
@@ -1045,7 +1045,7 @@
   },
   "NUIST.json": {
     "@id": "mip-cmor-tables/institutions/NUIST",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "01rxvg760",
     "name": "Nanjing University",
     "url": [
@@ -1075,7 +1075,7 @@
   },
   "PNNL-JGCRI.json": {
     "@id": "mip-cmor-tables/institutions/PNNL-JGCRI",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "058cmd703",
     "name": "Joint Global Change Research Institute",
     "url": [
@@ -1102,7 +1102,7 @@
   },
   "RSS.json": {
     "@id": "mip-cmor-tables/institutions/RSS",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "01vp8h012",
     "name": "Remote Sensing Systems (United States)",
     "url": [
@@ -1129,7 +1129,7 @@
   },
   "PNNL-WACCEM.json": {
     "@id": "mip-cmor-tables/institutions/PNNL-WACCEM",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "05h992307",
     "name": "Pacific Northwest National Laboratory",
     "url": [
@@ -1156,7 +1156,7 @@
   },
   "UA.json": {
     "@id": "mip-cmor-tables/institutions/UA",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "03m2x1q45",
     "name": "University of Arizona",
     "url": [
@@ -1183,7 +1183,7 @@
   },
   "PCMDI.json": {
     "@id": "mip-cmor-tables/institutions/PCMDI",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "041nk4h53",
     "name": "Lawrence Livermore National Laboratory",
     "url": [
@@ -1216,7 +1216,7 @@
   },
   "UCSB.json": {
     "@id": "mip-cmor-tables/institutions/UCSB",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "02t274463",
     "name": "University of California, Santa Barbara",
     "url": [
@@ -1245,7 +1245,7 @@
   },
   "THU.json": {
     "@id": "mip-cmor-tables/institutions/THU",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "03cve4549",
     "name": "Tsinghua University",
     "url": [
@@ -1272,7 +1272,7 @@
   },
   "SNU.json": {
     "@id": "mip-cmor-tables/institutions/SNU",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "04h9pn542",
     "name": "Seoul National University",
     "url": [
@@ -1301,7 +1301,7 @@
   },
   "UCI.json": {
     "@id": "mip-cmor-tables/institutions/UCI",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "04gyf1771",
     "name": "University of California, Irvine",
     "url": [
@@ -1330,7 +1330,7 @@
   },
   "UW.json": {
     "@id": "mip-cmor-tables/institutions/UW",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "00cvxb145",
     "name": "University of Washington",
     "url": [
@@ -1357,7 +1357,7 @@
   },
   "SOLARIS-HEPPA.json": {
     "@id": "mip-cmor-tables/institutions/SOLARIS-HEPPA",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "02h2x0161",
     "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
     "url": [
@@ -1386,7 +1386,7 @@
   },
   "UReading.json": {
     "@id": "mip-cmor-tables/institutions/UReading",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "05v62cm79",
     "name": "University of Reading",
     "url": [
@@ -1411,7 +1411,7 @@
   },
   "UoM.json": {
     "@id": "mip-cmor-tables/institutions/UoM",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "01ej9dk98",
     "name": "University of Melbourne",
     "url": [
@@ -1438,7 +1438,7 @@
   },
   "UColorado.json": {
     "@id": "mip-cmor-tables/institutions/UColorado",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "00jc20583",
     "name": "University of Colorado System",
     "url": [
@@ -1465,7 +1465,7 @@
   },
   "UHH.json": {
     "@id": "mip-cmor-tables/institutions/UHH",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "00g30e956",
     "name": "Universität Hamburg",
     "url": [
@@ -1494,7 +1494,7 @@
   },
   "VUA.json": {
     "@id": "mip-cmor-tables/institutions/VUA",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "008xxew50",
     "name": "Vrije Universiteit Amsterdam",
     "url": [
@@ -1523,7 +1523,7 @@
   },
   "UofMD.json": {
     "@id": "mip-cmor-tables/institutions/UofMD",
-    "@type": "cmip:institution",
+    "@type": "institution",
     "ror": "047s2c258",
     "name": "University of Maryland, College Park",
     "url": [

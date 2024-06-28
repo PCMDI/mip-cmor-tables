@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/pasturefrac",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Percentage of Land Which Is Anthropogenic Pasture",
     "variable:out_name": "pastureFrac",
     "variable:positive": "",

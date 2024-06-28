@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/provenance/lpyrpt-cveglut",
-    "@type": "cmip:provenance",
+    "@type": "provenance",
     "CMIP6": {
         "dreq_uid": "d22e2328-4a9f-11e6-b84e-ac72891c3257",
         "mip_table": "Eyr",

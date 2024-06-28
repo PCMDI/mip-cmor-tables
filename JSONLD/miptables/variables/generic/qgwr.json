@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/qgwr",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Groundwater Recharge from Soil Layer",
     "variable:out_name": "qgwr",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/tnhusmp",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Tendency of Specific Humidity Due to Model Physics",
     "variable:out_name": "tnhusmp",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/uwap",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Product of Eastward Wind and Omega",
     "variable:out_name": "uwap",
     "variable:positive": "",

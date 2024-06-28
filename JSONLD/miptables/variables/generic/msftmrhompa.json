@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/msftmrhompa",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
     "variable:out_name": "msftmrhompa",
     "variable:positive": "",

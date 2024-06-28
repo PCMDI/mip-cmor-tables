@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/rsucsaf",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Upwelling Clear-Sky, Aerosol-Free Shortwave Radiation",
     "variable:out_name": "rsucsaf",
     "variable:positive": "up",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/npptree",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Net Primary Production on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "variable:out_name": "nppTree",
     "variable:positive": "",

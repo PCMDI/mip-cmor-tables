@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/od550so4so",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Stratospheric Optical Depth at 550nm (Sulphate Only) 2D-Field (Stratosphere Only)",
     "variable:out_name": "od550so4so",
     "variable:positive": "",

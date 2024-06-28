@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fahlut",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Anthropogenic Heat Flux Generated from non-Renewable Human Primary Energy Consumption",
     "variable:out_name": "fahLut",
     "variable:positive": "up",

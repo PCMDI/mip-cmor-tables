@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/pnitrate",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Primary Carbon Production by Phytoplankton Due to Nitrate Uptake Alone",
     "variable:out_name": "pnitrate",
     "variable:positive": "",

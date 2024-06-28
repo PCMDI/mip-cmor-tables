@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/lossch4",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Monthly Loss of Atmospheric Methane",
     "variable:out_name": "lossch4",
     "variable:positive": "",

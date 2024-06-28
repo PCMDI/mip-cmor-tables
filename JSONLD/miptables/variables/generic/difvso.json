@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/difvso",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ocean Vertical Salt Diffusivity",
     "variable:out_name": "difvso",
     "variable:positive": "",

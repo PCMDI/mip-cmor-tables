@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/vsfcorr",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Virtual Salt Flux Correction",
     "variable:out_name": "vsfcorr",
     "variable:positive": "",

@@ -1,0 +1,227 @@
+{
+    "gm": {
+        "acronym": "gm",
+        "description": "global mean data",
+        "region": "greenland"
+    },
+    "gn": {
+        "acronym": "gn",
+        "description": "data reported on a model's native grid",
+        "region": "greenland"
+    },
+    "gna": {
+        "acronym": "gna",
+        "description": "data reported on a native grid in the region of Antarctica",
+        "region": "antarctica"
+    },
+    "gng": {
+        "acronym": "gng",
+        "description": "data reported on a native grid in the region of Greenland",
+        "region": "greenland"
+    },
+    "gnz": {
+        "acronym": "gnz",
+        "description": "zonal mean data reported on a model's native latitude grid",
+        "region": "greenland"
+    },
+    "gr": {
+        "acronym": "gr",
+        "description": "regridded data reported on the data provider's preferred target grid",
+        "region": "greenland"
+    },
+    "gr1": {
+        "acronym": "gr1",
+        "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr1a": {
+        "acronym": "gr1a",
+        "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+        "region": "antarctica"
+    },
+    "gr1g": {
+        "acronym": "gr1g",
+        "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr1z": {
+        "acronym": "gr1z",
+        "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+        "region": "greenland"
+    },
+    "gr2": {
+        "acronym": "gr2",
+        "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr2a": {
+        "acronym": "gr2a",
+        "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+        "region": "antarctica"
+    },
+    "gr2g": {
+        "acronym": "gr2g",
+        "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr2z": {
+        "acronym": "gr2z",
+        "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+        "region": "greenland"
+    },
+    "gr3": {
+        "acronym": "gr3",
+        "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr3a": {
+        "acronym": "gr3a",
+        "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+        "region": "antarctica"
+    },
+    "gr3g": {
+        "acronym": "gr3g",
+        "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr3z": {
+        "acronym": "gr3z",
+        "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+        "region": "greenland"
+    },
+    "gr4": {
+        "acronym": "gr4",
+        "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr4a": {
+        "acronym": "gr4a",
+        "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+        "region": "antarctica"
+    },
+    "gr4g": {
+        "acronym": "gr4g",
+        "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr4z": {
+        "acronym": "gr4z",
+        "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+        "region": "greenland"
+    },
+    "gr5": {
+        "acronym": "gr5",
+        "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr5a": {
+        "acronym": "gr5a",
+        "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+        "region": "antarctica"
+    },
+    "gr5g": {
+        "acronym": "gr5g",
+        "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr5z": {
+        "acronym": "gr5z",
+        "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+        "region": "greenland"
+    },
+    "gr6": {
+        "acronym": "gr6",
+        "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr6a": {
+        "acronym": "gr6a",
+        "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+        "region": "antarctica"
+    },
+    "gr6g": {
+        "acronym": "gr6g",
+        "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr6z": {
+        "acronym": "gr6z",
+        "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+        "region": "greenland"
+    },
+    "gr7": {
+        "acronym": "gr7",
+        "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr7a": {
+        "acronym": "gr7a",
+        "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+        "region": "antarctica"
+    },
+    "gr7g": {
+        "acronym": "gr7g",
+        "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr7z": {
+        "acronym": "gr7z",
+        "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+        "region": "greenland"
+    },
+    "gr8": {
+        "acronym": "gr8",
+        "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr8a": {
+        "acronym": "gr8a",
+        "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+        "region": "antarctica"
+    },
+    "gr8g": {
+        "acronym": "gr8g",
+        "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr8z": {
+        "acronym": "gr8z",
+        "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+        "region": "greenland"
+    },
+    "gr9": {
+        "acronym": "gr9",
+        "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr9a": {
+        "acronym": "gr9a",
+        "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+        "region": "antarctica"
+    },
+    "gr9g": {
+        "acronym": "gr9g",
+        "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+        "region": "greenland"
+    },
+    "gr9z": {
+        "acronym": "gr9z",
+        "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+        "region": "greenland"
+    },
+    "gra": {
+        "acronym": "gra",
+        "description": "regridded data in the region of Antarctica reported on the data provider's preferred target grid",
+        "region": "antarctica"
+    },
+    "grg": {
+        "acronym": "grg",
+        "description": "regridded data in the region of Greenland reported on the data provider's preferred target grid",
+        "region": "greenland"
+    },
+    "grz": {
+        "acronym": "grz",
+        "description": "regridded zonal mean data reported on the data provider's preferred latitude target grid",
+        "region": "greenland"
+    }
+}

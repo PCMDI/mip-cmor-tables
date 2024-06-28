@@ -1,30 +1,30 @@
 {
     "@id": "mip-cmor-tables:organisations/institutions/nuist",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "NUIST",
-    "institution:ror": "01rxvg760",
-    "institution:name": "Nanjing University",
-    "institution:url": [
+    "@type": "institution",
+    "cmip_acronym": "NUIST",
+    "ror": "01rxvg760",
+    "name": "Nanjing University",
+    "url": [
         "http://www.nju.edu.cn/english/"
     ],
-    "institution:established": 1902,
-    "institution:type": "Education",
-    "institution:labels": [],
-    "institution:aliases": [
+    "established": 1902,
+    "type": "Education",
+    "labels": [],
+    "aliases": [
         "Nanking University"
     ],
-    "institution:acronyms": [
+    "acronyms": [
         "NU",
         "NJU "
     ],
-    "institution:location": {
+    "location": {
         "@id": "mip-cmor-tables:organisations/institutions/location/01rxvg760",
-        "@type": "institution:location",
+        "@type": "location",
         "@nest": {
-            "location:lat": 32.056111,
-            "location:lon": 118.775,
-            "location:city": "Nanjing",
-            "location:country": [
+            "lat": 32.056111,
+            "lon": 118.775,
+            "city": "Nanjing",
+            "country": [
                 "China",
                 "CN"
             ]

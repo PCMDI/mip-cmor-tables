@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/dissi13cos",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Surface Dissolved Inorganic Carbon-13 Concentration",
     "variable:out_name": "dissi13cos",
     "variable:positive": "",

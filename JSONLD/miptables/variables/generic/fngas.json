@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/fngas",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Total Nitrogen Lost to the Atmosphere (Sum of NHx, NOx, N2O, N2)",
     "variable:out_name": "fNgas",
     "variable:positive": "",

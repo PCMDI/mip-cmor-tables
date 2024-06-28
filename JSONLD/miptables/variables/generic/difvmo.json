@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/difvmo",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ocean Vertical Momentum Diffusivity",
     "variable:out_name": "difvmo",
     "variable:positive": "",

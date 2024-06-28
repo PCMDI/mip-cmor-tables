@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/conccmcn",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Number Concentration Coarse Mode Aerosol",
     "variable:out_name": "conccmcn",
     "variable:positive": "",

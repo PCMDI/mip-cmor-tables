@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/mlotst",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "Ocean Mixed Layer Thickness Defined by Sigma T",
     "variable:out_name": "mlotst",
     "variable:positive": "",

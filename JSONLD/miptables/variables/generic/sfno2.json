@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/sfno2",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "NO2 Volume Mixing Ratio in Lowest Model Layer",
     "variable:out_name": "sfno2",
     "variable:positive": "",

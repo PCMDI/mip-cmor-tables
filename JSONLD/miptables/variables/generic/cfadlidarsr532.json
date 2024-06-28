@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:miptables/variables/generic/cfadlidarsr532",
-    "@type": "cmip:variable-generic",
+    "@type": "variable-generic",
     "variable:long_name": "CALIPSO Scattering Ratio CFAD",
     "variable:out_name": "cfadLidarsr532",
     "variable:positive": "",

@@ -1,6 +1,6 @@
 {
     "@id": "mip-cmor-tables:organisations/consortia/ec-earth-consortium",
-    "@type": "cmip:consortium",
+    "@type": "consortium",
     "consortium:cmip_acronym": "EC-Earth-Consortium",
     "consortium:description": "EC-Earth-Consortium",
     "consortium:url": "",
