@@ -1,0 +1,28 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/uooulu",
+    "@type": "institution",
+    "acronyms": [],
+    "aliases": [],
+    "cmip_acronym": "UoOulu",
+    "established": 1958,
+    "labels": [],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/03yj89h83",
+        "@type": "location",
+        "@nest": {
+            "lat": 65.01236,
+            "lon": 65.01236,
+            "city": "Oulu",
+            "country": [
+                "Finland",
+                "FI"
+            ]
+        }
+    },
+    "name": "University of Oulu",
+    "ror": "03yj89h83",
+    "type": "Education",
+    "url": [
+        "http://www.oulu.fi/english/"
+    ]
+}

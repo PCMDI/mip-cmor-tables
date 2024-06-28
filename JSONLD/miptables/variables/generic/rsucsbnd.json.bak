@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rsucsbnd",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Upwelling Clear-Sky Shortwave Radiation at Each Level for Each Band",
+    "variable:out_name": "rsucsbnd",
+    "variable:positive": "up",
+    "variable:standard_name": "upwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

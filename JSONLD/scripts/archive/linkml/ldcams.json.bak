@@ -1,0 +1,84 @@
+{
+  "id": "mip-cmor-tables:organisations/institutions/cams",
+  "type": "cmip:institution",
+  "cmip_acronym": "CAMS",
+  "name": "Chinese Academy of Meteorological Sciences",
+  "acronyms": [
+    "CAMS"
+  ],
+  "established": 1978,
+  "location": "JsonObj(**{'@id': 'mip-cmor-tables:organisations/institutions/location/034b53w38', '@type': 'location', '@nest': JsonObj(lat=39.9075, lon=116.39723, city='Beijing', country=['China', 'CN'])})",
+  "ror": "034b53w38",
+  "url": [
+    "http://www.camscma.cn/en.html"
+  ],
+  "@type": "Institution",
+  "@context": {
+    "cmip": "https://example.org/cmip/",
+    "institution": "https://example.org/cmip/institution/",
+    "linkml": "https://w3id.org/linkml/",
+    "@vocab": "https://example.org/cmip/",
+    "acronyms": {
+      "@id": "acronyms"
+    },
+    "aliases": {
+      "@id": "aliases"
+    },
+    "city": {
+      "@id": "city"
+    },
+    "cmip_acronym": {
+      "@id": "cmip_acronym"
+    },
+    "country": {
+      "@id": "country"
+    },
+    "established": {
+      "@type": "xsd:integer",
+      "@id": "established"
+    },
+    "id": "@id",
+    "labels": {
+      "@id": "labels"
+    },
+    "location": {
+      "@type": "@id",
+      "@id": "location"
+    },
+    "name": {
+      "@id": "name"
+    },
+    "ror": {
+      "@id": "ror"
+    },
+    "type": {
+      "@id": "type"
+    },
+    "url": {
+      "@type": "@id",
+      "@id": "url"
+    },
+    "lat": {
+      "@type": "xsd:float",
+      "@id": "lat"
+    },
+    "lon": {
+      "@type": "xsd:float",
+      "@id": "lon"
+    },
+    "nest": {
+      "@type": "@id",
+      "@id": "nest"
+    },
+    "location_id": "@id",
+    "location_type": {
+      "@id": "location_type"
+    },
+    "Institution": {
+      "@id": "institution"
+    },
+    "Location": {
+      "@id": "Location"
+    }
+  }
+}

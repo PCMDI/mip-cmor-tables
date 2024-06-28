@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/columnmassflux",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Column Integrated Mass Flux",
+    "variable:out_name": "columnmassflux",
+    "variable:positive": "up",
+    "variable:standard_name": "atmosphere_net_upward_convective_mass_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

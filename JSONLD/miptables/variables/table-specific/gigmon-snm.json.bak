@@ -1,0 +1,32 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-snm",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/snm"
+    },
+    "variable:branded_variable_name": "snm_mon-li-tav-z0-hxyG",
+    "variable:comment": "The total surface snow melt rate on the land portion of the grid cell divided by the land area in the grid cell; report as zero for snow-free land regions and missing where there is no land.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/landIce"
+        },
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/gigmon-snm"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

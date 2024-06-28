@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/nasa-larc",
+    "@type": "institution",
+    "cmip_acronym": "NASA-LaRC",
+    "ror": "0399mhs52",
+    "name": "Langley Research Center",
+    "url": [
+        "http://www.nasa.gov/langley"
+    ],
+    "established": 1917,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
+        "LaRC"
+    ],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/0399mhs52",
+        "@type": "location",
+        "@nest": {
+            "lat": 37.02987,
+            "lon": -76.34522,
+            "city": "Hampton",
+            "country": [
+                "United States",
+                "US"
+            ]
+        }
+    }
+}

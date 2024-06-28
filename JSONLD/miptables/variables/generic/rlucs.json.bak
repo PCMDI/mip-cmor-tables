@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rlucs",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Upwelling Clear-Sky Longwave Radiation",
+    "variable:out_name": "rlucs",
+    "variable:positive": "up",
+    "variable:standard_name": "upwelling_longwave_flux_in_air_assuming_clear_sky",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

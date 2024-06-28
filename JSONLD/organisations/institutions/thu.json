@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/thu",
+    "@type": "institution",
+    "cmip_acronym": "THU",
+    "ror": "03cve4549",
+    "name": "Tsinghua University",
+    "url": [
+        "http://www.tsinghua.edu.cn/publish/newthuen/"
+    ],
+    "established": 1911,
+    "type": "Education",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
+        "THU"
+    ],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/03cve4549",
+        "@type": "location",
+        "@nest": {
+            "lat": 39.999585,
+            "lon": 116.325414,
+            "city": "Beijing",
+            "country": [
+                "China",
+                "CN"
+            ]
+        }
+    }
+}

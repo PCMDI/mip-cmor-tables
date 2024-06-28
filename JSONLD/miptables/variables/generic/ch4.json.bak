@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/ch4",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Mole Fraction of CH4",
+    "variable:out_name": "ch4",
+    "variable:positive": "",
+    "variable:standard_name": "mole_fraction_of_methane_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "mol-1"
+    ]
+}

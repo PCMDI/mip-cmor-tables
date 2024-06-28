@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/cldnvi",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Column Integrated Cloud Droplet Number",
+    "variable:out_name": "cldnvi",
+    "variable:positive": "",
+    "variable:standard_name": "atmosphere_number_content_of_cloud_droplets",
+    "variable:type": "real",
+    "variable:units": [
+        "m-2"
+    ]
+}

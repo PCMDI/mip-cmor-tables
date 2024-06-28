@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/zmicroos",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Mole Concentration of Microzooplankton Expressed as Carbon in Sea Water",
+    "variable:out_name": "zmicroos",
+    "variable:positive": "",
+    "variable:standard_name": "mole_concentration_of_microzooplankton_expressed_as_carbon_in_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3"
+    ]
+}

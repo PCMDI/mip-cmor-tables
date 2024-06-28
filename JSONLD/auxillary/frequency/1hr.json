@@ -1,0 +1,8 @@
+{
+    "@id": "mip-cmor-tables:auxillary/frequency/1hr",
+    "@type": "frequency",
+    "name": "1hr",
+    "description": "sampled hourly",
+    "unit": "hour",
+    "long_name": "1 Hourly Frequency"
+}

@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-cldwatmxrat27",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/cldwatmxrat27"
+    },
+    "variable:branded_variable_name": "cldwatmxrat_6hr-ap-tpt-p27-hxy",
+    "variable:comment": "Cloud water mixing ratio",
+    "variable:frequency": "6hrPt",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "plev27",
+        "time1"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-cldwatmxrat27"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

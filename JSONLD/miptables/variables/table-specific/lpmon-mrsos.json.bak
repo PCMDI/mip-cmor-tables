@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpmon-mrsos",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/mrsos"
+    },
+    "variable:branded_variable_name": "mrsos_mon-ld-tav-z01s-hxy",
+    "variable:comment": "The mass of water in all phases in the upper 10cm of the  soil layer.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "sdepth1"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/lpmon-mrsos"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": 123.3,
+        "ok_min_mean_abs": "",
+        "valid_max": 146.5,
+        "valid_min": -2.008
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "AER": {
+        "description": "aerosol treatment in an atmospheric model where concentrations are calculated based on emissions, transformation, and removal processes (rather than being prescribed or omitted entirely)",
+        "name": "AER"
+    },
+    "AGCM": {
+        "description": "atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface",
+        "name": "AGCM"
+    },
+    "AOGCM": {
+        "description": "coupled atmosphere-ocean global climate model, additionally including explicit representation of at least the land and sea ice",
+        "name": "AOGCM"
+    },
+    "BGC": {
+        "description": "biogeochemistry model component that at the very least accounts for carbon reservoirs and fluxes in the atmosphere, terrestrial biosphere, and ocean",
+        "name": "BGC"
+    },
+    "CHEM": {
+        "description": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them",
+        "name": "CHEM"
+    },
+    "ISM": {
+        "description": "ice-sheet model that includes ice-flow",
+        "name": "ISM"
+    },
+    "LAND": {
+        "description": "land model run uncoupled from the atmosphere",
+        "name": "LAND"
+    },
+    "OGCM": {
+        "description": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
+        "name": "OGCM"
+    },
+    "RAD": {
+        "description": "radiation component of an atmospheric model run 'offline'",
+        "name": "RAD"
+    },
+    "SLAB": {
+        "description": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system",
+        "name": "SLAB"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/lossn2o",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Monthly Loss of Atmospheric Nitrous Oxide",
+    "variable:out_name": "lossn2o",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_atmosphere_mole_concentration_of_nitrous_oxide_due_to_chemical_destruction",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3",
+        "s-1"
+    ]
+}

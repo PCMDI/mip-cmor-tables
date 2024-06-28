@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/physi",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Mole Concentration of Total Phytoplankton Expressed as Silicon in Sea Water",
+    "variable:out_name": "physi",
+    "variable:positive": "",
+    "variable:standard_name": "mole_concentration_of_phytoplankton_expressed_as_silicon_in_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3"
+    ]
+}

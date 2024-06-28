@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/snwc",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Snow Water Equivalent Intercepted by the Vegetation",
+    "variable:out_name": "snwc",
+    "variable:positive": "",
+    "variable:standard_name": "canopy_snow_amount",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

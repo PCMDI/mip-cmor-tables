@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/emidust",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Total Emission Rate of Dust",
+    "variable:out_name": "emidust",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_emission",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

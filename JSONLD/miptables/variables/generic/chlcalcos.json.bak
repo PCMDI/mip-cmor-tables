@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/chlcalcos",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Mass Concentration of Calcareous Phytoplankton Expressed as Chlorophyll in Sea Water",
+    "variable:out_name": "chlcalcos",
+    "variable:positive": "",
+    "variable:standard_name": "mass_concentration_of_calcareous_phytoplankton_expressed_as_chlorophyll_in_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-3"
+    ]
+}

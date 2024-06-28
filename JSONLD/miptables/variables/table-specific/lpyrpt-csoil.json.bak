@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpyrpt-csoil",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/csoil"
+    },
+    "variable:branded_variable_name": "cSoil_yr-ld-tpt-z0-hxy",
+    "variable:comment": "Carbon mass in the full depth of the soil model.",
+    "variable:frequency": "yrPt",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/lpyrpt-csoil"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

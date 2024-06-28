@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rlus",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Upwelling Longwave Radiation",
+    "variable:out_name": "rlus",
+    "variable:positive": "up",
+    "variable:standard_name": "surface_upwelling_longwave_flux_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

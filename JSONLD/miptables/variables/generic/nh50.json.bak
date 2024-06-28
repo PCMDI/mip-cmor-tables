@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/nh50",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Artificial Tracer with 50 Day Lifetime",
+    "variable:out_name": "nh50",
+    "variable:positive": "",
+    "variable:standard_name": "mole_fraction_of_artificial_tracer_with_fixed_lifetime_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "mol-1"
+    ]
+}

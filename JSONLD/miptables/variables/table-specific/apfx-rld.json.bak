@@ -1,0 +1,28 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apfx-rld",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/rld"
+    },
+    "variable:branded_variable_name": "rld_fx-ap-none-l-hm",
+    "variable:comment": "Downwelling Longwave Radiation (includes the fluxes at the surface and TOA)",
+    "variable:frequency": "fx",
+    "variable:dimensions": [
+        "alevhalf",
+        "spectband"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apfx-rld"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

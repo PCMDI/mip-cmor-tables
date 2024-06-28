@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/wsgmax10m",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Maximum Wind Speed of Gust at 10m",
+    "variable:out_name": "wsgmax10m",
+    "variable:positive": "",
+    "variable:standard_name": "wind_speed_of_gust",
+    "variable:type": "real",
+    "variable:units": [
+        "m",
+        "s-1"
+    ]
+}

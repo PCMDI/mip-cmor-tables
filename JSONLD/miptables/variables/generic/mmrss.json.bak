@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/mmrss",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea-Salt Aerosol Mass Mixing Ratio",
+    "variable:out_name": "mmrss",
+    "variable:positive": "",
+    "variable:standard_name": "mass_fraction_of_sea_salt_dry_aerosol_particles_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "kg-1"
+    ]
+}

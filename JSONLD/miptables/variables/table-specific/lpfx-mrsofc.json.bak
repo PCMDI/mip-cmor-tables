@@ -1,0 +1,28 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpfx-mrsofc",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/mrsofc"
+    },
+    "variable:branded_variable_name": "mrsofc_fx-ld-none-z0-hxy",
+    "variable:comment": "The bulk water content retained by the soil at -33 J/kg of suction pressure, expressed as mass per unit land area; report as missing where there is no land",
+    "variable:frequency": "fx",
+    "variable:dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/lpfx-mrsofc"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

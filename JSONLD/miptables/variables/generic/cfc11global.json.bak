@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/cfc11global",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Global Mean Mole Fraction of CFC11",
+    "variable:out_name": "cfc11global",
+    "variable:positive": "",
+    "variable:standard_name": "mole_fraction_of_cfc11_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "1e-12"
+    ]
+}

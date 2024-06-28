@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/treefracndldcd",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Needleleaf Deciduous Tree Area Percentage",
+    "variable:out_name": "treeFracNdlDcd",
+    "variable:positive": "",
+    "variable:standard_name": "area_fraction",
+    "variable:type": "real",
+    "variable:units": [
+        "%"
+    ]
+}

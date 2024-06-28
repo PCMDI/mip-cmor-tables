@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/lwtoacsaer",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "TOA Clear-Sky Longwave Radiative Forcing Due to Aerosols",
+    "variable:out_name": "lwtoacsaer",
+    "variable:positive": "",
+    "variable:standard_name": "toa_instantaneous_longwave_forcing",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

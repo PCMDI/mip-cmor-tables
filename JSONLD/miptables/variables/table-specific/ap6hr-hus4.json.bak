@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-hus4",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/hus4"
+    },
+    "variable:branded_variable_name": "hus_6hr-ap-tav-p4-hxy",
+    "variable:comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+    "variable:frequency": "6hr",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "plev4",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/ap6hr-hus4"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

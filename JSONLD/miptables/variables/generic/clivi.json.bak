@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/clivi",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Ice Water Path",
+    "variable:out_name": "clivi",
+    "variable:positive": "",
+    "variable:standard_name": "atmosphere_mass_content_of_cloud_ice",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptsite-hus",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/hus"
+    },
+    "variable:branded_variable_name": "hus_subhr-ap-tpt-l-hxys",
+    "variable:comment": "Specific humidity is the mass fraction of water vapor in (moist) air.",
+    "variable:frequency": "subhrPt",
+    "variable:dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-hus"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

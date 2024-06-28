@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/ph",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "pH",
+    "variable:out_name": "ph",
+    "variable:positive": "",
+    "variable:standard_name": "sea_water_ph_reported_on_total_scale",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/siflcondbot",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Net Conductive Heat Fluxes in Ice at the Bottom",
+    "variable:out_name": "siflcondbot",
+    "variable:positive": "down",
+    "variable:standard_name": "basal_downward_heat_flux_in_sea_ice",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

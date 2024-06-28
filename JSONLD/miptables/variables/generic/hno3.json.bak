@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/hno3",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "HNO3 Volume Mixing Ratio",
+    "variable:out_name": "hno3",
+    "variable:positive": "",
+    "variable:standard_name": "mole_fraction_of_nitric_acid_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "mol-1"
+    ]
+}

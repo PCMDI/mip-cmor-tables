@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/fgsf6",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Downward SF6 Flux",
+    "variable:out_name": "fgsf6",
+    "variable:positive": "down",
+    "variable:standard_name": "surface_downward_mole_flux_of_sulfur_hexafluoride",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-2",
+        "s-1"
+    ]
+}

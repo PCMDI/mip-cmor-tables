@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/swsrfcsdust",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Clear-Sky Surface Shortwave Radiative Flux Due to Dust",
+    "variable:out_name": "swsrfcsdust",
+    "variable:positive": "",
+    "variable:standard_name": "surface_net_downward_shortwave_dust_ambient_aerosol_particles_direct_radiative_effect_assuming_clear_sky",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

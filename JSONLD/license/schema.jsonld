@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "properties": {
+    "@type": {
+      "type": "string",
+      "enum": [
+        "license"
+      ]
+    },
+    "@id": {
+      "type": "string",
+      "pattern": "^mip-cmor-tables:license/.+$"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "conditions": {
+      "type": "string"
+    },
+    "license_id": {
+      "type": "string"
+    },
+    "license_url": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": [
+    "@type",
+    "@id",
+    "kind",
+    "conditions",
+    "license_id",
+    "license_url"
+  ]
+}

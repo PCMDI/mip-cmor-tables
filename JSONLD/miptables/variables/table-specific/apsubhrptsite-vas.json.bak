@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptsite-vas",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/vas"
+    },
+    "variable:branded_variable_name": "vas_subhr-ap-tpt-h010-hxys",
+    "variable:comment": "Northward component of the near surface wind",
+    "variable:frequency": "subhrPt",
+    "variable:dimensions": [
+        "site",
+        "time1",
+        "height10m"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-vas"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

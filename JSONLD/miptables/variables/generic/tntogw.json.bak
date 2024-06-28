@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/tntogw",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Temperature Tendency Due to Orographic Gravity Wave Dissipation",
+    "variable:out_name": "tntogw",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_air_temperature_due_to_dissipation_of_orographic_gravity_waves",
+    "variable:type": "real",
+    "variable:units": [
+        "K",
+        "s-1"
+    ]
+}

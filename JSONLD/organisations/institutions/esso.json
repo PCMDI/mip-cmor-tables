@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/esso",
+    "@type": "institution",
+    "cmip_acronym": "ESSO",
+    "ror": "04xbqmj23",
+    "name": "Indian National Centre for Ocean Information Services",
+    "url": [
+        "http://www.incois.gov.in/portal/index.jsp"
+    ],
+    "established": 1999,
+    "type": "Government",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
+        "INCOIS"
+    ],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/04xbqmj23",
+        "@type": "location",
+        "@nest": {
+            "lat": 17.528234,
+            "lon": 78.400195,
+            "city": "Hyderabad",
+            "country": [
+                "India",
+                "IN"
+            ]
+        }
+    }
+}

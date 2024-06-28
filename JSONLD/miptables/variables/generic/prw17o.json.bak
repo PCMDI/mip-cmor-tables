@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/prw17o",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Mass of Water Vapor Containing Oxygen-17 (H2 17O) in Layer",
+    "variable:out_name": "prw17O",
+    "variable:positive": "",
+    "variable:standard_name": "mass_content_of_water_vapor_containing_17O_in_atmosphere_layer",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

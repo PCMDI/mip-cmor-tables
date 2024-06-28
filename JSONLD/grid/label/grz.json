@@ -1,0 +1,8 @@
+{
+    "@id": "mip-cmor-tables:grid/label/grz",
+    "@type": "grid-label",
+    "acronym": "grz",
+    "short name": "Regridded Greenland Zonal Mean",
+    "description": "regridded zonal mean data reported on the data provider's preferred latitude target grid",
+    "region": "greenland"
+}

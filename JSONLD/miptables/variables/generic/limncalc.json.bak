@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/limncalc",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Nitrogen Limitation of Calcareous Phytoplankton",
+    "variable:out_name": "limncalc",
+    "variable:positive": "",
+    "variable:standard_name": "nitrogen_growth_limitation_of_calcareous_phytoplankton",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

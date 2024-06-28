@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@vocab": "grid-label:",
+    "@base": "https://github.com/PCMDI/mip-cmor-tables"
+  },
+  "@type": "grid-label",
+  "acronym": "",
+  "short_name": "",
+  "description": "",
+  "region": ""
+}

@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/baresoilfrac",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Bare Soil Percentage Area Coverage",
+    "variable:out_name": "baresoilFrac",
+    "variable:positive": "",
+    "variable:standard_name": "area_fraction",
+    "variable:type": "real",
+    "variable:units": [
+        "%"
+    ]
+}

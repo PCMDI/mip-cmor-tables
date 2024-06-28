@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/mohc",
+    "@type": "institution",
+    "acronyms": [],
+    "aliases": [
+        "Meteorological Office"
+    ],
+    "cmip_acronym": "MOHC",
+    "established": 1854,
+    "labels": [],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/01ch2yn61",
+        "@type": "location",
+        "@nest": {
+            "lat": 50.7236,
+            "lon": 50.7236,
+            "city": "Exeter",
+            "country": [
+                "United Kingdom",
+                "GB"
+            ]
+        }
+    },
+    "name": "Met Office",
+    "ror": "01ch2yn61",
+    "type": "Government",
+    "url": [
+        "http://www.metoffice.gov.uk/"
+    ]
+}

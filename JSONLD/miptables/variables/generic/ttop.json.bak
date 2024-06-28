@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/ttop",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Air Temperature at Cloud Top",
+    "variable:out_name": "ttop",
+    "variable:positive": "",
+    "variable:standard_name": "air_temperature_at_cloud_top",
+    "variable:type": "real",
+    "variable:units": [
+        "K"
+    ]
+}

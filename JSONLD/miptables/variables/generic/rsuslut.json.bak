@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rsuslut",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Upwelling Shortwave on Land-Use Tile",
+    "variable:out_name": "rsusLut",
+    "variable:positive": "up",
+    "variable:standard_name": "surface_upwelling_shortwave_flux_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

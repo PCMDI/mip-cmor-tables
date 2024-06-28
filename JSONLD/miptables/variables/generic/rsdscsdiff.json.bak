@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rsdscsdiff",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Diffuse Downwelling Clear Sky Shortwave Radiation",
+    "variable:out_name": "rsdscsdiff",
+    "variable:positive": "down",
+    "variable:standard_name": "surface_diffuse_downwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

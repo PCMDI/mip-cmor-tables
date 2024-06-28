@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-msftmzsmpa",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/msftmzsmpa"
+    },
+    "variable:branded_variable_name": "msftmzsmpa_mon-op-tav-l-hys",
+    "variable:comment": "Report only if there is a submesoscale eddy parameterization.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "latitude",
+        "olevel",
+        "basin",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocean"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/opmonz-msftmzsmpa"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

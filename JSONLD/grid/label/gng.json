@@ -1,0 +1,8 @@
+{
+    "@id": "mip-cmor-tables:grid/label/gng",
+    "@type": "grid-label",
+    "acronym": "gng",
+    "short name": "Grid Native Greenland",
+    "description": "data reported on a native grid in the region of Greenland",
+    "region": "greenland"
+}

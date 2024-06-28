@@ -1,0 +1,31 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-clisccp",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/clisccp"
+    },
+    "variable:branded_variable_name": "clisccp_mon-ap-tav-p7c-hxy",
+    "variable:comment": "Percentage cloud cover in optical depth categories.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "plev7c",
+        "tau",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apmon-clisccp"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

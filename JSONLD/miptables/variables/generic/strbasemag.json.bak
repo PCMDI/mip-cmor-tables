@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/strbasemag",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Land Ice Basal Drag",
+    "variable:out_name": "strbasemag",
+    "variable:positive": "",
+    "variable:standard_name": "land_ice_basal_drag",
+    "variable:type": "real",
+    "variable:units": [
+        "Pa"
+    ]
+}

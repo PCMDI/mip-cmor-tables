@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rsut4co2",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "TOA Outgoing Shortwave Radiation in 4XCO2 Atmosphere",
+    "variable:out_name": "rsut4co2",
+    "variable:positive": "up",
+    "variable:standard_name": "toa_outgoing_shortwave_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

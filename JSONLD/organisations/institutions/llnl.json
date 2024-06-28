@@ -1,0 +1,36 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/llnl",
+    "@type": "institution",
+    "cmip_acronym": "LLNL",
+    "ror": "041nk4h53",
+    "name": "Lawrence Livermore National Laboratory",
+    "url": [
+        "https://www.llnl.gov/"
+    ],
+    "established": 1952,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [
+        "United States Department of Energy National Nuclear Security Administration Lawrence Livermore National Laboratory",
+        "U.S. Department of Energy National Nuclear Security Administration Los Alamos National Laboratory",
+        "United States Department of Energy Los Alamos National Laboratory",
+        "U.S. Department of Energy Los Alamos National Laboratory"
+    ],
+    "acronyms": [
+        "LLNL",
+        "LLL"
+    ],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/041nk4h53",
+        "@type": "location",
+        "@nest": {
+            "lat": 37.68187,
+            "lon": -121.76801,
+            "city": "Livermore",
+            "country": [
+                "United States",
+                "US"
+            ]
+        }
+    }
+}

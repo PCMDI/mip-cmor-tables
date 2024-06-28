@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/nerc",
+    "@type": "institution",
+    "cmip_acronym": "NERC",
+    "ror": "02b5d8509",
+    "name": "Natural Environment Research Council",
+    "url": [
+        "https://www.ukri.org/councils/nerc/"
+    ],
+    "established": 1965,
+    "type": "Government",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
+        "NERC"
+    ],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/02b5d8509",
+        "@type": "location",
+        "@nest": {
+            "lat": 51.55797,
+            "lon": -1.78116,
+            "city": "Swindon",
+            "country": [
+                "United Kingdom",
+                "GB"
+            ]
+        }
+    }
+}

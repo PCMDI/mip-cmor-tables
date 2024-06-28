@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/hfx",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Ocean Heat X Transport",
+    "variable:out_name": "hfx",
+    "variable:positive": "",
+    "variable:standard_name": "ocean_heat_x_transport",
+    "variable:type": "real",
+    "variable:units": [
+        "W"
+    ]
+}

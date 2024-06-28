@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/xvelsurf",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "X-Component of Land Ice Surface Velocity",
+    "variable:out_name": "xvelsurf",
+    "variable:positive": "",
+    "variable:standard_name": "land_ice_surface_x_velocity",
+    "variable:type": "real",
+    "variable:units": [
+        "m",
+        "s-1"
+    ]
+}

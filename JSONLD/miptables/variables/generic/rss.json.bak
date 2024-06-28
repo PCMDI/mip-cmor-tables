@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rss",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Net Shortwave Surface Radiation",
+    "variable:out_name": "rss",
+    "variable:positive": "down",
+    "variable:standard_name": "surface_net_downward_shortwave_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

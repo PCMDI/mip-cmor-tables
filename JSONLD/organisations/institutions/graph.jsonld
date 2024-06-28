@@ -1,0 +1,2286 @@
+{
+    "@id": "https://github.com/PCMDI/mip-cmor-tables/JSONLD/organisations/institutions",
+    "@type": "graph",
+    "@context": {
+        "@vocab": "institution:",
+        "location": {
+            "@context": {
+                "@vocab": ""
+            }
+        }
+    },
+    "ldroot": "/JSONLD/organisations/institutions",
+    "@graph": [
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/mohc",
+            "@type": "mip:institution",
+            "institution:acronyms": [],
+            "institution:aliases": [
+                "Meteorological Office"
+            ],
+            "institution:cmip_acronym": "MOHC",
+            "institution:established": 1854,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/01ch2yn61",
+                "@type": "location",
+                "@nest": {
+                    "lat": 50.7236,
+                    "lon": 50.7236,
+                    "city": "Exeter",
+                    "country": [
+                        "United Kingdom",
+                        "GB"
+                    ]
+                }
+            },
+            "institution:name": "Met Office",
+            "institution:ror": "01ch2yn61",
+            "institution:type": "Government",
+            "institution:url": [
+                "http://www.metoffice.gov.uk/"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/cas",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "CAS",
+            "institution:ror": "034t30j35",
+            "institution:name": "Chinese Academy of Sciences",
+            "institution:url": [
+                "http://english.cas.cn/"
+            ],
+            "institution:established": 1949,
+            "institution:type": "Government",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "CAS"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/034t30j35",
+                "@type": "location",
+                "@nest": {
+                    "lat": 39.9075,
+                    "lon": 116.39723,
+                    "city": "Beijing",
+                    "country": [
+                        "China",
+                        "CN"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/aer",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "AER",
+            "institution:ror": "04cg70g73",
+            "institution:name": "Atmospheric and Environmental Research",
+            "institution:url": [
+                "http://www.aer.com/"
+            ],
+            "institution:established": 1977,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "AER"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/04cg70g73",
+                "@type": "location",
+                "@nest": {
+                    "lat": 42.539472,
+                    "lon": -71.256946,
+                    "city": "Lexington",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/cmcc",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "CMCC",
+            "institution:ror": "01tf11a61",
+            "institution:name": "Euro-Mediterranean Center for Climate Change",
+            "institution:url": [
+                "http://www.cmcc.it/"
+            ],
+            "institution:established": 2005,
+            "institution:type": "Nonprofit",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "CMCC"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/01tf11a61",
+                "@type": "location",
+                "@nest": {
+                    "lat": 40.33942,
+                    "lon": 18.086602,
+                    "city": "Lecce",
+                    "country": [
+                        "Italy",
+                        "IT"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/cnes",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "CNES",
+            "institution:ror": "04h1h0y33",
+            "institution:name": "Centre National d'\u00c9tudes Spatiales",
+            "institution:url": [
+                "https://www.cnes.fr"
+            ],
+            "institution:established": 1961,
+            "institution:type": "Government",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "CNES"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/04h1h0y33",
+                "@type": "location",
+                "@nest": {
+                    "lat": 48.85341,
+                    "lon": 2.3488,
+                    "city": "Paris",
+                    "country": [
+                        "France",
+                        "FR"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/nasa-gsfc",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "NASA-GSFC",
+            "institution:ror": "0171mag52",
+            "institution:name": "Goddard Space Flight Center",
+            "institution:url": [
+                "https://www.nasa.gov/centers/goddard/home/index.html"
+            ],
+            "institution:established": 1959,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "GSFC"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/0171mag52",
+                "@type": "location",
+                "@nest": {
+                    "lat": 39.00455,
+                    "lon": -76.87553,
+                    "city": "Greenbelt",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/cccma",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "CCCma",
+            "institution:ror": "026ny0e17",
+            "institution:name": "Environment and Climate Change Canada",
+            "institution:url": [
+                "https://www.canada.ca/en/environment-climate-change.html"
+            ],
+            "institution:established": 1971,
+            "institution:type": "Government",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "ECCC"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/026ny0e17",
+                "@type": "location",
+                "@nest": {
+                    "lat": 45.425373,
+                    "lon": -75.699862,
+                    "city": "Gatineau",
+                    "country": [
+                        "Canada",
+                        "CA"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/nuist",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "NUIST",
+            "institution:ror": "01rxvg760",
+            "institution:name": "Nanjing University",
+            "institution:url": [
+                "http://www.nju.edu.cn/english/"
+            ],
+            "institution:established": 1902,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [
+                "Nanking University"
+            ],
+            "institution:acronyms": [
+                "NU",
+                "NJU "
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/01rxvg760",
+                "@type": "location",
+                "@nest": {
+                    "lat": 32.056111,
+                    "lon": 118.775,
+                    "city": "Nanjing",
+                    "country": [
+                        "China",
+                        "CN"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/ntu",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "NTU",
+            "institution:ror": "05bqach95",
+            "institution:name": "National Taiwan University",
+            "institution:url": [
+                "http://www.ntu.edu.tw/english/"
+            ],
+            "institution:established": 1928,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "NTU"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/05bqach95",
+                "@type": "location",
+                "@nest": {
+                    "lat": 25.016,
+                    "lon": 121.536,
+                    "city": "Taipei",
+                    "country": [
+                        "Taiwan",
+                        "TW"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/bcc",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "BCC",
+            "institution:ror": "01spyyb53",
+            "institution:name": "Beijing Biocytogen (China)",
+            "institution:url": [
+                "http://www.bbctg.com.cn/"
+            ],
+            "institution:established": 2008,
+            "institution:type": "Company",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/01spyyb53",
+                "@type": "location",
+                "@nest": {
+                    "lat": 39.950128,
+                    "lon": 116.383679,
+                    "city": "Beijing",
+                    "country": [
+                        "China",
+                        "CN"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/ua",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "UA",
+            "institution:ror": "03m2x1q45",
+            "institution:name": "University of Arizona",
+            "institution:url": [
+                "http://www.arizona.edu/"
+            ],
+            "institution:established": 1885,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "UA"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/03m2x1q45",
+                "@type": "location",
+                "@nest": {
+                    "lat": 32.22174,
+                    "lon": -110.92648,
+                    "city": "Tucson",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/pmod",
+            "@type": "mip:institution",
+            "institution:acronyms": [
+                "PMOD"
+            ],
+            "institution:aliases": [],
+            "institution:cmip_acronym": "PMOD",
+            "institution:established": 1907,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/02gtrqv93",
+                "@type": "location",
+                "@nest": {
+                    "lat": 46.8133161,
+                    "lon": 46.8133161,
+                    "city": "Davos",
+                    "country": [
+                        "Switzerland",
+                        "CH"
+                    ]
+                }
+            },
+            "institution:name": "Physikalisch-Meteorologisches Observatorium Davos",
+            "institution:ror": "02gtrqv93",
+            "institution:type": "Facility",
+            "institution:url": [
+                "https://www.pmodwrc.ch/"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/uootago",
+            "@type": "mip:institution",
+            "institution:acronyms": [],
+            "institution:aliases": [],
+            "institution:cmip_acronym": "UoOtago",
+            "institution:established": 1869,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/01jmxt844",
+                "@type": "location",
+                "@nest": {
+                    "lat": -45.87416,
+                    "lon": -45.87416,
+                    "city": "Dunedin",
+                    "country": [
+                        "New Zealand",
+                        "NZ"
+                    ]
+                }
+            },
+            "institution:name": "University of Otago",
+            "institution:ror": "01jmxt844",
+            "institution:type": "Education",
+            "institution:url": [
+                "http://www.otago.ac.nz/"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/mpi-m",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "MPI-M",
+            "institution:ror": "05esem239",
+            "institution:name": "Max Planck Institute for Meteorology",
+            "institution:url": [
+                "http://www.mpimet.mpg.de/en/home.html"
+            ],
+            "institution:established": 1975,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "MPI-M"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/05esem239",
+                "@type": "location",
+                "@nest": {
+                    "lat": 53.567794,
+                    "lon": 9.975468,
+                    "city": "Hamburg",
+                    "country": [
+                        "Germany",
+                        "DE"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/uofmd",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "UofMD",
+            "institution:ror": "047s2c258",
+            "institution:name": "University of Maryland, College Park",
+            "institution:url": [
+                "http://www.umd.edu/"
+            ],
+            "institution:established": 1856,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "UMD"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/047s2c258",
+                "@type": "location",
+                "@nest": {
+                    "lat": 38.98067,
+                    "lon": -76.93692,
+                    "city": "College Park",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/dkrz",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "DKRZ",
+            "institution:ror": "03ztgj037",
+            "institution:name": "German Climate Computing Centre",
+            "institution:url": [
+                "https://www.dkrz.de/"
+            ],
+            "institution:established": 1987,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "DKRZ"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/03ztgj037",
+                "@type": "location",
+                "@nest": {
+                    "lat": 53.55073,
+                    "lon": 9.99302,
+                    "city": "Hamburg",
+                    "country": [
+                        "Germany",
+                        "DE"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/mri",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "MRI",
+            "institution:ror": "02772kk97",
+            "institution:name": "Japan Meteorological Agency",
+            "institution:url": [
+                "http://www.jma.go.jp/jma/indexe.html"
+            ],
+            "institution:established": 1956,
+            "institution:type": "Other",
+            "institution:labels": [],
+            "institution:aliases": [
+                "Kish\u014d-ch\u014d"
+            ],
+            "institution:acronyms": [
+                "JMA"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/02772kk97",
+                "@type": "location",
+                "@nest": {
+                    "lat": 35.6895,
+                    "lon": 139.69171,
+                    "city": "Tokyo",
+                    "country": [
+                        "Japan",
+                        "JP"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/csiro",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "CSIRO",
+            "institution:ror": "03qn8fb07",
+            "institution:name": "Commonwealth Scientific and Industrial Research Organisation",
+            "institution:url": [
+                "http://www.csiro.au/"
+            ],
+            "institution:established": 1926,
+            "institution:type": "Government",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "CSIRO"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/03qn8fb07",
+                "@type": "location",
+                "@nest": {
+                    "lat": -35.28346,
+                    "lon": 149.12807,
+                    "city": "Canberra",
+                    "country": [
+                        "Australia",
+                        "AU"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/ncar",
+            "@type": "mip:institution",
+            "institution:acronyms": [
+                "NCAR"
+            ],
+            "institution:aliases": [],
+            "institution:cmip_acronym": "NCAR",
+            "institution:established": 1930,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/05cvfcr44",
+                "@type": "location",
+                "@nest": {
+                    "lat": 40.01499,
+                    "lon": 40.01499,
+                    "city": "Boulder",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            },
+            "institution:name": "National Center for Atmospheric Research",
+            "institution:ror": "05cvfcr44",
+            "institution:type": "Facility",
+            "institution:url": [
+                "https://ncar.ucar.edu/"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/llnl",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "LLNL",
+            "institution:ror": "041nk4h53",
+            "institution:name": "Lawrence Livermore National Laboratory",
+            "institution:url": [
+                "https://www.llnl.gov/"
+            ],
+            "institution:established": 1952,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [
+                "United States Department of Energy National Nuclear Security Administration Lawrence Livermore National Laboratory",
+                "U.S. Department of Energy National Nuclear Security Administration Los Alamos National Laboratory",
+                "United States Department of Energy Los Alamos National Laboratory",
+                "U.S. Department of Energy Los Alamos National Laboratory"
+            ],
+            "institution:acronyms": [
+                "LLNL",
+                "LLL"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/041nk4h53",
+                "@type": "location",
+                "@nest": {
+                    "lat": 37.68187,
+                    "lon": -121.76801,
+                    "city": "Livermore",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/iaceth",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "IACETH",
+            "institution:ror": "05a28rw58",
+            "institution:name": "ETH Zurich",
+            "institution:url": [
+                "https://ethz.ch"
+            ],
+            "institution:established": 1855,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [
+                "Swiss Federal Institute of Technology in Zurich",
+                "Eidgen\u00f6ssische Technische Hochschule Z\u00fcrich",
+                "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Zurich",
+                "Politecnico Federale di Zurigo"
+            ],
+            "institution:acronyms": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/05a28rw58",
+                "@type": "location",
+                "@nest": {
+                    "lat": 47.36667,
+                    "lon": 8.55,
+                    "city": "Zurich",
+                    "country": [
+                        "Switzerland",
+                        "CH"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/noaa-ncei",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "NOAA-NCEI",
+            "institution:ror": "04r0wrp59",
+            "institution:name": "NOAA National Centers for Environmental Information",
+            "institution:url": [
+                "https://www.ncei.noaa.gov"
+            ],
+            "institution:established": 1934,
+            "institution:type": "Government",
+            "institution:labels": [],
+            "institution:aliases": [
+                "National Climatic Data Center",
+                "United States National Environmental Satellites, Data, and Information Service National Centers for Environmental Information",
+                "United States National Centers for Environmental Information",
+                "U.S. National Centers for Environmental Information",
+                "National Centers for Environmental Information"
+            ],
+            "institution:acronyms": [
+                "NCEI",
+                "NOAA NCEI"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/04r0wrp59",
+                "@type": "location",
+                "@nest": {
+                    "lat": 35.60095,
+                    "lon": -82.55402,
+                    "city": "Asheville",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/thu",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "THU",
+            "institution:ror": "03cve4549",
+            "institution:name": "Tsinghua University",
+            "institution:url": [
+                "http://www.tsinghua.edu.cn/publish/newthuen/"
+            ],
+            "institution:established": 1911,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "THU"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/03cve4549",
+                "@type": "location",
+                "@nest": {
+                    "lat": 39.999585,
+                    "lon": 116.325414,
+                    "city": "Beijing",
+                    "country": [
+                        "China",
+                        "CN"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/pnnl-waccem",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "PNNL-WACCEM",
+            "institution:ror": "05h992307",
+            "institution:name": "Pacific Northwest National Laboratory",
+            "institution:url": [
+                "http://www.pnnl.gov/"
+            ],
+            "institution:established": 1965,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "PNNL"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/05h992307",
+                "@type": "location",
+                "@nest": {
+                    "lat": 46.28569,
+                    "lon": -119.28446,
+                    "city": "Richland",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/ifm-geomar",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "IFM-GEOMAR",
+            "institution:ror": "02h2x0161",
+            "institution:name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+            "institution:url": [
+                "http://www.geomar.de/en/"
+            ],
+            "institution:established": 2004,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [
+                "Leibniz Institute of Marine Sciences"
+            ],
+            "institution:acronyms": [
+                "IFM-GEOMAR"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/02h2x0161",
+                "@type": "location",
+                "@nest": {
+                    "lat": 54.327138,
+                    "lon": 10.180141,
+                    "city": "Kiel",
+                    "country": [
+                        "Germany",
+                        "DE"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/esso",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "ESSO",
+            "institution:ror": "04xbqmj23",
+            "institution:name": "Indian National Centre for Ocean Information Services",
+            "institution:url": [
+                "http://www.incois.gov.in/portal/index.jsp"
+            ],
+            "institution:established": 1999,
+            "institution:type": "Government",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "INCOIS"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/04xbqmj23",
+                "@type": "location",
+                "@nest": {
+                    "lat": 17.528234,
+                    "lon": 78.400195,
+                    "city": "Hyderabad",
+                    "country": [
+                        "India",
+                        "IN"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/nerc",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "NERC",
+            "institution:ror": "02b5d8509",
+            "institution:name": "Natural Environment Research Council",
+            "institution:url": [
+                "https://www.ukri.org/councils/nerc/"
+            ],
+            "institution:established": 1965,
+            "institution:type": "Government",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "NERC"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/02b5d8509",
+                "@type": "location",
+                "@nest": {
+                    "lat": 51.55797,
+                    "lon": -1.78116,
+                    "city": "Swindon",
+                    "country": [
+                        "United Kingdom",
+                        "GB"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/awi",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "AWI",
+            "institution:ror": "032e6b942",
+            "institution:name": "Alfred Wegener Institute for Polar and Marine Research",
+            "institution:url": [
+                "https://www.awi.de"
+            ],
+            "institution:established": 1980,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "AWI"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/032e6b942",
+                "@type": "location",
+                "@nest": {
+                    "lat": 53.53615,
+                    "lon": 8.59298,
+                    "city": "Bremerhaven",
+                    "country": [
+                        "Germany",
+                        "DE"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/rss",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "RSS",
+            "institution:ror": "01vp8h012",
+            "institution:name": "Remote Sensing Systems (United States)",
+            "institution:url": [
+                "http://www.remss.com/"
+            ],
+            "institution:established": 1974,
+            "institution:type": "Company",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "RSS"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/01vp8h012",
+                "@type": "location",
+                "@nest": {
+                    "lat": 38.443733,
+                    "lon": -122.717185,
+                    "city": "Santa Rosa",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/fuberlin",
+            "@type": "mip:institution",
+            "institution:acronyms": [
+                "FU"
+            ],
+            "institution:aliases": [
+                "FU Berlin",
+                "Free University of Berlin"
+            ],
+            "institution:cmip_acronym": "FUBerlin",
+            "institution:established": 1948,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/046ak2485",
+                "@type": "location",
+                "@nest": {
+                    "lat": 52.52437,
+                    "lon": 52.52437,
+                    "city": "Berlin",
+                    "country": [
+                        "Germany",
+                        "DE"
+                    ]
+                }
+            },
+            "institution:name": "Freie Universit\u00e4t Berlin",
+            "institution:ror": "046ak2485",
+            "institution:type": "Education",
+            "institution:url": [
+                "https://www.fu-berlin.de"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/uhh",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "UHH",
+            "institution:ror": "00g30e956",
+            "institution:name": "Universit\u00e4t Hamburg",
+            "institution:url": [
+                "http://www.uni-hamburg.de"
+            ],
+            "institution:established": 1919,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [
+                "University of Hamburg"
+            ],
+            "institution:acronyms": [
+                "UHH"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/00g30e956",
+                "@type": "location",
+                "@nest": {
+                    "lat": 53.55073,
+                    "lon": 9.99302,
+                    "city": "Hamburg",
+                    "country": [
+                        "Germany",
+                        "DE"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/cams",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "CAMS",
+            "institution:ror": "034b53w38",
+            "institution:name": "Chinese Academy of Meteorological Sciences",
+            "institution:url": [
+                "http://www.camscma.cn/en.html"
+            ],
+            "institution:established": 1978,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "CAMS"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/034b53w38",
+                "@type": "location",
+                "@nest": {
+                    "lat": 39.9075,
+                    "lon": 116.39723,
+                    "city": "Beijing",
+                    "country": [
+                        "China",
+                        "CN"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/ecmwf",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "ECMWF",
+            "institution:ror": "014w0fd65",
+            "institution:name": "European Centre for Medium-Range Weather Forecasts",
+            "institution:url": [
+                "http://www.ecmwf.int/"
+            ],
+            "institution:established": 1975,
+            "institution:type": "Other",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "ECMWF"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/014w0fd65",
+                "@type": "location",
+                "@nest": {
+                    "lat": 51.45625,
+                    "lon": -0.97113,
+                    "city": "Reading",
+                    "country": [
+                        "United Kingdom",
+                        "GB"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/auot",
+            "@type": "mip:institution",
+            "institution:acronyms": [],
+            "institution:aliases": [
+                "Aristotelian University"
+            ],
+            "institution:cmip_acronym": "AUoT",
+            "institution:established": 1925,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/02j61yw88",
+                "@type": "location",
+                "@nest": {
+                    "lat": 40.64361,
+                    "lon": 40.64361,
+                    "city": "Thessaloniki",
+                    "country": [
+                        "Greece",
+                        "GR"
+                    ]
+                }
+            },
+            "institution:name": "Aristotle University of Thessaloniki",
+            "institution:ror": "02j61yw88",
+            "institution:type": "Education",
+            "institution:url": [
+                "https://www.auth.gr/en"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/uooulu",
+            "@type": "mip:institution",
+            "institution:acronyms": [],
+            "institution:aliases": [],
+            "institution:cmip_acronym": "UoOulu",
+            "institution:established": 1958,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/03yj89h83",
+                "@type": "location",
+                "@nest": {
+                    "lat": 65.01236,
+                    "lon": 65.01236,
+                    "city": "Oulu",
+                    "country": [
+                        "Finland",
+                        "FI"
+                    ]
+                }
+            },
+            "institution:name": "University of Oulu",
+            "institution:ror": "03yj89h83",
+            "institution:type": "Education",
+            "institution:url": [
+                "http://www.oulu.fi/english/"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/uom",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "UoM",
+            "institution:ror": "01ej9dk98",
+            "institution:name": "University of Melbourne",
+            "institution:url": [
+                "http://www.unimelb.edu.au/"
+            ],
+            "institution:established": 1853,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [
+                "Melbourne University"
+            ],
+            "institution:acronyms": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/01ej9dk98",
+                "@type": "location",
+                "@nest": {
+                    "lat": -37.814,
+                    "lon": 144.96332,
+                    "city": "Melbourne",
+                    "country": [
+                        "Australia",
+                        "AU"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/vua",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "VUA",
+            "institution:ror": "008xxew50",
+            "institution:name": "Vrije Universiteit Amsterdam",
+            "institution:url": [
+                "https://vu.nl/"
+            ],
+            "institution:established": 1880,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [
+                "VU Amsterdam"
+            ],
+            "institution:acronyms": [
+                "VU"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/008xxew50",
+                "@type": "location",
+                "@nest": {
+                    "lat": 52.37403,
+                    "lon": 4.88969,
+                    "city": "Amsterdam",
+                    "country": [
+                        "Netherlands",
+                        "NL"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/imperialcollege",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "ImperialCollege",
+            "institution:ror": "041kmwe10",
+            "institution:name": "Imperial College London",
+            "institution:url": [
+                "http://www.imperial.ac.uk/"
+            ],
+            "institution:established": 1907,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/041kmwe10",
+                "@type": "location",
+                "@nest": {
+                    "lat": 51.4986,
+                    "lon": -0.175478,
+                    "city": "London",
+                    "country": [
+                        "United Kingdom",
+                        "GB"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/ucolorado",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "UColorado",
+            "institution:ror": "00jc20583",
+            "institution:name": "University of Colorado System",
+            "institution:url": [
+                "http://www.cu.edu/"
+            ],
+            "institution:established": 1876,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "CU"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/00jc20583",
+                "@type": "location",
+                "@nest": {
+                    "lat": 40.01499,
+                    "lon": -105.27055,
+                    "city": "Boulder",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/ncas",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "NCAS",
+            "institution:ror": "03q36cn05",
+            "institution:name": "Uks",
+            "institution:url": [
+                "http://www.uksresearch.com/"
+            ],
+            "institution:established": 1997,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/03q36cn05",
+                "@type": "location",
+                "@nest": {
+                    "lat": 33.72148,
+                    "lon": 73.04329,
+                    "city": "Islamabad",
+                    "country": [
+                        "Pakistan",
+                        "PK"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/dwd",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "DWD",
+            "institution:ror": "02nrqs528",
+            "institution:name": "German Meteorological Service",
+            "institution:url": [
+                "http://www.dwd.de/"
+            ],
+            "institution:established": 1952,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "DWD"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/02nrqs528",
+                "@type": "location",
+                "@nest": {
+                    "lat": 50.103322,
+                    "lon": 8.747606,
+                    "city": "Offenbach",
+                    "country": [
+                        "Germany",
+                        "DE"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/nasa-giss",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "NASA-GISS",
+            "institution:ror": "01cyfxe35",
+            "institution:name": "Goddard Institute for Space Studies",
+            "institution:url": [
+                "http://www.giss.nasa.gov/"
+            ],
+            "institution:established": 1961,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "GISS"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/01cyfxe35",
+                "@type": "location",
+                "@nest": {
+                    "lat": 40.71427,
+                    "lon": -74.00597,
+                    "city": "New York",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/kiost",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "KIOST",
+            "institution:ror": "032m55064",
+            "institution:name": "Korea Institute of Ocean Science and Technology",
+            "institution:url": [
+                "http://eng.kiost.ac/"
+            ],
+            "institution:established": 1973,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [
+                "Korean Ocean Research and Development Institute"
+            ],
+            "institution:acronyms": [
+                "KIOST"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/032m55064",
+                "@type": "location",
+                "@nest": {
+                    "lat": 35.10168,
+                    "lon": 129.03004,
+                    "city": "Busan",
+                    "country": [
+                        "South Korea",
+                        "KR"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/cccr-iitm",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "CCCR-IITM",
+            "institution:ror": "03jf2m686",
+            "institution:name": "Indian Institute of Tropical Meteorology",
+            "institution:url": [
+                "http://www.tropmet.res.in/"
+            ],
+            "institution:established": 1962,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "IITM"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/03jf2m686",
+                "@type": "location",
+                "@nest": {
+                    "lat": 18.51957,
+                    "lon": 73.85535,
+                    "city": "Pune",
+                    "country": [
+                        "India",
+                        "IN"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/pcmdi",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "PCMDI",
+            "institution:ror": "041nk4h53",
+            "institution:name": "Lawrence Livermore National Laboratory",
+            "institution:url": [
+                "https://www.llnl.gov/"
+            ],
+            "institution:established": 1952,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [
+                "United States Department of Energy National Nuclear Security Administration Lawrence Livermore National Laboratory",
+                "U.S. Department of Energy National Nuclear Security Administration Los Alamos National Laboratory",
+                "United States Department of Energy Los Alamos National Laboratory",
+                "U.S. Department of Energy Los Alamos National Laboratory"
+            ],
+            "institution:acronyms": [
+                "LLNL",
+                "LLL"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/041nk4h53",
+                "@type": "location",
+                "@nest": {
+                    "lat": 37.68187,
+                    "lon": -121.76801,
+                    "city": "Livermore",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/uomontreal",
+            "@type": "mip:institution",
+            "institution:acronyms": [
+                "UdeM"
+            ],
+            "institution:aliases": [],
+            "institution:cmip_acronym": "UoMontreal",
+            "institution:established": 1878,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/0161xgx34",
+                "@type": "location",
+                "@nest": {
+                    "lat": 45.50884,
+                    "lon": 45.50884,
+                    "city": "Montreal",
+                    "country": [
+                        "Canada",
+                        "CA"
+                    ]
+                }
+            },
+            "institution:name": "Universit\u00e9 de Montr\u00e9al",
+            "institution:ror": "0161xgx34",
+            "institution:type": "Education",
+            "institution:url": [
+                "http://www.umontreal.ca/english/"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/eawag",
+            "@type": "mip:institution",
+            "institution:acronyms": [
+                "EAWAG"
+            ],
+            "institution:aliases": [],
+            "institution:cmip_acronym": "EAWAG",
+            "institution:established": 1936,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/00pc48d59",
+                "@type": "location",
+                "@nest": {
+                    "lat": 47.39724,
+                    "lon": 47.39724,
+                    "city": "D\u00fcbendorf",
+                    "country": [
+                        "Switzerland",
+                        "CH"
+                    ]
+                }
+            },
+            "institution:name": "Swiss Federal Institute of Aquatic Science and Technology",
+            "institution:ror": "00pc48d59",
+            "institution:type": "Facility",
+            "institution:url": [
+                "http://www.eawag.ch/en/"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/snu",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "SNU",
+            "institution:ror": "04h9pn542",
+            "institution:name": "Seoul National University",
+            "institution:url": [
+                "http://www.snu.ac.kr/index.html"
+            ],
+            "institution:established": 1946,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [
+                "Seoul Daehakgyo"
+            ],
+            "institution:acronyms": [
+                "SNU"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/04h9pn542",
+                "@type": "location",
+                "@nest": {
+                    "lat": 37.460155,
+                    "lon": 126.951894,
+                    "city": "Seoul",
+                    "country": [
+                        "South Korea",
+                        "KR"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/nasa-larc",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "NASA-LaRC",
+            "institution:ror": "0399mhs52",
+            "institution:name": "Langley Research Center",
+            "institution:url": [
+                "http://www.nasa.gov/langley"
+            ],
+            "institution:established": 1917,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "LaRC"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/0399mhs52",
+                "@type": "location",
+                "@nest": {
+                    "lat": 37.02987,
+                    "lon": -76.34522,
+                    "city": "Hampton",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/inm",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "INM",
+            "institution:ror": "00520ey40",
+            "institution:name": "Institute of Numerical Mathematics",
+            "institution:url": [
+                "http://www.inm.ras.ru/inm_en_ver/index.htm"
+            ],
+            "institution:established": 1980,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "INM RAS"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/00520ey40",
+                "@type": "location",
+                "@nest": {
+                    "lat": 55.762997,
+                    "lon": 37.625605,
+                    "city": "Moscow",
+                    "country": [
+                        "Russia",
+                        "RU"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/pnnl-jgcri",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "PNNL-JGCRI",
+            "institution:ror": "058cmd703",
+            "institution:name": "Joint Global Change Research Institute",
+            "institution:url": [
+                "http://www.globalchange.umd.edu/"
+            ],
+            "institution:established": 2001,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "JGCRI"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/058cmd703",
+                "@type": "location",
+                "@nest": {
+                    "lat": 38.971106,
+                    "lon": -76.9217851,
+                    "city": "Riverdale Park",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/bas",
+            "@type": "mip:institution",
+            "institution:acronyms": [
+                "BAS"
+            ],
+            "institution:aliases": [],
+            "institution:cmip_acronym": "BAS",
+            "institution:established": 1962,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/01rhff309",
+                "@type": "location",
+                "@nest": {
+                    "lat": 52.212965,
+                    "lon": 52.212965,
+                    "city": "Cambridge",
+                    "country": [
+                        "United Kingdom",
+                        "GB"
+                    ]
+                }
+            },
+            "institution:name": "British Antarctic Survey",
+            "institution:ror": "01rhff309",
+            "institution:type": "Government",
+            "institution:url": [
+                "https://www.bas.ac.uk/"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/fmi",
+            "@type": "mip:institution",
+            "institution:acronyms": [
+                "FMI"
+            ],
+            "institution:aliases": [],
+            "institution:cmip_acronym": "FMI",
+            "institution:established": 1838,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/05hppb561",
+                "@type": "location",
+                "@nest": {
+                    "lat": 60.16952,
+                    "lon": 60.16952,
+                    "city": "Helsinki",
+                    "country": [
+                        "Finland",
+                        "FI"
+                    ]
+                }
+            },
+            "institution:name": "Finnish Meteorological Institute",
+            "institution:ror": "05hppb561",
+            "institution:type": "Government",
+            "institution:url": [
+                "http://en.ilmatieteenlaitos.fi/"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/ureading",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "UReading",
+            "institution:ror": "05v62cm79",
+            "institution:name": "University of Reading",
+            "institution:url": [
+                "http://www.reading.ac.uk/"
+            ],
+            "institution:established": 1926,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/05v62cm79",
+                "@type": "location",
+                "@nest": {
+                    "lat": 51.440832,
+                    "lon": -0.942503,
+                    "city": "Reading",
+                    "country": [
+                        "United Kingdom",
+                        "GB"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/nasa-jpl",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "NASA-JPL",
+            "institution:ror": "027k65916",
+            "institution:name": "Jet Propulsion Laboratory",
+            "institution:url": [
+                "http://www.jpl.nasa.gov/"
+            ],
+            "institution:established": 1936,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [
+                "Jet Propulsion Lab",
+                "Jet Propulsion Laboratory, California Institute of Technology"
+            ],
+            "institution:acronyms": [
+                "JPL"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/027k65916",
+                "@type": "location",
+                "@nest": {
+                    "lat": 34.19917,
+                    "lon": -118.18785,
+                    "city": "La Ca\u00f1ada Flintridge",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/aor",
+            "@type": "mip:institution",
+            "institution:acronyms": [],
+            "institution:aliases": [],
+            "institution:cmip_acronym": "AoR",
+            "institution:established": 1938,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/02hnp4676",
+                "@type": "location",
+                "@nest": {
+                    "lat": 41.921669,
+                    "lon": 41.921669,
+                    "city": "Rome",
+                    "country": [
+                        "Italy",
+                        "IT"
+                    ]
+                }
+            },
+            "institution:name": "Astronomical Observatory of Rome",
+            "institution:ror": "02hnp4676",
+            "institution:type": "Facility",
+            "institution:url": [
+                "http://web.oa-roma.inaf.it/"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/uobergen",
+            "@type": "mip:institution",
+            "institution:acronyms": [
+                "UiB"
+            ],
+            "institution:aliases": [],
+            "institution:cmip_acronym": "UoBergen",
+            "institution:established": 1946,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/03zga2b32",
+                "@type": "location",
+                "@nest": {
+                    "lat": 60.39299,
+                    "lon": 60.39299,
+                    "city": "Bergen",
+                    "country": [
+                        "Norway",
+                        "NO"
+                    ]
+                }
+            },
+            "institution:name": "University of Bergen",
+            "institution:ror": "03zga2b32",
+            "institution:type": "Education",
+            "institution:url": [
+                "http://www.uib.no/"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/uoleeds",
+            "@type": "mip:institution",
+            "institution:acronyms": [],
+            "institution:aliases": [],
+            "institution:cmip_acronym": "UoLeeds",
+            "institution:established": 1904,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/024mrxd33",
+                "@type": "location",
+                "@nest": {
+                    "lat": 53.79648,
+                    "lon": 53.79648,
+                    "city": "Leeds",
+                    "country": [
+                        "United Kingdom",
+                        "GB"
+                    ]
+                }
+            },
+            "institution:name": "University of Leeds",
+            "institution:ror": "024mrxd33",
+            "institution:type": "Education",
+            "institution:url": [
+                "http://www.leeds.ac.uk/"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/mps",
+            "@type": "mip:institution",
+            "institution:acronyms": [
+                "MPS"
+            ],
+            "institution:aliases": [],
+            "institution:cmip_acronym": "MPS",
+            "institution:established": 1934,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/02j6gm739",
+                "@type": "location",
+                "@nest": {
+                    "lat": 51.561218,
+                    "lon": 51.561218,
+                    "city": "G\u00f6ttingen",
+                    "country": [
+                        "Germany",
+                        "DE"
+                    ]
+                }
+            },
+            "institution:name": "Max Planck Institute for Solar System Research",
+            "institution:ror": "02j6gm739",
+            "institution:type": "Facility",
+            "institution:url": [
+                "http://www.mps.mpg.de/en"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/niwa",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "NIWA",
+            "institution:ror": "04hxcaz34",
+            "institution:name": "National Institute of Water and Atmospheric Research",
+            "institution:url": [
+                "https://www.niwa.co.nz/"
+            ],
+            "institution:established": 1992,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [
+                "Taihoro Nukurangi"
+            ],
+            "institution:acronyms": [
+                "NIWA"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/04hxcaz34",
+                "@type": "location",
+                "@nest": {
+                    "lat": -36.84403,
+                    "lon": 174.76172,
+                    "city": "Auckland",
+                    "country": [
+                        "New Zealand",
+                        "NZ"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/as-rcec",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "AS-RCEC",
+            "institution:ror": "050qpg053",
+            "institution:name": "Research Center for Environmental Changes, Academia Sinica",
+            "institution:url": [
+                "http://www.rcec.sinica.edu.tw/"
+            ],
+            "institution:established": 0,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "RCEC"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/050qpg053",
+                "@type": "location",
+                "@nest": {
+                    "lat": 25.040712,
+                    "lon": 121.614171,
+                    "city": "Taipei",
+                    "country": [
+                        "Taiwan",
+                        "TW"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/osu",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "OSU",
+            "institution:ror": "00ysfqy60",
+            "institution:name": "Oregon State University",
+            "institution:url": [
+                "http://oregonstate.edu/"
+            ],
+            "institution:established": 1868,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "OSU"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/00ysfqy60",
+                "@type": "location",
+                "@nest": {
+                    "lat": 44.56457,
+                    "lon": -123.26204,
+                    "city": "Corvallis",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/kit",
+            "@type": "mip:institution",
+            "institution:acronyms": [
+                "KIT"
+            ],
+            "institution:aliases": [
+                "Karlsruhe Institute of Technology - The Research University in the Helmholtz Association",
+                "Das Karlsruher Institut f\u00fcr Technologie (KIT) \u2013 Die Forschungsuniversit\u00e4t in der Helmholtz-Gemeinschaft"
+            ],
+            "institution:cmip_acronym": "KIT",
+            "institution:established": 2009,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/04t3en479",
+                "@type": "location",
+                "@nest": {
+                    "lat": 49.00937,
+                    "lon": 49.00937,
+                    "city": "Karlsruhe",
+                    "country": [
+                        "Germany",
+                        "DE"
+                    ]
+                }
+            },
+            "institution:name": "Karlsruhe Institute of Technology",
+            "institution:ror": "04t3en479",
+            "institution:type": "Education",
+            "institution:url": [
+                "http://www.kit.edu/english/"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/uci",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "UCI",
+            "institution:ror": "04gyf1771",
+            "institution:name": "University of California, Irvine",
+            "institution:url": [
+                "http://uci.edu/"
+            ],
+            "institution:established": 1965,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [
+                "UC Irvine"
+            ],
+            "institution:acronyms": [
+                "UCI"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/04gyf1771",
+                "@type": "location",
+                "@nest": {
+                    "lat": 33.64535,
+                    "lon": -117.842642,
+                    "city": "Irvine",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/mpi-b",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "MPI-B",
+            "institution:ror": "051yxp643",
+            "institution:name": "Max Planck Institute for Biogeochemistry",
+            "institution:url": [
+                "http://www.bgc-jena.mpg.de/"
+            ],
+            "institution:established": 1997,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/051yxp643",
+                "@type": "location",
+                "@nest": {
+                    "lat": 50.910556,
+                    "lon": 11.567222,
+                    "city": "Jena",
+                    "country": [
+                        "Germany",
+                        "DE"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/issi",
+            "@type": "mip:institution",
+            "institution:acronyms": [
+                "ISSI"
+            ],
+            "institution:aliases": [],
+            "institution:cmip_acronym": "ISSI",
+            "institution:established": 1995,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/01xm30661",
+                "@type": "location",
+                "@nest": {
+                    "lat": 46.952897,
+                    "lon": 46.952897,
+                    "city": "Bern",
+                    "country": [
+                        "Switzerland",
+                        "CH"
+                    ]
+                }
+            },
+            "institution:name": "International Space Science Institute",
+            "institution:ror": "01xm30661",
+            "institution:type": "Nonprofit",
+            "institution:url": [
+                "http://www.issibern.ch/"
+            ]
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/ipsl",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "IPSL",
+            "institution:ror": "02haar591",
+            "institution:name": "Institut Pierre-Simon Laplace",
+            "institution:url": [
+                "https://www.ipsl.fr/en/"
+            ],
+            "institution:established": 1991,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "IPSL"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/02haar591",
+                "@type": "location",
+                "@nest": {
+                    "lat": 48.855675,
+                    "lon": 2.332105,
+                    "city": "Paris",
+                    "country": [
+                        "France",
+                        "FR"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/jaxa",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "JAXA",
+            "institution:ror": "059yhyy33",
+            "institution:name": "Japan Aerospace Exploration Agency",
+            "institution:url": [
+                "http://global.jaxa.jp/"
+            ],
+            "institution:established": 2003,
+            "institution:type": "Facility",
+            "institution:labels": [],
+            "institution:aliases": [
+                "Dokuritsu-gy\u014dsei-h\u014djin Uch\u016b K\u014dk\u016b Kenky\u016b Kaihatsu Kik\u014d",
+                "Independent Administrative Institution on Aerospace Research and Development"
+            ],
+            "institution:acronyms": [
+                "JAXA"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/059yhyy33",
+                "@type": "location",
+                "@nest": {
+                    "lat": 35.680834,
+                    "lon": 139.558269,
+                    "city": "Tokyo",
+                    "country": [
+                        "Japan",
+                        "JP"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/ceda",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "CEDA",
+            "institution:ror": "04j4kad11",
+            "institution:name": "Centre for Environmental Data Analysis",
+            "institution:url": [
+                "https://www.ceda.ac.uk/"
+            ],
+            "institution:established": 2005,
+            "institution:type": "Government",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "CEDA"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/04j4kad11",
+                "@type": "location",
+                "@nest": {
+                    "lat": 53.41667,
+                    "lon": -0.96667,
+                    "city": "Harwell",
+                    "country": [
+                        "United Kingdom",
+                        "GB"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/uw",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "UW",
+            "institution:ror": "00cvxb145",
+            "institution:name": "University of Washington",
+            "institution:url": [
+                "http://www.washington.edu/"
+            ],
+            "institution:established": 1861,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [],
+            "institution:acronyms": [
+                "UW"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/00cvxb145",
+                "@type": "location",
+                "@nest": {
+                    "lat": 47.60621,
+                    "lon": -122.33207,
+                    "city": "Seattle",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/ucsb",
+            "@type": "mip:institution",
+            "institution:cmip_acronym": "UCSB",
+            "institution:ror": "02t274463",
+            "institution:name": "University of California, Santa Barbara",
+            "institution:url": [
+                "http://www.ucsb.edu/"
+            ],
+            "institution:established": 1891,
+            "institution:type": "Education",
+            "institution:labels": [],
+            "institution:aliases": [
+                "UC Santa Barbara"
+            ],
+            "institution:acronyms": [
+                "UCSB"
+            ],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/02t274463",
+                "@type": "location",
+                "@nest": {
+                    "lat": 34.42083,
+                    "lon": -119.69819,
+                    "city": "Santa Barbara",
+                    "country": [
+                        "United States",
+                        "US"
+                    ]
+                }
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/institutions/lpc2e",
+            "@type": "mip:institution",
+            "institution:acronyms": [
+                "LPC2E"
+            ],
+            "institution:aliases": [],
+            "institution:cmip_acronym": "LPC2E",
+            "institution:established": 2012,
+            "institution:labels": [],
+            "institution:location": {
+                "@id": "mip-cmor-tables:organisations/institutions/location/049k66y27",
+                "@type": "location",
+                "@nest": {
+                    "lat": 47.90289,
+                    "lon": 47.90289,
+                    "city": "Orl\u00e9ans",
+                    "country": [
+                        "France",
+                        "FR"
+                    ]
+                }
+            },
+            "institution:name": "Laboratoire de Physique et Chimie de l\u2019Environnement et de l\u2019Espace",
+            "institution:ror": "049k66y27",
+            "institution:type": "Facility",
+            "institution:url": [
+                "https://www.lpc2e.cnrs.fr"
+            ]
+        }
+    ],
+    "files": [
+        "bcc.json",
+        "ua.json",
+        "ntu.json",
+        "uootago.json",
+        "nasa-gsfc.json",
+        "cccma.json",
+        "cnes.json",
+        "mpi-m.json",
+        "pmod.json",
+        "nuist.json",
+        "aer.json",
+        "mohc.json",
+        "cas.json",
+        "cmcc.json",
+        "uofmd.json",
+        "dkrz.json",
+        "noaa-ncei.json",
+        "mri.json",
+        "pnnl-waccem.json",
+        "llnl.json",
+        "nerc.json",
+        "iaceth.json",
+        "rss.json",
+        "ncar.json",
+        "csiro.json",
+        "ifm-geomar.json",
+        "esso.json",
+        "thu.json",
+        "uhh.json",
+        "awi.json",
+        "fuberlin.json",
+        "cams.json",
+        "ecmwf.json",
+        "imperialcollege.json",
+        "pcmdi.json",
+        "vua.json",
+        "ncas.json",
+        "uooulu.json",
+        "auot.json",
+        "nasa-giss.json",
+        "dwd.json",
+        "uom.json",
+        "kiost.json",
+        "ucolorado.json",
+        "cccr-iitm.json",
+        "uomontreal.json",
+        "nasa-larc.json",
+        "snu.json",
+        "eawag.json",
+        "inm.json",
+        "bas.json",
+        "pnnl-jgcri.json",
+        "aor.json",
+        "mps.json",
+        "fmi.json",
+        "ureading.json",
+        "uobergen.json",
+        "nasa-jpl.json",
+        "as-rcec.json",
+        "niwa.json",
+        "uoleeds.json",
+        "uci.json",
+        "kit.json",
+        "osu.json",
+        "mpi-b.json",
+        "issi.json",
+        "jaxa.json",
+        "uw.json",
+        "lpc2e.json",
+        "ucsb.json",
+        "ceda.json",
+        "ipsl.json"
+    ]
+}

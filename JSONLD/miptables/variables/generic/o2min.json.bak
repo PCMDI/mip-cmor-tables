@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/o2min",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Oxygen Minimum Concentration",
+    "variable:out_name": "o2min",
+    "variable:positive": "",
+    "variable:standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water_at_shallowest_local_minimum_in_vertical_profile",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3"
+    ]
+}

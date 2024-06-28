@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sifllwdtop",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Downwelling Longwave Flux over Sea Ice",
+    "variable:out_name": "sifllwdtop",
+    "variable:positive": "down",
+    "variable:standard_name": "surface_downwelling_longwave_flux_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

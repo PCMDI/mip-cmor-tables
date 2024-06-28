@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sndmasssubl",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Snow Mass Rate of Change Through Evaporation or Sublimation",
+    "variable:out_name": "sndmasssubl",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_snow_and_ice",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

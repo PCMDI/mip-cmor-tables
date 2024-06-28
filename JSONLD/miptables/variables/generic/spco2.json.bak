@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/spco2",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Aqueous Partial Pressure of CO2",
+    "variable:out_name": "spco2",
+    "variable:positive": "",
+    "variable:standard_name": "surface_partial_pressure_of_carbon_dioxide_in_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "Pa"
+    ]
+}

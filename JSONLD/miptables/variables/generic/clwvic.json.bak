@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/clwvic",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Convective Condensed Water Path",
+    "variable:out_name": "clwvic",
+    "variable:positive": "",
+    "variable:standard_name": "atmosphere_mass_content_of_convective_cloud_condensed_water",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

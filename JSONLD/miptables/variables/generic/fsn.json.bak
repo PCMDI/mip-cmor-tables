@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/fsn",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Downward Net Flux of Nitrogen",
+    "variable:out_name": "fsn",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_ocean_mole_content_of_elemental_nitrogen_due_to_deposition_and_fixation_and_runoff",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-2",
+        "s-1"
+    ]
+}

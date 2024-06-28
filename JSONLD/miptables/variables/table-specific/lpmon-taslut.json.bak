@@ -1,0 +1,31 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpmon-taslut",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/taslut"
+    },
+    "variable:branded_variable_name": "tasLut_mon-ld-tav-h02-hxy",
+    "variable:comment": "Air temperature is the bulk temperature of the air, not the surface (skin) temperature.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "landUse",
+        "time",
+        "height2m"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/lpmon-taslut"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

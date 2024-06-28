@@ -1,0 +1,131 @@
+{
+    "CNRM-CERFACS": [
+        "CNRM (Centre National de Recherches Meteorologiques, Toulouse 31057, France)",
+        "CERFACS (Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique, Toulouse 31057, France)"
+    ],
+    "CNRM-Cerfacs": [
+        "CNRM (Centre National de Recherches Meteorologiques, Toulouse 31057, France), CERFACS (Centre Europeen de Recherche et de Formation Avancee en Calcul Scientifique, Toulouse 31100, France)"
+    ],
+    "CSIRO-ARCCSS": [
+        "ARCCSS (Australian Research Council Centre of Excellence for Climate System Science)"
+    ],
+    "CSIRO-COSIMA": [
+        "COSIMA (Consortium for Ocean-Sea Ice Modelling in Australia)"
+    ],
+    "DLR-BIRA": [
+        "Deutsches Zentrum fur Luft- und Raumfahrt",
+        "Royal Belgian Institute for Space Aeronomy"
+    ],
+    "E3SM-Project": [
+        "ANL (Argonne National Laboratory, Argonne, IL 60439, USA)",
+        "BNL (Brookhaven National Laboratory, Upton, NY 11973, USA)",
+        "LANL (Los Alamos National Laboratory, Los Alamos, NM 87545, USA)",
+        "LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA)",
+        "ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA)",
+        "PNNL (Pacific Northwest National Laboratory, Richland, WA 99352, USA)",
+        "SNL (Sandia National Laboratories, Albuquerque, NM 87185, USA)"
+    ],
+    "EC-Earth-Consortium": [
+        "AEMET, Spain",
+        "BSC, Spain",
+        "CNR-ISAC, Italy",
+        "DMI, Denmark",
+        "ENEA, Italy",
+        "FMI, Finland",
+        "Geomar, Germany",
+        "ICHEC, Ireland",
+        "ICTP, Italy",
+        "IDL, Portugal",
+        "IMAU, The Netherlands",
+        "IPMA, Portugal",
+        "KIT, Karlsruhe, Germany",
+        "KNMI, The Netherlands",
+        "Lund University, Sweden",
+        "Met Eireann, Ireland",
+        "NLeSC, The Netherlands",
+        "NTNU, Norway",
+        "Oxford University, UK",
+        "surfSARA, The Netherlands",
+        "SMHI, Sweden",
+        "Stockholm University, Sweden",
+        "Unite ASTR, Belgium",
+        "University College Dublin, Ireland",
+        "University of Bergen, Norway",
+        "University of Copenhagen, Denmark",
+        "University of Helsinki, Finland",
+        "University of Santiago de Compostela, Spain",
+        "Uppsala University, Sweden",
+        "Utrecht University, The Netherlands",
+        "Vrije Universiteit Amsterdam, the Netherlands",
+        "Wageningen University, The Netherlands"
+    ],
+    "ESPRI-IPSL": [
+        "Ensemble de Services Pour la Recherche",
+        "Institut Pierre Simon Laplace (France)"
+    ],
+    "FIO-QLNM": [
+        "FIO (First Institute of Oceanography, Ministry of Natural Resources, Qingdao 266061, China)",
+        "QNLM (Qingdao National Laboratory for Marine Science and Technology, Qingdao 266237, China)"
+    ],
+    "HAMMOZ-Consortium": [
+        "ETH Zurich, Switzerland",
+        "Max Planck Institut fur Meteorologie, Germany",
+        "Forschungszentrum Julich, Germany",
+        "University of Oxford, UK",
+        "Finnish Meteorological Institute, Finland",
+        "Leibniz Institute for Tropospheric Research, Germany",
+        "Center for Climate Systems Modeling (C2SM) at ETH Zurich, Switzerland"
+    ],
+    "IAMC": [
+        "Integrated Assessment Modeling Consortium"
+    ],
+    "INCOIS-NIO-IPSL": [
+        "INCOIS(India)",
+        "NIO(India)",
+        "IPSL(France)"
+    ],
+    "MESSy-Consortium": [
+        "Institute for Physics of the Atmosphere, Deutsches Zentrum fur Luft- und Raumfahrt (DLR), Wessling, Bavaria 82234, Germany"
+    ],
+    "MIROC": [
+        "JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa 236-0001, Japan)",
+        "AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba 277-8564, Japan)",
+        "NIES (National Institute for Environmental Studies, Ibaraki 305-8506, Japan)",
+        "R-CCS (RIKEN Center for Computational Science, Hyogo 650-0047, Japan)"
+    ],
+    "NCC": [
+        "NorESM Climate modeling Consortium consisting of CICERO (Center for International Climate and Environmental Research, Oslo 0349)",
+        "MET-Norway (Norwegian Meteorological Institute, Oslo 0313)",
+        "NERSC (Nansen Environmental and Remote Sensing Center, Bergen 5006)",
+        "NILU (Norwegian Institute for Air Research, Kjeller 2027)",
+        "UiB (University of Bergen, Bergen 5007)",
+        "UiO (University of Oslo, Oslo 0313)",
+        "UNI (Uni Research, Bergen 5008) Norway"
+    ],
+    "NIMS-KMA": [
+        "National Institute of Meteorological Sciences",
+        "Korea Meteorological Administration"
+    ],
+    "NOAA-GFDL": [
+        "National Oceanic and Atmospheric Administration",
+        "Geophysical Fluid Dynamics Laboratory, Princeton, NJ 08540, USA"
+    ],
+    "PCMDI": [
+        "Program for Climate Model Diagnosis and Intercomparison",
+        "Lawrence Livermore National Laboratory, Livermore, CA 94550, USA"
+    ],
+    "RTE-RRTMGP-Consortium": [],
+    "RUBISCO": [
+        "ORNL (Oak Ridge National Laboratory, Oak Ridge, TN 37831, USA)",
+        "ANL (Argonne National Laboratory, Argonne, IL 60439, USA)",
+        "BNL (Brookhaven National Laboratory, Upton, NY 11973, USA)",
+        "LANL (Los Alamos National Laboratory, Los Alamos, NM 87545)",
+        "LBNL (Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA)",
+        "NAU (Northern Arizona University, Flagstaff, AZ 86011, USA)",
+        "UM (University of Michigan, Ann Arbor, MI 48109, USA)"
+    ],
+    "UCSD-SIO": [
+        "University of California, San Diego",
+        "Scripps Institution of Oceanography"
+    ]
+}

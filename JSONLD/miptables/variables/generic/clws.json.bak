@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/clws",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Mass Fraction of Stratiform Cloud Liquid Water",
+    "variable:out_name": "clws",
+    "variable:positive": "",
+    "variable:standard_name": "mass_fraction_of_stratiform_cloud_liquid_water_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

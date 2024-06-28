@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/jo3",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Photolysis Rate of Ozone (O3)",
+    "variable:out_name": "jo3",
+    "variable:positive": "",
+    "variable:standard_name": "photolysis_rate_of_ozone",
+    "variable:type": "real",
+    "variable:units": [
+        "s-1"
+    ]
+}

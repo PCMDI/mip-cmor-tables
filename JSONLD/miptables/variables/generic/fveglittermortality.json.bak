@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/fveglittermortality",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Total Carbon Mass Flux from Vegetation to Litter as a Result of Mortality",
+    "variable:out_name": "fVegLitterMortality",
+    "variable:positive": "",
+    "variable:standard_name": "mass_flux_of_carbon_into_litter_from_vegetation_due_to_mortality",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/treefrac",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Tree Cover Percentage",
+    "variable:out_name": "treeFrac",
+    "variable:positive": "",
+    "variable:standard_name": "area_fraction",
+    "variable:type": "real",
+    "variable:units": [
+        "%"
+    ]
+}

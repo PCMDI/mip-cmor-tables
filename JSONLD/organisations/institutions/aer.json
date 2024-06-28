@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/aer",
+    "@type": "institution",
+    "cmip_acronym": "AER",
+    "ror": "04cg70g73",
+    "name": "Atmospheric and Environmental Research",
+    "url": [
+        "http://www.aer.com/"
+    ],
+    "established": 1977,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
+        "AER"
+    ],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/04cg70g73",
+        "@type": "location",
+        "@nest": {
+            "lat": 42.539472,
+            "lon": -71.256946,
+            "city": "Lexington",
+            "country": [
+                "United States",
+                "US"
+            ]
+        }
+    }
+}

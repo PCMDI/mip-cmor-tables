@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/edt",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Eddy Diffusivity Coefficient for Temperature",
+    "variable:out_name": "edt",
+    "variable:positive": "",
+    "variable:standard_name": "atmosphere_heat_diffusivity",
+    "variable:type": "real",
+    "variable:units": [
+        "m2",
+        "s-1"
+    ]
+}

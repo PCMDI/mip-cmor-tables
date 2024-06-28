@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/dfe",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Dissolved Iron Concentration",
+    "variable:out_name": "dfe",
+    "variable:positive": "",
+    "variable:standard_name": "mole_concentration_of_dissolved_iron_in_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/uw",
+    "@type": "institution",
+    "cmip_acronym": "UW",
+    "ror": "00cvxb145",
+    "name": "University of Washington",
+    "url": [
+        "http://www.washington.edu/"
+    ],
+    "established": 1861,
+    "type": "Education",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
+        "UW"
+    ],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/00cvxb145",
+        "@type": "location",
+        "@nest": {
+            "lat": 47.60621,
+            "lon": -122.33207,
+            "city": "Seattle",
+            "country": [
+                "United States",
+                "US"
+            ]
+        }
+    }
+}

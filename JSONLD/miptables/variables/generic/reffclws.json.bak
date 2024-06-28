@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/reffclws",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Stratiform Cloud Liquid Droplet Effective Radius",
+    "variable:out_name": "reffclws",
+    "variable:positive": "",
+    "variable:standard_name": "effective_radius_of_stratiform_cloud_liquid_water_particles",
+    "variable:type": "real",
+    "variable:units": [
+        "m"
+    ]
+}

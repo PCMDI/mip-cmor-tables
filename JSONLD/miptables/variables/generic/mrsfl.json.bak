@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/mrsfl",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Frozen Water Content of Soil Layer",
+    "variable:out_name": "mrsfl",
+    "variable:positive": "",
+    "variable:standard_name": "frozen_water_content_of_soil_layer",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

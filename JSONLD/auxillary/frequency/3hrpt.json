@@ -1,0 +1,8 @@
+{
+    "@id": "mip-cmor-tables:auxillary/frequency/3hrpt",
+    "@type": "frequency",
+    "name": "3hrPt",
+    "description": "sampled 3 hourly, at specified time point within the time period",
+    "unit": "hour",
+    "long_name": "3 Hour Point"
+}

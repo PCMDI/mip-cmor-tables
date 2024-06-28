@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/cvegtree",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Carbon Mass in Vegetation on Tree Tiles",
+    "variable:out_name": "cVegTree",
+    "variable:positive": "",
+    "variable:standard_name": "vegetation_carbon_content",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

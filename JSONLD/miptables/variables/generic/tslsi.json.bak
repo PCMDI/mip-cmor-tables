@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/tslsi",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Temperature Where Land or Sea Ice",
+    "variable:out_name": "tslsi",
+    "variable:positive": "",
+    "variable:standard_name": "surface_temperature",
+    "variable:type": "real",
+    "variable:units": [
+        "K"
+    ]
+}

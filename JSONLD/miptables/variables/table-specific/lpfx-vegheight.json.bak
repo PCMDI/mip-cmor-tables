@@ -1,0 +1,28 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpfx-vegheight",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/vegheight"
+    },
+    "variable:branded_variable_name": "vegHeight_fx-ld-none-z0-hxy",
+    "variable:comment": "Vegetation height averaged over all vegetation types and over the vegetated fraction of a grid cell.",
+    "variable:frequency": "fx",
+    "variable:dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/lpfx-vegheight"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

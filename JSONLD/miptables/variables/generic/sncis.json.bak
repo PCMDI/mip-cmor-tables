@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sncis",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Ice Sheet Snow Cover Percentage",
+    "variable:out_name": "sncIs",
+    "variable:positive": "",
+    "variable:standard_name": "surface_snow_area_fraction",
+    "variable:type": "real",
+    "variable:units": [
+        "%"
+    ]
+}

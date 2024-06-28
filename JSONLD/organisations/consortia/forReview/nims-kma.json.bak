@@ -1,0 +1,41 @@
+{
+    "@id": "mip-cmor-tables:organisations/consortia/nims-kma",
+    "@type": "cmip:consortium",
+    "consortium:cmip_acronym": "NIMS-KMA",
+    "consortium:description": "NIMS-KMA",
+    "consortium:url": "",
+    "consortium:changes": "",
+    "consortium:members": {
+        "@set": [
+            {
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/national"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
+            },
+            {
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/korea"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
+            }
+        ]
+    },
+    "consortia:status": "active"
+}

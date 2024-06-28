@@ -1,0 +1,8 @@
+{
+    "@id": "mip-cmor-tables:grid/label/gnz",
+    "@type": "grid-label",
+    "acronym": "gnz",
+    "short name": "Grid Native Greenland Zonal Mean",
+    "description": "zonal mean data reported on a model's native latitude grid",
+    "region": "greenland"
+}

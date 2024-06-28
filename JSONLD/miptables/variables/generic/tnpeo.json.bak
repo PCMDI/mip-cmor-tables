@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/tnpeo",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Tendency of Ocean Potential Energy Content",
+    "variable:out_name": "tnpeo",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_ocean_potential_energy_content",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

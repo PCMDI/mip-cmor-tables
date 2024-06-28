@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/tnta",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Tendency of Air Temperature Due to Advection",
+    "variable:out_name": "tnta",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_air_temperature_due_to_advection",
+    "variable:type": "real",
+    "variable:units": [
+        "K",
+        "s-1"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/pnnl-waccem",
+    "@type": "institution",
+    "cmip_acronym": "PNNL-WACCEM",
+    "ror": "05h992307",
+    "name": "Pacific Northwest National Laboratory",
+    "url": [
+        "http://www.pnnl.gov/"
+    ],
+    "established": 1965,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
+        "PNNL"
+    ],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/05h992307",
+        "@type": "location",
+        "@nest": {
+            "lat": 46.28569,
+            "lon": -119.28446,
+            "city": "Richland",
+            "country": [
+                "United States",
+                "US"
+            ]
+        }
+    }
+}

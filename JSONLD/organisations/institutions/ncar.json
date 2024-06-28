@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/ncar",
+    "@type": "institution",
+    "acronyms": [
+        "NCAR"
+    ],
+    "aliases": [],
+    "cmip_acronym": "NCAR",
+    "established": 1930,
+    "labels": [],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/05cvfcr44",
+        "@type": "location",
+        "@nest": {
+            "lat": 40.01499,
+            "lon": 40.01499,
+            "city": "Boulder",
+            "country": [
+                "United States",
+                "US"
+            ]
+        }
+    },
+    "name": "National Center for Atmospheric Research",
+    "ror": "05cvfcr44",
+    "type": "Facility",
+    "url": [
+        "https://ncar.ucar.edu/"
+    ]
+}

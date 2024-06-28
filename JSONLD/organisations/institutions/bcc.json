@@ -1,0 +1,28 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/bcc",
+    "@type": "institution",
+    "cmip_acronym": "BCC",
+    "ror": "01spyyb53",
+    "name": "Beijing Biocytogen (China)",
+    "url": [
+        "http://www.bbctg.com.cn/"
+    ],
+    "established": 2008,
+    "type": "Company",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/01spyyb53",
+        "@type": "location",
+        "@nest": {
+            "lat": 39.950128,
+            "lon": 116.383679,
+            "city": "Beijing",
+            "country": [
+                "China",
+                "CN"
+            ]
+        }
+    }
+}

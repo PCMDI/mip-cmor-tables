@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-ygwdparam",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/ygwdparam"
+    },
+    "variable:branded_variable_name": "ygwdparam_mon-ap-tav-p39-hy",
+    "variable:comment": "Parameterised y- component of gravity wave drag",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apmonz-ygwdparam"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/awi",
+    "@type": "institution",
+    "cmip_acronym": "AWI",
+    "ror": "032e6b942",
+    "name": "Alfred Wegener Institute for Polar and Marine Research",
+    "url": [
+        "https://www.awi.de"
+    ],
+    "established": 1980,
+    "type": "Facility",
+    "labels": [],
+    "aliases": [],
+    "acronyms": [
+        "AWI"
+    ],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/032e6b942",
+        "@type": "location",
+        "@nest": {
+            "lat": 53.53615,
+            "lon": 8.59298,
+            "city": "Bremerhaven",
+            "country": [
+                "Germany",
+                "DE"
+            ]
+        }
+    }
+}

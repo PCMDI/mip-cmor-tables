@@ -1,0 +1,11 @@
+{
+  "@context": {
+    "@vocab": "license:",
+    "@base": "https://github.com/PCMDI/mip-cmor-tables"
+  },
+  "@type": "license",
+  "kind": "",
+  "conditions": "",
+  "license_id": "",
+  "license_url": ""
+}

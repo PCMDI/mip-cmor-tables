@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/prsnis",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Ice Sheet Snowfall Flux",
+    "variable:out_name": "prsnIs",
+    "variable:positive": "",
+    "variable:standard_name": "snowfall_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

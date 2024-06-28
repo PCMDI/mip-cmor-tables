@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonlev-cl",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/cl"
+    },
+    "variable:branded_variable_name": "cl_mon-ap-tav-l-hxy",
+    "variable:comment": "Percentage cloud cover, including both large-scale and convective cloud.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apmonlev-cl"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": 26.07,
+        "ok_min_mean_abs": "",
+        "valid_max": 105,
+        "valid_min": 0
+    }
+}

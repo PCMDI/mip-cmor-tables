@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/siareas",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea-Ice Area South",
+    "variable:out_name": "siareas",
+    "variable:positive": "",
+    "variable:standard_name": "sea_ice_area",
+    "variable:type": "real",
+    "variable:units": [
+        "1e6",
+        "km2"
+    ]
+}

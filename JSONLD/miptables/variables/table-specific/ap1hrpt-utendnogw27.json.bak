@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap1hrpt-utendnogw27",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/utendnogw27"
+    },
+    "variable:branded_variable_name": "utendnogw_1hr-ap-tpt-p27-hxy",
+    "variable:comment": "Tendency of the eastward wind by parameterized nonorographic gravity waves.",
+    "variable:frequency": "1hrPt",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "plev27",
+        "time1"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/ap1hrpt-utendnogw27"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

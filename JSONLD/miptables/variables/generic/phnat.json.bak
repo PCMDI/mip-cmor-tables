@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/phnat",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Natural pH",
+    "variable:out_name": "phnat",
+    "variable:positive": "",
+    "variable:standard_name": "sea_water_ph_natural_analogue_reported_on_total_scale",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

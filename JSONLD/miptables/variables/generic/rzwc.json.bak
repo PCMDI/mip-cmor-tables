@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rzwc",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Root Zone Soil Moisture",
+    "variable:out_name": "rzwc",
+    "variable:positive": "",
+    "variable:standard_name": "mass_content_of_water_in_soil_layer_defined_by_root_depth",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

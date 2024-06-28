@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/tauvo",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea Water Surface Downward Y Stress",
+    "variable:out_name": "tauvo",
+    "variable:positive": "down",
+    "variable:standard_name": "downward_y_stress_at_sea_water_surface",
+    "variable:type": "real",
+    "variable:units": [
+        "N",
+        "m-2"
+    ]
+}

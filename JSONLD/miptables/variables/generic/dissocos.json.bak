@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/dissocos",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Dissolved Organic Carbon Concentration",
+    "variable:out_name": "dissocos",
+    "variable:positive": "",
+    "variable:standard_name": "mole_concentration_of_dissolved_organic_carbon_in_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3"
+    ]
+}

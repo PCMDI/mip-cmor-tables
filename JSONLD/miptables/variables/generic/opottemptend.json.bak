@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/opottemptend",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Tendency of Sea Water Potential Temperature Expressed as Heat Content",
+    "variable:out_name": "opottemptend",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_sea_water_potential_temperature_expressed_as_heat_content",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

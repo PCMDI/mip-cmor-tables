@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-xvelmean",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/xvelmean"
+    },
+    "variable:branded_variable_name": "xvelmean_yr-li-tav-z0-hxyG",
+    "variable:comment": "The vertical mean land ice velocity is the average from the bedrock to the surface of the ice",
+    "variable:frequency": "yr",
+    "variable:dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/landIce"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/gigyr-xvelmean"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

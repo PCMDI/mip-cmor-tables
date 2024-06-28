@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/wap500",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Pressure Tendency",
+    "variable:out_name": "wap500",
+    "variable:positive": "",
+    "variable:standard_name": "lagrangian_tendency_of_air_pressure",
+    "variable:type": "real",
+    "variable:units": [
+        "Pa",
+        "s-1"
+    ]
+}
