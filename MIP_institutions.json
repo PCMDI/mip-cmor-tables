@@ -284,6 +284,36 @@
             },
             "consortiums": []
         },
+        "CR": {
+            "identifiers": {
+                "institution_name": "Climate Resource (Australia)",
+                "aliases": [
+                    "Climate Resource",
+                    "Climate Resource Pty Ltd",
+                    "Climate Resource Ltd"
+                ],
+                "acronyms": [
+                    "CR"
+                ],
+                "labels": [],
+                "ror": "01kk86953",
+                "url": [
+                    "https://www.climate-resource.com"
+                ],
+                "established": 2020,
+                "type": "Company"
+            },
+            "location": {
+                "lat": -37.814,
+                "lon": 144.96332,
+                "city": "Melbourne",
+                "country": [
+                    "Australia",
+                    "AU"
+                ]
+            },
+            "consortiums": []
+        },
         "CSIRO": {
             "identifiers": {
                 "institution_name": "Commonwealth Scientific and Industrial Research Organisation",
