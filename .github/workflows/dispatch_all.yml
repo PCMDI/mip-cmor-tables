@@ -28,12 +28,14 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Print Payload
+        env:
+          PAYLOAD_DATA: ${{ toJSON(github.event.client_payload) }}
         run: |
           echo "kind of action: ${{ github.event.action }}"
           echo "Received Payload from"
           echo "author: ${{ github.event.client_payload.author }}"
           echo "Received Payload:"
-          echo "${{ toJson(github.event.client_payload) }}"
+          echo $PAYLOAD_DATA
 
       - name: Create Pull Request
         env:
