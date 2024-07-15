@@ -10,8 +10,15 @@ from action_functions import update_issue,jr,jw,getfile,close_issue,pp
 # data
 issue_number = os.environ['ISSUE']
 data = os.environ['PAYLOAD_DATA']
-data = json.loads(str(data))
+try:
+    data = json.loads(str(data))
+except json.decoder.JSONDecodeError:
+    print(
+        "Failed to parse received data. Maybe special characters are the issue? "
+        f"{data=}. {str(data)=}"
+    )
 
+    raise
 
 # Load Existing
 institutions = jr(getfile('institutions')[0])
