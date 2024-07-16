@@ -1492,6 +1492,30 @@
                 ]
             },
             "consortiums": []
+        },
+        "uoexeter": {
+            "identifiers": {
+                "institution_name": "University of Exeter",
+                "aliases": [],
+                "acronyms": [],
+                "labels": [],
+                "ror": "03yghzc09",
+                "url": [
+                    "http://www.exeter.ac.uk/"
+                ],
+                "established": 1955,
+                "type": "Education"
+            },
+            "location": {
+                "lat": 50.7236,
+                "lon": -3.52751,
+                "city": "Exeter",
+                "country": [
+                    "United Kingdom",
+                    "GB"
+                ]
+            },
+            "consortiums": []
         }
     },
     "version_metadata": {
