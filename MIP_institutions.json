@@ -336,6 +336,30 @@
             },
             "consortiums": []
         },
+        "DRES": {
+            "identifiers": {
+                "institution_name": "Deltares",
+                "aliases": [],
+                "acronyms": [],
+                "labels": [],
+                "ror": "01deh9c76",
+                "url": [
+                    "https://www.deltares.nl/en"
+                ],
+                "established": 2008,
+                "type": "Facility"
+            },
+            "location": {
+                "lat": 51.986071,
+                "lon": 4.379089,
+                "city": "Delft",
+                "country": [
+                    "Netherlands",
+                    "NL"
+                ]
+            },
+            "consortiums": []
+        },
         "DWD": {
             "identifiers": {
                 "institution_name": "German Meteorological Service",
