@@ -1,6 +1,6 @@
 {
-    "@type": "cmip:product",
-    "@id": "mip-cmor-tables:auxillary/product/model-output",
-    "product:kind": "model-output",
-    "product:description": "Output produced from a model simulation. This includes the various data points and metrics generated as a result of running climate models, which simulate physical, chemical, and biological processes affecting the climate system."
+  "@id": "mip-cmor-tables:auxillary/product/model-output",
+  "@type": "product",
+  "description": "Output produced from a model simulation. This includes the various data points and metrics generated as a result of running climate models, which simulate physical, chemical, and biological processes affecting the climate system.",
+  "kind": "model-output"
 }

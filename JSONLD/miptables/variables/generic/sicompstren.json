@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sicompstren",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Compressive Sea Ice Strength",
-    "variable:out_name": "sicompstren",
-    "variable:positive": "",
-    "variable:standard_name": "compressive_strength_of_sea_ice",
-    "variable:type": "real",
-    "variable:units": [
-        "N",
-        "m-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sicompstren",
+  "@type": "variable-generic",
+  "variable:long_name": "Compressive Sea Ice Strength",
+  "variable:out_name": "sicompstren",
+  "variable:positive": "",
+  "variable:standard_name": "compressive_strength_of_sea_ice",
+  "variable:type": "real",
+  "variable:units": [
+    "N",
+    "m-1"
+  ]
 }

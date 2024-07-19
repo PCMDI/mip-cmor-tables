@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpmon-flulccatmlut",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/flulccatmlut"
-    },
-    "variable:branded_variable_name": "fLulccAtmLut_mon-ld-tav-z0-hxy",
-    "variable:comment": "This annual mean flux refers to the transfer of carbon directly to the atmosphere due to any land-use or land-cover change activities.  Include carbon transferred due to deforestation or agricultural directly into atmosphere, and  emissions form anthropogenic pools into atmosphere",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "landUse",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/lpmon-flulccatmlut"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/lpmon-flulccatmlut",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "fLulccAtmLut_mon-ld-tav-z0-hxy",
+  "variable:comment": "This annual mean flux refers to the transfer of carbon directly to the atmosphere due to any land-use or land-cover change activities.  Include carbon transferred due to deforestation or agricultural directly into atmosphere, and  emissions form anthropogenic pools into atmosphere",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "landUse",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/flulccatmlut"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/lpmon-flulccatmlut"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

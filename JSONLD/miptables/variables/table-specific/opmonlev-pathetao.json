@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonlev-pathetao",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/pathetao"
-    },
-    "variable:branded_variable_name": "pathetao_mon-op-tav-l-hxy",
-    "variable:comment": "The quantity with standard name sea_water_added_potential_temperature is a passive tracer in an ocean model whose surface flux does not come from the atmosphere but is imposed externally upon the simulated climate system. The surface flux is expressed as a heat flux and converted to a passive tracer increment as if it were a heat flux being added to potential temperature. The passive tracer is transported within the ocean as if it were potential temperature. The passive tracer is zero in the control climate of the model. The passive tracer records added heat, as described for the CMIP6 FAFMIP experiment (doi:10.5194/gmd-9-3993-2016), following earlier ideas. Potential temperature is the temperature a parcel of air or sea water would have if moved adiabatically to sea level pressure.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "olevel",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocean"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/opmonlev-pathetao"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonlev-pathetao",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "pathetao_mon-op-tav-l-hxy",
+  "variable:comment": "The quantity with standard name sea_water_added_potential_temperature is a passive tracer in an ocean model whose surface flux does not come from the atmosphere but is imposed externally upon the simulated climate system. The surface flux is expressed as a heat flux and converted to a passive tracer increment as if it were a heat flux being added to potential temperature. The passive tracer is transported within the ocean as if it were potential temperature. The passive tracer is zero in the control climate of the model. The passive tracer records added heat, as described for the CMIP6 FAFMIP experiment (doi:10.5194/gmd-9-3993-2016), following earlier ideas. Potential temperature is the temperature a parcel of air or sea water would have if moved adiabatically to sea level pressure.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/pathetao"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocean"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/opmonlev-pathetao"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

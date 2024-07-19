@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpyr-cropfrac",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/cropfrac"
-    },
-    "variable:branded_variable_name": "cropFrac_yr-ld-tav-z0-hxy",
-    "variable:comment": "Percentage of entire grid cell  that is covered by crop.",
-    "variable:frequency": "yr",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time",
-        "typecrop"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/lpyr-cropfrac"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/lpyr-cropfrac",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "cropFrac_yr-ld-tav-z0-hxy",
+  "variable:comment": "Percentage of entire grid cell  that is covered by crop.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "typecrop"
+  ],
+  "variable:frequency": "yr",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/cropfrac"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/lpyr-cropfrac"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

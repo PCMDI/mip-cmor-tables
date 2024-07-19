@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/siarean",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea-Ice Area North",
-    "variable:out_name": "siarean",
-    "variable:positive": "",
-    "variable:standard_name": "sea_ice_area",
-    "variable:type": "real",
-    "variable:units": [
-        "1e6",
-        "km2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/siarean",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea-Ice Area North",
+  "variable:out_name": "siarean",
+  "variable:positive": "",
+  "variable:standard_name": "sea_ice_area",
+  "variable:type": "real",
+  "variable:units": [
+    "1e6",
+    "km2"
+  ]
 }

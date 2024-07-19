@@ -1,0 +1,107 @@
+id: https://example.org/cmip-schema
+name: "CMIP Schema"
+description: "Schema for CMIP consortium and institution data"
+
+imports:
+  - linkml:types
+
+prefixes:
+  linkml: https://w3id.org/linkml/
+  cmip: https://example.org/cmip/
+  xsd: http://www.w3.org/2001/XMLSchema#
+
+default_prefix: cmip
+
+classes:
+  Consortium:
+    class_uri: cmip:Consortium
+    attributes:
+      id:
+        identifier: true
+        range: string
+      cmip_acronym:
+        range: string
+      description:
+        range: string
+      url:
+        range: uri
+      changes:
+        range: string
+      members:
+        multivalued: true
+        range: cmip:ConsortiumMember
+
+  ConsortiumMember:
+    class_uri: cmip:ConsortiumMember
+    attributes:
+      institution:
+        range: cmip:Institution
+      membership_type:
+        range: string
+      dates:
+        multivalued: true
+        range: cmip:MembershipDate
+
+  MembershipDate:
+    class_uri: cmip:MembershipDate
+    attributes:
+      from:
+        range: integer
+      to:
+        range: string
+      phase:
+        range: cmip:MIPEra
+
+  MIPEra:
+    class_uri: cmip:MIPEra
+    attributes:
+      id:
+        identifier: true
+        range: string
+
+  Institution:
+    class_uri: cmip:Institution
+    attributes:
+      id:
+        identifier: true
+        range: string
+      cmip_acronym:
+        range: string
+      name:
+        range: string
+      acronyms:
+        multivalued: true
+        range: string
+      aliases:
+        multivalued: true
+        range: string
+      established:
+        range: integer
+      labels:
+        multivalued: true
+        range: string
+      location:
+        range: cmip:Location
+      type:
+        range: string
+      url:
+        multivalued: true
+        range: uri
+      ror:
+        range: string
+
+  Location:
+    class_uri: cmip:Location
+    attributes:
+      id:
+        identifier: true
+        range: string
+      lat:
+        range: float
+      lon:
+        range: float
+      city:
+        range: string
+      country:
+        multivalued: true
+        range: string

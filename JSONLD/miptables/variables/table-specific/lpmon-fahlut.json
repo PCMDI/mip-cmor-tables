@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpmon-fahlut",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/fahlut"
-    },
-    "variable:branded_variable_name": "fahLut_mon-ld-tav-z0-hxy",
-    "variable:comment": "Anthropogenic heat flux generated from non-renewable human primary energy consumption, including energy use by vehicles, commercial and residential buildings, industry, and power plants.  Primary energy refers to energy in natural resources, fossil and nonfossil, before conversion into other forms, such as electricity.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "landUse",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/lpmon-fahlut"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/lpmon-fahlut",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "fahLut_mon-ld-tav-z0-hxy",
+  "variable:comment": "Anthropogenic heat flux generated from non-renewable human primary energy consumption, including energy use by vehicles, commercial and residential buildings, industry, and power plants.  Primary energy refers to energy in natural resources, fossil and nonfossil, before conversion into other forms, such as electricity.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "landUse",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/fahlut"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/lpmon-fahlut"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opmon-sfriver",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baa66746-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Omon",
-        "variable_name": "sfriver"
-    },
-    "CMIP5": {
-        "mip_table": "Omon",
-        "variable_name": "sfriver"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opmon-sfriver",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Omon",
+    "variable_name": "sfriver"
+  },
+  "cmip6": {
+    "dreq_uid": "baa66746-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Omon",
+    "variable_name": "sfriver"
+  }
 }

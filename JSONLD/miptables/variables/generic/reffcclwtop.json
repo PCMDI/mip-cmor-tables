@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/reffcclwtop",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Cloud-Top Effective Droplet Radius in Convective Cloud",
-    "variable:out_name": "reffcclwtop",
-    "variable:positive": "",
-    "variable:standard_name": "effective_radius_of_convective_cloud_liquid_water_particles_at_convective_liquid_water_cloud_top",
-    "variable:type": "real",
-    "variable:units": [
-        "m"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/reffcclwtop",
+  "@type": "variable-generic",
+  "variable:long_name": "Cloud-Top Effective Droplet Radius in Convective Cloud",
+  "variable:out_name": "reffcclwtop",
+  "variable:positive": "",
+  "variable:standard_name": "effective_radius_of_convective_cloud_liquid_water_particles_at_convective_liquid_water_cloud_top",
+  "variable:type": "real",
+  "variable:units": [
+    "m"
+  ]
 }

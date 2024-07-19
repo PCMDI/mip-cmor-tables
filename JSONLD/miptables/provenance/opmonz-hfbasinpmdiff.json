@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opmonz-hfbasinpmdiff",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baa5d0ec-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Omon",
-        "variable_name": "hfbasinpmdiff"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opmonz-hfbasinpmdiff",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "baa5d0ec-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Omon",
+    "variable_name": "hfbasinpmdiff"
+  }
 }

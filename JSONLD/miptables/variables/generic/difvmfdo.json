@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/difvmfdo",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Ocean Vertical Momentum Diffusivity Due to Form Drag",
-    "variable:out_name": "difvmfdo",
-    "variable:positive": "",
-    "variable:standard_name": "ocean_vertical_momentum_diffusivity_due_to_form_drag",
-    "variable:type": "real",
-    "variable:units": [
-        "m2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/difvmfdo",
+  "@type": "variable-generic",
+  "variable:long_name": "Ocean Vertical Momentum Diffusivity Due to Form Drag",
+  "variable:out_name": "difvmfdo",
+  "variable:positive": "",
+  "variable:standard_name": "ocean_vertical_momentum_diffusivity_due_to_form_drag",
+  "variable:type": "real",
+  "variable:units": [
+    "m2",
+    "s-1"
+  ]
 }

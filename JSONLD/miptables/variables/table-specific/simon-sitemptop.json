@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-sitemptop",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/sitemptop"
-    },
-    "variable:branded_variable_name": "sitemptop_mon-si-tav-z0-hxy",
-    "variable:comment": "Report surface temperature of snow where snow covers the sea ice.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/seaIce"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/simon-sitemptop"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/simon-sitemptop",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "sitemptop_mon-si-tav-z0-hxy",
+  "variable:comment": "Report surface temperature of snow where snow covers the sea ice.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/sitemptop"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/seaice"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/simon-sitemptop"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/csoilgrass",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Carbon Mass in Soil on Grass Tiles",
+    "variable:out_name": "cSoilGrass",
+    "variable:positive": "",
+    "variable:standard_name": "soil_mass_content_of_carbon",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

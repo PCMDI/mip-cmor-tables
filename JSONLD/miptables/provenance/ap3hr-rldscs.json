@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ap3hr-rldscs",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab55f12-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "3hr",
-        "variable_name": "rldscs"
-    },
-    "CMIP5": {
-        "mip_table": "3hr",
-        "variable_name": "rldscs"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ap3hr-rldscs",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "3hr",
+    "variable_name": "rldscs"
+  },
+  "cmip6": {
+    "dreq_uid": "bab55f12-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "3hr",
+    "variable_name": "rldscs"
+  }
 }

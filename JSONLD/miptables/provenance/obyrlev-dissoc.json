@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obyrlev-dissoc",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "ba9dbc04-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Oyr",
-        "variable_name": "dissoc"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obyrlev-dissoc",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "ba9dbc04-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Oyr",
+    "variable_name": "dissoc"
+  }
 }

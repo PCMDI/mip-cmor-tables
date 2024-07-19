@@ -1,161 +1,161 @@
 {
-    "@id": "mip-cmor-tables:miptables/tables/lpday",
-    "@type": "cmip:dr-table",
-    "table:table_id": "LPday",
-    "table:Conventions": "CF-1.7 CMIP-6.5",
-    "table:approx_interval": 1.0,
-    "table:checksum": "",
-    "table:cmor_version": "3.8.0",
-    "table:release": "v6.5.0.2",
-    "table:data_specs_version": "6.5.0.0",
-    "table:generic_levels": [],
-    "table:int_missing_value": "-999",
-    "table:missing_value": "1e20",
-    "table:product": {
-        "@id": "mip-cmor-tables:auxillary/product/model-output"
+  "@id": "mip-cmor-tables:miptables/tables/lpday",
+  "@type": "dr-table",
+  "table:approx_interval": 1.0,
+  "table:checksum": "",
+  "table:cmor_version": "3.8.0",
+  "table:conventions": "CF-1.7 CMIP-6.5",
+  "table:data_specs_version": "6.5.0.0",
+  "table:generic_levels": [],
+  "table:int_missing_value": "-999",
+  "table:missing_value": "1e20",
+  "table:product": {
+    "@id": "mip-cmor-tables:auxillary/product/model-output"
+  },
+  "table:release": "v6.5.0.2",
+  "table:table_date": "2023-11-16",
+  "table:table_id": "LPday",
+  "table:variable_entry": [
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-albc"
     },
-    "table:table_date": "2023-11-16",
-    "table:variable_entry": [
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-albc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-albsn"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-ares"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-cnc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-cw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-dcw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-dgw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-dmlt"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-drivw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-dslw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-dsn"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-dsw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-dtes"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-dtesn"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-ec"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-eow"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-es"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-esn"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-evspsbl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-evspsblpot"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-lai"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-mrfsofr"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-mrlqso"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-mrro"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-mrrob"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-mrros"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-mrsfl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-mrsll"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-mrso"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-mrsol"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-mrsos"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-mrsow"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-mrtws"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-nudgincsm"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-nudgincswe"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-prveg"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-qgwr"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-rivi"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-rivo"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-rzwc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-sw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-tcs"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-tgs"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-tran"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-tsl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-tslsi"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-wtd"
-        }
-    ]
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-albsn"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-ares"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-cnc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-cw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-dcw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-dgw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-dmlt"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-drivw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-dslw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-dsn"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-dsw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-dtes"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-dtesn"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-ec"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-eow"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-es"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-esn"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-evspsbl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-evspsblpot"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-lai"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-mrfsofr"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-mrlqso"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-mrro"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-mrrob"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-mrros"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-mrsfl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-mrsll"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-mrso"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-mrsol"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-mrsos"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-mrsow"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-mrtws"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-nudgincsm"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-nudgincswe"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-prveg"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-qgwr"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-rivi"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-rivo"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-rzwc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-sw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-tcs"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-tgs"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-tran"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-tsl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-tslsi"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-wtd"
+    }
+  ]
 }

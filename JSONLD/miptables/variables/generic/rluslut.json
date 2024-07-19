@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/rluslut",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Surface Upwelling Longwave on Land-Use Tile",
-    "variable:out_name": "rlusLut",
-    "variable:positive": "up",
-    "variable:standard_name": "surface_upwelling_longwave_flux_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/rluslut",
+  "@type": "variable-generic",
+  "variable:long_name": "Surface Upwelling Longwave on Land-Use Tile",
+  "variable:out_name": "rlusLut",
+  "variable:positive": "up",
+  "variable:standard_name": "surface_upwelling_longwave_flux_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

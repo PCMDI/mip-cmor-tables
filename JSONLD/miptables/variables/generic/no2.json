@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/no2",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "NO2 Volume Mixing Ratio",
-    "variable:out_name": "no2",
-    "variable:positive": "",
-    "variable:standard_name": "mole_fraction_of_nitrogen_dioxide_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "mol-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/no2",
+  "@type": "variable-generic",
+  "variable:long_name": "NO2 Volume Mixing Ratio",
+  "variable:out_name": "no2",
+  "variable:positive": "",
+  "variable:standard_name": "mole_fraction_of_nitrogen_dioxide_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "mol-1"
+  ]
 }

@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/fharvest",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Carbon Mass Flux into Atmosphere Due to Crop Harvesting [kgC m-2 s-1]",
-    "variable:out_name": "fHarvest",
-    "variable:positive": "up",
-    "variable:standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_crop_harvesting",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/fharvest",
+  "@type": "variable-generic",
+  "variable:long_name": "Carbon Mass Flux into Atmosphere Due to Crop Harvesting [kgC m-2 s-1]",
+  "variable:out_name": "fHarvest",
+  "variable:positive": "up",
+  "variable:standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_crop_harvesting",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

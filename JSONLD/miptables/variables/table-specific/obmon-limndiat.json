@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/obmon-limndiat",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/limndiat"
-    },
-    "variable:branded_variable_name": "limndiat_mon-oc-tav-z0-hxy",
-    "variable:comment": "Diatoms are phytoplankton with an external skeleton made of silica. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. 'Nitrogen growth limitation' means the ratio of the growth rate of a species population in the environment (where there is a finite availability of nitrogen) to the theoretical growth rate if there were no such limit on nitrogen availability.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocnBgchem"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/obmon-limndiat"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/obmon-limndiat",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "limndiat_mon-oc-tav-z0-hxy",
+  "variable:comment": "Diatoms are phytoplankton with an external skeleton made of silica. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. 'Nitrogen growth limitation' means the ratio of the growth rate of a species population in the environment (where there is a finite availability of nitrogen) to the theoretical growth rate if there were no such limit on nitrogen availability.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/limndiat"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocnbgchem"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/obmon-limndiat"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

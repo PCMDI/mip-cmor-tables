@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/csoilshrub",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Carbon Mass in Soil on Shrub Tiles",
+    "variable:out_name": "cSoilShrub",
+    "variable:positive": "",
+    "variable:standard_name": "soil_mass_content_of_carbon",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

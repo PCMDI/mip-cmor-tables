@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/siforceintstrx",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Internal Stress Term in Force Balance (X-Component)",
-    "variable:out_name": "siforceintstrx",
-    "variable:positive": "",
-    "variable:standard_name": "sea_ice_x_internal_stress",
-    "variable:type": "real",
-    "variable:units": [
-        "N",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/siforceintstrx",
+  "@type": "variable-generic",
+  "variable:long_name": "Internal Stress Term in Force Balance (X-Component)",
+  "variable:out_name": "siforceintstrx",
+  "variable:positive": "",
+  "variable:standard_name": "sea_ice_x_internal_stress",
+  "variable:type": "real",
+  "variable:units": [
+    "N",
+    "m-2"
+  ]
 }

@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/albisccp",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "ISCCP Mean Cloud Albedo",
-    "variable:out_name": "albisccp",
-    "variable:positive": "",
-    "variable:standard_name": "cloud_albedo",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/albisccp",
+  "@type": "variable-generic",
+  "variable:long_name": "ISCCP Mean Cloud Albedo",
+  "variable:out_name": "albisccp",
+  "variable:positive": "",
+  "variable:standard_name": "cloud_albedo",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

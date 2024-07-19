@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-htovgyre",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/htovgyre"
-    },
-    "variable:branded_variable_name": "htovgyre_mon-op-tav-z0-hys",
-    "variable:comment": "From all advective mass transport processes, resolved and parameterized.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "latitude",
-        "basin",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocean"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/opmonz-htovgyre"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": 236400000000000,
-        "ok_min_mean_abs": 59100000000000,
-        "valid_max": 2691000000000000,
-        "valid_min": -1772000000000000
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonz-htovgyre",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "htovgyre_mon-op-tav-z0-hys",
+  "variable:comment": "From all advective mass transport processes, resolved and parameterized.",
+  "variable:dimensions": [
+    "latitude",
+    "basin",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/htovgyre"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocean"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/opmonz-htovgyre"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": 236400000000000,
+    "ok_min_mean_abs": 59100000000000,
+    "valid_max": 2691000000000000,
+    "valid_min": -1772000000000000
+  }
 }

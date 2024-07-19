@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/obyrlev-zmisc",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/zmisc"
-    },
-    "variable:branded_variable_name": "zmisc_yr-oc-tav-l-hxy",
-    "variable:comment": "carbon from additional zooplankton component concentrations alone (e.g. Micro, meso).  Since the models all have different numbers of components, this variable has been included to provide a check for intercomparison between models since some phytoplankton groups are supersets.",
-    "variable:frequency": "yr",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "olevel",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocnBgchem"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/obyrlev-zmisc"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/obyrlev-zmisc",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "zmisc_yr-oc-tav-l-hxy",
+  "variable:comment": "carbon from additional zooplankton component concentrations alone (e.g. Micro, meso).  Since the models all have different numbers of components, this variable has been included to provide a check for intercomparison between models since some phytoplankton groups are supersets.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "variable:frequency": "yr",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/zmisc"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocnbgchem"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/obyrlev-zmisc"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

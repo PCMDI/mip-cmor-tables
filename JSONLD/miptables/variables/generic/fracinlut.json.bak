@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/fracinlut",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Annual Gross Percentage That Was Transferred into This Tile from Other Land-Use Tiles",
+    "variable:out_name": "fracInLut",
+    "variable:positive": "",
+    "variable:standard_name": "area_fraction",
+    "variable:type": "real",
+    "variable:units": [
+        "%"
+    ]
+}

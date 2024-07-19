@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-od865dust",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "6f6c0526-9acb-11e6-b7ee-ac72891c3257",
-        "mip_table": "Emon",
-        "variable_name": "od865dust"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-od865dust",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "6f6c0526-9acb-11e6-b7ee-ac72891c3257",
+    "mip_table": "Emon",
+    "variable_name": "od865dust"
+  }
 }

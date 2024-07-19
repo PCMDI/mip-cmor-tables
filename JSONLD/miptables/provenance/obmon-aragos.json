@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obmon-aragos",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "c9181982-c5e8-11e6-84e6-5404a60d96b5",
-        "mip_table": "Omon",
-        "variable_name": "aragos"
-    },
-    "CMIP5": {
-        "mip_table": "Omon",
-        "variable_name": "arag"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obmon-aragos",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Omon",
+    "variable_name": "arag"
+  },
+  "cmip6": {
+    "dreq_uid": "c9181982-c5e8-11e6-84e6-5404a60d96b5",
+    "mip_table": "Omon",
+    "variable_name": "aragos"
+  }
 }

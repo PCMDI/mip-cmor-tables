@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/snd",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Snow Depth",
+    "variable:out_name": "snd",
+    "variable:positive": "",
+    "variable:standard_name": "surface_snow_thickness",
+    "variable:type": "real",
+    "variable:units": [
+        "m"
+    ]
+}

@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/hfdsl",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Downward Heat Flux at Land Surface",
-    "variable:out_name": "hfdsl",
-    "variable:positive": "down",
-    "variable:standard_name": "surface_downward_heat_flux_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/hfdsl",
+  "@type": "variable-generic",
+  "variable:long_name": "Downward Heat Flux at Land Surface",
+  "variable:out_name": "hfdsl",
+  "variable:positive": "down",
+  "variable:standard_name": "surface_downward_heat_flux_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sifb",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea-Ice Freeboard",
-    "variable:out_name": "sifb",
-    "variable:positive": "",
-    "variable:standard_name": "sea_ice_freeboard",
-    "variable:type": "real",
-    "variable:units": [
-        "m"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sifb",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea-Ice Freeboard",
+  "variable:out_name": "sifb",
+  "variable:positive": "",
+  "variable:standard_name": "sea_ice_freeboard",
+  "variable:type": "real",
+  "variable:units": [
+    "m"
+  ]
 }

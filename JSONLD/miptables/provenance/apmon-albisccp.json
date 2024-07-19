@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-albisccp",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baa817c6-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "CFmon",
-        "variable_name": "albisccp"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-albisccp",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "baa817c6-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "CFmon",
+    "variable_name": "albisccp"
+  }
 }

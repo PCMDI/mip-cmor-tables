@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tntrs",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Tendency of Air Temperature Due to Shortwave Radiative Heating",
-    "variable:out_name": "tntrs",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_air_temperature_due_to_shortwave_heating",
-    "variable:type": "real",
-    "variable:units": [
-        "K",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tntrs",
+  "@type": "variable-generic",
+  "variable:long_name": "Tendency of Air Temperature Due to Shortwave Radiative Heating",
+  "variable:out_name": "tntrs",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_air_temperature_due_to_shortwave_heating",
+  "variable:type": "real",
+  "variable:units": [
+    "K",
+    "s-1"
+  ]
 }

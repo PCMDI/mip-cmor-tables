@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmonclimlev-pfull",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab32c1a-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Amon",
-        "variable_name": "pfull"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmonclimlev-pfull",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "bab32c1a-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Amon",
+    "variable_name": "pfull"
+  }
 }

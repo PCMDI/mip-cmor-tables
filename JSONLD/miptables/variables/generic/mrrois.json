@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mrrois",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Ice Sheet Total Runoff",
-    "variable:out_name": "mrroIs",
-    "variable:positive": "",
-    "variable:standard_name": "runoff_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mrrois",
+  "@type": "variable-generic",
+  "variable:long_name": "Ice Sheet Total Runoff",
+  "variable:out_name": "mrroIs",
+  "variable:positive": "",
+  "variable:standard_name": "runoff_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

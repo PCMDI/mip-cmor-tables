@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sftgrf",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Grounded Ice Sheet Area Percentage",
+    "variable:out_name": "sftgrf",
+    "variable:positive": "",
+    "variable:standard_name": "grounded_ice_sheet_area_fraction",
+    "variable:type": "real",
+    "variable:units": [
+        "%"
+    ]
+}

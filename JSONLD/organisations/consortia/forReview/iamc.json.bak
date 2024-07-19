@@ -1,0 +1,27 @@
+{
+    "@id": "mip-cmor-tables:organisations/consortia/iamc",
+    "@type": "cmip:consortium",
+    "consortium:cmip_acronym": "IAMC",
+    "consortium:description": "Integrated Assessment Modeling Consortium",
+    "consortium:url": "",
+    "consortium:changes": "",
+    "consortium:members": {
+        "@set": [
+            {
+                "@type": "consortia:member",
+                "consortia:institution": {
+                    "@id": "mip-cmor-tables:organisations/institutions/integrated"
+                },
+                "consortia:membership_type": "prior",
+                "consortia:dates": [
+                    {
+                        "from": 2016,
+                        "to": 2022,
+                        "phase": "CMIP6"
+                    }
+                ]
+            }
+        ]
+    },
+    "consortia:status": "active"
+}

@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-mrrob",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/mrrob"
-    },
-    "variable:branded_variable_name": "mrrob_day-ld-tav-z0-hxy",
-    "variable:comment": "Runoff is the liquid water which drains from land. If not specified, 'runoff' refers to the sum of surface runoff and subsurface drainage. In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.",
-    "variable:frequency": "day",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/lpday-mrrob"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-mrrob",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "mrrob_day-ld-tav-z0-hxy",
+  "variable:comment": "Runoff is the liquid water which drains from land. If not specified, 'runoff' refers to the sum of surface runoff and subsurface drainage. In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "day",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/mrrob"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/lpday-mrrob"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

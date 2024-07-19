@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-dmlt",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/dmlt"
-    },
-    "variable:branded_variable_name": "dmlt_day-ld-tav-z0-hxy",
-    "variable:comment": "Depth from surface to the zero degree isotherm. Above this isotherm T > 0o, and below this line T < 0o. Missing if surface is frozen or if soil is unfrozen at all depths.",
-    "variable:frequency": "day",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time",
-        "stempzero"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/lpday-dmlt"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-dmlt",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "dmlt_day-ld-tav-z0-hxy",
+  "variable:comment": "Depth from surface to the zero degree isotherm. Above this isotherm T > 0o, and below this line T < 0o. Missing if surface is frozen or if soil is unfrozen at all depths.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "stempzero"
+  ],
+  "variable:frequency": "day",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/dmlt"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/lpday-dmlt"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

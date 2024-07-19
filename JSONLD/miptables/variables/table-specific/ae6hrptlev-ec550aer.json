@@ -1,31 +1,31 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/ae6hrptlev-ec550aer",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/ec550aer"
-    },
-    "variable:branded_variable_name": "ec550aer_6hr-ae-tpt-l-hxy",
-    "variable:comment": "Aerosol volume extinction coefficient at 550nm wavelength.",
-    "variable:frequency": "6hrPt",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "alevel",
-        "time1",
-        "lambda550nm"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/aerosol"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/ae6hrptlev-ec550aer"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/ae6hrptlev-ec550aer",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "ec550aer_6hr-ae-tpt-l-hxy",
+  "variable:comment": "Aerosol volume extinction coefficient at 550nm wavelength.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time1",
+    "lambda550nm"
+  ],
+  "variable:frequency": "6hrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/ec550aer"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/aerosol"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/ae6hrptlev-ec550aer"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

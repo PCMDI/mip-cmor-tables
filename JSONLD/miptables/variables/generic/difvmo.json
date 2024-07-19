@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/difvmo",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Ocean Vertical Momentum Diffusivity",
-    "variable:out_name": "difvmo",
-    "variable:positive": "",
-    "variable:standard_name": "ocean_vertical_momentum_diffusivity",
-    "variable:type": "real",
-    "variable:units": [
-        "m2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/difvmo",
+  "@type": "variable-generic",
+  "variable:long_name": "Ocean Vertical Momentum Diffusivity",
+  "variable:out_name": "difvmo",
+  "variable:positive": "",
+  "variable:standard_name": "ocean_vertical_momentum_diffusivity",
+  "variable:type": "real",
+  "variable:units": [
+    "m2",
+    "s-1"
+  ]
 }

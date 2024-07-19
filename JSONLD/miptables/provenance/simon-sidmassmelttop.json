@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/simon-sidmassmelttop",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "7124e0ea-faa7-11e6-bfb7-ac72891c3257",
-        "mip_table": "SImon",
-        "variable_name": "sidmassmelttop"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/simon-sidmassmelttop",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "7124e0ea-faa7-11e6-bfb7-ac72891c3257",
+    "mip_table": "SImon",
+    "variable_name": "sidmassmelttop"
+  }
 }

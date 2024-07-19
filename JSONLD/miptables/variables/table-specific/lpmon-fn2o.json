@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpmon-fn2o",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/fn2o"
-    },
-    "variable:branded_variable_name": "fN2O_mon-ld-tav-z0-hxy",
-    "variable:comment": "Surface upward flux of nitrous oxide (N2O) from vegetation (any living plants e.g. trees, shrubs, grass), litter (dead plant material in or above the soil), soil.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/lpmon-fn2o"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/lpmon-fn2o",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "fN2O_mon-ld-tav-z0-hxy",
+  "variable:comment": "Surface upward flux of nitrous oxide (N2O) from vegetation (any living plants e.g. trees, shrubs, grass), litter (dead plant material in or above the soil), soil.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/fn2o"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/lpmon-fn2o"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

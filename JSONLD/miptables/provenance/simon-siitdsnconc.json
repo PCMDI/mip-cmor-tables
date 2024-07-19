@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/simon-siitdsnconc",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "71147dcc-faa7-11e6-bfb7-ac72891c3257",
-        "mip_table": "SImon",
-        "variable_name": "siitdsnconc"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/simon-siitdsnconc",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "71147dcc-faa7-11e6-bfb7-ac72891c3257",
+    "mip_table": "SImon",
+    "variable_name": "siitdsnconc"
+  }
 }

@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/aesubhrptsite-tntrs",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/tntrs"
-    },
-    "variable:branded_variable_name": "tntrs_subhr-ae-tpt-l-hxys",
-    "variable:comment": "Tendency of air temperature due to shortwave radiative heating",
-    "variable:frequency": "subhrPt",
-    "variable:dimensions": [
-        "alevel",
-        "site",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/aerosol"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/aesubhrptsite-tntrs"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/aesubhrptsite-tntrs",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "tntrs_subhr-ae-tpt-l-hxys",
+  "variable:comment": "Tendency of air temperature due to shortwave radiative heating",
+  "variable:dimensions": [
+    "alevel",
+    "site",
+    "time1"
+  ],
+  "variable:frequency": "subhrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/tntrs"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/aerosol"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/aesubhrptsite-tntrs"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

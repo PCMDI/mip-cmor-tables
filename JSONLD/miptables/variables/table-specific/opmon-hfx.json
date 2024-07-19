@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmon-hfx",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/hfx"
-    },
-    "variable:branded_variable_name": "hfx_mon-op-tav-z0-hxy",
-    "variable:comment": "Contains all contributions to 'x-ward' heat transport from resolved and parameterized processes.  Use Celsius for temperature scale.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocean"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/opmon-hfx"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/opmon-hfx",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "hfx_mon-op-tav-z0-hxy",
+  "variable:comment": "Contains all contributions to 'x-ward' heat transport from resolved and parameterized processes.  Use Celsius for temperature scale.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/hfx"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocean"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/opmon-hfx"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sos",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea Surface Salinity",
-    "variable:out_name": "sos",
-    "variable:positive": "",
-    "variable:standard_name": "sea_surface_salinity",
-    "variable:type": "real",
-    "variable:units": [
-        "0.001"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sos",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea Surface Salinity",
+  "variable:out_name": "sos",
+  "variable:positive": "",
+  "variable:standard_name": "sea_surface_salinity",
+  "variable:type": "real",
+  "variable:units": [
+    "0.001"
+  ]
 }

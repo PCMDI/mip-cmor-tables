@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/lossco",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Monthly Loss of Atmospheric Carbon Monoxide",
-    "variable:out_name": "lossco",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_atmosphere_mole_concentration_of_carbon_monoxide_due_to_chemical_destruction",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-3",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/lossco",
+  "@type": "variable-generic",
+  "variable:long_name": "Monthly Loss of Atmospheric Carbon Monoxide",
+  "variable:out_name": "lossco",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_atmosphere_mole_concentration_of_carbon_monoxide_due_to_chemical_destruction",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-3",
+    "s-1"
+  ]
 }

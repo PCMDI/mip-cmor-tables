@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/nroot",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Nitrogen Mass in Roots",
-    "variable:out_name": "nRoot",
-    "variable:positive": "",
-    "variable:standard_name": "root_mass_content_of_nitrogen",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/nroot",
+  "@type": "variable-generic",
+  "variable:long_name": "Nitrogen Mass in Roots",
+  "variable:out_name": "nRoot",
+  "variable:positive": "",
+  "variable:standard_name": "root_mass_content_of_nitrogen",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

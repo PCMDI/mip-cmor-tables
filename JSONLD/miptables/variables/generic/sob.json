@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sob",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea Water Salinity at Sea Floor",
-    "variable:out_name": "sob",
-    "variable:positive": "",
-    "variable:standard_name": "sea_water_salinity_at_sea_floor",
-    "variable:type": "real",
-    "variable:units": [
-        "0.001"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sob",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea Water Salinity at Sea Floor",
+  "variable:out_name": "sob",
+  "variable:positive": "",
+  "variable:standard_name": "sea_water_salinity_at_sea_floor",
+  "variable:type": "real",
+  "variable:units": [
+    "0.001"
+  ]
 }

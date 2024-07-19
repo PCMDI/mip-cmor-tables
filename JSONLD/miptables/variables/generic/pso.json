@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/pso",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea Water Pressure at Sea Water Surface",
-    "variable:out_name": "pso",
-    "variable:positive": "",
-    "variable:standard_name": "sea_water_pressure_at_sea_water_surface",
-    "variable:type": "real",
-    "variable:units": [
-        "Pa"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/pso",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea Water Pressure at Sea Water Surface",
+  "variable:out_name": "pso",
+  "variable:positive": "",
+  "variable:standard_name": "sea_water_pressure_at_sea_water_surface",
+  "variable:type": "real",
+  "variable:units": [
+    "Pa"
+  ]
 }

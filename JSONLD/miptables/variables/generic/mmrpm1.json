@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mmrpm1",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "PM1.0 Mass Mixing Ratio",
-    "variable:out_name": "mmrpm1",
-    "variable:positive": "",
-    "variable:standard_name": "mass_fraction_of_pm1_dry_aerosol_particles_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "kg-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mmrpm1",
+  "@type": "variable-generic",
+  "variable:long_name": "PM1.0 Mass Mixing Ratio",
+  "variable:out_name": "mmrpm1",
+  "variable:positive": "",
+  "variable:standard_name": "mass_fraction_of_pm1_dry_aerosol_particles_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "kg-1"
+  ]
 }

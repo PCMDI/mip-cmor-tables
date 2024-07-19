@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/yvelmean",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Y-Component of Land Ice Vertical Mean Velocity",
-    "variable:out_name": "yvelmean",
-    "variable:positive": "",
-    "variable:standard_name": "land_ice_vertical_mean_y_velocity",
-    "variable:type": "real",
-    "variable:units": [
-        "m",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/yvelmean",
+  "@type": "variable-generic",
+  "variable:long_name": "Y-Component of Land Ice Vertical Mean Velocity",
+  "variable:out_name": "yvelmean",
+  "variable:positive": "",
+  "variable:standard_name": "land_ice_vertical_mean_y_velocity",
+  "variable:type": "real",
+  "variable:units": [
+    "m",
+    "s-1"
+  ]
 }

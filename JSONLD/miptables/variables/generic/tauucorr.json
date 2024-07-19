@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tauucorr",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Surface Downward X Stress Correction",
-    "variable:out_name": "tauucorr",
-    "variable:positive": "down",
-    "variable:standard_name": "downward_x_stress_correction_at_sea_water_surface",
-    "variable:type": "real",
-    "variable:units": [
-        "N",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tauucorr",
+  "@type": "variable-generic",
+  "variable:long_name": "Surface Downward X Stress Correction",
+  "variable:out_name": "tauucorr",
+  "variable:positive": "down",
+  "variable:standard_name": "downward_x_stress_correction_at_sea_water_surface",
+  "variable:type": "real",
+  "variable:units": [
+    "N",
+    "m-2"
+  ]
 }

@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tau",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Momentum Flux",
-    "variable:out_name": "tau",
-    "variable:positive": "",
-    "variable:standard_name": "magnitude_of_surface_downward_stress",
-    "variable:type": "real",
-    "variable:units": [
-        "N",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tau",
+  "@type": "variable-generic",
+  "variable:long_name": "Momentum Flux",
+  "variable:out_name": "tau",
+  "variable:positive": "",
+  "variable:standard_name": "magnitude_of_surface_downward_stress",
+  "variable:type": "real",
+  "variable:units": [
+    "N",
+    "m-2"
+  ]
 }

@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sistremax",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Maximum Shear Stress in Sea Ice",
-    "variable:out_name": "sistremax",
-    "variable:positive": "",
-    "variable:standard_name": "maximum_over_coordinate_rotation_of_sea_ice_horizontal_shear_stress",
-    "variable:type": "real",
-    "variable:units": [
-        "N",
-        "m-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sistremax",
+  "@type": "variable-generic",
+  "variable:long_name": "Maximum Shear Stress in Sea Ice",
+  "variable:out_name": "sistremax",
+  "variable:positive": "",
+  "variable:standard_name": "maximum_over_coordinate_rotation_of_sea_ice_horizontal_shear_stress",
+  "variable:type": "real",
+  "variable:units": [
+    "N",
+    "m-1"
+  ]
 }

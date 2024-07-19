@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apday-loadno3",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/loadno3"
-    },
-    "variable:branded_variable_name": "loadno3_day-ap-tav-z0-hxy",
-    "variable:comment": "The total dry mass of nitrate aerosol particles per unit area.",
-    "variable:frequency": "day",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apday-loadno3"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apday-loadno3",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "loadno3_day-ap-tav-z0-hxy",
+  "variable:comment": "The total dry mass of nitrate aerosol particles per unit area.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "day",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/loadno3"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apday-loadno3"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

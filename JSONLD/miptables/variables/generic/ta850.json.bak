@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/ta850",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Air Temperature",
+    "variable:out_name": "ta850",
+    "variable:positive": "",
+    "variable:standard_name": "air_temperature",
+    "variable:type": "real",
+    "variable:units": [
+        "K"
+    ]
+}

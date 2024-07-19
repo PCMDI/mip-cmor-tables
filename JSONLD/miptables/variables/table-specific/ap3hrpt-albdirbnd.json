@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrpt-albdirbnd",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/albdirbnd"
-    },
-    "variable:branded_variable_name": "albdirbnd_3hr-ap-tpt-z0-hxy",
-    "variable:comment": "The fraction of the surface direct downwelling shortwave radiation flux which is reflected. It is equivalent to the surface bidirectional reflectance at the incident angle of the incoming solar radiation and integrated over all outgoing angles in the hemisphere above the surface.  Reported in spectral frequency bands.",
-    "variable:frequency": "3hrPt",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "spectband",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-albdirbnd"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrpt-albdirbnd",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "albdirbnd_3hr-ap-tpt-z0-hxy",
+  "variable:comment": "The fraction of the surface direct downwelling shortwave radiation flux which is reflected. It is equivalent to the surface bidirectional reflectance at the incident angle of the incoming solar radiation and integrated over all outgoing angles in the hemisphere above the surface.  Reported in spectral frequency bands.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "spectband",
+    "time1"
+  ],
+  "variable:frequency": "3hrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/albdirbnd"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-albdirbnd"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

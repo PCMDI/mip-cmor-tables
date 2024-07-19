@@ -1,28 +1,28 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/gigfx-lithk",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/lithk"
-    },
-    "variable:branded_variable_name": "lithk_fx-li-none-z0-hxyG",
-    "variable:comment": "The thickness of the ice sheet",
-    "variable:frequency": "fx",
-    "variable:dimensions": [
-        "xgre",
-        "ygre"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/landIce"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/gigfx-lithk"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/gigfx-lithk",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "lithk_fx-li-none-z0-hxyG",
+  "variable:comment": "The thickness of the ice sheet",
+  "variable:dimensions": [
+    "xgre",
+    "ygre"
+  ],
+  "variable:frequency": "fx",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/lithk"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/landice"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/gigfx-lithk"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

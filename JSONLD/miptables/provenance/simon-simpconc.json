@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/simon-simpconc",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "71238a60-faa7-11e6-bfb7-ac72891c3257",
-        "mip_table": "SImon",
-        "variable_name": "simpconc"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/simon-simpconc",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "71238a60-faa7-11e6-bfb7-ac72891c3257",
+    "mip_table": "SImon",
+    "variable_name": "simpconc"
+  }
 }

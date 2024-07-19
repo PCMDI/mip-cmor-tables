@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/hfgeou",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Upward Geothermal Heat Flux at Sea Floor",
-    "variable:out_name": "hfgeou",
-    "variable:positive": "up",
-    "variable:standard_name": "upward_geothermal_heat_flux_at_sea_floor",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/hfgeou",
+  "@type": "variable-generic",
+  "variable:long_name": "Upward Geothermal Heat Flux at Sea Floor",
+  "variable:out_name": "hfgeou",
+  "variable:positive": "up",
+  "variable:standard_name": "upward_geothermal_heat_flux_at_sea_floor",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

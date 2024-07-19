@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpmon-cropfrac",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baab87f8-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Lmon",
-        "variable_name": "cropFrac"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpmon-cropfrac",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "baab87f8-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Lmon",
+    "variable_name": "cropFrac"
+  }
 }

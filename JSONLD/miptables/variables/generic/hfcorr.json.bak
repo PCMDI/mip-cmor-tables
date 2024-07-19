@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/hfcorr",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Heat Flux Correction",
+    "variable:out_name": "hfcorr",
+    "variable:positive": "down",
+    "variable:standard_name": "heat_flux_correction",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

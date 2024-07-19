@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/aod550volso4",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Aerosol Optical Depth at 550nm Due to Stratospheric Volcanic Aerosols",
-    "variable:out_name": "aod550volso4",
-    "variable:positive": "",
-    "variable:standard_name": "stratosphere_optical_thickness_due_to_volcanic_ambient_aerosol_particles",
-    "variable:type": "real",
-    "variable:units": [
-        "1e-09"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/aod550volso4",
+  "@type": "variable-generic",
+  "variable:long_name": "Aerosol Optical Depth at 550nm Due to Stratospheric Volcanic Aerosols",
+  "variable:out_name": "aod550volso4",
+  "variable:positive": "",
+  "variable:standard_name": "stratosphere_optical_thickness_due_to_volcanic_ambient_aerosol_particles",
+  "variable:type": "real",
+  "variable:units": [
+    "1e-09"
+  ]
 }

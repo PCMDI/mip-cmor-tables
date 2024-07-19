@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obmon-limirrmisc",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baa03826-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Omon",
-        "variable_name": "limirrmisc"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obmon-limirrmisc",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "baa03826-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Omon",
+    "variable_name": "limirrmisc"
+  }
 }

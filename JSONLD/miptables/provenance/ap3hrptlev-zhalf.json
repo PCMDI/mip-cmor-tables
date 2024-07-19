@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ap3hrptlev-zhalf",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "babdb2b6-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "CF3hr",
-        "variable_name": "zhalf"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ap3hrptlev-zhalf",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "babdb2b6-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "CF3hr",
+    "variable_name": "zhalf"
+  }
 }

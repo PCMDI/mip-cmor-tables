@@ -1,28 +1,28 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptsite-rtmt",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/rtmt"
-    },
-    "variable:branded_variable_name": "rtmt_subhr-ap-tpt-z0-hxys",
-    "variable:comment": "Net Downward Radiative Flux at Top of Model : I.e., at the top of that portion of the atmosphere where dynamics are explicitly treated by the model. This is reported only if it differs from the net downward radiative flux at the top of the atmosphere.",
-    "variable:frequency": "subhrPt",
-    "variable:dimensions": [
-        "site",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-rtmt"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrptsite-rtmt",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "rtmt_subhr-ap-tpt-z0-hxys",
+  "variable:comment": "Net Downward Radiative Flux at Top of Model : I.e., at the top of that portion of the atmosphere where dynamics are explicitly treated by the model. This is reported only if it differs from the net downward radiative flux at the top of the atmosphere.",
+  "variable:dimensions": [
+    "site",
+    "time1"
+  ],
+  "variable:frequency": "subhrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/rtmt"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-rtmt"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

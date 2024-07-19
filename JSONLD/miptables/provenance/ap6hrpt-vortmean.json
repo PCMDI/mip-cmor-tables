@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-vortmean",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "9137bc62-267c-11e7-8933-ac72891c3257",
-        "mip_table": "6hrPlevPt",
-        "variable_name": "vortmean"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-vortmean",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "9137bc62-267c-11e7-8933-ac72891c3257",
+    "mip_table": "6hrPlevPt",
+    "variable_name": "vortmean"
+  }
 }

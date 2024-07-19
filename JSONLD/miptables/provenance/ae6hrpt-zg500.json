@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ae6hrpt-zg500",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "7c70f59e-1ab7-11e7-8dfc-5404a60d96b5",
-        "mip_table": "6hrPlevPt",
-        "variable_name": "zg500"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ae6hrpt-zg500",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "7c70f59e-1ab7-11e7-8dfc-5404a60d96b5",
+    "mip_table": "6hrPlevPt",
+    "variable_name": "zg500"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-od550so4so",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "6f6bc796-9acb-11e6-b7ee-ac72891c3257",
-        "mip_table": "Emon",
-        "variable_name": "od550so4so"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-od550so4so",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "6f6bc796-9acb-11e6-b7ee-ac72891c3257",
+    "mip_table": "Emon",
+    "variable_name": "od550so4so"
+  }
 }

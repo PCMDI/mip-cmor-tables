@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/obyrlev-chlpico",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/chlpico"
-    },
-    "variable:branded_variable_name": "chlpico_yr-oc-tav-l-hxy",
-    "variable:comment": "chlorophyll concentration from the picophytoplankton (<2 um) component alone",
-    "variable:frequency": "yr",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "olevel",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocnBgchem"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/obyrlev-chlpico"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/obyrlev-chlpico",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "chlpico_yr-oc-tav-l-hxy",
+  "variable:comment": "chlorophyll concentration from the picophytoplankton (<2 um) component alone",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "variable:frequency": "yr",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/chlpico"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocnbgchem"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/obyrlev-chlpico"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

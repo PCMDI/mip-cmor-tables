@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/fgcfc12",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Surface Downward CFC12 Flux",
-    "variable:out_name": "fgcfc12",
-    "variable:positive": "down",
-    "variable:standard_name": "surface_downward_mole_flux_of_cfc12",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/fgcfc12",
+  "@type": "variable-generic",
+  "variable:long_name": "Surface Downward CFC12 Flux",
+  "variable:out_name": "fgcfc12",
+  "variable:positive": "down",
+  "variable:standard_name": "surface_downward_mole_flux_of_cfc12",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-2",
+    "s-1"
+  ]
 }

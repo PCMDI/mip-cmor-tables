@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/opfx-volcello",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/volcello"
-    },
-    "variable:branded_variable_name": "volcello_fx-op-none-l-hxy",
-    "variable:comment": "grid-cell volume ca. 2000.",
-    "variable:frequency": "fx",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "olevel"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocean"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/opfx-volcello"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/opfx-volcello",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "volcello_fx-op-none-l-hxy",
+  "variable:comment": "grid-cell volume ca. 2000.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "olevel"
+  ],
+  "variable:frequency": "fx",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/volcello"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocean"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/opfx-volcello"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

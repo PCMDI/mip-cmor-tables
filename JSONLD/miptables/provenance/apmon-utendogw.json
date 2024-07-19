@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-utendogw",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "6f17af4e-9acb-11e6-b7ee-ac72891c3257",
-        "mip_table": "Emon",
-        "variable_name": "utendogw"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-utendogw",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "6f17af4e-9acb-11e6-b7ee-ac72891c3257",
+    "mip_table": "Emon",
+    "variable_name": "utendogw"
+  }
 }

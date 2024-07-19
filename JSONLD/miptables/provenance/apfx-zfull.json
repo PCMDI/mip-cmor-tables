@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apfx-zfull",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "0ea7a738776ef049ed7bef9c701a819c8c9ca036",
-        "mip_table": "fx",
-        "variable_name": "zfull"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apfx-zfull",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "0ea7a738776ef049ed7bef9c701a819c8c9ca036",
+    "mip_table": "fx",
+    "variable_name": "zfull"
+  }
 }

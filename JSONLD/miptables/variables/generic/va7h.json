@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/va7h",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Northward Wind",
-    "variable:out_name": "va7h",
-    "variable:positive": "",
-    "variable:standard_name": "northward_wind",
-    "variable:type": "real",
-    "variable:units": [
-        "m",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/va7h",
+  "@type": "variable-generic",
+  "variable:long_name": "Northward Wind",
+  "variable:out_name": "va7h",
+  "variable:positive": "",
+  "variable:standard_name": "northward_wind",
+  "variable:type": "real",
+  "variable:units": [
+    "m",
+    "s-1"
+  ]
 }

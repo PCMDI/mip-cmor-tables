@@ -1,0 +1,10 @@
+{
+    "@context": {
+        "@vocab": "mip:"
+    },
+    "@type": "mip_era",
+    "name": "",
+    "url": "",
+    "start": "",
+    "end": ""
+}

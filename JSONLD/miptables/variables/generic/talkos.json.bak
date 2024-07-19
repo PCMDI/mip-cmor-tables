@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/talkos",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Total Alkalinity",
+    "variable:out_name": "talkos",
+    "variable:positive": "",
+    "variable:standard_name": "sea_water_alkalinity_expressed_as_mole_equivalent",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3"
+    ]
+}

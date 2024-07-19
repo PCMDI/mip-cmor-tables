@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/fnanthdisturb",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Nitrogen Mass Flux out of Land Due to any Human Activity",
-    "variable:out_name": "fNAnthDisturb",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_atmosphere_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_anthropogenic_emission",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/fnanthdisturb",
+  "@type": "variable-generic",
+  "variable:long_name": "Nitrogen Mass Flux out of Land Due to any Human Activity",
+  "variable:out_name": "fNAnthDisturb",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_atmosphere_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_anthropogenic_emission",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

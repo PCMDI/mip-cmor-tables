@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opmon-hfibthermds2d",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baa6a5bc-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Omon",
-        "variable_name": "hfibthermds2d"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opmon-hfibthermds2d",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "baa6a5bc-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Omon",
+    "variable_name": "hfibthermds2d"
+  }
 }

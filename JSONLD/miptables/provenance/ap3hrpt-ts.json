@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-ts",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "7b309c62-a220-11e6-a33f-ac72891c3257",
-        "mip_table": "CF3hr",
-        "variable_name": "ts"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-ts",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "7b309c62-a220-11e6-a33f-ac72891c3257",
+    "mip_table": "CF3hr",
+    "variable_name": "ts"
+  }
 }

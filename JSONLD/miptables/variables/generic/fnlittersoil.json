@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/fnlittersoil",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Nitrogen Mass Flux from Litter to Soil",
-    "variable:out_name": "fNLitterSoil",
-    "variable:positive": "",
-    "variable:standard_name": "nitrogen_mass_flux_into_soil_from_litter",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/fnlittersoil",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Nitrogen Mass Flux from Litter to Soil",
+  "variable:out_name": "fNLitterSoil",
+  "variable:positive": "",
+  "variable:standard_name": "nitrogen_mass_flux_into_soil_from_litter",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

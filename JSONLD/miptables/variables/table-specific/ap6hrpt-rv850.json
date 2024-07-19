@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-rv850",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/rv850"
-    },
-    "variable:branded_variable_name": "rv850_6hr-ap-tpt-p0850-hxy",
-    "variable:comment": "Relative vorticity is the upward component of the vorticity vector i.e. the component which arises from horizontal velocity.",
-    "variable:frequency": "6hrPt",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time1",
-        "p850"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-rv850"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hrpt-rv850",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "rv850_6hr-ap-tpt-p0850-hxy",
+  "variable:comment": "Relative vorticity is the upward component of the vorticity vector i.e. the component which arises from horizontal velocity.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time1",
+    "p850"
+  ],
+  "variable:frequency": "6hrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/rv850"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-rv850"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

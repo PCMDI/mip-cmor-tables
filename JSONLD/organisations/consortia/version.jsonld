@@ -1,0 +1,68 @@
+[
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia/solaris-heppa.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/organisations/consortia/solaris-heppa.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 5,
+        "version:date": "2024-07-18T23:32:51+01:00",
+        "version:commit": {
+            "hash": "22af46c2b3200fe29ec7c92cb1c5c7562f524e49",
+            "message": "dev work cvs",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:organisations/consortia/solaris-heppa"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia/ncc.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/organisations/consortia/ncc.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 5,
+        "version:date": "2024-07-18T23:32:51+01:00",
+        "version:commit": {
+            "hash": "22af46c2b3200fe29ec7c92cb1c5c7562f524e49",
+            "message": "dev work cvs",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:organisations/consortia/ncc"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia/miroc.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/organisations/consortia/miroc.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 5,
+        "version:date": "2024-07-18T23:32:51+01:00",
+        "version:commit": {
+            "hash": "22af46c2b3200fe29ec7c92cb1c5c7562f524e49",
+            "message": "dev work cvs",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:organisations/consortia/miroc"
+        }
+    }
+]

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/aeday-zg10",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "19bdc1ec-81b1-11e6-92de-ac72891c3257",
-        "mip_table": "AERday",
-        "variable_name": "zg10"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/aeday-zg10",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "19bdc1ec-81b1-11e6-92de-ac72891c3257",
+    "mip_table": "AERday",
+    "variable_name": "zg10"
+  }
 }

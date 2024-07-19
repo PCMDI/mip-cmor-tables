@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-tos",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/tos"
-    },
-    "variable:branded_variable_name": "tos_dec-op-tav-z0-hxy",
-    "variable:comment": "Temperature of upper boundary of the liquid ocean, including temperatures below sea-ice and floating ice shelves.",
-    "variable:frequency": "dec",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocean"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/opdec-tos"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/opdec-tos",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "tos_dec-op-tav-z0-hxy",
+  "variable:comment": "Temperature of upper boundary of the liquid ocean, including temperatures below sea-ice and floating ice shelves.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "dec",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/tos"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocean"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/opdec-tos"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

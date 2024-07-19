@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/agesno",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Mean Age of Snow",
-    "variable:out_name": "agesno",
-    "variable:positive": "",
-    "variable:standard_name": "age_of_surface_snow",
-    "variable:type": "real",
-    "variable:units": [
-        "day"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/agesno",
+  "@type": "variable-generic",
+  "variable:long_name": "Mean Age of Snow",
+  "variable:out_name": "agesno",
+  "variable:positive": "",
+  "variable:standard_name": "age_of_surface_snow",
+  "variable:type": "real",
+  "variable:units": [
+    "day"
+  ]
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-rlut",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab5aad0-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Amon",
-        "variable_name": "rlut"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-rlut",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "bab5aad0-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Amon",
+    "variable_name": "rlut"
+  }
 }

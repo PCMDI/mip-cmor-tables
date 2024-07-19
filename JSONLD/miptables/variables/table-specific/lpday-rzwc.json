@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-rzwc",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/rzwc"
-    },
-    "variable:branded_variable_name": "rzwc_day-ld-tav-z0-hxy",
-    "variable:comment": "'Content' indicates a quantity per unit area. The content of a soil layer is the vertical integral of the specified quantity within the layer. The quantity with standard name mass_content_of_water_in_soil_layer_defined_by_root_depth is the vertical integral between the surface and the depth to which plant roots penetrate. A coordinate variable or scalar coordinate variable with standard name root_depth can be used to specify the extent of the layer. 'Water' means water in all phases.",
-    "variable:frequency": "day",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/lpday-rzwc"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-rzwc",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "rzwc_day-ld-tav-z0-hxy",
+  "variable:comment": "'Content' indicates a quantity per unit area. The content of a soil layer is the vertical integral of the specified quantity within the layer. The quantity with standard name mass_content_of_water_in_soil_layer_defined_by_root_depth is the vertical integral between the surface and the depth to which plant roots penetrate. A coordinate variable or scalar coordinate variable with standard name root_depth can be used to specify the extent of the layer. 'Water' means water in all phases.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "day",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/rzwc"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/lpday-rzwc"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

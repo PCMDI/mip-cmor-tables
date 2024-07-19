@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/fclandtoocean",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Lateral Transfer of Carbon out of Grid Cell That Eventually Goes into Ocean",
-    "variable:out_name": "fCLandToOcean",
-    "variable:positive": "",
-    "variable:standard_name": "mass_flux_of_carbon_into_sea_water_from_rivers",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/fclandtoocean",
+  "@type": "variable-generic",
+  "variable:long_name": "Lateral Transfer of Carbon out of Grid Cell That Eventually Goes into Ocean",
+  "variable:out_name": "fCLandToOcean",
+  "variable:positive": "",
+  "variable:standard_name": "mass_flux_of_carbon_into_sea_water_from_rivers",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/csoilfast",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Carbon Mass in Fast Soil Pool",
-    "variable:out_name": "cSoilFast",
-    "variable:positive": "",
-    "variable:standard_name": "fast_soil_pool_mass_content_of_carbon",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/csoilfast",
+  "@type": "variable-generic",
+  "variable:long_name": "Carbon Mass in Fast Soil Pool",
+  "variable:out_name": "cSoilFast",
+  "variable:positive": "",
+  "variable:standard_name": "fast_soil_pool_mass_content_of_carbon",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

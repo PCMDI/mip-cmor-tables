@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/aerssabnd",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Aerosol Level Single Scattering Albedo for Each Band",
-    "variable:out_name": "aerssabnd",
-    "variable:positive": "",
-    "variable:standard_name": "single_scattering_albedo_in_air_due_to_ambient_aerosol_particles",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/aerssabnd",
+  "@type": "variable-generic",
+  "variable:long_name": "Aerosol Level Single Scattering Albedo for Each Band",
+  "variable:out_name": "aerssabnd",
+  "variable:positive": "",
+  "variable:standard_name": "single_scattering_albedo_in_air_due_to_ambient_aerosol_particles",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

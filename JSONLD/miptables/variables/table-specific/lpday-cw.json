@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-cw",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/cw"
-    },
-    "variable:branded_variable_name": "cw_day-ld-tav-z0-hxy",
-    "variable:comment": "'Amount' means mass per unit area. 'Water' means water in all phases, including frozen i.e. ice and snow. 'Canopy' means the plant or vegetation canopy. The canopy water is the water on the canopy.",
-    "variable:frequency": "day",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/lpday-cw"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-cw",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "cw_day-ld-tav-z0-hxy",
+  "variable:comment": "'Amount' means mass per unit area. 'Water' means water in all phases, including frozen i.e. ice and snow. 'Canopy' means the plant or vegetation canopy. The canopy water is the water on the canopy.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "day",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/cw"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/lpday-cw"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

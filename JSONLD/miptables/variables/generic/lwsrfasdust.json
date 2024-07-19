@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/lwsrfasdust",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "All-Sky Surface Longwave Radiative Flux Due to Dust",
-    "variable:out_name": "lwsrfasdust",
-    "variable:positive": "",
-    "variable:standard_name": "surface_net_downward_longwave_dust_ambient_aerosol_particles_direct_radiative_effect",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/lwsrfasdust",
+  "@type": "variable-generic",
+  "variable:long_name": "All-Sky Surface Longwave Radiative Flux Due to Dust",
+  "variable:out_name": "lwsrfasdust",
+  "variable:positive": "",
+  "variable:standard_name": "surface_net_downward_longwave_dust_ambient_aerosol_particles_direct_radiative_effect",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

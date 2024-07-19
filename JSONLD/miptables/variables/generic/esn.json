@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/esn",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Snow Evaporation",
-    "variable:out_name": "esn",
-    "variable:positive": "",
-    "variable:standard_name": "water_evapotranspiration_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/esn",
+  "@type": "variable-generic",
+  "variable:long_name": "Snow Evaporation",
+  "variable:out_name": "esn",
+  "variable:positive": "",
+  "variable:standard_name": "water_evapotranspiration_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

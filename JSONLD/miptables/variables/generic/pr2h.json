@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/pr2h",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Precipitation Flux of Water Containing Deuterium (1H 2H O)",
-    "variable:out_name": "pr2h",
-    "variable:positive": "",
-    "variable:standard_name": "precipitation_flux_containing_single_2H",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/pr2h",
+  "@type": "variable-generic",
+  "variable:long_name": "Precipitation Flux of Water Containing Deuterium (1H 2H O)",
+  "variable:out_name": "pr2h",
+  "variable:positive": "",
+  "variable:standard_name": "precipitation_flux_containing_single_2H",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

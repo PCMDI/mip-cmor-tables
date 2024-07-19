@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/siflsensupbot",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Net Upward Sensible Heat Flux Under Sea Ice",
-    "variable:out_name": "siflsensupbot",
-    "variable:positive": "up",
-    "variable:standard_name": "upward_sea_ice_basal_heat_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/siflsensupbot",
+  "@type": "variable-generic",
+  "variable:long_name": "Net Upward Sensible Heat Flux Under Sea Ice",
+  "variable:out_name": "siflsensupbot",
+  "variable:positive": "up",
+  "variable:standard_name": "upward_sea_ice_basal_heat_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

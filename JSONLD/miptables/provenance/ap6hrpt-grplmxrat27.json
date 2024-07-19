@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-grplmxrat27",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "f2c7dcbe-26b8-11e7-8344-ac72891c3257",
-        "mip_table": "6hrPlevPt",
-        "variable_name": "grplmxrat27"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-grplmxrat27",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "f2c7dcbe-26b8-11e7-8344-ac72891c3257",
+    "mip_table": "6hrPlevPt",
+    "variable_name": "grplmxrat27"
+  }
 }

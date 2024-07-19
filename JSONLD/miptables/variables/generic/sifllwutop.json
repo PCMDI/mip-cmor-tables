@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sifllwutop",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Upwelling Longwave Flux over Sea Ice",
-    "variable:out_name": "sifllwutop",
-    "variable:positive": "up",
-    "variable:standard_name": "surface_upwelling_longwave_flux_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sifllwutop",
+  "@type": "variable-generic",
+  "variable:long_name": "Upwelling Longwave Flux over Sea Ice",
+  "variable:out_name": "sifllwutop",
+  "variable:positive": "up",
+  "variable:standard_name": "surface_upwelling_longwave_flux_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

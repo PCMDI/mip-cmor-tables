@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lisubhrptsite-sbl",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "80082b5a-f906-11e6-a176-5404a60d96b5",
-        "mip_table": "CFsubhr",
-        "variable_name": "sbl"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lisubhrptsite-sbl",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "80082b5a-f906-11e6-a176-5404a60d96b5",
+    "mip_table": "CFsubhr",
+    "variable_name": "sbl"
+  }
 }

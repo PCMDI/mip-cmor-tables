@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/rainmxrat27",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Mass Fraction of Rain in Air",
-    "variable:out_name": "rainmxrat27",
-    "variable:positive": "",
-    "variable:standard_name": "mass_fraction_of_liquid_precipitation_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/rainmxrat27",
+  "@type": "variable-generic",
+  "variable:long_name": "Mass Fraction of Rain in Air",
+  "variable:out_name": "rainmxrat27",
+  "variable:positive": "",
+  "variable:standard_name": "mass_fraction_of_liquid_precipitation_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

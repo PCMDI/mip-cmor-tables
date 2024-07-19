@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/treefracbdlevg",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Broadleaf Evergreen Tree Area Percentage",
-    "variable:out_name": "treeFracBdlEvg",
-    "variable:positive": "",
-    "variable:standard_name": "area_fraction",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/treefracbdlevg",
+  "@type": "variable-generic",
+  "variable:long_name": "Broadleaf Evergreen Tree Area Percentage",
+  "variable:out_name": "treeFracBdlEvg",
+  "variable:positive": "",
+  "variable:standard_name": "area_fraction",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

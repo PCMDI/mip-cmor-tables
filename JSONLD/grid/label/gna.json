@@ -1,0 +1,8 @@
+{
+  "@id": "mip-cmor-tables:grid/label/gna",
+  "@type": "grid-label",
+  "name": "gna",
+  "description": "data reported on a native grid in the region of Antarctica",
+  "region": "antarctica",
+  "short name": "Grid Native Antarctica Greenland"
+}

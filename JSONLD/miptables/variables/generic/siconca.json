@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/siconca",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea-Ice Area Percentage (Atmospheric Grid)",
-    "variable:out_name": "siconca",
-    "variable:positive": "",
-    "variable:standard_name": "sea_ice_area_fraction",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/siconca",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea-Ice Area Percentage (Atmospheric Grid)",
+  "variable:out_name": "siconca",
+  "variable:positive": "",
+  "variable:standard_name": "sea_ice_area_fraction",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

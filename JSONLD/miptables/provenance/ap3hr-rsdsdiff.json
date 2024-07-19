@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ap3hr-rsdsdiff",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab61768-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "3hr",
-        "variable_name": "rsdsdiff"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ap3hr-rsdsdiff",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "bab61768-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "3hr",
+    "variable_name": "rsdsdiff"
+  }
 }

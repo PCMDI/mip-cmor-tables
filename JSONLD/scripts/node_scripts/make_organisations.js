@@ -18,7 +18,7 @@ async function main() {
     const frame = {
         "@context": {
         },
-        "@type": ["cmip:institution", "cmip:consortium"],
+        "@type": ["mip:institution", "mip:consortium"],
         "@explicit": true,
 
         "consortium:cmip_acronym": "",
@@ -45,10 +45,12 @@ async function main() {
         // .then(cld.printState)
         .then(graphOnly)
         .then(cld.stringify)
-        .then(cld.flatten)
+        
         .then(cld.rmld)
         .then(cld.rmnull)
         .then(cld.untag)
+        .then(cld.flatten)
+        // .then(printState)
         .then(str2JSON)
         .then(d => {
 
@@ -60,7 +62,8 @@ async function main() {
                 output[element["cmip_acronym"]] = element
             });
 
-            console.log(output)
+            // console.log(output)
+            console.log(__filename);
 
             cld.writeFile(output, './output/MIP_organisations.json')
         })

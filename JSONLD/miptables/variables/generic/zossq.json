@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/zossq",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Square of Sea Surface Height Above Geoid",
-    "variable:out_name": "zossq",
-    "variable:positive": "",
-    "variable:standard_name": "square_of_sea_surface_height_above_geoid",
-    "variable:type": "real",
-    "variable:units": [
-        "m2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/zossq",
+  "@type": "variable-generic",
+  "variable:long_name": "Square of Sea Surface Height Above Geoid",
+  "variable:out_name": "zossq",
+  "variable:positive": "",
+  "variable:standard_name": "square_of_sea_surface_height_above_geoid",
+  "variable:type": "real",
+  "variable:units": [
+    "m2"
+  ]
 }

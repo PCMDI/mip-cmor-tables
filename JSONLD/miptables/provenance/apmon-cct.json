@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-cct",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baa96a0e-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Amon",
-        "variable_name": "cct"
-    },
-    "CMIP5": {
-        "mip_table": "Amon",
-        "variable_name": "cct"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-cct",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Amon",
+    "variable_name": "cct"
+  },
+  "cmip6": {
+    "dreq_uid": "baa96a0e-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Amon",
+    "variable_name": "cct"
+  }
 }

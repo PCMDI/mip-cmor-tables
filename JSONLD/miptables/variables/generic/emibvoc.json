@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/emibvoc",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Emission Rate of Biogenic NMVOC",
-    "variable:out_name": "emibvoc",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_atmosphere_mass_content_of_biogenic_nmvoc_expressed_as_carbon_due_to_emission",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/emibvoc",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Emission Rate of Biogenic NMVOC",
+  "variable:out_name": "emibvoc",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_atmosphere_mass_content_of_biogenic_nmvoc_expressed_as_carbon_due_to_emission",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

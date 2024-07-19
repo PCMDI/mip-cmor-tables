@@ -1,6 +1,6 @@
 {
-    "@type": "cmip:product",
-    "@id": "mip-cmor-tables:auxillary/product/derived",
-    "product:kind": "derived",
-    "product:description": "Data that has been processed or transformed from raw model output. Derived data includes value-added products such as anomalies, indices, or other statistics that are computed from the original model outputs."
+  "@id": "mip-cmor-tables:auxillary/product/derived",
+  "@type": "product",
+  "description": "Data that has been processed or transformed from raw model output. Derived data includes value-added products such as anomalies, indices, or other statistics that are computed from the original model outputs.",
+  "kind": "derived"
 }

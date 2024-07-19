@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmonz-tntogw",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "8b978588-4a5b-11e6-9cd2-ac72891c3257",
-        "mip_table": "EmonZ",
-        "variable_name": "tntogw"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmonz-tntogw",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "8b978588-4a5b-11e6-9cd2-ac72891c3257",
+    "mip_table": "EmonZ",
+    "variable_name": "tntogw"
+  }
 }

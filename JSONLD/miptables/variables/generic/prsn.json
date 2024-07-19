@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/prsn",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Snowfall Flux",
-    "variable:out_name": "prsn",
-    "variable:positive": "",
-    "variable:standard_name": "snowfall_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/prsn",
+  "@type": "variable-generic",
+  "variable:long_name": "Snowfall Flux",
+  "variable:out_name": "prsn",
+  "variable:positive": "",
+  "variable:standard_name": "snowfall_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

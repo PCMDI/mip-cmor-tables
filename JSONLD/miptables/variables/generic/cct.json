@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/cct",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Air Pressure at Convective Cloud Top",
-    "variable:out_name": "cct",
-    "variable:positive": "",
-    "variable:standard_name": "air_pressure_at_convective_cloud_top",
-    "variable:type": "real",
-    "variable:units": [
-        "Pa"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/cct",
+  "@type": "variable-generic",
+  "variable:long_name": "Air Pressure at Convective Cloud Top",
+  "variable:out_name": "cct",
+  "variable:positive": "",
+  "variable:standard_name": "air_pressure_at_convective_cloud_top",
+  "variable:type": "real",
+  "variable:units": [
+    "Pa"
+  ]
 }

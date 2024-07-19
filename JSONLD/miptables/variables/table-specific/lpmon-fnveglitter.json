@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpmon-fnveglitter",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/fnveglitter"
-    },
-    "variable:branded_variable_name": "fNVegLitter_mon-ld-tav-z0-hxy",
-    "variable:comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics. 'Litter' is dead plant material in or above the soil. 'Vegetation' means any living plants e.g. trees, shrubs, grass.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/lpmon-fnveglitter"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/lpmon-fnveglitter",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "fNVegLitter_mon-ld-tav-z0-hxy",
+  "variable:comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics. 'Litter' is dead plant material in or above the soil. 'Vegetation' means any living plants e.g. trees, shrubs, grass.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/fnveglitter"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/lpmon-fnveglitter"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

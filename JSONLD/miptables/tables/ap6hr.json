@@ -1,68 +1,68 @@
 {
-    "@id": "mip-cmor-tables:miptables/tables/ap6hr",
-    "@type": "cmip:dr-table",
-    "table:table_id": "AP6hr",
-    "table:Conventions": "CF-1.7 CMIP-6.5",
-    "table:approx_interval": 0.25,
-    "table:checksum": "",
-    "table:cmor_version": "3.8.0",
-    "table:release": "v6.5.0.2",
-    "table:data_specs_version": "6.5.0.0",
-    "table:generic_levels": [],
-    "table:int_missing_value": "-999",
-    "table:missing_value": "1e20",
-    "table:product": {
-        "@id": "mip-cmor-tables:auxillary/product/model-output"
+  "@id": "mip-cmor-tables:miptables/tables/ap6hr",
+  "@type": "dr-table",
+  "table:approx_interval": 0.25,
+  "table:checksum": "",
+  "table:cmor_version": "3.8.0",
+  "table:conventions": "CF-1.7 CMIP-6.5",
+  "table:data_specs_version": "6.5.0.0",
+  "table:generic_levels": [],
+  "table:int_missing_value": "-999",
+  "table:missing_value": "1e20",
+  "table:product": {
+    "@id": "mip-cmor-tables:auxillary/product/model-output"
+  },
+  "table:release": "v6.5.0.2",
+  "table:table_date": "2024-02-28",
+  "table:table_id": "AP6hr",
+  "table:variable_entry": [
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-hurs"
     },
-    "table:table_date": "2024-02-28",
-    "table:variable_entry": [
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-hurs"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-hus4"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-pr"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-prhmax"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-psl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-rv850"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-sfcwind"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-tas"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-ua100m"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-uas"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-va100m"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-vas"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-wap4"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-wsgmax100m"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-wsgmax10m"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-zg1000"
-        }
-    ]
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-hus4"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-pr"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-prhmax"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-psl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-rv850"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-sfcwind"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-tas"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-ua100m"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-uas"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-va100m"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-vas"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-wap4"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-wsgmax100m"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-wsgmax10m"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-zg1000"
+    }
+  ]
 }

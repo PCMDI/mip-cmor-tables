@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ap3hrptlev-hus",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "6140a2aa-aa6a-11e6-9736-5404a60d96b5",
-        "mip_table": "E3hrPt",
-        "variable_name": "hus"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ap3hrptlev-hus",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "6140a2aa-aa6a-11e6-9736-5404a60d96b5",
+    "mip_table": "E3hrPt",
+    "variable_name": "hus"
+  }
 }

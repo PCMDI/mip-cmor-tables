@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obmon-fsn",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baa10292-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Omon",
-        "variable_name": "fsn"
-    },
-    "CMIP5": {
-        "mip_table": "Omon",
-        "variable_name": "fsn"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obmon-fsn",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Omon",
+    "variable_name": "fsn"
+  },
+  "cmip6": {
+    "dreq_uid": "baa10292-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Omon",
+    "variable_name": "fsn"
+  }
 }

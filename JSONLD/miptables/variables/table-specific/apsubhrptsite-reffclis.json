@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptsite-reffclis",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/reffclis"
-    },
-    "variable:branded_variable_name": "reffclis_subhr-ap-tpt-l-hxys",
-    "variable:comment": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell).",
-    "variable:frequency": "subhrPt",
-    "variable:dimensions": [
-        "alevel",
-        "site",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-reffclis"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrptsite-reffclis",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "reffclis_subhr-ap-tpt-l-hxys",
+  "variable:comment": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell).",
+  "variable:dimensions": [
+    "alevel",
+    "site",
+    "time1"
+  ],
+  "variable:frequency": "subhrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/reffclis"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-reffclis"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

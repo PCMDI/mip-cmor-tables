@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/no",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "NO Volume Mixing Ratio",
+    "variable:out_name": "no",
+    "variable:positive": "",
+    "variable:standard_name": "mole_fraction_of_nitrogen_monoxide_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "mol-1"
+    ]
+}

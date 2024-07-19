@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/phalf",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Pressure on Model Half-Levels",
-    "variable:out_name": "phalf",
-    "variable:positive": "",
-    "variable:standard_name": "air_pressure",
-    "variable:type": "real",
-    "variable:units": [
-        "Pa"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/phalf",
+  "@type": "variable-generic",
+  "variable:long_name": "Pressure on Model Half-Levels",
+  "variable:out_name": "phalf",
+  "variable:positive": "",
+  "variable:standard_name": "air_pressure",
+  "variable:type": "real",
+  "variable:units": [
+    "Pa"
+  ]
 }

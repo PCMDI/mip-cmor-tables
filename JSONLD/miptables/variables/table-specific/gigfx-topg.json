@@ -1,28 +1,28 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/gigfx-topg",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/topg"
-    },
-    "variable:branded_variable_name": "topg_fx-li-none-z0-hxyG",
-    "variable:comment": "The bedrock topography beneath the land ice",
-    "variable:frequency": "fx",
-    "variable:dimensions": [
-        "xgre",
-        "ygre"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/landIce"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/gigfx-topg"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/gigfx-topg",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "topg_fx-li-none-z0-hxyG",
+  "variable:comment": "The bedrock topography beneath the land ice",
+  "variable:dimensions": [
+    "xgre",
+    "ygre"
+  ],
+  "variable:frequency": "fx",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/topg"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/landice"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/gigfx-topg"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

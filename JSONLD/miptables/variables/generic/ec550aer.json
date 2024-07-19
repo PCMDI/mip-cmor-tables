@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/ec550aer",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Aerosol Extinction Coefficient",
-    "variable:out_name": "ec550aer",
-    "variable:positive": "",
-    "variable:standard_name": "volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles",
-    "variable:type": "real",
-    "variable:units": [
-        "m-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/ec550aer",
+  "@type": "variable-generic",
+  "variable:long_name": "Aerosol Extinction Coefficient",
+  "variable:out_name": "ec550aer",
+  "variable:positive": "",
+  "variable:standard_name": "volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles",
+  "variable:type": "real",
+  "variable:units": [
+    "m-1"
+  ]
 }

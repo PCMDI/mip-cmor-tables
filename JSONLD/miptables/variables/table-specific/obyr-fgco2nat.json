@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/obyr-fgco2nat",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/fgco2nat"
-    },
-    "variable:branded_variable_name": "fgco2nat_yr-oc-tav-z0-hxy",
-    "variable:comment": "Gas exchange flux of natural CO2 (positive into ocean)",
-    "variable:frequency": "yr",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocnBgchem"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/obyr-fgco2nat"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/obyr-fgco2nat",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "fgco2nat_yr-oc-tav-z0-hxy",
+  "variable:comment": "Gas exchange flux of natural CO2 (positive into ocean)",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "yr",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/fgco2nat"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocnbgchem"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/obyr-fgco2nat"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/icem",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Surface Ice Melt Flux",
+    "variable:out_name": "icem",
+    "variable:positive": "",
+    "variable:standard_name": "land_ice_surface_melt_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

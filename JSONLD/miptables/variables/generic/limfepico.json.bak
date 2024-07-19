@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/limfepico",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Iron Limitation of Picophytoplankton",
+    "variable:out_name": "limfepico",
+    "variable:positive": "",
+    "variable:standard_name": "iron_growth_limitation_of_picophytoplankton",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

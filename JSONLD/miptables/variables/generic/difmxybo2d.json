@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/difmxybo2d",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Ocean Momentum XY Biharmonic Diffusivity",
-    "variable:out_name": "difmxybo2d",
-    "variable:positive": "",
-    "variable:standard_name": "ocean_momentum_xy_biharmonic_diffusivity",
-    "variable:type": "real",
-    "variable:units": [
-        "m4",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/difmxybo2d",
+  "@type": "variable-generic",
+  "variable:long_name": "Ocean Momentum XY Biharmonic Diffusivity",
+  "variable:out_name": "difmxybo2d",
+  "variable:positive": "",
+  "variable:standard_name": "ocean_momentum_xy_biharmonic_diffusivity",
+  "variable:type": "real",
+  "variable:units": [
+    "m4",
+    "s-1"
+  ]
 }

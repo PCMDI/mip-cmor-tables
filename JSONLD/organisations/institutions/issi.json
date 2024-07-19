@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:organisations/institutions/issi",
-    "@type": "cmip:institution",
-    "institution:acronyms": [
-        "ISSI"
-    ],
-    "institution:aliases": [],
-    "institution:cmip_acronym": "ISSI",
-    "institution:established": 1995,
-    "institution:labels": [],
-    "institution:location": {
-        "@id": "mip-cmor-tables:organisations/institutions/location/01xm30661",
-        "@type": "institution:location",
-        "@nest": {
-            "location:lat": 46.952897,
-            "location:lon": 46.952897,
-            "location:city": "Bern",
-            "location:country": [
-                "Switzerland",
-                "CH"
-            ]
-        }
+  "@id": "mip-cmor-tables:organisations/institutions/issi",
+  "@type": "institution",
+  "acronyms": [
+    "ISSI"
+  ],
+  "aliases": [],
+  "cmip-acronym": "ISSI",
+  "established": 1995,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/01xm30661",
+    "@nest": {
+      "city": "Bern",
+      "country": [
+        "Switzerland",
+        "CH"
+      ],
+      "lat": 46.952897,
+      "lon": 46.952897
     },
-    "institution:name": "International Space Science Institute",
-    "institution:ror": "01xm30661",
-    "institution:type": "Nonprofit",
-    "institution:url": [
-        "http://www.issibern.ch/"
-    ]
+    "@type": "location"
+  },
+  "name": "International Space Science Institute",
+  "ror": "01xm30661",
+  "type": "Nonprofit",
+  "url": [
+    "http://www.issibern.ch/"
+  ]
 }

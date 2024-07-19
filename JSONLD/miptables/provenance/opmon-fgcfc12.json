@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opmon-fgcfc12",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "ba9b4000-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Omon",
-        "variable_name": "fgcfc12"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opmon-fgcfc12",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "ba9b4000-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Omon",
+    "variable_name": "fgcfc12"
+  }
 }

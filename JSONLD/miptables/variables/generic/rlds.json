@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/rlds",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Surface Downwelling Longwave Radiation",
-    "variable:out_name": "rlds",
-    "variable:positive": "down",
-    "variable:standard_name": "surface_downwelling_longwave_flux_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/rlds",
+  "@type": "variable-generic",
+  "variable:long_name": "Surface Downwelling Longwave Radiation",
+  "variable:out_name": "rlds",
+  "variable:positive": "down",
+  "variable:standard_name": "surface_downwelling_longwave_flux_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

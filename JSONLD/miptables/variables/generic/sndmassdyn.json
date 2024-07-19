@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sndmassdyn",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Snow Mass Rate of Change Through Advection by Sea-Ice Dynamics",
-    "variable:out_name": "sndmassdyn",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_surface_snow_amount_due_to_sea_ice_dynamics",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sndmassdyn",
+  "@type": "variable-generic",
+  "variable:long_name": "Snow Mass Rate of Change Through Advection by Sea-Ice Dynamics",
+  "variable:out_name": "sndmassdyn",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_surface_snow_amount_due_to_sea_ice_dynamics",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

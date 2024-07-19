@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-nudgincsm",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/nudgincsm"
+    },
+    "variable:branded_variable_name": "nudgincsm_day-ld-tav-z0-hxy",
+    "variable:comment": "A nudging increment refers to an amount added to parts of a model system. The phrase 'nudging_increment_in_X' refers to an increment in quantity X over a time period which should be defined in the bounds of the time coordinate. 'Content' indicates a quantity per unit area. 'Water' means water in all phases. The mass content of water in soil refers to the vertical integral from the surface down to the bottom of the soil model. The 'soil content' of a quantity refers to the vertical integral from the surface down to the bottom of the soil model. For the content between specified levels in the soil, standard names including 'content_of_soil_layer' are used.",
+    "variable:frequency": "day",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/lpday-nudgincsm"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/fgco2nat",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Surface Downward Mass Flux of Carbon as Natural CO2 [kgC m-2 s-1]",
-    "variable:out_name": "fgco2nat",
-    "variable:positive": "down",
-    "variable:standard_name": "surface_downward_mass_flux_of_carbon_dioxide_natural_analogue_expressed_as_carbon",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/fgco2nat",
+  "@type": "variable-generic",
+  "variable:long_name": "Surface Downward Mass Flux of Carbon as Natural CO2 [kgC m-2 s-1]",
+  "variable:out_name": "fgco2nat",
+  "variable:positive": "down",
+  "variable:standard_name": "surface_downward_mass_flux_of_carbon_dioxide_natural_analogue_expressed_as_carbon",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

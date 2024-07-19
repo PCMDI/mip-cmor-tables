@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opmon-rlntds",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "1ded891c-b00c-11e6-bdc9-ac72891c3257",
-        "mip_table": "Omon",
-        "variable_name": "rlntds"
-    },
-    "CMIP5": {
-        "mip_table": "Omon",
-        "variable_name": "rlds"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opmon-rlntds",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Omon",
+    "variable_name": "rlds"
+  },
+  "cmip6": {
+    "dreq_uid": "1ded891c-b00c-11e6-bdc9-ac72891c3257",
+    "mip_table": "Omon",
+    "variable_name": "rlntds"
+  }
 }

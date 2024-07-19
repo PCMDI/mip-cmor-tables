@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/treefracprimdec",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Percentage Cover by Primary Deciduous Tree",
-    "variable:out_name": "treeFracPrimDec",
-    "variable:positive": "",
-    "variable:standard_name": "area_fraction",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/treefracprimdec",
+  "@type": "variable-generic",
+  "variable:long_name": "Percentage Cover by Primary Deciduous Tree",
+  "variable:out_name": "treeFracPrimDec",
+  "variable:positive": "",
+  "variable:standard_name": "area_fraction",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

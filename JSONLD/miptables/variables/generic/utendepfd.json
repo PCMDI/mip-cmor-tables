@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/utendepfd",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Tendency of Eastward Wind Due to Eliassen-Palm Flux Divergence",
-    "variable:out_name": "utendepfd",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_eastward_wind_due_to_eliassen_palm_flux_divergence",
-    "variable:type": "real",
-    "variable:units": [
-        "m",
-        "s-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/utendepfd",
+  "@type": "variable-generic",
+  "variable:long_name": "Tendency of Eastward Wind Due to Eliassen-Palm Flux Divergence",
+  "variable:out_name": "utendepfd",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_eastward_wind_due_to_eliassen_palm_flux_divergence",
+  "variable:type": "real",
+  "variable:units": [
+    "m",
+    "s-2"
+  ]
 }

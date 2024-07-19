@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-ta7h",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "713943fa-faa7-11e6-bfb7-ac72891c3257",
-        "mip_table": "6hrPlevPt",
-        "variable_name": "ta7h"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-ta7h",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "713943fa-faa7-11e6-bfb7-ac72891c3257",
+    "mip_table": "6hrPlevPt",
+    "variable_name": "ta7h"
+  }
 }

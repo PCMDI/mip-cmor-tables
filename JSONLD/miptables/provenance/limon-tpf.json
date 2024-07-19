@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/limon-tpf",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baba8cbc-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "LImon",
-        "variable_name": "tpf"
-    },
-    "CMIP5": {
-        "mip_table": "LImon",
-        "variable_name": "tpf"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/limon-tpf",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "LImon",
+    "variable_name": "tpf"
+  },
+  "cmip6": {
+    "dreq_uid": "baba8cbc-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "LImon",
+    "variable_name": "tpf"
+  }
 }

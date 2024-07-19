@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obmon-zmesoos",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "c9187c60-c5e8-11e6-84e6-5404a60d96b5",
-        "mip_table": "Omon",
-        "variable_name": "zmesoos"
-    },
-    "CMIP5": {
-        "mip_table": "Omon",
-        "variable_name": "zmeso"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obmon-zmesoos",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Omon",
+    "variable_name": "zmeso"
+  },
+  "cmip6": {
+    "dreq_uid": "c9187c60-c5e8-11e6-84e6-5404a60d96b5",
+    "mip_table": "Omon",
+    "variable_name": "zmesoos"
+  }
 }

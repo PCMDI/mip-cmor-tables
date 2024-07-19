@@ -18,7 +18,7 @@ async function main() {
     const frame = {
         "@context": {
         },
-        "@type": ["cmip:realm"],
+        "@type": ["mip:realm"],
         // "@explicit": true,
 
 
@@ -44,7 +44,8 @@ async function main() {
                 output[element["name"]] = element
             });
 
-            console.log(output)
+            // console.log(output)
+            console.log(__filename);
 
             cld.writeFile(output, './output/MIP_realms.json')
         })

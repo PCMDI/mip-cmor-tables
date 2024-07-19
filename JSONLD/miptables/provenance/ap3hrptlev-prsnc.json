@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ap3hrptlev-prsnc",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab45400-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "CF3hr",
-        "variable_name": "prsnc"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ap3hrptlev-prsnc",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "bab45400-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "CF3hr",
+    "variable_name": "prsnc"
+  }
 }

@@ -1,31 +1,31 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-tas",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/tas"
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/giamon-tas",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "tas_mon-li-tav-h02-hmA",
+  "variable:comment": "near-surface (usually, 2 meter) air temperature",
+  "variable:dimensions": [
+    "time",
+    "height2m"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/tas"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/landice"
     },
-    "variable:branded_variable_name": "tas_mon-li-tav-h02-hmA",
-    "variable:comment": "near-surface (usually, 2 meter) air temperature",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "time",
-        "height2m"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/landIce"
-        },
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/giamon-tas"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/giamon-tas"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

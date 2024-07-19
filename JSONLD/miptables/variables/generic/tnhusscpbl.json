@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tnhusscpbl",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Tendency of Specific Humidity Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing",
-    "variable:out_name": "tnhusscpbl",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_specific_humidity_due_to_stratiform_cloud_and_precipitation_and_boundary_layer_mixing",
-    "variable:type": "real",
-    "variable:units": [
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tnhusscpbl",
+  "@type": "variable-generic",
+  "variable:long_name": "Tendency of Specific Humidity Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing",
+  "variable:out_name": "tnhusscpbl",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_specific_humidity_due_to_stratiform_cloud_and_precipitation_and_boundary_layer_mixing",
+  "variable:type": "real",
+  "variable:units": [
+    "s-1"
+  ]
 }

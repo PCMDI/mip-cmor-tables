@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/simon-sisnmass",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "713ed766-faa7-11e6-bfb7-ac72891c3257",
-        "mip_table": "SImon",
-        "variable_name": "sisnmass"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/simon-sisnmass",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "713ed766-faa7-11e6-bfb7-ac72891c3257",
+    "mip_table": "SImon",
+    "variable_name": "sisnmass"
+  }
 }

@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sishevel",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Maximum Shear of Sea-Ice Velocity Field",
-    "variable:out_name": "sishevel",
-    "variable:positive": "",
-    "variable:standard_name": "maximum_over_coordinate_rotation_of_sea_ice_horizontal_shear_strain_rate",
-    "variable:type": "real",
-    "variable:units": [
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sishevel",
+  "@type": "variable-generic",
+  "variable:long_name": "Maximum Shear of Sea-Ice Velocity Field",
+  "variable:out_name": "sishevel",
+  "variable:positive": "",
+  "variable:standard_name": "maximum_over_coordinate_rotation_of_sea_ice_horizontal_shear_strain_rate",
+  "variable:type": "real",
+  "variable:units": [
+    "s-1"
+  ]
 }

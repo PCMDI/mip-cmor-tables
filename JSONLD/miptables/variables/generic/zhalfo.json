@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/zhalfo",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Depth Below Geoid of Interfaces Between Ocean Layers",
-    "variable:out_name": "zhalfo",
-    "variable:positive": "",
-    "variable:standard_name": "depth_below_geoid",
-    "variable:type": "real",
-    "variable:units": [
-        "m"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/zhalfo",
+  "@type": "variable-generic",
+  "variable:long_name": "Depth Below Geoid of Interfaces Between Ocean Layers",
+  "variable:out_name": "zhalfo",
+  "variable:positive": "",
+  "variable:standard_name": "depth_below_geoid",
+  "variable:type": "real",
+  "variable:units": [
+    "m"
+  ]
 }

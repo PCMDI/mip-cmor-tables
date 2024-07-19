@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/po4",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Dissolved Inorganic Phosphorus Concentration",
-    "variable:out_name": "po4",
-    "variable:positive": "",
-    "variable:standard_name": "mole_concentration_of_dissolved_inorganic_phosphorus_in_sea_water",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-3"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/po4",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Dissolved Inorganic Phosphorus Concentration",
+  "variable:out_name": "po4",
+  "variable:positive": "",
+  "variable:standard_name": "mole_concentration_of_dissolved_inorganic_phosphorus_in_sea_water",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-3"
+  ]
 }

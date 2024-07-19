@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/fg13co2",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Surface Downward Mass Flux of Carbon-13 as 13CO2 [kgC m-2 s-1]",
-    "variable:out_name": "fg13co2",
-    "variable:positive": "down",
-    "variable:standard_name": "surface_downward_mass_flux_of_13C_dioxide_abiotic_analogue_expressed_as_13C",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/fg13co2",
+  "@type": "variable-generic",
+  "variable:long_name": "Surface Downward Mass Flux of Carbon-13 as 13CO2 [kgC m-2 s-1]",
+  "variable:out_name": "fg13co2",
+  "variable:positive": "down",
+  "variable:standard_name": "surface_downward_mass_flux_of_13C_dioxide_abiotic_analogue_expressed_as_13C",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

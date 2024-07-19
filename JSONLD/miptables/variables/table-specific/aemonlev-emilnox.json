@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonlev-emilnox",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/emilnox"
-    },
-    "variable:branded_variable_name": "emilnox_mon-ae-tav-l-hxy",
-    "variable:comment": "Integrate the NOx production for lightning over model layer. proposed name: tendency_of_atmosphere_mass_content_of_nox_from_lightning",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "alevel",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/aerosol"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/aemonlev-emilnox"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonlev-emilnox",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "emilnox_mon-ae-tav-l-hxy",
+  "variable:comment": "Integrate the NOx production for lightning over model layer. proposed name: tendency_of_atmosphere_mass_content_of_nox_from_lightning",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/emilnox"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/aerosol"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/aemonlev-emilnox"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

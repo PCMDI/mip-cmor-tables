@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opdec-hfds",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "ac26ebd6-bb0d-11e6-83c8-bf7187cdbd68",
-        "mip_table": "Odec",
-        "variable_name": "hfds"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opdec-hfds",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "ac26ebd6-bb0d-11e6-83c8-bf7187cdbd68",
+    "mip_table": "Odec",
+    "variable_name": "hfds"
+  }
 }

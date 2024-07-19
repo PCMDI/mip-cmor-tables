@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/fn2o",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Land N2O Flux",
-    "variable:out_name": "fN2O",
-    "variable:positive": "up",
-    "variable:standard_name": "surface_upward_mass_flux_of_nitrous_oxide_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/fn2o",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Land N2O Flux",
+  "variable:out_name": "fN2O",
+  "variable:positive": "up",
+  "variable:standard_name": "surface_upward_mass_flux_of_nitrous_oxide_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

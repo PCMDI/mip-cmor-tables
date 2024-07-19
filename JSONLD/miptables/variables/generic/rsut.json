@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/rsut",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "TOA Outgoing Shortwave Radiation",
-    "variable:out_name": "rsut",
-    "variable:positive": "up",
-    "variable:standard_name": "toa_outgoing_shortwave_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/rsut",
+  "@type": "variable-generic",
+  "variable:long_name": "TOA Outgoing Shortwave Radiation",
+  "variable:out_name": "rsut",
+  "variable:positive": "up",
+  "variable:standard_name": "toa_outgoing_shortwave_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

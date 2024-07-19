@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap1hrpt-rlut",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/rlut"
-    },
-    "variable:branded_variable_name": "rlut_1hr-ap-tpt-z0-hxy",
-    "variable:comment": "at the top of the atmosphere (to be compared with satellite measurements)",
-    "variable:frequency": "1hrPt",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/ap1hrpt-rlut"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/ap1hrpt-rlut",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "rlut_1hr-ap-tpt-z0-hxy",
+  "variable:comment": "at the top of the atmosphere (to be compared with satellite measurements)",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time1"
+  ],
+  "variable:frequency": "1hrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/rlut"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/ap1hrpt-rlut"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/od550soa",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Particulate Organic Aerosol Optical Depth at 550nm",
-    "variable:out_name": "od550soa",
-    "variable:positive": "",
-    "variable:standard_name": "atmosphere_optical_thickness_due_to_particulate_organic_matter_ambient_aerosol_particles",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/od550soa",
+  "@type": "variable-generic",
+  "variable:long_name": "Particulate Organic Aerosol Optical Depth at 550nm",
+  "variable:out_name": "od550soa",
+  "variable:positive": "",
+  "variable:standard_name": "atmosphere_optical_thickness_due_to_particulate_organic_matter_ambient_aerosol_particles",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

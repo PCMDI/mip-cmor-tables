@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpmon-npproot",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab275d6-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Lmon",
-        "variable_name": "nppRoot"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpmon-npproot",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "bab275d6-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Lmon",
+    "variable_name": "nppRoot"
+  }
 }

@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apdayz-utendogw",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/utendogw"
-    },
-    "variable:branded_variable_name": "utendogw_day-ap-tav-p39-hy",
-    "variable:comment": "Tendency of the eastward wind by parameterized orographic gravity waves.",
-    "variable:frequency": "day",
-    "variable:dimensions": [
-        "latitude",
-        "plev39",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apdayz-utendogw"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apdayz-utendogw",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "utendogw_day-ap-tav-p39-hy",
+  "variable:comment": "Tendency of the eastward wind by parameterized orographic gravity waves.",
+  "variable:dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "variable:frequency": "day",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/utendogw"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apdayz-utendogw"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

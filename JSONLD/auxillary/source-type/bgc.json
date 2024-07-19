@@ -1,0 +1,6 @@
+{
+  "@id": "mip-cmor-tables:auxillary/source-type/bgc",
+  "@type": "source-type",
+  "description": "biogeochemistry model component that at the very least accounts for carbon reservoirs and fluxes in the atmosphere, terrestrial biosphere, and ocean",
+  "name": "BGC"
+}

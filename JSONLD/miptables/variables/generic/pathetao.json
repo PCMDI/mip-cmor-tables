@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/pathetao",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea Water Additional Potential Temperature",
-    "variable:out_name": "pathetao",
-    "variable:positive": "",
-    "variable:standard_name": "sea_water_added_potential_temperature",
-    "variable:type": "real",
-    "variable:units": [
-        "degC"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/pathetao",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea Water Additional Potential Temperature",
+  "variable:out_name": "pathetao",
+  "variable:positive": "",
+  "variable:standard_name": "sea_water_added_potential_temperature",
+  "variable:type": "real",
+  "variable:units": [
+    "degC"
+  ]
 }

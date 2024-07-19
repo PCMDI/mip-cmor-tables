@@ -1,0 +1,31 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-tas",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/tas"
+    },
+    "variable:branded_variable_name": "tas_mon-li-tav-h02-hmG",
+    "variable:comment": "near-surface (usually, 2 meter) air temperature",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "time",
+        "height2m"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/landIce"
+        },
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/gigmon-tas"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

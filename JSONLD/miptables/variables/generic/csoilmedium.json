@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/csoilmedium",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Carbon Mass in Medium Soil Pool",
-    "variable:out_name": "cSoilMedium",
-    "variable:positive": "",
-    "variable:standard_name": "medium_soil_pool_mass_content_of_carbon",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/csoilmedium",
+  "@type": "variable-generic",
+  "variable:long_name": "Carbon Mass in Medium Soil Pool",
+  "variable:out_name": "cSoilMedium",
+  "variable:positive": "",
+  "variable:standard_name": "medium_soil_pool_mass_content_of_carbon",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

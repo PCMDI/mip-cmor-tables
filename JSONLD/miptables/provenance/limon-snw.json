@@ -1,17 +1,17 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/limon-snw",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab81e50-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "LImon",
-        "variable_name": "snw"
-    },
-    "CMIP5": {
-        "mip_table": "LImon",
-        "variable_name": "snw"
-    },
-    "CMIP3": {
-        "mip_table": "A1",
-        "variable_name": "snw"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/limon-snw",
+  "@type": "provenance",
+  "cmip3": {
+    "mip_table": "A1",
+    "variable_name": "snw"
+  },
+  "cmip5": {
+    "mip_table": "LImon",
+    "variable_name": "snw"
+  },
+  "cmip6": {
+    "dreq_uid": "bab81e50-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "LImon",
+    "variable_name": "snw"
+  }
 }

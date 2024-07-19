@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpfx-sandfrac",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "819645a6-f906-11e6-a176-5404a60d96b5",
-        "mip_table": "Efx",
-        "variable_name": "sandfrac"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpfx-sandfrac",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "819645a6-f906-11e6-a176-5404a60d96b5",
+    "mip_table": "Efx",
+    "variable_name": "sandfrac"
+  }
 }

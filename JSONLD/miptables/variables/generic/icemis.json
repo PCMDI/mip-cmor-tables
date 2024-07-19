@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/icemis",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Ice Sheet Surface Ice Melt Flux",
-    "variable:out_name": "icemIs",
-    "variable:positive": "",
-    "variable:standard_name": "land_ice_surface_melt_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/icemis",
+  "@type": "variable-generic",
+  "variable:long_name": "Ice Sheet Surface Ice Melt Flux",
+  "variable:out_name": "icemIs",
+  "variable:positive": "",
+  "variable:standard_name": "land_ice_surface_melt_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

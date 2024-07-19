@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-fco2antt",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baaddada-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Amon",
-        "variable_name": "fco2antt"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-fco2antt",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "baaddada-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Amon",
+    "variable_name": "fco2antt"
+  }
 }

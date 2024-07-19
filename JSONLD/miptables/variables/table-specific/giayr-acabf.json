@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/giayr-acabf",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/acabf"
-    },
-    "variable:branded_variable_name": "acabf_yr-li-tav-z0-hxyA",
-    "variable:comment": "Specific mass balance means the net rate at which ice is added per unit area at the land ice surface. Computed as the total surface mass balance on the land ice portion of the grid cell divided by land ice area in the grid cell. A negative value means loss of ice",
-    "variable:frequency": "yr",
-    "variable:dimensions": [
-        "xant",
-        "yant",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/landIce"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/giayr-acabf"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/giayr-acabf",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "acabf_yr-li-tav-z0-hxyA",
+  "variable:comment": "Specific mass balance means the net rate at which ice is added per unit area at the land ice surface. Computed as the total surface mass balance on the land ice portion of the grid cell divided by land ice area in the grid cell. A negative value means loss of ice",
+  "variable:dimensions": [
+    "xant",
+    "yant",
+    "time"
+  ],
+  "variable:frequency": "yr",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/acabf"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/landice"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/giayr-acabf"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

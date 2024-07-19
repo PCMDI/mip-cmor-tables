@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/hfsnthermds",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Heat Flux into Sea Water Due to Snow Thermodynamics",
-    "variable:out_name": "hfsnthermds",
-    "variable:positive": "",
-    "variable:standard_name": "heat_flux_into_sea_water_due_to_snow_thermodynamics",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/hfsnthermds",
+  "@type": "variable-generic",
+  "variable:long_name": "Heat Flux into Sea Water Due to Snow Thermodynamics",
+  "variable:out_name": "hfsnthermds",
+  "variable:positive": "",
+  "variable:standard_name": "heat_flux_into_sea_water_due_to_snow_thermodynamics",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

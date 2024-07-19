@@ -1,33 +1,33 @@
 {
-    "@id": "mip-cmor-tables:organisations/institutions/fuberlin",
-    "@type": "cmip:institution",
-    "institution:acronyms": [
-        "FU"
-    ],
-    "institution:aliases": [
-        "FU Berlin",
-        "Free University of Berlin"
-    ],
-    "institution:cmip_acronym": "FUBerlin",
-    "institution:established": 1948,
-    "institution:labels": [],
-    "institution:location": {
-        "@id": "mip-cmor-tables:organisations/institutions/location/046ak2485",
-        "@type": "institution:location",
-        "@nest": {
-            "location:lat": 52.52437,
-            "location:lon": 52.52437,
-            "location:city": "Berlin",
-            "location:country": [
-                "Germany",
-                "DE"
-            ]
-        }
+  "@id": "mip-cmor-tables:organisations/institutions/fuberlin",
+  "@type": "institution",
+  "acronyms": [
+    "FU"
+  ],
+  "aliases": [
+    "FU Berlin",
+    "Free University of Berlin"
+  ],
+  "cmip-acronym": "FUBerlin",
+  "established": 1948,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/046ak2485",
+    "@nest": {
+      "city": "Berlin",
+      "country": [
+        "Germany",
+        "DE"
+      ],
+      "lat": 52.52437,
+      "lon": 52.52437
     },
-    "institution:name": "Freie Universit\u00e4t Berlin",
-    "institution:ror": "046ak2485",
-    "institution:type": "Education",
-    "institution:url": [
-        "https://www.fu-berlin.de"
-    ]
+    "@type": "location"
+  },
+  "name": "Freie Universität Berlin",
+  "ror": "046ak2485",
+  "type": "Education",
+  "url": [
+    "https://www.fu-berlin.de"
+  ]
 }

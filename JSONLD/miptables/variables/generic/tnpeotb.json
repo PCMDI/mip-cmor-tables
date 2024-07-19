@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tnpeotb",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Tendency of Ocean Potential Energy Content Due to Background",
-    "variable:out_name": "tnpeotb",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_ocean_potential_energy_content_due_to_background",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tnpeotb",
+  "@type": "variable-generic",
+  "variable:long_name": "Tendency of Ocean Potential Energy Content Due to Background",
+  "variable:out_name": "tnpeotb",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_ocean_potential_energy_content_due_to_background",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

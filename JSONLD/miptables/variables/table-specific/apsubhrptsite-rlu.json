@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptsite-rlu",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/rlu"
-    },
-    "variable:branded_variable_name": "rlu_subhr-ap-tpt-l-hxys",
-    "variable:comment": "Upwelling longwave radiation (includes the fluxes at the surface and TOA)",
-    "variable:frequency": "subhrPt",
-    "variable:dimensions": [
-        "alevhalf",
-        "site",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-rlu"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrptsite-rlu",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "rlu_subhr-ap-tpt-l-hxys",
+  "variable:comment": "Upwelling longwave radiation (includes the fluxes at the surface and TOA)",
+  "variable:dimensions": [
+    "alevhalf",
+    "site",
+    "time1"
+  ],
+  "variable:frequency": "subhrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/rlu"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-rlu"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

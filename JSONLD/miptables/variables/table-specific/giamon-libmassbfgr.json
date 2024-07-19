@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/giamon-libmassbfgr",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/libmassbfgr"
-    },
-    "variable:branded_variable_name": "libmassbfgr_mon-li-tav-z0-hxyA",
-    "variable:comment": "Specific mass balance means the net rate at which ice is added per unit area at the land ice base.  A negative value means loss of ice. Computed as the total basal mass balance on the grounded land ice portion of the grid cell divided by grounded land ice area in the grid cell. Cell_methods: area: mean where grounded_ice_sheet",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "xant",
-        "yant",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/landIce"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/giamon-libmassbfgr"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/giamon-libmassbfgr",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "libmassbfgr_mon-li-tav-z0-hxyA",
+  "variable:comment": "Specific mass balance means the net rate at which ice is added per unit area at the land ice base.  A negative value means loss of ice. Computed as the total basal mass balance on the grounded land ice portion of the grid cell divided by grounded land ice area in the grid cell. Cell_methods: area: mean where grounded_ice_sheet",
+  "variable:dimensions": [
+    "xant",
+    "yant",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/libmassbfgr"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/landice"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/giamon-libmassbfgr"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

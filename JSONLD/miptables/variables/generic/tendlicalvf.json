@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tendlicalvf",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Calving Flux",
-    "variable:out_name": "tendlicalvf",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_land_ice_mass_due_to_calving",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tendlicalvf",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Calving Flux",
+  "variable:out_name": "tendlicalvf",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_land_ice_mass_due_to_calving",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "s-1"
+  ]
 }

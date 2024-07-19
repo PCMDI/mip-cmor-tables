@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/simon-sistrydtop",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "713aeca0-faa7-11e6-bfb7-ac72891c3257",
-        "mip_table": "SImon",
-        "variable_name": "sistrydtop"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/simon-sistrydtop",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "713aeca0-faa7-11e6-bfb7-ac72891c3257",
+    "mip_table": "SImon",
+    "variable_name": "sistrydtop"
+  }
 }

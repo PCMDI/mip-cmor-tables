@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/yvelbase",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Y-Component of Land Ice Basal Velocity",
-    "variable:out_name": "yvelbase",
-    "variable:positive": "",
-    "variable:standard_name": "land_ice_basal_y_velocity",
-    "variable:type": "real",
-    "variable:units": [
-        "m",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/yvelbase",
+  "@type": "variable-generic",
+  "variable:long_name": "Y-Component of Land Ice Basal Velocity",
+  "variable:out_name": "yvelbase",
+  "variable:positive": "",
+  "variable:standard_name": "land_ice_basal_y_velocity",
+  "variable:type": "real",
+  "variable:units": [
+    "m",
+    "s-1"
+  ]
 }

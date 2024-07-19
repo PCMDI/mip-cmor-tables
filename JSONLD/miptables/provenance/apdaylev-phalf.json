@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apdaylev-phalf",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab33ec6-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "CFday",
-        "variable_name": "phalf"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apdaylev-phalf",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "bab33ec6-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "CFday",
+    "variable_name": "phalf"
+  }
 }

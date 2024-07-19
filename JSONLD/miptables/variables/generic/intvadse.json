@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/intvadse",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Vertically Integrated Northward Dry Static Energy Transport",
-    "variable:out_name": "intvadse",
-    "variable:positive": "",
-    "variable:standard_name": "northward_atmosphere_dry_static_energy_transport_across_unit_distance",
-    "variable:type": "real",
-    "variable:units": [
-        "MJ",
-        "m-1",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/intvadse",
+  "@type": "variable-generic",
+  "variable:long_name": "Vertically Integrated Northward Dry Static Energy Transport",
+  "variable:out_name": "intvadse",
+  "variable:positive": "",
+  "variable:standard_name": "northward_atmosphere_dry_static_energy_transport_across_unit_distance",
+  "variable:type": "real",
+  "variable:units": [
+    "MJ",
+    "m-1",
+    "s-1"
+  ]
 }

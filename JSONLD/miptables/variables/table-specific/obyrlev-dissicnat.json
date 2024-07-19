@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/obyrlev-dissicnat",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/dissicnat"
-    },
-    "variable:branded_variable_name": "dissicnat_yr-oc-tav-l-hxy",
-    "variable:comment": "Dissolved inorganic carbon (CO3+HCO3+H2CO3) concentration at preindustrial atmospheric xCO2",
-    "variable:frequency": "yr",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "olevel",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocnBgchem"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/obyrlev-dissicnat"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/obyrlev-dissicnat",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "dissicnat_yr-oc-tav-l-hxy",
+  "variable:comment": "Dissolved inorganic carbon (CO3+HCO3+H2CO3) concentration at preindustrial atmospheric xCO2",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "variable:frequency": "yr",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/dissicnat"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocnbgchem"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/obyrlev-dissicnat"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

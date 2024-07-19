@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tauuo",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea Water Surface Downward X Stress",
-    "variable:out_name": "tauuo",
-    "variable:positive": "down",
-    "variable:standard_name": "downward_x_stress_at_sea_water_surface",
-    "variable:type": "real",
-    "variable:units": [
-        "N",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tauuo",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea Water Surface Downward X Stress",
+  "variable:out_name": "tauuo",
+  "variable:positive": "down",
+  "variable:standard_name": "downward_x_stress_at_sea_water_surface",
+  "variable:type": "real",
+  "variable:units": [
+    "N",
+    "m-2"
+  ]
 }

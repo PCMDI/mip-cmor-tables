@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpmon-pasturefracc4",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "e706df98-aa7f-11e6-9a4a-5404a60d96b5",
-        "mip_table": "Emon",
-        "variable_name": "pastureFracC4"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpmon-pasturefracc4",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "e706df98-aa7f-11e6-9a4a-5404a60d96b5",
+    "mip_table": "Emon",
+    "variable_name": "pastureFracC4"
+  }
 }

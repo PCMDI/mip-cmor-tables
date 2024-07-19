@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/clwc",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Mass Fraction of Convective Cloud Liquid Water",
-    "variable:out_name": "clwc",
-    "variable:positive": "",
-    "variable:standard_name": "mass_fraction_of_convective_cloud_liquid_water_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/clwc",
+  "@type": "variable-generic",
+  "variable:long_name": "Mass Fraction of Convective Cloud Liquid Water",
+  "variable:out_name": "clwc",
+  "variable:positive": "",
+  "variable:standard_name": "mass_fraction_of_convective_cloud_liquid_water_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

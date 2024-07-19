@@ -1,50 +1,50 @@
 {
-    "@id": "mip-cmor-tables:miptables/tables/opmonclim",
-    "@type": "cmip:dr-table",
-    "table:table_id": "OPmonClim",
-    "table:Conventions": "CF-1.7 CMIP-6.5",
-    "table:approx_interval": 30.0,
-    "table:checksum": "",
-    "table:cmor_version": "3.8.0",
-    "table:release": "v6.5.0.2",
-    "table:data_specs_version": "6.5.0.0",
-    "table:generic_levels": [],
-    "table:int_missing_value": "-999",
-    "table:missing_value": "1e20",
-    "table:product": {
-        "@id": "mip-cmor-tables:auxillary/product/model-output"
+  "@id": "mip-cmor-tables:miptables/tables/opmonclim",
+  "@type": "dr-table",
+  "table:approx_interval": 30.0,
+  "table:checksum": "",
+  "table:cmor_version": "3.8.0",
+  "table:conventions": "CF-1.7 CMIP-6.5",
+  "table:data_specs_version": "6.5.0.0",
+  "table:generic_levels": [],
+  "table:int_missing_value": "-999",
+  "table:missing_value": "1e20",
+  "table:product": {
+    "@id": "mip-cmor-tables:auxillary/product/model-output"
+  },
+  "table:release": "v6.5.0.2",
+  "table:table_date": "2023-11-16",
+  "table:table_id": "OPmonClim",
+  "table:variable_entry": [
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonclim-difmxybo2d"
     },
-    "table:table_date": "2023-11-16",
-    "table:variable_entry": [
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclim-difmxybo2d"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclim-difmxylo2d"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclim-diftrbbo2d"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclim-diftrblo2d"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclim-diftrebo2d"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclim-diftrelo2d"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclim-diftrxybo2d"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclim-diftrxylo2d"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclim-dispkexyfo2d"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclim-tnkebto2d"
-        }
-    ]
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonclim-difmxylo2d"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonclim-diftrbbo2d"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonclim-diftrblo2d"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonclim-diftrebo2d"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonclim-diftrelo2d"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonclim-diftrxybo2d"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonclim-diftrxylo2d"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonclim-dispkexyfo2d"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonclim-tnkebto2d"
+    }
+  ]
 }

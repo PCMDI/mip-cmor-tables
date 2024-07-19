@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/volo",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea Water Volume",
-    "variable:out_name": "volo",
-    "variable:positive": "",
-    "variable:standard_name": "sea_water_volume",
-    "variable:type": "real",
-    "variable:units": [
-        "m3"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/volo",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea Water Volume",
+  "variable:out_name": "volo",
+  "variable:positive": "",
+  "variable:standard_name": "sea_water_volume",
+  "variable:type": "real",
+  "variable:units": [
+    "m3"
+  ]
 }

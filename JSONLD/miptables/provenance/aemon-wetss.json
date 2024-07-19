@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/aemon-wetss",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "19c0606e-81b1-11e6-92de-ac72891c3257",
-        "mip_table": "AERmon",
-        "variable_name": "wetss"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/aemon-wetss",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "19c0606e-81b1-11e6-92de-ac72891c3257",
+    "mip_table": "AERmon",
+    "variable_name": "wetss"
+  }
 }

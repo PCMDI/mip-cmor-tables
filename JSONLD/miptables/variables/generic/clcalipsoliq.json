@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/clcalipsoliq",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "CALIPSO Liquid Cloud Percentage",
-    "variable:out_name": "clcalipsoliq",
-    "variable:positive": "",
-    "variable:standard_name": "liquid_water_cloud_area_fraction_in_atmosphere_layer",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/clcalipsoliq",
+  "@type": "variable-generic",
+  "variable:long_name": "CALIPSO Liquid Cloud Percentage",
+  "variable:out_name": "clcalipsoliq",
+  "variable:positive": "",
+  "variable:standard_name": "liquid_water_cloud_area_fraction_in_atmosphere_layer",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

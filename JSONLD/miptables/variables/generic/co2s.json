@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/co2s",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Atmosphere CO2",
-    "variable:out_name": "co2s",
-    "variable:positive": "",
-    "variable:standard_name": "mole_fraction_of_carbon_dioxide_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "1e-06"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/co2s",
+  "@type": "variable-generic",
+  "variable:long_name": "Atmosphere CO2",
+  "variable:out_name": "co2s",
+  "variable:positive": "",
+  "variable:standard_name": "mole_fraction_of_carbon_dioxide_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "1e-06"
+  ]
 }

@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/areacellg",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Grid-Cell Area for Ice Sheet Variables",
-    "variable:out_name": "areacellg",
-    "variable:positive": "",
-    "variable:standard_name": "cell_area",
-    "variable:type": "real",
-    "variable:units": [
-        "m2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/areacellg",
+  "@type": "variable-generic",
+  "variable:long_name": "Grid-Cell Area for Ice Sheet Variables",
+  "variable:out_name": "areacellg",
+  "variable:positive": "",
+  "variable:standard_name": "cell_area",
+  "variable:type": "real",
+  "variable:units": [
+    "m2"
+  ]
 }

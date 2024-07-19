@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sidmassgrowthbot",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea-Ice Mass Change Through Basal Growth",
-    "variable:out_name": "sidmassgrowthbot",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_sea_ice_amount_due_to_congelation_ice_accumulation",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sidmassgrowthbot",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea-Ice Mass Change Through Basal Growth",
+  "variable:out_name": "sidmassgrowthbot",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_sea_ice_amount_due_to_congelation_ice_accumulation",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

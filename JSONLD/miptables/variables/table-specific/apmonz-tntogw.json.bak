@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-tntogw",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/tntogw"
+    },
+    "variable:branded_variable_name": "tntogw_mon-ap-tav-p39-hy",
+    "variable:comment": "Temperature tendency due to dissipation of parameterized orographic gravity waves.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apmonz-tntogw"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

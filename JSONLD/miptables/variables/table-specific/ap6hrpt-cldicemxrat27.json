@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-cldicemxrat27",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/cldicemxrat27"
-    },
-    "variable:branded_variable_name": "cldicemxrat_6hr-ap-tpt-p27-hxy",
-    "variable:comment": "Cloud ice mixing ratio",
-    "variable:frequency": "6hrPt",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "plev27",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-cldicemxrat27"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hrpt-cldicemxrat27",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "cldicemxrat_6hr-ap-tpt-p27-hxy",
+  "variable:comment": "Cloud ice mixing ratio",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "plev27",
+    "time1"
+  ],
+  "variable:frequency": "6hrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/cldicemxrat27"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-cldicemxrat27"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

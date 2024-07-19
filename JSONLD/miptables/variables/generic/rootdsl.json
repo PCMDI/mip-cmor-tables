@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/rootdsl",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Root Distribution",
-    "variable:out_name": "rootdsl",
-    "variable:positive": "",
-    "variable:standard_name": "root_mass_content_of_carbon",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/rootdsl",
+  "@type": "variable-generic",
+  "variable:long_name": "Root Distribution",
+  "variable:out_name": "rootdsl",
+  "variable:positive": "",
+  "variable:standard_name": "root_mass_content_of_carbon",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

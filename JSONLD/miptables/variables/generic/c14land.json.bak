@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/c14land",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Mass of 14C in All Terrestrial Carbon Pools",
+    "variable:out_name": "c14Land",
+    "variable:positive": "",
+    "variable:standard_name": "mass_content_of_14C_in_vegetation_and_litter_and_soil_and_forestry_and_agricultural_products",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

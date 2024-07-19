@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/jpdftaureliqmodis",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "MODIS Optical Thickness-Particle Size Joint Distribution, Liquid",
-    "variable:out_name": "jpdftaureliqmodis",
-    "variable:positive": "",
-    "variable:standard_name": "cloud_area_fraction_in_atmosphere_layer",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/jpdftaureliqmodis",
+  "@type": "variable-generic",
+  "variable:long_name": "MODIS Optical Thickness-Particle Size Joint Distribution, Liquid",
+  "variable:out_name": "jpdftaureliqmodis",
+  "variable:positive": "",
+  "variable:standard_name": "cloud_area_fraction_in_atmosphere_layer",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

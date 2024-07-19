@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/fddtdic",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Rate of Change of Net Dissolved Inorganic Carbon",
-    "variable:out_name": "fddtdic",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_carbon",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/fddtdic",
+  "@type": "variable-generic",
+  "variable:long_name": "Rate of Change of Net Dissolved Inorganic Carbon",
+  "variable:out_name": "fddtdic",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_carbon",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-2",
+    "s-1"
+  ]
 }

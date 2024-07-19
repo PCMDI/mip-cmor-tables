@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:organisations/institutions/cas",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "CAS",
-    "institution:ror": "034t30j35",
-    "institution:name": "Chinese Academy of Sciences",
-    "institution:url": [
-        "http://english.cas.cn/"
-    ],
-    "institution:established": 1949,
-    "institution:type": "Government",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
-        "CAS"
-    ],
-    "institution:location": {
-        "@id": "mip-cmor-tables:organisations/institutions/location/034t30j35",
-        "@type": "institution:location",
-        "@nest": {
-            "location:lat": 39.9075,
-            "location:lon": 116.39723,
-            "location:city": "Beijing",
-            "location:country": [
-                "China",
-                "CN"
-            ]
-        }
-    }
+  "@id": "mip-cmor-tables:organisations/institutions/cas",
+  "@type": "institution",
+  "acronyms": [
+    "CAS"
+  ],
+  "aliases": [],
+  "cmip-acronym": "CAS",
+  "established": 1949,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/034t30j35",
+    "@nest": {
+      "city": "Beijing",
+      "country": [
+        "China",
+        "CN"
+      ],
+      "lat": 39.9075,
+      "lon": 116.39723
+    },
+    "@type": "location"
+  },
+  "name": "Chinese Academy of Sciences",
+  "ror": "034t30j35",
+  "type": "Government",
+  "url": [
+    "http://english.cas.cn/"
+  ]
 }

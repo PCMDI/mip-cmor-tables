@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/cproductlut",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Wood and Agricultural Product Pool Carbon Associated with Land-Use Tiles",
-    "variable:out_name": "cProductLut",
-    "variable:positive": "",
-    "variable:standard_name": "carbon_mass_content_of_forestry_and_agricultural_products",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/cproductlut",
+  "@type": "variable-generic",
+  "variable:long_name": "Wood and Agricultural Product Pool Carbon Associated with Land-Use Tiles",
+  "variable:out_name": "cProductLut",
+  "variable:positive": "",
+  "variable:standard_name": "carbon_mass_content_of_forestry_and_agricultural_products",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

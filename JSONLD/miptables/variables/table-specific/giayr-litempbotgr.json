@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/giayr-litempbotgr",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/litempbotgr"
-    },
-    "variable:branded_variable_name": "litempbotgr_yr-li-tav-z0-hxyA",
-    "variable:comment": "Basal temperature that is used to force the ice sheet models, it is the temperature AT ice sheet - bedrock interface. Cell_methods: area: mean where grounded_ice_sheet",
-    "variable:frequency": "yr",
-    "variable:dimensions": [
-        "xant",
-        "yant",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/landIce"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/giayr-litempbotgr"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/giayr-litempbotgr",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "litempbotgr_yr-li-tav-z0-hxyA",
+  "variable:comment": "Basal temperature that is used to force the ice sheet models, it is the temperature AT ice sheet - bedrock interface. Cell_methods: area: mean where grounded_ice_sheet",
+  "variable:dimensions": [
+    "xant",
+    "yant",
+    "time"
+  ],
+  "variable:frequency": "yr",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/litempbotgr"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/landice"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/giayr-litempbotgr"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

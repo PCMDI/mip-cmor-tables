@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/vegfrac",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Vegetated Percentage Cover",
-    "variable:out_name": "vegFrac",
-    "variable:positive": "",
-    "variable:standard_name": "area_fraction",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/vegfrac",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Vegetated Percentage Cover",
+  "variable:out_name": "vegFrac",
+  "variable:positive": "",
+  "variable:standard_name": "area_fraction",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

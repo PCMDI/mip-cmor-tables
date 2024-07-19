@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/limon-mrrois",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "132b3a2e-be44-11e6-9e13-f9e3356200b3",
-        "mip_table": "LImon",
-        "variable_name": "mrroIs"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/limon-mrrois",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "132b3a2e-be44-11e6-9e13-f9e3356200b3",
+    "mip_table": "LImon",
+    "variable_name": "mrroIs"
+  }
 }

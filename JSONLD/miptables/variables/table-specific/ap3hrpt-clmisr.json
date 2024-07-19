@@ -1,31 +1,31 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrpt-clmisr",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/clmisr"
-    },
-    "variable:branded_variable_name": "clmisr_3hr-ap-tpt-z16-hxy",
-    "variable:comment": "Cloud percentage in spectral bands and layers as observed by the Multi-angle Imaging SpectroRadiometer (MISR) instrument. The first layer in each profile is reserved for a retrieval error flag.",
-    "variable:frequency": "3hrPt",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "alt16",
-        "tau",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-clmisr"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrpt-clmisr",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "clmisr_3hr-ap-tpt-z16-hxy",
+  "variable:comment": "Cloud percentage in spectral bands and layers as observed by the Multi-angle Imaging SpectroRadiometer (MISR) instrument. The first layer in each profile is reserved for a retrieval error flag.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "alt16",
+    "tau",
+    "time1"
+  ],
+  "variable:frequency": "3hrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/clmisr"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-clmisr"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/nlittersurf",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Nitrogen Mass in Above-Ground Litter (non CWD)",
-    "variable:out_name": "nLitterSurf",
-    "variable:positive": "",
-    "variable:standard_name": "surface_litter_mass_content_of_nitrogen",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/nlittersurf",
+  "@type": "variable-generic",
+  "variable:long_name": "Nitrogen Mass in Above-Ground Litter (non CWD)",
+  "variable:out_name": "nLitterSurf",
+  "variable:positive": "",
+  "variable:standard_name": "surface_litter_mass_content_of_nitrogen",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

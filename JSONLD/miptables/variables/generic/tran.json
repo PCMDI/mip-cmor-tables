@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tran",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Transpiration",
-    "variable:out_name": "tran",
-    "variable:positive": "up",
-    "variable:standard_name": "transpiration_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tran",
+  "@type": "variable-generic",
+  "variable:long_name": "Transpiration",
+  "variable:out_name": "tran",
+  "variable:positive": "up",
+  "variable:standard_name": "transpiration_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

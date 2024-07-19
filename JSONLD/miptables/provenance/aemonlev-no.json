@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/aemonlev-no",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "19bff1ba-81b1-11e6-92de-ac72891c3257",
-        "mip_table": "AERmon",
-        "variable_name": "no"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/aemonlev-no",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "19bff1ba-81b1-11e6-92de-ac72891c3257",
+    "mip_table": "AERmon",
+    "variable_name": "no"
+  }
 }

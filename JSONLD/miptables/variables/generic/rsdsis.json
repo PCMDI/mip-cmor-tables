@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/rsdsis",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Ice Sheet Surface Downwelling Shortwave Radiation",
-    "variable:out_name": "rsdsIs",
-    "variable:positive": "down",
-    "variable:standard_name": "surface_downwelling_shortwave_flux_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/rsdsis",
+  "@type": "variable-generic",
+  "variable:long_name": "Ice Sheet Surface Downwelling Shortwave Radiation",
+  "variable:out_name": "rsdsIs",
+  "variable:positive": "down",
+  "variable:standard_name": "surface_downwelling_shortwave_flux_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

@@ -1,28 +1,28 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptsite-rlutcs",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/rlutcs"
-    },
-    "variable:branded_variable_name": "rlutcs_subhr-ap-tpt-z0-hxys",
-    "variable:comment": "Upwelling clear-sky longwave radiation at top of atmosphere",
-    "variable:frequency": "subhrPt",
-    "variable:dimensions": [
-        "site",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-rlutcs"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrptsite-rlutcs",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "rlutcs_subhr-ap-tpt-z0-hxys",
+  "variable:comment": "Upwelling clear-sky longwave radiation at top of atmosphere",
+  "variable:dimensions": [
+    "site",
+    "time1"
+  ],
+  "variable:frequency": "subhrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/rlutcs"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-rlutcs"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

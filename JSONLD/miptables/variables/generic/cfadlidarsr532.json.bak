@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/cfadlidarsr532",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "CALIPSO Scattering Ratio CFAD",
+    "variable:out_name": "cfadLidarsr532",
+    "variable:positive": "",
+    "variable:standard_name": "histogram_of_backscattering_ratio_in_air_over_height_above_reference_ellipsoid",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

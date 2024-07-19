@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/nh4",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Dissolved Ammonium Concentration",
-    "variable:out_name": "nh4",
-    "variable:positive": "",
-    "variable:standard_name": "mole_concentration_of_ammonium_in_sea_water",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-3"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/nh4",
+  "@type": "variable-generic",
+  "variable:long_name": "Dissolved Ammonium Concentration",
+  "variable:out_name": "nh4",
+  "variable:positive": "",
+  "variable:standard_name": "mole_concentration_of_ammonium_in_sea_water",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-3"
+  ]
 }

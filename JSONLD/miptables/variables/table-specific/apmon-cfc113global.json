@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cfc113global",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/cfc113global"
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cfc113global",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "cfc113global_mon-ap-tav-z0-hm",
+  "variable:comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of CFC113 is CCl2FCClF2.  The IUPAC name for CFC113 is 1,1,2-trichloro-1,2,2-trifluoro-ethane.",
+  "variable:dimensions": [
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/cfc113global"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     },
-    "variable:branded_variable_name": "cfc113global_mon-ap-tav-z0-hm",
-    "variable:comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of CFC113 is CCl2FCClF2.  The IUPAC name for CFC113 is 1,1,2-trichloro-1,2,2-trifluoro-ethane.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        },
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmosChem"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apmon-cfc113global"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmoschem"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apmon-cfc113global"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

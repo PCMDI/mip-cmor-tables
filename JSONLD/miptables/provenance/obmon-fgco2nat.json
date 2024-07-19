@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obmon-fgco2nat",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baa0d844-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Omon",
-        "variable_name": "fgco2nat"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obmon-fgco2nat",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "baa0d844-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Omon",
+    "variable_name": "fgco2nat"
+  }
 }

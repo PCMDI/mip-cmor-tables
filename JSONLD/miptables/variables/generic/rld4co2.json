@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/rld4co2",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Downwelling Longwave Radiation 4XCO2 Atmosphere",
-    "variable:out_name": "rld4co2",
-    "variable:positive": "down",
-    "variable:standard_name": "downwelling_longwave_flux_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/rld4co2",
+  "@type": "variable-generic",
+  "variable:long_name": "Downwelling Longwave Radiation 4XCO2 Atmosphere",
+  "variable:out_name": "rld4co2",
+  "variable:positive": "down",
+  "variable:standard_name": "downwelling_longwave_flux_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

@@ -1,0 +1,28 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apfx-rsu",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/rsu"
+    },
+    "variable:branded_variable_name": "rsu_fx-ap-none-l-hm",
+    "variable:comment": "Upwelling shortwave radiation  (includes also the fluxes at the surface and top of atmosphere)",
+    "variable:frequency": "fx",
+    "variable:dimensions": [
+        "alevhalf",
+        "spectband"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apfx-rsu"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

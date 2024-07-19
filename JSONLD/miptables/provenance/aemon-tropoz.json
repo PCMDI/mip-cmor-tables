@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/aemon-tropoz",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "19bff46c-81b1-11e6-92de-ac72891c3257",
-        "mip_table": "AERmon",
-        "variable_name": "tropoz"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/aemon-tropoz",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "19bff46c-81b1-11e6-92de-ac72891c3257",
+    "mip_table": "AERmon",
+    "variable_name": "tropoz"
+  }
 }

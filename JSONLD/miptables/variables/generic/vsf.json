@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/vsf",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Virtual Salt Flux into Sea Water",
-    "variable:out_name": "vsf",
-    "variable:positive": "",
-    "variable:standard_name": "virtual_salt_flux_into_sea_water",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/vsf",
+  "@type": "variable-generic",
+  "variable:long_name": "Virtual Salt Flux into Sea Water",
+  "variable:out_name": "vsf",
+  "variable:positive": "",
+  "variable:standard_name": "virtual_salt_flux_into_sea_water",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

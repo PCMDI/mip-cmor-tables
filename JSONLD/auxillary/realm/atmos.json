@@ -1,6 +1,6 @@
 {
-    "@id": "mip-cmor-tables:/auxillary/realm/atmos",
-    "@type": "cmip:realm",
-    "realm:name": "atmos",
-    "realm:description": "Atmosphere"
+  "@id": "mip-cmor-tables:auxillary/realm/atmos",
+  "@type": "realm",
+  "description": "Atmosphere",
+  "name": "atmos"
 }

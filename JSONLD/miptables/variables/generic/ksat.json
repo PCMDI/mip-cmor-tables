@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/ksat",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Saturated Hydraulic Conductivity",
-    "variable:out_name": "ksat",
-    "variable:positive": "",
-    "variable:standard_name": "soil_hydraulic_conductivity_at_saturation",
-    "variable:type": "real",
-    "variable:units": [
-        "micron",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/ksat",
+  "@type": "variable-generic",
+  "variable:long_name": "Saturated Hydraulic Conductivity",
+  "variable:out_name": "ksat",
+  "variable:positive": "",
+  "variable:standard_name": "soil_hydraulic_conductivity_at_saturation",
+  "variable:type": "real",
+  "variable:units": [
+    "micron",
+    "s-1"
+  ]
 }

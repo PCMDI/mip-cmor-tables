@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/tosga",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Global Average Sea Surface Temperature",
+    "variable:out_name": "tosga",
+    "variable:positive": "",
+    "variable:standard_name": "sea_surface_temperature",
+    "variable:type": "real",
+    "variable:units": [
+        "degC"
+    ]
+}

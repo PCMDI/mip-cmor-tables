@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mlotstmax",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Maximum Ocean Mixed Layer Thickness Defined by Sigma T",
-    "variable:out_name": "mlotstmax",
-    "variable:positive": "",
-    "variable:standard_name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
-    "variable:type": "real",
-    "variable:units": [
-        "m"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mlotstmax",
+  "@type": "variable-generic",
+  "variable:long_name": "Maximum Ocean Mixed Layer Thickness Defined by Sigma T",
+  "variable:out_name": "mlotstmax",
+  "variable:positive": "",
+  "variable:standard_name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
+  "variable:type": "real",
+  "variable:units": [
+    "m"
+  ]
 }

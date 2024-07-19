@@ -1,28 +1,28 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptsite-sci",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/sci"
-    },
-    "variable:branded_variable_name": "sci_subhr-ap-tpt-z0-hxys",
-    "variable:comment": "Fraction of time that shallow convection occurs in the grid cell.",
-    "variable:frequency": "subhrPt",
-    "variable:dimensions": [
-        "site",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-sci"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrptsite-sci",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "sci_subhr-ap-tpt-z0-hxys",
+  "variable:comment": "Fraction of time that shallow convection occurs in the grid cell.",
+  "variable:dimensions": [
+    "site",
+    "time1"
+  ],
+  "variable:frequency": "subhrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/sci"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-sci"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

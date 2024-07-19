@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sza",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Solar Zenith Angle",
-    "variable:out_name": "sza",
-    "variable:positive": "",
-    "variable:standard_name": "solar_zenith_angle",
-    "variable:type": "real",
-    "variable:units": [
-        "degree"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sza",
+  "@type": "variable-generic",
+  "variable:long_name": "Solar Zenith Angle",
+  "variable:out_name": "sza",
+  "variable:positive": "",
+  "variable:standard_name": "solar_zenith_angle",
+  "variable:type": "real",
+  "variable:units": [
+    "degree"
+  ]
 }

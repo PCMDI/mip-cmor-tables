@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apday-wap8",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "babd0e56-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "day",
-        "variable_name": "wap"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apday-wap8",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "babd0e56-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "day",
+    "variable_name": "wap"
+  }
 }

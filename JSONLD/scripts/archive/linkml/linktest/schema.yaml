@@ -1,0 +1,31 @@
+# base) ECS01112127:linktest daniel.ellis$ linkml-convert -s schema.yaml -C Person data.yaml -t json-ld
+
+id: http://example.org/schema
+name: example
+description: An example schema to demonstrate setting links in YAML using JSON-LD.
+prefixes:
+  ex: http://example.org/
+  linkml: https://w3id.org/linkml/
+  xsd: http://www.w3.org/2001/XMLSchema#
+default_prefix: ex
+
+types:
+  string:
+    base: str
+    uri: xsd:string
+
+classes:
+  Person:
+    description: A person in the example schema.
+    attributes:
+      id:
+        description: The unique identifier for a person.
+        identifier: true
+        range: string
+      name:
+        description: The name of the person.
+        range: string
+      friend:
+        description: A friend of the person.
+        range: Person
+        multivalued: true

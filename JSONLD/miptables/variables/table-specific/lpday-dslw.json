@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-dslw",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/dslw"
-    },
-    "variable:branded_variable_name": "dslw_day-ld-tav-z0-hxy",
-    "variable:comment": "The phrase 'change_over_time_in_X' means change in a quantity X over a time-interval, which should be defined by the bounds of the time coordinate. 'Content' indicates a quantity per unit area. The mass content of water in soil refers to the vertical integral from the surface down to the bottom of the soil model. For the content between specified levels in the soil, standard names including 'content_of_soil_layer' are used. 'Water' means water in all phases.",
-    "variable:frequency": "day",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/lpday-dslw"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-dslw",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "dslw_day-ld-tav-z0-hxy",
+  "variable:comment": "The phrase 'change_over_time_in_X' means change in a quantity X over a time-interval, which should be defined by the bounds of the time coordinate. 'Content' indicates a quantity per unit area. The mass content of water in soil refers to the vertical integral from the surface down to the bottom of the soil model. For the content between specified levels in the soil, standard names including 'content_of_soil_layer' are used. 'Water' means water in all phases.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "day",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/dslw"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/lpday-dslw"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

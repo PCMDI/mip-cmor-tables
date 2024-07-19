@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opmon-hfgeou",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baa67344-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Omon",
-        "variable_name": "hfgeou"
-    },
-    "CMIP5": {
-        "mip_table": "Omon",
-        "variable_name": "hfgeou"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opmon-hfgeou",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Omon",
+    "variable_name": "hfgeou"
+  },
+  "cmip6": {
+    "dreq_uid": "baa67344-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Omon",
+    "variable_name": "hfgeou"
+  }
 }

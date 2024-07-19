@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mrsll",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Liquid Water Content of Soil Layer",
-    "variable:out_name": "mrsll",
-    "variable:positive": "",
-    "variable:standard_name": "liquid_water_content_of_soil_layer",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mrsll",
+  "@type": "variable-generic",
+  "variable:long_name": "Liquid Water Content of Soil Layer",
+  "variable:out_name": "mrsll",
+  "variable:positive": "",
+  "variable:standard_name": "liquid_water_content_of_soil_layer",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apsubhrpt-pr",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "8bb15ca6-4a5b-11e6-9cd2-ac72891c3257",
-        "mip_table": "Esubhr",
-        "variable_name": "pr"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apsubhrpt-pr",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "8bb15ca6-4a5b-11e6-9cd2-ac72891c3257",
+    "mip_table": "Esubhr",
+    "variable_name": "pr"
+  }
 }

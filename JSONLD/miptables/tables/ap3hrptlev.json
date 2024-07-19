@@ -1,149 +1,149 @@
 {
-    "@id": "mip-cmor-tables:miptables/tables/ap3hrptlev",
-    "@type": "cmip:dr-table",
-    "table:table_id": "AP3hrPtLev",
-    "table:Conventions": "CF-1.7 CMIP-6.5",
-    "table:approx_interval": 0.125,
-    "table:checksum": "",
-    "table:cmor_version": "3.8.0",
-    "table:release": "v6.5.0.2",
-    "table:data_specs_version": "6.5.0.0",
-    "table:generic_levels": [
-        "alevel",
-        "alevhalf"
-    ],
-    "table:int_missing_value": "-999",
-    "table:missing_value": "1e20",
-    "table:product": {
-        "@id": "mip-cmor-tables:auxillary/product/model-output"
+  "@id": "mip-cmor-tables:miptables/tables/ap3hrptlev",
+  "@type": "dr-table",
+  "table:approx_interval": 0.125,
+  "table:checksum": "",
+  "table:cmor_version": "3.8.0",
+  "table:conventions": "CF-1.7 CMIP-6.5",
+  "table:data_specs_version": "6.5.0.0",
+  "table:generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "table:int_missing_value": "-999",
+  "table:missing_value": "1e20",
+  "table:product": {
+    "@id": "mip-cmor-tables:auxillary/product/model-output"
+  },
+  "table:release": "v6.5.0.2",
+  "table:table_date": "2023-11-16",
+  "table:table_id": "AP3hrPtLev",
+  "table:variable_entry": [
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-aerasymbnd"
     },
-    "table:table_date": "2023-11-16",
-    "table:variable_entry": [
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-aerasymbnd"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-aeroptbnd"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-aerssabnd"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-ch4"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-clc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-clic"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-clis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-cls"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-clwc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-clws"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-co2"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-demc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-dems"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-dtauc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-dtaus"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-grpllsprof"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-h2o"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-hus"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-n2o"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-o3"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-pfull"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-phalf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-prcprof"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-prlsns"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-prlsprof"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-prsnc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-reffclic"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-reffclis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-reffclwc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-reffclws"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-reffgrpls"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-reffrainc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-reffrains"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-reffsnowc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-reffsnows"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-rsdcs"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-rsdcsbnd"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-rsucs"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-rsucsbnd"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-ta"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-zfull"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-zhalf"
-        }
-    ]
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-aeroptbnd"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-aerssabnd"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-ch4"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-clc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-clic"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-clis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-cls"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-clwc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-clws"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-co2"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-demc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-dems"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-dtauc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-dtaus"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-grpllsprof"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-h2o"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-hus"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-n2o"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-o3"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-pfull"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-phalf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-prcprof"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-prlsns"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-prlsprof"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-prsnc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-reffclic"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-reffclis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-reffclwc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-reffclws"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-reffgrpls"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-reffrainc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-reffrains"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-reffsnowc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-reffsnows"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-rsdcs"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-rsdcsbnd"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-rsucs"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-rsucsbnd"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-ta"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-zfull"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-zhalf"
+    }
+  ]
 }

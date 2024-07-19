@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sispeed",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea-Ice Speed",
-    "variable:out_name": "sispeed",
-    "variable:positive": "",
-    "variable:standard_name": "sea_ice_speed",
-    "variable:type": "real",
-    "variable:units": [
-        "m",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sispeed",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea-Ice Speed",
+  "variable:out_name": "sispeed",
+  "variable:positive": "",
+  "variable:standard_name": "sea_ice_speed",
+  "variable:type": "real",
+  "variable:units": [
+    "m",
+    "s-1"
+  ]
 }

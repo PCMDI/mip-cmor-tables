@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apday-prsn",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab43b50-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "day",
-        "variable_name": "prsn"
-    },
-    "CMIP5": {
-        "mip_table": "day",
-        "variable_name": "prsn"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apday-prsn",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "day",
+    "variable_name": "prsn"
+  },
+  "cmip6": {
+    "dreq_uid": "bab43b50-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "day",
+    "variable_name": "prsn"
+  }
 }

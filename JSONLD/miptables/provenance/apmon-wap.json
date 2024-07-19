@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-wap",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "babd0906-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Amon",
-        "variable_name": "wap"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-wap",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "babd0906-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Amon",
+    "variable_name": "wap"
+  }
 }

@@ -1,31 +1,31 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrpt-cfaddbze94",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/cfaddbze94"
-    },
-    "variable:branded_variable_name": "cfadDbze94_3hr-ap-tpt-z40-hxy",
-    "variable:comment": "CFAD (Cloud Frequency Altitude Diagrams) are frequency distributions of radar  reflectivity (or lidar scattering ratio) as a function of altitude. The variable cfadDbze94 is defined as the simulated relative frequency of occurrence of radar reflectivity in sampling volumes defined by altitude bins. The radar is observing at a frequency of 94GHz.",
-    "variable:frequency": "3hrPt",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "alt40",
-        "dbze",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-cfaddbze94"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrpt-cfaddbze94",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "cfadDbze94_3hr-ap-tpt-z40-hxy",
+  "variable:comment": "CFAD (Cloud Frequency Altitude Diagrams) are frequency distributions of radar  reflectivity (or lidar scattering ratio) as a function of altitude. The variable cfadDbze94 is defined as the simulated relative frequency of occurrence of radar reflectivity in sampling volumes defined by altitude bins. The radar is observing at a frequency of 94GHz.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "alt40",
+    "dbze",
+    "time1"
+  ],
+  "variable:frequency": "3hrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/cfaddbze94"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-cfaddbze94"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/reffrainc",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Hydrometeor Effective Radius of Convective Rainfall",
-    "variable:out_name": "reffrainc",
-    "variable:positive": "",
-    "variable:standard_name": "effective_radius_of_convective_cloud_rain_particles",
-    "variable:type": "real",
-    "variable:units": [
-        "m"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/reffrainc",
+  "@type": "variable-generic",
+  "variable:long_name": "Hydrometeor Effective Radius of Convective Rainfall",
+  "variable:out_name": "reffrainc",
+  "variable:positive": "",
+  "variable:standard_name": "effective_radius_of_convective_cloud_rain_particles",
+  "variable:type": "real",
+  "variable:units": [
+    "m"
+  ]
 }

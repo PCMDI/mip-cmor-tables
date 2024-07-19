@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opmonclimlev-difvmfdo",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baabe8b0-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Oclim",
-        "variable_name": "difvmfdo"
-    },
-    "CMIP5": {
-        "mip_table": "Oclim",
-        "variable_name": "difvmfdo"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opmonclimlev-difvmfdo",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Oclim",
+    "variable_name": "difvmfdo"
+  },
+  "cmip6": {
+    "dreq_uid": "baabe8b0-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Oclim",
+    "variable_name": "difvmfdo"
+  }
 }

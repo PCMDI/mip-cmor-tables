@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opyrlev-osaltrmadvect",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "1aaffce0-b006-11e6-9289-ac72891c3257",
-        "mip_table": "Oyr",
-        "variable_name": "osaltrmadvect"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opyrlev-osaltrmadvect",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "1aaffce0-b006-11e6-9289-ac72891c3257",
+    "mip_table": "Oyr",
+    "variable_name": "osaltrmadvect"
+  }
 }

@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-yvelbase",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/yvelbase"
-    },
-    "variable:branded_variable_name": "yvelbase_yr-li-tav-z0-hxyG",
-    "variable:comment": "A velocity is a vector quantity. 'y' indicates a vector component along the grid y-axis, positive with increasing y. 'Land ice' means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. 'basal' means the lower boundary of the land ice.",
-    "variable:frequency": "yr",
-    "variable:dimensions": [
-        "xgre",
-        "ygre",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/landIce"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/gigyr-yvelbase"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-yvelbase",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "yvelbase_yr-li-tav-z0-hxyG",
+  "variable:comment": "A velocity is a vector quantity. 'y' indicates a vector component along the grid y-axis, positive with increasing y. 'Land ice' means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. 'basal' means the lower boundary of the land ice.",
+  "variable:dimensions": [
+    "xgre",
+    "ygre",
+    "time"
+  ],
+  "variable:frequency": "yr",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/yvelbase"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/landice"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/gigyr-yvelbase"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

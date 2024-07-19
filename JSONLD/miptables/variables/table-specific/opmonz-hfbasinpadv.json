@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonz-hfbasinpadv",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/hfbasinpadv"
-    },
-    "variable:branded_variable_name": "hfbasinpadv_mon-op-tav-z0-hys",
-    "variable:comment": "Contributions to heat transport from parameterized eddy-induced advective transport due to any subgrid advective process. Diagnosed here as a function of latitude and basin.  Use Celsius for temperature scale.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "latitude",
-        "basin",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocean"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/opmonz-hfbasinpadv"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonz-hfbasinpadv",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "hfbasinpadv_mon-op-tav-z0-hys",
+  "variable:comment": "Contributions to heat transport from parameterized eddy-induced advective transport due to any subgrid advective process. Diagnosed here as a function of latitude and basin.  Use Celsius for temperature scale.",
+  "variable:dimensions": [
+    "latitude",
+    "basin",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/hfbasinpadv"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocean"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/opmonz-hfbasinpadv"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

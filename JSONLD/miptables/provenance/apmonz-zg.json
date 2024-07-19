@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmonz-zg",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "fda6ad38-96ec-11e6-b81e-c9e268aff03a",
-        "mip_table": "AERmonZ",
-        "variable_name": "zg"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmonz-zg",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "fda6ad38-96ec-11e6-b81e-c9e268aff03a",
+    "mip_table": "AERmonZ",
+    "variable_name": "zg"
+  }
 }

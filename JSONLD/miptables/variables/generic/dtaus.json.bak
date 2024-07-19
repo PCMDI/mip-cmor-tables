@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/dtaus",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Stratiform Cloud Optical Depth",
+    "variable:out_name": "dtaus",
+    "variable:positive": "",
+    "variable:standard_name": "atmosphere_optical_thickness_due_to_stratiform_cloud",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclim-tnkebto2d",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/tnkebto2d"
-    },
-    "variable:branded_variable_name": "tnkebto_mon-op-tcla-z0-hxy",
-    "variable:comment": "Depth integrated impacts on kinetic energy arising from parameterized eddy-induced advection. For CMIP5, this diagnostic was 3d, whereas the CMIP6 depth integrated diagnostic is sufficient for many purposes and reduces archive requirements.",
-    "variable:frequency": "monC",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time2"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocean"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/opmonclim-tnkebto2d"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonclim-tnkebto2d",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "tnkebto_mon-op-tcla-z0-hxy",
+  "variable:comment": "Depth integrated impacts on kinetic energy arising from parameterized eddy-induced advection. For CMIP5, this diagnostic was 3d, whereas the CMIP6 depth integrated diagnostic is sufficient for many purposes and reduces archive requirements.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time2"
+  ],
+  "variable:frequency": "monC",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/tnkebto2d"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocean"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/opmonclim-tnkebto2d"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

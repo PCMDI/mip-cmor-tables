@@ -1,119 +1,119 @@
 {
-    "@id": "mip-cmor-tables:miptables/tables/gigyr",
-    "@type": "cmip:dr-table",
-    "table:table_id": "GIGyr",
-    "table:Conventions": "CF-1.7 CMIP-6.5",
-    "table:approx_interval": 365.0,
-    "table:checksum": "",
-    "table:cmor_version": "3.8.0",
-    "table:release": "v6.5.0.2",
-    "table:data_specs_version": "6.5.0.0",
-    "table:generic_levels": [],
-    "table:int_missing_value": "-999",
-    "table:missing_value": "1e20",
-    "table:product": {
-        "@id": "mip-cmor-tables:auxillary/product/model-output"
+  "@id": "mip-cmor-tables:miptables/tables/gigyr",
+  "@type": "dr-table",
+  "table:approx_interval": 365.0,
+  "table:checksum": "",
+  "table:cmor_version": "3.8.0",
+  "table:conventions": "CF-1.7 CMIP-6.5",
+  "table:data_specs_version": "6.5.0.0",
+  "table:generic_levels": [],
+  "table:int_missing_value": "-999",
+  "table:missing_value": "1e20",
+  "table:product": {
+    "@id": "mip-cmor-tables:auxillary/product/model-output"
+  },
+  "table:release": "v6.5.0.2",
+  "table:table_date": "2023-11-16",
+  "table:table_id": "GIGyr",
+  "table:variable_entry": [
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-acabf"
     },
-    "table:table_date": "2023-11-16",
-    "table:variable_entry": [
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-acabf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-hfgeoubed"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-iareafl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-iareagr"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-libmassbffl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-libmassbfgr"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-licalvf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-lifmassbf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-lim"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-limnsw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-litempbotfl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-litempbotgr"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-litemptop"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-lithk"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-modelcellareai"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-orog"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-sftflf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-sftgif"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-sftgrf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-snc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-strbasemag"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-tendacabf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-tendlibmassbf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-tendlicalvf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-topg"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-xvelbase"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-xvelmean"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-xvelsurf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-yvelbase"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-yvelmean"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-yvelsurf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-zvelbase"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-zvelsurf"
-        }
-    ]
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-hfgeoubed"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-iareafl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-iareagr"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-libmassbffl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-libmassbfgr"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-licalvf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-lifmassbf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-lim"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-limnsw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-litempbotfl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-litempbotgr"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-litemptop"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-lithk"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-modelcellareai"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-orog"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-sftflf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-sftgif"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-sftgrf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-snc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-strbasemag"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-tendacabf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-tendlibmassbf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-tendlicalvf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-topg"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-xvelbase"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-xvelmean"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-xvelsurf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-yvelbase"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-yvelmean"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-yvelsurf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-zvelbase"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-zvelsurf"
+    }
+  ]
 }

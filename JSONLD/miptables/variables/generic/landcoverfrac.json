@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/landcoverfrac",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Percentage of Area by Vegetation or Land-Cover Category",
-    "variable:out_name": "landCoverFrac",
-    "variable:positive": "",
-    "variable:standard_name": "area_fraction",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/landcoverfrac",
+  "@type": "variable-generic",
+  "variable:long_name": "Percentage of Area by Vegetation or Land-Cover Category",
+  "variable:out_name": "landCoverFrac",
+  "variable:positive": "",
+  "variable:standard_name": "area_fraction",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

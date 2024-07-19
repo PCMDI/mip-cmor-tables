@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-huss",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/huss"
-    },
-    "variable:branded_variable_name": "huss_mon-ap-tav-h02-hxy",
-    "variable:comment": "Near-surface (usually, 2 meter) specific humidity.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time",
-        "height2m"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apmon-huss"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": 0.012,
-        "ok_min_mean_abs": 0.005,
-        "valid_max": 0.03,
-        "valid_min": 0
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-huss",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "huss_mon-ap-tav-h02-hxy",
+  "variable:comment": "Near-surface (usually, 2 meter) specific humidity.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height2m"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/huss"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apmon-huss"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": 0.012,
+    "ok_min_mean_abs": 0.005,
+    "valid_max": 0.03,
+    "valid_min": 0
+  }
 }

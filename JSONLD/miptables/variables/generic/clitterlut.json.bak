@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/clitterlut",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Carbon  in Above and Below-Ground Litter Pools on Land-Use Tiles",
+    "variable:out_name": "cLitterLut",
+    "variable:positive": "",
+    "variable:standard_name": "litter_mass_content_of_carbon",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

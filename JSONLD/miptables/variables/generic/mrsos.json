@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mrsos",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Moisture in Upper Portion of Soil Column",
-    "variable:out_name": "mrsos",
-    "variable:positive": "",
-    "variable:standard_name": "mass_content_of_water_in_soil_layer",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mrsos",
+  "@type": "variable-generic",
+  "variable:long_name": "Moisture in Upper Portion of Soil Column",
+  "variable:out_name": "mrsos",
+  "variable:positive": "",
+  "variable:standard_name": "mass_content_of_water_in_soil_layer",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

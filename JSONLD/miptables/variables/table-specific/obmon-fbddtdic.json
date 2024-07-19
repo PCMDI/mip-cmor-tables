@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/obmon-fbddtdic",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/fbddtdic"
-    },
-    "variable:branded_variable_name": "fbddtdic_mon-oc-tav-z0100-hxy",
-    "variable:comment": "vertical integral of net biological terms in time rate of change of dissolved inorganic carbon",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time",
-        "olayer100m"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocnBgchem"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/obmon-fbddtdic"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/obmon-fbddtdic",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "fbddtdic_mon-oc-tav-z0100-hxy",
+  "variable:comment": "vertical integral of net biological terms in time rate of change of dissolved inorganic carbon",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "olayer100m"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/fbddtdic"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocnbgchem"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/obmon-fbddtdic"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sw",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Surface Water Storage",
-    "variable:out_name": "sw",
-    "variable:positive": "",
-    "variable:standard_name": "land_surface_liquid_water_amount",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sw",
+  "@type": "variable-generic",
+  "variable:long_name": "Surface Water Storage",
+  "variable:out_name": "sw",
+  "variable:positive": "",
+  "variable:standard_name": "land_surface_liquid_water_amount",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

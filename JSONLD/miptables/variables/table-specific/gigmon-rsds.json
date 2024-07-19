@@ -1,32 +1,32 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-rsds",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/rsds"
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/gigmon-rsds",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "rsds_mon-li-tav-z0-hxyG",
+  "variable:comment": "Surface solar irradiance for UV calculations.",
+  "variable:dimensions": [
+    "xgre",
+    "ygre",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/rsds"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/landice"
     },
-    "variable:branded_variable_name": "rsds_mon-li-tav-z0-hxyG",
-    "variable:comment": "Surface solar irradiance for UV calculations.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "xgre",
-        "ygre",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/landIce"
-        },
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/gigmon-rsds"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/gigmon-rsds"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

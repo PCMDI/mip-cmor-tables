@@ -1,0 +1,8 @@
+{
+  "@id": "mip-cmor-tables:auxillary/frequency/monpt",
+  "@type": "frequency",
+  "description": "sampled monthly, at specified time point within the time period",
+  "long_name": "Monthly Point",
+  "name": "monPt",
+  "unit": "month"
+}

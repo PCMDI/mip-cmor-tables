@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-jo3",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/jo3"
-    },
-    "variable:branded_variable_name": "jo3_mon-ap-tav-p39-hy",
-    "variable:comment": "Sum of photolysis rates o3 -> o1d+o2 and o3 -> o+o2",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "latitude",
-        "plev39",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apmonz-jo3"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apmonz-jo3",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "jo3_mon-ap-tav-p39-hy",
+  "variable:comment": "Sum of photolysis rates o3 -> o1d+o2 and o3 -> o+o2",
+  "variable:dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/jo3"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apmonz-jo3"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

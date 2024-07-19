@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sirdgconc",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Percentage Cover of Sea Ice by Ridging",
+    "variable:out_name": "sirdgconc",
+    "variable:positive": "",
+    "variable:standard_name": "area_fraction",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

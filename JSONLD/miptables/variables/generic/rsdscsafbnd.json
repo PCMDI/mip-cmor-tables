@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/rsdscsafbnd",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Surface Downwelling Clear-Sky, Aerosol-Free Shortwave Radiation in Bands",
-    "variable:out_name": "rsdscsafbnd",
-    "variable:positive": "down",
-    "variable:standard_name": "surface_downwelling_shortwave_flux_in_air_assuming_clear_sky_and_no_aerosol",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/rsdscsafbnd",
+  "@type": "variable-generic",
+  "variable:long_name": "Surface Downwelling Clear-Sky, Aerosol-Free Shortwave Radiation in Bands",
+  "variable:out_name": "rsdscsafbnd",
+  "variable:positive": "down",
+  "variable:standard_name": "surface_downwelling_shortwave_flux_in_air_assuming_clear_sky_and_no_aerosol",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

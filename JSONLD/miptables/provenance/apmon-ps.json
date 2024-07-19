@@ -1,17 +1,17 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-ps",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab47b56-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Amon",
-        "variable_name": "ps"
-    },
-    "CMIP5": {
-        "mip_table": "Amon",
-        "variable_name": "ps"
-    },
-    "CMIP3": {
-        "mip_table": "A1",
-        "variable_name": "ps"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-ps",
+  "@type": "provenance",
+  "cmip3": {
+    "mip_table": "A1",
+    "variable_name": "ps"
+  },
+  "cmip5": {
+    "mip_table": "Amon",
+    "variable_name": "ps"
+  },
+  "cmip6": {
+    "dreq_uid": "bab47b56-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Amon",
+    "variable_name": "ps"
+  }
 }

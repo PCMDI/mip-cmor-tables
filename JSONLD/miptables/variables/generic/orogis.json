@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/orogis",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Ice Sheet Surface Altitude",
-    "variable:out_name": "orogIs",
-    "variable:positive": "",
-    "variable:standard_name": "surface_altitude",
-    "variable:type": "real",
-    "variable:units": [
-        "m"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/orogis",
+  "@type": "variable-generic",
+  "variable:long_name": "Ice Sheet Surface Altitude",
+  "variable:out_name": "orogIs",
+  "variable:positive": "",
+  "variable:standard_name": "surface_altitude",
+  "variable:type": "real",
+  "variable:units": [
+    "m"
+  ]
 }

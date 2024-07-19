@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/mrroli",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Land Ice Runoff Flux",
+    "variable:out_name": "mrroLi",
+    "variable:positive": "",
+    "variable:standard_name": "land_ice_runoff_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

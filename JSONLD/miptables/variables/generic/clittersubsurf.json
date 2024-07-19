@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/clittersubsurf",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Carbon Mass in Below-Ground Litter",
-    "variable:out_name": "cLitterSubSurf",
-    "variable:positive": "",
-    "variable:standard_name": "subsurface_litter_mass_content_of_carbon",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/clittersubsurf",
+  "@type": "variable-generic",
+  "variable:long_name": "Carbon Mass in Below-Ground Litter",
+  "variable:out_name": "cLitterSubSurf",
+  "variable:positive": "",
+  "variable:standard_name": "subsurface_litter_mass_content_of_carbon",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

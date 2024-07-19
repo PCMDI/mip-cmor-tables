@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sisaltmass",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Mass of Salt in Sea Ice per Area",
-    "variable:out_name": "sisaltmass",
-    "variable:positive": "",
-    "variable:standard_name": "sea_ice_mass_content_of_salt",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sisaltmass",
+  "@type": "variable-generic",
+  "variable:long_name": "Mass of Salt in Sea Ice per Area",
+  "variable:out_name": "sisaltmass",
+  "variable:positive": "",
+  "variable:standard_name": "sea_ice_mass_content_of_salt",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

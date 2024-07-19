@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmonz-utendepfd",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "feeaf438-96ec-11e6-b81e-c9e268aff03a",
-        "mip_table": "EmonZ",
-        "variable_name": "utendepfd"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmonz-utendepfd",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "feeaf438-96ec-11e6-b81e-c9e268aff03a",
+    "mip_table": "EmonZ",
+    "variable_name": "utendepfd"
+  }
 }

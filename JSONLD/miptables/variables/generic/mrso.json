@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mrso",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Soil Moisture Content",
-    "variable:out_name": "mrso",
-    "variable:positive": "",
-    "variable:standard_name": "mass_content_of_water_in_soil",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mrso",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Soil Moisture Content",
+  "variable:out_name": "mrso",
+  "variable:positive": "",
+  "variable:standard_name": "mass_content_of_water_in_soil",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

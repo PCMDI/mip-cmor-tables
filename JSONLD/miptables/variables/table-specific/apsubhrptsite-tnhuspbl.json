@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptsite-tnhuspbl",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/tnhuspbl"
-    },
-    "variable:branded_variable_name": "tnhuspbl_subhr-ap-tpt-l-hxys",
-    "variable:comment": "Includes all boundary layer terms including diffusive terms.",
-    "variable:frequency": "subhrPt",
-    "variable:dimensions": [
-        "alevel",
-        "site",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-tnhuspbl"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrptsite-tnhuspbl",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "tnhuspbl_subhr-ap-tpt-l-hxys",
+  "variable:comment": "Includes all boundary layer terms including diffusive terms.",
+  "variable:dimensions": [
+    "alevel",
+    "site",
+    "time1"
+  ],
+  "variable:frequency": "subhrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/tnhuspbl"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-tnhuspbl"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

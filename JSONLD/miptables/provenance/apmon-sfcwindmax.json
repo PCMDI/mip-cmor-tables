@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-sfcwindmax",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "fee11078-5270-11e6-bffa-5404a60d96b5",
-        "mip_table": "Emon",
-        "variable_name": "sfcWindmax"
-    },
-    "CMIP5": {
-        "mip_table": "Amon",
-        "variable_name": "sfcWind"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-sfcwindmax",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Amon",
+    "variable_name": "sfcWind"
+  },
+  "cmip6": {
+    "dreq_uid": "fee11078-5270-11e6-bffa-5404a60d96b5",
+    "mip_table": "Emon",
+    "variable_name": "sfcWindmax"
+  }
 }

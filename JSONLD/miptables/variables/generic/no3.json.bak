@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/no3",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Dissolved Nitrate Concentration",
+    "variable:out_name": "no3",
+    "variable:positive": "",
+    "variable:standard_name": "mole_concentration_of_nitrate_in_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3"
+    ]
+}

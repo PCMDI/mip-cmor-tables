@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rlutaf",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "TOA Outgoing Aerosol-Free Longwave Radiation",
+    "variable:out_name": "rlutaf",
+    "variable:positive": "up",
+    "variable:standard_name": "toa_outgoing_longwave_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

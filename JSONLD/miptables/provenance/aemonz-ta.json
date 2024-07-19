@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/aemonz-ta",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "fda700b2-96ec-11e6-b81e-c9e268aff03a",
-        "mip_table": "AERmonZ",
-        "variable_name": "ta"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/aemonz-ta",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "fda700b2-96ec-11e6-b81e-c9e268aff03a",
+    "mip_table": "AERmonZ",
+    "variable_name": "ta"
+  }
 }

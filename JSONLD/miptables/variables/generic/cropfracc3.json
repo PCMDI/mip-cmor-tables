@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/cropfracc3",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Percentage Cover by C3 Crops",
-    "variable:out_name": "cropFracC3",
-    "variable:positive": "",
-    "variable:standard_name": "area_fraction",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/cropfracc3",
+  "@type": "variable-generic",
+  "variable:long_name": "Percentage Cover by C3 Crops",
+  "variable:out_name": "cropFracC3",
+  "variable:positive": "",
+  "variable:standard_name": "area_fraction",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

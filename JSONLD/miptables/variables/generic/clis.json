@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/clis",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Mass Fraction of Stratiform Cloud Ice",
-    "variable:out_name": "clis",
-    "variable:positive": "",
-    "variable:standard_name": "mass_fraction_of_stratiform_cloud_ice_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/clis",
+  "@type": "variable-generic",
+  "variable:long_name": "Mass Fraction of Stratiform Cloud Ice",
+  "variable:out_name": "clis",
+  "variable:positive": "",
+  "variable:standard_name": "mass_fraction_of_stratiform_cloud_ice_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/giayr-sftgif",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/sftgif"
-    },
-    "variable:branded_variable_name": "sftgif_yr-ld-tav-z0-hxyA",
-    "variable:comment": "Percentage of grid cell covered by land ice (ice sheet, ice shelf, ice cap, glacier)",
-    "variable:frequency": "yr",
-    "variable:dimensions": [
-        "xant",
-        "yant",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/giayr-sftgif"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/giayr-sftgif",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "sftgif_yr-ld-tav-z0-hxyA",
+  "variable:comment": "Percentage of grid cell covered by land ice (ice sheet, ice shelf, ice cap, glacier)",
+  "variable:dimensions": [
+    "xant",
+    "yant",
+    "time"
+  ],
+  "variable:frequency": "yr",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/sftgif"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/giayr-sftgif"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

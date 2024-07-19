@@ -1,28 +1,28 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/opfx-deptho",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/deptho"
-    },
-    "variable:branded_variable_name": "deptho_fx-op-none-z0-hxy",
-    "variable:comment": "Ocean bathymetry.   Reported here is the sea floor depth for present day relative to z=0 geoid. Reported as missing for land grid cells.",
-    "variable:frequency": "fx",
-    "variable:dimensions": [
-        "longitude",
-        "latitude"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocean"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/opfx-deptho"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/opfx-deptho",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "deptho_fx-op-none-z0-hxy",
+  "variable:comment": "Ocean bathymetry.   Reported here is the sea floor depth for present day relative to z=0 geoid. Reported as missing for land grid cells.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude"
+  ],
+  "variable:frequency": "fx",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/deptho"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocean"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/opfx-deptho"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

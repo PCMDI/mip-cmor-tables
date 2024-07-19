@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonlev-msftyzmpa",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/msftyzmpa"
+    },
+    "variable:branded_variable_name": "msftyzmpa_mon-op-tav-l-hm",
+    "variable:comment": "CMIP5 called this 'due to Bolus Advection'.  Name change respects the more general physics of the mesoscale parameterizations.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "gridlatitude",
+        "olevel",
+        "basin",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocean"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/opmonlev-msftyzmpa"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

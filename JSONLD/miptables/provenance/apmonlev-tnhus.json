@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmonlev-tnhus",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab9ca3e-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "CFmon",
-        "variable_name": "tnhus"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmonlev-tnhus",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "bab9ca3e-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "CFmon",
+    "variable_name": "tnhus"
+  }
 }

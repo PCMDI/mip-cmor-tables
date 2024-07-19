@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/prrc",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Convective Rainfall Rate",
-    "variable:out_name": "prrc",
-    "variable:positive": "",
-    "variable:standard_name": "convective_rainfall_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/prrc",
+  "@type": "variable-generic",
+  "variable:long_name": "Convective Rainfall Rate",
+  "variable:out_name": "prrc",
+  "variable:positive": "",
+  "variable:standard_name": "convective_rainfall_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

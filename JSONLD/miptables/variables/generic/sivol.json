@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sivol",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea-Ice Volume per Area",
-    "variable:out_name": "sivol",
-    "variable:positive": "",
-    "variable:standard_name": "sea_ice_thickness",
-    "variable:type": "real",
-    "variable:units": [
-        "m"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sivol",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea-Ice Volume per Area",
+  "variable:out_name": "sivol",
+  "variable:positive": "",
+  "variable:standard_name": "sea_ice_thickness",
+  "variable:type": "real",
+  "variable:units": [
+    "m"
+  ]
 }

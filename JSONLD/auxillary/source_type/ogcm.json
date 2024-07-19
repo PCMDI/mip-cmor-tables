@@ -1,6 +1,0 @@
-{
-    "@id": "mip-cmor-tables:auxillary/source_type/ogcm",
-    "@type": "cmip:source_type",
-    "source-type:name": "OGCM",
-    "source-type:description": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model"
-}

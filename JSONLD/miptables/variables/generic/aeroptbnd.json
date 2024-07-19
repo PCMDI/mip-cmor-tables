@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/aeroptbnd",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Aerosol Level Absorption Optical Thickness for Each Band",
-    "variable:out_name": "aeroptbnd",
-    "variable:positive": "",
-    "variable:standard_name": "atmosphere_absorption_optical_thickness_due_to_ambient_aerosol_particles",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/aeroptbnd",
+  "@type": "variable-generic",
+  "variable:long_name": "Aerosol Level Absorption Optical Thickness for Each Band",
+  "variable:out_name": "aeroptbnd",
+  "variable:positive": "",
+  "variable:standard_name": "atmosphere_absorption_optical_thickness_due_to_ambient_aerosol_particles",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

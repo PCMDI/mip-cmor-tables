@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/aemonz-ho2",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "fda6f4fa-96ec-11e6-b81e-c9e268aff03a",
-        "mip_table": "AERmonZ",
-        "variable_name": "ho2"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/aemonz-ho2",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "fda6f4fa-96ec-11e6-b81e-c9e268aff03a",
+    "mip_table": "AERmonZ",
+    "variable_name": "ho2"
+  }
 }

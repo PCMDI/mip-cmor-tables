@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/prsnsn",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Fraction of Snowfall (Including Hail and Graupel) on Snow",
-    "variable:out_name": "prsnsn",
-    "variable:positive": "",
-    "variable:standard_name": "mass_fraction_of_solid_precipitation_falling_onto_surface_snow",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/prsnsn",
+  "@type": "variable-generic",
+  "variable:long_name": "Fraction of Snowfall (Including Hail and Graupel) on Snow",
+  "variable:out_name": "prsnsn",
+  "variable:positive": "",
+  "variable:standard_name": "mass_fraction_of_solid_precipitation_falling_onto_surface_snow",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

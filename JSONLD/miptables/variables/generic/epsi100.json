@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/epsi100",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Downward Flux of Particulate Silicon",
-    "variable:out_name": "epsi100",
-    "variable:positive": "",
-    "variable:standard_name": "sinking_mole_flux_of_particulate_silicon_in_sea_water",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/epsi100",
+  "@type": "variable-generic",
+  "variable:long_name": "Downward Flux of Particulate Silicon",
+  "variable:out_name": "epsi100",
+  "variable:positive": "",
+  "variable:standard_name": "sinking_mole_flux_of_particulate_silicon_in_sea_water",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-2",
+    "s-1"
+  ]
 }

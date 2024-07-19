@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-prc",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/prc"
-    },
-    "variable:branded_variable_name": "prc_mon-ap-tav-z0-hxy",
-    "variable:comment": "Convective precipitation at surface; includes both liquid and solid phases.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apmon-prc"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": 4e-05,
-        "ok_min_mean_abs": 3e-06,
-        "valid_max": 0.0015,
-        "valid_min": -1e-06
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-prc",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "prc_mon-ap-tav-z0-hxy",
+  "variable:comment": "Convective precipitation at surface; includes both liquid and solid phases.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/prc"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apmon-prc"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": 0.00004,
+    "ok_min_mean_abs": 0.000003,
+    "valid_max": 0.0015,
+    "valid_min": -0.000001
+  }
 }

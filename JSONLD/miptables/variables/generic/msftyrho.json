@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/msftyrho",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Ocean Y Overturning Mass Streamfunction",
-    "variable:out_name": "msftyrho",
-    "variable:positive": "",
-    "variable:standard_name": "ocean_y_overturning_mass_streamfunction",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/msftyrho",
+  "@type": "variable-generic",
+  "variable:long_name": "Ocean Y Overturning Mass Streamfunction",
+  "variable:out_name": "msftyrho",
+  "variable:positive": "",
+  "variable:standard_name": "ocean_y_overturning_mass_streamfunction",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "s-1"
+  ]
 }

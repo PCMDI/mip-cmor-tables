@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/msftyzsmpa",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Ocean Y Overturning Mass Streamfunction Due to Parameterized Submesoscale Advection",
+    "variable:out_name": "msftyzsmpa",
+    "variable:positive": "",
+    "variable:standard_name": "ocean_meridional_overturning_mass_streamfunction_due_to_parameterized_submesoscale_eddy_advection",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "s-1"
+    ]
+}

@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/treefracbdldcd",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Broadleaf Deciduous Tree Area Percentage",
-    "variable:out_name": "treeFracBdlDcd",
-    "variable:positive": "",
-    "variable:standard_name": "area_fraction",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/treefracbdldcd",
+  "@type": "variable-generic",
+  "variable:long_name": "Broadleaf Deciduous Tree Area Percentage",
+  "variable:out_name": "treeFracBdlDcd",
+  "variable:positive": "",
+  "variable:standard_name": "area_fraction",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

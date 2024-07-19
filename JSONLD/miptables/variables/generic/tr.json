@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tr",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Surface Radiative Temperature",
-    "variable:out_name": "tr",
-    "variable:positive": "",
-    "variable:standard_name": "surface_temperature",
-    "variable:type": "real",
-    "variable:units": [
-        "K"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tr",
+  "@type": "variable-generic",
+  "variable:long_name": "Surface Radiative Temperature",
+  "variable:out_name": "tr",
+  "variable:positive": "",
+  "variable:standard_name": "surface_temperature",
+  "variable:type": "real",
+  "variable:units": [
+    "K"
+  ]
 }

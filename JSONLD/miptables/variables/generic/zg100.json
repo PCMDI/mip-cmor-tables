@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/zg100",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Geopotential Height at 100hPa",
-    "variable:out_name": "zg100",
-    "variable:positive": "",
-    "variable:standard_name": "geopotential_height",
-    "variable:type": "real",
-    "variable:units": [
-        "m"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/zg100",
+  "@type": "variable-generic",
+  "variable:long_name": "Geopotential Height at 100hPa",
+  "variable:out_name": "zg100",
+  "variable:positive": "",
+  "variable:standard_name": "geopotential_height",
+  "variable:type": "real",
+  "variable:units": [
+    "m"
+  ]
 }

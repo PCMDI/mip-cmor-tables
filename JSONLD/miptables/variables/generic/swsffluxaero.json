@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/swsffluxaero",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Shortwave Heating Rate Due to Volcanic Aerosols",
-    "variable:out_name": "swsffluxaero",
-    "variable:positive": "",
-    "variable:standard_name": "surface_downwelling_shortwave_flux_in_air_due_to_volcanic_ambient_aerosol_particles",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/swsffluxaero",
+  "@type": "variable-generic",
+  "variable:long_name": "Shortwave Heating Rate Due to Volcanic Aerosols",
+  "variable:out_name": "swsffluxaero",
+  "variable:positive": "",
+  "variable:standard_name": "surface_downwelling_shortwave_flux_in_air_due_to_volcanic_ambient_aerosol_particles",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

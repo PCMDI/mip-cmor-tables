@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/dissicabio",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Abiotic Dissolved Inorganic Carbon Concentration",
-    "variable:out_name": "dissicabio",
-    "variable:positive": "",
-    "variable:standard_name": "mole_concentration_of_dissolved_inorganic_carbon_abiotic_analogue_in_sea_water",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-3"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/dissicabio",
+  "@type": "variable-generic",
+  "variable:long_name": "Abiotic Dissolved Inorganic Carbon Concentration",
+  "variable:out_name": "dissicabio",
+  "variable:positive": "",
+  "variable:standard_name": "mole_concentration_of_dissolved_inorganic_carbon_abiotic_analogue_in_sea_water",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-3"
+  ]
 }

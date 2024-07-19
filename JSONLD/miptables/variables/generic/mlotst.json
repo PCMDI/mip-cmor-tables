@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mlotst",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Ocean Mixed Layer Thickness Defined by Sigma T",
-    "variable:out_name": "mlotst",
-    "variable:positive": "",
-    "variable:standard_name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
-    "variable:type": "real",
-    "variable:units": [
-        "m"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mlotst",
+  "@type": "variable-generic",
+  "variable:long_name": "Ocean Mixed Layer Thickness Defined by Sigma T",
+  "variable:out_name": "mlotst",
+  "variable:positive": "",
+  "variable:standard_name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
+  "variable:type": "real",
+  "variable:units": [
+    "m"
+  ]
 }

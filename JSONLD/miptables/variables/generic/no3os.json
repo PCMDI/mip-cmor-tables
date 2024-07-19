@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/no3os",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Surface Dissolved Nitrate Concentration",
-    "variable:out_name": "no3os",
-    "variable:positive": "",
-    "variable:standard_name": "mole_concentration_of_nitrate_in_sea_water",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-3"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/no3os",
+  "@type": "variable-generic",
+  "variable:long_name": "Surface Dissolved Nitrate Concentration",
+  "variable:out_name": "no3os",
+  "variable:positive": "",
+  "variable:standard_name": "mole_concentration_of_nitrate_in_sea_water",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-3"
+  ]
 }

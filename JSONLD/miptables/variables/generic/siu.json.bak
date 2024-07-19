@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/siu",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "X-Component of Sea-Ice Velocity",
+    "variable:out_name": "siu",
+    "variable:positive": "",
+    "variable:standard_name": "sea_ice_x_velocity",
+    "variable:type": "real",
+    "variable:units": [
+        "m",
+        "s-1"
+    ]
+}

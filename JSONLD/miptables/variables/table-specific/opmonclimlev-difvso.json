@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclimlev-difvso",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/difvso"
-    },
-    "variable:branded_variable_name": "difvso_mon-op-tcla-l-hxy",
-    "variable:comment": "Vertical/dianeutral diffusivity applied to prognostic salinity field.",
-    "variable:frequency": "monC",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "olevel",
-        "time2"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocean"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/opmonclimlev-difvso"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonclimlev-difvso",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "difvso_mon-op-tcla-l-hxy",
+  "variable:comment": "Vertical/dianeutral diffusivity applied to prognostic salinity field.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time2"
+  ],
+  "variable:frequency": "monC",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/difvso"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocean"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/opmonclimlev-difvso"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

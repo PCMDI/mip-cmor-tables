@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpmon-flulccatmlut",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "3e26c210-b89b-11e6-be04-ac72891c3257",
-        "mip_table": "Emon",
-        "variable_name": "fLulccAtmLut"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpmon-flulccatmlut",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "3e26c210-b89b-11e6-be04-ac72891c3257",
+    "mip_table": "Emon",
+    "variable_name": "fLulccAtmLut"
+  }
 }

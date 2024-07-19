@@ -1,43 +1,43 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
-    "properties": {
-        "@id": {
-            "type": "string"
-        },
-        "@type": {
-            "type": "string"
-        },
-        "variable:long_name": {
-            "type": "string"
-        },
-        "variable:out_name": {
-            "type": "string"
-        },
-        "variable:positive": {
-            "type": "string"
-        },
-        "variable:standard_name": {
-            "type": "string"
-        },
-        "variable:type": {
-            "type": "string"
-        },
-        "variable:units": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            }
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "@id": {
+      "type": "string"
     },
-    "required": [
-        "@id",
-        "@type",
-        "variable:long_name",
-        "variable:out_name",
-        "variable:positive",
-        "variable:standard_name",
-        "variable:type",
-        "variable:units"
-    ]
+    "@type": {
+      "type": "string"
+    },
+    "variable:long_name": {
+      "type": "string"
+    },
+    "variable:out_name": {
+      "type": "string"
+    },
+    "variable:positive": {
+      "type": "string"
+    },
+    "variable:standard_name": {
+      "type": "string"
+    },
+    "variable:type": {
+      "type": "string"
+    },
+    "variable:units": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "@id",
+    "@type",
+    "variable:long_name",
+    "variable:out_name",
+    "variable:positive",
+    "variable:standard_name",
+    "variable:type",
+    "variable:units"
+  ],
+  "type": "object"
 }

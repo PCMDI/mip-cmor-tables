@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hr-vas",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/vas"
-    },
-    "variable:branded_variable_name": "vas_6hr-ap-tav-h010-hxy",
-    "variable:comment": "Northward component of the near surface wind",
-    "variable:frequency": "6hr",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time",
-        "height10m"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/ap6hr-vas"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/ap6hr-vas",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "vas_6hr-ap-tav-h010-hxy",
+  "variable:comment": "Northward component of the near surface wind",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "height10m"
+  ],
+  "variable:frequency": "6hr",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/vas"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/ap6hr-vas"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

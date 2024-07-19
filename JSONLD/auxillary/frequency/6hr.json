@@ -1,0 +1,8 @@
+{
+  "@id": "mip-cmor-tables:auxillary/frequency/6hr",
+  "@type": "frequency",
+  "description": "6 hourly mean samples",
+  "long_name": "6 Hourly Frequency",
+  "name": "6hr",
+  "unit": "hour"
+}

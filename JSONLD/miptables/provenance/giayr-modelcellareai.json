@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/giayr-modelcellareai",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "d5b43544-c78d-11e6-9b25-5404a60d96b5",
-        "mip_table": "IyrAnt",
-        "variable_name": "modelCellAreai"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/giayr-modelcellareai",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "d5b43544-c78d-11e6-9b25-5404a60d96b5",
+    "mip_table": "IyrAnt",
+    "variable_name": "modelCellAreai"
+  }
 }

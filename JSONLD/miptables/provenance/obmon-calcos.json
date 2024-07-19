@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obmon-calcos",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "c9180bae-c5e8-11e6-84e6-5404a60d96b5",
-        "mip_table": "Omon",
-        "variable_name": "calcos"
-    },
-    "CMIP5": {
-        "mip_table": "Omon",
-        "variable_name": "calc"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obmon-calcos",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Omon",
+    "variable_name": "calc"
+  },
+  "cmip6": {
+    "dreq_uid": "c9180bae-c5e8-11e6-84e6-5404a60d96b5",
+    "mip_table": "Omon",
+    "variable_name": "calcos"
+  }
 }

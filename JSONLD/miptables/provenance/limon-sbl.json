@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/limon-sbl",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab6b948-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Amon",
-        "variable_name": "sbl"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/limon-sbl",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "bab6b948-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Amon",
+    "variable_name": "sbl"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-rv850",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "7c70ee64-1ab7-11e7-8dfc-5404a60d96b5",
-        "mip_table": "6hrPlevPt",
-        "variable_name": "rv850"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-rv850",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "7c70ee64-1ab7-11e7-8dfc-5404a60d96b5",
+    "mip_table": "6hrPlevPt",
+    "variable_name": "rv850"
+  }
 }

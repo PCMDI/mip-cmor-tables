@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/areacello",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Grid-Cell Area for Ocean Variables",
+    "variable:out_name": "areacello",
+    "variable:positive": "",
+    "variable:standard_name": "cell_area",
+    "variable:type": "real",
+    "variable:units": [
+        "m2"
+    ]
+}

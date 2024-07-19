@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/hflsis",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Ice Sheet Surface Upward Latent Heat Flux",
+    "variable:out_name": "hflsIs",
+    "variable:positive": "up",
+    "variable:standard_name": "surface_upward_latent_heat_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

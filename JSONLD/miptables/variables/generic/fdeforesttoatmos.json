@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/fdeforesttoatmos",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Deforested Biomass That Goes into Atmosphere as a Result of Anthropogenic Land-Use Change [kgC m-2 s-1]",
-    "variable:out_name": "fDeforestToAtmos",
-    "variable:positive": "",
-    "variable:standard_name": "surface_net_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_anthropogenic_land_use_change",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/fdeforesttoatmos",
+  "@type": "variable-generic",
+  "variable:long_name": "Deforested Biomass That Goes into Atmosphere as a Result of Anthropogenic Land-Use Change [kgC m-2 s-1]",
+  "variable:out_name": "fDeforestToAtmos",
+  "variable:positive": "",
+  "variable:standard_name": "surface_net_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_anthropogenic_land_use_change",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

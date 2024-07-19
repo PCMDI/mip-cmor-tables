@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ae1hr-sfno2",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "19c0775c-81b1-11e6-92de-ac72891c3257",
-        "mip_table": "AERhr",
-        "variable_name": "sfno2"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ae1hr-sfno2",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "19c0775c-81b1-11e6-92de-ac72891c3257",
+    "mip_table": "AERhr",
+    "variable_name": "sfno2"
+  }
 }

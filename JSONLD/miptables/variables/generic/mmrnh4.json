@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mmrnh4",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "NH4 Mass Mixing Ratio",
-    "variable:out_name": "mmrnh4",
-    "variable:positive": "",
-    "variable:standard_name": "mass_fraction_of_ammonium_dry_aerosol_particles_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "kg-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mmrnh4",
+  "@type": "variable-generic",
+  "variable:long_name": "NH4 Mass Mixing Ratio",
+  "variable:out_name": "mmrnh4",
+  "variable:positive": "",
+  "variable:standard_name": "mass_fraction_of_ammonium_dry_aerosol_particles_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "kg-1"
+  ]
 }

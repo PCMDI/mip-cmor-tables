@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpmon-treefracndldcd",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/treefracndldcd"
-    },
-    "variable:branded_variable_name": "treeFracNdlDcd_mon-ld-tav-z0-hxy",
-    "variable:comment": "This is the percentage of the entire grid cell that is covered by needleleaf deciduous trees.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time",
-        "typetreend"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/lpmon-treefracndldcd"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/lpmon-treefracndldcd",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "treeFracNdlDcd_mon-ld-tav-z0-hxy",
+  "variable:comment": "This is the percentage of the entire grid cell that is covered by needleleaf deciduous trees.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time",
+    "typetreend"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/treefracndldcd"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/lpmon-treefracndldcd"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

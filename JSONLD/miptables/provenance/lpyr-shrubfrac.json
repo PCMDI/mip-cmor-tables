@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpyr-shrubfrac",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "fb017924-be37-11e6-bac1-5404a60d96b5",
-        "mip_table": "Eyr",
-        "variable_name": "shrubFrac"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpyr-shrubfrac",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "fb017924-be37-11e6-bac1-5404a60d96b5",
+    "mip_table": "Eyr",
+    "variable_name": "shrubFrac"
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sootsn",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Snow Soot Content",
-    "variable:out_name": "sootsn",
-    "variable:positive": "",
-    "variable:standard_name": "soot_content_of_surface_snow",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sootsn",
+  "@type": "variable-generic",
+  "variable:long_name": "Snow Soot Content",
+  "variable:out_name": "sootsn",
+  "variable:positive": "",
+  "variable:standard_name": "soot_content_of_surface_snow",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

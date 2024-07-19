@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/simon-siflswdtop",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "713bf6d6-faa7-11e6-bfb7-ac72891c3257",
-        "mip_table": "SImon",
-        "variable_name": "siflswdtop"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/simon-siflswdtop",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "713bf6d6-faa7-11e6-bfb7-ac72891c3257",
+    "mip_table": "SImon",
+    "variable_name": "siflswdtop"
+  }
 }

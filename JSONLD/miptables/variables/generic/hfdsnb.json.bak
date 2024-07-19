@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/hfdsnb",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Downward Heat Flux at Snow Base",
+    "variable:out_name": "hfdsnb",
+    "variable:positive": "down",
+    "variable:standard_name": "downward_heat_flux_at_ground_level_in_snow",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

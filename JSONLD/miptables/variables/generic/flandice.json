@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/flandice",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Water Flux into Sea Water from Land Ice",
-    "variable:out_name": "flandice",
-    "variable:positive": "",
-    "variable:standard_name": "water_flux_into_sea_water_from_land_ice",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/flandice",
+  "@type": "variable-generic",
+  "variable:long_name": "Water Flux into Sea Water from Land Ice",
+  "variable:out_name": "flandice",
+  "variable:positive": "",
+  "variable:standard_name": "water_flux_into_sea_water_from_land_ice",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

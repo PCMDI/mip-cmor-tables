@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sndmassmelt",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Snow Mass Rate of Change Through Melt",
-    "variable:out_name": "sndmassmelt",
-    "variable:positive": "",
-    "variable:standard_name": "surface_snow_melt_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sndmassmelt",
+  "@type": "variable-generic",
+  "variable:long_name": "Snow Mass Rate of Change Through Melt",
+  "variable:out_name": "sndmassmelt",
+  "variable:positive": "",
+  "variable:standard_name": "surface_snow_melt_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/giayr-lifmassbf",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/lifmassbf"
-    },
-    "variable:branded_variable_name": "lifmassbf_yr-li-tav-z0-hxyA",
-    "variable:comment": "Total mass balance at the ice front (or vertical margin). It includes both iceberg calving and melt on vertical ice front",
-    "variable:frequency": "yr",
-    "variable:dimensions": [
-        "xant",
-        "yant",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/landIce"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/giayr-lifmassbf"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/giayr-lifmassbf",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "lifmassbf_yr-li-tav-z0-hxyA",
+  "variable:comment": "Total mass balance at the ice front (or vertical margin). It includes both iceberg calving and melt on vertical ice front",
+  "variable:dimensions": [
+    "xant",
+    "yant",
+    "time"
+  ],
+  "variable:frequency": "yr",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/lifmassbf"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/landice"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/giayr-lifmassbf"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

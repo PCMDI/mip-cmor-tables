@@ -1,27 +1,27 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/opdec-bigthetaoga",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/bigthetaoga"
-    },
-    "variable:branded_variable_name": "bigthetaoga_dec-op-tav-z0-hm",
-    "variable:comment": "Diagnostic should be contributed only for models using conservative temperature as prognostic field.",
-    "variable:frequency": "dec",
-    "variable:dimensions": [
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocean"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/opdec-bigthetaoga"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/opdec-bigthetaoga",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "bigthetaoga_dec-op-tav-z0-hm",
+  "variable:comment": "Diagnostic should be contributed only for models using conservative temperature as prognostic field.",
+  "variable:dimensions": [
+    "time"
+  ],
+  "variable:frequency": "dec",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/bigthetaoga"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocean"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/opdec-bigthetaoga"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

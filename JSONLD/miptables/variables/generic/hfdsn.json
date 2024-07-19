@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/hfdsn",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Downward Heat Flux into Snow Where Land over Land",
-    "variable:out_name": "hfdsn",
-    "variable:positive": "down",
-    "variable:standard_name": "surface_downward_heat_flux_in_snow",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/hfdsn",
+  "@type": "variable-generic",
+  "variable:long_name": "Downward Heat Flux into Snow Where Land over Land",
+  "variable:out_name": "hfdsn",
+  "variable:positive": "down",
+  "variable:standard_name": "surface_downward_heat_flux_in_snow",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

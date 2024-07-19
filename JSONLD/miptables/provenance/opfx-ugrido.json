@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opfx-ugrido",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "55e71213b0f6e3e098a0f0112beb2d50c2732f0a",
-        "mip_table": "Ofx",
-        "variable_name": "ugrido"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opfx-ugrido",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "55e71213b0f6e3e098a0f0112beb2d50c2732f0a",
+    "mip_table": "Ofx",
+    "variable_name": "ugrido"
+  }
 }

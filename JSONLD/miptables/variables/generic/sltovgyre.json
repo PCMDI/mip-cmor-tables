@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sltovgyre",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Northward Ocean Salt Transport Due to Gyre",
-    "variable:out_name": "sltovgyre",
-    "variable:positive": "",
-    "variable:standard_name": "northward_ocean_salt_transport_due_to_gyre",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sltovgyre",
+  "@type": "variable-generic",
+  "variable:long_name": "Northward Ocean Salt Transport Due to Gyre",
+  "variable:out_name": "sltovgyre",
+  "variable:positive": "",
+  "variable:standard_name": "northward_ocean_salt_transport_due_to_gyre",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "s-1"
+  ]
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpmon-vegfrac",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "6f6a57d0-9acb-11e6-b7ee-ac72891c3257",
-        "mip_table": "Emon",
-        "variable_name": "vegFrac"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpmon-vegfrac",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "6f6a57d0-9acb-11e6-b7ee-ac72891c3257",
+    "mip_table": "Emon",
+    "variable_name": "vegFrac"
+  }
 }

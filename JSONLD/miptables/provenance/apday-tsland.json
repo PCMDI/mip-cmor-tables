@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apday-tsland",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bdbed73a-01e5-11e8-aa5e-a44cc8186c64",
-        "mip_table": "Eday",
-        "variable_name": "tsland"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apday-tsland",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "bdbed73a-01e5-11e8-aa5e-a44cc8186c64",
+    "mip_table": "Eday",
+    "variable_name": "tsland"
+  }
 }

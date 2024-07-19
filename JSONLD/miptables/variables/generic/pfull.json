@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/pfull",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Pressure at Model Full-Levels",
-    "variable:out_name": "pfull",
-    "variable:positive": "",
-    "variable:standard_name": "air_pressure",
-    "variable:type": "real",
-    "variable:units": [
-        "Pa"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/pfull",
+  "@type": "variable-generic",
+  "variable:long_name": "Pressure at Model Full-Levels",
+  "variable:out_name": "pfull",
+  "variable:positive": "",
+  "variable:standard_name": "air_pressure",
+  "variable:type": "real",
+  "variable:units": [
+    "Pa"
+  ]
 }

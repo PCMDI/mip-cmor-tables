@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/noy",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Reactive Nitrogen Volume Mixing Ratio",
-    "variable:out_name": "noy",
-    "variable:positive": "",
-    "variable:standard_name": "mole_fraction_of_noy_expressed_as_nitrogen_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "mol-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/noy",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Reactive Nitrogen Volume Mixing Ratio",
+  "variable:out_name": "noy",
+  "variable:positive": "",
+  "variable:standard_name": "mole_fraction_of_noy_expressed_as_nitrogen_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "mol-1"
+  ]
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apday-hurs",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "5a070350-c77d-11e6-8a33-5404a60d96b5",
-        "mip_table": "day",
-        "variable_name": "hurs"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apday-hurs",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "5a070350-c77d-11e6-8a33-5404a60d96b5",
+    "mip_table": "day",
+    "variable_name": "hurs"
+  }
 }

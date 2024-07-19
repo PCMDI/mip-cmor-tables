@@ -1,0 +1,39 @@
+{
+    "@id": "https://github.com/PCMDI/mip-cmor-tables/JSONLD/auxillary/native-nominal-resolution",
+    "@type": "graph",
+    "@context": {
+        "@vocab": "model-native-nominal-resolution"
+    },
+    "ldroot": "/JSONLD/auxillary/native-nominal-resolution",
+    "@graph": [
+        {
+            "@id": "mip-cmor-tables:auxillary/native-nominal-resolution/250km",
+            "@type": "mip:mip:native-nominal-resolution",
+            "model-native-nominal-resolution:value": "250",
+            "model-native-nominal-resolution:cf:unit": {
+                "@id": "si:km"
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/native-nominal-resolution/100km",
+            "@type": "mip:mip:native-nominal-resolution",
+            "model-native-nominal-resolution:value": "100",
+            "model-native-nominal-resolution:cf:unit": {
+                "@id": "si:km"
+            }
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/native-nominal-resolution/50km",
+            "@type": "mip:mip:native-nominal-resolution",
+            "model-native-nominal-resolution:value": "50",
+            "model-native-nominal-resolution:cf:unit": {
+                "@id": "si:km"
+            }
+        }
+    ],
+    "files": [
+        "50km.json",
+        "100km.json",
+        "250km.json"
+    ]
+}

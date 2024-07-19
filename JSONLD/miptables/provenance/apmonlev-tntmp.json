@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmonlev-tntmp",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baba5d78-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "CFmon",
-        "variable_name": "tntmp"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmonlev-tntmp",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "baba5d78-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "CFmon",
+    "variable_name": "tntmp"
+  }
 }

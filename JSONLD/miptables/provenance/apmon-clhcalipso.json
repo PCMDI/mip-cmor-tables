@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-clhcalipso",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baaa7818-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "CFmon",
-        "variable_name": "clhcalipso"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-clhcalipso",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "baaa7818-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "CFmon",
+    "variable_name": "clhcalipso"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ap3hrptlev-co2",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "7b307606-a220-11e6-a33f-ac72891c3257",
-        "mip_table": "E3hrPt",
-        "variable_name": "co2"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ap3hrptlev-co2",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "7b307606-a220-11e6-a33f-ac72891c3257",
+    "mip_table": "E3hrPt",
+    "variable_name": "co2"
+  }
 }

@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rls",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Net Longwave Surface Radiation",
+    "variable:out_name": "rls",
+    "variable:positive": "down",
+    "variable:standard_name": "surface_net_downward_longwave_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/limfemisc",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Iron Limitation of Other Phytoplankton",
-    "variable:out_name": "limfemisc",
-    "variable:positive": "",
-    "variable:standard_name": "iron_growth_limitation_of_miscellaneous_phytoplankton",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/limfemisc",
+  "@type": "variable-generic",
+  "variable:long_name": "Iron Limitation of Other Phytoplankton",
+  "variable:out_name": "limfemisc",
+  "variable:positive": "",
+  "variable:standard_name": "iron_growth_limitation_of_miscellaneous_phytoplankton",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

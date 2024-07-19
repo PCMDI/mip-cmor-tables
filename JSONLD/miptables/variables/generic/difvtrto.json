@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/difvtrto",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Ocean Vertical Tracer Diffusivity Due to Tides",
-    "variable:out_name": "difvtrto",
-    "variable:positive": "",
-    "variable:standard_name": "ocean_vertical_tracer_diffusivity_due_to_tides",
-    "variable:type": "real",
-    "variable:units": [
-        "m2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/difvtrto",
+  "@type": "variable-generic",
+  "variable:long_name": "Ocean Vertical Tracer Diffusivity Due to Tides",
+  "variable:out_name": "difvtrto",
+  "variable:positive": "",
+  "variable:standard_name": "ocean_vertical_tracer_diffusivity_due_to_tides",
+  "variable:type": "real",
+  "variable:units": [
+    "m2",
+    "s-1"
+  ]
 }

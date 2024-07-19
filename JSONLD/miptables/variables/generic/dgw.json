@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/dgw",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Change in Groundwater",
-    "variable:out_name": "dgw",
-    "variable:positive": "",
-    "variable:standard_name": "change_over_time_in_groundwater_amount",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/dgw",
+  "@type": "variable-generic",
+  "variable:long_name": "Change in Groundwater",
+  "variable:out_name": "dgw",
+  "variable:positive": "",
+  "variable:standard_name": "change_over_time_in_groundwater_amount",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

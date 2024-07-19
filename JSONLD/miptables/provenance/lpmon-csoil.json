@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpmon-csoil",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "8b7ed3d0-4a5b-11e6-9cd2-ac72891c3257",
-        "mip_table": "Emon",
-        "variable_name": "cSoil"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpmon-csoil",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "8b7ed3d0-4a5b-11e6-9cd2-ac72891c3257",
+    "mip_table": "Emon",
+    "variable_name": "cSoil"
+  }
 }

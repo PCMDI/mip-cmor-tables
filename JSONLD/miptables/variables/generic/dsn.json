@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/dsn",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Change in Snow Water Equivalent",
-    "variable:out_name": "dsn",
-    "variable:positive": "",
-    "variable:standard_name": "change_over_time_in_amount_of_ice_and_snow_on_land",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/dsn",
+  "@type": "variable-generic",
+  "variable:long_name": "Change in Snow Water Equivalent",
+  "variable:out_name": "dsn",
+  "variable:positive": "",
+  "variable:standard_name": "change_over_time_in_amount_of_ice_and_snow_on_land",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

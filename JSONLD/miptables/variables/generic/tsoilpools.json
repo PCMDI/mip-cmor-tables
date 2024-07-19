@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tsoilpools",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Turnover Rate of Each Model Soil Carbon Pool",
-    "variable:out_name": "tSoilPools",
-    "variable:positive": "",
-    "variable:standard_name": "soil_pool_carbon_decay_rate",
-    "variable:type": "real",
-    "variable:units": [
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tsoilpools",
+  "@type": "variable-generic",
+  "variable:long_name": "Turnover Rate of Each Model Soil Carbon Pool",
+  "variable:out_name": "tSoilPools",
+  "variable:positive": "",
+  "variable:standard_name": "soil_pool_carbon_decay_rate",
+  "variable:type": "real",
+  "variable:units": [
+    "s-1"
+  ]
 }

@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpmon-fnleach",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/fnleach"
-    },
-    "variable:branded_variable_name": "fNleach_mon-ld-tav-z0-hxy",
-    "variable:comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics. The specification of a physical process by the phrase 'due_to_' process means that the quantity named is a single term in a sum of terms which together compose the general quantity named by omitting the phrase. 'Leaching' means the loss of water soluble chemical species from soil. Runoff is the liquid water which drains from land. If not specified, 'runoff' refers to the sum of surface runoff and subsurface drainage.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/lpmon-fnleach"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/lpmon-fnleach",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "fNleach_mon-ld-tav-z0-hxy",
+  "variable:comment": "In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics. The specification of a physical process by the phrase 'due_to_' process means that the quantity named is a single term in a sum of terms which together compose the general quantity named by omitting the phrase. 'Leaching' means the loss of water soluble chemical species from soil. Runoff is the liquid water which drains from land. If not specified, 'runoff' refers to the sum of surface runoff and subsurface drainage.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/fnleach"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/lpmon-fnleach"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

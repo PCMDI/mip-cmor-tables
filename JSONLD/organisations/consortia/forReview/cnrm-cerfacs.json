@@ -1,27 +1,27 @@
 {
-    "@id": "mip-cmor-tables:organisations/consortia/cnrm-cerfacs",
-    "@type": "cmip:consortium",
-    "consortium:cmip_acronym": "CNRM-Cerfacs",
-    "consortium:description": "CNRM-Cerfacs",
-    "consortium:url": "",
-    "consortium:changes": "",
-    "consortium:members": {
-        "@set": [
-            {
-                "@type": "consortia:member",
-                "consortia:institution": {
-                    "@id": "mip-cmor-tables:organisations/institutions/cnrm"
-                },
-                "consortia:membership_type": "prior",
-                "consortia:dates": [
-                    {
-                        "from": 2016,
-                        "to": 2022,
-                        "phase": "CMIP6"
-                    }
-                ]
-            }
-        ]
-    },
-    "consortia:status": "active"
+  "@id": "mip-cmor-tables:organisations/consortia/cnrm-cerfacs",
+  "@type": "consortium",
+  "consortia:status": "active",
+  "consortium:changes": "",
+  "consortium:cmip-acronym": "CNRM-Cerfacs",
+  "consortium:description": "CNRM-Cerfacs",
+  "consortium:members": {
+    "@set": [
+      {
+        "@type": "consortia:member",
+        "consortia:dates": [
+          {
+            "from": 2016,
+            "phase": "CMIP6",
+            "to": 2022
+          }
+        ],
+        "consortia:institution": {
+          "@id": "mip-cmor-tables:organisations/institutions/cnrm"
+        },
+        "consortia:membership-type": "prior"
+      }
+    ]
+  },
+  "consortium:url": ""
 }

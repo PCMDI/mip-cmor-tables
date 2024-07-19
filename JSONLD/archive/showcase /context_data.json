@@ -1,19 +1,19 @@
 {
-    "institutions": {
-        "@context": {
-            "@vocab": "institutions",
-            "@base": "https://github.com/PCMDI/mip-cmor-tables/tree/json-ld/JSONLD/institutions"
-        }
-    },
-    "location": {
-        "@context": {
-            "@vocab": "location:"
-        }
-    },
-    "consortia": {
-        "@context": {
-            "@vocab": "consortia",
-            "@base": "https://github.com/PCMDI/mip-cmor-tables/tree/json-ld/JSONLD/consortia"
-        }
+  "consortia": {
+    "@context": {
+      "@base": "https://github.com/PCMDI/mip-cmor-tables/tree/json-ld/JSONLD/consortia",
+      "@vocab": "consortia"
     }
+  },
+  "institutions": {
+    "@context": {
+      "@base": "https://github.com/PCMDI/mip-cmor-tables/tree/json-ld/JSONLD/institutions",
+      "@vocab": "institutions"
+    }
+  },
+  "location": {
+    "@context": {
+      "@vocab": "location:"
+    }
+  }
 }

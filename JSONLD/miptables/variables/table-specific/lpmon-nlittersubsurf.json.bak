@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpmon-nlittersubsurf",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/nlittersubsurf"
+    },
+    "variable:branded_variable_name": "nLitterSubSurf_mon-ld-tav-z0-hxy",
+    "variable:comment": "'Content' indicates a quantity per unit area. 'Litter' is dead plant material in or above the soil. It is distinct from coarse wood debris. The precise distinction between 'fine' and 'coarse' is model dependent. 'Subsurface litter' means the part of the litter mixed within the soil below the surface. The sum of the quantities with standard names wood_debris_mass_content_of_nitrogen, surface_litter_mass_content_of_nitrogen and subsurface_litter_mass_content_of_nitrogen is the total nitrogen mass content of dead plant material.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/lpmon-nlittersubsurf"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

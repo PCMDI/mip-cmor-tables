@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpmon-fvegsoil",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baadac22-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Lmon",
-        "variable_name": "fVegSoil"
-    },
-    "CMIP5": {
-        "mip_table": "Lmon",
-        "variable_name": "fVegSoil"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpmon-fvegsoil",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Lmon",
+    "variable_name": "fVegSoil"
+  },
+  "cmip6": {
+    "dreq_uid": "baadac22-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Lmon",
+    "variable_name": "fVegSoil"
+  }
 }

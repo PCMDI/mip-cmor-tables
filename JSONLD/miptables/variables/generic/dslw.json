@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/dslw",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Change in Soil Moisture",
-    "variable:out_name": "dslw",
-    "variable:positive": "",
-    "variable:standard_name": "change_over_time_in_mass_content_of_water_in_soil",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/dslw",
+  "@type": "variable-generic",
+  "variable:long_name": "Change in Soil Moisture",
+  "variable:out_name": "dslw",
+  "variable:positive": "",
+  "variable:standard_name": "change_over_time_in_mass_content_of_water_in_soil",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

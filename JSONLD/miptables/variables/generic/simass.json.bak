@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/simass",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea-Ice Mass per Area",
+    "variable:out_name": "simass",
+    "variable:positive": "",
+    "variable:standard_name": "sea_ice_amount",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

@@ -18,8 +18,9 @@ async function main() {
     const frame = {
         "@context": {
         },
-        "@type": ["cmip:source_type"],
-        // "@explicit": true,
+        "@type": ["mip:source-type"],
+        // "@explicit": false,
+
 
 
 
@@ -36,15 +37,15 @@ async function main() {
         .then(cld.untag)
         .then(str2JSON)
         .then(d => {
-
+            // console.log(d)
             var output = {}
             d.forEach(element => {
 
                 output[element["name"]] = element
             });
 
-            console.log(output)
-
+            // console.log(output)
+            console.log(__filename);
             cld.writeFile(output, './output/MIP_source_type.json')
         })
 

@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obmon-physios",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "c91a1b7e-c5e8-11e6-84e6-5404a60d96b5",
-        "mip_table": "Omon",
-        "variable_name": "physios"
-    },
-    "CMIP5": {
-        "mip_table": "Omon",
-        "variable_name": "physi"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obmon-physios",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Omon",
+    "variable_name": "physi"
+  },
+  "cmip6": {
+    "dreq_uid": "c91a1b7e-c5e8-11e6-84e6-5404a60d96b5",
+    "mip_table": "Omon",
+    "variable_name": "physios"
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/clivic",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Convective Ice Water Path",
-    "variable:out_name": "clivic",
-    "variable:positive": "",
-    "variable:standard_name": "atmosphere_mass_content_of_convective_cloud_ice",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/clivic",
+  "@type": "variable-generic",
+  "variable:long_name": "Convective Ice Water Path",
+  "variable:out_name": "clivic",
+  "variable:positive": "",
+  "variable:standard_name": "atmosphere_mass_content_of_convective_cloud_ice",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

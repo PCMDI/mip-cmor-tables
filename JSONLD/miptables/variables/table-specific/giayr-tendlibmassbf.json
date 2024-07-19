@@ -1,27 +1,27 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/giayr-tendlibmassbf",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/tendlibmassbf"
-    },
-    "variable:branded_variable_name": "tendlibmassbf_yr-li-tav-z0-hmA",
-    "variable:comment": "The total basal mass balance flux over land ice is a spatial integration of the basal mass balance flux",
-    "variable:frequency": "yr",
-    "variable:dimensions": [
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/landIce"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/giayr-tendlibmassbf"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/giayr-tendlibmassbf",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "tendlibmassbf_yr-li-tav-z0-hmA",
+  "variable:comment": "The total basal mass balance flux over land ice is a spatial integration of the basal mass balance flux",
+  "variable:dimensions": [
+    "time"
+  ],
+  "variable:frequency": "yr",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/tendlibmassbf"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/landice"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/giayr-tendlibmassbf"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

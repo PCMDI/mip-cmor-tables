@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-uas",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "babb67c2-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Amon",
-        "variable_name": "uas"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-uas",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "babb67c2-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Amon",
+    "variable_name": "uas"
+  }
 }

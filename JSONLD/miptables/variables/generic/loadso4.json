@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/loadso4",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Load of SO4",
-    "variable:out_name": "loadso4",
-    "variable:positive": "",
-    "variable:standard_name": "atmosphere_mass_content_of_sulfate_dry_aerosol_particles",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/loadso4",
+  "@type": "variable-generic",
+  "variable:long_name": "Load of SO4",
+  "variable:out_name": "loadso4",
+  "variable:positive": "",
+  "variable:standard_name": "atmosphere_mass_content_of_sulfate_dry_aerosol_particles",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

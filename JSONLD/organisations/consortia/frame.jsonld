@@ -1,0 +1,21 @@
+{
+    "@context": {
+        "@vocab": "consortium:",
+        "consortium:members": {
+            "@context": {
+                "@vocab": "institution:",
+                "location": {
+                    "@context": {
+                        "@vocab": "location:"
+                    }
+                }
+            }
+        }
+    },
+    "@type": "consortium",
+    "cmip_acronym": "",
+    "description": "",
+    "url": "",
+    "changes": "",
+    "members": {}
+}

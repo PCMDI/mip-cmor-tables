@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/fveglitter",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Carbon Mass Flux from Vegetation to Litter",
-    "variable:out_name": "fVegLitter",
-    "variable:positive": "",
-    "variable:standard_name": "mass_flux_of_carbon_into_litter_from_vegetation",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/fveglitter",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Carbon Mass Flux from Vegetation to Litter",
+  "variable:out_name": "fVegLitter",
+  "variable:positive": "",
+  "variable:standard_name": "mass_flux_of_carbon_into_litter_from_vegetation",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

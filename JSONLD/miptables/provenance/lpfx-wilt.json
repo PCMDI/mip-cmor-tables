@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpfx-wilt",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "f2faba78-c38d-11e6-abc1-1b922e5e1118",
-        "mip_table": "Efx",
-        "variable_name": "wilt"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpfx-wilt",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "f2faba78-c38d-11e6-abc1-1b922e5e1118",
+    "mip_table": "Efx",
+    "variable_name": "wilt"
+  }
 }

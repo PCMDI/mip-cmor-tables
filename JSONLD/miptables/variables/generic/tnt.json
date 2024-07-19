@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tnt",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Tendency of Air Temperature",
-    "variable:out_name": "tnt",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_air_temperature",
-    "variable:type": "real",
-    "variable:units": [
-        "K",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tnt",
+  "@type": "variable-generic",
+  "variable:long_name": "Tendency of Air Temperature",
+  "variable:out_name": "tnt",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_air_temperature",
+  "variable:type": "real",
+  "variable:units": [
+    "K",
+    "s-1"
+  ]
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apdayz-hus",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "8b8fbaa6-4a5b-11e6-9cd2-ac72891c3257",
-        "mip_table": "EdayZ",
-        "variable_name": "hus"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apdayz-hus",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "8b8fbaa6-4a5b-11e6-9cd2-ac72891c3257",
+    "mip_table": "EdayZ",
+    "variable_name": "hus"
+  }
 }

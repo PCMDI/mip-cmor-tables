@@ -1,0 +1,8 @@
+{
+  "@id": "mip-cmor-tables:grid/label/gr9z",
+  "@type": "grid-label",
+  "name": "gr9z",
+  "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+  "region": "greenland",
+  "short name": "Regridded Greenland Zonal Mean Alternate z"
+}

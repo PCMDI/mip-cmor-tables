@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/zmla",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Height of Boundary Layer",
-    "variable:out_name": "zmla",
-    "variable:positive": "",
-    "variable:standard_name": "atmosphere_boundary_layer_thickness",
-    "variable:type": "real",
-    "variable:units": [
-        "m"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/zmla",
+  "@type": "variable-generic",
+  "variable:long_name": "Height of Boundary Layer",
+  "variable:out_name": "zmla",
+  "variable:positive": "",
+  "variable:standard_name": "atmosphere_boundary_layer_thickness",
+  "variable:type": "real",
+  "variable:units": [
+    "m"
+  ]
 }

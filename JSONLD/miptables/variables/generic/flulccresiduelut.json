@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/flulccresiduelut",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Carbon Transferred to Soil or Litter Pools Due to Land-Use or Land-Cover Change Processes on Tile",
-    "variable:out_name": "fLulccResidueLut",
-    "variable:positive": "",
-    "variable:standard_name": "carbon_mass_flux_into_litter_and_soil_due_to_anthropogenic_land_use_or_land_cover_change",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/flulccresiduelut",
+  "@type": "variable-generic",
+  "variable:long_name": "Carbon Transferred to Soil or Litter Pools Due to Land-Use or Land-Cover Change Processes on Tile",
+  "variable:out_name": "fLulccResidueLut",
+  "variable:positive": "",
+  "variable:standard_name": "carbon_mass_flux_into_litter_and_soil_due_to_anthropogenic_land_use_or_land_cover_change",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

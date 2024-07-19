@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/gigmon-litempbotgr",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "d5b28ce4-c78d-11e6-9b25-5404a60d96b5",
-        "mip_table": "ImonGre",
-        "variable_name": "litempbotgr"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/gigmon-litempbotgr",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "d5b28ce4-c78d-11e6-9b25-5404a60d96b5",
+    "mip_table": "ImonGre",
+    "variable_name": "litempbotgr"
+  }
 }

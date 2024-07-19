@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tauv",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Surface Downward Northward Wind Stress",
-    "variable:out_name": "tauv",
-    "variable:positive": "down",
-    "variable:standard_name": "surface_downward_northward_stress",
-    "variable:type": "real",
-    "variable:units": [
-        "Pa"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tauv",
+  "@type": "variable-generic",
+  "variable:long_name": "Surface Downward Northward Wind Stress",
+  "variable:out_name": "tauv",
+  "variable:positive": "down",
+  "variable:standard_name": "surface_downward_northward_stress",
+  "variable:type": "real",
+  "variable:units": [
+    "Pa"
+  ]
 }

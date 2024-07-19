@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/limirrdiaz",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Irradiance Limitation of Diazotrophs",
+    "variable:out_name": "limirrdiaz",
+    "variable:positive": "",
+    "variable:standard_name": "growth_limitation_of_diazotrophic_phytoplankton_due_to_solar_irradiance",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

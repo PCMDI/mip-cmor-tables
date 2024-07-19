@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/loadno3",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Load of NO3",
-    "variable:out_name": "loadno3",
-    "variable:positive": "",
-    "variable:standard_name": "atmosphere_mass_content_of_nitrate_dry_aerosol_particles",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/loadno3",
+  "@type": "variable-generic",
+  "variable:long_name": "Load of NO3",
+  "variable:out_name": "loadno3",
+  "variable:positive": "",
+  "variable:standard_name": "atmosphere_mass_content_of_nitrate_dry_aerosol_particles",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

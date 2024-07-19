@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apdaylev-mc",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab1197a-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "CFday",
-        "variable_name": "mc"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apdaylev-mc",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "bab1197a-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "CFday",
+    "variable_name": "mc"
+  }
 }

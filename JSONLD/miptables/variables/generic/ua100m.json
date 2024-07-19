@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/ua100m",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Eastward Wind at 100m",
-    "variable:out_name": "ua100m",
-    "variable:positive": "",
-    "variable:standard_name": "eastward_wind",
-    "variable:type": "real",
-    "variable:units": [
-        "m",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/ua100m",
+  "@type": "variable-generic",
+  "variable:long_name": "Eastward Wind at 100m",
+  "variable:out_name": "ua100m",
+  "variable:positive": "",
+  "variable:standard_name": "eastward_wind",
+  "variable:type": "real",
+  "variable:units": [
+    "m",
+    "s-1"
+  ]
 }

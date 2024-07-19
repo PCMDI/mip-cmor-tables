@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/aemon-od870aer",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "19c04a2a-81b1-11e6-92de-ac72891c3257",
-        "mip_table": "AERmon",
-        "variable_name": "od870aer"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/aemon-od870aer",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "19c04a2a-81b1-11e6-92de-ac72891c3257",
+    "mip_table": "AERmon",
+    "variable_name": "od870aer"
+  }
 }

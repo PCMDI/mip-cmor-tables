@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap6hrpt-vortmean",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/vortmean"
+    },
+    "variable:branded_variable_name": "vortmean_6hr-ap-tpt-p0700-hxy",
+    "variable:comment": "Mean vorticity over 850,700,600 hPa",
+    "variable:frequency": "6hrPt",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "pl700"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-vortmean"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

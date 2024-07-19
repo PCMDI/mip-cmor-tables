@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/hcfc22global",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Global Mean Mole Fraction of HCFC22",
-    "variable:out_name": "hcfc22global",
-    "variable:positive": "",
-    "variable:standard_name": "mole_fraction_of_hcfc22_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "1e-12"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/hcfc22global",
+  "@type": "variable-generic",
+  "variable:long_name": "Global Mean Mole Fraction of HCFC22",
+  "variable:out_name": "hcfc22global",
+  "variable:positive": "",
+  "variable:standard_name": "mole_fraction_of_hcfc22_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "1e-12"
+  ]
 }

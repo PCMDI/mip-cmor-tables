@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:organisations/institutions/dkrz",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "DKRZ",
-    "institution:ror": "03ztgj037",
-    "institution:name": "German Climate Computing Centre",
-    "institution:url": [
-        "https://www.dkrz.de/"
-    ],
-    "institution:established": 1987,
-    "institution:type": "Facility",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
-        "DKRZ"
-    ],
-    "institution:location": {
-        "@id": "mip-cmor-tables:organisations/institutions/location/03ztgj037",
-        "@type": "institution:location",
-        "@nest": {
-            "location:lat": 53.55073,
-            "location:lon": 9.99302,
-            "location:city": "Hamburg",
-            "location:country": [
-                "Germany",
-                "DE"
-            ]
-        }
-    }
+  "@id": "mip-cmor-tables:organisations/institutions/dkrz",
+  "@type": "institution",
+  "acronyms": [
+    "DKRZ"
+  ],
+  "aliases": [],
+  "cmip-acronym": "DKRZ",
+  "established": 1987,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/03ztgj037",
+    "@nest": {
+      "city": "Hamburg",
+      "country": [
+        "Germany",
+        "DE"
+      ],
+      "lat": 53.55073,
+      "lon": 9.99302
+    },
+    "@type": "location"
+  },
+  "name": "German Climate Computing Centre",
+  "ror": "03ztgj037",
+  "type": "Facility",
+  "url": [
+    "https://www.dkrz.de/"
+  ]
 }

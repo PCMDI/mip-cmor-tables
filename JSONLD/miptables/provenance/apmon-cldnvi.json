@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-cldnvi",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "6f37036c-9acb-11e6-b7ee-ac72891c3257",
-        "mip_table": "Emon",
-        "variable_name": "cldnvi"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-cldnvi",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "6f37036c-9acb-11e6-b7ee-ac72891c3257",
+    "mip_table": "Emon",
+    "variable_name": "cldnvi"
+  }
 }

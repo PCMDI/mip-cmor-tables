@@ -1,31 +1,31 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrptlev-aeroptbnd",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/aeroptbnd"
-    },
-    "variable:branded_variable_name": "aeroptbnd_3hr-ap-tpt-l-hxy",
-    "variable:comment": "Optical thickness of atmospheric aerosols in wavelength bands.",
-    "variable:frequency": "3hrPt",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "alevel",
-        "spectband",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/ap3hrptlev-aeroptbnd"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrptlev-aeroptbnd",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "aeroptbnd_3hr-ap-tpt-l-hxy",
+  "variable:comment": "Optical thickness of atmospheric aerosols in wavelength bands.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "alevel",
+    "spectband",
+    "time1"
+  ],
+  "variable:frequency": "3hrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/aeroptbnd"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/ap3hrptlev-aeroptbnd"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

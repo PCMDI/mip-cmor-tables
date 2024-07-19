@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclim-diftrbbo2d",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/diftrbbo2d"
-    },
-    "variable:branded_variable_name": "diftrbbo_mon-op-tcla-z0-hxy",
-    "variable:comment": "Parameterized mesoscale eddy advection occurs on a spatial scale of many tens of kilometres and an evolutionary time of weeks(sometimes called bolus advection). Reference: James C. McWilliams 2016, Submesoscale currents in the ocean, Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences, volume 472, issue 2189. DOI: 10.1098/rspa.2016.0117. ",
-    "variable:frequency": "monC",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time2"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocean"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/opmonclim-diftrbbo2d"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonclim-diftrbbo2d",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "diftrbbo_mon-op-tcla-z0-hxy",
+  "variable:comment": "Parameterized mesoscale eddy advection occurs on a spatial scale of many tens of kilometres and an evolutionary time of weeks(sometimes called bolus advection). Reference: James C. McWilliams 2016, Submesoscale currents in the ocean, Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences, volume 472, issue 2189. DOI: 10.1098/rspa.2016.0117. ",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time2"
+  ],
+  "variable:frequency": "monC",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/diftrbbo2d"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocean"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/opmonclim-diftrbbo2d"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

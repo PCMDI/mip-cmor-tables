@@ -1,0 +1,7 @@
+
+id: http://example.org/persons/bob
+name: Bob
+friend:
+  - http://example.org/persons/alice
+  - http://example.org/persons/carol
+

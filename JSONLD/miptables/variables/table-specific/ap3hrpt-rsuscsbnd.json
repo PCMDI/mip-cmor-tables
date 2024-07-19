@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrpt-rsuscsbnd",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/rsuscsbnd"
-    },
-    "variable:branded_variable_name": "rsuscsbnd_3hr-ap-tpt-z0-hxy",
-    "variable:comment": "Calculated with aerosols but without clouds. This is a standard clear-sky calculation",
-    "variable:frequency": "3hrPt",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "spectband",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-rsuscsbnd"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrpt-rsuscsbnd",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "rsuscsbnd_3hr-ap-tpt-z0-hxy",
+  "variable:comment": "Calculated with aerosols but without clouds. This is a standard clear-sky calculation",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "spectband",
+    "time1"
+  ],
+  "variable:frequency": "3hrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/rsuscsbnd"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-rsuscsbnd"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

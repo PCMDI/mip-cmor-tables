@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/acmonz-oxloss",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/oxloss"
-    },
-    "variable:branded_variable_name": "oxloss_mon-ac-tav-p39-hy",
-    "variable:comment": "total chemical loss rate for o+o1d+o3",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "latitude",
-        "plev39",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmosChem"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/acmonz-oxloss"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/acmonz-oxloss",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "oxloss_mon-ac-tav-p39-hy",
+  "variable:comment": "total chemical loss rate for o+o1d+o3",
+  "variable:dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/oxloss"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmoschem"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/acmonz-oxloss"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

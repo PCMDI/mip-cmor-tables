@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/aemonz-meanage",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "3a049b80-9c3a-11e6-8d5d-ac72891c3257",
-        "mip_table": "AERmonZ",
-        "variable_name": "meanage"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/aemonz-meanage",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "3a049b80-9c3a-11e6-8d5d-ac72891c3257",
+    "mip_table": "AERmonZ",
+    "variable_name": "meanage"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opmonclim-diftrbbo2d",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "a929cb4e-817c-11e6-a4e2-5404a60d96b5",
-        "mip_table": "Oclim",
-        "variable_name": "diftrbbo2d"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opmonclim-diftrbbo2d",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "a929cb4e-817c-11e6-a4e2-5404a60d96b5",
+    "mip_table": "Oclim",
+    "variable_name": "diftrbbo2d"
+  }
 }

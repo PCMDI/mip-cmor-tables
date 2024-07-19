@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obyrlev-chlmisc",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "ba9e4b7e-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Oyr",
-        "variable_name": "chlmisc"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obyrlev-chlmisc",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "ba9e4b7e-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Oyr",
+    "variable_name": "chlmisc"
+  }
 }

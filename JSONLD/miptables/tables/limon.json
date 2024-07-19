@@ -1,125 +1,125 @@
 {
-    "@id": "mip-cmor-tables:miptables/tables/limon",
-    "@type": "cmip:dr-table",
-    "table:table_id": "LImon",
-    "table:Conventions": "CF-1.7 CMIP-6.5",
-    "table:approx_interval": 30.0,
-    "table:checksum": "",
-    "table:cmor_version": "3.8.0",
-    "table:release": "v6.5.0.2",
-    "table:data_specs_version": "6.5.0.0",
-    "table:generic_levels": [],
-    "table:int_missing_value": "-999",
-    "table:missing_value": "1e20",
-    "table:product": {
-        "@id": "mip-cmor-tables:auxillary/product/model-output"
+  "@id": "mip-cmor-tables:miptables/tables/limon",
+  "@type": "dr-table",
+  "table:approx_interval": 30.0,
+  "table:checksum": "",
+  "table:cmor_version": "3.8.0",
+  "table:conventions": "CF-1.7 CMIP-6.5",
+  "table:data_specs_version": "6.5.0.0",
+  "table:generic_levels": [],
+  "table:int_missing_value": "-999",
+  "table:missing_value": "1e20",
+  "table:product": {
+    "@id": "mip-cmor-tables:auxillary/product/model-output"
+  },
+  "table:release": "v6.5.0.2",
+  "table:table_date": "2024-02-28",
+  "table:table_id": "LImon",
+  "table:variable_entry": [
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-acabfis"
     },
-    "table:table_date": "2024-02-28",
-    "table:variable_entry": [
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-acabfis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-agesno"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-hfdsn"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-hflsis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-hfssis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-icemis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-litemptopis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-lwsnl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-mrrois"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-orogis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-pflw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-prrais"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-prsnis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-rldsis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-rlusis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-rsdsis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-rsusis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-sbl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-sblis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-sftflf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-sftgrf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-snc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-sncis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-snd"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-snicefreezis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-snicemis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-snm"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-snmis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-snw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-sootsn"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-tasis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-tpf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-tsis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-tsn"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-tsnis"
-        }
-    ]
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-agesno"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-hfdsn"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-hflsis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-hfssis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-icemis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-litemptopis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-lwsnl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-mrrois"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-orogis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-pflw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-prrais"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-prsnis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-rldsis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-rlusis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-rsdsis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-rsusis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-sbl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-sblis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-sftflf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-sftgrf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-snc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-sncis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-snd"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-snicefreezis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-snicemis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-snm"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-snmis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-snw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-sootsn"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-tasis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-tpf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-tsis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-tsn"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-tsnis"
+    }
+  ]
 }

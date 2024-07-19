@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mmrso4",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Aerosol Sulfate Mass Mixing Ratio",
-    "variable:out_name": "mmrso4",
-    "variable:positive": "",
-    "variable:standard_name": "mass_fraction_of_sulfate_dry_aerosol_particles_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "kg-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mmrso4",
+  "@type": "variable-generic",
+  "variable:long_name": "Aerosol Sulfate Mass Mixing Ratio",
+  "variable:out_name": "mmrso4",
+  "variable:positive": "",
+  "variable:standard_name": "mass_fraction_of_sulfate_dry_aerosol_particles_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "kg-1"
+  ]
 }

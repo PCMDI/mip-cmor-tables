@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/uo",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea Water X Velocity",
-    "variable:out_name": "uo",
-    "variable:positive": "",
-    "variable:standard_name": "sea_water_x_velocity",
-    "variable:type": "real",
-    "variable:units": [
-        "m",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/uo",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea Water X Velocity",
+  "variable:out_name": "uo",
+  "variable:positive": "",
+  "variable:standard_name": "sea_water_x_velocity",
+  "variable:type": "real",
+  "variable:units": [
+    "m",
+    "s-1"
+  ]
 }

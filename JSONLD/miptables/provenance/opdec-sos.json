@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opdec-sos",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "47958396-bb0b-11e6-8316-5980f7b176d1",
-        "mip_table": "Odec",
-        "variable_name": "sos"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opdec-sos",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "47958396-bb0b-11e6-8316-5980f7b176d1",
+    "mip_table": "Odec",
+    "variable_name": "sos"
+  }
 }

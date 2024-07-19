@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/fric",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Downward Inorganic Carbon Flux at Ocean Bottom",
-    "variable:out_name": "fric",
-    "variable:positive": "",
-    "variable:standard_name": "minus_tendency_of_ocean_mole_content_of_inorganic_carbon_due_to_sedimentation",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/fric",
+  "@type": "variable-generic",
+  "variable:long_name": "Downward Inorganic Carbon Flux at Ocean Bottom",
+  "variable:out_name": "fric",
+  "variable:positive": "",
+  "variable:standard_name": "minus_tendency_of_ocean_mole_content_of_inorganic_carbon_due_to_sedimentation",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-2",
+    "s-1"
+  ]
 }

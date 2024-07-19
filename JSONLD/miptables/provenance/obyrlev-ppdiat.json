@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obyrlev-ppdiat",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "ba9eced2-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Oyr",
-        "variable_name": "ppdiat"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obyrlev-ppdiat",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "ba9eced2-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Oyr",
+    "variable_name": "ppdiat"
+  }
 }

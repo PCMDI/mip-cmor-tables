@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/prrais",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Ice Sheet Rainfall Rate",
-    "variable:out_name": "prraIs",
-    "variable:positive": "",
-    "variable:standard_name": "rainfall_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/prrais",
+  "@type": "variable-generic",
+  "variable:long_name": "Ice Sheet Rainfall Rate",
+  "variable:out_name": "prraIs",
+  "variable:positive": "",
+  "variable:standard_name": "rainfall_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

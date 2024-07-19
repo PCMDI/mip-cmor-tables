@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonz-tntscp",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/tntscp"
-    },
-    "variable:branded_variable_name": "tntscp_mon-ap-tav-p39-hy",
-    "variable:comment": "The phrase 'tendency_of_X' means derivative of X with respect to time. Air temperature is the bulk temperature of the air, not the surface (skin) temperature. The specification of a physical process by the phrase 'due_to_' process means that the quantity named is a single term in a sum of terms which together compose the general quantity named by omitting the phrase. A variable with the standard name tendency_of_air_temperature_due_to_stratiform_cloud_and_precipitation should contain net latent heating effects of all processes which convert stratiform clouds and precipitation between water vapour, liquid or ice phases. In an atmosphere model, stratiform cloud is that produced by large-scale convergence (not the convection schemes).",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "latitude",
-        "plev39",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apmonz-tntscp"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apmonz-tntscp",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "tntscp_mon-ap-tav-p39-hy",
+  "variable:comment": "The phrase 'tendency_of_X' means derivative of X with respect to time. Air temperature is the bulk temperature of the air, not the surface (skin) temperature. The specification of a physical process by the phrase 'due_to_' process means that the quantity named is a single term in a sum of terms which together compose the general quantity named by omitting the phrase. A variable with the standard name tendency_of_air_temperature_due_to_stratiform_cloud_and_precipitation should contain net latent heating effects of all processes which convert stratiform clouds and precipitation between water vapour, liquid or ice phases. In an atmosphere model, stratiform cloud is that produced by large-scale convergence (not the convection schemes).",
+  "variable:dimensions": [
+    "latitude",
+    "plev39",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/tntscp"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apmonz-tntscp"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

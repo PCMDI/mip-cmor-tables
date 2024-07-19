@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrptsite-rsucs",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/rsucs"
+    },
+    "variable:branded_variable_name": "rsucs_subhr-ap-tpt-l-hxys",
+    "variable:comment": "Upwelling clear-sky shortwave radiation  (includes the fluxes at the surface and TOA)",
+    "variable:frequency": "subhrPt",
+    "variable:dimensions": [
+        "alevhalf",
+        "site",
+        "time1"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-rsucs"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

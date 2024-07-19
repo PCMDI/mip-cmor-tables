@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obmonlev-phydiaz",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "ba9f70bc-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Omon",
-        "variable_name": "phydiaz"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obmonlev-phydiaz",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "ba9f70bc-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Omon",
+    "variable_name": "phydiaz"
+  }
 }

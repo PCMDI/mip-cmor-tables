@@ -1,0 +1,67 @@
+{
+  "@id": "mip-cmor-tables:organisations/consortia/miroc",
+  "@type": "consortium",
+  "changes": "",
+  "cmip-acronym": "MIROC",
+  "members": [
+    {
+      "@type": "consortia:member",
+      "consortia:membership-type": "prior",
+      "dates": [
+        {
+          "from": 2016,
+          "phase": "CMIP6",
+          "to": 2022
+        }
+      ],
+      "institution": {
+        "@id": "mip-cmor-tables:organisations/institutions/jamstec"
+      }
+    },
+    {
+      "@type": "consortia:member",
+      "consortia:membership-type": "prior",
+      "dates": [
+        {
+          "from": 2016,
+          "phase": "CMIP6",
+          "to": 2022
+        }
+      ],
+      "institution": {
+        "@id": "mip-cmor-tables:organisations/institutions/aori"
+      }
+    },
+    {
+      "@type": "consortia:member",
+      "consortia:membership-type": "prior",
+      "dates": [
+        {
+          "from": 2016,
+          "phase": "CMIP6",
+          "to": 2022
+        }
+      ],
+      "institution": {
+        "@id": "mip-cmor-tables:organisations/institutions/nies"
+      }
+    },
+    {
+      "@type": "consortia:member",
+      "consortia:membership-type": "prior",
+      "dates": [
+        {
+          "from": 2016,
+          "phase": "CMIP6",
+          "to": 2022
+        }
+      ],
+      "institution": {
+        "@id": "mip-cmor-tables:organisations/institutions/r-ccs"
+      }
+    }
+  ],
+  "name": "MIROC Consortium",
+  "status": "active",
+  "url": ""
+}

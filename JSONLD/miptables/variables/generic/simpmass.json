@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/simpmass",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Meltpond Mass per Unit Area (as Depth)",
-    "variable:out_name": "simpmass",
-    "variable:positive": "",
-    "variable:standard_name": "sea_ice_melt_pond_thickness",
-    "variable:type": "real",
-    "variable:units": [
-        "m"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/simpmass",
+  "@type": "variable-generic",
+  "variable:long_name": "Meltpond Mass per Unit Area (as Depth)",
+  "variable:out_name": "simpmass",
+  "variable:positive": "",
+  "variable:standard_name": "sea_ice_melt_pond_thickness",
+  "variable:type": "real",
+  "variable:units": [
+    "m"
+  ]
 }

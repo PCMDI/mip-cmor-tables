@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-sza",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "7b305d7e-a220-11e6-a33f-ac72891c3257",
-        "mip_table": "E3hrPt",
-        "variable_name": "sza"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-sza",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "7b305d7e-a220-11e6-a33f-ac72891c3257",
+    "mip_table": "E3hrPt",
+    "variable_name": "sza"
+  }
 }

@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/drynh4",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Dry Deposition Rate of NH4",
-    "variable:out_name": "drynh4",
-    "variable:positive": "",
-    "variable:standard_name": "minus_tendency_of_atmosphere_mass_content_of_ammonium_dry_aerosol_particles_due_to_dry_deposition",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/drynh4",
+  "@type": "variable-generic",
+  "variable:long_name": "Dry Deposition Rate of NH4",
+  "variable:out_name": "drynh4",
+  "variable:positive": "",
+  "variable:standard_name": "minus_tendency_of_atmosphere_mass_content_of_ammonium_dry_aerosol_particles_due_to_dry_deposition",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

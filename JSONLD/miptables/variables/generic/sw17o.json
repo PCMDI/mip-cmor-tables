@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sw17o",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Isotopic Ratio of Oxygen-17 in Sea Water",
-    "variable:out_name": "sw17O",
-    "variable:positive": "",
-    "variable:standard_name": "isotope_ratio_of_17O_to_16O_in_sea_water_excluding_solutes_and_solids",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sw17o",
+  "@type": "variable-generic",
+  "variable:long_name": "Isotopic Ratio of Oxygen-17 in Sea Water",
+  "variable:out_name": "sw17O",
+  "variable:positive": "",
+  "variable:standard_name": "isotope_ratio_of_17O_to_16O_in_sea_water_excluding_solutes_and_solids",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

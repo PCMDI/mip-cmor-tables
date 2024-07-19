@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obmon-dissocos",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "c917c48c-c5e8-11e6-84e6-5404a60d96b5",
-        "mip_table": "Omon",
-        "variable_name": "dissocos"
-    },
-    "CMIP5": {
-        "mip_table": "Omon",
-        "variable_name": "dissoc"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obmon-dissocos",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Omon",
+    "variable_name": "dissoc"
+  },
+  "cmip6": {
+    "dreq_uid": "c917c48c-c5e8-11e6-84e6-5404a60d96b5",
+    "mip_table": "Omon",
+    "variable_name": "dissocos"
+  }
 }

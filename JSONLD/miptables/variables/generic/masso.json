@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/masso",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea Water Mass",
-    "variable:out_name": "masso",
-    "variable:positive": "",
-    "variable:standard_name": "sea_water_mass",
-    "variable:type": "real",
-    "variable:units": [
-        "kg"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/masso",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea Water Mass",
+  "variable:out_name": "masso",
+  "variable:positive": "",
+  "variable:standard_name": "sea_water_mass",
+  "variable:type": "real",
+  "variable:units": [
+    "kg"
+  ]
 }

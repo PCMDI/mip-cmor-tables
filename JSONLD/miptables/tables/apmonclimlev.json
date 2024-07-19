@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/tables/apmonclimlev",
-    "@type": "cmip:dr-table",
-    "table:table_id": "APmonClimLev",
-    "table:Conventions": "CF-1.7 CMIP-6.5",
-    "table:approx_interval": 30.0,
-    "table:checksum": "",
-    "table:cmor_version": "3.8.0",
-    "table:release": "v6.5.0.2",
-    "table:data_specs_version": "6.5.0.0",
-    "table:generic_levels": [
-        "alevel",
-        "alevhalf"
-    ],
-    "table:int_missing_value": "-999",
-    "table:missing_value": "1e20",
-    "table:product": {
-        "@id": "mip-cmor-tables:auxillary/product/model-output"
+  "@id": "mip-cmor-tables:miptables/tables/apmonclimlev",
+  "@type": "dr-table",
+  "table:approx_interval": 30.0,
+  "table:checksum": "",
+  "table:cmor_version": "3.8.0",
+  "table:conventions": "CF-1.7 CMIP-6.5",
+  "table:data_specs_version": "6.5.0.0",
+  "table:generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "table:int_missing_value": "-999",
+  "table:missing_value": "1e20",
+  "table:product": {
+    "@id": "mip-cmor-tables:auxillary/product/model-output"
+  },
+  "table:release": "v6.5.0.2",
+  "table:table_date": "2023-11-16",
+  "table:table_id": "APmonClimLev",
+  "table:variable_entry": [
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmonclimlev-pfull"
     },
-    "table:table_date": "2023-11-16",
-    "table:variable_entry": [
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonclimlev-pfull"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmonclimlev-phalf"
-        }
-    ]
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmonclimlev-phalf"
+    }
+  ]
 }

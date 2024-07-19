@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-tas",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "8007104e-f906-11e6-a176-5404a60d96b5",
-        "mip_table": "CFsubhr",
-        "variable_name": "tas"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-tas",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "8007104e-f906-11e6-a176-5404a60d96b5",
+    "mip_table": "CFsubhr",
+    "variable_name": "tas"
+  }
 }

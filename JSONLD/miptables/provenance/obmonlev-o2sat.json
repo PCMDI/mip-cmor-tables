@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obmonlev-o2sat",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "a95e9f72-817c-11e6-a4e2-5404a60d96b5",
-        "mip_table": "Omon",
-        "variable_name": "o2sat"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obmonlev-o2sat",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "a95e9f72-817c-11e6-a4e2-5404a60d96b5",
+    "mip_table": "Omon",
+    "variable_name": "o2sat"
+  }
 }

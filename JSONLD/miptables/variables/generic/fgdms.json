@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/fgdms",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Surface Upward Flux of DMS",
-    "variable:out_name": "fgdms",
-    "variable:positive": "up",
-    "variable:standard_name": "surface_upward_mole_flux_of_dimethyl_sulfide",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/fgdms",
+  "@type": "variable-generic",
+  "variable:long_name": "Surface Upward Flux of DMS",
+  "variable:out_name": "fgdms",
+  "variable:positive": "up",
+  "variable:standard_name": "surface_upward_mole_flux_of_dimethyl_sulfide",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-2",
+    "s-1"
+  ]
 }

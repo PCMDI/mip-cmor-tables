@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obmon-dpco2abio",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "c91eacfc-c5e8-11e6-84e6-5404a60d96b5",
-        "mip_table": "Omon",
-        "variable_name": "dpco2abio"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obmon-dpco2abio",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "c91eacfc-c5e8-11e6-84e6-5404a60d96b5",
+    "mip_table": "Omon",
+    "variable_name": "dpco2abio"
+  }
 }

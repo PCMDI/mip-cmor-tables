@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/lpday-ares",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/ares"
-    },
-    "variable:branded_variable_name": "ares_day-ld-tav-z0-hxy",
-    "variable:comment": "The 'aerodynamic_resistance' is the resistance to mixing through the boundary layer toward the surface by means of the dominant process, turbulent transport. Reference: Wesely, M. L., 1989,  doi:10.1016/0004-6981(89)90153-4.",
-    "variable:frequency": "day",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/lpday-ares"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/lpday-ares",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "ares_day-ld-tav-z0-hxy",
+  "variable:comment": "The 'aerodynamic_resistance' is the resistance to mixing through the boundary layer toward the surface by means of the dominant process, turbulent transport. Reference: Wesely, M. L., 1989,  doi:10.1016/0004-6981(89)90153-4.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "day",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/ares"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/lpday-ares"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

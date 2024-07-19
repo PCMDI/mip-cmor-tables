@@ -1,0 +1,8 @@
+{
+  "@id": "mip-cmor-tables:auxillary/frequency/subhrpt",
+  "@type": "frequency",
+  "description": "sampled sub-hourly, at specified time point within an hour",
+  "long_name": "Sub-Hourly Point",
+  "name": "subhrPt",
+  "unit": "minute"
+}

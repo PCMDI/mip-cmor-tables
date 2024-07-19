@@ -1,0 +1,6 @@
+{
+  "@id": "mip-cmor-tables:auxillary/source-type/aer",
+  "@type": "source-type",
+  "description": "aerosol treatment in an atmospheric model where concentrations are calculated based on emissions, transformation, and removal processes (rather than being prescribed or omitted entirely)",
+  "name": "AER"
+}

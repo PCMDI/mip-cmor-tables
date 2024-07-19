@@ -1,74 +1,74 @@
 {
-    "@id": "mip-cmor-tables:miptables/tables/aemonz",
-    "@type": "cmip:dr-table",
-    "table:table_id": "AEmonZ",
-    "table:Conventions": "CF-1.7 CMIP-6.5",
-    "table:approx_interval": 30.0,
-    "table:checksum": "",
-    "table:cmor_version": "3.8.0",
-    "table:release": "v6.5.0.2",
-    "table:data_specs_version": "6.5.0.0",
-    "table:generic_levels": [],
-    "table:int_missing_value": "-999",
-    "table:missing_value": "1e20",
-    "table:product": {
-        "@id": "mip-cmor-tables:auxillary/product/model-output"
+  "@id": "mip-cmor-tables:miptables/tables/aemonz",
+  "@type": "dr-table",
+  "table:approx_interval": 30.0,
+  "table:checksum": "",
+  "table:cmor_version": "3.8.0",
+  "table:conventions": "CF-1.7 CMIP-6.5",
+  "table:data_specs_version": "6.5.0.0",
+  "table:generic_levels": [],
+  "table:int_missing_value": "-999",
+  "table:missing_value": "1e20",
+  "table:product": {
+    "@id": "mip-cmor-tables:auxillary/product/model-output"
+  },
+  "table:release": "v6.5.0.2",
+  "table:table_date": "2023-11-16",
+  "table:table_id": "AEmonZ",
+  "table:variable_entry": [
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-bry"
     },
-    "table:table_date": "2023-11-16",
-    "table:variable_entry": [
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-bry"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-ch4"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-cly"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-h2o"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-hcl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-hno3"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-ho2"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-meanage"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-n2o"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-noy"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-o3"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-oh"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-ta"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-tntrl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-tntrs"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-ua"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-va"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/aemonz-vt100"
-        }
-    ]
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-ch4"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-cly"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-h2o"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-hcl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-hno3"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-ho2"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-meanage"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-n2o"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-noy"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-o3"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-oh"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-ta"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-tntrl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-tntrs"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-ua"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-va"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/aemonz-vt100"
+    }
+  ]
 }

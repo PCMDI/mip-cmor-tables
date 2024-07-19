@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/emiisop",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Emission Rate of Isoprene",
-    "variable:out_name": "emiisop",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_atmosphere_mass_content_of_isoprene_due_to_emission",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/emiisop",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Emission Rate of Isoprene",
+  "variable:out_name": "emiisop",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_atmosphere_mass_content_of_isoprene_due_to_emission",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

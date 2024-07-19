@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apday-wap500",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "babd06a4-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "CFday",
-        "variable_name": "wap500"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apday-wap500",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "babd06a4-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "CFday",
+    "variable_name": "wap500"
+  }
 }

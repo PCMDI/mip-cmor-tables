@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/cfc11",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Mole Concentration of CFC11 in Sea Water",
+    "variable:out_name": "cfc11",
+    "variable:positive": "",
+    "variable:standard_name": "mole_concentration_of_cfc11_in_sea_water",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3"
+    ]
+}

@@ -1,32 +1,32 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/limon-snm",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/snm"
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/limon-snm",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "snm_mon-li-tav-z0-hxy",
+  "variable:comment": "The total surface snow melt rate on the land portion of the grid cell divided by the land area in the grid cell; report as zero for snow-free land regions and missing where there is no land.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/snm"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/landice"
     },
-    "variable:branded_variable_name": "snm_mon-li-tav-z0-hxy",
-    "variable:comment": "The total surface snow melt rate on the land portion of the grid cell divided by the land area in the grid cell; report as zero for snow-free land regions and missing where there is no land.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/landIce"
-        },
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/limon-snm"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": 6.123e-06,
-        "ok_min_mean_abs": "",
-        "valid_max": 0.0003926,
-        "valid_min": 0
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/limon-snm"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": 0.000006123,
+    "ok_min_mean_abs": "",
+    "valid_max": 0.0003926,
+    "valid_min": 0
+  }
 }

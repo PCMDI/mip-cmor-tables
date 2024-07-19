@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/prcsh",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Precipitation Flux from Shallow Convection",
+    "variable:out_name": "prcsh",
+    "variable:positive": "",
+    "variable:standard_name": "shallow_convective_precipitation_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

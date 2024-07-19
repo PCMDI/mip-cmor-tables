@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/c13litter",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Mass of 13C in Litter Pool",
-    "variable:out_name": "c13Litter",
-    "variable:positive": "",
-    "variable:standard_name": "litter_mass_content_of_13C",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/c13litter",
+  "@type": "variable-generic",
+  "variable:long_name": "Mass of 13C in Litter Pool",
+  "variable:out_name": "c13Litter",
+  "variable:positive": "",
+  "variable:standard_name": "litter_mass_content_of_13C",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

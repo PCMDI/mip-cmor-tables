@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/vsfsit",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Virtual Salt Flux into Sea Water Due to Sea Ice Thermodynamics",
-    "variable:out_name": "vsfsit",
-    "variable:positive": "",
-    "variable:standard_name": "virtual_salt_flux_into_sea_water_due_to_sea_ice_thermodynamics",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/vsfsit",
+  "@type": "variable-generic",
+  "variable:long_name": "Virtual Salt Flux into Sea Water Due to Sea Ice Thermodynamics",
+  "variable:out_name": "vsfsit",
+  "variable:positive": "",
+  "variable:standard_name": "virtual_salt_flux_into_sea_water_due_to_sea_ice_thermodynamics",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

@@ -1,0 +1,11 @@
+{
+    "@context": {
+        "@vocab": "frequency:",
+        "@base": "https://github.com/PCMDI/mip-cmor-tables"
+    },
+    "@type": "frequency",
+    "name": "",
+    "description": "",
+    "unit": "",
+    "long_name": ""
+}

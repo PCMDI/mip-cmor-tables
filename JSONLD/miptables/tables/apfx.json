@@ -1,47 +1,47 @@
 {
-    "@id": "mip-cmor-tables:miptables/tables/apfx",
-    "@type": "cmip:dr-table",
-    "table:table_id": "APfx",
-    "table:Conventions": "CF-1.7 CMIP-6.5",
-    "table:approx_interval": 0.0,
-    "table:checksum": "",
-    "table:cmor_version": "3.8.0",
-    "table:release": "v6.5.0.2",
-    "table:data_specs_version": "6.5.0.0",
-    "table:generic_levels": [],
-    "table:int_missing_value": "-999",
-    "table:missing_value": "1e20",
-    "table:product": {
-        "@id": "mip-cmor-tables:auxillary/product/model-output"
+  "@id": "mip-cmor-tables:miptables/tables/apfx",
+  "@type": "dr-table",
+  "table:approx_interval": 0.0,
+  "table:checksum": "",
+  "table:cmor_version": "3.8.0",
+  "table:conventions": "CF-1.7 CMIP-6.5",
+  "table:data_specs_version": "6.5.0.0",
+  "table:generic_levels": [],
+  "table:int_missing_value": "-999",
+  "table:missing_value": "1e20",
+  "table:product": {
+    "@id": "mip-cmor-tables:auxillary/product/model-output"
+  },
+  "table:release": "v6.5.0.2",
+  "table:table_date": "2024-02-28",
+  "table:table_id": "APfx",
+  "table:variable_entry": [
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apfx-areacella"
     },
-    "table:table_date": "2024-02-28",
-    "table:variable_entry": [
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apfx-areacella"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apfx-ps"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apfx-rld"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apfx-rlu"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apfx-rsd"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apfx-rsu"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apfx-sftlf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apfx-siltfrac"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apfx-zfull"
-        }
-    ]
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apfx-ps"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apfx-rld"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apfx-rlu"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apfx-rsd"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apfx-rsu"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apfx-sftlf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apfx-siltfrac"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apfx-zfull"
+    }
+  ]
 }

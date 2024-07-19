@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obyrlev-dissi13c",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "c9221d38-c5e8-11e6-84e6-5404a60d96b5",
-        "mip_table": "Oyr",
-        "variable_name": "dissi13c"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obyrlev-dissi13c",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "c9221d38-c5e8-11e6-84e6-5404a60d96b5",
+    "mip_table": "Oyr",
+    "variable_name": "dissi13c"
+  }
 }

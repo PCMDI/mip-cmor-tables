@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-hur",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/hur"
+    },
+    "variable:branded_variable_name": "hur_mon-ap-tav-p19-hxy",
+    "variable:comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C.",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/atmos"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/apmon-hur"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": 90,
+        "ok_min_mean_abs": 10,
+        "valid_max": 105,
+        "valid_min": -0.001
+    }
+}

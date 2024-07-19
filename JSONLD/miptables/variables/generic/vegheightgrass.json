@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/vegheightgrass",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Height of Grass",
-    "variable:out_name": "vegHeightGrass",
-    "variable:positive": "",
-    "variable:standard_name": "canopy_height",
-    "variable:type": "real",
-    "variable:units": [
-        "m"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/vegheightgrass",
+  "@type": "variable-generic",
+  "variable:long_name": "Height of Grass",
+  "variable:out_name": "vegHeightGrass",
+  "variable:positive": "",
+  "variable:standard_name": "canopy_height",
+  "variable:type": "real",
+  "variable:units": [
+    "m"
+  ]
 }

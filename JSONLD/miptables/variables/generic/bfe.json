@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/bfe",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Mole Concentration of Particulate Organic Matter Expressed as Iron in Sea Water",
-    "variable:out_name": "bfe",
-    "variable:positive": "",
-    "variable:standard_name": "mole_concentration_of_particulate_organic_matter_expressed_as_iron_in_sea_water",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-3"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/bfe",
+  "@type": "variable-generic",
+  "variable:long_name": "Mole Concentration of Particulate Organic Matter Expressed as Iron in Sea Water",
+  "variable:out_name": "bfe",
+  "variable:positive": "",
+  "variable:standard_name": "mole_concentration_of_particulate_organic_matter_expressed_as_iron_in_sea_water",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-3"
+  ]
 }

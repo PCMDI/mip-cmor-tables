@@ -1,0 +1,7 @@
+{
+    "undefined": {
+        "description": "regridded zonal mean data reported on the data provider's preferred latitude target grid",
+        "name": "grz",
+        "region": "greenland"
+    }
+}

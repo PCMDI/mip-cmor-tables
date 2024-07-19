@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/cldnci",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Ice Crystal Number Concentration of Cloud Tops",
-    "variable:out_name": "cldnci",
-    "variable:positive": "",
-    "variable:standard_name": "number_concentration_of_ice_crystals_in_air_at_ice_cloud_top",
-    "variable:type": "real",
-    "variable:units": [
-        "m-3"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/cldnci",
+  "@type": "variable-generic",
+  "variable:long_name": "Ice Crystal Number Concentration of Cloud Tops",
+  "variable:out_name": "cldnci",
+  "variable:positive": "",
+  "variable:standard_name": "number_concentration_of_ice_crystals_in_air_at_ice_cloud_top",
+  "variable:type": "real",
+  "variable:units": [
+    "m-3"
+  ]
 }

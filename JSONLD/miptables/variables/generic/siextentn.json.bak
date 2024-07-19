@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/siextentn",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea-Ice Extent North",
+    "variable:out_name": "siextentn",
+    "variable:positive": "",
+    "variable:standard_name": "sea_ice_extent",
+    "variable:type": "real",
+    "variable:units": [
+        "1e6",
+        "km2"
+    ]
+}

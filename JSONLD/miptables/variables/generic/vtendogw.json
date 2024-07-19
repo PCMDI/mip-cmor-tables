@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/vtendogw",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Northward Acceleration Due to Orographic Gravity Wave Drag",
-    "variable:out_name": "vtendogw",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_northward_wind_due_to_orographic_gravity_wave_drag",
-    "variable:type": "real",
-    "variable:units": [
-        "m",
-        "s-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/vtendogw",
+  "@type": "variable-generic",
+  "variable:long_name": "Northward Acceleration Due to Orographic Gravity Wave Drag",
+  "variable:out_name": "vtendogw",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_northward_wind_due_to_orographic_gravity_wave_drag",
+  "variable:type": "real",
+  "variable:units": [
+    "m",
+    "s-2"
+  ]
 }

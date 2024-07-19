@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sw18o",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Isotopic Ratio of Oxygen-18 in Sea Water",
-    "variable:out_name": "sw18O",
-    "variable:positive": "",
-    "variable:standard_name": "isotope_ratio_of_18O_to_16O_in_sea_water_excluding_solutes_and_solids",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sw18o",
+  "@type": "variable-generic",
+  "variable:long_name": "Isotopic Ratio of Oxygen-18 in Sea Water",
+  "variable:out_name": "sw18O",
+  "variable:positive": "",
+  "variable:standard_name": "isotope_ratio_of_18O_to_16O_in_sea_water_excluding_solutes_and_solids",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonlev-prbigthetao",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/prbigthetao"
-    },
-    "variable:branded_variable_name": "prbigthetao_mon-op-tav-l-hxy",
-    "variable:comment": "A passive tracer in an ocean model which is subject to an externally imposed perturbative surface heat flux. The passive tracer is initialised to the conservative temperature in the control climate before the perturbation is imposed. Its surface flux is the heat flux from the atmosphere, not including the imposed perturbation, and is converted to a passive tracer increment as if it were being added to conservative temperature. The passive tracer is transported within the ocean as if it were conservative temperature. ",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "olevel",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocean"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/opmonlev-prbigthetao"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonlev-prbigthetao",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "prbigthetao_mon-op-tav-l-hxy",
+  "variable:comment": "A passive tracer in an ocean model which is subject to an externally imposed perturbative surface heat flux. The passive tracer is initialised to the conservative temperature in the control climate before the perturbation is imposed. Its surface flux is the heat flux from the atmosphere, not including the imposed perturbation, and is converted to a passive tracer increment as if it were being added to conservative temperature. The passive tracer is transported within the ocean as if it were conservative temperature. ",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/prbigthetao"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocean"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/opmonlev-prbigthetao"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

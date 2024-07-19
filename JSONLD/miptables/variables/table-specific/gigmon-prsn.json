@@ -1,32 +1,32 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/gigmon-prsn",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/prsn"
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/gigmon-prsn",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "prsn_mon-li-tav-z0-hxyG",
+  "variable:comment": "At surface; includes precipitation of all forms of water in the solid phase",
+  "variable:dimensions": [
+    "xgre",
+    "ygre",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/prsn"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/landice"
     },
-    "variable:branded_variable_name": "prsn_mon-li-tav-z0-hxyG",
-    "variable:comment": "At surface; includes precipitation of all forms of water in the solid phase",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "xgre",
-        "ygre",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/landIce"
-        },
-        {
-            "@id": "mip-cmor-tables:modellingrealms/land"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/gigmon-prsn"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+    {
+      "@id": "mip-cmor-tables:modellingrealms/land"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/gigmon-prsn"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

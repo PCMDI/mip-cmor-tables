@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tdps",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "2m Dewpoint Temperature",
-    "variable:out_name": "tdps",
-    "variable:positive": "",
-    "variable:standard_name": "dew_point_temperature",
-    "variable:type": "real",
-    "variable:units": [
-        "K"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tdps",
+  "@type": "variable-generic",
+  "variable:long_name": "2m Dewpoint Temperature",
+  "variable:out_name": "tdps",
+  "variable:positive": "",
+  "variable:standard_name": "dew_point_temperature",
+  "variable:type": "real",
+  "variable:units": [
+    "K"
+  ]
 }

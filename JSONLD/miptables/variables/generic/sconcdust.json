@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sconcdust",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Surface Concentration of Dust",
-    "variable:out_name": "sconcdust",
-    "variable:positive": "",
-    "variable:standard_name": "mass_concentration_of_dust_dry_aerosol_particles_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-3"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sconcdust",
+  "@type": "variable-generic",
+  "variable:long_name": "Surface Concentration of Dust",
+  "variable:out_name": "sconcdust",
+  "variable:positive": "",
+  "variable:standard_name": "mass_concentration_of_dust_dry_aerosol_particles_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-3"
+  ]
 }

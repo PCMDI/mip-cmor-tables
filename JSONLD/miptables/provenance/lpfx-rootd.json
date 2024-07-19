@@ -1,17 +1,17 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpfx-rootd",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab5c7fe-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "fx",
-        "variable_name": "rootd"
-    },
-    "CMIP5": {
-        "mip_table": "fx",
-        "variable_name": "rootd"
-    },
-    "CMIP3": {
-        "mip_table": "A1",
-        "variable_name": "rootd"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpfx-rootd",
+  "@type": "provenance",
+  "cmip3": {
+    "mip_table": "A1",
+    "variable_name": "rootd"
+  },
+  "cmip5": {
+    "mip_table": "fx",
+    "variable_name": "rootd"
+  },
+  "cmip6": {
+    "dreq_uid": "bab5c7fe-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "fx",
+    "variable_name": "rootd"
+  }
 }

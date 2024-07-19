@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/spco2nat",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Natural Surface Aqueous Partial Pressure of CO2",
-    "variable:out_name": "spco2nat",
-    "variable:positive": "",
-    "variable:standard_name": "surface_carbon_dioxide_natural_analogue_partial_pressure_difference_between_sea_water_and_air",
-    "variable:type": "real",
-    "variable:units": [
-        "Pa"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/spco2nat",
+  "@type": "variable-generic",
+  "variable:long_name": "Natural Surface Aqueous Partial Pressure of CO2",
+  "variable:out_name": "spco2nat",
+  "variable:positive": "",
+  "variable:standard_name": "surface_carbon_dioxide_natural_analogue_partial_pressure_difference_between_sea_water_and_air",
+  "variable:type": "real",
+  "variable:units": [
+    "Pa"
+  ]
 }

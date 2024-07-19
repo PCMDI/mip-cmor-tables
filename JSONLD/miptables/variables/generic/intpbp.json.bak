@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/intpbp",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Phosphorus Production",
+    "variable:out_name": "intpbp",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_ocean_mole_content_of_phosphorus_due_to_biological_production",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-2",
+        "s-1"
+    ]
+}

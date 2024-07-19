@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/meanage",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Mean Age of Stratospheric Air",
-    "variable:out_name": "meanage",
-    "variable:positive": "",
-    "variable:standard_name": "age_of_stratospheric_air",
-    "variable:type": "real",
-    "variable:units": [
-        "yr"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/meanage",
+  "@type": "variable-generic",
+  "variable:long_name": "Mean Age of Stratospheric Air",
+  "variable:out_name": "meanage",
+  "variable:positive": "",
+  "variable:standard_name": "age_of_stratospheric_air",
+  "variable:type": "real",
+  "variable:units": [
+    "yr"
+  ]
 }

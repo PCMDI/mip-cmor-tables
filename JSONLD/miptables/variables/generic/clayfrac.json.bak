@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/clayfrac",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Clay Fraction",
+    "variable:out_name": "clayfrac",
+    "variable:positive": "",
+    "variable:standard_name": "volume_fraction_of_clay_in_soil",
+    "variable:type": "real",
+    "variable:units": [
+        "1"
+    ]
+}

@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/osalttend",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Tendency of Sea Water Salinity Expressed as Salt Content",
-    "variable:out_name": "osalttend",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/osalttend",
+  "@type": "variable-generic",
+  "variable:long_name": "Tendency of Sea Water Salinity Expressed as Salt Content",
+  "variable:out_name": "osalttend",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

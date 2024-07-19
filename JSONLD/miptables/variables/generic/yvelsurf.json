@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/yvelsurf",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Y-Component of Land Ice Surface Velocity",
-    "variable:out_name": "yvelsurf",
-    "variable:positive": "",
-    "variable:standard_name": "land_ice_surface_y_velocity",
-    "variable:type": "real",
-    "variable:units": [
-        "m",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/yvelsurf",
+  "@type": "variable-generic",
+  "variable:long_name": "Y-Component of Land Ice Surface Velocity",
+  "variable:out_name": "yvelsurf",
+  "variable:positive": "",
+  "variable:standard_name": "land_ice_surface_y_velocity",
+  "variable:type": "real",
+  "variable:units": [
+    "m",
+    "s-1"
+  ]
 }

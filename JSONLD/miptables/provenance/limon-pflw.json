@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/limon-pflw",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab323d2-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "LImon",
-        "variable_name": "pflw"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/limon-pflw",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "bab323d2-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "LImon",
+    "variable_name": "pflw"
+  }
 }

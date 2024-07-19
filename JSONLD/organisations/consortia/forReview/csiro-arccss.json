@@ -1,41 +1,41 @@
 {
-    "@id": "mip-cmor-tables:organisations/consortia/csiro-arccss",
-    "@type": "cmip:consortium",
-    "consortium:cmip_acronym": "CSIRO-ARCCSS",
-    "consortium:description": "CSIRO-ARCCSS",
-    "consortium:url": "",
-    "consortium:changes": "",
-    "consortium:members": {
-        "@set": [
-            {
-                "@type": "consortia:member",
-                "consortia:institution": {
-                    "@id": "mip-cmor-tables:organisations/institutions/csiro"
-                },
-                "consortia:membership_type": "active",
-                "consortia:dates": [
-                    {
-                        "from": 2016,
-                        "to": 2022,
-                        "phase": "CMIP6"
-                    }
-                ]
-            },
-            {
-                "@type": "consortia:member",
-                "consortia:institution": {
-                    "@id": "mip-cmor-tables:organisations/institutions/arccss"
-                },
-                "consortia:membership_type": "prior",
-                "consortia:dates": [
-                    {
-                        "from": 2016,
-                        "to": 2022,
-                        "phase": "CMIP6"
-                    }
-                ]
-            }
-        ]
-    },
-    "consortia:status": "active"
+  "@id": "mip-cmor-tables:organisations/consortia/csiro-arccss",
+  "@type": "consortium",
+  "consortia:status": "active",
+  "consortium:changes": "",
+  "consortium:cmip-acronym": "CSIRO-ARCCSS",
+  "consortium:description": "CSIRO-ARCCSS",
+  "consortium:members": {
+    "@set": [
+      {
+        "@type": "consortia:member",
+        "consortia:dates": [
+          {
+            "from": 2016,
+            "phase": "CMIP6",
+            "to": 2022
+          }
+        ],
+        "consortia:institution": {
+          "@id": "mip-cmor-tables:organisations/institutions/csiro"
+        },
+        "consortia:membership-type": "active"
+      },
+      {
+        "@type": "consortia:member",
+        "consortia:dates": [
+          {
+            "from": 2016,
+            "phase": "CMIP6",
+            "to": 2022
+          }
+        ],
+        "consortia:institution": {
+          "@id": "mip-cmor-tables:organisations/institutions/arccss"
+        },
+        "consortia:membership-type": "prior"
+      }
+    ]
+  },
+  "consortium:url": ""
 }

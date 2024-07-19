@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/eminh3",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Emission Rate of NH3",
-    "variable:out_name": "eminh3",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_atmosphere_mass_content_of_ammonia_due_to_emission",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/eminh3",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Emission Rate of NH3",
+  "variable:out_name": "eminh3",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_atmosphere_mass_content_of_ammonia_due_to_emission",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

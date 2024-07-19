@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/rlutcs",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "TOA Outgoing Clear-Sky Longwave Radiation",
+    "variable:out_name": "rlutcs",
+    "variable:positive": "up",
+    "variable:standard_name": "toa_outgoing_longwave_flux_assuming_clear_sky",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

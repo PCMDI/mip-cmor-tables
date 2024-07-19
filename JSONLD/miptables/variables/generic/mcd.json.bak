@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/mcd",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Downdraft Convective Mass Flux",
+    "variable:out_name": "mcd",
+    "variable:positive": "down",
+    "variable:standard_name": "atmosphere_downdraft_convective_mass_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

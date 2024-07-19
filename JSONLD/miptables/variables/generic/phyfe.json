@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/phyfe",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Mole Concentration of Total Phytoplankton Expressed as Iron in Sea Water",
-    "variable:out_name": "phyfe",
-    "variable:positive": "",
-    "variable:standard_name": "mole_concentration_of_phytoplankton_expressed_as_iron_in_sea_water",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-3"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/phyfe",
+  "@type": "variable-generic",
+  "variable:long_name": "Mole Concentration of Total Phytoplankton Expressed as Iron in Sea Water",
+  "variable:out_name": "phyfe",
+  "variable:positive": "",
+  "variable:standard_name": "mole_concentration_of_phytoplankton_expressed_as_iron_in_sea_water",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-3"
+  ]
 }

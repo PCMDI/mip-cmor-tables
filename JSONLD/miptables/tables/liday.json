@@ -1,56 +1,56 @@
 {
-    "@id": "mip-cmor-tables:miptables/tables/liday",
-    "@type": "cmip:dr-table",
-    "table:table_id": "LIday",
-    "table:Conventions": "CF-1.7 CMIP-6.5",
-    "table:approx_interval": 1.0,
-    "table:checksum": "",
-    "table:cmor_version": "3.8.0",
-    "table:release": "v6.5.0.2",
-    "table:data_specs_version": "6.5.0.0",
-    "table:generic_levels": [],
-    "table:int_missing_value": "-999",
-    "table:missing_value": "1e20",
-    "table:product": {
-        "@id": "mip-cmor-tables:auxillary/product/model-output"
+  "@id": "mip-cmor-tables:miptables/tables/liday",
+  "@type": "dr-table",
+  "table:approx_interval": 1.0,
+  "table:checksum": "",
+  "table:cmor_version": "3.8.0",
+  "table:conventions": "CF-1.7 CMIP-6.5",
+  "table:data_specs_version": "6.5.0.0",
+  "table:generic_levels": [],
+  "table:int_missing_value": "-999",
+  "table:missing_value": "1e20",
+  "table:product": {
+    "@id": "mip-cmor-tables:auxillary/product/model-output"
+  },
+  "table:release": "v6.5.0.2",
+  "table:table_date": "2023-11-16",
+  "table:table_id": "LIday",
+  "table:variable_entry": [
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/liday-agesno"
     },
-    "table:table_date": "2023-11-16",
-    "table:variable_entry": [
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/liday-agesno"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/liday-hfdsn"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/liday-lwsnl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/liday-pflw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/liday-sbl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/liday-snc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/liday-snd"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/liday-snm"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/liday-snw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/liday-sootsn"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/liday-tpf"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/liday-tsn"
-        }
-    ]
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/liday-hfdsn"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/liday-lwsnl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/liday-pflw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/liday-sbl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/liday-snc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/liday-snd"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/liday-snm"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/liday-snw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/liday-sootsn"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/liday-tpf"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/liday-tsn"
+    }
+  ]
 }

@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/aoanh",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Northern Hemisphere Tracer Lifetime",
-    "variable:out_name": "aoanh",
-    "variable:positive": "",
-    "variable:standard_name": "tracer_lifetime",
-    "variable:type": "real",
-    "variable:units": [
-        "yr"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/aoanh",
+  "@type": "variable-generic",
+  "variable:long_name": "Northern Hemisphere Tracer Lifetime",
+  "variable:out_name": "aoanh",
+  "variable:positive": "",
+  "variable:standard_name": "tracer_lifetime",
+  "variable:type": "real",
+  "variable:units": [
+    "yr"
+  ]
 }

@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mmrbc",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Elemental Carbon Mass Mixing Ratio",
-    "variable:out_name": "mmrbc",
-    "variable:positive": "",
-    "variable:standard_name": "mass_fraction_of_elemental_carbon_dry_aerosol_particles_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "kg-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mmrbc",
+  "@type": "variable-generic",
+  "variable:long_name": "Elemental Carbon Mass Mixing Ratio",
+  "variable:out_name": "mmrbc",
+  "variable:positive": "",
+  "variable:standard_name": "mass_fraction_of_elemental_carbon_dry_aerosol_particles_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "kg-1"
+  ]
 }

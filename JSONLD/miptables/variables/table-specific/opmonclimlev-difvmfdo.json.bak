@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclimlev-difvmfdo",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/difvmfdo"
+    },
+    "variable:branded_variable_name": "difvmfdo_mon-op-tcla-l-hxy",
+    "variable:comment": "Vertical/dianeutral diffusivity applied to momentum due to form drag (i.e. resulting from a model scheme representing  mesoscale eddy-induced form drag).",
+    "variable:frequency": "monC",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time2"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocean"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/opmonclimlev-difvmfdo"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

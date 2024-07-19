@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/emiss",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Total Emission Rate of Sea-Salt Aerosol",
+    "variable:out_name": "emiss",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_atmosphere_mass_content_of_sea_salt_dry_aerosol_particles_due_to_emission",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

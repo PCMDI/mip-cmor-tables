@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/ccldncl",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Cloud Droplet Number Concentration of Convective Cloud Tops",
-    "variable:out_name": "ccldncl",
-    "variable:positive": "",
-    "variable:standard_name": "number_concentration_of_convective_cloud_liquid_water_particles_at_convective_liquid_water_cloud_top",
-    "variable:type": "real",
-    "variable:units": [
-        "m-3"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/ccldncl",
+  "@type": "variable-generic",
+  "variable:long_name": "Cloud Droplet Number Concentration of Convective Cloud Tops",
+  "variable:out_name": "ccldncl",
+  "variable:positive": "",
+  "variable:standard_name": "number_concentration_of_convective_cloud_liquid_water_particles_at_convective_liquid_water_cloud_top",
+  "variable:type": "real",
+  "variable:units": [
+    "m-3"
+  ]
 }

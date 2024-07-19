@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/nveg",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Nitrogen Mass in Vegetation",
+    "variable:out_name": "nVeg",
+    "variable:positive": "",
+    "variable:standard_name": "vegetation_mass_content_of_nitrogen",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mcu",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Convective Updraft Mass Flux",
-    "variable:out_name": "mcu",
-    "variable:positive": "up",
-    "variable:standard_name": "atmosphere_updraft_convective_mass_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mcu",
+  "@type": "variable-generic",
+  "variable:long_name": "Convective Updraft Mass Flux",
+  "variable:out_name": "mcu",
+  "variable:positive": "up",
+  "variable:standard_name": "atmosphere_updraft_convective_mass_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

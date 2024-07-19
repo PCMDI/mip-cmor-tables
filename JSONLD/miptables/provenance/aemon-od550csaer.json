@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/aemon-od550csaer",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "01d4dfbc-c792-11e6-aa58-5404a60d96b5",
-        "mip_table": "AERmon",
-        "variable_name": "od550csaer"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/aemon-od550csaer",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "01d4dfbc-c792-11e6-aa58-5404a60d96b5",
+    "mip_table": "AERmon",
+    "variable_name": "od550csaer"
+  }
 }

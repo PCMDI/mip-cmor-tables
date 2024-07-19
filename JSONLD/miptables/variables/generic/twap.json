@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/twap",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Product of Air Temperature and Omega",
-    "variable:out_name": "twap",
-    "variable:positive": "",
-    "variable:standard_name": "product_of_lagrangian_tendency_of_air_pressure_and_air_temperature",
-    "variable:type": "real",
-    "variable:units": [
-        "K",
-        "Pa",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/twap",
+  "@type": "variable-generic",
+  "variable:long_name": "Product of Air Temperature and Omega",
+  "variable:out_name": "twap",
+  "variable:positive": "",
+  "variable:standard_name": "product_of_lagrangian_tendency_of_air_pressure_and_air_temperature",
+  "variable:type": "real",
+  "variable:units": [
+    "K",
+    "Pa",
+    "s-1"
+  ]
 }

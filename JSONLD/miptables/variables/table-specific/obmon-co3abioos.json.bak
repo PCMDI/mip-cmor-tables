@@ -1,0 +1,29 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/obmon-co3abioos",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/co3abioos"
+    },
+    "variable:branded_variable_name": "co3abioos_mon-oc-tav-z0-hxy",
+    "variable:comment": "Near surface mole concentration (number of moles per unit volume: molarity) of the abiotic-analogue carbonate anion (CO3). An abiotic analogue is used to simulate the effect on a modelled variable when biological effects on ocean carbon concentration and alkalinity are ignored. ",
+    "variable:frequency": "mon",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/ocnBgchem"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/obmon-co3abioos"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

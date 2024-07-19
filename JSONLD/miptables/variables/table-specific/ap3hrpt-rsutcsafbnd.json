@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/ap3hrpt-rsutcsafbnd",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/rsutcsafbnd"
-    },
-    "variable:branded_variable_name": "rsutcsafbnd_3hr-ap-tpt-z0-hxy",
-    "variable:comment": "Calculated in the absence of aerosols and clouds, following Ghan (2013, ACP). This requires a double-call in the radiation code with precisely the same meteorology.",
-    "variable:frequency": "3hrPt",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "spectband",
-        "time1"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-rsutcsafbnd"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/ap3hrpt-rsutcsafbnd",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "rsutcsafbnd_3hr-ap-tpt-z0-hxy",
+  "variable:comment": "Calculated in the absence of aerosols and clouds, following Ghan (2013, ACP). This requires a double-call in the radiation code with precisely the same meteorology.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "spectband",
+    "time1"
+  ],
+  "variable:frequency": "3hrPt",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/rsutcsafbnd"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-rsutcsafbnd"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

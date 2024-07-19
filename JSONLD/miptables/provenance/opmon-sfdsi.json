@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opmon-sfdsi",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baa662fa-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Omon",
-        "variable_name": "sfdsi"
-    },
-    "CMIP5": {
-        "mip_table": "Omon",
-        "variable_name": "sfdsi"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opmon-sfdsi",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Omon",
+    "variable_name": "sfdsi"
+  },
+  "cmip6": {
+    "dreq_uid": "baa662fa-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Omon",
+    "variable_name": "sfdsi"
+  }
 }

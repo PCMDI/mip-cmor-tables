@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/zvelbase",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Upward Component of Land-Ice Basal Velocity",
-    "variable:out_name": "zvelbase",
-    "variable:positive": "",
-    "variable:standard_name": "land_ice_basal_upward_velocity",
-    "variable:type": "real",
-    "variable:units": [
-        "m",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/zvelbase",
+  "@type": "variable-generic",
+  "variable:long_name": "Upward Component of Land-Ice Basal Velocity",
+  "variable:out_name": "zvelbase",
+  "variable:positive": "",
+  "variable:standard_name": "land_ice_basal_upward_velocity",
+  "variable:type": "real",
+  "variable:units": [
+    "m",
+    "s-1"
+  ]
 }

@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/jno2",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Photolysis Rate of NO2",
-    "variable:out_name": "jno2",
-    "variable:positive": "",
-    "variable:standard_name": "photolysis_rate_of_nitrogen_dioxide",
-    "variable:type": "real",
-    "variable:units": [
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/jno2",
+  "@type": "variable-generic",
+  "variable:long_name": "Photolysis Rate of NO2",
+  "variable:out_name": "jno2",
+  "variable:positive": "",
+  "variable:standard_name": "photolysis_rate_of_nitrogen_dioxide",
+  "variable:type": "real",
+  "variable:units": [
+    "s-1"
+  ]
 }

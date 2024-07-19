@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/lwsffluxaero",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Longwave Flux Due to Volcanic Aerosols at the Surface",
-    "variable:out_name": "lwsffluxaero",
-    "variable:positive": "",
-    "variable:standard_name": "surface_downwelling_longwave_flux_in_air_due_to_volcanic_ambient_aerosol_particles",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/lwsffluxaero",
+  "@type": "variable-generic",
+  "variable:long_name": "Longwave Flux Due to Volcanic Aerosols at the Surface",
+  "variable:out_name": "lwsffluxaero",
+  "variable:positive": "",
+  "variable:standard_name": "surface_downwelling_longwave_flux_in_air_due_to_volcanic_ambient_aerosol_particles",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

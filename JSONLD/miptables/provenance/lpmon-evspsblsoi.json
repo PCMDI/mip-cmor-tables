@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpmon-evspsblsoi",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baad5d9e-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Lmon",
-        "variable_name": "evspsblsoi"
-    },
-    "CMIP5": {
-        "mip_table": "Lmon",
-        "variable_name": "evspsblsoi"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpmon-evspsblsoi",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Lmon",
+    "variable_name": "evspsblsoi"
+  },
+  "cmip6": {
+    "dreq_uid": "baad5d9e-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Lmon",
+    "variable_name": "evspsblsoi"
+  }
 }

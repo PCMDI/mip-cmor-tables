@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/rv850",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Relative Vorticity at 850hPa",
-    "variable:out_name": "rv850",
-    "variable:positive": "",
-    "variable:standard_name": "atmosphere_relative_vorticity",
-    "variable:type": "real",
-    "variable:units": [
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/rv850",
+  "@type": "variable-generic",
+  "variable:long_name": "Relative Vorticity at 850hPa",
+  "variable:out_name": "rv850",
+  "variable:positive": "",
+  "variable:standard_name": "atmosphere_relative_vorticity",
+  "variable:type": "real",
+  "variable:units": [
+    "s-1"
+  ]
 }

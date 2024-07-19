@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tos",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea Surface Temperature",
-    "variable:out_name": "tos",
-    "variable:positive": "",
-    "variable:standard_name": "sea_surface_temperature",
-    "variable:type": "real",
-    "variable:units": [
-        "degC"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tos",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea Surface Temperature",
+  "variable:out_name": "tos",
+  "variable:positive": "",
+  "variable:standard_name": "sea_surface_temperature",
+  "variable:type": "real",
+  "variable:units": [
+    "degC"
+  ]
 }

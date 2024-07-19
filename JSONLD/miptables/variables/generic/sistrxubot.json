@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sistrxubot",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "X-Component of Ocean Stress on Sea Ice",
-    "variable:out_name": "sistrxubot",
-    "variable:positive": "up",
-    "variable:standard_name": "upward_x_stress_at_sea_ice_base",
-    "variable:type": "real",
-    "variable:units": [
-        "N",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sistrxubot",
+  "@type": "variable-generic",
+  "variable:long_name": "X-Component of Ocean Stress on Sea Ice",
+  "variable:out_name": "sistrxubot",
+  "variable:positive": "up",
+  "variable:standard_name": "upward_x_stress_at_sea_ice_base",
+  "variable:type": "real",
+  "variable:units": [
+    "N",
+    "m-2"
+  ]
 }

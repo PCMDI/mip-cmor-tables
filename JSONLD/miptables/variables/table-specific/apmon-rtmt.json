@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rtmt",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/rtmt"
-    },
-    "variable:branded_variable_name": "rtmt_mon-ap-tav-z0-hxy",
-    "variable:comment": "Net Downward Radiative Flux at Top of Model : I.e., at the top of that portion of the atmosphere where dynamics are explicitly treated by the model. This is reported only if it differs from the net downward radiative flux at the top of the atmosphere.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apmon-rtmt"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": 150,
-        "ok_min_mean_abs": 40,
-        "valid_max": 250,
-        "valid_min": -250
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rtmt",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "rtmt_mon-ap-tav-z0-hxy",
+  "variable:comment": "Net Downward Radiative Flux at Top of Model : I.e., at the top of that portion of the atmosphere where dynamics are explicitly treated by the model. This is reported only if it differs from the net downward radiative flux at the top of the atmosphere.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/rtmt"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apmon-rtmt"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": 150,
+    "ok_min_mean_abs": 40,
+    "valid_max": 250,
+    "valid_min": -250
+  }
 }

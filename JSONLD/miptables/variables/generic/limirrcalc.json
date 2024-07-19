@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/limirrcalc",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Irradiance Limitation of Calcareous Phytoplankton",
-    "variable:out_name": "limirrcalc",
-    "variable:positive": "",
-    "variable:standard_name": "growth_limitation_of_calcareous_phytoplankton_due_to_solar_irradiance",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/limirrcalc",
+  "@type": "variable-generic",
+  "variable:long_name": "Irradiance Limitation of Calcareous Phytoplankton",
+  "variable:out_name": "limirrcalc",
+  "variable:positive": "",
+  "variable:standard_name": "growth_limitation_of_calcareous_phytoplankton_due_to_solar_irradiance",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

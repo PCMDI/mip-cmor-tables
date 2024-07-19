@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/ocontemptend",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content",
-    "variable:out_name": "ocontemptend",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/ocontemptend",
+  "@type": "variable-generic",
+  "variable:long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content",
+  "variable:out_name": "ocontemptend",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

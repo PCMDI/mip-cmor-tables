@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/intpbsi",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Silicon Production",
-    "variable:out_name": "intpbsi",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_ocean_mole_content_of_silicon_due_to_biological_production",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/intpbsi",
+  "@type": "variable-generic",
+  "variable:long_name": "Silicon Production",
+  "variable:out_name": "intpbsi",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_ocean_mole_content_of_silicon_due_to_biological_production",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-2",
+    "s-1"
+  ]
 }

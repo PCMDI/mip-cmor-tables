@@ -1,479 +1,479 @@
 {
-    "@id": "mip-cmor-tables:miptables/tables/apmon",
-    "@type": "cmip:dr-table",
-    "table:table_id": "APmon",
-    "table:Conventions": "CF-1.7 CMIP-6.5",
-    "table:approx_interval": 30.0,
-    "table:checksum": "",
-    "table:cmor_version": "3.8.0",
-    "table:release": "v6.5.0.2",
-    "table:data_specs_version": "6.5.0.0",
-    "table:generic_levels": [],
-    "table:int_missing_value": "-999",
-    "table:missing_value": "1e20",
-    "table:product": {
-        "@id": "mip-cmor-tables:auxillary/product/model-output"
+  "@id": "mip-cmor-tables:miptables/tables/apmon",
+  "@type": "dr-table",
+  "table:approx_interval": 30.0,
+  "table:checksum": "",
+  "table:cmor_version": "3.8.0",
+  "table:conventions": "CF-1.7 CMIP-6.5",
+  "table:data_specs_version": "6.5.0.0",
+  "table:generic_levels": [],
+  "table:int_missing_value": "-999",
+  "table:missing_value": "1e20",
+  "table:product": {
+    "@id": "mip-cmor-tables:auxillary/product/model-output"
+  },
+  "table:release": "v6.5.0.2",
+  "table:table_date": "2024-02-28",
+  "table:table_id": "APmon",
+  "table:variable_entry": [
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-albisccp"
     },
-    "table:table_date": "2024-02-28",
-    "table:variable_entry": [
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-albisccp"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-ccb"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cct"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cfaddbze94"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cfadlidarsr532"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cfc113global"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cfc11global"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cfc12global"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-ch4"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-ch4global"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-ci"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-clcalipso"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-clcalipsoice"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-clcalipsoliq"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cldicemxrat27"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cldnci"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cldncl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cldnvi"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cldwatmxrat27"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-clhcalipso"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-climodis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-clisccp"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-clivi"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cllcalipso"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-clmcalipso"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-clmisr"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-clt"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cltcalipso"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cltisccp"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cltmodis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-clwmodis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-clwvi"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-clwvic"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-co2"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-co2mass"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-co2s"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-columnmassflux"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-diabdrag"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-evspsbl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-fco2antt"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-fco2fos"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-fco2nat"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-grplmxrat27"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-hcfc22global"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-hfls"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-hfss"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-hur"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-hurs"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-hursmincrop"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-hus19"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-hus27"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-hus7h"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-huss"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-intuadse"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-intuaw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-intvadse"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-intvaw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-jpdftaureicemodis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-jpdftaureliqmodis"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-loaddust"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-loadso4"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-loadss"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-lwsrfasdust"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-lwsrfcsdust"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-lwtoaasdust"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-lwtoacsaer"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-lwtoacsdust"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-n2o"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-n2oglobal"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-o3"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-od443dust"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-od550aerso"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-od550so4so"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-od865dust"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-parasolrefl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-pctisccp"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-pr"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-pr17o"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-pr18o"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-pr2h"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-prcrop"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-prc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-prhmax"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-prra"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-prsn"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-prsn17o"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-prsn18o"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-prsn2h"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-prw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-ps"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-psl"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rainmxrat27"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rlds"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rldscs"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rls"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rlus"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rlut"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rlut4co2"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rlutcs"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rlutcs4co2"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rsds"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rsdscs"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rsdscsdiff"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rsdsdiff"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rsdt"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rss"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rsus"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rsuscs"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rsut"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rsut4co2"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rsutcs"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rsutcs4co2"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-rtmt"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-sci"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-sconcdust"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-sconcso4"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-sconcss"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-sfcwind"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-sfcwindmax"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-snowmxrat27"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-swsrfasdust"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-swsrfcsdust"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-swtoaasdust"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-swtoacsdust"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-ta"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-ta27"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-tas"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-tasmax"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-tasmaxcrop"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-tasmin"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-tasmincrop"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-tauu"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-tauv"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-tdps"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-tntmp27"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-ts"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-ua19"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-ua27"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-ua7h"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-uas"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-uqint"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-utendnogw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-utendogw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-va19"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-va27"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-va7h"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-vas"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-vqint"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-vtendnogw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-vtendogw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-wap"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-zg"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-zg27"
-        }
-    ]
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-ccb"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cct"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cfaddbze94"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cfadlidarsr532"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cfc113global"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cfc11global"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cfc12global"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-ch4"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-ch4global"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-ci"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-clcalipso"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-clcalipsoice"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-clcalipsoliq"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cldicemxrat27"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cldnci"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cldncl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cldnvi"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cldwatmxrat27"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-clhcalipso"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-climodis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-clisccp"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-clivi"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cllcalipso"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-clmcalipso"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-clmisr"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-clt"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cltcalipso"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cltisccp"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cltmodis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-clwmodis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-clwvi"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-clwvic"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-co2"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-co2mass"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-co2s"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-columnmassflux"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-diabdrag"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-evspsbl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-fco2antt"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-fco2fos"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-fco2nat"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-grplmxrat27"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-hcfc22global"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-hfls"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-hfss"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-hur"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-hurs"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-hursmincrop"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-hus19"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-hus27"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-hus7h"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-huss"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-intuadse"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-intuaw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-intvadse"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-intvaw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-jpdftaureicemodis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-jpdftaureliqmodis"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-loaddust"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-loadso4"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-loadss"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-lwsrfasdust"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-lwsrfcsdust"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-lwtoaasdust"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-lwtoacsaer"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-lwtoacsdust"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-n2o"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-n2oglobal"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-o3"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-od443dust"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-od550aerso"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-od550so4so"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-od865dust"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-parasolrefl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-pctisccp"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-pr"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-pr17o"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-pr18o"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-pr2h"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-prcrop"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-prc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-prhmax"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-prra"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-prsn"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-prsn17o"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-prsn18o"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-prsn2h"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-prw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-ps"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-psl"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rainmxrat27"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rlds"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rldscs"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rls"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rlus"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rlut"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rlut4co2"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rlutcs"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rlutcs4co2"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rsds"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rsdscs"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rsdscsdiff"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rsdsdiff"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rsdt"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rss"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rsus"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rsuscs"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rsut"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rsut4co2"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rsutcs"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rsutcs4co2"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-rtmt"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-sci"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-sconcdust"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-sconcso4"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-sconcss"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-sfcwind"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-sfcwindmax"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-snowmxrat27"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-swsrfasdust"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-swsrfcsdust"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-swtoaasdust"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-swtoacsdust"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-ta"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-ta27"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-tas"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-tasmax"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-tasmaxcrop"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-tasmin"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-tasmincrop"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-tauu"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-tauv"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-tdps"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-tntmp27"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-ts"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-ua19"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-ua27"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-ua7h"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-uas"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-uqint"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-utendnogw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-utendogw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-va19"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-va27"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-va7h"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-vas"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-vqint"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-vtendnogw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-vtendogw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-wap"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-zg"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-zg27"
+    }
+  ]
 }

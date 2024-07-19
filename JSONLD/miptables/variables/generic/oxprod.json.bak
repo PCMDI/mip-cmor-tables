@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/oxprod",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Total Odd Oxygen (Ox) Production Rate",
+    "variable:out_name": "oxprod",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_mole_concentration_of_ox_in_air_due_to_chemical_and_photolytic_production",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-3",
+        "s-1"
+    ]
+}

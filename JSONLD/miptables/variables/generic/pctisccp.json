@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/pctisccp",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "ISCCP Mean Cloud Top Pressure",
-    "variable:out_name": "pctisccp",
-    "variable:positive": "",
-    "variable:standard_name": "air_pressure_at_cloud_top",
-    "variable:type": "real",
-    "variable:units": [
-        "Pa"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/pctisccp",
+  "@type": "variable-generic",
+  "variable:long_name": "ISCCP Mean Cloud Top Pressure",
+  "variable:out_name": "pctisccp",
+  "variable:positive": "",
+  "variable:standard_name": "air_pressure_at_cloud_top",
+  "variable:type": "real",
+  "variable:units": [
+    "Pa"
+  ]
 }

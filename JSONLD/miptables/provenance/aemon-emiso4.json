@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/aemon-emiso4",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "19befb70-81b1-11e6-92de-ac72891c3257",
-        "mip_table": "AERmon",
-        "variable_name": "emiso4"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/aemon-emiso4",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "19befb70-81b1-11e6-92de-ac72891c3257",
+    "mip_table": "AERmon",
+    "variable_name": "emiso4"
+  }
 }

@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/diftrelo2d",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Ocean Tracer Epineutral Laplacian Diffusivity",
-    "variable:out_name": "diftrelo2d",
-    "variable:positive": "",
-    "variable:standard_name": "ocean_tracer_epineutral_laplacian_diffusivity",
-    "variable:type": "real",
-    "variable:units": [
-        "m2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/diftrelo2d",
+  "@type": "variable-generic",
+  "variable:long_name": "Ocean Tracer Epineutral Laplacian Diffusivity",
+  "variable:out_name": "diftrelo2d",
+  "variable:positive": "",
+  "variable:standard_name": "ocean_tracer_epineutral_laplacian_diffusivity",
+  "variable:type": "real",
+  "variable:units": [
+    "m2",
+    "s-1"
+  ]
 }

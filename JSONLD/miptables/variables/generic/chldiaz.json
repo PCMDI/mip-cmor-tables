@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/chldiaz",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Mass Concentration of Diazotrophs Expressed as Chlorophyll in Sea Water",
-    "variable:out_name": "chldiaz",
-    "variable:positive": "",
-    "variable:standard_name": "mass_concentration_of_diazotrophic_phytoplankton_expressed_as_chlorophyll_in_sea_water",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-3"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/chldiaz",
+  "@type": "variable-generic",
+  "variable:long_name": "Mass Concentration of Diazotrophs Expressed as Chlorophyll in Sea Water",
+  "variable:out_name": "chldiaz",
+  "variable:positive": "",
+  "variable:standard_name": "mass_concentration_of_diazotrophic_phytoplankton_expressed_as_chlorophyll_in_sea_water",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-3"
+  ]
 }

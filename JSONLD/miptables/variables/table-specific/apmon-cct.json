@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-cct",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/cct"
-    },
-    "variable:branded_variable_name": "cct_mon-ap-tav-z0-hxy",
-    "variable:comment": "Where convective cloud is present in the grid cell, the instantaneous cloud top altitude should be that of the top of the highest level containing convective cloud. Missing data should be reported in the absence of convective cloud. The time mean should be calculated from these quantities averaging over occasions when convective cloud is present only, and should contain missing data for occasions when no convective cloud is present during the meaning period.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apmon-cct"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": 100000,
-        "ok_min_mean_abs": 5000,
-        "valid_max": 115000,
-        "valid_min": 0
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-cct",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "cct_mon-ap-tav-z0-hxy",
+  "variable:comment": "Where convective cloud is present in the grid cell, the instantaneous cloud top altitude should be that of the top of the highest level containing convective cloud. Missing data should be reported in the absence of convective cloud. The time mean should be calculated from these quantities averaging over occasions when convective cloud is present only, and should contain missing data for occasions when no convective cloud is present during the meaning period.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/cct"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apmon-cct"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": 100000,
+    "ok_min_mean_abs": 5000,
+    "valid_max": 115000,
+    "valid_min": 0
+  }
 }

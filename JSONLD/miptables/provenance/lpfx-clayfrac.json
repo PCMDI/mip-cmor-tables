@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpfx-clayfrac",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "81963e3a-f906-11e6-a176-5404a60d96b5",
-        "mip_table": "Efx",
-        "variable_name": "clayfrac"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpfx-clayfrac",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "81963e3a-f906-11e6-a176-5404a60d96b5",
+    "mip_table": "Efx",
+    "variable_name": "clayfrac"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-rld",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "a95502a0-817c-11e6-a4e2-5404a60d96b5",
-        "mip_table": "CFsubhr",
-        "variable_name": "rld"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-rld",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "a95502a0-817c-11e6-a4e2-5404a60d96b5",
+    "mip_table": "CFsubhr",
+    "variable_name": "rld"
+  }
 }

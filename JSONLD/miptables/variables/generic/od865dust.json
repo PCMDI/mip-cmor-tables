@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/od865dust",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Dust Optical Depth at 865nm",
-    "variable:out_name": "od865dust",
-    "variable:positive": "",
-    "variable:standard_name": "atmosphere_optical_thickness_due_to_dust_ambient_aerosol_particles",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/od865dust",
+  "@type": "variable-generic",
+  "variable:long_name": "Dust Optical Depth at 865nm",
+  "variable:out_name": "od865dust",
+  "variable:positive": "",
+  "variable:standard_name": "atmosphere_optical_thickness_due_to_dust_ambient_aerosol_particles",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

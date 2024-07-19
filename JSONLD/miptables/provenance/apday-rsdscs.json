@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apday-rsdscs",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab60b42-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "CFday",
-        "variable_name": "rsdscs"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apday-rsdscs",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "bab60b42-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "CFday",
+    "variable_name": "rsdscs"
+  }
 }

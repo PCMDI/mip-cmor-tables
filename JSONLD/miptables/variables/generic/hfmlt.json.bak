@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/hfmlt",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Energy of Fusion",
+    "variable:out_name": "hfmlt",
+    "variable:positive": "",
+    "variable:standard_name": "surface_snow_and_ice_melt_heat_flux",
+    "variable:type": "real",
+    "variable:units": [
+        "W",
+        "m-2"
+    ]
+}

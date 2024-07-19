@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpfx-rootdsl",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "f2fad4b8-c38d-11e6-abc1-1b922e5e1118",
-        "mip_table": "Efx",
-        "variable_name": "rootdsl"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpfx-rootdsl",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "f2fad4b8-c38d-11e6-abc1-1b922e5e1118",
+    "mip_table": "Efx",
+    "variable_name": "rootdsl"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-clwvic",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "7b064354-a220-11e6-a33f-ac72891c3257",
-        "mip_table": "Emon",
-        "variable_name": "clwvic"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-clwvic",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "7b064354-a220-11e6-a33f-ac72891c3257",
+    "mip_table": "Emon",
+    "variable_name": "clwvic"
+  }
 }

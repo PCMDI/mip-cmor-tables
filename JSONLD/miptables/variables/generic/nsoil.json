@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/nsoil",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Nitrogen Mass in Soil Pool",
-    "variable:out_name": "nSoil",
-    "variable:positive": "",
-    "variable:standard_name": "soil_mass_content_of_nitrogen",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/nsoil",
+  "@type": "variable-generic",
+  "variable:long_name": "Nitrogen Mass in Soil Pool",
+  "variable:out_name": "nSoil",
+  "variable:positive": "",
+  "variable:standard_name": "soil_mass_content_of_nitrogen",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

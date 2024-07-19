@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmonclim-co2massclim",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "a92e1244-817c-11e6-a4e2-5404a60d96b5",
-        "mip_table": "Amon",
-        "variable_name": "co2massClim"
-    },
-    "CMIP5": {
-        "mip_table": "Amon",
-        "variable_name": "co2massClim"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmonclim-co2massclim",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Amon",
+    "variable_name": "co2massClim"
+  },
+  "cmip6": {
+    "dreq_uid": "a92e1244-817c-11e6-a4e2-5404a60d96b5",
+    "mip_table": "Amon",
+    "variable_name": "co2massClim"
+  }
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apday-cltisccp",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baaaf8a6-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "CFday",
-        "variable_name": "cltisccp"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apday-cltisccp",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "baaaf8a6-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "CFday",
+    "variable_name": "cltisccp"
+  }
 }

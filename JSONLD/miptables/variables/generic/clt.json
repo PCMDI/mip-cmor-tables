@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/clt",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Cloud Cover Percentage",
-    "variable:out_name": "clt",
-    "variable:positive": "",
-    "variable:standard_name": "cloud_area_fraction",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/clt",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Cloud Cover Percentage",
+  "variable:out_name": "clt",
+  "variable:positive": "",
+  "variable:standard_name": "cloud_area_fraction",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

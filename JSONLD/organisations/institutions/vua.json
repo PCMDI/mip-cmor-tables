@@ -1,32 +1,32 @@
 {
-    "@id": "mip-cmor-tables:organisations/institutions/vua",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "VUA",
-    "institution:ror": "008xxew50",
-    "institution:name": "Vrije Universiteit Amsterdam",
-    "institution:url": [
-        "https://vu.nl/"
-    ],
-    "institution:established": 1880,
-    "institution:type": "Education",
-    "institution:labels": [],
-    "institution:aliases": [
-        "VU Amsterdam"
-    ],
-    "institution:acronyms": [
-        "VU"
-    ],
-    "institution:location": {
-        "@id": "mip-cmor-tables:organisations/institutions/location/008xxew50",
-        "@type": "institution:location",
-        "@nest": {
-            "location:lat": 52.37403,
-            "location:lon": 4.88969,
-            "location:city": "Amsterdam",
-            "location:country": [
-                "Netherlands",
-                "NL"
-            ]
-        }
-    }
+  "@id": "mip-cmor-tables:organisations/institutions/vua",
+  "@type": "institution",
+  "acronyms": [
+    "VU"
+  ],
+  "aliases": [
+    "VU Amsterdam"
+  ],
+  "cmip-acronym": "VUA",
+  "established": 1880,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/008xxew50",
+    "@nest": {
+      "city": "Amsterdam",
+      "country": [
+        "Netherlands",
+        "NL"
+      ],
+      "lat": 52.37403,
+      "lon": 4.88969
+    },
+    "@type": "location"
+  },
+  "name": "Vrije Universiteit Amsterdam",
+  "ror": "008xxew50",
+  "type": "Education",
+  "url": [
+    "https://vu.nl/"
+  ]
 }

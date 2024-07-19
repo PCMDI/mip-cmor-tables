@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sidmasstrany",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Y-Component of Sea-Ice Mass Transport",
-    "variable:out_name": "sidmasstrany",
-    "variable:positive": "",
-    "variable:standard_name": "sea_ice_y_transport",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sidmasstrany",
+  "@type": "variable-generic",
+  "variable:long_name": "Y-Component of Sea-Ice Mass Transport",
+  "variable:out_name": "sidmasstrany",
+  "variable:positive": "",
+  "variable:standard_name": "sea_ice_y_transport",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "s-1"
+  ]
 }

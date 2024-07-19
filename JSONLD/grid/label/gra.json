@@ -1,0 +1,8 @@
+{
+  "@id": "mip-cmor-tables:grid/label/gra",
+  "@type": "grid-label",
+  "name": "gra",
+  "description": "regridded data in the region of Antarctica reported on the data provider's preferred target grid",
+  "region": "antarctica",
+  "short name": "Regridded Antarctica Greenland"
+}

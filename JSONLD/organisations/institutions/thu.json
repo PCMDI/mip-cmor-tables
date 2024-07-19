@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:organisations/institutions/thu",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "THU",
-    "institution:ror": "03cve4549",
-    "institution:name": "Tsinghua University",
-    "institution:url": [
-        "http://www.tsinghua.edu.cn/publish/newthuen/"
-    ],
-    "institution:established": 1911,
-    "institution:type": "Education",
-    "institution:labels": [],
-    "institution:aliases": [],
-    "institution:acronyms": [
-        "THU"
-    ],
-    "institution:location": {
-        "@id": "mip-cmor-tables:organisations/institutions/location/03cve4549",
-        "@type": "institution:location",
-        "@nest": {
-            "location:lat": 39.999585,
-            "location:lon": 116.325414,
-            "location:city": "Beijing",
-            "location:country": [
-                "China",
-                "CN"
-            ]
-        }
-    }
+  "@id": "mip-cmor-tables:organisations/institutions/thu",
+  "@type": "institution",
+  "acronyms": [
+    "THU"
+  ],
+  "aliases": [],
+  "cmip-acronym": "THU",
+  "established": 1911,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/03cve4549",
+    "@nest": {
+      "city": "Beijing",
+      "country": [
+        "China",
+        "CN"
+      ],
+      "lat": 39.999585,
+      "lon": 116.325414
+    },
+    "@type": "location"
+  },
+  "name": "Tsinghua University",
+  "ror": "03cve4549",
+  "type": "Education",
+  "url": [
+    "http://www.tsinghua.edu.cn/publish/newthuen/"
+  ]
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/aemonlev-mmrdust",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "19bed91a-81b1-11e6-92de-ac72891c3257",
-        "mip_table": "AERmon",
-        "variable_name": "mmrdust"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/aemonlev-mmrdust",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "19bed91a-81b1-11e6-92de-ac72891c3257",
+    "mip_table": "AERmon",
+    "variable_name": "mmrdust"
+  }
 }

@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mrrolut",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Runoff from Land-Use Tile",
-    "variable:out_name": "mrroLut",
-    "variable:positive": "",
-    "variable:standard_name": "runoff_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mrrolut",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Runoff from Land-Use Tile",
+  "variable:out_name": "mrroLut",
+  "variable:positive": "",
+  "variable:standard_name": "runoff_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

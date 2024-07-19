@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opmonlev-so",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baa5491a-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Omon",
-        "variable_name": "so"
-    },
-    "CMIP5": {
-        "mip_table": "Omon",
-        "variable_name": "so"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opmonlev-so",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Omon",
+    "variable_name": "so"
+  },
+  "cmip6": {
+    "dreq_uid": "baa5491a-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Omon",
+    "variable_name": "so"
+  }
 }

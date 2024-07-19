@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/cropfrac",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Percentage Crop Cover",
-    "variable:out_name": "cropFrac",
-    "variable:positive": "",
-    "variable:standard_name": "area_fraction",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/cropfrac",
+  "@type": "variable-generic",
+  "variable:long_name": "Percentage Crop Cover",
+  "variable:out_name": "cropFrac",
+  "variable:positive": "",
+  "variable:standard_name": "area_fraction",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

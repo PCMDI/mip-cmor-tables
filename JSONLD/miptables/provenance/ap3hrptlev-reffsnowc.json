@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ap3hrptlev-reffsnowc",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bab4ed66-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "CF3hr",
-        "variable_name": "reffsnowc"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ap3hrptlev-reffsnowc",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "bab4ed66-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "CF3hr",
+    "variable_name": "reffsnowc"
+  }
 }

@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/table_specific/lp6hrpt-tsl",
+    "@type": "cmip:table-variable",
+    "variable:generic": {
+        "@id": "mip-cmor-tables:miptables/variables/generic/tsl"
+    },
+    "variable:branded_variable_name": "tsl_6hr-ld-tpt-z01s-hxy",
+    "variable:comment": "Temperature of soil. Reported as missing for grid cells with no land.",
+    "variable:frequency": "6hrPt",
+    "variable:dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "sdepth1"
+    ],
+    "variable:modelling_realms": [
+        {
+            "@id": "mip-cmor-tables:modellingrealms/land"
+        }
+    ],
+    "variable:provenance": {
+        "@id": "mip-cmor-tables:miptables/provenance/lp6hrpt-tsl"
+    },
+    "variable:validation": {
+        "ok_max_mean_abs": "",
+        "ok_min_mean_abs": "",
+        "valid_max": "",
+        "valid_min": ""
+    }
+}

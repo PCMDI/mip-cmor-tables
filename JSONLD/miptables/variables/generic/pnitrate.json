@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/pnitrate",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Primary Carbon Production by Phytoplankton Due to Nitrate Uptake Alone",
-    "variable:out_name": "pnitrate",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_mole_concentration_of_particulate_organic_matter_expressed_as_carbon_in_sea_water_due_to_nitrate_utilization",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-3",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/pnitrate",
+  "@type": "variable-generic",
+  "variable:long_name": "Primary Carbon Production by Phytoplankton Due to Nitrate Uptake Alone",
+  "variable:out_name": "pnitrate",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_mole_concentration_of_particulate_organic_matter_expressed_as_carbon_in_sea_water_due_to_nitrate_utilization",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-3",
+    "s-1"
+  ]
 }

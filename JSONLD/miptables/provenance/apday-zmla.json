@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apday-zmla",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "6f6c3c4e-9acb-11e6-b7ee-ac72891c3257",
-        "mip_table": "Eday",
-        "variable_name": "zmla"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apday-zmla",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "6f6c3c4e-9acb-11e6-b7ee-ac72891c3257",
+    "mip_table": "Eday",
+    "variable_name": "zmla"
+  }
 }

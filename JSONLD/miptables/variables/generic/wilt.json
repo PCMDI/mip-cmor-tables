@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/wilt",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Wilting Point",
-    "variable:out_name": "wilt",
-    "variable:positive": "",
-    "variable:standard_name": "volume_fraction_of_condensed_water_in_soil_at_wilting_point",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/wilt",
+  "@type": "variable-generic",
+  "variable:long_name": "Wilting Point",
+  "variable:out_name": "wilt",
+  "variable:positive": "",
+  "variable:standard_name": "volume_fraction_of_condensed_water_in_soil_at_wilting_point",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

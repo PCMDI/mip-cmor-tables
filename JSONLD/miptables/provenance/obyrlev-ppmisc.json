@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obyrlev-ppmisc",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "ba9ee3a4-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Oyr",
-        "variable_name": "ppmisc"
-    },
-    "CMIP5": {
-        "mip_table": "Oyr",
-        "variable_name": "phypmisc"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obyrlev-ppmisc",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Oyr",
+    "variable_name": "phypmisc"
+  },
+  "cmip6": {
+    "dreq_uid": "ba9ee3a4-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Oyr",
+    "variable_name": "ppmisc"
+  }
 }

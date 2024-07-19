@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/clittershrub",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Carbon Mass in Litter on Shrub Tiles",
-    "variable:out_name": "cLitterShrub",
-    "variable:positive": "",
-    "variable:standard_name": "litter_mass_content_of_carbon",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/clittershrub",
+  "@type": "variable-generic",
+  "variable:long_name": "Carbon Mass in Litter on Shrub Tiles",
+  "variable:out_name": "cLitterShrub",
+  "variable:positive": "",
+  "variable:standard_name": "litter_mass_content_of_carbon",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

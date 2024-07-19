@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apday-hursmincrop",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "f32a8460-c38d-11e6-abc1-1b922e5e1118",
-        "mip_table": "Eday",
-        "variable_name": "hursminCrop"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apday-hursmincrop",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "f32a8460-c38d-11e6-abc1-1b922e5e1118",
+    "mip_table": "Eday",
+    "variable_name": "hursminCrop"
+  }
 }

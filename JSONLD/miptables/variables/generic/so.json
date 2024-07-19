@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/so",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sea Water Salinity",
-    "variable:out_name": "so",
-    "variable:positive": "",
-    "variable:standard_name": "sea_water_salinity",
-    "variable:type": "real",
-    "variable:units": [
-        "0.001"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/so",
+  "@type": "variable-generic",
+  "variable:long_name": "Sea Water Salinity",
+  "variable:out_name": "so",
+  "variable:positive": "",
+  "variable:standard_name": "sea_water_salinity",
+  "variable:type": "real",
+  "variable:units": [
+    "0.001"
+  ]
 }

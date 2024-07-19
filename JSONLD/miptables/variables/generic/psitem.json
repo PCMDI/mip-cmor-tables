@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/psitem",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Transformed Eulerian Mean Mass Streamfunction",
-    "variable:out_name": "psitem",
-    "variable:positive": "",
-    "variable:standard_name": "atmosphere_transformed_eulerian_mean_meridional_overturning_mass_streamfunction",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/psitem",
+  "@type": "variable-generic",
+  "variable:long_name": "Transformed Eulerian Mean Mass Streamfunction",
+  "variable:out_name": "psitem",
+  "variable:positive": "",
+  "variable:standard_name": "atmosphere_transformed_eulerian_mean_meridional_overturning_mass_streamfunction",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "s-1"
+  ]
 }

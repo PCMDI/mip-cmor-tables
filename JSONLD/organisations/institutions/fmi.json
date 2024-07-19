@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:organisations/institutions/fmi",
-    "@type": "cmip:institution",
-    "institution:acronyms": [
-        "FMI"
-    ],
-    "institution:aliases": [],
-    "institution:cmip_acronym": "FMI",
-    "institution:established": 1838,
-    "institution:labels": [],
-    "institution:location": {
-        "@id": "mip-cmor-tables:organisations/institutions/location/05hppb561",
-        "@type": "institution:location",
-        "@nest": {
-            "location:lat": 60.16952,
-            "location:lon": 60.16952,
-            "location:city": "Helsinki",
-            "location:country": [
-                "Finland",
-                "FI"
-            ]
-        }
+  "@id": "mip-cmor-tables:organisations/institutions/fmi",
+  "@type": "institution",
+  "acronyms": [
+    "FMI"
+  ],
+  "aliases": [],
+  "cmip-acronym": "FMI",
+  "established": 1838,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/05hppb561",
+    "@nest": {
+      "city": "Helsinki",
+      "country": [
+        "Finland",
+        "FI"
+      ],
+      "lat": 60.16952,
+      "lon": 60.16952
     },
-    "institution:name": "Finnish Meteorological Institute",
-    "institution:ror": "05hppb561",
-    "institution:type": "Government",
-    "institution:url": [
-        "http://en.ilmatieteenlaitos.fi/"
-    ]
+    "@type": "location"
+  },
+  "name": "Finnish Meteorological Institute",
+  "ror": "05hppb561",
+  "type": "Government",
+  "url": [
+    "http://en.ilmatieteenlaitos.fi/"
+  ]
 }

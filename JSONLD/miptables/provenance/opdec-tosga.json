@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opdec-tosga",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "47955a92-bb0b-11e6-8316-5980f7b176d1",
-        "mip_table": "Odec",
-        "variable_name": "tosga"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opdec-tosga",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "47955a92-bb0b-11e6-8316-5980f7b176d1",
+    "mip_table": "Odec",
+    "variable_name": "tosga"
+  }
 }

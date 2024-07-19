@@ -1,123 +1,123 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
-    "properties": {
-        "@id": {
-            "type": "string"
-        },
-        "@type": {
-            "type": "string"
-        },
-        "variable:branded_variable_name": {
-            "type": "string"
-        },
-        "variable:comment": {
-            "type": "string"
-        },
-        "variable:frequency": {
-            "type": "string"
-        },
-        "variable:dimensions": {
-            "type": "array",
-            "items": {
-                "type": "string"
-            }
-        },
-        "variable:modelling_realms": {
-            "type": "array",
-            "properties": {
-                "@id": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "@id"
-            ]
-        },
-        "variable:provenance": {
-            "type": "object",
-            "properties": {
-                "@id": {
-                    "type": "string"
-                }
-            },
-            "required": [
-                "@id"
-            ]
-        },
-        "variable:validation": {
-            "type": "object",
-            "properties": {
-                "ok_max_mean_abs": {
-                    "anyOf": [
-                        {
-                            "type": "number"
-                        },
-                        {
-                            "type": "string",
-                            "enum": [
-                                ""
-                            ]
-                        }
-                    ]
-                },
-                "ok_min_mean_abs": {
-                    "anyOf": [
-                        {
-                            "type": "number"
-                        },
-                        {
-                            "type": "string",
-                            "enum": [
-                                ""
-                            ]
-                        }
-                    ]
-                },
-                "valid_max": {
-                    "anyOf": [
-                        {
-                            "type": "number"
-                        },
-                        {
-                            "type": "string",
-                            "enum": [
-                                ""
-                            ]
-                        }
-                    ]
-                },
-                "valid_min": {
-                    "anyOf": [
-                        {
-                            "type": "number"
-                        },
-                        {
-                            "type": "string",
-                            "enum": [
-                                ""
-                            ]
-                        }
-                    ]
-                }
-            },
-            "required": [
-                "ok_max_mean_abs",
-                "ok_min_mean_abs",
-                "valid_max",
-                "valid_min"
-            ]
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "@id": {
+      "type": "string"
     },
-    "required": [
-        "@id",
-        "@type",
-        "variable:branded_variable_name",
-        "variable:comment",
-        "variable:frequency",
-        "variable:dimensions",
-        "variable:modelling_realms",
-        "variable:provenance",
-        "variable:validation"
-    ]
+    "@type": {
+      "type": "string"
+    },
+    "variable:branded_variable_name": {
+      "type": "string"
+    },
+    "variable:comment": {
+      "type": "string"
+    },
+    "variable:dimensions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "variable:frequency": {
+      "type": "string"
+    },
+    "variable:modelling_realms": {
+      "properties": {
+        "@id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "@id"
+      ],
+      "type": "array"
+    },
+    "variable:provenance": {
+      "properties": {
+        "@id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "@id"
+      ],
+      "type": "object"
+    },
+    "variable:validation": {
+      "properties": {
+        "ok_max_mean_abs": {
+          "anyof": [
+            {
+              "type": "number"
+            },
+            {
+              "enum": [
+                ""
+              ],
+              "type": "string"
+            }
+          ]
+        },
+        "ok_min_mean_abs": {
+          "anyof": [
+            {
+              "type": "number"
+            },
+            {
+              "enum": [
+                ""
+              ],
+              "type": "string"
+            }
+          ]
+        },
+        "valid_max": {
+          "anyof": [
+            {
+              "type": "number"
+            },
+            {
+              "enum": [
+                ""
+              ],
+              "type": "string"
+            }
+          ]
+        },
+        "valid_min": {
+          "anyof": [
+            {
+              "type": "number"
+            },
+            {
+              "enum": [
+                ""
+              ],
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "required": [
+        "ok_max_mean_abs",
+        "ok_min_mean_abs",
+        "valid_max",
+        "valid_min"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "@id",
+    "@type",
+    "variable:branded_variable_name",
+    "variable:comment",
+    "variable:frequency",
+    "variable:dimensions",
+    "variable:modelling_realms",
+    "variable:provenance",
+    "variable:validation"
+  ],
+  "type": "object"
 }

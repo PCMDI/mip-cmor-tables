@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/cvegshrub",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Carbon Mass in Vegetation on Shrub Tiles",
-    "variable:out_name": "cVegShrub",
-    "variable:positive": "",
-    "variable:standard_name": "vegetation_carbon_content",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/cvegshrub",
+  "@type": "variable-generic",
+  "variable:long_name": "Carbon Mass in Vegetation on Shrub Tiles",
+  "variable:out_name": "cVegShrub",
+  "variable:positive": "",
+  "variable:standard_name": "vegetation_carbon_content",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

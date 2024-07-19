@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/calc",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Calcite Concentration",
-    "variable:out_name": "calc",
-    "variable:positive": "",
-    "variable:standard_name": "mole_concentration_of_calcite_expressed_as_carbon_in_sea_water",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-3"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/calc",
+  "@type": "variable-generic",
+  "variable:long_name": "Calcite Concentration",
+  "variable:out_name": "calc",
+  "variable:positive": "",
+  "variable:standard_name": "mole_concentration_of_calcite_expressed_as_carbon_in_sea_water",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-3"
+  ]
 }

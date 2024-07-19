@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/rsucsafbnd",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Upwelling Clear-Sky, Aerosol-Free Shortwave Radiation in Bands",
-    "variable:out_name": "rsucsafbnd",
-    "variable:positive": "up",
-    "variable:standard_name": "upwelling_shortwave_flux_in_air_assuming_clear_sky_and_no_aerosol",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/rsucsafbnd",
+  "@type": "variable-generic",
+  "variable:long_name": "Upwelling Clear-Sky, Aerosol-Free Shortwave Radiation in Bands",
+  "variable:out_name": "rsucsafbnd",
+  "variable:positive": "up",
+  "variable:standard_name": "upwelling_shortwave_flux_in_air_assuming_clear_sky_and_no_aerosol",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

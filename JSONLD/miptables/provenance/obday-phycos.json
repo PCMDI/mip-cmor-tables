@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obday-phycos",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baa165e8-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Oday",
-        "variable_name": "phycos"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obday-phycos",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "baa165e8-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Oday",
+    "variable_name": "phycos"
+  }
 }

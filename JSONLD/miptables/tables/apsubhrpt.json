@@ -1,53 +1,53 @@
 {
-    "@id": "mip-cmor-tables:miptables/tables/apsubhrpt",
-    "@type": "cmip:dr-table",
-    "table:table_id": "APsubhrPt",
-    "table:Conventions": "CF-1.7 CMIP-6.5",
-    "table:approx_interval": 0.017361,
-    "table:checksum": "",
-    "table:cmor_version": "3.8.0",
-    "table:release": "v6.5.0.2",
-    "table:data_specs_version": "6.5.0.0",
-    "table:generic_levels": [],
-    "table:int_missing_value": "-999",
-    "table:missing_value": "1e20",
-    "table:product": {
-        "@id": "mip-cmor-tables:auxillary/product/model-output"
+  "@id": "mip-cmor-tables:miptables/tables/apsubhrpt",
+  "@type": "dr-table",
+  "table:approx_interval": 0.017361,
+  "table:checksum": "",
+  "table:cmor_version": "3.8.0",
+  "table:conventions": "CF-1.7 CMIP-6.5",
+  "table:data_specs_version": "6.5.0.0",
+  "table:generic_levels": [],
+  "table:int_missing_value": "-999",
+  "table:missing_value": "1e20",
+  "table:product": {
+    "@id": "mip-cmor-tables:auxillary/product/model-output"
+  },
+  "table:release": "v6.5.0.2",
+  "table:table_date": "2024-02-28",
+  "table:table_id": "APsubhrPt",
+  "table:variable_entry": [
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrpt-hfls"
     },
-    "table:table_date": "2024-02-28",
-    "table:variable_entry": [
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrpt-hfls"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrpt-hfss"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrpt-huss"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrpt-pr"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrpt-prc"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrpt-prw"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrpt-ps"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrpt-rlut"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrpt-rsdt"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrpt-rsut"
-        },
-        {
-            "@id": "mip-cmor-tables:miptables/variables/table_specific/apsubhrpt-tas"
-        }
-    ]
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrpt-hfss"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrpt-huss"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrpt-pr"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrpt-prc"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrpt-prw"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrpt-ps"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrpt-rlut"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrpt-rsdt"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrpt-rsut"
+    },
+    {
+      "@id": "mip-cmor-tables:miptables/variables/table-specific/apsubhrpt-tas"
+    }
+  ]
 }

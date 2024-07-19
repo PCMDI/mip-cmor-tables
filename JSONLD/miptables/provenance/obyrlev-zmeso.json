@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obyrlev-zmeso",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "c922fcda-c5e8-11e6-84e6-5404a60d96b5",
-        "mip_table": "Oyr",
-        "variable_name": "zmeso"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obyrlev-zmeso",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "c922fcda-c5e8-11e6-84e6-5404a60d96b5",
+    "mip_table": "Oyr",
+    "variable_name": "zmeso"
+  }
 }

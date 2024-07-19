@@ -1,32 +1,32 @@
 {
-    "@id": "mip-cmor-tables:organisations/institutions/ucsb",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "UCSB",
-    "institution:ror": "02t274463",
-    "institution:name": "University of California, Santa Barbara",
-    "institution:url": [
-        "http://www.ucsb.edu/"
-    ],
-    "institution:established": 1891,
-    "institution:type": "Education",
-    "institution:labels": [],
-    "institution:aliases": [
-        "UC Santa Barbara"
-    ],
-    "institution:acronyms": [
-        "UCSB"
-    ],
-    "institution:location": {
-        "@id": "mip-cmor-tables:organisations/institutions/location/02t274463",
-        "@type": "institution:location",
-        "@nest": {
-            "location:lat": 34.42083,
-            "location:lon": -119.69819,
-            "location:city": "Santa Barbara",
-            "location:country": [
-                "United States",
-                "US"
-            ]
-        }
-    }
+  "@id": "mip-cmor-tables:organisations/institutions/ucsb",
+  "@type": "institution",
+  "acronyms": [
+    "UCSB"
+  ],
+  "aliases": [
+    "UC Santa Barbara"
+  ],
+  "cmip-acronym": "UCSB",
+  "established": 1891,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/02t274463",
+    "@nest": {
+      "city": "Santa Barbara",
+      "country": [
+        "United States",
+        "US"
+      ],
+      "lat": 34.42083,
+      "lon": -119.69819
+    },
+    "@type": "location"
+  },
+  "name": "University of California, Santa Barbara",
+  "ror": "02t274463",
+  "type": "Education",
+  "url": [
+    "http://www.ucsb.edu/"
+  ]
 }

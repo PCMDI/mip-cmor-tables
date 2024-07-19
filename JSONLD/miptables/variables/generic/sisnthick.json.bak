@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sisnthick",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Snow Thickness",
+    "variable:out_name": "sisnthick",
+    "variable:positive": "",
+    "variable:standard_name": "surface_snow_thickness",
+    "variable:type": "real",
+    "variable:units": [
+        "m"
+    ]
+}

@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/expp",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Sinking Particulate Organic Phosphorus Flux",
-    "variable:out_name": "expp",
-    "variable:positive": "down",
-    "variable:standard_name": "sinking_mole_flux_of_particulate_organic_phosphorus_in_sea_water",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/expp",
+  "@type": "variable-generic",
+  "variable:long_name": "Sinking Particulate Organic Phosphorus Flux",
+  "variable:out_name": "expp",
+  "variable:positive": "down",
+  "variable:standard_name": "sinking_mole_flux_of_particulate_organic_phosphorus_in_sea_water",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-2",
+    "s-1"
+  ]
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmon-tasmaxcrop",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "124a0c76-c14f-11e6-bb78-ac72891c3257",
-        "mip_table": "Emon",
-        "variable_name": "tasmaxCrop"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmon-tasmaxcrop",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "124a0c76-c14f-11e6-bb78-ac72891c3257",
+    "mip_table": "Emon",
+    "variable_name": "tasmaxCrop"
+  }
 }

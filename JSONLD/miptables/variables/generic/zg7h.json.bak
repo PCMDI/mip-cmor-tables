@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/zg7h",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Geopotential Height",
+    "variable:out_name": "zg7h",
+    "variable:positive": "",
+    "variable:standard_name": "geopotential_height",
+    "variable:type": "real",
+    "variable:units": [
+        "m"
+    ]
+}

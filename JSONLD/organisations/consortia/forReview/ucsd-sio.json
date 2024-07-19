@@ -1,41 +1,41 @@
 {
-    "@id": "mip-cmor-tables:organisations/consortia/ucsd-sio",
-    "@type": "cmip:consortium",
-    "consortium:cmip_acronym": "UCSD-SIO",
-    "consortium:description": "UCSD-SIO",
-    "consortium:url": "",
-    "consortium:changes": "",
-    "consortium:members": {
-        "@set": [
-            {
-                "@type": "consortia:member",
-                "consortia:institution": {
-                    "@id": "mip-cmor-tables:organisations/institutions/university"
-                },
-                "consortia:membership_type": "prior",
-                "consortia:dates": [
-                    {
-                        "from": 2016,
-                        "to": 2022,
-                        "phase": "CMIP6"
-                    }
-                ]
-            },
-            {
-                "@type": "consortia:member",
-                "consortia:institution": {
-                    "@id": "mip-cmor-tables:organisations/institutions/scripps"
-                },
-                "consortia:membership_type": "prior",
-                "consortia:dates": [
-                    {
-                        "from": 2016,
-                        "to": 2022,
-                        "phase": "CMIP6"
-                    }
-                ]
-            }
-        ]
-    },
-    "consortia:status": "active"
+  "@id": "mip-cmor-tables:organisations/consortia/ucsd-sio",
+  "@type": "consortium",
+  "consortia:status": "active",
+  "consortium:changes": "",
+  "consortium:cmip-acronym": "UCSD-SIO",
+  "consortium:description": "UCSD-SIO",
+  "consortium:members": {
+    "@set": [
+      {
+        "@type": "consortia:member",
+        "consortia:dates": [
+          {
+            "from": 2016,
+            "phase": "CMIP6",
+            "to": 2022
+          }
+        ],
+        "consortia:institution": {
+          "@id": "mip-cmor-tables:organisations/institutions/university"
+        },
+        "consortia:membership-type": "prior"
+      },
+      {
+        "@type": "consortia:member",
+        "consortia:dates": [
+          {
+            "from": 2016,
+            "phase": "CMIP6",
+            "to": 2022
+          }
+        ],
+        "consortia:institution": {
+          "@id": "mip-cmor-tables:organisations/institutions/scripps"
+        },
+        "consortia:membership-type": "prior"
+      }
+    ]
+  },
+  "consortium:url": ""
 }

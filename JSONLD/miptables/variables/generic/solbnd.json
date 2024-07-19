@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/solbnd",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "TOA Solar Irradiance for Each Band",
-    "variable:out_name": "solbnd",
-    "variable:positive": "",
-    "variable:standard_name": "toa_incoming_shortwave_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/solbnd",
+  "@type": "variable-generic",
+  "variable:long_name": "TOA Solar Irradiance for Each Band",
+  "variable:out_name": "solbnd",
+  "variable:positive": "",
+  "variable:standard_name": "toa_incoming_shortwave_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

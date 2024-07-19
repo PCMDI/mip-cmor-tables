@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/obmonlev-ppcalc",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "e708aca6-aa7f-11e6-9a4a-5404a60d96b5",
-        "mip_table": "Emon",
-        "variable_name": "ppcalc"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/obmonlev-ppcalc",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "e708aca6-aa7f-11e6-9a4a-5404a60d96b5",
+    "mip_table": "Emon",
+    "variable_name": "ppcalc"
+  }
 }

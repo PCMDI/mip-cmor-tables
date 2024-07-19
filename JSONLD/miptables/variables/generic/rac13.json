@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/rac13",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Carbon-13 Mass Flux into Atmosphere Due to Autotrophic (Plant) Respiration on Land [kgC m-2 s-1]",
-    "variable:out_name": "rac13",
-    "variable:positive": "",
-    "variable:standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_13C_due_to_plant_respiration",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/rac13",
+  "@type": "variable-generic",
+  "variable:long_name": "Carbon-13 Mass Flux into Atmosphere Due to Autotrophic (Plant) Respiration on Land [kgC m-2 s-1]",
+  "variable:out_name": "rac13",
+  "variable:positive": "",
+  "variable:standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_13C_due_to_plant_respiration",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

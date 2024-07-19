@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/hus19",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Specific Humidity",
-    "variable:out_name": "hus19",
-    "variable:positive": "",
-    "variable:standard_name": "specific_humidity",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/hus19",
+  "@type": "variable-generic",
+  "variable:long_name": "Specific Humidity",
+  "variable:out_name": "hus19",
+  "variable:positive": "",
+  "variable:standard_name": "specific_humidity",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

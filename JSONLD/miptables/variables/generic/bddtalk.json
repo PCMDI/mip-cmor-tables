@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/bddtalk",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Rate of Change of Alkalinity Due to Biological Activity",
-    "variable:out_name": "bddtalk",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_sea_water_alkalinity_expressed_as_mole_equivalent_due_to_biological_processes",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-3",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/bddtalk",
+  "@type": "variable-generic",
+  "variable:long_name": "Rate of Change of Alkalinity Due to Biological Activity",
+  "variable:out_name": "bddtalk",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_sea_water_alkalinity_expressed_as_mole_equivalent_due_to_biological_processes",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-3",
+    "s-1"
+  ]
 }

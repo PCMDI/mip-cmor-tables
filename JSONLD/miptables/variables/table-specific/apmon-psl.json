@@ -1,29 +1,29 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/apmon-psl",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/psl"
-    },
-    "variable:branded_variable_name": "psl_mon-ap-tav-z0-hxy",
-    "variable:comment": "Sea Level Pressure",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/atmos"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/apmon-psl"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": 106000,
-        "ok_min_mean_abs": 96000,
-        "valid_max": 109000,
-        "valid_min": 91000
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/apmon-psl",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "psl_mon-ap-tav-z0-hxy",
+  "variable:comment": "Sea Level Pressure",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/psl"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/atmos"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/apmon-psl"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": 106000,
+    "ok_min_mean_abs": 96000,
+    "valid_max": 109000,
+    "valid_min": 91000
+  }
 }

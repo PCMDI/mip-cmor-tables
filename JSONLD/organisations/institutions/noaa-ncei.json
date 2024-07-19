@@ -1,37 +1,37 @@
 {
-    "@id": "mip-cmor-tables:organisations/institutions/noaa-ncei",
-    "@type": "cmip:institution",
-    "institution:cmip_acronym": "NOAA-NCEI",
-    "institution:ror": "04r0wrp59",
-    "institution:name": "NOAA National Centers for Environmental Information",
-    "institution:url": [
-        "https://www.ncei.noaa.gov"
-    ],
-    "institution:established": 1934,
-    "institution:type": "Government",
-    "institution:labels": [],
-    "institution:aliases": [
-        "National Climatic Data Center",
-        "United States National Environmental Satellites, Data, and Information Service National Centers for Environmental Information",
-        "United States National Centers for Environmental Information",
-        "U.S. National Centers for Environmental Information",
-        "National Centers for Environmental Information"
-    ],
-    "institution:acronyms": [
-        "NCEI",
-        "NOAA NCEI"
-    ],
-    "institution:location": {
-        "@id": "mip-cmor-tables:organisations/institutions/location/04r0wrp59",
-        "@type": "institution:location",
-        "@nest": {
-            "location:lat": 35.60095,
-            "location:lon": -82.55402,
-            "location:city": "Asheville",
-            "location:country": [
-                "United States",
-                "US"
-            ]
-        }
-    }
+  "@id": "mip-cmor-tables:organisations/institutions/noaa-ncei",
+  "@type": "institution",
+  "acronyms": [
+    "NCEI",
+    "NOAA NCEI"
+  ],
+  "aliases": [
+    "National Climatic Data Center",
+    "United States National Environmental Satellites, Data, and Information Service National Centers for Environmental Information",
+    "United States National Centers for Environmental Information",
+    "U.S. National Centers for Environmental Information",
+    "National Centers for Environmental Information"
+  ],
+  "cmip-acronym": "NOAA-NCEI",
+  "established": 1934,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/04r0wrp59",
+    "@nest": {
+      "city": "Asheville",
+      "country": [
+        "United States",
+        "US"
+      ],
+      "lat": 35.60095,
+      "lon": -82.55402
+    },
+    "@type": "location"
+  },
+  "name": "NOAA National Centers for Environmental Information",
+  "ror": "04r0wrp59",
+  "type": "Government",
+  "url": [
+    "https://www.ncei.noaa.gov"
+  ]
 }

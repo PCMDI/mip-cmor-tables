@@ -1,30 +1,30 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmonclimlev-dispkevfo",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/dispkevfo"
-    },
-    "variable:branded_variable_name": "dispkevfo_mon-op-tcla-l-hxy",
-    "variable:comment": "Friction, leading to the dissipation of kinetic energy, arises in ocean models as a result of the viscosity of sea water.  Generally, the  lateral (xy) viscosity is given a large value to maintain the numerical stability of the model.  In contrast, the vertical viscosity is usually much smaller. The specification of a physical process by the phrase due_to_process means that the quantity named is a  single term in a sum of terms which together compose the general quantity  named by omitting the phrase.",
-    "variable:frequency": "monC",
-    "variable:dimensions": [
-        "longitude",
-        "latitude",
-        "olevel",
-        "time2"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocean"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/opmonclimlev-dispkevfo"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/opmonclimlev-dispkevfo",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "dispkevfo_mon-op-tcla-l-hxy",
+  "variable:comment": "Friction, leading to the dissipation of kinetic energy, arises in ocean models as a result of the viscosity of sea water.  Generally, the  lateral (xy) viscosity is given a large value to maintain the numerical stability of the model.  In contrast, the vertical viscosity is usually much smaller. The specification of a physical process by the phrase due_to_process means that the quantity named is a  single term in a sum of terms which together compose the general quantity  named by omitting the phrase.",
+  "variable:dimensions": [
+    "longitude",
+    "latitude",
+    "olevel",
+    "time2"
+  ],
+  "variable:frequency": "monC",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/dispkevfo"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocean"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/opmonclimlev-dispkevfo"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

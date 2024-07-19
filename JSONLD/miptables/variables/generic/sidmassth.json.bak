@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/sidmassth",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea-Ice Mass Change from Thermodynamics",
+    "variable:out_name": "sidmassth",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_sea_ice_amount_due_to_sea_ice_thermodynamics",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

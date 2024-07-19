@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tendlibmassbf",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Basal Mass Balance Flux",
-    "variable:out_name": "tendlibmassbf",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_land_ice_mass_due_to_basal_mass_balance",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tendlibmassbf",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Basal Mass Balance Flux",
+  "variable:out_name": "tendlibmassbf",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_land_ice_mass_due_to_basal_mass_balance",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "s-1"
+  ]
 }

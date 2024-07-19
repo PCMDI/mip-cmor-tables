@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/litempbotgr",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Basal Temperature of Grounded Ice Sheet",
-    "variable:out_name": "litempbotgr",
-    "variable:positive": "",
-    "variable:standard_name": "land_ice_basal_temperature",
-    "variable:type": "real",
-    "variable:units": [
-        "K"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/litempbotgr",
+  "@type": "variable-generic",
+  "variable:long_name": "Basal Temperature of Grounded Ice Sheet",
+  "variable:out_name": "litempbotgr",
+  "variable:positive": "",
+  "variable:standard_name": "land_ice_basal_temperature",
+  "variable:type": "real",
+  "variable:units": [
+    "K"
+  ]
 }

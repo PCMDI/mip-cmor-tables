@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/dryso2",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Dry Deposition Rate of SO2",
+    "variable:out_name": "dryso2",
+    "variable:positive": "",
+    "variable:standard_name": "minus_tendency_of_atmosphere_mass_content_of_sulfur_dioxide_due_to_dry_deposition",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2",
+        "s-1"
+    ]
+}

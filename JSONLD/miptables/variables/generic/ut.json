@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/ut",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Product of Air Temperature and Eastward Wind",
-    "variable:out_name": "ut",
-    "variable:positive": "",
-    "variable:standard_name": "product_of_eastward_wind_and_air_temperature",
-    "variable:type": "real",
-    "variable:units": [
-        "K",
-        "m",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/ut",
+  "@type": "variable-generic",
+  "variable:long_name": "Product of Air Temperature and Eastward Wind",
+  "variable:out_name": "ut",
+  "variable:positive": "",
+  "variable:standard_name": "product_of_eastward_wind_and_air_temperature",
+  "variable:type": "real",
+  "variable:units": [
+    "K",
+    "m",
+    "s-1"
+  ]
 }

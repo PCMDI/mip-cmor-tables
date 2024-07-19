@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/ocontempmint",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Depth Integral of Product of Sea Water Density and Conservative Temperature",
-    "variable:out_name": "ocontempmint",
-    "variable:positive": "",
-    "variable:standard_name": "integral_wrt_depth_of_product_of_conservative_temperature_and_sea_water_density",
-    "variable:type": "real",
-    "variable:units": [
-        "degC",
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/ocontempmint",
+  "@type": "variable-generic",
+  "variable:long_name": "Depth Integral of Product of Sea Water Density and Conservative Temperature",
+  "variable:out_name": "ocontempmint",
+  "variable:positive": "",
+  "variable:standard_name": "integral_wrt_depth_of_product_of_conservative_temperature_and_sea_water_density",
+  "variable:type": "real",
+  "variable:units": [
+    "degC",
+    "kg",
+    "m-2"
+  ]
 }

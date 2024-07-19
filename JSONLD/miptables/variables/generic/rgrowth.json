@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/rgrowth",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Total Autotrophic Respiration on Land as Carbon Mass Flux [kgC m-2 s-1]",
-    "variable:out_name": "rGrowth",
-    "variable:positive": "up",
-    "variable:standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration_for_biomass_growth",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/rgrowth",
+  "@type": "variable-generic",
+  "variable:long_name": "Total Autotrophic Respiration on Land as Carbon Mass Flux [kgC m-2 s-1]",
+  "variable:out_name": "rGrowth",
+  "variable:positive": "up",
+  "variable:standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration_for_biomass_growth",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

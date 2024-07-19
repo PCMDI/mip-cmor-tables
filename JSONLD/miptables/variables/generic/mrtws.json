@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mrtws",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Terrestrial Water Storage",
-    "variable:out_name": "mrtws",
-    "variable:positive": "",
-    "variable:standard_name": "land_water_amount",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mrtws",
+  "@type": "variable-generic",
+  "variable:long_name": "Terrestrial Water Storage",
+  "variable:out_name": "mrtws",
+  "variable:positive": "",
+  "variable:standard_name": "land_water_amount",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

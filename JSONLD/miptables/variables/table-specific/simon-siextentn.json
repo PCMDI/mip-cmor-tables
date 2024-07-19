@@ -1,27 +1,27 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/simon-siextentn",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/siextentn"
-    },
-    "variable:branded_variable_name": "siextentn_mon-si-tav-z0-hm",
-    "variable:comment": "Total area of all Northern-Hemisphere grid cells that are covered by at least 15 % areal fraction of sea ice",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/seaIce"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/simon-siextentn"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/simon-siextentn",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "siextentn_mon-si-tav-z0-hm",
+  "variable:comment": "Total area of all Northern-Hemisphere grid cells that are covered by at least 15 % areal fraction of sea ice",
+  "variable:dimensions": [
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/siextentn"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/seaice"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/simon-siextentn"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

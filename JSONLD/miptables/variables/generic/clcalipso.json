@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/clcalipso",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "CALIPSO Percentage Cloud Cover",
-    "variable:out_name": "clcalipso",
-    "variable:positive": "",
-    "variable:standard_name": "cloud_area_fraction_in_atmosphere_layer",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/clcalipso",
+  "@type": "variable-generic",
+  "variable:long_name": "CALIPSO Percentage Cloud Cover",
+  "variable:out_name": "clcalipso",
+  "variable:positive": "",
+  "variable:standard_name": "cloud_area_fraction_in_atmosphere_layer",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

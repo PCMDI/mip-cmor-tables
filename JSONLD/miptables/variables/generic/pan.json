@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/pan",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "PAN Volume Mixing Ratio",
-    "variable:out_name": "pan",
-    "variable:positive": "",
-    "variable:standard_name": "mole_fraction_of_peroxyacetyl_nitrate_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "mol-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/pan",
+  "@type": "variable-generic",
+  "variable:long_name": "PAN Volume Mixing Ratio",
+  "variable:out_name": "pan",
+  "variable:positive": "",
+  "variable:standard_name": "mole_fraction_of_peroxyacetyl_nitrate_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "mol-1"
+  ]
 }

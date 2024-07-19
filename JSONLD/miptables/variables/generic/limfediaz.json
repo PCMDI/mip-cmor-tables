@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/limfediaz",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Iron Limitation of Diazotrophs",
-    "variable:out_name": "limfediaz",
-    "variable:positive": "",
-    "variable:standard_name": "iron_growth_limitation_of_diazotrophic_phytoplankton",
-    "variable:type": "real",
-    "variable:units": [
-        "1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/limfediaz",
+  "@type": "variable-generic",
+  "variable:long_name": "Iron Limitation of Diazotrophs",
+  "variable:out_name": "limfediaz",
+  "variable:positive": "",
+  "variable:standard_name": "iron_growth_limitation_of_diazotrophic_phytoplankton",
+  "variable:type": "real",
+  "variable:units": [
+    "1"
+  ]
 }

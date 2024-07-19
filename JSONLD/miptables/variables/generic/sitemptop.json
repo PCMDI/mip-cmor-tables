@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sitemptop",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Surface Temperature of Sea Ice",
-    "variable:out_name": "sitemptop",
-    "variable:positive": "",
-    "variable:standard_name": "sea_ice_surface_temperature",
-    "variable:type": "real",
-    "variable:units": [
-        "K"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sitemptop",
+  "@type": "variable-generic",
+  "variable:long_name": "Surface Temperature of Sea Ice",
+  "variable:out_name": "sitemptop",
+  "variable:positive": "",
+  "variable:standard_name": "sea_ice_surface_temperature",
+  "variable:type": "real",
+  "variable:units": [
+    "K"
+  ]
 }

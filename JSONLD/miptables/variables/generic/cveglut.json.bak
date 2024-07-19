@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/cveglut",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Carbon in Vegetation on Land-Use Tiles",
+    "variable:out_name": "cVegLut",
+    "variable:positive": "",
+    "variable:standard_name": "vegetation_carbon_content",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

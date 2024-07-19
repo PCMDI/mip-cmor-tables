@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/ho2",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "HO2 Volume Mixing Ratio",
-    "variable:out_name": "ho2",
-    "variable:positive": "",
-    "variable:standard_name": "mole_fraction_of_hydroperoxyl_radical_in_air",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "mol-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/ho2",
+  "@type": "variable-generic",
+  "variable:long_name": "HO2 Volume Mixing Ratio",
+  "variable:out_name": "ho2",
+  "variable:positive": "",
+  "variable:standard_name": "mole_fraction_of_hydroperoxyl_radical_in_air",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "mol-1"
+  ]
 }

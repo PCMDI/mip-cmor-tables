@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/litempbotfl",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Basal Temperature of Floating Ice Shelf",
-    "variable:out_name": "litempbotfl",
-    "variable:positive": "",
-    "variable:standard_name": "land_ice_basal_temperature",
-    "variable:type": "real",
-    "variable:units": [
-        "K"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/litempbotfl",
+  "@type": "variable-generic",
+  "variable:long_name": "Basal Temperature of Floating Ice Shelf",
+  "variable:out_name": "litempbotfl",
+  "variable:positive": "",
+  "variable:standard_name": "land_ice_basal_temperature",
+  "variable:type": "real",
+  "variable:units": [
+    "K"
+  ]
 }

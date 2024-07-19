@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/vmrox",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Mole Fraction of Odd Oxygen (O, O3 and O1D)",
+    "variable:out_name": "vmrox",
+    "variable:positive": "",
+    "variable:standard_name": "mole_fraction_of_ox_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "mol-1"
+    ]
+}

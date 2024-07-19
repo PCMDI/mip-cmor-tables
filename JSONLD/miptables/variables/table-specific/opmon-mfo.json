@@ -1,28 +1,28 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/opmon-mfo",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/mfo"
-    },
-    "variable:branded_variable_name": "mfo_mon-op-tav-z0-ht",
-    "variable:comment": "Transport across_line means that which crosses a particular line on the Earth's surface; formally this means the integral along the line of the normal component of the transport.",
-    "variable:frequency": "mon",
-    "variable:dimensions": [
-        "oline",
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/ocean"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/opmon-mfo"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/opmon-mfo",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "mfo_mon-op-tav-z0-ht",
+  "variable:comment": "Transport across_line means that which crosses a particular line on the Earth's surface; formally this means the integral along the line of the normal component of the transport.",
+  "variable:dimensions": [
+    "oline",
+    "time"
+  ],
+  "variable:frequency": "mon",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/mfo"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/ocean"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/opmon-mfo"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

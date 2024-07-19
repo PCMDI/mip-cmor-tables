@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/rsutcs4co2",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "TOA Outgoing Clear-Sky Shortwave Radiation 4XCO2 Atmosphere",
-    "variable:out_name": "rsutcs4co2",
-    "variable:positive": "up",
-    "variable:standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/rsutcs4co2",
+  "@type": "variable-generic",
+  "variable:long_name": "TOA Outgoing Clear-Sky Shortwave Radiation 4XCO2 Atmosphere",
+  "variable:out_name": "rsutcs4co2",
+  "variable:positive": "up",
+  "variable:standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

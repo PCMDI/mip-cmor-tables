@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/ch3coch3",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "CH3COCH3 Volume Mixing Ratio",
+    "variable:out_name": "ch3coch3",
+    "variable:positive": "",
+    "variable:standard_name": "mole_fraction_of_acetone_in_air",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "mol-1"
+    ]
+}

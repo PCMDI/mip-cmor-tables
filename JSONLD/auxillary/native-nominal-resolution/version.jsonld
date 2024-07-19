@@ -1,0 +1,68 @@
+[
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/native-nominal-resolution/250km.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/auxillary/native-nominal-resolution/250km.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-07-18T23:56:52+01:00",
+        "version:commit": {
+            "hash": "632bd4bf028fea90839b0fdd41c1c88dbfe49ac9",
+            "message": "native nominal",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:auxillary/native-nominal-resolution/250km"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/native-nominal-resolution/100km.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/auxillary/native-nominal-resolution/100km.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-07-18T23:56:52+01:00",
+        "version:commit": {
+            "hash": "632bd4bf028fea90839b0fdd41c1c88dbfe49ac9",
+            "message": "native nominal",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:auxillary/native-nominal-resolution/100km"
+        }
+    },
+    {
+        "@id": "../../https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/native-nominal-resolution/50km.json",
+        "@type": "version",
+        "version:file": "../../JSONLD/auxillary/native-nominal-resolution/50km.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-07-18T23:56:52+01:00",
+        "version:commit": {
+            "hash": "632bd4bf028fea90839b0fdd41c1c88dbfe49ac9",
+            "message": "native nominal",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "../../mip-cmor-tables:auxillary/native-nominal-resolution/50km"
+        }
+    }
+]

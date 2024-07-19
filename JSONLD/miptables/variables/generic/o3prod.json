@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/o3prod",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "O3 Production Rate",
-    "variable:out_name": "o3prod",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_atmosphere_mole_concentration_of_ozone_due_to_chemical_production",
-    "variable:type": "real",
-    "variable:units": [
-        "mol",
-        "m-3",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/o3prod",
+  "@type": "variable-generic",
+  "variable:long_name": "O3 Production Rate",
+  "variable:out_name": "o3prod",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_atmosphere_mole_concentration_of_ozone_due_to_chemical_production",
+  "variable:type": "real",
+  "variable:units": [
+    "mol",
+    "m-3",
+    "s-1"
+  ]
 }

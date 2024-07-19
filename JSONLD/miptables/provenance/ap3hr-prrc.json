@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/ap3hr-prrc",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "7b1a4246-a220-11e6-a33f-ac72891c3257",
-        "mip_table": "E3hr",
-        "variable_name": "prrc"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/ap3hr-prrc",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "7b1a4246-a220-11e6-a33f-ac72891c3257",
+    "mip_table": "E3hr",
+    "variable_name": "prrc"
+  }
 }

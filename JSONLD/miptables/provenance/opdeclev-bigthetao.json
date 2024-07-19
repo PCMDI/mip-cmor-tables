@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opdeclev-bigthetao",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "134c7db2-1026-11e8-9d87-1c4d70487308",
-        "mip_table": "Odec",
-        "variable_name": "bigthetao"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opdeclev-bigthetao",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "134c7db2-1026-11e8-9d87-1c4d70487308",
+    "mip_table": "Odec",
+    "variable_name": "bigthetao"
+  }
 }

@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/dpco2nat",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Natural Delta CO2 Partial Pressure ",
-    "variable:out_name": "dpco2nat",
-    "variable:positive": "",
-    "variable:standard_name": "surface_carbon_dioxide_natural_analogue_partial_pressure_difference_between_sea_water_and_air",
-    "variable:type": "real",
-    "variable:units": [
-        "Pa"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/dpco2nat",
+  "@type": "variable-generic",
+  "variable:long_name": "Natural Delta CO2 Partial Pressure ",
+  "variable:out_name": "dpco2nat",
+  "variable:positive": "",
+  "variable:standard_name": "surface_carbon_dioxide_natural_analogue_partial_pressure_difference_between_sea_water_and_air",
+  "variable:type": "real",
+  "variable:units": [
+    "Pa"
+  ]
 }

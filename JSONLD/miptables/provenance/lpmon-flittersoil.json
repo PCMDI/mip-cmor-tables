@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpmon-flittersoil",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "baad95d4-e5dd-11e5-8482-ac72891c3257",
-        "mip_table": "Lmon",
-        "variable_name": "fLitterSoil"
-    },
-    "CMIP5": {
-        "mip_table": "Lmon",
-        "variable_name": "fLitterSoil"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpmon-flittersoil",
+  "@type": "provenance",
+  "cmip5": {
+    "mip_table": "Lmon",
+    "variable_name": "fLitterSoil"
+  },
+  "cmip6": {
+    "dreq_uid": "baad95d4-e5dd-11e5-8482-ac72891c3257",
+    "mip_table": "Lmon",
+    "variable_name": "fLitterSoil"
+  }
 }

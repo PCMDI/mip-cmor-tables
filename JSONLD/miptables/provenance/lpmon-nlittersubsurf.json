@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/lpmon-nlittersubsurf",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "bcc6ffa2-b8a7-11e6-b7f0-ac72891c3257",
-        "mip_table": "Emon",
-        "variable_name": "nLitterSubSurf"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/lpmon-nlittersubsurf",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "bcc6ffa2-b8a7-11e6-b7f0-ac72891c3257",
+    "mip_table": "Emon",
+    "variable_name": "nLitterSubSurf"
+  }
 }

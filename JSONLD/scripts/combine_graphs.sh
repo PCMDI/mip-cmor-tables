@@ -14,7 +14,7 @@ fi
 OUTPUT_FILE="$1.json"
 MINIFIED_OUTPUT_FILE="${OUTPUT_FILE%.*}.min.json"
 SEARCH_DIR="$2"
-FILE_NAME="$3.json"
+FILE_NAME="$3.jsonld"
 shift 3
 SKIP_DIRS=("$@")
 

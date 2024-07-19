@@ -1,0 +1,13 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/nproduct",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Nitrogen Mass in Products of Land-Use Change",
+    "variable:out_name": "nProduct",
+    "variable:positive": "",
+    "variable:standard_name": "nitrogen_mass_content_of_forestry_and_agricultural_products",
+    "variable:type": "real",
+    "variable:units": [
+        "kg",
+        "m-2"
+    ]
+}

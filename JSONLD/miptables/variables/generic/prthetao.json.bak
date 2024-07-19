@@ -1,0 +1,12 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/prthetao",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Sea Water Redistributed Potential Temperature",
+    "variable:out_name": "prthetao",
+    "variable:positive": "",
+    "variable:standard_name": "sea_water_redistributed_potential_temperature",
+    "variable:type": "real",
+    "variable:units": [
+        "degC"
+    ]
+}

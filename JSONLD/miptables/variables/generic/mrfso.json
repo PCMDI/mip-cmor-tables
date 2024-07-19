@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mrfso",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Soil Frozen Water Content",
-    "variable:out_name": "mrfso",
-    "variable:positive": "",
-    "variable:standard_name": "soil_frozen_water_content",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mrfso",
+  "@type": "variable-generic",
+  "variable:long_name": "Soil Frozen Water Content",
+  "variable:out_name": "mrfso",
+  "variable:positive": "",
+  "variable:standard_name": "soil_frozen_water_content",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2"
+  ]
 }

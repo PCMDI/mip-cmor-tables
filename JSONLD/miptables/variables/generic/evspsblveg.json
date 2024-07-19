@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/evspsblveg",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Evaporation from Canopy",
-    "variable:out_name": "evspsblveg",
-    "variable:positive": "",
-    "variable:standard_name": "water_evaporation_flux_from_canopy",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/evspsblveg",
+  "@type": "variable-generic",
+  "variable:long_name": "Evaporation from Canopy",
+  "variable:out_name": "evspsblveg",
+  "variable:positive": "",
+  "variable:standard_name": "water_evaporation_flux_from_canopy",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

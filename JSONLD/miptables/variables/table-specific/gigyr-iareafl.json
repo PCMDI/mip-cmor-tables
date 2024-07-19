@@ -1,27 +1,27 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/table_specific/gigyr-iareafl",
-    "@type": "cmip:table-variable",
-    "variable:generic": {
-        "@id": "mip-cmor-tables:miptables/variables/generic/iareafl"
-    },
-    "variable:branded_variable_name": "iareafl_yr-li-tav-z0-hmG",
-    "variable:comment": "Total area of the floating ice shelves (the component of ice sheet that flows over ocean)",
-    "variable:frequency": "yr",
-    "variable:dimensions": [
-        "time"
-    ],
-    "variable:modelling_realms": [
-        {
-            "@id": "mip-cmor-tables:modellingrealms/landIce"
-        }
-    ],
-    "variable:provenance": {
-        "@id": "mip-cmor-tables:miptables/provenance/gigyr-iareafl"
-    },
-    "variable:validation": {
-        "ok_max_mean_abs": "",
-        "ok_min_mean_abs": "",
-        "valid_max": "",
-        "valid_min": ""
+  "@id": "mip-cmor-tables:miptables/variables/table-specific/gigyr-iareafl",
+  "@type": "table-variable",
+  "variable:branded_variable_name": "iareafl_yr-li-tav-z0-hmG",
+  "variable:comment": "Total area of the floating ice shelves (the component of ice sheet that flows over ocean)",
+  "variable:dimensions": [
+    "time"
+  ],
+  "variable:frequency": "yr",
+  "variable:generic": {
+    "@id": "mip-cmor-tables:miptables/variables/generic/iareafl"
+  },
+  "variable:modelling_realms": [
+    {
+      "@id": "mip-cmor-tables:modellingrealms/landice"
     }
+  ],
+  "variable:provenance": {
+    "@id": "mip-cmor-tables:miptables/provenance/gigyr-iareafl"
+  },
+  "variable:validation": {
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "valid_max": "",
+    "valid_min": ""
+  }
 }

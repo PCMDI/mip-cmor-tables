@@ -1,0 +1,14 @@
+{
+    "@id": "mip-cmor-tables:miptables/variables/generic/intparag",
+    "@type": "cmip:variable-generic",
+    "variable:long_name": "Aragonite Production",
+    "variable:out_name": "intparag",
+    "variable:positive": "",
+    "variable:standard_name": "tendency_of_ocean_mole_content_of_aragonite_expressed_as_carbon_due_to_biological_production",
+    "variable:type": "real",
+    "variable:units": [
+        "mol",
+        "m-2",
+        "s-1"
+    ]
+}

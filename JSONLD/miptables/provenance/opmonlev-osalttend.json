@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/opmonlev-osalttend",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "8b9e2050-4a5b-11e6-9cd2-ac72891c3257",
-        "mip_table": "Emon",
-        "variable_name": "osalttend"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/opmonlev-osalttend",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "8b9e2050-4a5b-11e6-9cd2-ac72891c3257",
+    "mip_table": "Emon",
+    "variable_name": "osalttend"
+  }
 }

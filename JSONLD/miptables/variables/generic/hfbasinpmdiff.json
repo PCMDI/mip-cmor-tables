@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/hfbasinpmdiff",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Northward Ocean Heat Transport Due to Parameterized Mesoscale Diffusion",
-    "variable:out_name": "hfbasinpmdiff",
-    "variable:positive": "",
-    "variable:standard_name": "northward_ocean_heat_transport_due_to_parameterized_mesoscale_eddy_diffusion",
-    "variable:type": "real",
-    "variable:units": [
-        "W"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/hfbasinpmdiff",
+  "@type": "variable-generic",
+  "variable:long_name": "Northward Ocean Heat Transport Due to Parameterized Mesoscale Diffusion",
+  "variable:out_name": "hfbasinpmdiff",
+  "variable:positive": "",
+  "variable:standard_name": "northward_ocean_heat_transport_due_to_parameterized_mesoscale_eddy_diffusion",
+  "variable:type": "real",
+  "variable:units": [
+    "W"
+  ]
 }

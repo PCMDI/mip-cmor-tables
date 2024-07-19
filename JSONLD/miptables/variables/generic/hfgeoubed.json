@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/hfgeoubed",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Geothermal Heat Flux Beneath Land Ice",
-    "variable:out_name": "hfgeoubed",
-    "variable:positive": "",
-    "variable:standard_name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
-    "variable:type": "real",
-    "variable:units": [
-        "W",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/hfgeoubed",
+  "@type": "variable-generic",
+  "variable:long_name": "Geothermal Heat Flux Beneath Land Ice",
+  "variable:out_name": "hfgeoubed",
+  "variable:positive": "",
+  "variable:standard_name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
+  "variable:type": "real",
+  "variable:units": [
+    "W",
+    "m-2"
+  ]
 }

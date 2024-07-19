@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apday-hursmin",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "5a0711f6-c77d-11e6-8a33-5404a60d96b5",
-        "mip_table": "day",
-        "variable_name": "hursmin"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apday-hursmin",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "5a0711f6-c77d-11e6-8a33-5404a60d96b5",
+    "mip_table": "day",
+    "variable_name": "hursmin"
+  }
 }

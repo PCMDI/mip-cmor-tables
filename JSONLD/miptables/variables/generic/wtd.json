@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/wtd",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Water Table Depth",
-    "variable:out_name": "wtd",
-    "variable:positive": "",
-    "variable:standard_name": "water_table_depth",
-    "variable:type": "real",
-    "variable:units": [
-        "m"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/wtd",
+  "@type": "variable-generic",
+  "variable:long_name": "Water Table Depth",
+  "variable:out_name": "wtd",
+  "variable:positive": "",
+  "variable:standard_name": "water_table_depth",
+  "variable:type": "real",
+  "variable:units": [
+    "m"
+  ]
 }

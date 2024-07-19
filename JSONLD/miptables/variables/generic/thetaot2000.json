@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/thetaot2000",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Depth Average Potential Temperature of Upper 2000m",
-    "variable:out_name": "thetaot2000",
-    "variable:positive": "",
-    "variable:standard_name": "sea_water_potential_temperature",
-    "variable:type": "real",
-    "variable:units": [
-        "degC"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/thetaot2000",
+  "@type": "variable-generic",
+  "variable:long_name": "Depth Average Potential Temperature of Upper 2000m",
+  "variable:out_name": "thetaot2000",
+  "variable:positive": "",
+  "variable:standard_name": "sea_water_potential_temperature",
+  "variable:type": "real",
+  "variable:units": [
+    "degC"
+  ]
 }

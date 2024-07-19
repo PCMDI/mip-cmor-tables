@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/tnhusd",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Tendency of Specific Humidity Due to Numerical Diffusion",
-    "variable:out_name": "tnhusd",
-    "variable:positive": "",
-    "variable:standard_name": "tendency_of_specific_humidity_due_to_diffusion",
-    "variable:type": "real",
-    "variable:units": [
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/tnhusd",
+  "@type": "variable-generic",
+  "variable:long_name": "Tendency of Specific Humidity Due to Numerical Diffusion",
+  "variable:out_name": "tnhusd",
+  "variable:positive": "",
+  "variable:standard_name": "tendency_of_specific_humidity_due_to_diffusion",
+  "variable:type": "real",
+  "variable:units": [
+    "s-1"
+  ]
 }

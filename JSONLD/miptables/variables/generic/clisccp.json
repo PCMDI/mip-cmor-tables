@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/clisccp",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "ISCCP Cloud Area Percentage",
-    "variable:out_name": "clisccp",
-    "variable:positive": "",
-    "variable:standard_name": "cloud_area_fraction_in_atmosphere_layer",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/clisccp",
+  "@type": "variable-generic",
+  "variable:long_name": "ISCCP Cloud Area Percentage",
+  "variable:out_name": "clisccp",
+  "variable:positive": "",
+  "variable:standard_name": "cloud_area_fraction_in_atmosphere_layer",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/prveg",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Precipitation onto Canopy",
-    "variable:out_name": "prveg",
-    "variable:positive": "",
-    "variable:standard_name": "precipitation_flux_onto_canopy",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/prveg",
+  "@type": "variable-generic",
+  "variable:long_name": "Precipitation onto Canopy",
+  "variable:out_name": "prveg",
+  "variable:positive": "",
+  "variable:standard_name": "precipitation_flux_onto_canopy",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

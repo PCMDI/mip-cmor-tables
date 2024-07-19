@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/mc",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Convective Mass Flux",
-    "variable:out_name": "mc",
-    "variable:positive": "up",
-    "variable:standard_name": "atmosphere_net_upward_convective_mass_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/mc",
+  "@type": "variable-generic",
+  "variable:long_name": "Convective Mass Flux",
+  "variable:out_name": "mc",
+  "variable:positive": "up",
+  "variable:standard_name": "atmosphere_net_upward_convective_mass_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/apmonlev-evu",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "a94c9fc0-817c-11e6-a4e2-5404a60d96b5",
-        "mip_table": "CFmon",
-        "variable_name": "evu"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/apmonlev-evu",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "a94c9fc0-817c-11e6-a4e2-5404a60d96b5",
+    "mip_table": "CFmon",
+    "variable_name": "evu"
+  }
 }

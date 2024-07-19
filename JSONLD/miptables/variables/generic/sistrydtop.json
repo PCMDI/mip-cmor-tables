@@ -1,13 +1,13 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sistrydtop",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Y-Component of Atmospheric Stress on Sea Ice",
-    "variable:out_name": "sistrydtop",
-    "variable:positive": "down",
-    "variable:standard_name": "surface_downward_y_stress",
-    "variable:type": "real",
-    "variable:units": [
-        "N",
-        "m-2"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sistrydtop",
+  "@type": "variable-generic",
+  "variable:long_name": "Y-Component of Atmospheric Stress on Sea Ice",
+  "variable:out_name": "sistrydtop",
+  "variable:positive": "down",
+  "variable:standard_name": "surface_downward_y_stress",
+  "variable:type": "real",
+  "variable:units": [
+    "N",
+    "m-2"
+  ]
 }

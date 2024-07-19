@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/clcalipso2",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "CALIPSO Cloud Cover Percentage Undetected by CloudSat (as Percentage of Area Covered)",
-    "variable:out_name": "clcalipso2",
-    "variable:positive": "",
-    "variable:standard_name": "cloud_area_fraction_in_atmosphere_layer",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/clcalipso2",
+  "@type": "variable-generic",
+  "variable:long_name": "CALIPSO Cloud Cover Percentage Undetected by CloudSat (as Percentage of Area Covered)",
+  "variable:out_name": "clcalipso2",
+  "variable:positive": "",
+  "variable:standard_name": "cloud_area_fraction_in_atmosphere_layer",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }

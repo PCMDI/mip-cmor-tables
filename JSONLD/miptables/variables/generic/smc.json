@@ -1,14 +1,14 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/smc",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Shallow Convective Mass Flux",
-    "variable:out_name": "smc",
-    "variable:positive": "up",
-    "variable:standard_name": "atmosphere_net_upward_shallow_convective_mass_flux",
-    "variable:type": "real",
-    "variable:units": [
-        "kg",
-        "m-2",
-        "s-1"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/smc",
+  "@type": "variable-generic",
+  "variable:long_name": "Shallow Convective Mass Flux",
+  "variable:out_name": "smc",
+  "variable:positive": "up",
+  "variable:standard_name": "atmosphere_net_upward_shallow_convective_mass_flux",
+  "variable:type": "real",
+  "variable:units": [
+    "kg",
+    "m-2",
+    "s-1"
+  ]
 }

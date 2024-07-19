@@ -1,9 +1,9 @@
 {
-    "@id": "mip-cmor-tables:miptables/provenance/limon-snicefreezis",
-    "@type": "cmip:provenance",
-    "CMIP6": {
-        "dreq_uid": "8120f248-bf17-11e6-b0d8-ac72891c3257",
-        "mip_table": "LImon",
-        "variable_name": "snicefreezIs"
-    }
+  "@id": "mip-cmor-tables:miptables/provenance/limon-snicefreezis",
+  "@type": "provenance",
+  "cmip6": {
+    "dreq_uid": "8120f248-bf17-11e6-b0d8-ac72891c3257",
+    "mip_table": "LImon",
+    "variable_name": "snicefreezIs"
+  }
 }

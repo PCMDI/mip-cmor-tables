@@ -1,12 +1,12 @@
 {
-    "@id": "mip-cmor-tables:miptables/variables/generic/sftflf",
-    "@type": "cmip:variable-generic",
-    "variable:long_name": "Floating Ice Shelf Area Percentage",
-    "variable:out_name": "sftflf",
-    "variable:positive": "",
-    "variable:standard_name": "floating_ice_shelf_area_fraction",
-    "variable:type": "real",
-    "variable:units": [
-        "%"
-    ]
+  "@id": "mip-cmor-tables:miptables/variables/generic/sftflf",
+  "@type": "variable-generic",
+  "variable:long_name": "Floating Ice Shelf Area Percentage",
+  "variable:out_name": "sftflf",
+  "variable:positive": "",
+  "variable:standard_name": "floating_ice_shelf_area_fraction",
+  "variable:type": "real",
+  "variable:units": [
+    "%"
+  ]
 }
