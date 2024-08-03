@@ -7,10 +7,34 @@
     "ldroot": "/JSONLD/auxillary/realm",
     "@graph": [
         {
+            "@id": "mip-cmor-tables:auxillary/realm/aerosol",
+            "@type": "mip:realm",
+            "realm:description": "Aerosol",
+            "realm:name": "aerosol"
+        },
+        {
             "@id": "mip-cmor-tables:auxillary/realm/seaice",
             "@type": "mip:realm",
             "realm:description": "Sea Ice",
             "realm:name": "seaIce"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/realm/landice",
+            "@type": "mip:realm",
+            "realm:description": "Land Ice",
+            "realm:name": "landIce"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/realm/ocean",
+            "@type": "mip:realm",
+            "realm:description": "Ocean",
+            "realm:name": "ocean"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/realm/ocnbgchem",
+            "@type": "mip:realm",
+            "realm:description": "Ocean Biogeochemistry",
+            "realm:name": "ocnBgchem"
         },
         {
             "@id": "mip-cmor-tables:auxillary/realm/land",
@@ -19,36 +43,26 @@
             "realm:name": "land"
         },
         {
-            "@id": "mip-cmor-tables:auxillary/realm/aerosol",
-            "@type": "mip:realm",
-            "realm:description": "Aerosol",
-            "realm:name": "aerosol"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/realm/atmos",
-            "@type": "mip:realm",
-            "realm:description": "Atmosphere",
-            "realm:name": "atmos"
-        },
-        {
             "@id": "mip-cmor-tables:auxillary/realm/atmoschem",
             "@type": "mip:realm",
             "realm:description": "Atmospheric Chemistry",
             "realm:name": "atmosChem"
         },
         {
-            "@id": "mip-cmor-tables:auxillary/realm/ocean",
+            "@id": "mip-cmor-tables:auxillary/realm/atmos",
             "@type": "mip:realm",
-            "realm:description": "Ocean",
-            "realm:name": "ocean"
+            "realm:description": "Atmosphere",
+            "realm:name": "atmos"
         }
     ],
     "files": [
+        "ocnbgchem.json",
         "ocean.json",
+        "landice.json",
         "land.json",
         "aerosol.json",
         "atmos.json",
-        "seaIce.json",
-        "atmosChem.json"
+        "seaice.json",
+        "atmoschem.json"
     ]
 }

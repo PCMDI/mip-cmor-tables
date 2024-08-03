@@ -1,0 +1,6 @@
+{
+  "@id": "mip-cmor-tables:auxillary/realm/ocnbgchem",
+  "@type": "realm",
+  "description": "Ocean Biogeochemistry",
+  "name": "ocnBgchem"
+}

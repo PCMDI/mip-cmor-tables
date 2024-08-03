@@ -1,8 +1,0 @@
-{
-    "@id": "mip-cmor-tables:auxillary/native-nominal-resolution/100km",
-    "@type": "mip:native-nominal-resolution",
-    "value": "100",
-    "cf:unit": {
-        "@id": "si:km"
-    }
-}
