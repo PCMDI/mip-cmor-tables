@@ -1,90 +1,90 @@
 [
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc-by-4.0.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc-by-4.0.json",
         "@type": "version",
-        "version:file": "./JSONLD/license/cc-by-4.0.json",
+        "version:file": "././JSONLD/license/cc-by-4.0.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
-        "version:previous_updates": 2,
-        "version:date": "2024-07-19T01:44:19+01:00",
+        "version:previous_updates": 3,
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
-            "message": "Updating the JSONLD consortia and format",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:license/cc-by-4.0"
+            "@id": "././license/cc-by-4.0"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc-by-nc-sa-4.0.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc0-1.0.json",
         "@type": "version",
-        "version:file": "./JSONLD/license/cc-by-nc-sa-4.0.json",
+        "version:file": "././JSONLD/license/cc0-1.0.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
-        "version:previous_updates": 2,
-        "version:date": "2024-07-19T01:44:19+01:00",
+        "version:previous_updates": 3,
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
-            "message": "Updating the JSONLD consortia and format",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:license/cc-by-nc-sa-4.0"
+            "@id": "././license/cc0-1.0"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc-by-sa-4.0.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc-by-sa-4.0.json",
         "@type": "version",
-        "version:file": "./JSONLD/license/cc-by-sa-4.0.json",
+        "version:file": "././JSONLD/license/cc-by-sa-4.0.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
-        "version:previous_updates": 2,
-        "version:date": "2024-07-19T01:44:19+01:00",
+        "version:previous_updates": 3,
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
-            "message": "Updating the JSONLD consortia and format",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:license/cc-by-sa-4.0"
+            "@id": "././license/cc-by-sa-4.0"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc0-1.0.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license/cc-by-nc-sa-4.0.json",
         "@type": "version",
-        "version:file": "./JSONLD/license/cc0-1.0.json",
+        "version:file": "././JSONLD/license/cc-by-nc-sa-4.0.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
-        "version:previous_updates": 2,
-        "version:date": "2024-07-19T01:44:19+01:00",
+        "version:previous_updates": 3,
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
-            "message": "Updating the JSONLD consortia and format",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:license/cc0-1.0"
+            "@id": "././license/cc-by-nc-sa-4.0"
         }
     }
 ]

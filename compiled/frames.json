@@ -1,0 +1,130 @@
+{
+  "mip-cmor-tables:auxillary/frequency": {
+    "frequency:description": "",
+    "frequency:long_name": "",
+    "frequency:name": "",
+    "frequency:unit": "",
+    "@type": "mip:frequency",
+    "@context": {
+      "@vocab": "frequency",
+      "@base": "mip-cmor-tables:auxillary/frequency"
+    },
+    "@embed": "@always",
+    "@explicit": true
+  },
+  "mip-cmor-tables:auxillary/mip-era": {
+    "mip:end": "",
+    "mip:name": "",
+    "mip:start": "",
+    "mip:url": "",
+    "@type": "mip:mip-era",
+    "@context": {
+      "@vocab": "mip-era",
+      "@base": "mip-cmor-tables:auxillary/mip-era"
+    },
+    "@embed": "@always",
+    "@explicit": true
+  },
+  "mip-cmor-tables:auxillary/product": {
+    "product:description": "",
+    "product:kind": "",
+    "@type": "mip:product",
+    "@context": {
+      "@vocab": "product",
+      "@base": "mip-cmor-tables:auxillary/product"
+    },
+    "@embed": "@always",
+    "@explicit": true
+  },
+  "mip-cmor-tables:auxillary/realm": {
+    "realm:description": "",
+    "realm:name": "",
+    "@type": "mip:realm",
+    "@context": {
+      "@vocab": "realm",
+      "@base": "mip-cmor-tables:auxillary/realm"
+    },
+    "@embed": "@always",
+    "@explicit": true
+  },
+  "mip-cmor-tables:auxillary/resolution": {
+    "resolution:description": "",
+    "resolution:name": "",
+    "resolution:unit": "",
+    "resolution:value": "",
+    "@type": "mip:resolution",
+    "@context": {
+      "@vocab": "resolution",
+      "@base": "mip-cmor-tables:auxillary/resolution"
+    },
+    "@embed": "@always",
+    "@explicit": true
+  },
+  "mip-cmor-tables:auxillary/source-type": {
+    "source-type:description": "",
+    "source-type:name": "",
+    "@type": "mip:source-type",
+    "@context": {
+      "@vocab": "source-type",
+      "@base": "mip-cmor-tables:auxillary/source-type"
+    },
+    "@embed": "@always",
+    "@explicit": true
+  },
+  "mip-cmor-tables:grid/label": {
+    "grid-label:description": "",
+    "grid-label:name": "",
+    "grid-label:region": "",
+    "@type": "mip:grid-label",
+    "@context": {
+      "@vocab": "grid-label",
+      "@base": "mip-cmor-tables:grid/label"
+    },
+    "@embed": "@always",
+    "@explicit": true
+  },
+  "mip-cmor-tables:license": {
+    "license:kind": "",
+    "license:license_id": "",
+    "license:license_url": "",
+    "@type": "mip:license",
+    "@context": {
+      "@vocab": "license",
+      "@base": "mip-cmor-tables:license"
+    },
+    "@embed": "@always",
+    "@explicit": true
+  },
+  "mip-cmor-tables:organisations/consortia": {
+    "consortium:changes": "",
+    "consortium:cmip-acronym": "",
+    "consortium:members": [],
+    "consortium:name": "",
+    "consortium:url": "",
+    "@type": "mip:consortium",
+    "@context": {
+      "@vocab": "consortium",
+      "@base": "mip-cmor-tables:organisations/consortia"
+    },
+    "@embed": "@always",
+    "@explicit": true
+  },
+  "mip-cmor-tables:organisations/institutions": {
+    "institution:acronyms": "",
+    "institution:aliases": "",
+    "institution:cmip-acronym": "",
+    "institution:established": "",
+    "institution:location": {},
+    "institution:name": "",
+    "institution:ror": "",
+    "institution:type": "",
+    "institution:url": "",
+    "@type": "mip:institution",
+    "@context": {
+      "@vocab": "institution",
+      "@base": "mip-cmor-tables:organisations/institutions"
+    },
+    "@embed": "@always",
+    "@explicit": true
+  }
+}

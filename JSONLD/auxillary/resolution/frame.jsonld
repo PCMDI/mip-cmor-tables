@@ -1,5 +1,13 @@
 {
     "@context": {
-        "@vocab": "resolution"
-    }
+        "@vocab": "resolution",
+        "@base": "mip-cmor-tables:auxillary/resolution"
+    },
+    "@embed": "@always",
+    "@explicit": true,
+    "@type": "mip:resolution",
+    "resolution:description": "",
+    "resolution:name": "",
+    "resolution:unit": "",
+    "resolution:value": ""
 }

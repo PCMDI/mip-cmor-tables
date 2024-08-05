@@ -1,10 +1,13 @@
 {
     "@context": {
-        "@vocab": "mip:"
+        "@vocab": "mip-era",
+        "@base": "mip-cmor-tables:auxillary/mip-era"
     },
-    "@type": "mip_era",
-    "name": "",
-    "url": "",
-    "start": "",
-    "end": ""
+    "@embed": "@always",
+    "@explicit": true,
+    "@type": "mip:mip-era",
+    "mip:end": "",
+    "mip:name": "",
+    "mip:start": "",
+    "mip:url": ""
 }

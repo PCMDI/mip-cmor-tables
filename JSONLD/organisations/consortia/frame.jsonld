@@ -1,21 +1,14 @@
 {
     "@context": {
-        "@vocab": "consortium:",
-        "consortium:members": {
-            "@context": {
-                "@vocab": "institution:",
-                "location": {
-                    "@context": {
-                        "@vocab": "location:"
-                    }
-                }
-            }
-        }
+        "@vocab": "consortium",
+        "@base": "mip-cmor-tables:organisations/consortia"
     },
-    "@type": "consortium",
-    "cmip_acronym": "",
-    "description": "",
-    "url": "",
-    "changes": "",
-    "members": {}
+    "@embed": "@always",
+    "@explicit": true,
+    "@type": "mip:consortium",
+    "consortium:changes": "",
+    "consortium:cmip-acronym": "",
+    "consortium:members": [],
+    "consortium:name": "",
+    "consortium:url": ""
 }

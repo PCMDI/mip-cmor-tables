@@ -1,16 +1,18 @@
 {
-    "@id": "https://github.com/PCMDI/mip-cmor-tables/JSONLD/auxillary/source-type",
-    "@type": "graph",
+    "@id": "graph:source-type",
+    "@type": "mip:graph",
     "@context": {
-        "@vocab": "source-type:"
+        "@vocab": "source-type",
+        "@base": "mip-cmor-tables:auxillary/source-type"
     },
-    "ldroot": "/JSONLD/auxillary/source-type",
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type",
+    ":ldroot": "JSONLD/auxillary/source-type",
     "@graph": [
         {
-            "@id": "mip-cmor-tables:auxillary/source-type/ism",
+            "@id": "mip-cmor-tables:auxillary/source-type/chem",
             "@type": "mip:source-type",
-            "source-type:description": "ice-sheet model that includes ice-flow",
-            "source-type:name": "ISM"
+            "source-type:description": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them",
+            "source-type:name": "CHEM"
         },
         {
             "@id": "mip-cmor-tables:auxillary/source-type/rad",
@@ -19,40 +21,10 @@
             "source-type:name": "RAD"
         },
         {
-            "@id": "mip-cmor-tables:auxillary/source-type/chem",
-            "@type": "mip:source-type",
-            "source-type:description": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them",
-            "source-type:name": "CHEM"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/source-type/bgc",
-            "@type": "mip:source-type",
-            "source-type:description": "biogeochemistry model component that at the very least accounts for carbon reservoirs and fluxes in the atmosphere, terrestrial biosphere, and ocean",
-            "source-type:name": "BGC"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/source-type/slab",
-            "@type": "mip:source-type",
-            "source-type:description": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system",
-            "source-type:name": "SLAB"
-        },
-        {
             "@id": "mip-cmor-tables:auxillary/source-type/aogcm",
             "@type": "mip:source-type",
             "source-type:description": "coupled atmosphere-ocean global climate model, additionally including explicit representation of at least the land and sea ice",
             "source-type:name": "AOGCM"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/source-type/land",
-            "@type": "mip:source-type",
-            "source-type:description": "land model run uncoupled from the atmosphere",
-            "source-type:name": "LAND"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/source-type/agcm",
-            "@type": "mip:source-type",
-            "source-type:description": "atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface",
-            "source-type:name": "AGCM"
         },
         {
             "@id": "mip-cmor-tables:auxillary/source-type/aer",
@@ -65,9 +37,39 @@
             "@type": "mip:source-type",
             "source-type:description": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
             "source-type:name": "OGCM"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/ism",
+            "@type": "mip:source-type",
+            "source-type:description": "ice-sheet model that includes ice-flow",
+            "source-type:name": "ISM"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/agcm",
+            "@type": "mip:source-type",
+            "source-type:description": "atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface",
+            "source-type:name": "AGCM"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/slab",
+            "@type": "mip:source-type",
+            "source-type:description": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system",
+            "source-type:name": "SLAB"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/land",
+            "@type": "mip:source-type",
+            "source-type:description": "land model run uncoupled from the atmosphere",
+            "source-type:name": "LAND"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/bgc",
+            "@type": "mip:source-type",
+            "source-type:description": "biogeochemistry model component that at the very least accounts for carbon reservoirs and fluxes in the atmosphere, terrestrial biosphere, and ocean",
+            "source-type:name": "BGC"
         }
     ],
-    "files": [
+    ":files": [
         "rad.json",
         "aer.json",
         "chem.json",

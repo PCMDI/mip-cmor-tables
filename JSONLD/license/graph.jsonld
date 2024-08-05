@@ -1,11 +1,12 @@
 {
-    "@id": "https://github.com/PCMDI/mip-cmor-tables/JSONLD/license",
-    "@type": "graph",
+    "@id": "graph:license",
+    "@type": "mip:graph",
     "@context": {
-        "@vocab": "license:",
-        "@base": "https://github.com/PCMDI/mip-cmor-tables"
+        "@vocab": "license",
+        "@base": "mip-cmor-tables:license"
     },
-    "ldroot": "/JSONLD/license",
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license",
+    ":ldroot": "JSONLD/license",
     "@graph": [
         {
             "@id": "mip-cmor-tables:license/cc-by-4.0",
@@ -15,11 +16,11 @@
             "license:license_url": "https://creativecommons.org/licenses/by/4.0/"
         },
         {
-            "@id": "mip-cmor-tables:license/cc-by-nc-sa-4.0",
+            "@id": "mip-cmor-tables:license/cc0-1.0",
             "@type": "mip:license",
-            "license:kind": "CC BY-NC-SA 4.0",
-            "license:license_id": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-            "license:license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            "license:kind": "CC0 1.0",
+            "license:license_id": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+            "license:license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
         },
         {
             "@id": "mip-cmor-tables:license/cc-by-sa-4.0",
@@ -29,14 +30,14 @@
             "license:license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
         },
         {
-            "@id": "mip-cmor-tables:license/cc0-1.0",
+            "@id": "mip-cmor-tables:license/cc-by-nc-sa-4.0",
             "@type": "mip:license",
-            "license:kind": "CC0 1.0",
-            "license:license_id": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
-            "license:license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+            "license:kind": "CC BY-NC-SA 4.0",
+            "license:license_id": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+            "license:license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
         }
     ],
-    "files": [
+    ":files": [
         "cc-by-4.0.json",
         "cc0-1.0.json",
         "cc-by-nc-sa-4.0.json",

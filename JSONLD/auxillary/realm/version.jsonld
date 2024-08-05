@@ -1,8 +1,8 @@
 [
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/aerosol.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/atmos.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/realm/aerosol.json",
+        "version:file": "././JSONLD/auxillary/realm/atmos.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -18,127 +18,48 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/realm/aerosol"
+            "@id": "././auxillary/realm/atmos"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/seaice.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/landice.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/realm/seaice.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 0,
-        "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/realm/seaice"
-        }
-    },
-    {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/landice.json",
-        "@type": "version",
-        "version:file": "./JSONLD/auxillary/realm/landice.json",
+        "version:file": "././JSONLD/auxillary/realm/landice.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/realm/landice"
+            "@id": "././auxillary/realm/landice"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/ocean.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/seaice.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/realm/ocean.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 2,
-        "version:date": "2024-07-19T01:44:19+01:00",
-        "version:commit": {
-            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
-            "message": "Updating the JSONLD consortia and format",
-            "author": {
-                "name": "Daniel Ellis",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/realm/ocean"
-        }
-    },
-    {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/ocnbgchem.json",
-        "@type": "version",
-        "version:file": "./JSONLD/auxillary/realm/ocnbgchem.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 2,
-        "version:date": "2024-08-01T13:41:17+01:00",
-        "version:commit": {
-            "hash": "fb92747746b9e86c4e2564e64ddf176182c943b9",
-            "message": "cv updates",
-            "author": {
-                "name": "Daniel Ellis",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/realm/ocnbgchem"
-        }
-    },
-    {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/land.json",
-        "@type": "version",
-        "version:file": "./JSONLD/auxillary/realm/land.json",
-        "version:release": {
-            "mip-cmor-tables": "v6.5.0.2",
-            "cmip6plus": "v6.5.1.4"
-        },
-        "version:previous_updates": 2,
-        "version:date": "2024-07-19T01:44:19+01:00",
-        "version:commit": {
-            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
-            "message": "Updating the JSONLD consortia and format",
-            "author": {
-                "name": "Daniel Ellis",
-                "email": "daniel.ellis@ext.esa.int"
-            }
-        },
-        "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/realm/land"
-        }
-    },
-    {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/atmoschem.json",
-        "@type": "version",
-        "version:file": "./JSONLD/auxillary/realm/atmoschem.json",
+        "version:file": "././JSONLD/auxillary/realm/seaice.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 0,
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/realm/atmoschem"
+            "@id": "././auxillary/realm/seaice"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/atmos.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/land.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/realm/atmos.json",
+        "version:file": "././JSONLD/auxillary/realm/land.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -154,7 +75,86 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/realm/atmos"
+            "@id": "././auxillary/realm/land"
+        }
+    },
+    {
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/ocnbgchem.json",
+        "@type": "version",
+        "version:file": "././JSONLD/auxillary/realm/ocnbgchem.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-08-03T23:16:34+01:00",
+        "version:commit": {
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "././auxillary/realm/ocnbgchem"
+        }
+    },
+    {
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/aerosol.json",
+        "@type": "version",
+        "version:file": "././JSONLD/auxillary/realm/aerosol.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 2,
+        "version:date": "2024-07-19T01:44:19+01:00",
+        "version:commit": {
+            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
+            "message": "Updating the JSONLD consortia and format",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "././auxillary/realm/aerosol"
+        }
+    },
+    {
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/atmoschem.json",
+        "@type": "version",
+        "version:file": "././JSONLD/auxillary/realm/atmoschem.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 0,
+        "version:data": {
+            "@id": "././auxillary/realm/atmoschem"
+        }
+    },
+    {
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm/ocean.json",
+        "@type": "version",
+        "version:file": "././JSONLD/auxillary/realm/ocean.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 2,
+        "version:date": "2024-07-19T01:44:19+01:00",
+        "version:commit": {
+            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
+            "message": "Updating the JSONLD consortia and format",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "././auxillary/realm/ocean"
         }
     }
 ]

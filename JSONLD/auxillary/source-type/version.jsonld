@@ -1,8 +1,8 @@
 [
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/ism.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/chem.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/source-type/ism.json",
+        "version:file": "././JSONLD/auxillary/source-type/chem.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -18,13 +18,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/source-type/ism"
+            "@id": "././auxillary/source-type/chem"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/rad.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/rad.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/source-type/rad.json",
+        "version:file": "././JSONLD/auxillary/source-type/rad.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -40,13 +40,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/source-type/rad"
+            "@id": "././auxillary/source-type/rad"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/chem.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/aogcm.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/source-type/chem.json",
+        "version:file": "././JSONLD/auxillary/source-type/aogcm.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -62,13 +62,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/source-type/chem"
+            "@id": "././auxillary/source-type/aogcm"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/bgc.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/aer.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/source-type/bgc.json",
+        "version:file": "././JSONLD/auxillary/source-type/aer.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -84,13 +84,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/source-type/bgc"
+            "@id": "././auxillary/source-type/aer"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/slab.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/ogcm.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/source-type/slab.json",
+        "version:file": "././JSONLD/auxillary/source-type/ogcm.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -106,13 +106,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/source-type/slab"
+            "@id": "././auxillary/source-type/ogcm"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/aogcm.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/ism.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/source-type/aogcm.json",
+        "version:file": "././JSONLD/auxillary/source-type/ism.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -128,13 +128,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/source-type/aogcm"
+            "@id": "././auxillary/source-type/ism"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/land.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/agcm.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/source-type/land.json",
+        "version:file": "././JSONLD/auxillary/source-type/agcm.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -150,13 +150,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/source-type/land"
+            "@id": "././auxillary/source-type/agcm"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/agcm.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/slab.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/source-type/agcm.json",
+        "version:file": "././JSONLD/auxillary/source-type/slab.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -172,13 +172,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/source-type/agcm"
+            "@id": "././auxillary/source-type/slab"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/aer.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/land.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/source-type/aer.json",
+        "version:file": "././JSONLD/auxillary/source-type/land.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -194,13 +194,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/source-type/aer"
+            "@id": "././auxillary/source-type/land"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/ogcm.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type/bgc.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/source-type/ogcm.json",
+        "version:file": "././JSONLD/auxillary/source-type/bgc.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -216,7 +216,7 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/source-type/ogcm"
+            "@id": "././auxillary/source-type/bgc"
         }
     }
 ]

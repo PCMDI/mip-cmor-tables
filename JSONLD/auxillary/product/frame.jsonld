@@ -1,9 +1,11 @@
 {
     "@context": {
-        "@vocab": "product:",
-        "@base": "https://github.com/PCMDI/mip-cmor-tables"
+        "@vocab": "product",
+        "@base": "mip-cmor-tables:auxillary/product"
     },
-    "@type": "product",
-    "kind": "",
-    "description": ""
+    "@embed": "@always",
+    "@explicit": true,
+    "@type": "mip:product",
+    "product:description": "",
+    "product:kind": ""
 }

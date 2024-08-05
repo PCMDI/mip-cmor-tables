@@ -25,7 +25,44 @@ jobs:
           
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+
+
+
+        - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'  # Specify the Python version you need
+  
+      - name: Cache pip packages
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}-${{ hashFiles('.github/workflows/ci.yml') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+  
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # pip install -r requirements.txt
+          
+      - name: Install and cache GitHub repo
+        run: |
+          # Install the GitHub repo
+          pip install git+https://https://github.com/WCRP-CMIP/CMIP-LD.git
+          
+          # Save the installed packages for caching
+          pip freeze > installed_packages.txt
+        
+      - name: Cache GitHub repo
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-github-repo-${{ hashFiles('installed_packages.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-github-repo-
+
 
       - name: Print Payload
         run: |

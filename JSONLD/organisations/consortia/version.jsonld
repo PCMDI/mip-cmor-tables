@@ -1,8 +1,8 @@
 [
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia/ncc.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia/solaris-heppa.json",
         "@type": "version",
-        "version:file": "./JSONLD/organisations/consortia/ncc.json",
+        "version:file": "././JSONLD/organisations/consortia/solaris-heppa.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -18,13 +18,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:organisations/consortia/ncc"
+            "@id": "././organisations/consortia/solaris-heppa"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia/miroc.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia/miroc.json",
         "@type": "version",
-        "version:file": "./JSONLD/organisations/consortia/miroc.json",
+        "version:file": "././JSONLD/organisations/consortia/miroc.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -40,13 +40,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:organisations/consortia/miroc"
+            "@id": "././organisations/consortia/miroc"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia/solaris-heppa.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia/ncc.json",
         "@type": "version",
-        "version:file": "./JSONLD/organisations/consortia/solaris-heppa.json",
+        "version:file": "././JSONLD/organisations/consortia/ncc.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -62,7 +62,7 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:organisations/consortia/solaris-heppa"
+            "@id": "././organisations/consortia/ncc"
         }
     }
 ]

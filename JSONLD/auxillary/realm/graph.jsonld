@@ -1,22 +1,18 @@
 {
-    "@id": "https://github.com/PCMDI/mip-cmor-tables/JSONLD/auxillary/realm",
-    "@type": "graph",
+    "@id": "graph:realm",
+    "@type": "mip:graph",
     "@context": {
-        "@vocab": "realm:"
+        "@vocab": "realm",
+        "@base": "mip-cmor-tables:auxillary/realm"
     },
-    "ldroot": "/JSONLD/auxillary/realm",
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm",
+    ":ldroot": "JSONLD/auxillary/realm",
     "@graph": [
         {
-            "@id": "mip-cmor-tables:auxillary/realm/aerosol",
+            "@id": "mip-cmor-tables:auxillary/realm/atmos",
             "@type": "mip:realm",
-            "realm:description": "Aerosol",
-            "realm:name": "aerosol"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/realm/seaice",
-            "@type": "mip:realm",
-            "realm:description": "Sea Ice",
-            "realm:name": "seaIce"
+            "realm:description": "Atmosphere",
+            "realm:name": "atmos"
         },
         {
             "@id": "mip-cmor-tables:auxillary/realm/landice",
@@ -25,16 +21,10 @@
             "realm:name": "landIce"
         },
         {
-            "@id": "mip-cmor-tables:auxillary/realm/ocean",
+            "@id": "mip-cmor-tables:auxillary/realm/seaice",
             "@type": "mip:realm",
-            "realm:description": "Ocean",
-            "realm:name": "ocean"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/realm/ocnbgchem",
-            "@type": "mip:realm",
-            "realm:description": "Ocean Biogeochemistry",
-            "realm:name": "ocnBgchem"
+            "realm:description": "Sea Ice",
+            "realm:name": "seaIce"
         },
         {
             "@id": "mip-cmor-tables:auxillary/realm/land",
@@ -43,19 +33,31 @@
             "realm:name": "land"
         },
         {
+            "@id": "mip-cmor-tables:auxillary/realm/ocnbgchem",
+            "@type": "mip:realm",
+            "realm:description": "Ocean Biogeochemistry",
+            "realm:name": "ocnBgchem"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/realm/aerosol",
+            "@type": "mip:realm",
+            "realm:description": "Aerosol",
+            "realm:name": "aerosol"
+        },
+        {
             "@id": "mip-cmor-tables:auxillary/realm/atmoschem",
             "@type": "mip:realm",
             "realm:description": "Atmospheric Chemistry",
             "realm:name": "atmosChem"
         },
         {
-            "@id": "mip-cmor-tables:auxillary/realm/atmos",
+            "@id": "mip-cmor-tables:auxillary/realm/ocean",
             "@type": "mip:realm",
-            "realm:description": "Atmosphere",
-            "realm:name": "atmos"
+            "realm:description": "Ocean",
+            "realm:name": "ocean"
         }
     ],
-    "files": [
+    ":files": [
         "ocnbgchem.json",
         "ocean.json",
         "landice.json",

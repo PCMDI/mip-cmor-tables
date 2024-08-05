@@ -1,197 +1,13 @@
 {
-    "@id": "https://github.com/PCMDI/mip-cmor-tables/JSONLD/organisations/consortia",
-    "@type": "graph",
+    "@id": "graph:consortium",
+    "@type": "mip:graph",
     "@context": {
-        "@vocab": "consortium:",
-        "consortium:members": {
-            "@context": {
-                "@vocab": "institution:",
-                "location": {
-                    "@context": {
-                        "@vocab": "location:"
-                    }
-                }
-            }
-        }
+        "@vocab": "consortium",
+        "@base": "mip-cmor-tables:organisations/consortia"
     },
-    "ldroot": "/JSONLD/organisations/consortia",
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/organisations/consortia",
+    ":ldroot": "JSONLD/organisations/consortia",
     "@graph": [
-        {
-            "@id": "mip-cmor-tables:organisations/consortia/ncc",
-            "@type": "mip:consortium",
-            "consortium:changes": "",
-            "consortium:cmip-acronym": "NCC",
-            "consortium:members": [
-                {
-                    "@type": "consortia:member",
-                    "consortium:dates": [
-                        {
-                            "consortium:from": 2016,
-                            "consortium:phase": "CMIP6",
-                            "consortium:to": 2022
-                        }
-                    ],
-                    "consortium:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/noresm"
-                    },
-                    "consortium:membership-type": "prior"
-                },
-                {
-                    "@type": "consortia:member",
-                    "consortium:dates": [
-                        {
-                            "consortium:from": 2016,
-                            "consortium:phase": "CMIP6",
-                            "consortium:to": 2022
-                        }
-                    ],
-                    "consortium:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/met-norway"
-                    },
-                    "consortium:membership-type": "prior"
-                },
-                {
-                    "@type": "consortia:member",
-                    "consortium:dates": [
-                        {
-                            "consortium:from": 2016,
-                            "consortium:phase": "CMIP6",
-                            "consortium:to": 2022
-                        }
-                    ],
-                    "consortium:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/nersc"
-                    },
-                    "consortium:membership-type": "prior"
-                },
-                {
-                    "@type": "consortia:member",
-                    "consortium:dates": [
-                        {
-                            "consortium:from": 2016,
-                            "consortium:phase": "CMIP6",
-                            "consortium:to": 2022
-                        }
-                    ],
-                    "consortium:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/nilu"
-                    },
-                    "consortium:membership-type": "prior"
-                },
-                {
-                    "@type": "consortia:member",
-                    "consortium:dates": [
-                        {
-                            "consortium:from": 2016,
-                            "consortium:phase": "CMIP6",
-                            "consortium:to": 2022
-                        }
-                    ],
-                    "consortium:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/uib"
-                    },
-                    "consortium:membership-type": "prior"
-                },
-                {
-                    "@type": "consortia:member",
-                    "consortium:dates": [
-                        {
-                            "consortium:from": 2016,
-                            "consortium:phase": "CMIP6",
-                            "consortium:to": 2022
-                        }
-                    ],
-                    "consortium:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/uio"
-                    },
-                    "consortium:membership-type": "prior"
-                },
-                {
-                    "@type": "consortia:member",
-                    "consortium:dates": [
-                        {
-                            "consortium:from": 2016,
-                            "consortium:phase": "CMIP6",
-                            "consortium:to": 2022
-                        }
-                    ],
-                    "consortium:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/uni"
-                    },
-                    "consortium:membership-type": "prior"
-                }
-            ],
-            "consortium:name": "NCC Consortium",
-            "consortium:status": "active",
-            "consortium:url": ""
-        },
-        {
-            "@id": "mip-cmor-tables:organisations/consortia/miroc",
-            "@type": "mip:consortium",
-            "consortium:changes": "",
-            "consortium:cmip-acronym": "MIROC",
-            "consortium:members": [
-                {
-                    "@type": "consortia:member",
-                    "consortium:consortia:membership-type": "prior",
-                    "consortium:dates": [
-                        {
-                            "consortium:from": 2016,
-                            "consortium:phase": "CMIP6",
-                            "consortium:to": 2022
-                        }
-                    ],
-                    "consortium:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/jamstec"
-                    }
-                },
-                {
-                    "@type": "consortia:member",
-                    "consortium:consortia:membership-type": "prior",
-                    "consortium:dates": [
-                        {
-                            "consortium:from": 2016,
-                            "consortium:phase": "CMIP6",
-                            "consortium:to": 2022
-                        }
-                    ],
-                    "consortium:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/aori"
-                    }
-                },
-                {
-                    "@type": "consortia:member",
-                    "consortium:consortia:membership-type": "prior",
-                    "consortium:dates": [
-                        {
-                            "consortium:from": 2016,
-                            "consortium:phase": "CMIP6",
-                            "consortium:to": 2022
-                        }
-                    ],
-                    "consortium:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/nies"
-                    }
-                },
-                {
-                    "@type": "consortia:member",
-                    "consortium:consortia:membership-type": "prior",
-                    "consortium:dates": [
-                        {
-                            "consortium:from": 2016,
-                            "consortium:phase": "CMIP6",
-                            "consortium:to": 2022
-                        }
-                    ],
-                    "consortium:institution": {
-                        "@id": "mip-cmor-tables:organisations/institutions/r-ccs"
-                    }
-                }
-            ],
-            "consortium:name": "MIROC Consortium",
-            "consortium:status": "active",
-            "consortium:url": ""
-        },
         {
             "@id": "mip-cmor-tables:organisations/consortia/solaris-heppa",
             "@type": "mip:consortium",
@@ -630,9 +446,185 @@
             ],
             "consortium:name": "SOLARIS HEPPA Consortium",
             "consortium:url": "https://solarisheppa.geomar.de"
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/consortia/miroc",
+            "@type": "mip:consortium",
+            "consortium:changes": "",
+            "consortium:cmip-acronym": "MIROC",
+            "consortium:members": [
+                {
+                    "@type": "consortia:member",
+                    "consortium:consortia:membership-type": "prior",
+                    "consortium:dates": [
+                        {
+                            "consortium:from": 2016,
+                            "consortium:phase": "CMIP6",
+                            "consortium:to": 2022
+                        }
+                    ],
+                    "consortium:institution": {
+                        "@id": "mip-cmor-tables:organisations/institutions/jamstec"
+                    }
+                },
+                {
+                    "@type": "consortia:member",
+                    "consortium:consortia:membership-type": "prior",
+                    "consortium:dates": [
+                        {
+                            "consortium:from": 2016,
+                            "consortium:phase": "CMIP6",
+                            "consortium:to": 2022
+                        }
+                    ],
+                    "consortium:institution": {
+                        "@id": "mip-cmor-tables:organisations/institutions/aori"
+                    }
+                },
+                {
+                    "@type": "consortia:member",
+                    "consortium:consortia:membership-type": "prior",
+                    "consortium:dates": [
+                        {
+                            "consortium:from": 2016,
+                            "consortium:phase": "CMIP6",
+                            "consortium:to": 2022
+                        }
+                    ],
+                    "consortium:institution": {
+                        "@id": "mip-cmor-tables:organisations/institutions/nies"
+                    }
+                },
+                {
+                    "@type": "consortia:member",
+                    "consortium:consortia:membership-type": "prior",
+                    "consortium:dates": [
+                        {
+                            "consortium:from": 2016,
+                            "consortium:phase": "CMIP6",
+                            "consortium:to": 2022
+                        }
+                    ],
+                    "consortium:institution": {
+                        "@id": "mip-cmor-tables:organisations/institutions/r-ccs"
+                    }
+                }
+            ],
+            "consortium:name": "MIROC Consortium",
+            "consortium:status": "active",
+            "consortium:url": ""
+        },
+        {
+            "@id": "mip-cmor-tables:organisations/consortia/ncc",
+            "@type": "mip:consortium",
+            "consortium:changes": "",
+            "consortium:cmip-acronym": "NCC",
+            "consortium:members": [
+                {
+                    "@type": "consortia:member",
+                    "consortium:dates": [
+                        {
+                            "consortium:from": 2016,
+                            "consortium:phase": "CMIP6",
+                            "consortium:to": 2022
+                        }
+                    ],
+                    "consortium:institution": {
+                        "@id": "mip-cmor-tables:organisations/institutions/noresm"
+                    },
+                    "consortium:membership-type": "prior"
+                },
+                {
+                    "@type": "consortia:member",
+                    "consortium:dates": [
+                        {
+                            "consortium:from": 2016,
+                            "consortium:phase": "CMIP6",
+                            "consortium:to": 2022
+                        }
+                    ],
+                    "consortium:institution": {
+                        "@id": "mip-cmor-tables:organisations/institutions/met-norway"
+                    },
+                    "consortium:membership-type": "prior"
+                },
+                {
+                    "@type": "consortia:member",
+                    "consortium:dates": [
+                        {
+                            "consortium:from": 2016,
+                            "consortium:phase": "CMIP6",
+                            "consortium:to": 2022
+                        }
+                    ],
+                    "consortium:institution": {
+                        "@id": "mip-cmor-tables:organisations/institutions/nersc"
+                    },
+                    "consortium:membership-type": "prior"
+                },
+                {
+                    "@type": "consortia:member",
+                    "consortium:dates": [
+                        {
+                            "consortium:from": 2016,
+                            "consortium:phase": "CMIP6",
+                            "consortium:to": 2022
+                        }
+                    ],
+                    "consortium:institution": {
+                        "@id": "mip-cmor-tables:organisations/institutions/nilu"
+                    },
+                    "consortium:membership-type": "prior"
+                },
+                {
+                    "@type": "consortia:member",
+                    "consortium:dates": [
+                        {
+                            "consortium:from": 2016,
+                            "consortium:phase": "CMIP6",
+                            "consortium:to": 2022
+                        }
+                    ],
+                    "consortium:institution": {
+                        "@id": "mip-cmor-tables:organisations/institutions/uib"
+                    },
+                    "consortium:membership-type": "prior"
+                },
+                {
+                    "@type": "consortia:member",
+                    "consortium:dates": [
+                        {
+                            "consortium:from": 2016,
+                            "consortium:phase": "CMIP6",
+                            "consortium:to": 2022
+                        }
+                    ],
+                    "consortium:institution": {
+                        "@id": "mip-cmor-tables:organisations/institutions/uio"
+                    },
+                    "consortium:membership-type": "prior"
+                },
+                {
+                    "@type": "consortia:member",
+                    "consortium:dates": [
+                        {
+                            "consortium:from": 2016,
+                            "consortium:phase": "CMIP6",
+                            "consortium:to": 2022
+                        }
+                    ],
+                    "consortium:institution": {
+                        "@id": "mip-cmor-tables:organisations/institutions/uni"
+                    },
+                    "consortium:membership-type": "prior"
+                }
+            ],
+            "consortium:name": "NCC Consortium",
+            "consortium:status": "active",
+            "consortium:url": ""
         }
     ],
-    "files": [
+    ":files": [
         "ncc.json",
         "miroc.json",
         "solaris-heppa.json"

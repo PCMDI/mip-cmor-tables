@@ -1,332 +1,332 @@
 [
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/5km.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/50km.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/5km.json",
+        "version:file": "././JSONLD/auxillary/resolution/50km.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/5km"
+            "@id": "././auxillary/resolution/50km"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/2.5km.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/2500km.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/2.5km.json",
+        "version:file": "././JSONLD/auxillary/resolution/2500km.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/2.5km"
+            "@id": "././auxillary/resolution/2500km"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/25km.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/100km.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/25km.json",
+        "version:file": "././JSONLD/auxillary/resolution/100km.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/25km"
+            "@id": "././auxillary/resolution/100km"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/50km.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/0.5km.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/50km.json",
+        "version:file": "././JSONLD/auxillary/resolution/0.5km.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/50km"
+            "@id": "././auxillary/resolution/0.5km"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/250km.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/500km.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/250km.json",
+        "version:file": "././JSONLD/auxillary/resolution/500km.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/250km"
+            "@id": "././auxillary/resolution/500km"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/1000km.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/1km.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/1000km.json",
+        "version:file": "././JSONLD/auxillary/resolution/1km.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/1000km"
+            "@id": "././auxillary/resolution/1km"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/100km.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/10km.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/100km.json",
+        "version:file": "././JSONLD/auxillary/resolution/10km.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/100km"
+            "@id": "././auxillary/resolution/10km"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/2500km.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/2.5km.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/2500km.json",
+        "version:file": "././JSONLD/auxillary/resolution/2.5km.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/2500km"
+            "@id": "././auxillary/resolution/2.5km"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/10km.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/1000km.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/10km.json",
+        "version:file": "././JSONLD/auxillary/resolution/1000km.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/10km"
+            "@id": "././auxillary/resolution/1000km"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/500km.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/5000km.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/500km.json",
+        "version:file": "././JSONLD/auxillary/resolution/5000km.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/500km"
+            "@id": "././auxillary/resolution/5000km"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/0.5km.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/1x1degree.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/0.5km.json",
+        "version:file": "././JSONLD/auxillary/resolution/1x1degree.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/0.5km"
+            "@id": "././auxillary/resolution/1x1degree"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/5000km.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/5km.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/5000km.json",
+        "version:file": "././JSONLD/auxillary/resolution/5km.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/5000km"
+            "@id": "././auxillary/resolution/5km"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/1km.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/250km.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/1km.json",
+        "version:file": "././JSONLD/auxillary/resolution/250km.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/1km"
+            "@id": "././auxillary/resolution/250km"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/1x1degree.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/25km.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/1x1degree.json",
+        "version:file": "././JSONLD/auxillary/resolution/25km.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/1x1degree"
+            "@id": "././auxillary/resolution/25km"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/10000km.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution/10000km.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/resolution/10000km.json",
+        "version:file": "././JSONLD/auxillary/resolution/10000km.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-29T20:45:13+01:00",
+        "version:date": "2024-08-03T23:16:34+01:00",
         "version:commit": {
-            "hash": "be5f14232939c0071166ad4d4273bbb1133f4e1e",
-            "message": "cv update",
+            "hash": "ee78920daef3c614b93e4d5ca2fcdb5fa21579c5",
+            "message": "LD generation, license simplification and update.",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/resolution/10000km"
+            "@id": "././auxillary/resolution/10000km"
         }
     }
 ]

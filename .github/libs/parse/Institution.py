@@ -1,23 +1,25 @@
 import json, os, sys, glob
 from collections import OrderedDict
 
+
+from cmipld.git.repo_info import ldpath,commit, commit_override_author,addfile
+from cmipld.utils.io import read_url
+from cmipld.action_functions import update_issue,jr,jw,getfile,close_issue,pp
+
 path = f'organisations/institutions'
-toplevel = os.popen('git rev-parse --show-toplevel').read().strip()
-loc = f"{toplevel}/JSONLD/{path}/"
-
-
+loc = ldpath(path)
 
 # Get the parent directory of the current file
 parent_dir = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 sys.path.append(parent_dir)
 import checks
-from checks import schema,institution
-from action_functions import update_issue,jr,jw,getfile,close_issue,pp
+# from checks import schema,institution
 
 # data
 issue_number = int(os.environ['ISSUE'])
 data = os.environ['PAYLOAD_DATA']
 data = json.loads(str(data))
+
 data['acronym'] = data['acronym'].replace(' ','')
 print(data['acronym'])
 
@@ -27,26 +29,12 @@ Functions
 
 URL_TEMPLATE = 'https://api.ror.org/organizations/{}'
 
-import urllib.request
-import json
+
 
 def get_ror_data(name):
     """Get ROR data for a given institution name."""
     url = URL_TEMPLATE.format(name)
-    try:
-        with urllib.request.urlopen(url) as response:
-            data = response.read().decode('utf-8')
-            json_data = json.loads(data)
-            return json_data
-    except urllib.error.HTTPError as e:
-        err = f"Error: {e.code} - {e.reason}"
-        # print(err)
-        return None
-    except urllib.error.URLError as e:
-        err = f"Error: {e.reason}"
-        # print(err)
-        return None
-
+    return read_url(url)
 
 
 
@@ -57,23 +45,23 @@ def parse_ror_data(cmip_acronym,ror_data):
         return {
             "@id": f"mip-cmor-tables:organisations/institutions/{cmip_acronym.lower()}",
             "@type": "cmip:institution",
-            "institution:cmip_acronym": cmip_acronym,
-            "institution:ror": ror_data['id'].split('/')[-1],
-            "institution:name": ror_data['name'],
-            "institution:url": ror_data.get('links', []) ,
-            "institution:established": ror_data.get('established'),
-            "institution:type": ror_data.get('types', [])[0] if ror_data.get('types') else None,
-            "institution:labels": [i['label'] for i in ror_data.get('lables', [])],
-            "institution:aliases": ror_data.get('aliases', []),
-            "institution:acronyms": ror_data.get('acronyms', []),
-            "institution:location": {
+            "cmip_acronym": cmip_acronym,
+            "ror": ror_data['id'].split('/')[-1],
+            "name": ror_data['name'],
+            "url": ror_data.get('links', []) ,
+            "established": ror_data.get('established'),
+            "type": ror_data.get('types', [])[0] if ror_data.get('types') else None,
+            "labels": [i['label'] for i in ror_data.get('lables', [])],
+            "aliases": ror_data.get('aliases', []),
+            "acronyms": ror_data.get('acronyms', []),
+            "location": {
                 "@id": f"mip-cmor-tables:organisations/institutions/location/{ror_data['id'].split('/')[-1]}",
-                "@type": "institution:location",
+                "@type": "location",
                 "@nest": {
-                    "location:lat":  ror_data['addresses'][0].get('lat') if ror_data.get('addresses') else None,
-                    "location:lon":  ror_data['addresses'][0].get('lat') if ror_data.get('addresses') else None,
-                    "location:city": ror_data['addresses'][0].get('city') if ror_data.get('addresses') else None,
-                    "location:country": list(ror_data['country'].values())  if ror_data.get('country') else None
+                    "lat":  ror_data['addresses'][0].get('lat') if ror_data.get('addresses') else None,
+                    "lon":  ror_data['addresses'][0].get('lat') if ror_data.get('addresses') else None,
+                    "city": ror_data['addresses'][0].get('city') if ror_data.get('addresses') else None,
+                    "country": list(ror_data['country'].values())  if ror_data.get('country') else None
                 }
             }         
             #  can reverse match consortiums or members from here.    
@@ -118,15 +106,12 @@ else:
 
     
 
-update_issue(issue_number,f"# Sanity Check: \n Is '{data['full_name']}' the same as '{new_entry['institution:name']}'",False)
+update_issue(issue_number,f"# Sanity Check: \n Is '{data['full_name']}' the same as '{new_entry['name']}'",False)
 
 # print for pull request
 pp( {data['acronym'] : new_entry })
 
 jsn_ordered = OrderedDict(sorted(new_entry.items(), key=lambda item: item[0]))
-
-
-
 
 
 if 'SUBMIT' in os.environ:
@@ -144,12 +129,11 @@ if 'SUBMIT' in os.environ:
 jw(jsn_ordered, outfile)
 
 # normal entries if not specified.
-os.popen(f'git add {outfile}').read()
-if 'OVERRIDE_AUTHOR' in os.environ:
-    write = os.popen(f'git commit -a --author="{os.environ["OVERRIDE_AUTHOR"].strip()} <{os.environ["OVERRIDE_AUTHOR"].strip()}@users.noreply.github.com>" -m "New entry {data["acronym"]} to the Institutions LD file"').read()
-    print(write)
-else: 
-    os.popen(f'git commit -a -m "New entry {data["acronym"]} to the Institutions LD file"').read()
+
+addfile(outfile)
+if not commit_override_author(data['acronym'],'Institutions'):
+    commit(f'New entry {data["acronym"]} to the Institutions LD file')
+    
 
 
 

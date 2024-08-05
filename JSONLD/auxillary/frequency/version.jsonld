@@ -1,8 +1,8 @@
 [
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/6hr.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/dec.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/6hr.json",
+        "version:file": "././JSONLD/auxillary/frequency/dec.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -18,13 +18,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/6hr"
+            "@id": "././auxillary/frequency/dec"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/1hrcm.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/monc.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/1hrcm.json",
+        "version:file": "././JSONLD/auxillary/frequency/monc.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -40,13 +40,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/1hrcm"
+            "@id": "././auxillary/frequency/monc"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/1hrpt.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/1hr.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/1hrpt.json",
+        "version:file": "././JSONLD/auxillary/frequency/1hr.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -62,13 +62,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/1hrpt"
+            "@id": "././auxillary/frequency/1hr"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/6hrpt.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/6hr.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/6hrpt.json",
+        "version:file": "././JSONLD/auxillary/frequency/6hr.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -84,13 +84,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/6hrpt"
+            "@id": "././auxillary/frequency/6hr"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/yr.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/yrpt.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/yr.json",
+        "version:file": "././JSONLD/auxillary/frequency/yrpt.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -106,13 +106,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/yr"
+            "@id": "././auxillary/frequency/yrpt"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/monpt.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/day.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/monpt.json",
+        "version:file": "././JSONLD/auxillary/frequency/day.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -128,13 +128,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/monpt"
+            "@id": "././auxillary/frequency/day"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/mon.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/1hrpt.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/mon.json",
+        "version:file": "././JSONLD/auxillary/frequency/1hrpt.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -150,13 +150,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/mon"
+            "@id": "././auxillary/frequency/1hrpt"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/3hr.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/6hrpt.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/3hr.json",
+        "version:file": "././JSONLD/auxillary/frequency/6hrpt.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -172,13 +172,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/3hr"
+            "@id": "././auxillary/frequency/6hrpt"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/yrpt.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/1hrcm.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/yrpt.json",
+        "version:file": "././JSONLD/auxillary/frequency/1hrcm.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -194,13 +194,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/yrpt"
+            "@id": "././auxillary/frequency/1hrcm"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/1hr.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/3hrpt.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/1hr.json",
+        "version:file": "././JSONLD/auxillary/frequency/3hrpt.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -216,13 +216,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/1hr"
+            "@id": "././auxillary/frequency/3hrpt"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/3hrpt.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/3hr.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/3hrpt.json",
+        "version:file": "././JSONLD/auxillary/frequency/3hr.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -238,13 +238,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/3hrpt"
+            "@id": "././auxillary/frequency/3hr"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/monc.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/yr.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/monc.json",
+        "version:file": "././JSONLD/auxillary/frequency/yr.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -260,13 +260,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/monc"
+            "@id": "././auxillary/frequency/yr"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/dec.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/monpt.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/dec.json",
+        "version:file": "././JSONLD/auxillary/frequency/monpt.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -282,13 +282,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/dec"
+            "@id": "././auxillary/frequency/monpt"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/day.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/mon.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/day.json",
+        "version:file": "././JSONLD/auxillary/frequency/mon.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -304,13 +304,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/day"
+            "@id": "././auxillary/frequency/mon"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/subhrpt.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/subhrpt.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/subhrpt.json",
+        "version:file": "././JSONLD/auxillary/frequency/subhrpt.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -326,13 +326,13 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/subhrpt"
+            "@id": "././auxillary/frequency/subhrpt"
         }
     },
     {
-        "@id": "./https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/fx.json",
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency/fx.json",
         "@type": "version",
-        "version:file": "./JSONLD/auxillary/frequency/fx.json",
+        "version:file": "././JSONLD/auxillary/frequency/fx.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
@@ -348,7 +348,7 @@
             }
         },
         "version:data": {
-            "@id": "./mip-cmor-tables:auxillary/frequency/fx"
+            "@id": "././auxillary/frequency/fx"
         }
     }
 ]

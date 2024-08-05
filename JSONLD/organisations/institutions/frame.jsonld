@@ -1,24 +1,18 @@
 {
     "@context": {
-        "@vocab": "institution:",
-        "location": {
-            "@context": {
-                "@vocab": ""
-            }
-        }
+        "@vocab": "institution",
+        "@base": "mip-cmor-tables:organisations/institutions"
     },
-    "@type": "institution",
-    "cmip_acronym": "",
-    "ror": "",
-    "name": "",
-    "url": "",
-    "established": "",
-    "type": "",
-    "labels": {},
-    "aliases": {},
-    "acronyms": {},
-    "location": {
-        "@explicit": true
-    },
-    "@explicit": true
+    "@embed": "@always",
+    "@explicit": true,
+    "@type": "mip:institution",
+    "institution:acronyms": "",
+    "institution:aliases": "",
+    "institution:cmip-acronym": "",
+    "institution:established": "",
+    "institution:location": {},
+    "institution:name": "",
+    "institution:ror": "",
+    "institution:type": "",
+    "institution:url": ""
 }
