@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/ap6hr-vas",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "940ff494-4798-11e7-b16a-ac72891c3257",
-    "mip_table": "6hrPlev",
-    "variable_name": "vas"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/obmonlev-dmso",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "487c3ad6-2e41-11e6-b631-6f2cd59aa922",
-    "mip_table": "Omon",
-    "variable_name": "dmso"
-  }
-}

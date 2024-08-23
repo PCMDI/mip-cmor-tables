@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/obyrlev-zmisc",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "c9231382-c5e8-11e6-84e6-5404a60d96b5",
-    "mip_table": "Oyr",
-    "variable_name": "zmisc"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/aemon-cltc",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "01d412d0-c792-11e6-aa58-5404a60d96b5",
-    "mip_table": "AERmon",
-    "variable_name": "cltc"
-  }
-}

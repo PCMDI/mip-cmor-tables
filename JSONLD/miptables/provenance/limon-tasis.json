@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/limon-tasis",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "8120b9f4-bf17-11e6-b0d8-ac72891c3257",
-    "mip_table": "LImon",
-    "variable_name": "tasIs"
-  }
-}

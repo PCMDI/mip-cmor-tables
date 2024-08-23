@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opdec-msftyrho",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "ab16e948-1026-11e8-9d87-1c4d70487308",
-    "mip_table": "Odec",
-    "variable_name": "msftyrho"
-  }
-}

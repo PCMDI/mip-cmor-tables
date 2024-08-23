@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/aemonlev-lossco",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "fdabeffa-96ec-11e6-b81e-c9e268aff03a",
-    "mip_table": "AERmon",
-    "variable_name": "lossco"
-  }
-}

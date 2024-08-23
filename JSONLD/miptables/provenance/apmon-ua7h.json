@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmon-ua7h",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "ca7f7ade-6e00-11e7-9fbe-5404a60d96b5",
-    "mip_table": "Emon",
-    "variable_name": "ua"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmonlev-rsu",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "bab64814-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "CFmon",
-    "variable_name": "rsu"
-  }
-}

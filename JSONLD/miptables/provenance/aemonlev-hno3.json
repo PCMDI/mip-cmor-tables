@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/aemonlev-hno3",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "19bf7a5a-81b1-11e6-92de-ac72891c3257",
-    "mip_table": "AERmon",
-    "variable_name": "hno3"
-  }
-}

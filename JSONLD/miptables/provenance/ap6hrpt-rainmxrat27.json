@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-rainmxrat27",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "f27d9f32-26b8-11e7-8344-ac72891c3257",
-    "mip_table": "6hrPlevPt",
-    "variable_name": "rainmxrat27"
-  }
-}

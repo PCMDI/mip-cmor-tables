@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/lpmon-shrubfrac",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "bab76b9a-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "Lmon",
-    "variable_name": "shrubFrac"
-  }
-}

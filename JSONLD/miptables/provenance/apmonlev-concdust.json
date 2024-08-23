@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmonlev-concdust",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "6d5b0f08-a39e-11e6-8a8c-ac72891c3257",
-    "mip_table": "Emon",
-    "variable_name": "concdust"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmon-o3",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "59fbf2a8-c77d-11e6-8a33-5404a60d96b5",
-    "mip_table": "Amon",
-    "variable_name": "o3"
-  }
-}

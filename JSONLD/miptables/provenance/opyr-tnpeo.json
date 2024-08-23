@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opyr-tnpeo",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "baa4b4e6-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "Oyr",
-    "variable_name": "tnpeo"
-  }
-}

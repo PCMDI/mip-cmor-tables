@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opday-omldamax",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "bab2ce3c-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "Oday",
-    "variable_name": "omldamax"
-  }
-}

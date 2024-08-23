@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/obmonlev-co3nat",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "c924e52c-c5e8-11e6-84e6-5404a60d96b5",
-    "mip_table": "Omon",
-    "variable_name": "co3nat"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/aeday-toz",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "19bdaba8-81b1-11e6-92de-ac72891c3257",
-    "mip_table": "AERday",
-    "variable_name": "toz"
-  }
-}

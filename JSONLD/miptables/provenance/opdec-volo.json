@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opdec-volo",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "47950696-bb0b-11e6-8316-5980f7b176d1",
-    "mip_table": "Odec",
-    "variable_name": "volo"
-  }
-}

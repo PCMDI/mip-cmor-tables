@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opyrlev-diftrblo",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "baa4d82c-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "Oyr",
-    "variable_name": "diftrblo"
-  }
-}

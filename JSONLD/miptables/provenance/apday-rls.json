@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apday-rls",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "d660d938-633c-11e8-9791-a44cc8186c64",
-    "mip_table": "day",
-    "variable_name": "rls"
-  }
-}

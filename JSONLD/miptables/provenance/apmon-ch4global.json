@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmon-ch4global",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "baa9e22c-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "Amon",
-    "variable_name": "ch4global"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/siday-siu",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "b811a784-7c00-11e6-bcdf-ac72891c3257",
-    "mip_table": "SIday",
-    "variable_name": "siu"
-  }
-}

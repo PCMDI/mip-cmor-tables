@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/obmon-fric",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "baa0f14e-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "Omon",
-    "variable_name": "fric"
-  }
-}

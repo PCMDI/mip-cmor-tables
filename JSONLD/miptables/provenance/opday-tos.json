@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opday-tos",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "baa720e6-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "Oday",
-    "variable_name": "tos"
-  }
-}

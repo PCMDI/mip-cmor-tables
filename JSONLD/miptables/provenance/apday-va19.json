@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apday-va19",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "8bae05ec-4a5b-11e6-9cd2-ac72891c3257",
-    "mip_table": "Eday",
-    "variable_name": "va"
-  }
-}

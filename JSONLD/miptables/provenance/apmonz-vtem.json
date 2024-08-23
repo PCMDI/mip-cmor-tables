@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmonz-vtem",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "feeadf5c-96ec-11e6-b81e-c9e268aff03a",
-    "mip_table": "EmonZ",
-    "variable_name": "vtem"
-  }
-}

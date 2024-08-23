@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/simon-siitdthick",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "712a1fc4-faa7-11e6-bfb7-ac72891c3257",
-    "mip_table": "SImon",
-    "variable_name": "siitdthick"
-  }
-}

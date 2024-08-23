@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/ap6hr-pr",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "91044b3e-267c-11e7-8933-ac72891c3257",
-    "mip_table": "6hrPlev",
-    "variable_name": "pr"
-  }
-}

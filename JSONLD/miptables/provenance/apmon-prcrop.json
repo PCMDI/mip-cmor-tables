@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmon-prcrop",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "124a1b8a-c14f-11e6-bb78-ac72891c3257",
-    "mip_table": "Emon",
-    "variable_name": "prCrop"
-  }
-}

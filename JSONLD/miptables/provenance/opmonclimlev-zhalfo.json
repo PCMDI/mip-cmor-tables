@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opmonclimlev-zhalfo",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "3c565a72-b89b-11e6-be04-ac72891c3257",
-    "mip_table": "Oclim",
-    "variable_name": "zhalfo"
-  }
-}

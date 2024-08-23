@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opmonclim-tnkebto2d",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "a92a06b8-817c-11e6-a4e2-5404a60d96b5",
-    "mip_table": "Oclim",
-    "variable_name": "tnkebto2d"
-  }
-}

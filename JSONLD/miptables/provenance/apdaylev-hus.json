@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apdaylev-hus",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "bab00d50-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "CFday",
-    "variable_name": "hus"
-  }
-}

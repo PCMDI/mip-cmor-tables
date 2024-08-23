@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/aemon-od550bc",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "19bf8f18-81b1-11e6-92de-ac72891c3257",
-    "mip_table": "AERmon",
-    "variable_name": "od550bc"
-  }
-}

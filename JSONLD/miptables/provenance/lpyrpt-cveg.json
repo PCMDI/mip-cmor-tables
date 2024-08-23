@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/lpyrpt-cveg",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "d22e3598-4a9f-11e6-b84e-ac72891c3257",
-    "mip_table": "Eyr",
-    "variable_name": "cVeg"
-  }
-}

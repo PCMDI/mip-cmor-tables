@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/lpyr-vegfrac",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "fb01828e-be37-11e6-bac1-5404a60d96b5",
-    "mip_table": "Eyr",
-    "variable_name": "vegFrac"
-  }
-}

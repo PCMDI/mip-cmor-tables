@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmon-utendnogw",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "6f17b552-9acb-11e6-b7ee-ac72891c3257",
-    "mip_table": "Emon",
-    "variable_name": "utendnogw"
-  }
-}

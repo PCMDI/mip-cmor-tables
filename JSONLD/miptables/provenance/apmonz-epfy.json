@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmonz-epfy",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "feeaea60-96ec-11e6-b81e-c9e268aff03a",
-    "mip_table": "EmonZ",
-    "variable_name": "epfy"
-  }
-}

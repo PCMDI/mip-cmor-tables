@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opdeclev-msftyz",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "d4ba5dca-1026-11e8-9d87-1c4d70487308",
-    "mip_table": "Odec",
-    "variable_name": "msftyz"
-  }
-}

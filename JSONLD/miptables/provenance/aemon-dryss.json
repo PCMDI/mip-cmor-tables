@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/aemon-dryss",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "19c00b32-81b1-11e6-92de-ac72891c3257",
-    "mip_table": "AERmon",
-    "variable_name": "dryss"
-  }
-}

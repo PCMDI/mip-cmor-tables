@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/ap6hrptlev-pfull",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "d237b082-4a9f-11e6-b84e-ac72891c3257",
-    "mip_table": "6hrLev",
-    "variable_name": "pfull"
-  }
-}

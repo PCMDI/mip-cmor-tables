@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/ap3hrptlev-n2o",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "7b307e08-a220-11e6-a33f-ac72891c3257",
-    "mip_table": "E3hrPt",
-    "variable_name": "n2o"
-  }
-}

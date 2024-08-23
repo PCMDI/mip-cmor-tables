@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apday-snwc",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "d2288e36-4a9f-11e6-b84e-ac72891c3257",
-    "mip_table": "Eday",
-    "variable_name": "snwc"
-  }
-}

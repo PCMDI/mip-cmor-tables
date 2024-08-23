@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opfx-hfgeou",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "baa3fb50-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "Ofx",
-    "variable_name": "hfgeou"
-  }
-}

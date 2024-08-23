@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmonz-vtendnogw",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "8183eac8-f906-11e6-a176-5404a60d96b5",
-    "mip_table": "EmonZ",
-    "variable_name": "vtendnogw"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmonlev-zg",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "19bea74c-81b1-11e6-92de-ac72891c3257",
-    "mip_table": "AERmon",
-    "variable_name": "zg"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/obmon-icfriver",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "baa0ed2a-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "Omon",
-    "variable_name": "icfriver"
-  }
-}

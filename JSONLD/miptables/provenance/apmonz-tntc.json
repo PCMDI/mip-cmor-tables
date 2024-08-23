@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmonz-tntc",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "11ecc9b2-c14f-11e6-bb78-ac72891c3257",
-    "mip_table": "EmonZ",
-    "variable_name": "tntc"
-  }
-}

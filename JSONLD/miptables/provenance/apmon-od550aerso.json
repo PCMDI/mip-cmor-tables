@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmon-od550aerso",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "6f6bc35e-9acb-11e6-b7ee-ac72891c3257",
-    "mip_table": "Emon",
-    "variable_name": "od550aerso"
-  }
-}

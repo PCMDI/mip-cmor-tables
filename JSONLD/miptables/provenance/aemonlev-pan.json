@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/aemonlev-pan",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "19c01690-81b1-11e6-92de-ac72891c3257",
-    "mip_table": "AERmon",
-    "variable_name": "pan"
-  }
-}

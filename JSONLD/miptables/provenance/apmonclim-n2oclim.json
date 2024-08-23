@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmonclim-n2oclim",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "a92e4ec6-817c-11e6-a4e2-5404a60d96b5",
-    "mip_table": "Amon",
-    "variable_name": "n2oClim"
-  }
-}

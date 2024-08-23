@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/simon-siareas",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "7124f9a4-faa7-11e6-bfb7-ac72891c3257",
-    "mip_table": "SImon",
-    "variable_name": "siareas"
-  }
-}

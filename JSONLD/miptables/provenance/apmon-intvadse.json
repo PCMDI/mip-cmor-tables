@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmon-intvadse",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "6f6916a4-9acb-11e6-b7ee-ac72891c3257",
-    "mip_table": "Emon",
-    "variable_name": "intvadse"
-  }
-}

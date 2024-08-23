@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/aemonlev-phalf",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "01d4d80a-c792-11e6-aa58-5404a60d96b5",
-    "mip_table": "AERmon",
-    "variable_name": "phalf"
-  }
-}

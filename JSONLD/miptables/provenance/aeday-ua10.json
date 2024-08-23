@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/aeday-ua10",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "19bdde3e-81b1-11e6-92de-ac72891c3257",
-    "mip_table": "AERday",
-    "variable_name": "ua10"
-  }
-}

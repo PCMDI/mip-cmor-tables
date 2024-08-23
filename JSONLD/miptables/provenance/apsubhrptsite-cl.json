@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apsubhrptsite-cl",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "a95468ae-817c-11e6-a4e2-5404a60d96b5",
-    "mip_table": "CFsubhr",
-    "variable_name": "cl"
-  }
-}

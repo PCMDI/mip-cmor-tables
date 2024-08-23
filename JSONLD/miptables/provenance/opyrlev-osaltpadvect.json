@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opyrlev-osaltpadvect",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "baa47bfc-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "Oyr",
-    "variable_name": "osaltpadvect"
-  }
-}

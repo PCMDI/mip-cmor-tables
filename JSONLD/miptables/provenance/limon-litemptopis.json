@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/limon-litemptopis",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "8120ca5c-bf17-11e6-b0d8-ac72891c3257",
-    "mip_table": "LImon",
-    "variable_name": "litemptopIs"
-  }
-}

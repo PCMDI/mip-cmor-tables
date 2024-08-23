@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/ap3hr-clivi",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "8bb0ccd2-4a5b-11e6-9cd2-ac72891c3257",
-    "mip_table": "E3hr",
-    "variable_name": "clivi"
-  }
-}

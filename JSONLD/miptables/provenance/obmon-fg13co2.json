@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/obmon-fg13co2",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "804534f0-f906-11e6-a176-5404a60d96b5",
-    "mip_table": "Omon",
-    "variable_name": "fg13co2"
-  }
-}

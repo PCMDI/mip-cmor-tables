@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opday-sossq",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "1aa81340-b006-11e6-9289-ac72891c3257",
-    "mip_table": "Oday",
-    "variable_name": "sossq"
-  }
-}

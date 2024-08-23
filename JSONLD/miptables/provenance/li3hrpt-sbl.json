@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/li3hrpt-sbl",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "edbcf498-4b7f-11e7-903f-5404a60d96b5",
-    "mip_table": "CF3hr",
-    "variable_name": "sbl"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/lpday-mrro",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "bab17cb2-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "day",
-    "variable_name": "mrro"
-  }
-}

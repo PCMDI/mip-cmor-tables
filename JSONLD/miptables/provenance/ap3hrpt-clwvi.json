@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-clwvi",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "e0ab40e8-4b7f-11e7-903f-5404a60d96b5",
-    "mip_table": "CF3hr",
-    "variable_name": "clwvi"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opmonclimlev-diftrelo",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "baabd41a-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "Oclim",
-    "variable_name": "diftrelo"
-  }
-}

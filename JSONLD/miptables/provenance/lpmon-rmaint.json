@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/lpmon-rmaint",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "bab4bc2e-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "Lmon",
-    "variable_name": "rMaint"
-  }
-}

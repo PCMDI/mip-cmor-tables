@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmon-clisccp",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "2ab325ee-c07e-11e6-8775-5404a60d96b5",
-    "mip_table": "CFmon",
-    "variable_name": "clisccp"
-  }
-}

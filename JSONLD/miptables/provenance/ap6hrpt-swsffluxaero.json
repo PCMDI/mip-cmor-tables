@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/ap6hrpt-swsffluxaero",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "f26b4bc0-26b8-11e7-8344-ac72891c3257",
-    "mip_table": "6hrPlevPt",
-    "variable_name": "swsffluxaero"
-  }
-}

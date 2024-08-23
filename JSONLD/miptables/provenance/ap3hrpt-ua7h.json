@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/ap3hrpt-ua7h",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "f2ab1be2-26b8-11e7-8344-ac72891c3257",
-    "mip_table": "E3hrPt",
-    "variable_name": "ua7h"
-  }
-}

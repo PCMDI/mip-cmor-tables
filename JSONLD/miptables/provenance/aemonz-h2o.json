@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/aemonz-h2o",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "fda6d178-96ec-11e6-b81e-c9e268aff03a",
-    "mip_table": "AERmonZ",
-    "variable_name": "h2o"
-  }
-}

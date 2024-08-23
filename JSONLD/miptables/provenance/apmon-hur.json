@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apmon-hur",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "baafe578-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "Amon",
-    "variable_name": "hur"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/lpday-nudgincsm",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "7b19bf92-a220-11e6-a33f-ac72891c3257",
-    "mip_table": "Eday",
-    "variable_name": "nudgincsm"
-  }
-}

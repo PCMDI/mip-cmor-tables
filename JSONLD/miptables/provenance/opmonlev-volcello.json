@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opmonlev-volcello",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "e0739eaa-e1ab-11e7-9db4-1c4d70487308",
-    "mip_table": "Omon",
-    "variable_name": "volcello"
-  }
-}

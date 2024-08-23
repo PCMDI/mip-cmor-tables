@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/obyrlev-dissic",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "ba9da994-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "Oyr",
-    "variable_name": "dissic"
-  }
-}

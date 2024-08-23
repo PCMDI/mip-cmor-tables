@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apday-clwvi",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "baab15a2-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "CFday",
-    "variable_name": "clwvi"
-  }
-}

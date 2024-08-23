@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/opmonclimlev-zfullo",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "3c564abe-b89b-11e6-be04-ac72891c3257",
-    "mip_table": "Oclim",
-    "variable_name": "zfullo"
-  }
-}

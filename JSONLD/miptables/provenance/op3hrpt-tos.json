@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/op3hrpt-tos",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "babb20b4-e5dd-11e5-8482-ac72891c3257",
-    "mip_table": "3hr",
-    "variable_name": "tos"
-  }
-}

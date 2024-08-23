@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/apday-cldnvi",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "7d8c7188-1ab7-11e7-8dfc-5404a60d96b5",
-    "mip_table": "Eday",
-    "variable_name": "cldnvi"
-  }
-}

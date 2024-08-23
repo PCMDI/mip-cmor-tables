@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/aemonlev-aoanh",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "3a0a3d38-9c3a-11e6-8d5d-ac72891c3257",
-    "mip_table": "AERmon",
-    "variable_name": "aoanh"
-  }
-}

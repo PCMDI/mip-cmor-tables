@@ -1,9 +1,0 @@
-{
-  "@id": "mip-cmor-tables:miptables/provenance/aemon-rlutcsaf",
-  "@type": "provenance",
-  "cmip6": {
-    "dreq_uid": "8febbae8-267c-11e7-8933-ac72891c3257",
-    "mip_table": "AERmon",
-    "variable_name": "rlutcsaf"
-  }
-}
