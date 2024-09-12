@@ -16,4 +16,4 @@ data = cmipld.utils.sorted_dict(frame.filterkeys(['cmip-acronym','name','ror'],T
 
 
 
-cmipld.utils.wjsn(data,base+'/MIP_organisations.json')
+cmipld.utils.wjsn(finalise(data,'organisations'),base+'/MIP_organisations.json')
