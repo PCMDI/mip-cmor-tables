@@ -17,14 +17,11 @@
         "5000 km"
     ],
     "version_metadata": {
-        "version_tag": "v6.5.0.1",
-        "checksum": "md5: 42869fa02875f57697181dd1305359e0",
-        "MIP_nominal_resolution_modified": "Thu Feb 29 16:22:42 2024 +0000",
-        "MIP_nominal_resolution_note": "Updating versioning and model_components scripts to process files individually.",
-        "commit": "f446d6972daa3166b6ba8bfe315ac34db316ac10",
-        "previous_commit": "",
-        "author": "Daniel Ellis",
-        "CV_collection_version": "v6.5.1.1",
-        "specs_doc": "v6.5.0"
+        "version_tag": "v6.5.0.2",
+        "checksum": "d2db71e4d24eea1fd0215e8048f54f52",
+        "commit": "dbf69062454d78fa6638f3bde074e319669f1b8d",
+        "previous_commit": "dedfd73938ac9e9dd45ab62bb6a9c907a45ae3bf",
+        "nominal_resolution_modified": "Thu, 12 Sep 2024 11:43:30 +0100",
+        "nominal_resolution_note": "generate realm files"
     }
 }
