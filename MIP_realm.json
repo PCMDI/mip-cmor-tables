@@ -10,14 +10,11 @@
         "seaIce": "Sea Ice"
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.1",
-        "checksum": "md5: 09df593fc72f4eba93b9e36d461c8c62",
-        "MIP_realm_modified": "Thu Feb 29 16:22:42 2024 +0000",
-        "MIP_realm_note": "Updating versioning and model_components scripts to process files individually.",
-        "commit": "9c332494fd005444e74493293e6dcb798ce090c6",
-        "previous_commit": "",
-        "author": "Daniel Ellis",
-        "CV_collection_version": "v6.5.1.1",
-        "specs_doc": "v6.5.0"
+        "version_tag": "v6.5.0.2",
+        "checksum": "907de404ca24450a0b400451c483c743",
+        "commit": "dedfd73938ac9e9dd45ab62bb6a9c907a45ae3bf",
+        "previous_commit": "838354e69ea8fc9bacad71421cdbb44d32af3ffa",
+        "realm_modified": "Thu, 12 Sep 2024 11:41:19 +0100",
+        "realm_note": "grid generation"
     }
 }
