@@ -8,18 +8,15 @@
         "ISM": "ice-sheet model that includes ice-flow",
         "LAND": "land model run uncoupled from the atmosphere",
         "OGCM": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
-        "RAD": "rad iation component of an atmospheric model run 'offline'",
+        "RAD": "radiation component of an atmospheric model run 'offline'",
         "SLAB": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system"
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.1",
-        "checksum": "md5: 8280247767edbecfec6d0f1814f7e4ee",
-        "MIP_source_type_modified": "Thu Feb 29 16:22:42 2024 +0000",
-        "MIP_source_type_note": "Updating versioning and model_components scripts to process files individually.",
-        "commit": "5bb3c8e69d5d99eb4d61b0ab08e67aff1658fc75",
-        "previous_commit": "",
-        "author": "Daniel Ellis",
-        "CV_collection_version": "v6.5.1.1",
-        "specs_doc": "v6.5.0"
+        "version_tag": "v6.5.0.2",
+        "checksum": "e050a90c2ef4a347b3f0a95103714178",
+        "commit": "f78f9858580e7ba7603c5f87b14d3e7413acaebd",
+        "previous_commit": "8255c9ed6dcf953cfdb23952c1f18eb50dd31b86",
+        "source_type_modified": "Thu, 12 Sep 2024 11:47:59 +0100",
+        "source_type_note": "generate resolution"
     }
 }
