@@ -1,51 +1,5 @@
 [
 {
-    "@id": "graph:license",
-    "@type": "mip:graph",
-    "@context": {
-        "@vocab": "license",
-        "@base": "mip-cmor-tables:license"
-    },
-    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license",
-    ":ldroot": "JSONLD/license",
-    "@graph": [
-        {
-            "@id": "mip-cmor-tables:license/cc-by-4.0",
-            "@type": "mip:license",
-            "license:kind": "CC BY 4.0",
-            "license:license_id": "Creative Commons Attribution 4.0 International",
-            "license:license_url": "https://creativecommons.org/licenses/by/4.0/"
-        },
-        {
-            "@id": "mip-cmor-tables:license/cc0-1.0",
-            "@type": "mip:license",
-            "license:kind": "CC0 1.0",
-            "license:license_id": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
-            "license:license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
-        },
-        {
-            "@id": "mip-cmor-tables:license/cc-by-sa-4.0",
-            "@type": "mip:license",
-            "license:kind": "CC BY-SA 4.0",
-            "license:license_id": "Creative Commons Attribution-ShareAlike 4.0 International",
-            "license:license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
-        },
-        {
-            "@id": "mip-cmor-tables:license/cc-by-nc-sa-4.0",
-            "@type": "mip:license",
-            "license:kind": "CC BY-NC-SA 4.0",
-            "license:license_id": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
-            "license:license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
-        }
-    ],
-    ":files": [
-        "cc-by-4.0.json",
-        "cc0-1.0.json",
-        "cc-by-nc-sa-4.0.json",
-        "cc-by-sa-4.0.json"
-    ]
-},
-{
     "@id": "graph:institution",
     "@type": "mip:graph",
     "@context": {
@@ -2961,556 +2915,49 @@
     ]
 },
 {
-    "@id": "graph:mip-era",
+    "@id": "graph:license",
     "@type": "mip:graph",
     "@context": {
-        "@vocab": "mip-era",
-        "@base": "mip-cmor-tables:auxillary/mip-era"
+        "@vocab": "license",
+        "@base": "mip-cmor-tables:license"
     },
-    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip-era",
-    ":ldroot": "JSONLD/auxillary/mip-era",
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/license",
+    ":ldroot": "JSONLD/license",
     "@graph": [
         {
-            "@id": "mip-cmor-tables:auxillary/mip-era/cmip7",
-            "@type": "mip:mip-era",
-            "mip-era:end": 2999,
-            "mip-era:name": "CMIP7",
-            "mip-era:start": 2025,
-            "mip-era:url": "https://wcrp-cmip.org/CMIP7"
+            "@id": "mip-cmor-tables:license/cc-by-4.0",
+            "@type": "mip:license",
+            "license:kind": "CC BY 4.0",
+            "license:license_id": "Creative Commons Attribution 4.0 International",
+            "license:license_url": "https://creativecommons.org/licenses/by/4.0/"
         },
         {
-            "@id": "mip-cmor-tables:auxillary/mip-era/cmip5",
-            "@type": "mip:mip-era",
-            "mip-era:end": 2999,
-            "mip-era:name": "CMIP5",
-            "mip-era:start": 2999,
-            "mip-era:url": "https://wcrp-cmip.org/CMIP5"
+            "@id": "mip-cmor-tables:license/cc0-1.0",
+            "@type": "mip:license",
+            "license:kind": "CC0 1.0",
+            "license:license_id": "Creative Commons CC0 1.0 Universal Public Domain Dedication",
+            "license:license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
         },
         {
-            "@id": "mip-cmor-tables:auxillary/mip-era/cmip6plus",
-            "@type": "mip:mip-era",
-            "mip-era:end": 2999,
-            "mip-era:name": "CMIP6Plus",
-            "mip-era:start": 2023,
-            "mip-era:url": "https://wcrp-cmip.org/CMIP6Plus"
+            "@id": "mip-cmor-tables:license/cc-by-sa-4.0",
+            "@type": "mip:license",
+            "license:kind": "CC BY-SA 4.0",
+            "license:license_id": "Creative Commons Attribution-ShareAlike 4.0 International",
+            "license:license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
         },
         {
-            "@id": "mip-cmor-tables:auxillary/mip-era/cmip6",
-            "@type": "mip:mip-era",
-            "mip-era:end": 2024,
-            "mip-era:name": "CMIP6",
-            "mip-era:start": 2013,
-            "mip-era:url": "https://wcrp-cmip.org/CMIP6"
+            "@id": "mip-cmor-tables:license/cc-by-nc-sa-4.0",
+            "@type": "mip:license",
+            "license:kind": "CC BY-NC-SA 4.0",
+            "license:license_id": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International",
+            "license:license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
         }
     ],
     ":files": [
-        "cmip5.json",
-        "cmip6plus.json",
-        "cmip7.json",
-        "cmip6.json"
-    ]
-},
-{
-    "@id": "graph:source-type",
-    "@type": "mip:graph",
-    "@context": {
-        "@vocab": "source-type",
-        "@base": "mip-cmor-tables:auxillary/source-type"
-    },
-    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type",
-    ":ldroot": "JSONLD/auxillary/source-type",
-    "@graph": [
-        {
-            "@id": "mip-cmor-tables:auxillary/source-type/chem",
-            "@type": "mip:source-type",
-            "source-type:description": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them",
-            "source-type:name": "CHEM"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/source-type/rad",
-            "@type": "mip:source-type",
-            "source-type:description": "radiation component of an atmospheric model run 'offline'",
-            "source-type:name": "RAD"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/source-type/aogcm",
-            "@type": "mip:source-type",
-            "source-type:description": "coupled atmosphere-ocean global climate model, additionally including explicit representation of at least the land and sea ice",
-            "source-type:name": "AOGCM"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/source-type/aer",
-            "@type": "mip:source-type",
-            "source-type:description": "aerosol treatment in an atmospheric model where concentrations are calculated based on emissions, transformation, and removal processes (rather than being prescribed or omitted entirely)",
-            "source-type:name": "AER"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/source-type/ogcm",
-            "@type": "mip:source-type",
-            "source-type:description": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
-            "source-type:name": "OGCM"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/source-type/ism",
-            "@type": "mip:source-type",
-            "source-type:description": "ice-sheet model that includes ice-flow",
-            "source-type:name": "ISM"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/source-type/agcm",
-            "@type": "mip:source-type",
-            "source-type:description": "atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface",
-            "source-type:name": "AGCM"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/source-type/slab",
-            "@type": "mip:source-type",
-            "source-type:description": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system",
-            "source-type:name": "SLAB"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/source-type/land",
-            "@type": "mip:source-type",
-            "source-type:description": "land model run uncoupled from the atmosphere",
-            "source-type:name": "LAND"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/source-type/bgc",
-            "@type": "mip:source-type",
-            "source-type:description": "biogeochemistry model component that at the very least accounts for carbon reservoirs and fluxes in the atmosphere, terrestrial biosphere, and ocean",
-            "source-type:name": "BGC"
-        }
-    ],
-    ":files": [
-        "rad.json",
-        "aer.json",
-        "chem.json",
-        "bgc.json",
-        "ogcm.json",
-        "land.json",
-        "slab.json",
-        "ism.json",
-        "aogcm.json",
-        "agcm.json"
-    ]
-},
-{
-    "@id": "graph:frequency",
-    "@type": "mip:graph",
-    "@context": {
-        "@vocab": "frequency",
-        "@base": "mip-cmor-tables:auxillary/frequency"
-    },
-    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency",
-    ":ldroot": "JSONLD/auxillary/frequency",
-    "@graph": [
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/dec",
-            "@type": "mip:frequency",
-            "frequency:description": "decadal mean samples",
-            "frequency:long_name": "Decadal Frequency",
-            "frequency:name": "dec",
-            "frequency:unit": "decade"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/monc",
-            "@type": "mip:frequency",
-            "frequency:description": "monthly climatology computed from monthly mean samples",
-            "frequency:long_name": "Monthly Climatology",
-            "frequency:name": "monC",
-            "frequency:unit": "month"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/1hr",
-            "@type": "mip:frequency",
-            "frequency:description": "sampled hourly",
-            "frequency:long_name": "1 Hourly Frequency",
-            "frequency:name": "1hr",
-            "frequency:unit": "hour"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/6hr",
-            "@type": "mip:frequency",
-            "frequency:description": "6 hourly mean samples",
-            "frequency:long_name": "6 Hourly Frequency",
-            "frequency:name": "6hr",
-            "frequency:unit": "hour"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/yrpt",
-            "@type": "mip:frequency",
-            "frequency:description": "sampled yearly, at specified time point within the time period",
-            "frequency:long_name": "Yearly Point",
-            "frequency:name": "yrPt",
-            "frequency:unit": "year"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/day",
-            "@type": "mip:frequency",
-            "frequency:description": "daily mean samples",
-            "frequency:long_name": "Daily Frequency",
-            "frequency:name": "day",
-            "frequency:unit": "day"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/1hrpt",
-            "@type": "mip:frequency",
-            "frequency:description": "sampled hourly, at specified time point within an hour",
-            "frequency:long_name": "1 Hour Point",
-            "frequency:name": "1hrPt",
-            "frequency:unit": "hour"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/6hrpt",
-            "@type": "mip:frequency",
-            "frequency:description": "sampled 6 hourly, at specified time point within the time period",
-            "frequency:long_name": "6 Hour Point",
-            "frequency:name": "6hrPt",
-            "frequency:unit": "hour"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/1hrcm",
-            "@type": "mip:frequency",
-            "frequency:description": "monthly-mean diurnal cycle resolving each day into 1-hour means",
-            "frequency:long_name": "1 Hour Climatology Monthly",
-            "frequency:name": "1hrCM",
-            "frequency:unit": "hour"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/3hrpt",
-            "@type": "mip:frequency",
-            "frequency:description": "sampled 3 hourly, at specified time point within the time period",
-            "frequency:long_name": "3 Hour Point",
-            "frequency:name": "3hrPt",
-            "frequency:unit": "hour"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/3hr",
-            "@type": "mip:frequency",
-            "frequency:description": "3 hourly mean samples",
-            "frequency:long_name": "3 Hourly Frequency",
-            "frequency:name": "3hr",
-            "frequency:unit": "hour"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/yr",
-            "@type": "mip:frequency",
-            "frequency:description": "annual mean samples",
-            "frequency:long_name": "Yearly Frequency",
-            "frequency:name": "yr",
-            "frequency:unit": "year"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/monpt",
-            "@type": "mip:frequency",
-            "frequency:description": "sampled monthly, at specified time point within the time period",
-            "frequency:long_name": "Monthly Point",
-            "frequency:name": "monPt",
-            "frequency:unit": "month"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/mon",
-            "@type": "mip:frequency",
-            "frequency:description": "monthly mean samples",
-            "frequency:long_name": "Monthly Frequency",
-            "frequency:name": "mon",
-            "frequency:unit": "month"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/subhrpt",
-            "@type": "mip:frequency",
-            "frequency:description": "sampled sub-hourly, at specified time point within an hour",
-            "frequency:long_name": "Sub-Hourly Point",
-            "frequency:name": "subhrPt",
-            "frequency:unit": "minute"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/frequency/fx",
-            "@type": "mip:frequency",
-            "frequency:description": "fixed (time invariant) field",
-            "frequency:long_name": "Fixed Frequency",
-            "frequency:name": "fx",
-            "frequency:unit": "none"
-        }
-    ],
-    ":files": [
-        "1hrcm.json",
-        "monc.json",
-        "yrpt.json",
-        "6hr.json",
-        "3hrpt.json",
-        "mon.json",
-        "dec.json",
-        "monpt.json",
-        "1hr.json",
-        "6hrpt.json",
-        "yr.json",
-        "day.json",
-        "3hr.json",
-        "1hrpt.json",
-        "subhrpt.json",
-        "fx.json"
-    ]
-},
-{
-    "@id": "graph:product",
-    "@type": "mip:graph",
-    "@context": {
-        "@vocab": "product",
-        "@base": "mip-cmor-tables:auxillary/product"
-    },
-    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/product",
-    ":ldroot": "JSONLD/auxillary/product",
-    "@graph": [
-        {
-            "@id": "mip-cmor-tables:auxillary/product/observations",
-            "@type": "mip:product",
-            "product:description": "Data collected from direct measurements of the climate system. This includes data from ground stations, satellites, buoys, and other observational platforms, which serve as a reference for validating and comparing model outputs.",
-            "product:kind": "observations"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/product/model-output",
-            "@type": "mip:product",
-            "product:description": "Output produced from a model simulation. This includes the various data points and metrics generated as a result of running climate models, which simulate physical, chemical, and biological processes affecting the climate system.",
-            "product:kind": "model-output"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/product/derived",
-            "@type": "mip:product",
-            "product:description": "Data that has been processed or transformed from raw model output. Derived data includes value-added products such as anomalies, indices, or other statistics that are computed from the original model outputs.",
-            "product:kind": "derived"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/product/forcing-dataset",
-            "@type": "mip:product",
-            "product:description": "Data sets used to drive model simulations. These include external factors like greenhouse gas concentrations, solar radiation, and land use changes that influence the climate model outputs.",
-            "product:kind": "forcing-dataset"
-        }
-    ],
-    ":files": [
-        "forcing-dataset.json",
-        "model-output.json",
-        "derived.json",
-        "observations.json"
-    ]
-},
-{
-    "@id": "graph:resolution",
-    "@type": "mip:graph",
-    "@context": {
-        "@vocab": "resolution",
-        "@base": "mip-cmor-tables:auxillary/resolution"
-    },
-    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution",
-    ":ldroot": "JSONLD/auxillary/resolution",
-    "@graph": [
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/50km",
-            "resolution:name": "50 km",
-            "resolution:value": "50",
-            "resolution:description": "Resolution of 50 km",
-            "resolution:unit": "km"
-        },
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/2500km",
-            "resolution:name": "2500 km",
-            "resolution:value": "2500",
-            "resolution:description": "Resolution of 2500 km",
-            "resolution:unit": "km"
-        },
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/100km",
-            "resolution:name": "100 km",
-            "resolution:value": "100",
-            "resolution:description": "Resolution of 100 km",
-            "resolution:unit": "km"
-        },
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/0.5km",
-            "resolution:name": "0.5 km",
-            "resolution:value": "0.5",
-            "resolution:description": "Resolution of 0.5 km",
-            "resolution:unit": "km"
-        },
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/500km",
-            "resolution:name": "500 km",
-            "resolution:value": "500",
-            "resolution:description": "Resolution of 500 km",
-            "resolution:unit": "km"
-        },
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/1km",
-            "resolution:name": "1 km",
-            "resolution:value": "1",
-            "resolution:description": "Resolution of 1 km",
-            "resolution:unit": "km"
-        },
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/10km",
-            "resolution:name": "10 km",
-            "resolution:value": "10",
-            "resolution:description": "Resolution of 10 km",
-            "resolution:unit": "km"
-        },
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/2.5km",
-            "resolution:name": "2.5 km",
-            "resolution:value": "2.5",
-            "resolution:description": "Resolution of 2.5 km",
-            "resolution:unit": "km"
-        },
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/1000km",
-            "resolution:name": "1000 km",
-            "resolution:value": "1000",
-            "resolution:description": "Resolution of 1000 km",
-            "resolution:unit": "km"
-        },
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/5000km",
-            "resolution:name": "5000 km",
-            "resolution:value": "5000",
-            "resolution:description": "Resolution of 5000 km",
-            "resolution:unit": "km"
-        },
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/1x1degree",
-            "resolution:name": "1x1 degree",
-            "resolution:value": "1x1",
-            "resolution:description": "Resolution of 1x1 degree",
-            "resolution:unit": "degree"
-        },
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/5km",
-            "resolution:name": "5 km",
-            "resolution:value": "5",
-            "resolution:description": "Resolution of 5 km",
-            "resolution:unit": "km"
-        },
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/250km",
-            "resolution:name": "250 km",
-            "resolution:value": "250",
-            "resolution:description": "Resolution of 250 km",
-            "resolution:unit": "km"
-        },
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/25km",
-            "resolution:name": "25 km",
-            "resolution:value": "25",
-            "resolution:description": "Resolution of 25 km",
-            "resolution:unit": "km"
-        },
-        {
-            "@type": "mip:resolution",
-            "@id": "mip-cmor-tables:auxillary/resolution/10000km",
-            "resolution:name": "10000 km",
-            "resolution:value": "10000",
-            "resolution:description": "Resolution of 10000 km",
-            "resolution:unit": "km"
-        }
-    ],
-    ":files": [
-        "0.5km.json",
-        "1x1degree.json",
-        "50km.json",
-        "1000km.json",
-        "2500km.json",
-        "25km.json",
-        "500km.json",
-        "100km.json",
-        "5000km.json",
-        "1km.json",
-        "2.5km.json",
-        "250km.json",
-        "10km.json",
-        "5km.json",
-        "10000km.json"
-    ]
-},
-{
-    "@id": "graph:realm",
-    "@type": "mip:graph",
-    "@context": {
-        "@vocab": "realm",
-        "@base": "mip-cmor-tables:auxillary/realm"
-    },
-    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm",
-    ":ldroot": "JSONLD/auxillary/realm",
-    "@graph": [
-        {
-            "@id": "mip-cmor-tables:auxillary/realm/atmos",
-            "@type": "mip:realm",
-            "realm:description": "Atmosphere",
-            "realm:name": "atmos"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/realm/landice",
-            "@type": "mip:realm",
-            "realm:description": "Land Ice",
-            "realm:name": "landIce"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/realm/seaice",
-            "@type": "mip:realm",
-            "realm:description": "Sea Ice",
-            "realm:name": "seaIce"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/realm/land",
-            "@type": "mip:realm",
-            "realm:description": "Land Surface",
-            "realm:name": "land"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/realm/ocnbgchem",
-            "@type": "mip:realm",
-            "realm:description": "Ocean Biogeochemistry",
-            "realm:name": "ocnBgchem"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/realm/aerosol",
-            "@type": "mip:realm",
-            "realm:description": "Aerosol",
-            "realm:name": "aerosol"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/realm/atmoschem",
-            "@type": "mip:realm",
-            "realm:description": "Atmospheric Chemistry",
-            "realm:name": "atmosChem"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/realm/ocean",
-            "@type": "mip:realm",
-            "realm:description": "Ocean",
-            "realm:name": "ocean"
-        }
-    ],
-    ":files": [
-        "ocnbgchem.json",
-        "ocean.json",
-        "landice.json",
-        "land.json",
-        "aerosol.json",
-        "atmos.json",
-        "seaice.json",
-        "atmoschem.json"
+        "cc-by-4.0.json",
+        "cc0-1.0.json",
+        "cc-by-nc-sa-4.0.json",
+        "cc-by-sa-4.0.json"
     ]
 },
 {
@@ -3930,5 +3377,558 @@
         "gr6z.json",
         "gr6.json",
         "gr4z.json"
+    ]
+},
+{
+    "@id": "graph:frequency",
+    "@type": "mip:graph",
+    "@context": {
+        "@vocab": "frequency",
+        "@base": "mip-cmor-tables:auxillary/frequency"
+    },
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/frequency",
+    ":ldroot": "JSONLD/auxillary/frequency",
+    "@graph": [
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/dec",
+            "@type": "mip:frequency",
+            "frequency:description": "decadal mean samples",
+            "frequency:long_name": "Decadal Frequency",
+            "frequency:name": "dec",
+            "frequency:unit": "decade"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/monc",
+            "@type": "mip:frequency",
+            "frequency:description": "monthly climatology computed from monthly mean samples",
+            "frequency:long_name": "Monthly Climatology",
+            "frequency:name": "monC",
+            "frequency:unit": "month"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/1hr",
+            "@type": "mip:frequency",
+            "frequency:description": "sampled hourly",
+            "frequency:long_name": "1 Hourly Frequency",
+            "frequency:name": "1hr",
+            "frequency:unit": "hour"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/6hr",
+            "@type": "mip:frequency",
+            "frequency:description": "6 hourly mean samples",
+            "frequency:long_name": "6 Hourly Frequency",
+            "frequency:name": "6hr",
+            "frequency:unit": "hour"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/yrpt",
+            "@type": "mip:frequency",
+            "frequency:description": "sampled yearly, at specified time point within the time period",
+            "frequency:long_name": "Yearly Point",
+            "frequency:name": "yrPt",
+            "frequency:unit": "year"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/day",
+            "@type": "mip:frequency",
+            "frequency:description": "daily mean samples",
+            "frequency:long_name": "Daily Frequency",
+            "frequency:name": "day",
+            "frequency:unit": "day"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/1hrpt",
+            "@type": "mip:frequency",
+            "frequency:description": "sampled hourly, at specified time point within an hour",
+            "frequency:long_name": "1 Hour Point",
+            "frequency:name": "1hrPt",
+            "frequency:unit": "hour"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/6hrpt",
+            "@type": "mip:frequency",
+            "frequency:description": "sampled 6 hourly, at specified time point within the time period",
+            "frequency:long_name": "6 Hour Point",
+            "frequency:name": "6hrPt",
+            "frequency:unit": "hour"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/1hrcm",
+            "@type": "mip:frequency",
+            "frequency:description": "monthly-mean diurnal cycle resolving each day into 1-hour means",
+            "frequency:long_name": "1 Hour Climatology Monthly",
+            "frequency:name": "1hrCM",
+            "frequency:unit": "hour"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/3hrpt",
+            "@type": "mip:frequency",
+            "frequency:description": "sampled 3 hourly, at specified time point within the time period",
+            "frequency:long_name": "3 Hour Point",
+            "frequency:name": "3hrPt",
+            "frequency:unit": "hour"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/3hr",
+            "@type": "mip:frequency",
+            "frequency:description": "3 hourly mean samples",
+            "frequency:long_name": "3 Hourly Frequency",
+            "frequency:name": "3hr",
+            "frequency:unit": "hour"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/yr",
+            "@type": "mip:frequency",
+            "frequency:description": "annual mean samples",
+            "frequency:long_name": "Yearly Frequency",
+            "frequency:name": "yr",
+            "frequency:unit": "year"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/monpt",
+            "@type": "mip:frequency",
+            "frequency:description": "sampled monthly, at specified time point within the time period",
+            "frequency:long_name": "Monthly Point",
+            "frequency:name": "monPt",
+            "frequency:unit": "month"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/mon",
+            "@type": "mip:frequency",
+            "frequency:description": "monthly mean samples",
+            "frequency:long_name": "Monthly Frequency",
+            "frequency:name": "mon",
+            "frequency:unit": "month"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/subhrpt",
+            "@type": "mip:frequency",
+            "frequency:description": "sampled sub-hourly, at specified time point within an hour",
+            "frequency:long_name": "Sub-Hourly Point",
+            "frequency:name": "subhrPt",
+            "frequency:unit": "minute"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/frequency/fx",
+            "@type": "mip:frequency",
+            "frequency:description": "fixed (time invariant) field",
+            "frequency:long_name": "Fixed Frequency",
+            "frequency:name": "fx",
+            "frequency:unit": "none"
+        }
+    ],
+    ":files": [
+        "1hrcm.json",
+        "monc.json",
+        "yrpt.json",
+        "6hr.json",
+        "3hrpt.json",
+        "mon.json",
+        "dec.json",
+        "monpt.json",
+        "1hr.json",
+        "6hrpt.json",
+        "yr.json",
+        "day.json",
+        "3hr.json",
+        "1hrpt.json",
+        "subhrpt.json",
+        "fx.json"
+    ]
+},
+{
+    "@id": "graph:product",
+    "@type": "mip:graph",
+    "@context": {
+        "@vocab": "product",
+        "@base": "mip-cmor-tables:auxillary/product"
+    },
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/product",
+    ":ldroot": "JSONLD/auxillary/product",
+    "@graph": [
+        {
+            "@id": "mip-cmor-tables:auxillary/product/observations",
+            "@type": "mip:product",
+            "product:description": "Data collected from direct measurements of the climate system. This includes data from ground stations, satellites, buoys, and other observational platforms, which serve as a reference for validating and comparing model outputs.",
+            "product:kind": "observations"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/product/model-output",
+            "@type": "mip:product",
+            "product:description": "Output produced from a model simulation. This includes the various data points and metrics generated as a result of running climate models, which simulate physical, chemical, and biological processes affecting the climate system.",
+            "product:kind": "model-output"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/product/derived",
+            "@type": "mip:product",
+            "product:description": "Data that has been processed or transformed from raw model output. Derived data includes value-added products such as anomalies, indices, or other statistics that are computed from the original model outputs.",
+            "product:kind": "derived"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/product/forcing-dataset",
+            "@type": "mip:product",
+            "product:description": "Data sets used to drive model simulations. These include external factors like greenhouse gas concentrations, solar radiation, and land use changes that influence the climate model outputs.",
+            "product:kind": "forcing-dataset"
+        }
+    ],
+    ":files": [
+        "forcing-dataset.json",
+        "model-output.json",
+        "derived.json",
+        "observations.json"
+    ]
+},
+{
+    "@id": "graph:resolution",
+    "@type": "mip:graph",
+    "@context": {
+        "@vocab": "resolution",
+        "@base": "mip-cmor-tables:auxillary/resolution"
+    },
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution",
+    ":ldroot": "JSONLD/auxillary/resolution",
+    "@graph": [
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/50km",
+            "resolution:name": "50 km",
+            "resolution:value": "50",
+            "resolution:description": "Resolution of 50 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/2500km",
+            "resolution:name": "2500 km",
+            "resolution:value": "2500",
+            "resolution:description": "Resolution of 2500 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/100km",
+            "resolution:name": "100 km",
+            "resolution:value": "100",
+            "resolution:description": "Resolution of 100 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/0.5km",
+            "resolution:name": "0.5 km",
+            "resolution:value": "0.5",
+            "resolution:description": "Resolution of 0.5 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/500km",
+            "resolution:name": "500 km",
+            "resolution:value": "500",
+            "resolution:description": "Resolution of 500 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/1km",
+            "resolution:name": "1 km",
+            "resolution:value": "1",
+            "resolution:description": "Resolution of 1 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/10km",
+            "resolution:name": "10 km",
+            "resolution:value": "10",
+            "resolution:description": "Resolution of 10 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/2.5km",
+            "resolution:name": "2.5 km",
+            "resolution:value": "2.5",
+            "resolution:description": "Resolution of 2.5 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/1000km",
+            "resolution:name": "1000 km",
+            "resolution:value": "1000",
+            "resolution:description": "Resolution of 1000 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/5000km",
+            "resolution:name": "5000 km",
+            "resolution:value": "5000",
+            "resolution:description": "Resolution of 5000 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/1x1degree",
+            "resolution:name": "1x1 degree",
+            "resolution:value": "1x1",
+            "resolution:description": "Resolution of 1x1 degree",
+            "resolution:unit": "degree"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/5km",
+            "resolution:name": "5 km",
+            "resolution:value": "5",
+            "resolution:description": "Resolution of 5 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/250km",
+            "resolution:name": "250 km",
+            "resolution:value": "250",
+            "resolution:description": "Resolution of 250 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/25km",
+            "resolution:name": "25 km",
+            "resolution:value": "25",
+            "resolution:description": "Resolution of 25 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/10000km",
+            "resolution:name": "10000 km",
+            "resolution:value": "10000",
+            "resolution:description": "Resolution of 10000 km",
+            "resolution:unit": "km"
+        }
+    ],
+    ":files": [
+        "0.5km.json",
+        "1x1degree.json",
+        "50km.json",
+        "1000km.json",
+        "2500km.json",
+        "25km.json",
+        "500km.json",
+        "100km.json",
+        "5000km.json",
+        "1km.json",
+        "2.5km.json",
+        "250km.json",
+        "10km.json",
+        "5km.json",
+        "10000km.json"
+    ]
+},
+{
+    "@id": "graph:mip-era",
+    "@type": "mip:graph",
+    "@context": {
+        "@vocab": "mip-era",
+        "@base": "mip-cmor-tables:auxillary/mip-era"
+    },
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip-era",
+    ":ldroot": "JSONLD/auxillary/mip-era",
+    "@graph": [
+        {
+            "@id": "mip-cmor-tables:auxillary/mip-era/cmip7",
+            "@type": "mip:mip-era",
+            "mip-era:end": 2999,
+            "mip-era:name": "CMIP7",
+            "mip-era:start": 2025,
+            "mip-era:url": "https://wcrp-cmip.org/CMIP7"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/mip-era/cmip5",
+            "@type": "mip:mip-era",
+            "mip-era:end": 2999,
+            "mip-era:name": "CMIP5",
+            "mip-era:start": 2999,
+            "mip-era:url": "https://wcrp-cmip.org/CMIP5"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/mip-era/cmip6plus",
+            "@type": "mip:mip-era",
+            "mip-era:end": 2999,
+            "mip-era:name": "CMIP6Plus",
+            "mip-era:start": 2023,
+            "mip-era:url": "https://wcrp-cmip.org/CMIP6Plus"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/mip-era/cmip6",
+            "@type": "mip:mip-era",
+            "mip-era:end": 2024,
+            "mip-era:name": "CMIP6",
+            "mip-era:start": 2013,
+            "mip-era:url": "https://wcrp-cmip.org/CMIP6"
+        }
+    ],
+    ":files": [
+        "cmip5.json",
+        "cmip6plus.json",
+        "cmip7.json",
+        "cmip6.json"
+    ]
+},
+{
+    "@id": "graph:source-type",
+    "@type": "mip:graph",
+    "@context": {
+        "@vocab": "source-type",
+        "@base": "mip-cmor-tables:auxillary/source-type"
+    },
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/source-type",
+    ":ldroot": "JSONLD/auxillary/source-type",
+    "@graph": [
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/chem",
+            "@type": "mip:source-type",
+            "source-type:description": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them",
+            "source-type:name": "CHEM"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/rad",
+            "@type": "mip:source-type",
+            "source-type:description": "radiation component of an atmospheric model run 'offline'",
+            "source-type:name": "RAD"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/aogcm",
+            "@type": "mip:source-type",
+            "source-type:description": "coupled atmosphere-ocean global climate model, additionally including explicit representation of at least the land and sea ice",
+            "source-type:name": "AOGCM"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/aer",
+            "@type": "mip:source-type",
+            "source-type:description": "aerosol treatment in an atmospheric model where concentrations are calculated based on emissions, transformation, and removal processes (rather than being prescribed or omitted entirely)",
+            "source-type:name": "AER"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/ogcm",
+            "@type": "mip:source-type",
+            "source-type:description": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model",
+            "source-type:name": "OGCM"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/ism",
+            "@type": "mip:source-type",
+            "source-type:description": "ice-sheet model that includes ice-flow",
+            "source-type:name": "ISM"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/agcm",
+            "@type": "mip:source-type",
+            "source-type:description": "atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface",
+            "source-type:name": "AGCM"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/slab",
+            "@type": "mip:source-type",
+            "source-type:description": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system",
+            "source-type:name": "SLAB"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/land",
+            "@type": "mip:source-type",
+            "source-type:description": "land model run uncoupled from the atmosphere",
+            "source-type:name": "LAND"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/source-type/bgc",
+            "@type": "mip:source-type",
+            "source-type:description": "biogeochemistry model component that at the very least accounts for carbon reservoirs and fluxes in the atmosphere, terrestrial biosphere, and ocean",
+            "source-type:name": "BGC"
+        }
+    ],
+    ":files": [
+        "rad.json",
+        "aer.json",
+        "chem.json",
+        "bgc.json",
+        "ogcm.json",
+        "land.json",
+        "slab.json",
+        "ism.json",
+        "aogcm.json",
+        "agcm.json"
+    ]
+},
+{
+    "@id": "graph:realm",
+    "@type": "mip:graph",
+    "@context": {
+        "@vocab": "realm",
+        "@base": "mip-cmor-tables:auxillary/realm"
+    },
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm",
+    ":ldroot": "JSONLD/auxillary/realm",
+    "@graph": [
+        {
+            "@id": "mip-cmor-tables:auxillary/realm/atmos",
+            "@type": "mip:realm",
+            "realm:description": "Atmosphere",
+            "realm:name": "atmos"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/realm/landice",
+            "@type": "mip:realm",
+            "realm:description": "Land Ice",
+            "realm:name": "landIce"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/realm/seaice",
+            "@type": "mip:realm",
+            "realm:description": "Sea Ice",
+            "realm:name": "seaIce"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/realm/land",
+            "@type": "mip:realm",
+            "realm:description": "Land Surface",
+            "realm:name": "land"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/realm/ocnbgchem",
+            "@type": "mip:realm",
+            "realm:description": "Ocean Biogeochemistry",
+            "realm:name": "ocnBgchem"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/realm/aerosol",
+            "@type": "mip:realm",
+            "realm:description": "Aerosol",
+            "realm:name": "aerosol"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/realm/atmoschem",
+            "@type": "mip:realm",
+            "realm:description": "Atmospheric Chemistry",
+            "realm:name": "atmosChem"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/realm/ocean",
+            "@type": "mip:realm",
+            "realm:description": "Ocean",
+            "realm:name": "ocean"
+        }
+    ],
+    ":files": [
+        "ocnbgchem.json",
+        "ocean.json",
+        "landice.json",
+        "land.json",
+        "aerosol.json",
+        "atmos.json",
+        "seaice.json",
+        "atmoschem.json"
     ]
 }]

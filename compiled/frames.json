@@ -1,4 +1,19 @@
 {
+  "mip-cmor-tables:organisations/consortia": {
+    "consortium:changes": "",
+    "consortium:cmip-acronym": "",
+    "consortium:members": {},
+    "consortium:name": "",
+    "consortium:status": "",
+    "consortium:url": "",
+    "@type": "mip:consortium",
+    "@context": {
+      "@vocab": "consortium",
+      "@base": "mip-cmor-tables:organisations/consortia"
+    },
+    "@embed": "@always",
+    "@explicit": true
+  },
   "mip-cmor-tables:auxillary/frequency": {
     "frequency:description": "",
     "frequency:long_name": "",
@@ -12,11 +27,52 @@
     "@embed": "@always",
     "@explicit": true
   },
+  "mip-cmor-tables:grid/label": {
+    "grid-label:description": "",
+    "grid-label:name": "",
+    "grid-label:region": "",
+    "@type": "mip:grid-label",
+    "@context": {
+      "@vocab": "grid-label",
+      "@base": "mip-cmor-tables:grid/label"
+    },
+    "@embed": "@always",
+    "@explicit": true
+  },
+  "mip-cmor-tables:organisations/institutions": {
+    "institution:acronyms": "",
+    "institution:cmip-acronym": "",
+    "institution:established": "",
+    "institution:location": {},
+    "institution:name": "",
+    "institution:ror": "",
+    "institution:type": "",
+    "institution:url": "",
+    "@type": "mip:institution",
+    "@context": {
+      "@vocab": "institution",
+      "@base": "mip-cmor-tables:organisations/institutions"
+    },
+    "@embed": "@always",
+    "@explicit": true
+  },
+  "mip-cmor-tables:license": {
+    "license:kind": "",
+    "license:license_id": "",
+    "license:license_url": "",
+    "@type": "mip:license",
+    "@context": {
+      "@vocab": "license",
+      "@base": "mip-cmor-tables:license"
+    },
+    "@embed": "@always",
+    "@explicit": true
+  },
   "mip-cmor-tables:auxillary/mip-era": {
-    "mip:end": "",
-    "mip:name": "",
-    "mip:start": "",
-    "mip:url": "",
+    "mip-era:end": "",
+    "mip-era:name": "",
+    "mip-era:start": "",
+    "mip-era:url": "",
     "@type": "mip:mip-era",
     "@context": {
       "@vocab": "mip-era",
@@ -67,62 +123,6 @@
     "@context": {
       "@vocab": "source-type",
       "@base": "mip-cmor-tables:auxillary/source-type"
-    },
-    "@embed": "@always",
-    "@explicit": true
-  },
-  "mip-cmor-tables:grid/label": {
-    "grid-label:description": "",
-    "grid-label:name": "",
-    "grid-label:region": "",
-    "@type": "mip:grid-label",
-    "@context": {
-      "@vocab": "grid-label",
-      "@base": "mip-cmor-tables:grid/label"
-    },
-    "@embed": "@always",
-    "@explicit": true
-  },
-  "mip-cmor-tables:license": {
-    "license:kind": "",
-    "license:license_id": "",
-    "license:license_url": "",
-    "@type": "mip:license",
-    "@context": {
-      "@vocab": "license",
-      "@base": "mip-cmor-tables:license"
-    },
-    "@embed": "@always",
-    "@explicit": true
-  },
-  "mip-cmor-tables:organisations/consortia": {
-    "consortium:changes": "",
-    "consortium:cmip-acronym": "",
-    "consortium:members": [],
-    "consortium:name": "",
-    "consortium:url": "",
-    "@type": "mip:consortium",
-    "@context": {
-      "@vocab": "consortium",
-      "@base": "mip-cmor-tables:organisations/consortia"
-    },
-    "@embed": "@always",
-    "@explicit": true
-  },
-  "mip-cmor-tables:organisations/institutions": {
-    "institution:acronyms": "",
-    "institution:aliases": "",
-    "institution:cmip-acronym": "",
-    "institution:established": "",
-    "institution:location": {},
-    "institution:name": "",
-    "institution:ror": "",
-    "institution:type": "",
-    "institution:url": "",
-    "@type": "mip:institution",
-    "@context": {
-      "@vocab": "institution",
-      "@base": "mip-cmor-tables:organisations/institutions"
     },
     "@embed": "@always",
     "@explicit": true

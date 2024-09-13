@@ -8,7 +8,8 @@
     "@type": "mip:consortium",
     "consortium:changes": "",
     "consortium:cmip-acronym": "",
-    "consortium:members": [],
+    "consortium:members": {},
     "consortium:name": "",
+    "consortium:status": "",
     "consortium:url": ""
 }
