@@ -18,11 +18,11 @@
         "yrPt": "sampled yearly, at specified time point within the time period"
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.2",
+        "version_tag": "v0.0.0",
         "checksum": "3c7e52f4dfb1ab132c7656da727a7ef1",
-        "commit": "b425d2c325a2ee19a19055a9e51c2813494db67c",
-        "previous_commit": "f71997b7dd6b1bef27184f994ac1a5bf0c8eb4db",
-        "frequency_modified": "Fri, 13 Sep 2024 23:58:41 +0100",
-        "frequency_note": "update action to run all scripts on update"
+        "commit": "5c0a57ce81bb885f1362f3358525d0d211383198",
+        "previous_commit": "97b8cef6a9f77dfc225e17f55492dc1d8ece163c",
+        "frequency_modified": "Fri, 13 Sep 2024 23:21:57 +0000",
+        "frequency_note": "Automated update of JSONLD files, network and frames"
     }
 }

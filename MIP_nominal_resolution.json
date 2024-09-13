@@ -17,11 +17,11 @@
         "5 km": "Resolution of 5 km"
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.2",
+        "version_tag": "v0.0.0",
         "checksum": "09c160e6e834bd66411bb905b8a81170",
-        "commit": "315d15543e15a05eccae8ca50ccc254987544448",
-        "previous_commit": "f71997b7dd6b1bef27184f994ac1a5bf0c8eb4db",
-        "nominal_resolution_modified": "Thu, 12 Sep 2024 14:36:06 +0100",
-        "nominal_resolution_note": "archive zip"
+        "commit": "5c0a57ce81bb885f1362f3358525d0d211383198",
+        "previous_commit": "97b8cef6a9f77dfc225e17f55492dc1d8ece163c",
+        "nominal_resolution_modified": "Fri, 13 Sep 2024 23:21:57 +0000",
+        "nominal_resolution_note": "Automated update of JSONLD files, network and frames"
     }
 }
