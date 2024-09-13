@@ -49,9 +49,9 @@
     "version_metadata": {
         "version_tag": "v6.5.0.2",
         "checksum": "cd66d317103ffb3ab0aab056b2066185",
-        "commit": "838354e69ea8fc9bacad71421cdbb44d32af3ffa",
-        "previous_commit": "35d0fa6542d26427fb3e4bd627c748de4149055e",
-        "grid_label_modified": "Thu, 12 Sep 2024 11:37:44 +0100",
-        "grid_label_note": "frequency generation"
+        "commit": "315d15543e15a05eccae8ca50ccc254987544448",
+        "previous_commit": "f71997b7dd6b1bef27184f994ac1a5bf0c8eb4db",
+        "grid_label_modified": "Thu, 12 Sep 2024 14:36:06 +0100",
+        "grid_label_note": "archive zip"
     }
 }

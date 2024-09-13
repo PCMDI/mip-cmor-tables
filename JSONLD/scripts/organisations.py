@@ -12,7 +12,7 @@ frame = {
 # await lddata
 
 frame = cmipld.Frame(lddata,frame).clean(['rmld','untag'])
-data = cmipld.utils.sorted_dict(frame.filterkeys(['cmip-acronym','name','ror'],True,'consortium').keyval('cmip-acronym'))
+data = cmipld.utils.sorted_dict(frame.filterkeys(['cmip-acronym','name','ror'],True,'consortium').key_value('cmip-acronym'))
 
 
 

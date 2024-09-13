@@ -14,9 +14,9 @@
     "version_metadata": {
         "version_tag": "v6.5.0.2",
         "checksum": "e050a90c2ef4a347b3f0a95103714178",
-        "commit": "f78f9858580e7ba7603c5f87b14d3e7413acaebd",
-        "previous_commit": "8255c9ed6dcf953cfdb23952c1f18eb50dd31b86",
-        "source_type_modified": "Thu, 12 Sep 2024 11:47:59 +0100",
-        "source_type_note": "generate resolution"
+        "commit": "315d15543e15a05eccae8ca50ccc254987544448",
+        "previous_commit": "f71997b7dd6b1bef27184f994ac1a5bf0c8eb4db",
+        "source_type_modified": "Thu, 12 Sep 2024 14:36:06 +0100",
+        "source_type_note": "archive zip"
     }
 }

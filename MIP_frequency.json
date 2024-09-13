@@ -20,9 +20,9 @@
     "version_metadata": {
         "version_tag": "v6.5.0.2",
         "checksum": "3c7e52f4dfb1ab132c7656da727a7ef1",
-        "commit": "35d0fa6542d26427fb3e4bd627c748de4149055e",
-        "previous_commit": "93ad52ad26d80c2466834e99d0af5c37b11f75e3",
-        "frequency_modified": "Thu, 12 Sep 2024 11:35:54 +0100",
-        "frequency_note": "frequency generation"
+        "commit": "b425d2c325a2ee19a19055a9e51c2813494db67c",
+        "previous_commit": "f71997b7dd6b1bef27184f994ac1a5bf0c8eb4db",
+        "frequency_modified": "Fri, 13 Sep 2024 23:58:41 +0100",
+        "frequency_note": "update action to run all scripts on update"
     }
 }

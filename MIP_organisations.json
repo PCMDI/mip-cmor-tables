@@ -304,9 +304,9 @@
     "version_metadata": {
         "version_tag": "v6.5.0.2",
         "checksum": "99bfef5021ed83dc56e25e3a61fef729",
-        "commit": "93ad52ad26d80c2466834e99d0af5c37b11f75e3",
-        "previous_commit": "e9c633ea7826be3e2d63c5894809e686546e8864",
-        "organisations_modified": "Tue, 10 Sep 2024 15:28:41 +0100",
-        "organisations_note": "initial organisations framing script."
+        "commit": "315d15543e15a05eccae8ca50ccc254987544448",
+        "previous_commit": "f71997b7dd6b1bef27184f994ac1a5bf0c8eb4db",
+        "organisations_modified": "Thu, 12 Sep 2024 14:36:06 +0100",
+        "organisations_note": "archive zip"
     }
 }

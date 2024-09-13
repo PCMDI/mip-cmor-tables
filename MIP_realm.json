@@ -12,9 +12,9 @@
     "version_metadata": {
         "version_tag": "v6.5.0.2",
         "checksum": "907de404ca24450a0b400451c483c743",
-        "commit": "dedfd73938ac9e9dd45ab62bb6a9c907a45ae3bf",
-        "previous_commit": "838354e69ea8fc9bacad71421cdbb44d32af3ffa",
-        "realm_modified": "Thu, 12 Sep 2024 11:41:19 +0100",
-        "realm_note": "grid generation"
+        "commit": "315d15543e15a05eccae8ca50ccc254987544448",
+        "previous_commit": "f71997b7dd6b1bef27184f994ac1a5bf0c8eb4db",
+        "realm_modified": "Thu, 12 Sep 2024 14:36:06 +0100",
+        "realm_note": "archive zip"
     }
 }

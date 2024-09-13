@@ -14,7 +14,7 @@ frame = {
 
 frame = cmipld.Frame(lddata,frame).clean(['rmld','untag'])
 
-data = sorted(list(frame.keystr('name','description').keys()))
+data = frame.key_value('name','description')
 
 
 cmipld.utils.wjsn(finalise(data,name),base+f'/MIP_{name}.json')

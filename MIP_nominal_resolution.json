@@ -1,27 +1,27 @@
 {
-    "nominal_resolution": [
-        "0.5 km",
-        "1 km",
-        "10 km",
-        "100 km",
-        "1000 km",
-        "10000 km",
-        "1x1 degree",
-        "2.5 km",
-        "25 km",
-        "250 km",
-        "2500 km",
-        "5 km",
-        "50 km",
-        "500 km",
-        "5000 km"
-    ],
+    "nominal_resolution": {
+        "0.5 km": "Resolution of 0.5 km",
+        "10000 km": "Resolution of 10000 km",
+        "1000 km": "Resolution of 1000 km",
+        "100 km": "Resolution of 100 km",
+        "10 km": "Resolution of 10 km",
+        "1 km": "Resolution of 1 km",
+        "1x1 degree": "Resolution of 1x1 degree",
+        "2.5 km": "Resolution of 2.5 km",
+        "2500 km": "Resolution of 2500 km",
+        "250 km": "Resolution of 250 km",
+        "25 km": "Resolution of 25 km",
+        "5000 km": "Resolution of 5000 km",
+        "500 km": "Resolution of 500 km",
+        "50 km": "Resolution of 50 km",
+        "5 km": "Resolution of 5 km"
+    },
     "version_metadata": {
         "version_tag": "v6.5.0.2",
-        "checksum": "d2db71e4d24eea1fd0215e8048f54f52",
-        "commit": "dbf69062454d78fa6638f3bde074e319669f1b8d",
-        "previous_commit": "dedfd73938ac9e9dd45ab62bb6a9c907a45ae3bf",
-        "nominal_resolution_modified": "Thu, 12 Sep 2024 11:43:30 +0100",
-        "nominal_resolution_note": "generate realm files"
+        "checksum": "09c160e6e834bd66411bb905b8a81170",
+        "commit": "315d15543e15a05eccae8ca50ccc254987544448",
+        "previous_commit": "f71997b7dd6b1bef27184f994ac1a5bf0c8eb4db",
+        "nominal_resolution_modified": "Thu, 12 Sep 2024 14:36:06 +0100",
+        "nominal_resolution_note": "archive zip"
     }
 }

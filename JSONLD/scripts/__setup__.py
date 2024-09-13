@@ -34,7 +34,10 @@ def finalise(data,name):
     datastr = json.dumps(data, indent=4),
     
     # Get the current version tag (if any)
-    version_tag = subprocess.check_output(["git", "describe", "--tags", "--abbrev=0"]).strip().decode()
+    try:
+        version_tag = subprocess.check_output(["git", "describe", "--tags", "--abbrev=0"]).strip().decode()
+    except subprocess.CalledProcessError:
+        version_tag = "v0.0.0"  # Default version or handle as needed
     # Get the latest commit hash
     commit_hash = subprocess.check_output(["git", "rev-parse", "HEAD"]).strip().decode()
     # Get the previous commit hash
