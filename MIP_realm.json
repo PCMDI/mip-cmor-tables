@@ -3,7 +3,7 @@
         "aerosol": "Aerosol",
         "atmos": "Atmosphere",
         "atmosChem": "Atmospheric Chemistry",
-        "land": "Land Surface",
+        "land": "Land Surface and Subsurface",
         "landIce": "Land Ice",
         "ocean": "Ocean",
         "ocnBgchem": "Ocean Biogeochemistry",
@@ -11,10 +11,10 @@
     },
     "version_metadata": {
         "version_tag": "v0.0.0",
-        "checksum": "907de404ca24450a0b400451c483c743",
-        "commit": "5c0a57ce81bb885f1362f3358525d0d211383198",
-        "previous_commit": "97b8cef6a9f77dfc225e17f55492dc1d8ece163c",
-        "realm_modified": "Fri, 13 Sep 2024 23:21:57 +0000",
+        "checksum": "ecb4a97ed93612a000320fc73a625cb2",
+        "commit": "d243dc2e67cc2741eb260c23da0541a2888823e4",
+        "previous_commit": "1cce6dcec921d8b3e915dd1765722b63e41b22eb",
+        "realm_modified": "Mon, 16 Sep 2024 10:44:33 +0000",
         "realm_note": "Automated update of JSONLD files, network and frames"
     }
 }
