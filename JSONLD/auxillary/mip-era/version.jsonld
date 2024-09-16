@@ -1,90 +1,90 @@
 [
     {
-        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip-era/cmip7.json",
+        "@id": "./https://github.com/PCMDI/mip-cmor-tables/auxillary/mip-era/cmip6.json",
         "@type": "version",
-        "version:file": "././JSONLD/auxillary/mip-era/cmip7.json",
+        "version:file": "./JSONLD/auxillary/mip-era/cmip6.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-19T01:44:19+01:00",
+        "version:date": "2024-09-13T23:22:00Z",
         "version:commit": {
-            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
-            "message": "Updating the JSONLD consortia and format",
+            "hash": "65882a5a834b776b6e50e3d0150a4ef3dc830166",
+            "message": "Automated Content Update",
             "author": {
-                "name": "Daniel Ellis",
-                "email": "daniel.ellis@ext.esa.int"
+                "name": "CMIP-IPO: Automated GitHub Action",
+                "email": "actions@wcrp-cmip.org"
             }
         },
         "version:data": {
-            "@id": "././auxillary/mip-era/cmip7"
+            "@id": "./auxillary/mip-era/cmip6"
         }
     },
     {
-        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip-era/cmip5.json",
+        "@id": "./https://github.com/PCMDI/mip-cmor-tables/auxillary/mip-era/cmip7.json",
         "@type": "version",
-        "version:file": "././JSONLD/auxillary/mip-era/cmip5.json",
+        "version:file": "./JSONLD/auxillary/mip-era/cmip7.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-19T01:44:19+01:00",
+        "version:date": "2024-09-13T23:22:00Z",
         "version:commit": {
-            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
-            "message": "Updating the JSONLD consortia and format",
+            "hash": "65882a5a834b776b6e50e3d0150a4ef3dc830166",
+            "message": "Automated Content Update",
             "author": {
-                "name": "Daniel Ellis",
-                "email": "daniel.ellis@ext.esa.int"
+                "name": "CMIP-IPO: Automated GitHub Action",
+                "email": "actions@wcrp-cmip.org"
             }
         },
         "version:data": {
-            "@id": "././auxillary/mip-era/cmip5"
+            "@id": "./auxillary/mip-era/cmip7"
         }
     },
     {
-        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip-era/cmip6plus.json",
+        "@id": "./https://github.com/PCMDI/mip-cmor-tables/auxillary/mip-era/cmip5.json",
         "@type": "version",
-        "version:file": "././JSONLD/auxillary/mip-era/cmip6plus.json",
+        "version:file": "./JSONLD/auxillary/mip-era/cmip5.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
-        "version:previous_updates": 1,
-        "version:date": "2024-07-19T01:44:19+01:00",
+        "version:previous_updates": 2,
+        "version:date": "2024-09-16T11:44:09+01:00",
         "version:commit": {
-            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
-            "message": "Updating the JSONLD consortia and format",
+            "hash": "1cce6dcec921d8b3e915dd1765722b63e41b22eb",
+            "message": "correcting issue templates",
             "author": {
                 "name": "Daniel Ellis",
                 "email": "daniel.ellis@ext.esa.int"
             }
         },
         "version:data": {
-            "@id": "././auxillary/mip-era/cmip6plus"
+            "@id": "./auxillary/mip-era/cmip5"
         }
     },
     {
-        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip-era/cmip6.json",
+        "@id": "./https://github.com/PCMDI/mip-cmor-tables/auxillary/mip-era/cmip6plus.json",
         "@type": "version",
-        "version:file": "././JSONLD/auxillary/mip-era/cmip6.json",
+        "version:file": "./JSONLD/auxillary/mip-era/cmip6plus.json",
         "version:release": {
             "mip-cmor-tables": "v6.5.0.2",
             "cmip6plus": "v6.5.1.4"
         },
         "version:previous_updates": 1,
-        "version:date": "2024-07-19T01:44:19+01:00",
+        "version:date": "2024-09-13T23:22:00Z",
         "version:commit": {
-            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
-            "message": "Updating the JSONLD consortia and format",
+            "hash": "65882a5a834b776b6e50e3d0150a4ef3dc830166",
+            "message": "Automated Content Update",
             "author": {
-                "name": "Daniel Ellis",
-                "email": "daniel.ellis@ext.esa.int"
+                "name": "CMIP-IPO: Automated GitHub Action",
+                "email": "actions@wcrp-cmip.org"
             }
         },
         "version:data": {
-            "@id": "././auxillary/mip-era/cmip6"
+            "@id": "./auxillary/mip-era/cmip6plus"
         }
     }
 ]

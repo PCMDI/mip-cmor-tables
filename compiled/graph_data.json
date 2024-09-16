@@ -3735,9 +3735,17 @@
         "@vocab": "mip-era",
         "@base": "mip-cmor-tables:auxillary/mip-era"
     },
-    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/mip-era",
-    ":ldroot": "JSONLD/auxillary/mip-era",
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/JSONLD/auxillary/mip-era",
+    ":ldroot": "/JSONLD/auxillary/mip-era",
     "@graph": [
+        {
+            "@id": "mip-cmor-tables:auxillary/mip-era/cmip6",
+            "@type": "mip:mip-era",
+            "mip-era:end": 2024,
+            "mip-era:name": "CMIP6",
+            "mip-era:start": 2013,
+            "mip-era:url": "https://wcrp-cmip.org/CMIP6"
+        },
         {
             "@id": "mip-cmor-tables:auxillary/mip-era/cmip7",
             "@type": "mip:mip-era",
@@ -3749,9 +3757,9 @@
         {
             "@id": "mip-cmor-tables:auxillary/mip-era/cmip5",
             "@type": "mip:mip-era",
-            "mip-era:end": 2999,
+            "mip-era:end": 2020,
             "mip-era:name": "CMIP5",
-            "mip-era:start": 2999,
+            "mip-era:start": 2006,
             "mip-era:url": "https://wcrp-cmip.org/CMIP5"
         },
         {
@@ -3761,21 +3769,13 @@
             "mip-era:name": "CMIP6Plus",
             "mip-era:start": 2023,
             "mip-era:url": "https://wcrp-cmip.org/CMIP6Plus"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/mip-era/cmip6",
-            "@type": "mip:mip-era",
-            "mip-era:end": 2024,
-            "mip-era:name": "CMIP6",
-            "mip-era:start": 2013,
-            "mip-era:url": "https://wcrp-cmip.org/CMIP6"
         }
     ],
     ":files": [
-        "cmip5.json",
-        "cmip6plus.json",
         "cmip7.json",
-        "cmip6.json"
+        "cmip6.json",
+        "cmip5.json",
+        "cmip6plus.json"
     ]
 },
 {
@@ -3869,14 +3869,20 @@
         "@vocab": "realm",
         "@base": "mip-cmor-tables:auxillary/realm"
     },
-    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/realm",
-    ":ldroot": "JSONLD/auxillary/realm",
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/JSONLD/auxillary/realm",
+    ":ldroot": "/JSONLD/auxillary/realm",
     "@graph": [
         {
-            "@id": "mip-cmor-tables:auxillary/realm/atmos",
+            "@id": "mip-cmor-tables:auxillary/realm/land",
             "@type": "mip:realm",
-            "realm:description": "Atmosphere",
-            "realm:name": "atmos"
+            "realm:description": "Land Surface and Subsurface",
+            "realm:name": "land"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/realm/aerosol",
+            "@type": "mip:realm",
+            "realm:description": "Aerosol",
+            "realm:name": "aerosol"
         },
         {
             "@id": "mip-cmor-tables:auxillary/realm/landice",
@@ -3885,28 +3891,22 @@
             "realm:name": "landIce"
         },
         {
-            "@id": "mip-cmor-tables:auxillary/realm/seaice",
-            "@type": "mip:realm",
-            "realm:description": "Sea Ice",
-            "realm:name": "seaIce"
-        },
-        {
-            "@id": "mip-cmor-tables:auxillary/realm/land",
-            "@type": "mip:realm",
-            "realm:description": "Land Surface",
-            "realm:name": "land"
-        },
-        {
             "@id": "mip-cmor-tables:auxillary/realm/ocnbgchem",
             "@type": "mip:realm",
             "realm:description": "Ocean Biogeochemistry",
             "realm:name": "ocnBgchem"
         },
         {
-            "@id": "mip-cmor-tables:auxillary/realm/aerosol",
+            "@id": "mip-cmor-tables:auxillary/realm/seaice",
             "@type": "mip:realm",
-            "realm:description": "Aerosol",
-            "realm:name": "aerosol"
+            "realm:description": "Sea Ice",
+            "realm:name": "seaIce"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/realm/atmos",
+            "@type": "mip:realm",
+            "realm:description": "Atmosphere",
+            "realm:name": "atmos"
         },
         {
             "@id": "mip-cmor-tables:auxillary/realm/atmoschem",
@@ -3922,13 +3922,13 @@
         }
     ],
     ":files": [
-        "ocnbgchem.json",
-        "ocean.json",
         "landice.json",
-        "land.json",
         "aerosol.json",
+        "ocnbgchem.json",
+        "land.json",
+        "seaIce.json",
         "atmos.json",
-        "seaice.json",
-        "atmoschem.json"
+        "ocean.json",
+        "atmosChem.json"
     ]
 }]
