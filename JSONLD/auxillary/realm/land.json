@@ -1,6 +1,6 @@
 {
   "@id": "mip-cmor-tables:auxillary/realm/land",
   "@type": "realm",
-  "description": "Land Surface",
+  "description": "Land Surface and Subsurface",
   "name": "land"
 }

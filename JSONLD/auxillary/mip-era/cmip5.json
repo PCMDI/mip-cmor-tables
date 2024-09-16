@@ -1,8 +1,8 @@
 {
   "@id": "mip-cmor-tables:auxillary/mip-era/cmip5",
   "@type": "mip-era",
-  "end": 2999,
+  "end": 2020,
   "name": "CMIP5",
-  "start": 2999,
+  "start": 2006,
   "url": "https://wcrp-cmip.org/CMIP5"
 }

@@ -1,6 +1,6 @@
 ---
 name: Institution
-about: Addding a new, or updating an existing, institution
+about: Adding a new, or updating an existing, institution
 title: 'Review request for change in institution'
 labels: 'institution'
 assignees: ''

@@ -1,6 +1,6 @@
 ---
 name: Consortium
-about: Addding a new, or updating an existing, consortium
+about: Adding a new, or updating an existing, consortium
 title: 'Review request for change in consortium'
 labels: 'consortium'
 assignees: ''
@@ -42,7 +42,7 @@ To use this, please fill out the template below, keeping the spacing and indenta
                 "CMIP-IPO",
                 "WCRP"
             ]
-    # nest instututions here, use the cmip acnronyms which they have been registered with.
+    # nest institutions here, use the cmip acnronyms which they have been registered with.
 
 
 ```
