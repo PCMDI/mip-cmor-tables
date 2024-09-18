@@ -1,0 +1,28 @@
+{
+  "@id": "mip-cmor-tables:organisations/institutions/aor",
+  "@type": "institution",
+  "acronyms": [],
+  "aliases": [],
+  "cmip-acronym": "AoR",
+  "established": 1938,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/02hnp4676",
+    "@nest": {
+      "city": "Rome",
+      "country": [
+        "Italy",
+        "IT"
+      ],
+      "lat": 41.921669,
+      "lon": 41.921669
+    },
+    "@type": "location"
+  },
+  "name": "Astronomical Observatory of Rome",
+  "ror": "02hnp4676",
+  "type": "Facility",
+  "url": [
+    "http://web.oa-roma.inaf.it/"
+  ]
+}

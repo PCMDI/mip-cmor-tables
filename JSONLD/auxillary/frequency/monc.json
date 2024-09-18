@@ -1,0 +1,8 @@
+{
+  "@id": "mip-cmor-tables:auxillary/frequency/monc",
+  "@type": "frequency",
+  "description": "monthly climatology computed from monthly mean samples",
+  "long_name": "Monthly Climatology",
+  "name": "monC",
+  "unit": "month"
+}

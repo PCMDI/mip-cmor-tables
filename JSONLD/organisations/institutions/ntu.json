@@ -1,0 +1,30 @@
+{
+  "@id": "mip-cmor-tables:organisations/institutions/ntu",
+  "@type": "institution",
+  "acronyms": [
+    "NTU"
+  ],
+  "aliases": [],
+  "cmip-acronym": "NTU",
+  "established": 1928,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/05bqach95",
+    "@nest": {
+      "city": "Taipei",
+      "country": [
+        "Taiwan",
+        "TW"
+      ],
+      "lat": 25.016,
+      "lon": 121.536
+    },
+    "@type": "location"
+  },
+  "name": "National Taiwan University",
+  "ror": "05bqach95",
+  "type": "Education",
+  "url": [
+    "http://www.ntu.edu.tw/english/"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+    "@type": "resolution",
+    "@id": "mip-cmor-tables:auxillary/resolution/1x1degree",
+    "name": "1x1 degree",
+    "value": "1x1",
+    "description": "Resolution of 1x1 degree",
+    "unit": "degree"
+}

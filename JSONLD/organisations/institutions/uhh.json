@@ -1,0 +1,32 @@
+{
+  "@id": "mip-cmor-tables:organisations/institutions/uhh",
+  "@type": "institution",
+  "acronyms": [
+    "UHH"
+  ],
+  "aliases": [
+    "University of Hamburg"
+  ],
+  "cmip-acronym": "UHH",
+  "established": 1919,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/00g30e956",
+    "@nest": {
+      "city": "Hamburg",
+      "country": [
+        "Germany",
+        "DE"
+      ],
+      "lat": 53.55073,
+      "lon": 9.99302
+    },
+    "@type": "location"
+  },
+  "name": "Universität Hamburg",
+  "ror": "00g30e956",
+  "type": "Education",
+  "url": [
+    "http://www.uni-hamburg.de"
+  ]
+}

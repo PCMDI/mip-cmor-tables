@@ -1,0 +1,49 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "CMIP Grid Labels",
+    "description": "Schema for defining CMIP grid labels and their associated metadata",
+    "type": "object",
+    "properties": {
+        "@id": {
+            "type": "string",
+            "description": "Unique identifier for the grid label, following the pattern mip-cmor-tables:grid/label/[label]",
+            "pattern": "^mip-cmor-tables:grid/label/[a-zA-Z0-9]+$"
+        },
+        "@type": {
+            "type": "string",
+            "description": "Type of the object, should be mip:grid-label",
+            "enum": [
+                "mip:grid-label"
+            ]
+        },
+        "acronym": {
+            "type": "string",
+            "description": "Acronym representing the grid label"
+        },
+        "short name": {
+            "type": "string",
+            "description": "Short name or alias for the grid label"
+        },
+        "description": {
+            "type": "string",
+            "description": "Full description of the grid label"
+        },
+        "region": {
+            "type": "string",
+            "description": "Region associated with the grid label, can be global, antarctica, or greenland",
+            "enum": [
+                "global",
+                "antarctica",
+                "greenland"
+            ]
+        }
+    },
+    "required": [
+        "@id",
+        "@type",
+        "acronym",
+        "short name",
+        "description",
+        "region"
+    ]
+}

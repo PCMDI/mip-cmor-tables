@@ -1,0 +1,109 @@
+{
+  "@id": "mip-cmor-tables:organisations/consortia/ncc",
+  "@type": "consortium",
+  "changes": "",
+  "cmip-acronym": "NCC",
+  "members": [
+    {
+      "@type": "consortia:member",
+      "dates": [
+        {
+          "from": 2016,
+          "phase": "CMIP6",
+          "to": 2022
+        }
+      ],
+      "institution": {
+        "@id": "mip-cmor-tables:organisations/institutions/noresm"
+      },
+      "membership-type": "prior"
+    },
+    {
+      "@type": "consortia:member",
+      "dates": [
+        {
+          "from": 2016,
+          "phase": "CMIP6",
+          "to": 2022
+        }
+      ],
+      "institution": {
+        "@id": "mip-cmor-tables:organisations/institutions/met-norway"
+      },
+      "membership-type": "prior"
+    },
+    {
+      "@type": "consortia:member",
+      "dates": [
+        {
+          "from": 2016,
+          "phase": "CMIP6",
+          "to": 2022
+        }
+      ],
+      "institution": {
+        "@id": "mip-cmor-tables:organisations/institutions/nersc"
+      },
+      "membership-type": "prior"
+    },
+    {
+      "@type": "consortia:member",
+      "dates": [
+        {
+          "from": 2016,
+          "phase": "CMIP6",
+          "to": 2022
+        }
+      ],
+      "institution": {
+        "@id": "mip-cmor-tables:organisations/institutions/nilu"
+      },
+      "membership-type": "prior"
+    },
+    {
+      "@type": "consortia:member",
+      "dates": [
+        {
+          "from": 2016,
+          "phase": "CMIP6",
+          "to": 2022
+        }
+      ],
+      "institution": {
+        "@id": "mip-cmor-tables:organisations/institutions/uib"
+      },
+      "membership-type": "prior"
+    },
+    {
+      "@type": "consortia:member",
+      "dates": [
+        {
+          "from": 2016,
+          "phase": "CMIP6",
+          "to": 2022
+        }
+      ],
+      "institution": {
+        "@id": "mip-cmor-tables:organisations/institutions/uio"
+      },
+      "membership-type": "prior"
+    },
+    {
+      "@type": "consortia:member",
+      "dates": [
+        {
+          "from": 2016,
+          "phase": "CMIP6",
+          "to": 2022
+        }
+      ],
+      "institution": {
+        "@id": "mip-cmor-tables:organisations/institutions/uni"
+      },
+      "membership-type": "prior"
+    }
+  ],
+  "name": "NCC Consortium",
+  "status": "active",
+  "url": ""
+}

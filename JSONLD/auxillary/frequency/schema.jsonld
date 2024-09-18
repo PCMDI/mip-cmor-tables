@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "@context": {
+      "type": "object",
+      "properties": {
+        "frequency": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^http://example\.org/frequency$"
+        },
+        "mip-cmor-tables": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^http://example\.org/mip-cmor-tables/auxillary/$"
+        },
+        "name": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^http://example\.org/terms/name$"
+        },
+        "description": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^http://example\.org/terms/description$"
+        },
+        "unit": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^http://example\.org/terms/unit$"
+        },
+        "long_name": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^http://example\.org/terms/long_name$"
+        }
+      },
+      "required": ["frequency", "mip-cmor-tables", "name", "description", "unit", "long_name"]
+    },
+    "@graph": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@id": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^mip-cmor-tables:auxillary/frequency/[a-zA-Z0-9]+$"
+          },
+          "@type": {
+            "type": "string",
+            "const": "frequency"
+          },
+          "name": {
+            "type": "string",
+            "pattern": "^[a-zA-Z0-9]+$"
+          },
+          "description": {
+            "type": "string"
+          },
+          "unit": {
+            "type": "string",
+            "enum": ["hour", "day", "decade", "none", "month", "minute", "year"]
+          },
+          "long_name": {
+            "type": "string"
+          }
+        },
+        "required": ["@id", "@type", "name", "description", "unit", "long_name"]
+      },
+      "minItems": 1
+    }
+  },
+  "required": ["@context", "@graph"]
+}
+

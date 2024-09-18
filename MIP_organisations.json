@@ -1,0 +1,312 @@
+{
+    "organisations": {
+        "AER": {
+            "name": "Atmospheric and Environmental Research",
+            "ror": "04cg70g73"
+        },
+        "AS-RCEC": {
+            "name": "Research Center for Environmental Changes, Academia Sinica",
+            "ror": "050qpg053"
+        },
+        "AUoT": {
+            "name": "Aristotle University of Thessaloniki",
+            "ror": "02j61yw88"
+        },
+        "AWI": {
+            "name": "Alfred Wegener Institute for Polar and Marine Research",
+            "ror": "032e6b942"
+        },
+        "AoR": {
+            "name": "Astronomical Observatory of Rome",
+            "ror": "02hnp4676"
+        },
+        "BAS": {
+            "name": "British Antarctic Survey",
+            "ror": "01rhff309"
+        },
+        "BCC": {
+            "name": "Beijing Biocytogen (China)",
+            "ror": "01spyyb53"
+        },
+        "CAMS": {
+            "name": "Chinese Academy of Meteorological Sciences",
+            "ror": "034b53w38"
+        },
+        "CAS": {
+            "name": "Chinese Academy of Sciences",
+            "ror": "034t30j35"
+        },
+        "CCCR-IITM": {
+            "name": "Indian Institute of Tropical Meteorology",
+            "ror": "03jf2m686"
+        },
+        "CCCma": {
+            "name": "Environment and Climate Change Canada",
+            "ror": "026ny0e17"
+        },
+        "CEDA": {
+            "name": "Centre for Environmental Data Analysis",
+            "ror": "04j4kad11"
+        },
+        "CMCC": {
+            "name": "Euro-Mediterranean Center for Climate Change",
+            "ror": "01tf11a61"
+        },
+        "CNES": {
+            "name": "Centre National d'\u00c9tudes Spatiales",
+            "ror": "04h1h0y33"
+        },
+        "CSIRO": {
+            "name": "Commonwealth Scientific and Industrial Research Organisation",
+            "ror": "03qn8fb07"
+        },
+        "DKRZ": {
+            "name": "German Climate Computing Centre",
+            "ror": "03ztgj037"
+        },
+        "DWD": {
+            "name": "German Meteorological Service",
+            "ror": "02nrqs528"
+        },
+        "EAWAG": {
+            "name": "Swiss Federal Institute of Aquatic Science and Technology",
+            "ror": "00pc48d59"
+        },
+        "ECMWF": {
+            "name": "European Centre for Medium-Range Weather Forecasts",
+            "ror": "014w0fd65"
+        },
+        "ESSO": {
+            "name": "Indian National Centre for Ocean Information Services",
+            "ror": "04xbqmj23"
+        },
+        "FMI": {
+            "name": "Finnish Meteorological Institute",
+            "ror": "05hppb561"
+        },
+        "FUBerlin": {
+            "name": "Freie Universit\u00e4t Berlin",
+            "ror": "046ak2485"
+        },
+        "IACETH": {
+            "name": "ETH Zurich",
+            "ror": "05a28rw58"
+        },
+        "IFM-GEOMAR": {
+            "name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+            "ror": "02h2x0161"
+        },
+        "INM": {
+            "name": "Institute of Numerical Mathematics",
+            "ror": "00520ey40"
+        },
+        "IPSL": {
+            "name": "Institut Pierre-Simon Laplace",
+            "ror": "02haar591"
+        },
+        "ISSI": {
+            "name": "International Space Science Institute",
+            "ror": "01xm30661"
+        },
+        "ImperialCollege": {
+            "name": "Imperial College London",
+            "ror": "041kmwe10"
+        },
+        "JAXA": {
+            "name": "Japan Aerospace Exploration Agency",
+            "ror": "059yhyy33"
+        },
+        "KIOST": {
+            "name": "Korea Institute of Ocean Science and Technology",
+            "ror": "032m55064"
+        },
+        "KIT": {
+            "name": "Karlsruhe Institute of Technology",
+            "ror": "04t3en479"
+        },
+        "LLNL": {
+            "name": "Lawrence Livermore National Laboratory",
+            "ror": "041nk4h53"
+        },
+        "LPC2E": {
+            "name": "Laboratoire de Physique et Chimie de l\u2019Environnement et de l\u2019Espace",
+            "ror": "049k66y27"
+        },
+        "MIROC": {
+            "name": "MIROC Consortium",
+            "ror": "consortium"
+        },
+        "MOHC": {
+            "name": "Met Office",
+            "ror": "01ch2yn61"
+        },
+        "MPI-B": {
+            "name": "Max Planck Institute for Biogeochemistry",
+            "ror": "051yxp643"
+        },
+        "MPI-M": {
+            "name": "Max Planck Institute for Meteorology",
+            "ror": "05esem239"
+        },
+        "MPS": {
+            "name": "Max Planck Institute for Solar System Research",
+            "ror": "02j6gm739"
+        },
+        "MRI": {
+            "name": "Japan Meteorological Agency",
+            "ror": "02772kk97"
+        },
+        "NASA-GISS": {
+            "name": "Goddard Institute for Space Studies",
+            "ror": "01cyfxe35"
+        },
+        "NASA-GSFC": {
+            "name": "Goddard Space Flight Center",
+            "ror": "0171mag52"
+        },
+        "NASA-JPL": {
+            "name": "Jet Propulsion Laboratory",
+            "ror": "027k65916"
+        },
+        "NASA-LaRC": {
+            "name": "Langley Research Center",
+            "ror": "0399mhs52"
+        },
+        "NCAR": {
+            "name": "National Center for Atmospheric Research",
+            "ror": "05cvfcr44"
+        },
+        "NCAS": {
+            "name": "Uks",
+            "ror": "03q36cn05"
+        },
+        "NCC": {
+            "name": "NCC Consortium",
+            "ror": "consortium"
+        },
+        "NERC": {
+            "name": "Natural Environment Research Council",
+            "ror": "02b5d8509"
+        },
+        "NIWA": {
+            "name": "National Institute of Water and Atmospheric Research",
+            "ror": "04hxcaz34"
+        },
+        "NOAA-NCEI": {
+            "name": "NOAA National Centers for Environmental Information",
+            "ror": "04r0wrp59"
+        },
+        "NTU": {
+            "name": "National Taiwan University",
+            "ror": "05bqach95"
+        },
+        "NUIST": {
+            "name": "Nanjing University",
+            "ror": "01rxvg760"
+        },
+        "OSU": {
+            "name": "Oregon State University",
+            "ror": "00ysfqy60"
+        },
+        "PCMDI": {
+            "name": "Lawrence Livermore National Laboratory",
+            "ror": "041nk4h53"
+        },
+        "PMOD": {
+            "name": "Physikalisch-Meteorologisches Observatorium Davos",
+            "ror": "02gtrqv93"
+        },
+        "PNNL-JGCRI": {
+            "name": "Joint Global Change Research Institute",
+            "ror": "058cmd703"
+        },
+        "PNNL-WACCEM": {
+            "name": "Pacific Northwest National Laboratory",
+            "ror": "05h992307"
+        },
+        "RSS": {
+            "name": "Remote Sensing Systems (United States)",
+            "ror": "01vp8h012"
+        },
+        "SNU": {
+            "name": "Seoul National University",
+            "ror": "04h9pn542"
+        },
+        "SOLARIS HEPPA": {
+            "name": "SOLARIS HEPPA Consortium",
+            "ror": "consortium"
+        },
+        "THU": {
+            "name": "Tsinghua University",
+            "ror": "03cve4549"
+        },
+        "UA": {
+            "name": "University of Arizona",
+            "ror": "03m2x1q45"
+        },
+        "UCI": {
+            "name": "University of California, Irvine",
+            "ror": "04gyf1771"
+        },
+        "UCSB": {
+            "name": "University of California, Santa Barbara",
+            "ror": "02t274463"
+        },
+        "UColorado": {
+            "name": "University of Colorado System",
+            "ror": "00jc20583"
+        },
+        "UHH": {
+            "name": "Universit\u00e4t Hamburg",
+            "ror": "00g30e956"
+        },
+        "UReading": {
+            "name": "University of Reading",
+            "ror": "05v62cm79"
+        },
+        "UW": {
+            "name": "University of Washington",
+            "ror": "00cvxb145"
+        },
+        "UoBergen": {
+            "name": "University of Bergen",
+            "ror": "03zga2b32"
+        },
+        "UoLeeds": {
+            "name": "University of Leeds",
+            "ror": "024mrxd33"
+        },
+        "UoM": {
+            "name": "University of Melbourne",
+            "ror": "01ej9dk98"
+        },
+        "UoMontreal": {
+            "name": "Universit\u00e9 de Montr\u00e9al",
+            "ror": "0161xgx34"
+        },
+        "UoOtago": {
+            "name": "University of Otago",
+            "ror": "01jmxt844"
+        },
+        "UoOulu": {
+            "name": "University of Oulu",
+            "ror": "03yj89h83"
+        },
+        "UofMD": {
+            "name": "University of Maryland, College Park",
+            "ror": "047s2c258"
+        },
+        "VUA": {
+            "name": "Vrije Universiteit Amsterdam",
+            "ror": "008xxew50"
+        }
+    },
+    "version_metadata": {
+        "version_tag": "v0.0.0",
+        "checksum": "99bfef5021ed83dc56e25e3a61fef729",
+        "commit": "d243dc2e67cc2741eb260c23da0541a2888823e4",
+        "previous_commit": "1cce6dcec921d8b3e915dd1765722b63e41b22eb",
+        "organisations_modified": "Mon, 16 Sep 2024 10:44:33 +0000",
+        "organisations_note": "Automated update of JSONLD files, network and frames"
+    }
+}

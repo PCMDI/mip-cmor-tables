@@ -1,0 +1,41 @@
+{
+  "@id": "mip-cmor-tables:organisations/consortia/rte-rrtmgp-consortium",
+  "@type": "consortium",
+  "consortia:status": "active",
+  "consortium:changes": "",
+  "consortium:cmip-acronym": "RTE-RRTMGP-Consortium",
+  "consortium:description": "RTE-RRTMGP-Consortium",
+  "consortium:members": {
+    "@set": [
+      {
+        "@type": "consortia:member",
+        "consortia:dates": [
+          {
+            "from": 2016,
+            "phase": "CMIP6",
+            "to": 2022
+          }
+        ],
+        "consortia:institution": {
+          "@id": "mip-cmor-tables:organisations/institutions/aer"
+        },
+        "consortia:membership-type": "active"
+      },
+      {
+        "@type": "consortia:member",
+        "consortia:dates": [
+          {
+            "from": 2016,
+            "phase": "CMIP6",
+            "to": 2022
+          }
+        ],
+        "consortia:institution": {
+          "@id": "mip-cmor-tables:organisations/institutions/ucolorado"
+        },
+        "consortia:membership-type": "active"
+      }
+    ]
+  },
+  "consortium:url": ""
+}

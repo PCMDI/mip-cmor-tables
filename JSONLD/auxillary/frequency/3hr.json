@@ -1,0 +1,8 @@
+{
+  "@id": "mip-cmor-tables:auxillary/frequency/3hr",
+  "@type": "frequency",
+  "description": "3 hourly mean samples",
+  "long_name": "3 Hourly Frequency",
+  "name": "3hr",
+  "unit": "hour"
+}

@@ -1,0 +1,33 @@
+{
+  "@id": "mip-cmor-tables:organisations/institutions/iaceth",
+  "@type": "institution",
+  "acronyms": [],
+  "aliases": [
+    "Swiss Federal Institute of Technology in Zurich",
+    "Eidgenössische Technische Hochschule Zürich",
+    "École Polytechnique Fédérale de Zurich",
+    "Politecnico Federale di Zurigo"
+  ],
+  "cmip-acronym": "IACETH",
+  "established": 1855,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/05a28rw58",
+    "@nest": {
+      "city": "Zurich",
+      "country": [
+        "Switzerland",
+        "CH"
+      ],
+      "lat": 47.36667,
+      "lon": 8.55
+    },
+    "@type": "location"
+  },
+  "name": "ETH Zurich",
+  "ror": "05a28rw58",
+  "type": "Education",
+  "url": [
+    "https://ethz.ch"
+  ]
+}

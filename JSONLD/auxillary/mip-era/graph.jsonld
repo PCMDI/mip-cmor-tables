@@ -1,0 +1,50 @@
+{
+    "@id": "graph:mip-era",
+    "@type": "mip:graph",
+    "@context": {
+        "@vocab": "mip-era",
+        "@base": "mip-cmor-tables:auxillary/mip-era"
+    },
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/JSONLD/auxillary/mip-era",
+    ":ldroot": "/JSONLD/auxillary/mip-era",
+    "@graph": [
+        {
+            "@id": "mip-cmor-tables:auxillary/mip-era/cmip6",
+            "@type": "mip:mip-era",
+            "mip-era:end": 2024,
+            "mip-era:name": "CMIP6",
+            "mip-era:start": 2013,
+            "mip-era:url": "https://wcrp-cmip.org/CMIP6"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/mip-era/cmip7",
+            "@type": "mip:mip-era",
+            "mip-era:end": 2999,
+            "mip-era:name": "CMIP7",
+            "mip-era:start": 2025,
+            "mip-era:url": "https://wcrp-cmip.org/CMIP7"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/mip-era/cmip5",
+            "@type": "mip:mip-era",
+            "mip-era:end": 2020,
+            "mip-era:name": "CMIP5",
+            "mip-era:start": 2006,
+            "mip-era:url": "https://wcrp-cmip.org/CMIP5"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/mip-era/cmip6plus",
+            "@type": "mip:mip-era",
+            "mip-era:end": 2999,
+            "mip-era:name": "CMIP6Plus",
+            "mip-era:start": 2023,
+            "mip-era:url": "https://wcrp-cmip.org/CMIP6Plus"
+        }
+    ],
+    ":files": [
+        "cmip7.json",
+        "cmip6.json",
+        "cmip5.json",
+        "cmip6plus.json"
+    ]
+}

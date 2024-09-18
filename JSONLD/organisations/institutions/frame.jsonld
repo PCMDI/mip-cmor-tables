@@ -1,0 +1,17 @@
+{
+    "@context": {
+        "@vocab": "institution",
+        "@base": "mip-cmor-tables:organisations/institutions"
+    },
+    "@embed": "@always",
+    "@explicit": true,
+    "@type": "mip:institution",
+    "institution:acronyms": "",
+    "institution:cmip-acronym": "",
+    "institution:established": "",
+    "institution:location": {},
+    "institution:name": "",
+    "institution:ror": "",
+    "institution:type": "",
+    "institution:url": ""
+}

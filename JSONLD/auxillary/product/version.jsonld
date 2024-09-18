@@ -1,0 +1,90 @@
+[
+    {
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/product/observations.json",
+        "@type": "version",
+        "version:file": "././JSONLD/auxillary/product/observations.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 2,
+        "version:date": "2024-07-19T01:44:19+01:00",
+        "version:commit": {
+            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
+            "message": "Updating the JSONLD consortia and format",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "././auxillary/product/observations"
+        }
+    },
+    {
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/product/model-output.json",
+        "@type": "version",
+        "version:file": "././JSONLD/auxillary/product/model-output.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 2,
+        "version:date": "2024-07-19T01:44:19+01:00",
+        "version:commit": {
+            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
+            "message": "Updating the JSONLD consortia and format",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "././auxillary/product/model-output"
+        }
+    },
+    {
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/product/derived.json",
+        "@type": "version",
+        "version:file": "././JSONLD/auxillary/product/derived.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 2,
+        "version:date": "2024-07-19T01:44:19+01:00",
+        "version:commit": {
+            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
+            "message": "Updating the JSONLD consortia and format",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "././auxillary/product/derived"
+        }
+    },
+    {
+        "@id": "././https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/product/forcing-dataset.json",
+        "@type": "version",
+        "version:file": "././JSONLD/auxillary/product/forcing-dataset.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 2,
+        "version:date": "2024-07-19T01:44:19+01:00",
+        "version:commit": {
+            "hash": "7117548e639dd3aad9c84497e4659316a3afa66e",
+            "message": "Updating the JSONLD consortia and format",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "././auxillary/product/forcing-dataset"
+        }
+    }
+]

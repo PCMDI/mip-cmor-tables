@@ -1,30 +1,27 @@
 {
-    "nominal_resolution": [
-        "0.5 km",
-        "1 km",
-        "10 km",
-        "100 km",
-        "1000 km",
-        "10000 km",
-        "1x1 degree",
-        "2.5 km",
-        "25 km",
-        "250 km",
-        "2500 km",
-        "5 km",
-        "50 km",
-        "500 km",
-        "5000 km"
-    ],
+    "nominal_resolution": {
+        "0.5 km": "Resolution of 0.5 km",
+        "10000 km": "Resolution of 10000 km",
+        "1000 km": "Resolution of 1000 km",
+        "100 km": "Resolution of 100 km",
+        "10 km": "Resolution of 10 km",
+        "1 km": "Resolution of 1 km",
+        "1x1 degree": "Resolution of 1x1 degree",
+        "2.5 km": "Resolution of 2.5 km",
+        "2500 km": "Resolution of 2500 km",
+        "250 km": "Resolution of 250 km",
+        "25 km": "Resolution of 25 km",
+        "5000 km": "Resolution of 5000 km",
+        "500 km": "Resolution of 500 km",
+        "50 km": "Resolution of 50 km",
+        "5 km": "Resolution of 5 km"
+    },
     "version_metadata": {
-        "version_tag": "v6.5.0.1",
-        "checksum": "md5: 42869fa02875f57697181dd1305359e0",
-        "MIP_nominal_resolution_modified": "Thu Feb 29 16:22:42 2024 +0000",
-        "MIP_nominal_resolution_note": "Updating versioning and model_components scripts to process files individually.",
-        "commit": "f446d6972daa3166b6ba8bfe315ac34db316ac10",
-        "previous_commit": "",
-        "author": "Daniel Ellis",
-        "CV_collection_version": "v6.5.1.1",
-        "specs_doc": "v6.5.0"
+        "version_tag": "v0.0.0",
+        "checksum": "09c160e6e834bd66411bb905b8a81170",
+        "commit": "d243dc2e67cc2741eb260c23da0541a2888823e4",
+        "previous_commit": "1cce6dcec921d8b3e915dd1765722b63e41b22eb",
+        "nominal_resolution_modified": "Mon, 16 Sep 2024 10:44:33 +0000",
+        "nominal_resolution_note": "Automated update of JSONLD files, network and frames"
     }
 }

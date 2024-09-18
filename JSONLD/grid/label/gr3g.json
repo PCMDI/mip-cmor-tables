@@ -1,0 +1,8 @@
+{
+  "@id": "mip-cmor-tables:grid/label/gr3g",
+  "@type": "grid-label",
+  "name": "gr3g",
+  "description": "regridded data reported in the region of Greenland on a grid other than the native grid and other than the preferred target grid",
+  "region": "greenland",
+  "short name": "Regridded Greenland Alternate g"
+}

@@ -1,0 +1,178 @@
+[
+    {
+        "@id": "./https://github.com/PCMDI/mip-cmor-tables/auxillary/realm/land.json",
+        "@type": "version",
+        "version:file": "./JSONLD/auxillary/realm/land.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 2,
+        "version:date": "2024-09-16T11:44:09+01:00",
+        "version:commit": {
+            "hash": "1cce6dcec921d8b3e915dd1765722b63e41b22eb",
+            "message": "correcting issue templates",
+            "author": {
+                "name": "Daniel Ellis",
+                "email": "daniel.ellis@ext.esa.int"
+            }
+        },
+        "version:data": {
+            "@id": "./auxillary/realm/land"
+        }
+    },
+    {
+        "@id": "./https://github.com/PCMDI/mip-cmor-tables/auxillary/realm/aerosol.json",
+        "@type": "version",
+        "version:file": "./JSONLD/auxillary/realm/aerosol.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-09-13T23:22:00Z",
+        "version:commit": {
+            "hash": "65882a5a834b776b6e50e3d0150a4ef3dc830166",
+            "message": "Automated Content Update",
+            "author": {
+                "name": "CMIP-IPO: Automated GitHub Action",
+                "email": "actions@wcrp-cmip.org"
+            }
+        },
+        "version:data": {
+            "@id": "./auxillary/realm/aerosol"
+        }
+    },
+    {
+        "@id": "./https://github.com/PCMDI/mip-cmor-tables/auxillary/realm/landice.json",
+        "@type": "version",
+        "version:file": "./JSONLD/auxillary/realm/landice.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-09-13T23:22:00Z",
+        "version:commit": {
+            "hash": "65882a5a834b776b6e50e3d0150a4ef3dc830166",
+            "message": "Automated Content Update",
+            "author": {
+                "name": "CMIP-IPO: Automated GitHub Action",
+                "email": "actions@wcrp-cmip.org"
+            }
+        },
+        "version:data": {
+            "@id": "./auxillary/realm/landice"
+        }
+    },
+    {
+        "@id": "./https://github.com/PCMDI/mip-cmor-tables/auxillary/realm/ocnbgchem.json",
+        "@type": "version",
+        "version:file": "./JSONLD/auxillary/realm/ocnbgchem.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-09-13T23:22:00Z",
+        "version:commit": {
+            "hash": "65882a5a834b776b6e50e3d0150a4ef3dc830166",
+            "message": "Automated Content Update",
+            "author": {
+                "name": "CMIP-IPO: Automated GitHub Action",
+                "email": "actions@wcrp-cmip.org"
+            }
+        },
+        "version:data": {
+            "@id": "./auxillary/realm/ocnbgchem"
+        }
+    },
+    {
+        "@id": "./https://github.com/PCMDI/mip-cmor-tables/auxillary/realm/seaIce.json",
+        "@type": "version",
+        "version:file": "./JSONLD/auxillary/realm/seaIce.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-09-13T23:22:00Z",
+        "version:commit": {
+            "hash": "65882a5a834b776b6e50e3d0150a4ef3dc830166",
+            "message": "Automated Content Update",
+            "author": {
+                "name": "CMIP-IPO: Automated GitHub Action",
+                "email": "actions@wcrp-cmip.org"
+            }
+        },
+        "version:data": {
+            "@id": "./auxillary/realm/seaIce"
+        }
+    },
+    {
+        "@id": "./https://github.com/PCMDI/mip-cmor-tables/auxillary/realm/atmos.json",
+        "@type": "version",
+        "version:file": "./JSONLD/auxillary/realm/atmos.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-09-13T23:22:00Z",
+        "version:commit": {
+            "hash": "65882a5a834b776b6e50e3d0150a4ef3dc830166",
+            "message": "Automated Content Update",
+            "author": {
+                "name": "CMIP-IPO: Automated GitHub Action",
+                "email": "actions@wcrp-cmip.org"
+            }
+        },
+        "version:data": {
+            "@id": "./auxillary/realm/atmos"
+        }
+    },
+    {
+        "@id": "./https://github.com/PCMDI/mip-cmor-tables/auxillary/realm/atmosChem.json",
+        "@type": "version",
+        "version:file": "./JSONLD/auxillary/realm/atmosChem.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-09-13T23:22:00Z",
+        "version:commit": {
+            "hash": "65882a5a834b776b6e50e3d0150a4ef3dc830166",
+            "message": "Automated Content Update",
+            "author": {
+                "name": "CMIP-IPO: Automated GitHub Action",
+                "email": "actions@wcrp-cmip.org"
+            }
+        },
+        "version:data": {
+            "@id": "./auxillary/realm/atmosChem"
+        }
+    },
+    {
+        "@id": "./https://github.com/PCMDI/mip-cmor-tables/auxillary/realm/ocean.json",
+        "@type": "version",
+        "version:file": "./JSONLD/auxillary/realm/ocean.json",
+        "version:release": {
+            "mip-cmor-tables": "v6.5.0.2",
+            "cmip6plus": "v6.5.1.4"
+        },
+        "version:previous_updates": 1,
+        "version:date": "2024-09-13T23:22:00Z",
+        "version:commit": {
+            "hash": "65882a5a834b776b6e50e3d0150a4ef3dc830166",
+            "message": "Automated Content Update",
+            "author": {
+                "name": "CMIP-IPO: Automated GitHub Action",
+                "email": "actions@wcrp-cmip.org"
+            }
+        },
+        "version:data": {
+            "@id": "./auxillary/realm/ocean"
+        }
+    }
+]

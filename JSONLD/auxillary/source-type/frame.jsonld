@@ -1,0 +1,11 @@
+{
+    "@context": {
+        "@vocab": "source-type",
+        "@base": "mip-cmor-tables:auxillary/source-type"
+    },
+    "@embed": "@always",
+    "@explicit": true,
+    "@type": "mip:source-type",
+    "source-type:description": "",
+    "source-type:name": ""
+}

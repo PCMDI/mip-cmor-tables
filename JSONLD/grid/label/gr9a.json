@@ -1,0 +1,8 @@
+{
+  "@id": "mip-cmor-tables:grid/label/gr9a",
+  "@type": "grid-label",
+  "name": "gr9a",
+  "description": "regridded data reported in the region of Antarctica on a grid other than the native grid and other than the preferred target grid",
+  "region": "antarctica",
+  "short name": "Regridded Antarctica Greenland Alternate a"
+}

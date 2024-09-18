@@ -1,0 +1,8 @@
+{
+  "@id": "mip-cmor-tables:auxillary/frequency/mon",
+  "@type": "frequency",
+  "description": "monthly mean samples",
+  "long_name": "Monthly Frequency",
+  "name": "mon",
+  "unit": "month"
+}
