@@ -1,0 +1,8 @@
+{
+  "@id": "mip-cmor-tables:auxillary/frequency/fx",
+  "@type": "frequency",
+  "description": "fixed (time invariant) field",
+  "long_name": "Fixed Frequency",
+  "name": "fx",
+  "unit": "none"
+}

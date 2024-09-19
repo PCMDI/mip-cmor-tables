@@ -1,0 +1,6 @@
+{
+  "@id": "mip-cmor-tables:auxillary/source-type/slab",
+  "@type": "source-type",
+  "description": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system",
+  "name": "SLAB"
+}

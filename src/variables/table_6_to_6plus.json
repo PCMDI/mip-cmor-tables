@@ -1,0 +1,200 @@
+{
+  "Ofx": [
+    "OPfx"
+  ],
+  "E1hr": [
+    "AP1hrPt",
+    "AP1hr"
+  ],
+  "CFday": [
+    "APdayLev",
+    "APday"
+  ],
+  "Esubhr": [
+    "APsubhrPt",
+    "AEsubhrPt",
+    "APsubhrPtLev",
+    "APsubhrPtSite",
+    "AEsubhrPtSite"
+  ],
+  "IfxGre": [
+    "GIGfx"
+  ],
+  "Oclim": [
+    "OPmonClimLev",
+    "OPmonClim"
+  ],
+  "Eday": [
+    "LPday",
+    "APday",
+    "OPday",
+    "LIday"
+  ],
+  "day": [
+    "LPday",
+    "APday",
+    "LIday"
+  ],
+  "SImon": [
+    "SImon",
+    "SImonPt"
+  ],
+  "E3hr": [
+    "LP3hr",
+    "AP3hr"
+  ],
+  "3hr": [
+    "LP3hr",
+    "OP3hrPt",
+    "AP3hr",
+    "LP3hrPt",
+    "AP3hrPt"
+  ],
+  "Amon": [
+    "APmonLev",
+    "LImon",
+    "APmonClimLev",
+    "APmon",
+    "APmonClim"
+  ],
+  "CFmon": [
+    "APmonLev",
+    "APmon"
+  ],
+  "Emon": [
+    "APmonLev",
+    "ACmon",
+    "OBmonLev",
+    "OPmon",
+    "APmon",
+    "AEmon",
+    "LPmon",
+    "AEmonLev",
+    "OBmon",
+    "OPmonLev"
+  ],
+  "AERmon": [
+    "APmonLev",
+    "AEmon",
+    "AEmonLev"
+  ],
+  "Oyr": [
+    "OByr",
+    "OPyr",
+    "OPyrLev",
+    "OByrLev"
+  ],
+  "IyrAnt": [
+    "GIAyr"
+  ],
+  "6hrPlevPt": [
+    "LI6hrPt",
+    "AP6hrPt",
+    "AE6hrPt",
+    "LP6hrPt"
+  ],
+  "Eyr": [
+    "LPyr",
+    "OPyrLev",
+    "LPyrPt"
+  ],
+  "LImon": [
+    "LImon",
+    "LPmon"
+  ],
+  "Oday": [
+    "OBday",
+    "OPday"
+  ],
+  "EdayZ": [
+    "APdayZ"
+  ],
+  "Omon": [
+    "OBmonLev",
+    "OPmonZ",
+    "OPmon",
+    "APmon",
+    "OBmon",
+    "OPmonLev"
+  ],
+  "EmonZ": [
+    "OPmonZ",
+    "APmonZ",
+    "AEmonZ",
+    "ACmonZ"
+  ],
+  "AERhr": [
+    "AE1hr",
+    "AP1hr"
+  ],
+  "IfxAnt": [
+    "GIAfx"
+  ],
+  "fx": [
+    "LPfx",
+    "APfx"
+  ],
+  "Efx": [
+    "LPfx",
+    "APfx",
+    "LIfx"
+  ],
+  "ImonAnt": [
+    "GIAmon"
+  ],
+  "AERday": [
+    "APday",
+    "AEday"
+  ],
+  "6hrLev": [
+    "AP6hrPt",
+    "AE6hrPtLev",
+    "AP6hrPtLev"
+  ],
+  "IyrGre": [
+    "GIGyr"
+  ],
+  "Odec": [
+    "OPdec",
+    "OPdecLev",
+    "OPdecZ"
+  ],
+  "CFsubhr": [
+    "APsubhrPtSite",
+    "LIsubhrPtSite"
+  ],
+  "E3hrPt": [
+    "AE3hrPtLev",
+    "AP3hrPt",
+    "AE3hrPt",
+    "AP3hrPtLev"
+  ],
+  "6hrPlev": [
+    "AE6hr",
+    "AP6hr"
+  ],
+  "AERmonZ": [
+    "APmonZ",
+    "AEmonZ"
+  ],
+  "E6hrZ": [
+    "AP6hrPtZ"
+  ],
+  "CF3hr": [
+    "AP3hrPt",
+    "AP3hrPtLev",
+    "LI3hrPt"
+  ],
+  "SIday": [
+    "SIday"
+  ],
+  "Lmon": [
+    "LPmon"
+  ],
+  "E1hrClimMon": [
+    "APmonDiurnal"
+  ],
+  "ImonGre": [
+    "GIGmon"
+  ]
+}

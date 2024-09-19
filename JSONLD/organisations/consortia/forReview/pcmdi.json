@@ -1,0 +1,41 @@
+{
+  "@id": "mip-cmor-tables:organisations/consortia/pcmdi",
+  "@type": "consortium",
+  "consortia:status": "active",
+  "consortium:changes": "",
+  "consortium:cmip-acronym": "PCMDI",
+  "consortium:description": "PCMDI",
+  "consortium:members": {
+    "@set": [
+      {
+        "@type": "consortia:member",
+        "consortia:dates": [
+          {
+            "from": 2016,
+            "phase": "CMIP6",
+            "to": 2022
+          }
+        ],
+        "consortia:institution": {
+          "@id": "mip-cmor-tables:organisations/institutions/program"
+        },
+        "consortia:membership-type": "prior"
+      },
+      {
+        "@type": "consortia:member",
+        "consortia:dates": [
+          {
+            "from": 2016,
+            "phase": "CMIP6",
+            "to": 2022
+          }
+        ],
+        "consortia:institution": {
+          "@id": "mip-cmor-tables:organisations/institutions/lawrence"
+        },
+        "consortia:membership-type": "prior"
+      }
+    ]
+  },
+  "consortium:url": ""
+}

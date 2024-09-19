@@ -1,0 +1,27 @@
+{
+  "@id": "mip-cmor-tables:organisations/consortia/messy-consortium",
+  "@type": "consortium",
+  "consortia:status": "active",
+  "consortium:changes": "",
+  "consortium:cmip-acronym": "MESSy-Consortium",
+  "consortium:description": "The Modular Earth Submodel System (MESSy) Consortium",
+  "consortium:members": {
+    "@set": [
+      {
+        "@type": "consortia:member",
+        "consortia:dates": [
+          {
+            "from": 2016,
+            "phase": "CMIP6",
+            "to": 2022
+          }
+        ],
+        "consortia:institution": {
+          "@id": "mip-cmor-tables:organisations/institutions/institute"
+        },
+        "consortia:membership-type": "prior"
+      }
+    ]
+  },
+  "consortium:url": ""
+}

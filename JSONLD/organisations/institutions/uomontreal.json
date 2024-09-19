@@ -1,0 +1,30 @@
+{
+  "@id": "mip-cmor-tables:organisations/institutions/uomontreal",
+  "@type": "institution",
+  "acronyms": [
+    "UdeM"
+  ],
+  "aliases": [],
+  "cmip-acronym": "UoMontreal",
+  "established": 1878,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/0161xgx34",
+    "@nest": {
+      "city": "Montreal",
+      "country": [
+        "Canada",
+        "CA"
+      ],
+      "lat": 45.50884,
+      "lon": 45.50884
+    },
+    "@type": "location"
+  },
+  "name": "Université de Montréal",
+  "ror": "0161xgx34",
+  "type": "Education",
+  "url": [
+    "http://www.umontreal.ca/english/"
+  ]
+}

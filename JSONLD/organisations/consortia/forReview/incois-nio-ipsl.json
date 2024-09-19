@@ -1,0 +1,55 @@
+{
+  "@id": "mip-cmor-tables:organisations/consortia/incois-nio-ipsl",
+  "@type": "consortium",
+  "consortia:status": "active",
+  "consortium:changes": "",
+  "consortium:cmip-acronym": "INCOIS-NIO-IPSL",
+  "consortium:description": "INCOIS-NIO-IPSL",
+  "consortium:members": {
+    "@set": [
+      {
+        "@type": "consortia:member",
+        "consortia:dates": [
+          {
+            "from": 2016,
+            "phase": "CMIP6",
+            "to": 2022
+          }
+        ],
+        "consortia:institution": {
+          "@id": "mip-cmor-tables:organisations/institutions/incois"
+        },
+        "consortia:membership-type": "prior"
+      },
+      {
+        "@type": "consortia:member",
+        "consortia:dates": [
+          {
+            "from": 2016,
+            "phase": "CMIP6",
+            "to": 2022
+          }
+        ],
+        "consortia:institution": {
+          "@id": "mip-cmor-tables:organisations/institutions/nio"
+        },
+        "consortia:membership-type": "prior"
+      },
+      {
+        "@type": "consortia:member",
+        "consortia:dates": [
+          {
+            "from": 2016,
+            "phase": "CMIP6",
+            "to": 2022
+          }
+        ],
+        "consortia:institution": {
+          "@id": "mip-cmor-tables:organisations/institutions/ipsl"
+        },
+        "consortia:membership-type": "active"
+      }
+    ]
+  },
+  "consortium:url": ""
+}

@@ -1,0 +1,33 @@
+{
+  "@id": "mip-cmor-tables:organisations/institutions/kit",
+  "@type": "institution",
+  "acronyms": [
+    "KIT"
+  ],
+  "aliases": [
+    "Karlsruhe Institute of Technology - The Research University in the Helmholtz Association",
+    "Das Karlsruher Institut für Technologie (KIT) – Die Forschungsuniversität in der Helmholtz-Gemeinschaft"
+  ],
+  "cmip-acronym": "KIT",
+  "established": 2009,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/04t3en479",
+    "@nest": {
+      "city": "Karlsruhe",
+      "country": [
+        "Germany",
+        "DE"
+      ],
+      "lat": 49.00937,
+      "lon": 49.00937
+    },
+    "@type": "location"
+  },
+  "name": "Karlsruhe Institute of Technology",
+  "ror": "04t3en479",
+  "type": "Education",
+  "url": [
+    "http://www.kit.edu/english/"
+  ]
+}

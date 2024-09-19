@@ -1,0 +1,3609 @@
+{
+  "A1": {
+    "p0": {
+      "ignored": "axis_ids",
+      "! Variable attributes": "",
+      "long_name": "reference pressure for hybrid sigma coordinate",
+      "units": "Pa"
+    },
+    "ptop": {
+      "ignored": "axis_ids",
+      "! Variable attributes": "", 
+      "long_name": "pressure at top of model",
+      "units": "Pa"
+    },
+    "sigma": {
+      "optional": "units",
+      "! Variable attributes": "",
+      "long_name": "sigma coordinate",
+      "! Additional variable information": "",
+      "dimensions": "zlevel",
+      "type": "double"
+    },
+    "sigma_bnds": {
+      "optional": "units",
+      "! Variable attributes": "",
+      "long_name": "sigma coordinate for layer bounds",
+      "! Additional variable information": "",
+      "dimensions": "zlevel",
+      "type": "double"
+    },
+    "a": {
+      "optional": "units",
+      "! Variable attributes": "",
+      "long_name": "hybrid sigma coordinate A coefficient for layer",
+      "! Additional variable information": "",
+      "dimensions": "zlevel",
+      "type": "double"
+    },
+    "b": {
+      "optional": "units",
+      "! Variable attributes": "",
+      "long_name": "hybrid sigma coordinate B coefficient for layer",
+      "! Additional variable information": "",
+      "dimensions": "zlevel",
+      "type": "double"
+    },
+    "a_bnds": {
+      "optional": "units",
+      "! Variable attributes": "",
+      "long_name": "hybrid sigma coordinate A coefficient for layer bounds",
+      "! Additional variable information": "",
+      "dimensions": "zlevel",
+      "type": "double"
+    },
+    "b_bnds": {
+      "optional": "units",
+      "! Variable attributes": "",
+      "long_name": "hybrid sigma coordinate B coefficient for layer bounds",
+      "! Additional variable information": "",
+      "dimensions": "zlevel",
+      "type": "double"
+    },
+    "ap": {
+      "! Variable attributes": "",
+      "long_name": "alternate hybrid sigma coordinate A coefficient for layer",
+      "units": "Pa",
+      "! Additional variable information": "",
+      "dimensions": "zlevel",
+      "type": "double"
+    },
+    "ap_bnds": {
+      "! Variable attributes": "",
+      "long_name": "alternate hybrid sigma coordinate A coefficient for layer bounds",
+      "units": "Pa",
+      "! Additional variable information": "",
+      "dimensions": "zlevel",
+      "type": "double"
+    },
+    "az": {
+      "! Variable attributes": "",
+      "long_name": "hybrid height coordinate A coefficient for layer",
+      "units": "m",
+      "! Additional variable information": "",
+      "dimensions": "zlevel",
+      "type": "double"
+    },
+    "bz": {
+      "optional": "units",
+      "! Variable attributes": "",
+      "long_name": "hybrid height coordinate B coefficient for layer",
+      "! Additional variable information": "",
+      "dimensions": "zlevel",
+      "type": "double"
+    },
+    "az_bnds": {
+      "! Variable attributes": "",
+      "long_name": "hybrid sigma coordinate A coefficient for layer bounds",
+      "units": "m",
+      "! Additional variable information": "",
+      "dimensions": "zlevel",
+      "type": "double"
+    },
+    "bz_bnds": {
+      "optional": "units",
+      "! Variable attributes": "",
+      "long_name": "hybrid sigma coordinate B coefficient for layer bounds",
+      "! Additional variable information": "",
+      "dimensions": "zlevel",
+      "type": "double",
+      "! IPCC Table A1a": "Monthly-mean 2-d atmosphere or land surface data"
+    },
+    "psl": {
+      "! Variable attributes": "",
+      "standard_name": "air_pressure_at_sea_level",
+      "units": "Pa",
+      "cell_methods": "time: mean",
+      "long_name": "Sea Level Pressure",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "90000.",
+      "valid_max": "120000.",
+      "ok_min_mean_abs": "102000.",
+      "ok_max_mean_abs": "98000."
+    },
+    "pr": {
+      "! Variable attributes": "",
+      "standard_name": "precipitation_flux",
+      "units": "kg m-2 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Precipitation",
+      "comment": "includes all types (rain, snow, large-scale, convective, etc.)",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0",
+      "valid_max": "1.e-3",
+      "ok_min_mean_abs": "1.e-6",
+      "ok_max_mean_abs": "5.e-5"
+    },
+    "tas": {
+      "! Variable attributes": "",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Air Temperature",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time height1",
+      "valid_min": "195.",
+      "valid_max": "330.",
+      "ok_min_mean_abs": "270.",
+      "ok_max_mean_abs": "300."
+    },
+    "mrsos": {
+      "! Variable attributes": "",
+      "standard_name": "moisture_content_of_soil_layer",
+      "units": "kg m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Moisture in Upper 0.1 m of Soil Column",
+      "comment": "includes subsurface frozen water but not surface snow and ice",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time depth1"
+    },
+    "mrso": {
+      "! Variable attributes": "",
+      "standard_name": "soil_moisture_content",
+      "units": "kg m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Total Soil Moisture Content",
+      "comment": "includes subsurface frozen water but not surface snow and ice",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "tauu": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_downward_eastward_stress",
+      "units": "Pa",
+      "cell_methods": "time: mean",
+      "long_name": "Zonal Surface Wind Stress",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "down"
+    },
+    "tauv": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_downward_northward_stress",
+      "units": "Pa",
+      "cell_methods": "time: mean",
+      "long_name": "Meridional Surface Wind Stress",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "down"
+    },
+    "snd": {
+      "! Variable attributes": "",
+      "standard_name": "surface_snow_thickness",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "long_name": "Snow Depth",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0"
+    },
+    "hfls": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_upward_latent_heat_flux",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Latent Heat Flux",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "up",
+      "valid_min": "-120",
+      "valid_max": "900.",
+      "ok_min_mean_abs": "50.",
+      "ok_max_mean_abs": "120."
+    },
+    "hfss": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_upward_sensible_heat_flux",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Sensible Heat Flux",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "up"
+    },
+    "rlds": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_downwelling_longwave_flux_in_air",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Downwelling Longwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "down",
+      "valid_min": "20.",
+      "valid_max": "600.",
+      "ok_min_mean_abs": "300.",
+      "ok_max_mean_abs": "370."
+    },
+    "rlus": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_upwelling_longwave_flux_in_air",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Upwelling Longwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "up",
+      "valid_min": "50.",
+      "valid_max": "750.",
+      "ok_min_mean_abs": "250.",
+      "ok_max_mean_abs": "450."
+    },
+    "rsds": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_downwelling_shortwave_flux_in_air",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Downwelling Shortwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "down",
+      "valid_min": "0.",
+      "valid_max": "550.",
+      "ok_min_mean_abs": "150.",
+      "ok_max_mean_abs": "220."
+    },
+    "rsus": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_upwelling_shortwave_flux_in_air",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Upwelling Shortwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "positive": "up"
+    },
+    "ts": {
+      "! Variable attributes": "",
+      "standard_name": "surface_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Skin Temperature",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "170.",
+      "valid_max": "340.",
+      "ok_min_mean_abs": "280.",
+      "ok_max_mean_abs": "300."
+    },
+    "ps": {
+      "! Variable attributes": "",
+      "standard_name": "surface_air_pressure",
+      "units": "Pa",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Pressure",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.48e5",
+      "valid_max": "1.1e5",
+      "ok_min_mean_abs": "0.97e5",
+      "ok_max_mean_abs": "1.0e5"
+    },
+    "prsn": {
+      "! Variable attributes": "",
+      "standard_name": "snowfall_flux",
+      "units": "kg m-2 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Snowfall Flux",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0"
+    },
+    "prc": {
+      "! Variable attributes": "",
+      "standard_name": "convective_precipitation_flux",
+      "units": "kg m-2 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Convective Precipitation",
+      "comment": "includes both liquid and solid phases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0"
+    },
+    "prw": {
+      "! Variable attributes": "",
+      "standard_name": "atmosphere_water_vapor_content",
+      "units": "kg m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Precipitable Water",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0",
+      "valid_max": "150.",
+      "ok_min_mean_abs": "20.",
+      "ok_max_mean_abs": "30."
+    },
+    "mrfso": {
+      "! Variable attributes": "",
+      "standard_name": "soil_frozen_water_content",
+      "units": "kg m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Soil Frozen Water Content",
+      "comment": "excludes surface snow and ice",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0"
+    },
+    "mrros": {
+      "! Variable attributes": "",
+      "standard_name": "surface_runoff_flux",
+      "units": "kg m-2 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Runoff",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "mrro": {
+      "! Variable attributes": "",
+      "standard_name": "runoff_flux",
+      "units": "kg m-2 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Surface and Subsurface Runoff",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "snw": {
+      "! Variable attributes": "",
+      "standard_name": "surface_snow_amount_where_land",
+      "units": "kg m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Snow Amount",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0"
+    },
+    "snc": {
+      "! Variable attributes": "",
+      "standard_name": "surface_snow_area_fraction_where_land",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "long_name": "Snow Area Fraction",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0",
+      "valid_max": "100."
+    },
+    "snm": {
+      "! Variable attributes": "",
+      "standard_name": "surface_snow_melt_flux_where_land",
+      "units": "kg m-2 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Snow Melt",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0"
+    },
+    "uas": {
+      "! Variable attributes": "",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Zonal Surface Wind Speed",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time height2"
+    },
+    "vas": {
+      "! Variable attributes": "",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Meridional Surface Wind Speed",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time height2"
+    },
+    "huss": {
+      "! Variable attributes": "",
+      "standard_name": "specific_humidity",
+      "units": "kg kg-1",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Specific Humidity",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time height1",
+      "valid_min": "0.0"
+    },
+    "rsdt": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "toa_incoming_shortwave_flux",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "TOA Incident Shortwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "positive": "down"
+    },
+    "rsut": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "toa_outgoing_shortwave_flux",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "TOA Reflected Shortwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "positive": "up"
+    },
+    "rlut": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "toa_outgoing_longwave_flux",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Outgoing Longwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "10.",
+      "valid_max": "500.",
+      "positive": "up"
+    },
+    "rtmt": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "net_downward_radiative_flux_at_top_of_atmosphere_model",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Net Flux at Top of Model",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "down"
+    },
+    "rsntp": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "net_downward_shortwave_flux_in_air",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Net Downward Shortwave Flux at 200 hPa",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1",
+      "valid_min": "0.",
+      "positive": "down"
+    },
+    "rlntp": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "net_upward_longwave_flux_in_air",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Net Upward Longwave Flux at 200 hPa",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1",
+      "valid_min": "0.",
+      "positive": "up"
+    },
+    "rsntpcs": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "net_downward_shortwave_flux_in_air_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Net Downward Clear-Sky Shortwave Flux at 200 hPa",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1",
+      "valid_min": "0.",
+      "positive": "down"
+    },
+    "rlntpcs": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "net_upward_longwave_flux_in_air_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Net Upward Clear-Sky Longwave Flux at 200 hPa",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1",
+      "valid_min": "0.",
+      "positive": "up"
+    },
+    "rsdscs": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_downwelling_shortwave_flux_in_air_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Incident Surface Clear-Sky Shortwave",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "positive": "down"
+    },
+    "rsuscs": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_upwelling_shortwave_flux_in_air_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Reflected Surface Clear-Sky Shortwave",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "positive": "up"
+    },
+    "rldscs": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_downwelling_longwave_flux_in_air_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Downwelling Surface Clear-Sky Longwave",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "positive": "down"
+    },
+    "rlutcs": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "toa_outgoing_longwave_flux_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Outgoing Clear-Sky Longwave",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "10.",
+      "valid_max": "500.",
+      "positive": "up"
+    },
+    "rsutcs": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Reflected Clear-Sky Shortwave",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "positive": "up"
+    },
+    "clt": {
+      "! Variable attributes": "",
+      "standard_name": "cloud_area_fraction",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "long_name": "Total Cloud Fraction",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0",
+      "valid_max": "100.0",
+      "ok_min_mean_abs": "30.",
+      "ok_max_mean_abs": "75."
+    },
+    "clwvi": {
+      "! Variable attributes": "",
+      "standard_name": "atmosphere_cloud_condensed_water_content",
+      "units": "kg m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Column Integerated Cloud Water Content",
+      "comment": "should include both liquid and solid phase",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0"
+    },
+    "clivi": {
+      "! Variable attributes": "",
+      "standard_name": "atmosphere_cloud_ice_content",
+      "units": "kg m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Column Integerated Cloud Ice Content",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0",
+      "! IPCC Table A1b": "Time-independent 2-d land surface data"
+    },
+    "orog": {
+      "! Variable attributes": "",
+      "standard_name": "surface_altitude",
+      "units": "m",
+      "long_name": "Surface Altitude",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude",
+      "valid_min": "-500.",
+      "valid_max": "12000.",
+      "ok_min_mean_abs": "0.",
+      "ok_max_mean_abs": "2000."
+    },
+    "sftlf": {
+      "! Variable attributes": "",
+      "standard_name": "land_area_fraction",
+      "units": "%",
+      "long_name": "Land Area Fraction",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude",
+      "valid_min": "0.0",
+      "valid_max": "100.",
+      "ok_min_mean_abs": "20.",
+      "ok_max_mean_abs": "40."
+    },
+    "sftgif": {
+      "! Variable attributes": "",
+      "standard_name": "land_ice_area_fraction",
+      "units": "%",
+      "long_name": "Fraction of Grid Cell Covered with Glacier",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude",
+      "valid_min": "0.0",
+      "valid_max": "100."
+    },
+    "mrsofc": {
+      "! Variable attributes": "",
+      "standard_name": "soil_moisture_content_at_field_capacity",
+      "units": "kg m-2",
+      "long_name": "Capacity of Soil to Store Water",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude",
+      "! IPCC Table A1c": "Monthly-mean 3-d atmosphere data"
+    },
+    "cl": {
+      "! Variable attributes": "",
+      "standard_name": "cloud_area_fraction_in_atmosphere_layer",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "long_name": "Cloud Fraction",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude zlevel time",
+      "valid_min": "0.0",
+      "valid_max": "100.0",
+      "ok_min_mean_abs": "10.0",
+      "ok_max_mean_abs": "90.0"
+    },
+    "ta": {
+      "! Variable attributes": "",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "long_name": "Temperature",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude pressure time",
+      "valid_min": "150.",
+      "valid_max": "350.",
+      "ok_min_mean_abs": "200.",
+      "ok_max_mean_abs": "300."
+    },
+    "ua": {
+      "! Variable attributes": "",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Zonal Wind Component",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude pressure time",
+      "valid_min": "-200.",
+      "valid_max": "300.",
+      "ok_min_mean_abs": "0.1",
+      "ok_max_mean_abs": "100."
+    },
+    "va": {
+      "! Variable attributes": "",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Meridional Wind Component",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude pressure time",
+      "valid_min": "-100.",
+      "valid_max": "100.",
+      "ok_min_mean_abs": "0.1",
+      "ok_max_mean_abs": "50."
+    },
+    "hus": {
+      "! Variable attributes": "",
+      "standard_name": "specific_humidity",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "long_name": "Specific Humidity",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude pressure time"
+    },
+    "wap": {
+      "! Variable attributes": "",
+      "standard_name": "lagrangian_tendency_of_air_pressure",
+      "units": "Pa s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Omega (=dp/dt)",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude pressure time"
+    },
+    "zg": {
+      "! Variable attributes": "",
+      "standard_name": "geopotential_height",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "long_name": "Geopotential Height",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude pressure time"
+    },
+    "hur": {
+      "! Variable attributes": "",
+      "standard_name": "relative_humidity",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "long_name": "Relative Humidity",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude pressure time",
+      "valid_min": "0.",
+      "valid_max": "100.",
+      "ok_min_mean_abs": "1.",
+      "ok_max_mean_abs": "99."
+    },
+    "tro3": {
+      "! Variable attributes": "",
+      "standard_name": "mole_fraction_of_o3_in_air",
+      "units": "1e-9",
+      "cell_methods": "time: mean",
+      "long_name": "Ozone Mole Fraction",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude pressure time",
+      "! IPCC Table A1d": "Monthly-mean 3-d ISCCP simulator data"
+    },
+    "clisccp": {
+      "! Variable attributes": "",
+      "standard_name": "isccp_cloud_area_fraction",
+      "units": "1",
+      "cell_methods": "time: mean",
+      "long_name": "Cloud Fraction as Calculated by the ISCCP Simulator",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude pressure2 tau time",
+      "valid_min": "0.0",
+      "valid_max": "1.0",
+      "ok_min_mean_abs": "0.001",
+      "ok_max_mean_abs": "0.9",
+      "! IPCC Table A1e": "Monthly-mean 2-d and 3-d sulfate aerosol fields"
+    },
+    "trsul": {
+      "! Variable attributes": "",
+      "standard_name": "mass_concentration_of_sulfate_aerosol_in_air",
+      "units": "1e-9 kg m-3",
+      "cell_methods": "time: mean",
+      "long_name": "Mass Concentration of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude pressure3 time"
+    },
+    "trsult": {
+      "! Variable attributes": "",
+      "standard_name": "atmosphere_content_of_sulfate_aerosol",
+      "units": "1e-6 kg m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Sulfate Burden",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "! IPCC Table A1f": "Monthly-mean land surface fields and prescribed land surface characteristics"
+    },
+    "prveg": {
+      "! Variable attributes": "",
+      "standard_name": "precipitation_flux_onto_canopy",
+      "units": "kg m-2 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Precipitation Intercepted by Vegetation Canopy",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "evspsblveg": {
+      "! Variable attributes": "",
+      "standard_name": "water_evaporation_flux_from_canopy",
+      "units": "kg m-2 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Evaporation from Vegetation Canopy",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "zmla": {
+      "! Variable attributes": "",
+      "standard_name": "atmosphere_boundary_layer_thickness",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "long_name": "Atmospheric Boundary Layer Thickness",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rootd": {
+      "! Variable attributes": "",
+      "standard_name": "root_depth",
+      "units": "m",
+      "long_name": "Root Depth",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude"
+    },
+    "tasmin": {
+      "! Variable attributes": "",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: minimum within days time: mean over days",
+      "long_name": "Daily Minimum Surface Air Temperature",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time height1"
+    }
+  },
+  "O1": {
+    "hfogo": {
+      "! Variable attributes": "",
+      "standard_name": "northward_ocean_heat_transport",
+      "units": "W",
+      "cell_methods": "time: mean  longitude: sum",
+      "long_name": "Northward Ocean Heat Transport",
+      "! Additional variable information": "",
+      "dimensions": "latitude region time",
+      "valid_min": "-4.e16",
+      "valid_max": "4.e16",
+      "ok_min_mean_abs": "0.0",
+      "ok_max_mean_abs": "4.e15",
+      "! IPCC Table O1b": "Monthly-mean 2-d ocean data"
+    },
+    "stfmmc": {
+      "! Variable attributes": "",
+      "standard_name": "ocean_meridional_overturning_streamfunction",
+      "units": "m3 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Meridional Overturning Streamfunction",
+      "! Additional variable information": "",
+      "dimensions": "latitude depth region time",
+      "! IPCC Table O1c": "Monthly-mean 2-d ocean or sea ice data"
+    },
+    "zos": {
+      "! Variable attributes": "",
+      "standard_name": "sea_surface_height_above_geoid",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "long_name": "Sea Surface Elevation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "-100.",
+      "valid_max": "100.",
+      "ok_min_mean_abs": "-10.",
+      "ok_max_mean_abs": "20."
+    },
+    "zostoga": {
+      "! Variable attributes": "",
+      "standard_name": "global_average_thermosteric_sea_level_change",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "long_name": "Global Mean Thermosteric Sea Level Change",
+      "! Additional variable information": "",
+      "dimensions": "time"
+    },
+    "zosga": {
+      "! Variable attributes": "",
+      "standard_name": "global_average_sea_level_change",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "long_name": "Global Mean Sea Level Change",
+      "! Additional variable information": "",
+      "dimensions": "time"
+    },
+    "tos": {
+      "! Variable attributes": "",
+      "standard_name": "sea_surface_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "long_name": "Sea Surface Temperature",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "265.",
+      "valid_max": "320.",
+      "ok_min_mean_abs": "278.",
+      "ok_max_mean_abs": "298."
+    },
+    "sic": {
+      "! Variable attributes": "",
+      "standard_name": "sea_ice_area_fraction",
+      "units": "%",
+      "cell_methods": "time: mean",
+      "long_name": "Sea Ice Concentration",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "valid_max": "100.",
+      "ok_min_mean_abs": "0.1",
+      "ok_max_mean_abs": "20."
+    },
+    "sit": {
+      "! Variable attributes": "",
+      "standard_name": "sea_ice_thickness",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "long_name": "Sea Ice Thickness",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "valid_max": "100.",
+      "ok_min_mean_abs": "0.",
+      "ok_max_mean_abs": "20."
+    },
+    "usi": {
+      "! Variable attributes": "",
+      "standard_name": "eastward_sea_ice_velocity",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Eastward Sea Ice Velocity",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "-5.",
+      "valid_max": "5.",
+      "ok_min_mean_abs": "-5.",
+      "ok_max_mean_abs": "5."
+    },
+    "vsi": {
+      "! Variable attributes": "",
+      "standard_name": "northward_sea_ice_velocity",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Northward Sea Ice Velocity",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "-5.",
+      "valid_max": "5.",
+      "ok_min_mean_abs": "-5.",
+      "ok_max_mean_abs": "5."
+    },
+    "wfo": {
+      "! Variable attributes": "",
+      "standard_name": "water_flux_into_ocean",
+      "units": "kg m-2 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Water Flux Into Ocean",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "stfbarot": {
+      "! Variable attributes": "",
+      "standard_name": "ocean_barotropic_streamfunction",
+      "units": "m3 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Ocean Barotropic Streamfunction",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "hfcorr": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "heat_flux_correction_where_ocean",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Heat FLux Correction",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "down"
+    },
+    "wfcorr": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "water_flux_correction_where_ocean",
+      "units": "kg m-2 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Water FLux Correction",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "down"
+    },
+    "tauucorr": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "eastward_momentum_flux_correction_where_ocean",
+      "units": "Pa",
+      "cell_methods": "time: mean",
+      "long_name": "Eastward Momentum Flux Correction",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "down"
+    },
+    "tauvcorr": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "northward_momentum_flux_correction_where_ocean",
+      "units": "Pa",
+      "cell_methods": "time: mean",
+      "long_name": "Northward Momentum Flux Correction",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "down",
+      "! IPCC Table O1d": "Time-independent 2-d ocean data"
+    },
+    "zobt": {
+      "! Variable attributes": "",
+      "standard_name": "sea_floor_depth_below_geoid",
+      "units": "m",
+      "long_name": "Sea Floor Depth",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude",
+      "valid_min": "0.",
+      "valid_max": "7000.",
+      "ok_min_mean_abs": "100.",
+      "ok_max_mean_abs": "6000."
+    },
+    "qflux": {
+      "! Variable attributes": "",
+      "standard_name": "prescribed_heat_flux_into_slab_ocean",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Q-Flux",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude",
+      "! IPCC Table O1e": "Monthly-mean 3-d ocean data"
+    },
+    "so": {
+      "! Variable attributes": "",
+      "standard_name": "sea_water_salinity",
+      "units": "1e-3",
+      "cell_methods": "time: mean",
+      "long_name": "Salinity",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude depth time"
+    },
+    "thetao": {
+      "! Variable attributes": "",
+      "standard_name": "sea_water_potential_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "long_name": "Potential Temperature",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude depth time",
+      "valid_min": "265.",
+      "valid_max": "320.",
+      "ok_min_mean_abs": "278.",
+      "ok_max_mean_abs": "298."
+    },
+    "rhopoto": {
+      "! Variable attributes": "",
+      "standard_name": "sea_water_potential_density",
+      "units": "kg m-3",
+      "cell_methods": "time: mean",
+      "long_name": "Potential Density",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude depth time"
+    },
+    "uo": {
+      "! Variable attributes": "",
+      "standard_name": "eastward_sea_water_velocity",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Eastward Sea Water Velocity",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude depth time"
+    },
+    "vo": {
+      "! Variable attributes": "",
+      "standard_name": "northward_sea_water_velocity",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Northward Sea Water Velocity",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude depth time"
+    },
+    "wo": {
+      "! Variable attributes": "",
+      "standard_name": "upward_sea_water_velocity",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Upward Sea Water Velocity",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude depth time",
+      "! IPCC Table O1f": "Monthly-mean 2-d and 3-d ocean fields"
+    },
+    "zmlo": {
+      "! Variable attributes": "",
+      "standard_name": "ocean_mixed_layer_thickness",
+      "units": "m",
+      "cell_methods": "time: mean",
+      "long_name": "Mixed Layer Thickness",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "htovdiff": {
+      "! Variable attributes": "",
+      "standard_name": "northward_ocean_heat_transport_due_to_diffusion",
+      "units": "W",
+      "cell_methods": "time: mean",
+      "long_name": "Northward Diffusive Heat Transport by Ocean",
+      "! Additional variable information": "",
+      "dimensions": "latitude region time"
+    },
+    "htovgyre": {
+      "! Variable attributes": "",
+      "standard_name": "northward_ocean_heat_transport_due_to_gyre",
+      "units": "W",
+      "cell_methods": "time: mean",
+      "long_name": "Northward Gyre Heat Transport by Ocean",
+      "! Additional variable information": "",
+      "dimensions": "latitude region time"
+    },
+    "htovovrt": {
+      "! Variable attributes": "",
+      "standard_name": "northward_ocean_heat_transport_due_to_overturning",
+      "units": "W",
+      "cell_methods": "time: mean",
+      "long_name": "Northward Ocean Heat Transport by Overturning",
+      "! Additional variable information": "",
+      "dimensions": "latitude region time"
+    },
+    "sltovdiff": {
+      "! Variable attributes": "",
+      "standard_name": "northward_ocean_salt_transport_due_to_diffusion",
+      "units": "kg s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Northward Diffusive Salt Transport by Ocean",
+      "! Additional variable information": "",
+      "dimensions": "latitude region time"
+    },
+    "sltovgyre": {
+      "! Variable attributes": "",
+      "standard_name": "northward_ocean_salt_transport_due_to_gyre",
+      "units": "kg s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Northward Gyre Salt Transport by Ocean",
+      "! Additional variable information": "",
+      "dimensions": "latitude region time"
+    },
+    "sltovovrt": {
+      "! Variable attributes": "",
+      "standard_name": "northward_ocean_salt_transport_due_to_overturning",
+      "units": "kg s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Northward Ocean Salt Transport by Overturning",
+      "! Additional variable information": "",
+      "dimensions": "latitude region time",
+      "! IPCC Table O1g": "Monthly-mean sea ice fields"
+    },
+    "sbl": {
+      "! Variable attributes": "",
+      "standard_name": "water_evaporation_flux_where_sea_ice",
+      "units": "kg m-2 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Sublimation over Sea Ice",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "hfsib": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "upward_sea_ice_basal_heat_flux",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Upward Heat Flux at Base of Sea Ice",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "up"
+    },
+    "sltfsib": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "downward_sea_ice_basal_salt_flux",
+      "units": "kg m-2 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Downward Salt Flux at Base of Sea Ice",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "down"
+    },
+    "seaarea": {
+      "! Variable attributes": "",
+      "standard_name": "sea_area",
+      "units": "m2",
+      "long_name": "Sea Area",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude"
+    }
+  },
+  "A5": {
+    "rsfttoaa_g": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaa_co2": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaa_s": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaa_sd": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaa_si": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaa_bc": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaa_o": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaa_to": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaa_so": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaa_lo": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaa_a": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaa_v": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaa_sun": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaa_n": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftropa_g": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropa_co2": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropa_s": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropa_sd": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropa_si": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropa_bc": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropa_o": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropa_to": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropa_so": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropa_lo": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropa_a": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropa_v": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropa_sun": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropa_n": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsfttoai_g": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoai_co2": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoai_s": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoai_sd": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoai_si": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoai_bc": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoai_o": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoai_to": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoai_so": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoai_lo": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoai_a": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoai_v": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoai_sun": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoai_n": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftropi_g": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropi_co2": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropi_s": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropi_sd": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropi_si": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropi_bc": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropi_o": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropi_to": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropi_so": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropi_lo": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropi_a": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropi_v": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropi_sun": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropi_n": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlfttoaa_g": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaa_co2": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaa_s": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaa_sd": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaa_si": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaa_bc": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaa_o": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaa_to": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaa_so": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaa_lo": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaa_a": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaa_v": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaa_sun": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaa_n": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftropa_g": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropa_co2": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropa_s": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropa_sd": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropa_si": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropa_bc": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropa_o": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropa_to": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropa_so": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropa_lo": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropa_a": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropa_v": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropa_sun": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropa_n": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlfttoai_g": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoai_co2": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoai_s": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoai_sd": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoai_si": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoai_bc": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoai_o": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoai_to": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoai_so": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoai_lo": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoai_a": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoai_v": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoai_sun": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoai_n": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftropi_g": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropi_co2": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropi_s": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropi_sd": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropi_si": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropi_bc": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropi_o": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropi_to": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropi_so": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropi_lo": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropi_a": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropi_v": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropi_sun": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropi_n": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftoaacs_co2": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaacs_s": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaacs_sd": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaacs_si": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaacs_bc": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaacs_o": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaacs_to": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaacs_so": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaacs_lo": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaacs_a": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Clear-Sky Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaacs_v": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaacs_sun": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaacs_n": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Shortwave Clear-Sky Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftropacs_g": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Clear-Sky Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftropacs_co2": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Clear-Sky Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropacs_s": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Clear-Sky Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropacs_sd": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Clear-Sky Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropacs_si": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Clear-Sky Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropacs_bc": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Clear-Sky Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropacs_o": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Clear-Sky Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropacs_to": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Clear-Sky Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropacs_so": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Clear-Sky Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropacs_lo": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Clear-Sky Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropacs_a": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Clear-Sky Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropacs_v": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Clear-Sky Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropacs_sun": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Clear-Sky Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropacs_n": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Shortwave Clear-Sky Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsfttoaics_g": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaics_co2": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaics_s": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaics_sd": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaics_si": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaics_bc": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaics_o": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaics_to": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaics_so": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaics_lo": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaics_a": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Clear-Sky Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaics_v": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaics_sun": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Clear-Sky Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftoaics_n": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Shortwave Clear-Sky Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rsftropics_g": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Clear-Sky Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropics_co2": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Clear-Sky Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropics_s": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Clear-Sky Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropics_sd": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Clear-Sky Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropics_si": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Clear-Sky Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropics_bc": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Clear-Sky Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropics_o": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Clear-Sky Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropics_to": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Clear-Sky Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropics_so": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Clear-Sky Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropics_lo": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Clear-Sky Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropics_a": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Clear-Sky Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropics_v": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Clear-Sky Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropics_sun": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Clear-Sky Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rsftropics_n": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_shortwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Shortwave Clear-Sky Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlfttoaacs_g": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Clear-Sky Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaacs_co2": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Clear-Sky Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaacs_s": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Clear-Sky Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaacs_sd": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Clear-Sky Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaacs_si": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Clear-Sky Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaacs_bc": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Clear-Sky Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaacs_o": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Clear-Sky Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaacs_to": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Clear-Sky Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaacs_so": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Clear-Sky Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaacs_lo": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Clear-Sky Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaacs_a": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Clear-Sky Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaacs_v": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Clear-Sky Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaacs_sun": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Clear-Sky Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaacs_n": {
+      "! Variable attributes": "",
+      "standard_name": "toa_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Top of the Atmosphere Longwave Clear-Sky Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftropacs_g": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Clear-Sky Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropacs_co2": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Clear-Sky Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropacs_s": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Clear-Sky Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropacs_sd": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Clear-Sky Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropacs_si": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Clear-Sky Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropacs_bc": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Clear-Sky Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropacs_o": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Clear-Sky Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropacs_to": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Clear-Sky Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropacs_so": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Clear-Sky Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropacs_lo": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Clear-Sky Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropacs_a": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Clear-Sky Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropacs_v": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Clear-Sky Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropacs_sun": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Clear-Sky Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropacs_n": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_adjusted_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Adjusted Tropopause Longwave Clear-Sky Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlfttoaics_g": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Clear-Sky Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaics_co2": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Clear-Sky Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaics_s": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Clear-Sky Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaics_sd": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Clear-Sky Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaics_si": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Clear-Sky Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaics_bc": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Clear-Sky Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaics_o": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Clear-Sky Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaics_to": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Clear-Sky Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaics_so": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Clear-Sky Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaics_lo": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Clear-Sky Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaics_a": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Clear-Sky Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaics_v": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Clear-Sky Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaics_sun": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Clear-Sky Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftoaics_n": {
+      "! Variable attributes": "",
+      "standard_name": "toa_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Top of the Atmosphere Longwave Clear-Sky Forcing Due to All Natural Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    },
+    "rlftropics_g": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Clear-Sky Forcing Due to Anthropogenic Greenhouse Gases",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropics_co2": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Clear-Sky Forcing Due to Anthropogenic Carbon Dioxide",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropics_s": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Clear-Sky Forcing Due to Total Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropics_sd": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Clear-Sky Forcing Due to Direct Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropics_si": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Clear-Sky Forcing Due to Indirect Effect of Sulfate Aerosol",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropics_bc": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Clear-Sky Forcing Due to Black Carbon",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropics_o": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Clear-Sky Forcing Due to Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropics_to": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Clear-Sky Forcing Due to Tropospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropics_so": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Clear-Sky Forcing Due to Stratoospheric Ozone",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropics_lo": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Clear-Sky Forcing Due to Vegetation and Other Land-Surface Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropics_a": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Clear-Sky Forcing Due to All Anthropogenic Factors",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropics_v": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Clear-Sky Forcing Due to Volcanic Aerosols",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    },
+    "rlftropics_sun": {
+      "! Variable attributes": "",
+      "standard_name": "tropopause_instantaneous_longwave_forcing_assuming_clear_sky",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Instantaneous Tropopause Longwave Clear-Sky Forcing Due to Solar Constant Changes",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time pressure1"
+    }
+  },
+  "A2": {
+    "psl": {
+      "! Variable attributes": "",
+      "standard_name": "air_pressure_at_sea_level",
+      "units": "Pa",
+      "cell_methods": "time: mean",
+      "long_name": "Sea Level Pressure",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "90000.",
+      "valid_max": "120000.",
+      "ok_min_mean_abs": "102000.",
+      "ok_max_mean_abs": "98000."
+    },
+    "pr": {
+      "! Variable attributes": "",
+      "standard_name": "precipitation_flux",
+      "units": "kg m-2 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Precipitation",
+      "comment": "includes all types (rain, snow, large-scale, convective, etc.)",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0"
+    },
+    "tasmin": {
+      "! Variable attributes": "",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: minimum",
+      "long_name": "Minimum Daily Surface Air Temperature",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time height1",
+      "valid_min": "185.",
+      "valid_max": "330.",
+      "ok_min_mean_abs": "270.",
+      "ok_max_mean_abs": "300."
+    },
+    "tasmax": {
+      "! Variable attributes": "",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: maximum",
+      "long_name": "Maximum Daily Surface Air Temperature",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time height1",
+      "valid_min": "185.",
+      "valid_max": "350.",
+      "ok_min_mean_abs": "270.",
+      "ok_max_mean_abs": "300."
+    },
+    "tas": {
+      "! Variable attributes": "",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Air Temperature",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time height1",
+      "valid_min": "185.",
+      "valid_max": "330.",
+      "ok_min_mean_abs": "270.",
+      "ok_max_mean_abs": "300."
+    },
+    "hfls": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_upward_latent_heat_flux",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Latent Heat Flux",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "up",
+      "valid_min": "-300.",
+      "valid_max": "2000.",
+      "ok_min_mean_abs": "50.",
+      "ok_max_mean_abs": "120."
+    },
+    "hfss": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_upward_sensible_heat_flux",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Sensible Heat Flux",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "up"
+    },
+    "rlds": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_downwelling_longwave_flux_in_air",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Downwelling Longwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "down",
+      "valid_min": "20.",
+      "valid_max": "600.",
+      "ok_min_mean_abs": "300.",
+      "ok_max_mean_abs": "370."
+    },
+    "rlus": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_upwelling_longwave_flux_in_air",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Upwelling Longwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "up",
+      "valid_min": "50.",
+      "valid_max": "750.",
+      "ok_min_mean_abs": "250.",
+      "ok_max_mean_abs": "450."
+    },
+    "rsds": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_downwelling_shortwave_flux_in_air",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Downwelling Shortwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "positive": "down",
+      "valid_min": "0.",
+      "valid_max": "550.",
+      "ok_min_mean_abs": "150.",
+      "ok_max_mean_abs": "220."
+    },
+    "rsus": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_upwelling_shortwave_flux_in_air",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Surface Upwelling Shortwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "positive": "up"
+    },
+    "uas": {
+      "! Variable attributes": "",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Zonal Surface Wind Speed",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time height2"
+    },
+    "vas": {
+      "! Variable attributes": "",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Meridional Surface Wind Speed",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time height2"
+    },
+    "rlut": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "toa_outgoing_longwave_flux",
+      "units": "W m-2",
+      "cell_methods": "time: mean",
+      "long_name": "Outgoing Longwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "10.",
+      "valid_max": "500.",
+      "positive": "up",
+      "! IPCC Table A2b": "Daily-mean 3-d atmosphere data"
+    },
+    "ta": {
+      "! Variable attributes": "",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "cell_methods": "time: mean",
+      "long_name": "Temperature",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude pressure time",
+      "valid_min": "100.",
+      "valid_max": "360."
+    },
+    "ua": {
+      "! Variable attributes": "",
+      "standard_name": "eastward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Zonal Wind Component",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude pressure time"
+    },
+    "va": {
+      "! Variable attributes": "",
+      "standard_name": "northward_wind",
+      "units": "m s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Meridional Wind Component",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude pressure time"
+    }
+  },
+  "A3": {
+    "psl": {
+      "! Variable attributes": "",
+      "standard_name": "air_pressure_at_sea_level",
+      "units": "Pa",
+      "long_name": "Sea Level Pressure",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time1",
+      "valid_min": "90000.",
+      "valid_max": "120000.",
+      "ok_min_mean_abs": "102000.",
+      "ok_max_mean_abs": "98000."
+    },
+    "pr": {
+      "! Variable attributes": "",
+      "standard_name": "precipitation_flux",
+      "units": "kg m-2 s-1",
+      "cell_methods": "time: mean",
+      "long_name": "Precipitation",
+      "comment": "includes all types (rain, snow, large-scale, convective, etc.)",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0"
+    },
+    "tas": {
+      "! Variable attributes": "",
+      "standard_name": "air_temperature",
+      "units": "K",
+      "long_name": "Surface Air Temperature",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time1 height1",
+      "valid_min": "185.",
+      "valid_max": "350.",
+      "ok_min_mean_abs": "270.",
+      "ok_max_mean_abs": "300."
+    },
+    "hfls": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_upward_latent_heat_flux",
+      "units": "W m-2",
+      "long_name": "Surface Latent Heat Flux",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time1",
+      "positive": "up",
+      "valid_min": "-1000.",
+      "valid_max": "2000.",
+      "ok_min_mean_abs": "50.",
+      "ok_max_mean_abs": "120."
+    },
+    "hfss": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_upward_sensible_heat_flux",
+      "units": "W m-2",
+      "long_name": "Surface Sensible Heat Flux",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time1",
+      "positive": "up"
+    },
+    "rlds": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_downwelling_longwave_flux_in_air",
+      "units": "W m-2",
+      "long_name": "Surface Downwelling Longwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time1",
+      "positive": "down",
+      "valid_min": "20.",
+      "valid_max": "600.",
+      "ok_min_mean_abs": "300.",
+      "ok_max_mean_abs": "370."
+    },
+    "rlus": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_upwelling_longwave_flux_in_air",
+      "units": "W m-2",
+      "long_name": "Surface Upwelling Longwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time1",
+      "positive": "up",
+      "valid_min": "50.",
+      "valid_max": "900.",
+      "ok_min_mean_abs": "250.",
+      "ok_max_mean_abs": "450."
+    },
+    "rsds": {
+      "required": "positive",
+      "! Variable attributes": "",
+      "standard_name": "surface_downwelling_shortwave_flux_in_air",
+      "units": "W m-2",
+      "long_name": "Surface Downwelling Shortwave Radiation",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time1",
+      "positive": "down",
+      "valid_min": "0.",
+      "valid_max": "1400."
+    }
+  },
+  "A4": {
+    "fd": {
+      "! Variable attributes": "",
+      "units": "days",
+      "long_name": "Total Number of Frost Days in Year",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "valid_max": "366."
+    },
+    "etr": {
+      "! Variable attributes": "",
+      "units": "K",
+      "long_name": "Intra-Annual Extreme Temperature Range",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time height1",
+      "valid_min": "0.",
+      "valid_max": "200."
+    },
+    "gsl": {
+      "! Variable attributes": "",
+      "units": "days",
+      "long_name": "Growing Season Length",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "valid_max": "366."
+    },
+    "hwdi": {
+      "! Variable attributes": "",
+      "units": "days",
+      "long_name": "Heat Wave Duration Index",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "valid_max": "366."
+    },
+    "tn90": {
+      "! Variable attributes": "",
+      "units": "%",
+      "long_name": "Percent of time Tmin > the 90th percentile value of daily minimum temperature",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "valid_max": "100."
+    },
+    "r10": {
+      "! Variable attributes": "",
+      "units": "days",
+      "long_name": "Number of Days for which Precipitation Rate Exceeds 10 mm/day",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "valid_max": "100."
+    },
+    "cdd": {
+      "! Variable attributes": "",
+      "units": "days",
+      "long_name": "Maximum Number of Consecutive Dry Days",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.",
+      "valid_max": "366."
+    },
+    "r5d": {
+      "! Variable attributes": "",
+      "units": "kg m-2",
+      "long_name": "Maximum 5-day Precipitation Total",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time",
+      "valid_min": "0.0"
+    },
+    "sdii": {
+      "! Variable attributes": "",
+      "units": "kg m-2 s-1",
+      "long_name": "Simple Daily Precipitation Index",
+      "! Additional variable information": "",
+      "dimensions": "longitude latitude time"
+    }
+  }
+}

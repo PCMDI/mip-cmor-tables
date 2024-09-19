@@ -1,0 +1,90 @@
+name: File Versioning
+
+on:
+  push:
+    branches:
+      - 'main'
+  #   tags:
+  #     - '*'
+  release:
+    types:
+      - 'created'
+
+jobs:
+  update_versioning:
+    runs-on: ubuntu-latest
+    outputs:
+      steps_completed: ${{ steps.steps_completed.outputs.run-python-script }}
+
+    env:
+      API_KEY: ${{ secrets.API_KEY }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    permissions:
+      actions: write
+      checks: write
+      contents: write
+      deployments: write
+      id-token: write
+      issues: write
+      discussions: write
+      packages: write
+      pages: write
+      pull-requests: write
+      repository-projects: write
+      security-events: write
+      statuses: write
+
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+        with:
+            fetch-depth: 0  # Fetch the complete commit history
+
+      - name: Set up Git
+        run: |
+          git config user.email "actions@wcrp-cmip.org"
+          git config user.name "CMIP-IPO GitHub Automation"
+          git config credential.helper store
+          git config --global user.email "actions@wcrp-cmip.org"
+          git config --global user.name "CMIP-IPO GitHub Automation"
+          git config --global push.default current
+          echo "GH_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+        shell: bash
+
+  
+         
+
+      - name: Update Versioning
+        id: run-python-script
+        run: |
+          git pull origin main
+          echo "${{github.event_name}} ${{github.ref}}"
+          if [[ "${{ github.event_name }}" == "release"  ]]; then
+            echo "This is a tag release."
+            # && "${{ startsWith(github.ref, 'refs/tags/') }}" == "true"
+            git checkout main
+            git pull origin main
+            export TAG_NAME=$(echo "${{ github.ref }}" | sed 's|refs/tags/||')
+            python .github/libs/version.py -t ${GH_TOKEN} -b $(git rev-parse --abbrev-ref HEAD) -n ${TAG_NAME}
+          else
+            echo "This is not a tag release."
+            python .github/libs/version.py -t ${GH_TOKEN} -b $(git rev-parse --abbrev-ref HEAD)
+            # exit 1
+          fi
+          
+          # working-directory: .github/libs  # Adjusted the working directory
+        shell: bash
+
+
+
+      - name: Write Changes
+        run: |
+          if [ -z "$ACT" ]; then
+            
+              git push origin main
+          else
+            echo "Skipping this step in 'act' environment."
+          fi
+        shell: bash
+        continue-on-error: true

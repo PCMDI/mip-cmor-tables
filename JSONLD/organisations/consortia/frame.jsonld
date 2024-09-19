@@ -1,0 +1,15 @@
+{
+    "@context": {
+        "@vocab": "consortium",
+        "@base": "mip-cmor-tables:organisations/consortia"
+    },
+    "@embed": "@always",
+    "@explicit": true,
+    "@type": "mip:consortium",
+    "consortium:changes": "",
+    "consortium:cmip-acronym": "",
+    "consortium:members": {},
+    "consortium:name": "",
+    "consortium:status": "",
+    "consortium:url": ""
+}

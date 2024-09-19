@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "@id": {
+      "type": "string",
+      "pattern": "^mip-cmor-tables:/auxillary/realm/\\w+$"
+    },
+    "@type": {
+      "type": "string",
+      "const": "realm"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "@id",
+    "@type",
+    "name",
+    "description"
+  ],
+  "additionalProperties": false
+}

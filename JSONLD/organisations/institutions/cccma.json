@@ -1,0 +1,30 @@
+{
+  "@id": "mip-cmor-tables:organisations/institutions/cccma",
+  "@type": "institution",
+  "acronyms": [
+    "ECCC"
+  ],
+  "aliases": [],
+  "cmip-acronym": "CCCma",
+  "established": 1971,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/026ny0e17",
+    "@nest": {
+      "city": "Gatineau",
+      "country": [
+        "Canada",
+        "CA"
+      ],
+      "lat": 45.425373,
+      "lon": -75.699862
+    },
+    "@type": "location"
+  },
+  "name": "Environment and Climate Change Canada",
+  "ror": "026ny0e17",
+  "type": "Government",
+  "url": [
+    "https://www.canada.ca/en/environment-climate-change.html"
+  ]
+}

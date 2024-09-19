@@ -1,0 +1,30 @@
+{
+  "@id": "mip-cmor-tables:organisations/institutions/cas",
+  "@type": "institution",
+  "acronyms": [
+    "CAS"
+  ],
+  "aliases": [],
+  "cmip-acronym": "CAS",
+  "established": 1949,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/034t30j35",
+    "@nest": {
+      "city": "Beijing",
+      "country": [
+        "China",
+        "CN"
+      ],
+      "lat": 39.9075,
+      "lon": 116.39723
+    },
+    "@type": "location"
+  },
+  "name": "Chinese Academy of Sciences",
+  "ror": "034t30j35",
+  "type": "Government",
+  "url": [
+    "http://english.cas.cn/"
+  ]
+}

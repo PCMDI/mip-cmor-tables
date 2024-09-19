@@ -1,0 +1,12 @@
+{
+    "@context": {
+        "@vocab": "license",
+        "@base": "mip-cmor-tables:license"
+    },
+    "@embed": "@always",
+    "@explicit": true,
+    "@type": "mip:license",
+    "license:kind": "",
+    "license:license_id": "",
+    "license:license_url": ""
+}

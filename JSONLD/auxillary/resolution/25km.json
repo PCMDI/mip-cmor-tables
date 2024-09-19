@@ -1,0 +1,8 @@
+{
+    "@type": "resolution",
+    "@id": "mip-cmor-tables:auxillary/resolution/25km",
+    "name": "25 km",
+    "value": "25",
+    "description": "Resolution of 25 km",
+    "unit": "km"
+}

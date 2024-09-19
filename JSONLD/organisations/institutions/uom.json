@@ -1,0 +1,30 @@
+{
+  "@id": "mip-cmor-tables:organisations/institutions/uom",
+  "@type": "institution",
+  "acronyms": [],
+  "aliases": [
+    "Melbourne University"
+  ],
+  "cmip-acronym": "UoM",
+  "established": 1853,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/01ej9dk98",
+    "@nest": {
+      "city": "Melbourne",
+      "country": [
+        "Australia",
+        "AU"
+      ],
+      "lat": -37.814,
+      "lon": 144.96332
+    },
+    "@type": "location"
+  },
+  "name": "University of Melbourne",
+  "ror": "01ej9dk98",
+  "type": "Education",
+  "url": [
+    "http://www.unimelb.edu.au/"
+  ]
+}

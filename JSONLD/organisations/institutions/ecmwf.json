@@ -1,0 +1,30 @@
+{
+  "@id": "mip-cmor-tables:organisations/institutions/ecmwf",
+  "@type": "institution",
+  "acronyms": [
+    "ECMWF"
+  ],
+  "aliases": [],
+  "cmip-acronym": "ECMWF",
+  "established": 1975,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/014w0fd65",
+    "@nest": {
+      "city": "Reading",
+      "country": [
+        "United Kingdom",
+        "GB"
+      ],
+      "lat": 51.45625,
+      "lon": -0.97113
+    },
+    "@type": "location"
+  },
+  "name": "European Centre for Medium-Range Weather Forecasts",
+  "ror": "014w0fd65",
+  "type": "Other",
+  "url": [
+    "http://www.ecmwf.int/"
+  ]
+}

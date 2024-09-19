@@ -1,0 +1,30 @@
+{
+  "@id": "mip-cmor-tables:organisations/institutions/bas",
+  "@type": "institution",
+  "acronyms": [
+    "BAS"
+  ],
+  "aliases": [],
+  "cmip-acronym": "BAS",
+  "established": 1962,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/01rhff309",
+    "@nest": {
+      "city": "Cambridge",
+      "country": [
+        "United Kingdom",
+        "GB"
+      ],
+      "lat": 52.212965,
+      "lon": 52.212965
+    },
+    "@type": "location"
+  },
+  "name": "British Antarctic Survey",
+  "ror": "01rhff309",
+  "type": "Government",
+  "url": [
+    "https://www.bas.ac.uk/"
+  ]
+}

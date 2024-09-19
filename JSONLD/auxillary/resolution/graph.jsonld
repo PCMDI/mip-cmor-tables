@@ -1,0 +1,149 @@
+{
+    "@id": "graph:resolution",
+    "@type": "mip:graph",
+    "@context": {
+        "@vocab": "resolution",
+        "@base": "mip-cmor-tables:auxillary/resolution"
+    },
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/resolution",
+    ":ldroot": "JSONLD/auxillary/resolution",
+    "@graph": [
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/50km",
+            "resolution:name": "50 km",
+            "resolution:value": "50",
+            "resolution:description": "Resolution of 50 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/2500km",
+            "resolution:name": "2500 km",
+            "resolution:value": "2500",
+            "resolution:description": "Resolution of 2500 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/100km",
+            "resolution:name": "100 km",
+            "resolution:value": "100",
+            "resolution:description": "Resolution of 100 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/0.5km",
+            "resolution:name": "0.5 km",
+            "resolution:value": "0.5",
+            "resolution:description": "Resolution of 0.5 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/500km",
+            "resolution:name": "500 km",
+            "resolution:value": "500",
+            "resolution:description": "Resolution of 500 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/1km",
+            "resolution:name": "1 km",
+            "resolution:value": "1",
+            "resolution:description": "Resolution of 1 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/10km",
+            "resolution:name": "10 km",
+            "resolution:value": "10",
+            "resolution:description": "Resolution of 10 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/2.5km",
+            "resolution:name": "2.5 km",
+            "resolution:value": "2.5",
+            "resolution:description": "Resolution of 2.5 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/1000km",
+            "resolution:name": "1000 km",
+            "resolution:value": "1000",
+            "resolution:description": "Resolution of 1000 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/5000km",
+            "resolution:name": "5000 km",
+            "resolution:value": "5000",
+            "resolution:description": "Resolution of 5000 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/1x1degree",
+            "resolution:name": "1x1 degree",
+            "resolution:value": "1x1",
+            "resolution:description": "Resolution of 1x1 degree",
+            "resolution:unit": "degree"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/5km",
+            "resolution:name": "5 km",
+            "resolution:value": "5",
+            "resolution:description": "Resolution of 5 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/250km",
+            "resolution:name": "250 km",
+            "resolution:value": "250",
+            "resolution:description": "Resolution of 250 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/25km",
+            "resolution:name": "25 km",
+            "resolution:value": "25",
+            "resolution:description": "Resolution of 25 km",
+            "resolution:unit": "km"
+        },
+        {
+            "@type": "mip:resolution",
+            "@id": "mip-cmor-tables:auxillary/resolution/10000km",
+            "resolution:name": "10000 km",
+            "resolution:value": "10000",
+            "resolution:description": "Resolution of 10000 km",
+            "resolution:unit": "km"
+        }
+    ],
+    ":files": [
+        "0.5km.json",
+        "1x1degree.json",
+        "50km.json",
+        "1000km.json",
+        "2500km.json",
+        "25km.json",
+        "500km.json",
+        "100km.json",
+        "5000km.json",
+        "1km.json",
+        "2.5km.json",
+        "250km.json",
+        "10km.json",
+        "5km.json",
+        "10000km.json"
+    ]
+}

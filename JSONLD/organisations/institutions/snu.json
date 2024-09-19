@@ -1,0 +1,32 @@
+{
+  "@id": "mip-cmor-tables:organisations/institutions/snu",
+  "@type": "institution",
+  "acronyms": [
+    "SNU"
+  ],
+  "aliases": [
+    "Seoul Daehakgyo"
+  ],
+  "cmip-acronym": "SNU",
+  "established": 1946,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/04h9pn542",
+    "@nest": {
+      "city": "Seoul",
+      "country": [
+        "South Korea",
+        "KR"
+      ],
+      "lat": 37.460155,
+      "lon": 126.951894
+    },
+    "@type": "location"
+  },
+  "name": "Seoul National University",
+  "ror": "04h9pn542",
+  "type": "Education",
+  "url": [
+    "http://www.snu.ac.kr/index.html"
+  ]
+}

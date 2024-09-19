@@ -1,0 +1,32 @@
+{
+  "@id": "mip-cmor-tables:organisations/institutions/uci",
+  "@type": "institution",
+  "acronyms": [
+    "UCI"
+  ],
+  "aliases": [
+    "UC Irvine"
+  ],
+  "cmip-acronym": "UCI",
+  "established": 1965,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/04gyf1771",
+    "@nest": {
+      "city": "Irvine",
+      "country": [
+        "United States",
+        "US"
+      ],
+      "lat": 33.64535,
+      "lon": -117.842642
+    },
+    "@type": "location"
+  },
+  "name": "University of California, Irvine",
+  "ror": "04gyf1771",
+  "type": "Education",
+  "url": [
+    "http://uci.edu/"
+  ]
+}

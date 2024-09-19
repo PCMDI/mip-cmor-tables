@@ -1,0 +1,8 @@
+{
+  "@id": "mip-cmor-tables:auxillary/frequency/6hrpt",
+  "@type": "frequency",
+  "description": "sampled 6 hourly, at specified time point within the time period",
+  "long_name": "6 Hour Point",
+  "name": "6hrPt",
+  "unit": "hour"
+}

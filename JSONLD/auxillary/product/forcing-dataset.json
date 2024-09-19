@@ -1,0 +1,6 @@
+{
+  "@id": "mip-cmor-tables:auxillary/product/forcing-dataset",
+  "@type": "product",
+  "description": "Data sets used to drive model simulations. These include external factors like greenhouse gas concentrations, solar radiation, and land use changes that influence the climate model outputs.",
+  "kind": "forcing-dataset"
+}

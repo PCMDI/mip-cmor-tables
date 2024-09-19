@@ -1,0 +1,6 @@
+{
+  "@id": "mip-cmor-tables:auxillary/source-type/ism",
+  "@type": "source-type",
+  "description": "ice-sheet model that includes ice-flow",
+  "name": "ISM"
+}

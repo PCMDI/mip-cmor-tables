@@ -1,0 +1,30 @@
+{
+  "@id": "mip-cmor-tables:organisations/institutions/lpc2e",
+  "@type": "institution",
+  "acronyms": [
+    "LPC2E"
+  ],
+  "aliases": [],
+  "cmip-acronym": "LPC2E",
+  "established": 2012,
+  "labels": [],
+  "location": {
+    "@id": "mip-cmor-tables:organisations/institutions/location/049k66y27",
+    "@nest": {
+      "city": "Orléans",
+      "country": [
+        "France",
+        "FR"
+      ],
+      "lat": 47.90289,
+      "lon": 47.90289
+    },
+    "@type": "location"
+  },
+  "name": "Laboratoire de Physique et Chimie de l’Environnement et de l’Espace",
+  "ror": "049k66y27",
+  "type": "Facility",
+  "url": [
+    "https://www.lpc2e.cnrs.fr"
+  ]
+}

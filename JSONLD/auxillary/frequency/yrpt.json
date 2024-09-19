@@ -1,0 +1,8 @@
+{
+  "@id": "mip-cmor-tables:auxillary/frequency/yrpt",
+  "@type": "frequency",
+  "description": "sampled yearly, at specified time point within the time period",
+  "long_name": "Yearly Point",
+  "name": "yrPt",
+  "unit": "year"
+}

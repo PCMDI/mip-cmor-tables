@@ -1,0 +1,42 @@
+{
+    "@id": "graph:product",
+    "@type": "mip:graph",
+    "@context": {
+        "@vocab": "product",
+        "@base": "mip-cmor-tables:auxillary/product"
+    },
+    ":url": "https://github.com/PCMDI/mip-cmor-tables/blob/main/JSONLD/auxillary/product",
+    ":ldroot": "JSONLD/auxillary/product",
+    "@graph": [
+        {
+            "@id": "mip-cmor-tables:auxillary/product/observations",
+            "@type": "mip:product",
+            "product:description": "Data collected from direct measurements of the climate system. This includes data from ground stations, satellites, buoys, and other observational platforms, which serve as a reference for validating and comparing model outputs.",
+            "product:kind": "observations"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/product/model-output",
+            "@type": "mip:product",
+            "product:description": "Output produced from a model simulation. This includes the various data points and metrics generated as a result of running climate models, which simulate physical, chemical, and biological processes affecting the climate system.",
+            "product:kind": "model-output"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/product/derived",
+            "@type": "mip:product",
+            "product:description": "Data that has been processed or transformed from raw model output. Derived data includes value-added products such as anomalies, indices, or other statistics that are computed from the original model outputs.",
+            "product:kind": "derived"
+        },
+        {
+            "@id": "mip-cmor-tables:auxillary/product/forcing-dataset",
+            "@type": "mip:product",
+            "product:description": "Data sets used to drive model simulations. These include external factors like greenhouse gas concentrations, solar radiation, and land use changes that influence the climate model outputs.",
+            "product:kind": "forcing-dataset"
+        }
+    ],
+    ":files": [
+        "forcing-dataset.json",
+        "model-output.json",
+        "derived.json",
+        "observations.json"
+    ]
+}

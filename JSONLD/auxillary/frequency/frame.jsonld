@@ -1,0 +1,13 @@
+{
+    "@context": {
+        "@vocab": "frequency",
+        "@base": "mip-cmor-tables:auxillary/frequency"
+    },
+    "@embed": "@always",
+    "@explicit": true,
+    "@type": "mip:frequency",
+    "frequency:description": "",
+    "frequency:long_name": "",
+    "frequency:name": "",
+    "frequency:unit": ""
+}
