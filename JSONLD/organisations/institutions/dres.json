@@ -1,0 +1,28 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/dres",
+    "@type": "institution",
+    "acronyms": [],
+    "aliases": [],
+    "cmip_acronym": "DRES",
+    "established": 2008,
+    "kind": "Facility",
+    "labels": [],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/01deh9c76",
+        "@type": "location",
+        "@nest": {
+            "lat": 51.986071,
+            "lon": 51.986071,
+            "city": "Delft",
+            "country": [
+                "Netherlands",
+                "NL"
+            ]
+        }
+    },
+    "name": "Deltares",
+    "ror": "01deh9c76",
+    "url": [
+        "https://www.deltares.nl/en"
+    ]
+}
