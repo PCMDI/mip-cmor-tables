@@ -1,0 +1,34 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/nasa",
+    "@type": "institution",
+    "acronyms": [
+        "NASA",
+        "NASA HQ"
+    ],
+    "aliases": [
+        "Mary W. Jackson Headquarters Building",
+        "NASA Headquarters"
+    ],
+    "cmip_acronym": "NASA",
+    "established": 1958,
+    "kind": "Government",
+    "labels": [],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/027ka1x80",
+        "@type": "location",
+        "@nest": {
+            "lat": 38.89511,
+            "lon": 38.89511,
+            "city": "Washington",
+            "country": [
+                "United States",
+                "US"
+            ]
+        }
+    },
+    "name": "National Aeronautics and Space Administration",
+    "ror": "027ka1x80",
+    "url": [
+        "http://www.nasa.gov"
+    ]
+}
