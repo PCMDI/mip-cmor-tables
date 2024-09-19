@@ -1,0 +1,28 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/uoexeter",
+    "@type": "institution",
+    "acronyms": [],
+    "aliases": [],
+    "cmip_acronym": "UoExeter",
+    "established": 1955,
+    "kind": "Education",
+    "labels": [],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/03yghzc09",
+        "@type": "location",
+        "@nest": {
+            "lat": 50.7236,
+            "lon": 50.7236,
+            "city": "Exeter",
+            "country": [
+                "United Kingdom",
+                "GB"
+            ]
+        }
+    },
+    "name": "University of Exeter",
+    "ror": "03yghzc09",
+    "url": [
+        "http://www.exeter.ac.uk/"
+    ]
+}
