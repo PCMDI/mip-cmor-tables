@@ -17,7 +17,7 @@ for p in terms_file_list:
     # type => remove @
     output_term = input_term
 
-    output_term["@context"] = "_context.jsonld"
+    output_term["@context"] = "000_context.jsonld"
     output_term["id"] = output_term["name"]
     output_term.pop("@id")
 
