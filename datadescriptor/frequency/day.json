@@ -1,0 +1,9 @@
+{
+    "@context": "_context.jsonld",
+    "id": "day",
+    "description": "daily mean samples",
+    "long_name": "Daily Frequency",
+    "name": "day",
+    "unit": "day",
+    "type": "frequency"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "_context.jsonld",
+    "id": "6hr",
+    "description": "6 hourly mean samples",
+    "long_name": "6 Hourly Frequency",
+    "name": "6hr",
+    "unit": "hour",
+    "type": "frequency"
+}

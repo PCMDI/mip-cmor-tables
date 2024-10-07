@@ -10,11 +10,28 @@
 #   universal: false
 
 -e file:.
+annotated-types==0.7.0
+    # via pydantic
 cachetools==5.5.0
     # via pyld
 frozendict==2.4.4
     # via pyld
+iniconfig==2.0.0
+    # via pytest
 lxml==5.3.0
     # via pyld
+packaging==24.1
+    # via pytest
+pluggy==1.5.0
+    # via pytest
+pydantic==2.9.2
+    # via mip-cmor-tables
+pydantic-core==2.23.4
+    # via pydantic
 pyld==2.0.4
     # via mip-cmor-tables
+pytest==8.3.3
+    # via mip-cmor-tables
+typing-extensions==4.12.2
+    # via pydantic
+    # via pydantic-core

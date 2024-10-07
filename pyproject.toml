@@ -7,6 +7,8 @@ authors = [
 ]
 dependencies = [
     "pyld>=2.0.4",
+    "pytest>=8.3.3",
+    "pydantic>=2.9.2",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"

@@ -1,0 +1,9 @@
+{
+    "@context": "_context.jsonld",
+    "id": "yrPt",
+    "description": "sampled yearly, at specified time point within the time period",
+    "long_name": "Yearly Point",
+    "name": "yrPt",
+    "unit": "year",
+    "type": "frequency"
+}

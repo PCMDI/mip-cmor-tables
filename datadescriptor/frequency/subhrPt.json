@@ -1,0 +1,9 @@
+{
+    "@context": "_context.jsonld",
+    "id": "subhrPt",
+    "description": "sampled sub-hourly, at specified time point within an hour",
+    "long_name": "Sub-Hourly Point",
+    "name": "subhrPt",
+    "unit": "minute",
+    "type": "frequency"
+}

@@ -1,0 +1,16 @@
+
+{
+     
+      "@context": {
+      "@base":"http://es-vocab.ipsl.fr/",
+      "@vocab": "http://schema.org/",
+      "id": "@id",
+      "type":"@type",
+      "frequency": "http://es-vocab.ipsl.fr/frequency/",
+      "long_name": {"@id": "https://schema.org/alternateName"},
+      "name": {"@id": "https://schema.org/name"},
+      "unit": {"@id": "https://schema.org/unitText"},
+      "description":{"@id":"https://schema.org/description"}
+      
+    }
+}

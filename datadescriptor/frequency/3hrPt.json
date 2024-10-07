@@ -1,0 +1,9 @@
+{
+    "@context": "_context.jsonld",
+    "id": "3hrPt",
+    "description": "sampled 3 hourly, at specified time point within the time period",
+    "long_name": "3 Hour Point",
+    "name": "3hrPt",
+    "unit": "hour",
+    "type": "frequency"
+}
