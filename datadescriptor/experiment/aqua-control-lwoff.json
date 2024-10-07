@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "aqua-control-lwoff",
     "type": "experiment",
     "experiment_id": "aqua-control-lwoff",

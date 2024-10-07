@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "1pctco2-bgc",
     "type": "experiment",
     "experiment_id": "1pctCO2-bgc",

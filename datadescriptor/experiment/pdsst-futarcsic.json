@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "pdsst-futarcsic",
     "type": "experiment",
     "experiment_id": "pdSST-futArcSIC",

@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "piclim-2xdms",
     "type": "experiment",
     "experiment_id": "piClim-2xDMS",

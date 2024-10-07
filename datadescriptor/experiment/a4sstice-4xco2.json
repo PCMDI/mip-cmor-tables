@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "a4sstice-4xco2",
     "type": "experiment",
     "experiment_id": "a4SSTice-4xCO2",

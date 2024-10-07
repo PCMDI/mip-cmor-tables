@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "past1000-solaronly",
     "type": "experiment",
     "experiment_id": "past1000-solaronly",

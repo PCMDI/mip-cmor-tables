@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "ssp245-cov-fossil",
     "type": "experiment",
     "experiment_id": "ssp245-cov-fossil",

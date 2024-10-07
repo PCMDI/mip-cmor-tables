@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "amip-climsst",
     "type": "experiment",
     "experiment_id": "amip-climSST",

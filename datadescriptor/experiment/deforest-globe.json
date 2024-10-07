@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "deforest-globe",
     "type": "experiment",
     "experiment_id": "deforest-globe",

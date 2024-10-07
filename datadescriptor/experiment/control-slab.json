@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "control-slab",
     "type": "experiment",
     "experiment_id": "control-slab",

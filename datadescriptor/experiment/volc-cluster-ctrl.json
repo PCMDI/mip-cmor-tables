@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "volc-cluster-ctrl",
     "type": "experiment",
     "experiment_id": "volc-cluster-ctrl",

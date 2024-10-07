@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "amip-lfmip-rmlc",
     "type": "experiment",
     "experiment_id": "amip-lfmip-rmLC",

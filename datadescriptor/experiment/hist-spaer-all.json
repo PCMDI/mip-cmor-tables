@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "hist-spaer-all",
     "type": "experiment",
     "experiment_id": "hist-spAer-all",

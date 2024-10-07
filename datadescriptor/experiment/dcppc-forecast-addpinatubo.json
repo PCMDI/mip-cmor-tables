@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "dcppc-forecast-addpinatubo",
     "type": "experiment",
     "experiment_id": "dcppC-forecast-addPinatubo",

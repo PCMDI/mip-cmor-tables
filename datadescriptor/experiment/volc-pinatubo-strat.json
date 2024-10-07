@@ -1,4 +1,5 @@
 {
+    "@context": "000_context.jsonld",
     "id": "volc-pinatubo-strat",
     "type": "experiment",
     "experiment_id": "volc-pinatubo-strat",

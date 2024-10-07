@@ -71,6 +71,7 @@ for key, value in experiment_ids2.items():
 # Save each experiment as an individual JSON file
 for key, value in experiment_dict.items():
     experiment_data = {
+        '@context':'000_context.jsonld',
         'id': key.lower(),
         'type':'experiment',
         'experiment_id': key,
