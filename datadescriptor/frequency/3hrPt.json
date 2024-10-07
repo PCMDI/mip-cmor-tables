@@ -1,5 +1,5 @@
 {
-    "@context": "_context.jsonld",
+    "@context": "000_context.jsonld",
     "id": "3hrPt",
     "description": "sampled 3 hourly, at specified time point within the time period",
     "long_name": "3 Hour Point",

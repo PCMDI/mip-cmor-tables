@@ -1,5 +1,5 @@
 {
-    "@context": "_context.jsonld",
+    "@context": "000_context.jsonld",
     "id": "dec",
     "description": "decadal mean samples",
     "long_name": "Decadal Frequency",

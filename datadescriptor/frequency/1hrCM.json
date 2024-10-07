@@ -1,5 +1,5 @@
 {
-    "@context": "_context.jsonld",
+    "@context": "000_context.jsonld",
     "id": "1hrCM",
     "description": "monthly-mean diurnal cycle resolving each day into 1-hour means",
     "long_name": "1 Hour Climatology Monthly",

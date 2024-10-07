@@ -1,5 +1,5 @@
 {
-    "@context": "_context.jsonld",
+    "@context": "000_context.jsonld",
     "id": "mon",
     "description": "monthly mean samples",
     "long_name": "Monthly Frequency",

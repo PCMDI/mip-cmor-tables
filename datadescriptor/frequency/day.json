@@ -1,5 +1,5 @@
 {
-    "@context": "_context.jsonld",
+    "@context": "000_context.jsonld",
     "id": "day",
     "description": "daily mean samples",
     "long_name": "Daily Frequency",

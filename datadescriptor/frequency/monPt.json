@@ -1,5 +1,5 @@
 {
-    "@context": "_context.jsonld",
+    "@context": "000_context.jsonld",
     "id": "monPt",
     "description": "sampled monthly, at specified time point within the time period",
     "long_name": "Monthly Point",
