@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "type": "activity",
+    "id": "cfmip",
+    "name": "CFMIP",
+    "cmip_acronym": "CFMIP",
+    "long_name": "Cloud Feedback Model Intercomparison Project",
+    "url": null
+}

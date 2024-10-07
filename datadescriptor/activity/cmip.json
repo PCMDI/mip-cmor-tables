@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "type": "activity",
+    "id": "cmip",
+    "name": "CMIP",
+    "cmip_acronym": "CMIP",
+    "long_name": "CMIP DECK: 1pctCO2, abrupt4xCO2, amip, esm-piControl, esm-historical, historical, and piControl experiments",
+    "url": "https://gmd.copernicus.org/articles/9/1937/2016/gmd-9-1937-2016.pdf"
+}

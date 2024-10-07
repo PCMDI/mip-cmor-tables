@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "type": "activity",
+    "id": "ismip6",
+    "name": "ISMIP6",
+    "cmip_acronym": "ISMIP6",
+    "long_name": "Ice Sheet Model Intercomparison Project for CMIP6",
+    "url": null
+}

@@ -33,6 +33,7 @@ todo.md # just to see where i am and what im planning to do
 
 frequencyDD  Done
 activityDD  
+    find or define predicate cmip_acronym  
 experimentDD  
 reportingIntervalDD  
 gridLabelDD  

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "type": "activity",
+    "id": "ls3mip",
+    "name": "LS3MIP",
+    "cmip_acronym": "LS3MIP",
+    "long_name": "Land Surface, Snow and Soil Moisture",
+    "url": null
+}

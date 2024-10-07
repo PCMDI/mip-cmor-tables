@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "type": "activity",
+    "id": "fafmip",
+    "name": "FAFMIP",
+    "cmip_acronym": "FAFMIP",
+    "long_name": "Flux-Anomaly-Forced Model Intercomparison Project",
+    "url": null
+}

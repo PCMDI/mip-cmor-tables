@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "type": "activity",
+    "id": "scenariomip",
+    "name": "ScenarioMIP",
+    "cmip_acronym": "ScenarioMIP",
+    "long_name": "Scenario Model Intercomparison Project",
+    "url": null
+}

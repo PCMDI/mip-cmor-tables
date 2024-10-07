@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "type": "activity",
+    "id": "omip",
+    "name": "OMIP",
+    "cmip_acronym": "OMIP",
+    "long_name": "Ocean Model Intercomparison Project",
+    "url": null
+}

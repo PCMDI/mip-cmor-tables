@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "type": "activity",
+    "id": "lumip",
+    "name": "LUMIP",
+    "cmip_acronym": "LUMIP",
+    "long_name": "Land-Use Model Intercomparison Project",
+    "url": null
+}

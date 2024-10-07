@@ -1,18 +1,22 @@
 from mip_cmor_tables.models.frequency import Frequency
+from mip_cmor_tables.models.activity import Activity
 from pathlib import Path
 from pydantic import ValidationError
 import pytest
 
 import json
-input_dir = Path("datadescriptor/frequency/")
 
-
-def test_terms():
+def validate_terms(input_dir, model):
     for p in input_dir.iterdir():
         if p.suffix==".json":
             try:
                 # Load valid JSON into the model
-               py_instance = Frequency.model_validate_json(p.read_text())
+               py_instance = model.model_validate_json(p.read_text())
             except ValidationError as exc:
                 pytest.fail(f"ValidationError was raised for \nTerms : '{p.stem}'\nPath : {str(p)}\nError :  {exc.errors()[0]}")
-            
+ 
+def test_frequency():
+    validate_terms(Path("datadescriptor/frequency/"),Frequency)
+
+def test_activity():
+    validate_terms(Path("datadescriptor/activity/"),Activity)

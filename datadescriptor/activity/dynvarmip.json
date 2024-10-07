@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "type": "activity",
+    "id": "dynvarmip",
+    "name": "DynVarMIP",
+    "cmip_acronym": "DynVarMIP",
+    "long_name": "Dynamics and Variability Model Intercomparison Project",
+    "url": null
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "type": "activity",
+    "id": "rfmip",
+    "name": "RFMIP",
+    "cmip_acronym": "RFMIP",
+    "long_name": "Radiative Forcing Model Intercomparison Project",
+    "url": null
+}

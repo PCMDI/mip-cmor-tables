@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "type": "activity",
+    "id": "pamip",
+    "name": "PAMIP",
+    "cmip_acronym": "PAMIP",
+    "long_name": "Polar Amplification Model Intercomparison Project",
+    "url": null
+}

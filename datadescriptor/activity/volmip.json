@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "type": "activity",
+    "id": "volmip",
+    "name": "VolMIP",
+    "cmip_acronym": "VolMIP",
+    "long_name": "Volcanic Forcings Model Intercomparison Project",
+    "url": null
+}

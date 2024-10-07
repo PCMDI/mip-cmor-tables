@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "type": "activity",
+    "id": "simip",
+    "name": "SIMIP",
+    "cmip_acronym": "SIMIP",
+    "long_name": "Sea Ice Model Intercomparison Project",
+    "url": null
+}

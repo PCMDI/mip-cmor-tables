@@ -9,6 +9,7 @@ dependencies = [
     "pyld>=2.0.4",
     "pytest>=8.3.3",
     "pydantic>=2.9.2",
+    "requests>=2.32.3",
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
@@ -26,3 +27,9 @@ allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/mip_cmor_tables"]
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"

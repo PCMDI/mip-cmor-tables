@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "type": "activity",
+    "id": "cordex",
+    "name": "CORDEX",
+    "cmip_acronym": "CORDEX",
+    "long_name": "Coordinated Regional Climate Downscaling Experiment",
+    "url": null
+}
