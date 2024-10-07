@@ -1,0 +1,31 @@
+{
+    "id": "1pctco2ndep-bgc",
+    "type": "experiment",
+    "experiment_id": "1pctCO2Ndep-bgc",
+    "activity_id": [
+        "c4mip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem"
+    ],
+    "description": "Biogeochemically-coupled specified concentration simulation in which CO2 increases at a rate of 1% per year until quadrupling, plus an additional scenario of anthropogenic nitrogen deposition",
+    "end_year": null,
+    "experiment": "biogeochemically-coupled version of 1 percent per year increasing CO2 experiment with increasing N-deposition",
+    "min_number_yrs_per_sim": "150",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "aogcm",
+        "bgc"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

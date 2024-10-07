@@ -1,0 +1,29 @@
+{
+    "id": "ism-amip-std",
+    "type": "experiment",
+    "experiment_id": "ism-amip-std",
+    "activity_id": [
+        "ismip6"
+    ],
+    "additional_allowed_model_components": [
+        ""
+    ],
+    "description": "Offline ice sheet evolution for the last few decades forced by amip",
+    "end_year": 2014,
+    "experiment": "offline ice sheet forced by ISMIP6-specified AGCM AMIP output",
+    "min_number_yrs_per_sim": "36",
+    "parent_activity_id": [
+        "ismip6"
+    ],
+    "parent_experiment_id": [
+        "ism-ctrl-std"
+    ],
+    "required_model_components": [
+        "ism"
+    ],
+    "start_year": 1979,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

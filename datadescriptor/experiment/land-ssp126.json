@@ -1,0 +1,29 @@
+{
+    "id": "land-ssp126",
+    "type": "experiment",
+    "experiment_id": "land-ssp126",
+    "activity_id": [
+        "ls3mip"
+    ],
+    "additional_allowed_model_components": [
+        "bgc"
+    ],
+    "description": "land only simulation for ssp1-2.6",
+    "end_year": 2100,
+    "experiment": "future ssp1-2.6 land only",
+    "min_number_yrs_per_sim": "86",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "land"
+    ],
+    "start_year": 2015,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "1"
+}

@@ -1,0 +1,29 @@
+{
+    "id": "piclim-spaer-histall",
+    "type": "experiment",
+    "experiment_id": "piClim-spAer-histall",
+    "activity_id": [
+        "rfmip"
+    ],
+    "additional_allowed_model_components": [
+        ""
+    ],
+    "description": "Prescribed anthropogenic aerosol optical properties. All anthropogenic and natural forcings",
+    "end_year": 2014,
+    "experiment": "transient effective radiative forcing with specified anthropogenic aerosol optical properties, all forcings",
+    "min_number_yrs_per_sim": "165",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": 1850,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

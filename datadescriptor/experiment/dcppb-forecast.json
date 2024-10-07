@@ -1,0 +1,45 @@
+{
+    "id": "dcppb-forecast",
+    "type": "experiment",
+    "experiment_id": "dcppB-forecast",
+    "activity_id": [
+        "dcpp"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "B1 (and B2.1, B2.2) Ongoing decadal forecasts. First full forecast year follows start year (e.g., for s2017, first full forecast year is 2018)",
+    "end_year": null,
+    "experiment": "forecast initialized from observations with forcing from ssp245",
+    "min_number_yrs_per_sim": "5",
+    "parent_activity_id": [
+        "no parent",
+        "dcpp"
+    ],
+    "parent_experiment_id": [
+        "no parent",
+        "dcppa-assim"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "s2017",
+        "s2018",
+        "s2019",
+        "s2020",
+        "s2021",
+        "s2022",
+        "s2023",
+        "s2024",
+        "s2025",
+        "s2026",
+        "s2027",
+        "s2028",
+        "s2029"
+    ],
+    "tier": "1"
+}

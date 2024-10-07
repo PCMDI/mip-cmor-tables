@@ -1,0 +1,29 @@
+{
+    "id": "piclim-spaer-aer",
+    "type": "experiment",
+    "experiment_id": "piClim-spAer-aer",
+    "activity_id": [
+        "rfmip"
+    ],
+    "additional_allowed_model_components": [
+        ""
+    ],
+    "description": "Prescribed anthropogenic aerosol optical properties. Aerosol forcings",
+    "end_year": null,
+    "experiment": "effective radiative forcing at present day with specified anthropogenic aerosol optical properties, all forcings",
+    "min_number_yrs_per_sim": "",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

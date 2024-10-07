@@ -1,0 +1,30 @@
+{
+    "id": "aqua-4xco2",
+    "type": "experiment",
+    "experiment_id": "aqua-4xCO2",
+    "activity_id": [
+        "cfmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem"
+    ],
+    "description": "Extended version of CMIP5/CFMIP-2 aqua4xCO2 experiment. Aquaplanet experiment where SSTs are held at control values and the CO2 seen by the radiation scheme is quadrupled",
+    "end_year": null,
+    "experiment": "aquaplanet with control SST and 4xCO2",
+    "min_number_yrs_per_sim": "10",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "1"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "piclim-2xnox",
+    "type": "experiment",
+    "experiment_id": "piClim-2xNOx",
+    "activity_id": [
+        "aerchemmip"
+    ],
+    "additional_allowed_model_components": [
+        "bgc"
+    ],
+    "description": "1850 control with doubled emissions of lightning NOx",
+    "end_year": null,
+    "experiment": "pre-industrial climatological SSTs and forcing, but with doubled production of NOx due to lightning",
+    "min_number_yrs_per_sim": "30",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "agcm",
+        "aer",
+        "chem"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

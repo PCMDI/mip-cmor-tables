@@ -1,0 +1,31 @@
+{
+    "id": "lfmip-initlc",
+    "type": "experiment",
+    "experiment_id": "lfmip-initLC",
+    "activity_id": [
+        "ls3mip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "Initialized pseudo-observations land",
+    "end_year": 2014,
+    "experiment": "initialized from \"historical\" run year 1980, but with land conditions initialized from pseudo-observations",
+    "min_number_yrs_per_sim": "35",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "historical"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 1980,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

@@ -1,0 +1,30 @@
+{
+    "id": "aqua-control-lwoff",
+    "type": "experiment",
+    "experiment_id": "aqua-control-lwoff",
+    "activity_id": [
+        "cfmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem"
+    ],
+    "description": "As aqua-control experiment, but with cloud-radiative effects switched off in the LW radiation code",
+    "end_year": null,
+    "experiment": "aquaplanet control with longwave cloud radiative effects off",
+    "min_number_yrs_per_sim": "10",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

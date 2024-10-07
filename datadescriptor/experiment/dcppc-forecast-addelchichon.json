@@ -1,0 +1,33 @@
+{
+    "id": "dcppc-forecast-addelchichon",
+    "type": "experiment",
+    "experiment_id": "dcppC-forecast-addElChichon",
+    "activity_id": [
+        "dcpp"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "C3.5 Effects of volcanoes on decadal prediction and predictability of forced and internal variability components. First full hindcast year is 2015",
+    "end_year": null,
+    "experiment": "2015 forecast with added El Chichon forcing",
+    "min_number_yrs_per_sim": "5",
+    "parent_activity_id": [
+        "no parent",
+        "dcpp"
+    ],
+    "parent_experiment_id": [
+        "no parent",
+        "dcppa-assim"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 2014,
+    "sub_experiment_id": [
+        "s2014"
+    ],
+    "tier": "3"
+}

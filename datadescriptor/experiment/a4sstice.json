@@ -1,0 +1,30 @@
+{
+    "id": "a4sstice",
+    "type": "experiment",
+    "experiment_id": "a4SSTice",
+    "activity_id": [
+        "cfmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem"
+    ],
+    "description": "As piSST, but with monthly-varying SSTs and sea-ice taken from years 111-140 of each model's own abrupt-4xCO2 experiment instead of from piControl",
+    "end_year": null,
+    "experiment": "as piSST but with SSTs and sea ice from abrupt-4xCO2",
+    "min_number_yrs_per_sim": "30",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

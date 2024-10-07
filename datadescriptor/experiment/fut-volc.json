@@ -1,0 +1,31 @@
+{
+    "id": "fut-volc",
+    "type": "experiment",
+    "experiment_id": "fut-volc",
+    "activity_id": [
+        "lesfmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "As hist-volc but with updated forcings",
+    "end_year": 2024,
+    "experiment": "future volcanic-only run",
+    "min_number_yrs_per_sim": "none",
+    "parent_activity_id": [
+        "lesfmip"
+    ],
+    "parent_experiment_id": [
+        "hist-volc"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 2015,
+    "sub_experiment_id": [
+        "f2023"
+    ],
+    "tier": 2
+}

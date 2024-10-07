@@ -1,0 +1,31 @@
+{
+    "id": "amip-lfmip-pdlc",
+    "type": "experiment",
+    "experiment_id": "amip-lfmip-pdLC",
+    "activity_id": [
+        "ls3mip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "Scenario forced experiment with prescribed land surface climatology derived from modern conditions from the first historical ensemble member (1980-2014). SST and sea-ice from the first ensemble members of the historical and ssp585 experiments",
+    "end_year": 2014,
+    "experiment": "prescribed modern land surface climatology from historical, prescribed SST and sea-ice from historical plus scenario runs",
+    "min_number_yrs_per_sim": "36",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": 1979,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

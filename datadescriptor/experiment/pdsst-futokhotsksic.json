@@ -1,0 +1,31 @@
+{
+    "id": "pdsst-futokhotsksic",
+    "type": "experiment",
+    "experiment_id": "pdSST-futOkhotskSIC",
+    "activity_id": [
+        "pamip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "PA3.1: investigate response to sea ice in Sea of Okhotsk",
+    "end_year": 2001,
+    "experiment": "Atmosphere time slice with present day SST and future Sea of Okhotsk SIC",
+    "min_number_yrs_per_sim": "1",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "amip"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": 2000,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

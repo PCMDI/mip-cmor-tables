@@ -1,0 +1,31 @@
+{
+    "id": "ssp370pdsst",
+    "type": "experiment",
+    "experiment_id": "ssp370pdSST",
+    "activity_id": [
+        "aerchemmip"
+    ],
+    "additional_allowed_model_components": [
+        "chem",
+        "bgc"
+    ],
+    "description": "Experimental set up as ssp370SST except sea surface temperatures (SST) and sea ice concentrations (SICONC) are from a 2005-2014 climatology. Diagnostics are as ssp370SST",
+    "end_year": 2100,
+    "experiment": "SSP3-7.0, with SSTs prescribed as present day",
+    "min_number_yrs_per_sim": "86",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "historical"
+    ],
+    "required_model_components": [
+        "agcm",
+        "aer"
+    ],
+    "start_year": 2015,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

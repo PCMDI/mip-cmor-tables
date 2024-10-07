@@ -1,0 +1,30 @@
+{
+    "id": "land-noshiftcultivate",
+    "type": "experiment",
+    "experiment_id": "land-noShiftCultivate",
+    "activity_id": [
+        "lumip"
+    ],
+    "additional_allowed_model_components": [
+        ""
+    ],
+    "description": "Same as land-hist except shifting cultivation turned off. An additional LUC transitions dataset will be provided as a data layer within LUMIP LUH2 dataset with shifting cultivation deactivated",
+    "end_year": 2014,
+    "experiment": "historical land-only with shifting cultivation turned off",
+    "min_number_yrs_per_sim": "165",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "land",
+        "bgc"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

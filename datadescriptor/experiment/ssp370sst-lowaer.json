@@ -1,0 +1,31 @@
+{
+    "id": "ssp370sst-lowaer",
+    "type": "experiment",
+    "experiment_id": "ssp370SST-lowAer",
+    "activity_id": [
+        "aerchemmip"
+    ],
+    "additional_allowed_model_components": [
+        "chem",
+        "bgc"
+    ],
+    "description": "Future SSP3-7.0 with reduced aerosol emissions (from ssp370-lowNTCF), prescribed SSTs",
+    "end_year": 2100,
+    "experiment": "SSP3-7.0, prescribed SSTs, with low aerosol emissions",
+    "min_number_yrs_per_sim": "86",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "historical"
+    ],
+    "required_model_components": [
+        "agcm",
+        "aer"
+    ],
+    "start_year": 2015,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

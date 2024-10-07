@@ -1,0 +1,31 @@
+{
+    "id": "esm-ssp585",
+    "type": "experiment",
+    "experiment_id": "esm-ssp585",
+    "activity_id": [
+        "c4mip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem"
+    ],
+    "description": "Emissions-driven future scenario simulation",
+    "end_year": 2100,
+    "experiment": "emission-driven RCP8.5 based on SSP5",
+    "min_number_yrs_per_sim": "86",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "esm-hist"
+    ],
+    "required_model_components": [
+        "aogcm",
+        "bgc"
+    ],
+    "start_year": 2015,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "1"
+}

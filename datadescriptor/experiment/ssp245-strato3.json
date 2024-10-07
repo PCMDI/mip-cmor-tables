@@ -1,0 +1,30 @@
+{
+    "id": "ssp245-strato3",
+    "type": "experiment",
+    "experiment_id": "ssp245-stratO3",
+    "activity_id": [
+        "damip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "bgc"
+    ],
+    "description": "Extension of stratospheric ozone-only run under SSP2-4.5 (ssp245). In models with coupled chemistry, the chemistry scheme should be turned off, and the simulated ensemble mean monthly mean 3D stratospheric ozone concentrations from the SSP2-4.5 simulations should be prescribed. Tropospheric ozone should be fixed at 3D long-term monthly mean piControl values, with a value of 100 ppbv ozone concentration in this piControl climatology used to separate the troposphere from the stratosphere. In models without coupled chemistry the same stratospheric ozone prescribed in SSP2-4.5 should be prescribed. Stratospheric ozone concentrations will be provided by CCMI",
+    "end_year": 2100,
+    "experiment": "stratospheric ozone-only SSP2-4.5 (ssp245) run",
+    "min_number_yrs_per_sim": "80",
+    "parent_activity_id": [
+        "damip"
+    ],
+    "parent_experiment_id": [
+        "hist-strato3"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 2021,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

@@ -1,0 +1,30 @@
+{
+    "id": "piclim-4xco2",
+    "type": "experiment",
+    "experiment_id": "piClim-4xCO2",
+    "activity_id": [
+        "rfmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem"
+    ],
+    "description": "As in piClim-control but with 4xCO2",
+    "end_year": null,
+    "experiment": "effective radiative forcing by 4xCO2",
+    "min_number_yrs_per_sim": "30",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "1"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "lfmip-pdlc-cruncep",
+    "type": "experiment",
+    "experiment_id": "lfmip-pdLC-cruNcep",
+    "activity_id": [
+        "ls3mip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "Prescribed land conditions 1980-2014 climate with Land-Hist-cruNcep",
+    "end_year": 2100,
+    "experiment": "as LFMIP-pdLC with Land-Hist-cruNcep",
+    "min_number_yrs_per_sim": "121",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "historical"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 1980,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

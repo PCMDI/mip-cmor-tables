@@ -1,0 +1,31 @@
+{
+    "id": "faf-antwater-stress",
+    "type": "experiment",
+    "experiment_id": "faf-antwater-stress",
+    "activity_id": [
+        "fafmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "1xCO2 experiment, parallel to piControl, forced over the ocean with the momentum flux perturbation field of faf-stress and a surface freshwater flux of 0.1 Sv in total to be applied uniformly around the coast of Antarctica in whatever way is most suitable in the model",
+    "end_year": null,
+    "experiment": "control plus perturbative surface fluxes of momentum and freshwater into ocean, the latter around the coast of Antarctica only",
+    "min_number_yrs_per_sim": "70",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

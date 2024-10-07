@@ -1,0 +1,31 @@
+{
+    "id": "picontrol",
+    "type": "experiment",
+    "experiment_id": "piControl",
+    "activity_id": [
+        "cmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "DECK: control",
+    "end_year": null,
+    "experiment": "pre-industrial control (CO2 concentration-driven)",
+    "min_number_yrs_per_sim": 500,
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol-spinup"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": 1
+}

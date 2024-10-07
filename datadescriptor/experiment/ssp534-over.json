@@ -1,0 +1,31 @@
+{
+    "id": "ssp534-over",
+    "type": "experiment",
+    "experiment_id": "ssp534-over",
+    "activity_id": [
+        "scenariomip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "21st century overshoot scenario relative to SSP5_34. Branches from SSP5_85 at 2040 with emissions reduced to zero by 2070 and negative thereafter. This simulation should optionally be extended to year 2300",
+    "end_year": null,
+    "experiment": "overshoot of 3.4 W/m**2 branching from ssp585 in 2040",
+    "min_number_yrs_per_sim": "61",
+    "parent_activity_id": [
+        "scenariomip"
+    ],
+    "parent_experiment_id": [
+        "ssp585"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 2040,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

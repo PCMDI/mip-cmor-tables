@@ -1,0 +1,32 @@
+{
+    "id": "historical-withism",
+    "type": "experiment",
+    "experiment_id": "historical-withism",
+    "activity_id": [
+        "ismip6"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "Historical simulation that includes interactive ice sheets. Set up follows the historical experiment",
+    "end_year": 2014,
+    "experiment": "historical with interactive ice sheet",
+    "min_number_yrs_per_sim": "165",
+    "parent_activity_id": [
+        "ismip6"
+    ],
+    "parent_experiment_id": [
+        "picontrol-withism"
+    ],
+    "required_model_components": [
+        "aogcm",
+        "ism"
+    ],
+    "start_year": 1850,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

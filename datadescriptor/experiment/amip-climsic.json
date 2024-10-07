@@ -1,0 +1,31 @@
+{
+    "id": "amip-climsic",
+    "type": "experiment",
+    "experiment_id": "amip-climSIC",
+    "activity_id": [
+        "pamip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "PA5.2: investigate role of transient SST in recent climate change",
+    "end_year": 2014,
+    "experiment": "AMIP with climatological SIC",
+    "min_number_yrs_per_sim": "36",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "amip"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": 1979,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

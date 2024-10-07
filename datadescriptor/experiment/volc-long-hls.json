@@ -1,0 +1,31 @@
+{
+    "id": "volc-long-hls",
+    "type": "experiment",
+    "experiment_id": "volc-long-hlS",
+    "activity_id": [
+        "volmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "Idealized Southern Hemisphere high-latitude eruption emitting 28.1 Tg of SO2. Experiment initialized from PiControl",
+    "end_year": null,
+    "experiment": "Idealized Southern Hemisphere high-latitude eruption emitting 28.1 Tg of SO2",
+    "min_number_yrs_per_sim": "20",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "pa-futarcsic-ext",
+    "type": "experiment",
+    "experiment_id": "pa-futArcSIC-ext",
+    "activity_id": [
+        "pamip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "PA6.2: investigate decadal and longer timescale response to Arctic sea ice",
+    "end_year": 2099,
+    "experiment": "Partially-coupled extended simulation with future Arctic SIC",
+    "min_number_yrs_per_sim": "100",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "historical"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 2000,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "dcppc-atl-pacemaker",
+    "type": "experiment",
+    "experiment_id": "dcppC-atl-pacemaker",
+    "activity_id": [
+        "dcpp"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "C1.11 Mechanisms and predictability of the hiatus and of similar long timescale variations of both signs",
+    "end_year": 2014,
+    "experiment": "pacemaker Atlantic experiment",
+    "min_number_yrs_per_sim": "65",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "historical"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "s1910",
+        "s1920",
+        "s1950"
+    ],
+    "tier": "3"
+}

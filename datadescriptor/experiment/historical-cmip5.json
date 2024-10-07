@@ -1,0 +1,31 @@
+{
+    "id": "historical-cmip5",
+    "type": "experiment",
+    "experiment_id": "historical-cmip5",
+    "activity_id": [
+        "cmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "CMIP5 historical experiment, using CMIP5-era [1850-2005] forcing",
+    "end_year": 2005,
+    "experiment": "all-forcing simulation of the recent past (CMIP5-era [1850-2005] forcing)",
+    "min_number_yrs_per_sim": "156",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol-cmip5"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 1850,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

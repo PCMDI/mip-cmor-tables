@@ -1,0 +1,31 @@
+{
+    "id": "esm-picontrol",
+    "type": "experiment",
+    "experiment_id": "esm-piControl",
+    "activity_id": [
+        "cmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem"
+    ],
+    "description": "DECK: control (emission-driven)",
+    "end_year": null,
+    "experiment": "pre-industrial control simulation with preindustrial CO2 emissions defined (CO2 emission-driven)",
+    "min_number_yrs_per_sim": 500,
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "esm-picontrol-spinup"
+    ],
+    "required_model_components": [
+        "aogcm",
+        "bgc"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": 1
+}

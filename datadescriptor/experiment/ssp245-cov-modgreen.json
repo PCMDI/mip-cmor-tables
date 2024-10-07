@@ -1,0 +1,31 @@
+{
+    "id": "ssp245-cov-modgreen",
+    "type": "experiment",
+    "experiment_id": "ssp245-cov-modgreen",
+    "activity_id": [
+        "damip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "Future scenario based on ssp245, but following a path of reduced emissions due to a moderate-green stimulus economic recovery from the Covid-19 pandemic restrictions. Concentration-driven",
+    "end_year": 2050,
+    "experiment": "2-year Covid-19 emissions blip followed by moderate-green stimulus recovery, based upon ssp245",
+    "min_number_yrs_per_sim": "31",
+    "parent_activity_id": [
+        "scenariomip"
+    ],
+    "parent_experiment_id": [
+        "ssp245"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 2020,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

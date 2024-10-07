@@ -1,0 +1,31 @@
+{
+    "id": "hist-totalo3",
+    "type": "experiment",
+    "experiment_id": "hist-totalO3",
+    "activity_id": [
+        "lesfmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "Ozone-only historical simulations",
+    "end_year": 2020,
+    "experiment": "historical total ozone-only run",
+    "min_number_yrs_per_sim": "none",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 1850,
+    "sub_experiment_id": [
+        "f2023"
+    ],
+    "tier": 1
+}

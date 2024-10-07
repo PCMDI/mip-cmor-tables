@@ -1,0 +1,31 @@
+{
+    "id": "esm-yr2010co2-control",
+    "type": "experiment",
+    "experiment_id": "esm-yr2010CO2-control",
+    "activity_id": [
+        "cdrmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem"
+    ],
+    "description": "Forced with CO2 emissions diagnosed from historical and yr2010CO2 simulations and all other forcings the same as in that simulation (part of the CDR-yr2010-pulse experiment)",
+    "end_year": 2115,
+    "experiment": "historical emissions followed by fixed 2010 emissions (both model-diagnosed)",
+    "min_number_yrs_per_sim": "266",
+    "parent_activity_id": [
+        "cdrmip"
+    ],
+    "parent_experiment_id": [
+        "esm-picontrol"
+    ],
+    "required_model_components": [
+        "aogcm",
+        "bgc"
+    ],
+    "start_year": 1850,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

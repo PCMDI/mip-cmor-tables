@@ -1,0 +1,30 @@
+{
+    "id": "pisst-4xco2-rad",
+    "type": "experiment",
+    "experiment_id": "piSST-4xCO2-rad",
+    "activity_id": [
+        "cfmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem"
+    ],
+    "description": "Same as piSST but CO2 as seen by the radiation scheme is quadrupled",
+    "end_year": null,
+    "experiment": "as piSST with radiation-only seeing 4xCO2",
+    "min_number_yrs_per_sim": "30",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "ssp245",
+    "type": "experiment",
+    "experiment_id": "ssp245",
+    "activity_id": [
+        "scenariomip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "Future scenario with medium radiative forcing by the end of century. Following approximately RCP4.5 global forcing pathway but with new forcing based on SSP2. Concentration-driven",
+    "end_year": 2100,
+    "experiment": "update of RCP4.5 based on SSP2",
+    "min_number_yrs_per_sim": "86",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "historical"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 2015,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "1"
+}

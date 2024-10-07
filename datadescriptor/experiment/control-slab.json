@@ -1,0 +1,32 @@
+{
+    "id": "control-slab",
+    "type": "experiment",
+    "experiment_id": "control-slab",
+    "activity_id": [
+        "volmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "slab control run for volc-pinatubo-slab",
+    "end_year": null,
+    "experiment": "control with slab ocean",
+    "min_number_yrs_per_sim": "30",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "agcm",
+        "slab"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

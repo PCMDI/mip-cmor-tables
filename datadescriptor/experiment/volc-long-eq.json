@@ -1,0 +1,31 @@
+{
+    "id": "volc-long-eq",
+    "type": "experiment",
+    "experiment_id": "volc-long-eq",
+    "activity_id": [
+        "volmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "Idealized equatorial eruption corresponding to an initial emission of 56.2 Tg of SO2. The eruption magnitude corresponds to recent estimates for the 1815 Tambora eruption (Sigl et al., 2015), the largest historical tropical eruption, which was linked to the so-called \"year without a summer\" in 1816. Experiment initialized from PiControl",
+    "end_year": null,
+    "experiment": "idealized equatorial volcanic eruption emitting 56.2 Tg SO2",
+    "min_number_yrs_per_sim": "20",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "1"
+}

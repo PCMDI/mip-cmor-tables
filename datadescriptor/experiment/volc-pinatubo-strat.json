@@ -1,0 +1,31 @@
+{
+    "id": "volc-pinatubo-strat",
+    "type": "experiment",
+    "experiment_id": "volc-pinatubo-strat",
+    "activity_id": [
+        "volmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "As volc-pinatubo-full, but with prescribed perturbation to the total (LW+SW) radiative heating rates",
+    "end_year": null,
+    "experiment": "Pinatubo experiment with partial radiative forcing, includes only stratospheric warming",
+    "min_number_yrs_per_sim": "3",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "1"
+}

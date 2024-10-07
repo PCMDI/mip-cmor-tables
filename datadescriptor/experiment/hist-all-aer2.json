@@ -1,0 +1,31 @@
+{
+    "id": "hist-all-aer2",
+    "type": "experiment",
+    "experiment_id": "hist-all-aer2",
+    "activity_id": [
+        "damip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "Historical ALL forcing run with alternate estimates of aerosol concentrations/emissions",
+    "end_year": 2020,
+    "experiment": "historical ALL-forcing run with alternate estimates of aerosol forcing",
+    "min_number_yrs_per_sim": "171",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 1850,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

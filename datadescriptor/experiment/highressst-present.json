@@ -1,0 +1,29 @@
+{
+    "id": "highressst-present",
+    "type": "experiment",
+    "experiment_id": "highresSST-present",
+    "activity_id": [
+        "highresmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer"
+    ],
+    "description": "Forced global atmosphere-land simulations using daily 1/4 degree SST and sea-ice forcings, and aerosol optical properties (not emissions) to constrain model spread",
+    "end_year": 2014,
+    "experiment": "forced atmosphere experiment for 1950-2014",
+    "min_number_yrs_per_sim": "65",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": 1950,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "1"
+}

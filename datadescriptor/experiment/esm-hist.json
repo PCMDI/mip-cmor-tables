@@ -1,0 +1,31 @@
+{
+    "id": "esm-hist",
+    "type": "experiment",
+    "experiment_id": "esm-hist",
+    "activity_id": [
+        "cmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem"
+    ],
+    "description": "CMIP6 historical (CO2 emission-driven)",
+    "end_year": 2014,
+    "experiment": "all-forcing simulation of the recent past with atmospheric CO2 concentration calculated (CO2 emission-driven)",
+    "min_number_yrs_per_sim": 165,
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "esm-picontrol"
+    ],
+    "required_model_components": [
+        "aogcm",
+        "bgc"
+    ],
+    "start_year": 1850,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": 1
+}

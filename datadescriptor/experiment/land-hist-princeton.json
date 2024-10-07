@@ -1,0 +1,29 @@
+{
+    "id": "land-hist-princeton",
+    "type": "experiment",
+    "experiment_id": "land-hist-princeton",
+    "activity_id": [
+        "ls3mip"
+    ],
+    "additional_allowed_model_components": [
+        "bgc"
+    ],
+    "description": "Land only simulations",
+    "end_year": 2014,
+    "experiment": "as land-hist with Princeton forcings",
+    "min_number_yrs_per_sim": "165",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "land"
+    ],
+    "start_year": 1850,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

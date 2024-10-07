@@ -1,0 +1,31 @@
+{
+    "id": "hist-lu",
+    "type": "experiment",
+    "experiment_id": "hist-lu",
+    "activity_id": [
+        "lesfmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "Historical simulations with only land use changes",
+    "end_year": 2020,
+    "experiment": "Single forcing historical simulations",
+    "min_number_yrs_per_sim": "none",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 1850,
+    "sub_experiment_id": [
+        "f2023"
+    ],
+    "tier": 1
+}

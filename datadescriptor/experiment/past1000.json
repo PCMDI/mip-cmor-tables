@@ -1,0 +1,31 @@
+{
+    "id": "past1000",
+    "type": "experiment",
+    "experiment_id": "past1000",
+    "activity_id": [
+        "pmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "main forcings: trace gases, volcanoes, solar variability, land use",
+    "end_year": 1849,
+    "experiment": "last millennium",
+    "min_number_yrs_per_sim": "1000",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 850,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "1"
+}

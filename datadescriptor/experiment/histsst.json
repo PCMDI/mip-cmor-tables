@@ -1,0 +1,31 @@
+{
+    "id": "histsst",
+    "type": "experiment",
+    "experiment_id": "histSST",
+    "activity_id": [
+        "aerchemmip"
+    ],
+    "additional_allowed_model_components": [
+        "chem",
+        "bgc"
+    ],
+    "description": "Historical transient with SSTs prescribed from historical",
+    "end_year": 2014,
+    "experiment": "historical prescribed SSTs and historical forcing",
+    "min_number_yrs_per_sim": "165",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "agcm",
+        "aer"
+    ],
+    "start_year": 1850,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "1"
+}

@@ -1,0 +1,31 @@
+{
+    "id": "pdsst-futarcsicsit",
+    "type": "experiment",
+    "experiment_id": "pdSST-futArcSICSIT",
+    "activity_id": [
+        "pamip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "PA1.10: investigate role of sea ice thickness in response to Arctic sea ice",
+    "end_year": 2001,
+    "experiment": "Atmosphere time slice with present day SST and future Arctic SIC and sea ice thickness",
+    "min_number_yrs_per_sim": "1",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "amip"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": 2000,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

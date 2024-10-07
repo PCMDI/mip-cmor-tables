@@ -1,0 +1,31 @@
+{
+    "id": "esm-pi-co2pulse",
+    "type": "experiment",
+    "experiment_id": "esm-pi-CO2pulse",
+    "activity_id": [
+        "cdrmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem"
+    ],
+    "description": "100 Gt C instantly added (positive pulse) to a pre-industrial atmosphere (part of the CDR-pi-pulse experiment)",
+    "end_year": null,
+    "experiment": "pulse addition of 100 Gt carbon to pre-industrial atmosphere",
+    "min_number_yrs_per_sim": "100",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "esm-picontrol"
+    ],
+    "required_model_components": [
+        "aogcm",
+        "bgc"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "1"
+}

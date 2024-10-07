@@ -1,0 +1,31 @@
+{
+    "id": "1pctco2-4xext",
+    "type": "experiment",
+    "experiment_id": "1pctCO2-4xext",
+    "activity_id": [
+        "ismip6"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "branched from 1pctCO2 run at year 140 and run with CO2 fixed at 4x pre-industrial concentration",
+    "end_year": null,
+    "experiment": "extension from year 140 of 1pctCO2 with 4xCO2",
+    "min_number_yrs_per_sim": "210",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "1pctco2"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "1"
+}

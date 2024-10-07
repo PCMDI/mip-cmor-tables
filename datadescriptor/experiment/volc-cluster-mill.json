@@ -1,0 +1,31 @@
+{
+    "id": "volc-cluster-mill",
+    "type": "experiment",
+    "experiment_id": "volc-cluster-mill",
+    "activity_id": [
+        "volmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "Parallel experiment to volc-cluster-ctrl but with initial conditions taken from last millennium simulation to account for the effects of a more realistic history of past natural forcing. All forcings except volcanic kept constant from year AD 1790 on",
+    "end_year": 1858,
+    "experiment": "19th century volcanic cluster initialized from past1000",
+    "min_number_yrs_per_sim": "69",
+    "parent_activity_id": [
+        "pmip"
+    ],
+    "parent_experiment_id": [
+        "past1000"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 1790,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

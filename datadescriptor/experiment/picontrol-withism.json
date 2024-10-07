@@ -1,0 +1,32 @@
+{
+    "id": "picontrol-withism",
+    "type": "experiment",
+    "experiment_id": "piControl-withism",
+    "activity_id": [
+        "ismip6"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "Pre-industrial control simulation that includes interactive ice sheets",
+    "end_year": null,
+    "experiment": "preindustrial control with interactive ice sheet",
+    "min_number_yrs_per_sim": "500",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "aogcm",
+        "ism"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "1"
+}

@@ -1,0 +1,29 @@
+{
+    "id": "highressst-p4k",
+    "type": "experiment",
+    "experiment_id": "highresSST-p4K",
+    "activity_id": [
+        "highresmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer"
+    ],
+    "description": "Similar to CFMIP amip-p4K, add a uniform warming of 4K to highresSST-present SSTs and run the experiment parallel to highresSST-present",
+    "end_year": 2014,
+    "experiment": "uniform 4K warming of highresSST-present SST",
+    "min_number_yrs_per_sim": "36",
+    "parent_activity_id": [
+        "highresmip"
+    ],
+    "parent_experiment_id": [
+        "highressst-present"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": 1979,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

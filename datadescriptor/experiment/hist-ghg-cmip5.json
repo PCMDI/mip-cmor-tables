@@ -1,0 +1,31 @@
+{
+    "id": "hist-ghg-cmip5",
+    "type": "experiment",
+    "experiment_id": "hist-GHG-cmip5",
+    "activity_id": [
+        "damip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "historical well-mixed GHG-only run. Models with interactive chemistry schemes should either turn off the chemistry or use a preindustrial climatology of stratospheric and tropospheric ozone in their radiation schemes. This will ensure that ozone is fixed in all these simulations, and simulated responses in models with and without coupled chemistry are comparable (CMIP5-era historical [1850-2005] and RCP4.5 [2006-2020] forcing)",
+    "end_year": 2020,
+    "experiment": "historical well-mixed GHG-only run (CMIP5-era historical [1850-2005] and RCP4.5 [2006-2020] forcing)",
+    "min_number_yrs_per_sim": "171",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol-cmip5"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 1850,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

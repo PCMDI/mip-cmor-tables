@@ -1,0 +1,30 @@
+{
+    "id": "amip-m4k",
+    "type": "experiment",
+    "experiment_id": "amip-m4K",
+    "activity_id": [
+        "cfmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem"
+    ],
+    "description": "As amip experiment but SSTs are subject to a uniform cooling of 4K",
+    "end_year": 2014,
+    "experiment": "AMIP with uniform 4K SST decrease",
+    "min_number_yrs_per_sim": "36",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": 1979,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

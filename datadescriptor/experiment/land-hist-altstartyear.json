@@ -1,0 +1,30 @@
+{
+    "id": "land-hist-altstartyear",
+    "type": "experiment",
+    "experiment_id": "land-hist-altStartYear",
+    "activity_id": [
+        "lumip"
+    ],
+    "additional_allowed_model_components": [
+        ""
+    ],
+    "description": "Same as land-hist except starting from either 1700 (for models that typically start in 1850) or 1850 (for models that typically start in 1700)",
+    "end_year": 2014,
+    "experiment": "historical land-only alternate start year",
+    "min_number_yrs_per_sim": "165",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "land",
+        "bgc"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "1"
+}

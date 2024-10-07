@@ -1,0 +1,31 @@
+{
+    "id": "hist-aer-cmip5",
+    "type": "experiment",
+    "experiment_id": "hist-aer-cmip5",
+    "activity_id": [
+        "damip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "historical anthropogenic aerosols-only run (CMIP5-era historical [1850-2005] and RCP4.5 [2006-2020] forcing)",
+    "end_year": 2020,
+    "experiment": "historical anthropogenic aerosols-only run (CMIP5-era historical [1850-2005] and RCP4.5 [2006-2020] forcing)",
+    "min_number_yrs_per_sim": "171",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol-cmip5"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 1850,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

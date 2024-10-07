@@ -1,0 +1,29 @@
+{
+    "id": "highressst-future",
+    "type": "experiment",
+    "experiment_id": "highresSST-future",
+    "activity_id": [
+        "highresmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer"
+    ],
+    "description": "Extend highresSST-present to 2050 with agreed SSP5/RCP8.5 forcings (with option to extend further to 2100)",
+    "end_year": 2050,
+    "experiment": "forced atmosphere experiment for 2015-2050 using SST/sea-ice derived from CMIP5 RCP8.5 simulations and a scenario as close to RCP8.5 as possible within CMIP6",
+    "min_number_yrs_per_sim": "36",
+    "parent_activity_id": [
+        "highresmip"
+    ],
+    "parent_experiment_id": [
+        "highressst-present"
+    ],
+    "required_model_components": [
+        "agcm"
+    ],
+    "start_year": 2015,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "3"
+}

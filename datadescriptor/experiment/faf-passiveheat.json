@@ -1,0 +1,31 @@
+{
+    "id": "faf-passiveheat",
+    "type": "experiment",
+    "experiment_id": "faf-passiveheat",
+    "activity_id": [
+        "fafmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "1xCO2 experiment, parallel to piControl, with a flux of passive tracer added at the ocean surface at the same rate as the surface net heat flux anomaly applied in the FAFMIP heat experiment",
+    "end_year": null,
+    "experiment": "control plus surface flux of passive heat tracer into ocean",
+    "min_number_yrs_per_sim": "70",
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": null,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}

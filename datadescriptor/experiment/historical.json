@@ -1,0 +1,31 @@
+{
+    "id": "historical",
+    "type": "experiment",
+    "experiment_id": "historical",
+    "activity_id": [
+        "cmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "CMIP6 historical",
+    "end_year": 2014,
+    "experiment": "all-forcing simulation of the recent past (CO2 concentration-driven)",
+    "min_number_yrs_per_sim": 165,
+    "parent_activity_id": [
+        "cmip"
+    ],
+    "parent_experiment_id": [
+        "picontrol"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 1850,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": 1
+}

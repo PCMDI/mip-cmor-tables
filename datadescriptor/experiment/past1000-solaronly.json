@@ -1,0 +1,31 @@
+{
+    "id": "past1000-solaronly",
+    "type": "experiment",
+    "experiment_id": "past1000-solaronly",
+    "activity_id": [
+        "pmip"
+    ],
+    "additional_allowed_model_components": [
+        "aer",
+        "chem",
+        "bgc"
+    ],
+    "description": "Parallel experiment to past1000. Instead of the complete forcing set, only solar (TSI, SSI) forcing is considered",
+    "end_year": 1849,
+    "experiment": "last millennium experiment using only solar forcing",
+    "min_number_yrs_per_sim": "1000",
+    "parent_activity_id": [
+        "no parent"
+    ],
+    "parent_experiment_id": [
+        "no parent"
+    ],
+    "required_model_components": [
+        "aogcm"
+    ],
+    "start_year": 850,
+    "sub_experiment_id": [
+        "none"
+    ],
+    "tier": "2"
+}
