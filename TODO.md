@@ -31,48 +31,49 @@ todo.md # just to see where i am and what im planning to do
 
 ## DD List 
 
-activityDD
-experimentDD
-reportingIntervalDD
-gridLabelDD
-sourceDD
-variableRootDD
-datasetVariantDD
-directoryDateDD 
-datasetEditionDD
-brandingSuffixDD
-archiveDD
-hostCollectionDD
-standardNameDD
-dataNodeDD
-datasetGroupDD
-sourceInstitutionDD
-nominal- ResolutionDD (nominalResolutionDD)
-productTypeDD
-realmDD
-dataRegionDD
-sourceTypeDD
-varGroupingCDD
-datasetStatusDD
-inCollectionsDD
-temporalLabelDD
-verticalLabelDD
-horizontalLabelDD
-areaLabelDD
-realizationDD
-initializationDD
-physicsDD
-forcingDD
-dataConventionsDD
-dateCreatedDD**
-uniqueFileidDD
+frequencyDD  Done
+activityDD  
+experimentDD  
+reportingIntervalDD  
+gridLabelDD  
+sourceDD  
+variableRootDD  
+datasetVariantDD  
+directoryDateDD   
+datasetEditionDD  
+brandingSuffixDD  
+archiveDD  
+hostCollectionDD  
+standardNameDD  
+dataNodeDD  
+datasetGroupDD  
+sourceInstitutionDD  
+nominal- ResolutionDD (nominalResolutionDD)  
+productTypeDD  
+realmDD  
+dataRegionDD  
+sourceTypeDD  
+varGroupingCDD  
+datasetStatusDD  
+inCollectionsDD  
+temporalLabelDD  
+verticalLabelDD  
+horizontalLabelDD  
+areaLabelDD  
+realizationDD  
+initializationDD  
+physicsDD  
+forcingDD  
+dataConventionsDD  
+dateCreatedDD**  
+uniqueFileidDD  
   
-variableTableDD
-longNameDD
-varDefQualifierDD
-datasetSpecsDD
-gridTypeDD
-longInstitutionDD
+variableTableDD  
+longNameDD  
+varDefQualifierDD  
+datasetSpecsDD  
+gridTypeDD  
+longInstitutionDD  
 
 ## Choose DD
 ### find relevant Ontology to describe each attribute of each DD
