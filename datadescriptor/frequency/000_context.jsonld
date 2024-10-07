@@ -2,7 +2,7 @@
 {
      
       "@context": {
-      "@base":"http://es-vocab.ipsl.fr/",
+      "@base":"http://es-vocab.ipsl.fr/frequency/",
       "@vocab": "http://schema.org/",
       "id": "@id",
       "type":"@type",
