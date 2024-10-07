@@ -1,0 +1,42 @@
+{
+
+
+      "@context": {
+      "@base":"http://es-vocab.ipsl.fr/experiment/",
+      "@vocab": "http://schema.org/",
+      "id": "@id",
+      "type":"@type",
+      "experiment": "http://schema.org/disambiguatingDescription",
+      "activity_id":{"@id": "http://es-vocab.ipsl.fr/activity/",
+                       "@type":"@id",
+                       "@context":{"@base":"http://es-vocab.ipsl.fr/activity/"}
+                      },
+
+      "description":{"@id":"https://schema.org/description"},
+      "tier":{"@id":"https://es-vocab.ipsl.fr/tier"},
+        "experiment_id":{"@id":"https://schema.org/alternativeName"},
+        "required_model_components":{ "@id": "http://es-vocab.ipsl.fr/model_component/",
+                       "@type":"@id",
+                       "@context":{"@base":"http://es-vocab.ipsl.fr/model_component/"}
+                      },
+        
+        "additional_allowed_model_components":{ "@id": "http://es-vocab.ipsl.fr/additional_allowed_model_component/",
+                       "@type":"@id",
+                       "@context":{"@base":"http://es-vocab.ipsl.fr/model_component/"}
+                      },
+        "start_year":"http://schema.org/startDate",
+        "end_year":"http://schema.org/endDate",
+        "min_number_yrs_per_sim":"http://es-vocab.ipsl.fr/min_number_yrs_per_sim",
+        "parent_activity_id":{ "@id": "http://es-vocab.ipsl.fr/parent_activity_id/",
+                       "@type":"@id",
+                       "@context":{"@base":"http://es-vocab.ipsl.fr/activity/"}
+                      },
+        "parent_experiment_id":{ "@id": "http://es-vocab.ipsl.fr/parent_experiment_id/",
+                       "@type":"@id",
+                       "@context":{"@base":"http://es-vocab.ipsl.fr/experiment/"}
+                      }
+   
+    }
+
+
+}

@@ -13,7 +13,7 @@
     "description": "As hist-volc but with updated forcings",
     "end_year": 2024,
     "experiment": "future volcanic-only run",
-    "min_number_yrs_per_sim": "none",
+    "min_number_yrs_per_sim": null,
     "parent_activity_id": [
         "lesfmip"
     ],

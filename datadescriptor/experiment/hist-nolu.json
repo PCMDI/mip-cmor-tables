@@ -13,7 +13,7 @@
     "description": "Same as CMIP6 historical but with land cover held at 1850, no human activity; concentration driven",
     "end_year": 2020,
     "experiment": "historical with no land-use change",
-    "min_number_yrs_per_sim": "none",
+    "min_number_yrs_per_sim": null,
     "parent_activity_id": [
         "cmip"
     ],

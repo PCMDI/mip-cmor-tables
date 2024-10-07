@@ -11,7 +11,7 @@
     "description": "Prescribed anthropogenic aerosol optical properties. Aerosol forcings",
     "end_year": null,
     "experiment": "effective radiative forcing at present day with specified anthropogenic aerosol optical properties, all forcings",
-    "min_number_yrs_per_sim": "",
+    "min_number_yrs_per_sim": null,
     "parent_activity_id": [
         "cmip"
     ],

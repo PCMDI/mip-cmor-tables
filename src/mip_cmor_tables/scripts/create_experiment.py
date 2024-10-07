@@ -79,7 +79,7 @@ for key, value in experiment_dict.items():
         'description': value['description'],
         'end_year': value['end_year'],
         'experiment': value['experiment'],
-        'min_number_yrs_per_sim': value['min_number_yrs_per_sim'],
+        'min_number_yrs_per_sim': value['min_number_yrs_per_sim'] if (value['min_number_yrs_per_sim'] != "none" and value['min_number_yrs_per_sim']!="" ) else None,
         'parent_activity_id': [v.lower() for v in value['parent_activity_id']],
         'parent_experiment_id': [v.lower() for v in value['parent_experiment_id']],
         'required_model_components': [v.lower() for v in value['required_model_components']],

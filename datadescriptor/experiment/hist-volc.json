@@ -13,7 +13,7 @@
     "description": "Volcanic-only historical simulations",
     "end_year": 2020,
     "experiment": "historical volcanic-only run",
-    "min_number_yrs_per_sim": "none",
+    "min_number_yrs_per_sim": null,
     "parent_activity_id": [
         "cmip"
     ],

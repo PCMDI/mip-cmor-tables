@@ -88,7 +88,7 @@ longInstitutionDD
 title: es-vocab pydantic models 
 ---
 classDiagram
-    Experiment "1" <-- "*" Activity
+    Experiment "1" --> "*" Activity
 
 
     class Frequency{
@@ -112,8 +112,21 @@ classDiagram
     }
     
     class Experiment{
-        str id
-        str type
+        id: str 
+    validation_method: str = Field(default ="list")
+    activity: List[str] = Field(default_factory=list)
+    description: str 
+    tiers: Optional[str] 
+    experiment_id: str 
+    sub_experiment_id: Optional[List[str]] 
+    experiment: str 
+    required_model_component: Optional[List[str]] 
+    additionnal_allowed_model_components: Optional[List[str]] 
+    start_year: Optional[int] 
+    end_year: Optional[int] 
+    min_numbers_yrs_per_sim: Optional[str] 
+    parent_activity_id: Optional[List[str]] 
+    parent_experiement_id: Optional[List[str]] 
 
     }
 
@@ -135,7 +148,7 @@ classDiagram
     esv : http://es-vocab.ipsl.fr/
     sch : http://schema.org/
     "
-    `𝗲𝘀𝘃:𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁` "1" <-- "*" `𝗲𝘀𝘃:𝗮𝗰𝘁𝗶𝘃𝗶𝘁𝘆`
+    `𝗲𝘀𝘃:𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁` "1" --> "*" `𝗲𝘀𝘃:𝗮𝗰𝘁𝗶𝘃𝗶𝘁𝘆`
 
 
     class `𝗲𝘀𝘃:𝗳𝗿𝗲𝗾𝘂𝗲𝗻𝗰𝘆`{
@@ -157,13 +170,36 @@ classDiagram
     }
     
     class `𝗲𝘀𝘃:𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁`{
-        str id
-        str type
+        𝗲𝘀𝘃:𝗶𝗱
+        𝘀𝗰𝗵:𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻
+        ??? tier
+        ??? sub_experiment_id
+        𝘀𝗰𝗵: 𝗱𝗶𝘀𝗮𝗺𝗯𝗶𝗴𝘂𝗮𝘁𝗶𝗻𝗴𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻 
+        ??? 𝗺𝗼𝗱𝗲𝗹_𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁
+        ??? additional_allowed_model_component
+        sch:startDate To be consistent it would be ISO8601 date format
+        sch:endDate To be consistent it would be ISO8601 date format
+        ??? min_number_yrs_per_sim
+        esv:activity
+        esv:experiment
+
+
+        
+
+
 
     }
 
 
 ```
+# Predicate to find or define
+
+* cmip_acronym
+* tier
+* sub_experiment => DD ?
+* model_component => DD
+* additionnal_allowed_component => DD
+* min_number_yrs_per_sim
 
 # Subtlety :
 
@@ -171,4 +207,4 @@ classDiagram
 
 * in experiement terms : the key "experiment" seems to be a description ?? why "experiment" ? 
 
-
+* i changed the "none" and "" into null in experiment terms for min_numbers_yrs_per_sim => issues ?
