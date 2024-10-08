@@ -1,0 +1,6 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ism",
+    "type": "model_component",
+    "description": "ice-sheet model that includes ice-flow"
+}

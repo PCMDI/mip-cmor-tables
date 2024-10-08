@@ -1,0 +1,6 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ogcm",
+    "type": "model_component",
+    "description": "ocean general circulation model run uncoupled from an AGCM but, usually including a sea-ice model"
+}

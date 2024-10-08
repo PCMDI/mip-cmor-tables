@@ -1,0 +1,6 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "slab",
+    "type": "model_component",
+    "description": "slab-ocean used with an AGCM in representing the atmosphere-ocean coupled system"
+}

@@ -1,0 +1,6 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "agcm",
+    "type": "model_component",
+    "description": "atmospheric general circulation model run with prescribed ocean surface conditions and usually a model of the land surface"
+}

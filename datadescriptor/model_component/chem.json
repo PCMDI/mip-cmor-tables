@@ -1,0 +1,6 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "chem",
+    "type": "model_component",
+    "description": "chemistry treatment in an atmospheric model that calculates atmospheric oxidant concentrations (including at least ozone), rather than prescribing them"
+}
