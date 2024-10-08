@@ -1,6 +1,7 @@
 from mip_cmor_tables.models.frequency import Frequency
 from mip_cmor_tables.models.activity import Activity
 from mip_cmor_tables.models.experiment import Experiment
+from mip_cmor_tables.models.sub_experiment import SubExperiment
 from pathlib import Path
 from pydantic import ValidationError
 import pytest
@@ -24,3 +25,6 @@ def test_activity():
 
 def test_experiment():
     validate_terms(Path("datadescriptor/experiment/"),Experiment)
+
+def test_sub_experiment():
+    validate_terms(Path("datadescriptor/sub_experiment/"),SubExperiment)

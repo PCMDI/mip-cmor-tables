@@ -31,10 +31,9 @@ todo.md # just to see where i am and what im planning to do
 
 ## DD List 
 
-frequencyDD  Done
-activityDD  
-    find or define predicate cmip_acronym  
-experimentDD  
+frequencyDD  Done  
+activityDD  Done (BUT see after)  
+experimentDD  Done (BUT see after)    
 reportingIntervalDD  
 gridLabelDD  
 sourceDD  
@@ -89,6 +88,7 @@ title: es-vocab pydantic models
 ---
 classDiagram
     Experiment "1" --> "*" Activity
+    Experiment "1" --> "*" SubExperiment
 
 
     class Frequency{
@@ -129,6 +129,11 @@ classDiagram
     parent_experiement_id: Optional[List[str]] 
 
     }
+    class SubExperiment{
+
+    id: str 
+    description :str
+}
 
 
 ```
@@ -149,6 +154,8 @@ classDiagram
     sch : http://schema.org/
     "
     `𝗲𝘀𝘃:𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁` "1" --> "*" `𝗲𝘀𝘃:𝗮𝗰𝘁𝗶𝘃𝗶𝘁𝘆`
+    `𝗲𝘀𝘃:𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁` "1" --> "*" `𝗲𝘀𝘃:𝘀𝘂𝗯_𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁`
+
 
 
     class `𝗲𝘀𝘃:𝗳𝗿𝗲𝗾𝘂𝗲𝗻𝗰𝘆`{
@@ -182,13 +189,16 @@ classDiagram
         ??? min_number_yrs_per_sim
         esv:activity
         esv:experiment
-
-
-        
-
-
-
     }
+
+     class `𝗲𝘀𝘃:𝘀𝘂𝗯_𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁`{
+        𝗲𝘀𝘃:𝗶𝗱
+        𝘀𝗰𝗵:𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻
+        } 
+
+
+
+    
 
 
 ```
