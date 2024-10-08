@@ -18,6 +18,8 @@ certifi==2024.8.30
     # via requests
 charset-normalizer==3.3.2
     # via requests
+exceptiongroup==1.2.2
+    # via pytest
 frozendict==2.4.4
     # via pyld
 idna==3.10
@@ -40,7 +42,10 @@ pytest==8.3.3
     # via mip-cmor-tables
 requests==2.32.3
     # via mip-cmor-tables
+tomli==2.0.2
+    # via pytest
 typing-extensions==4.12.2
+    # via annotated-types
     # via pydantic
     # via pydantic-core
 urllib3==2.2.3

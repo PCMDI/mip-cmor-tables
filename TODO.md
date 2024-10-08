@@ -52,7 +52,7 @@ nominal- ResolutionDD (nominalResolutionDD)
 productTypeDD  
 realmDD  
 dataRegionDD  
-sourceTypeDD  
+sourceTypeDD  Done  
 varGroupingCDD  
 datasetStatusDD  
 inCollectionsDD  
@@ -89,7 +89,7 @@ title: es-vocab pydantic models
 classDiagram
     Experiment "1" --> "*" Activity
     Experiment "1" --> "*" SubExperiment
-    Experiment "1" --> "*" ModelComponent
+    Experiment "1" --> "*" SourceType
 
 
     class Frequency{
@@ -135,7 +135,7 @@ classDiagram
     id: str 
     description :str
 }
-     class ModelComponent{
+     class SourceType{
 
     id: str 
     description :str
@@ -161,7 +161,7 @@ classDiagram
     "
     `𝗲𝘀𝘃:𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁` "1" --> "*" `𝗲𝘀𝘃:𝗮𝗰𝘁𝗶𝘃𝗶𝘁𝘆`
     `𝗲𝘀𝘃:𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁` "1" --> "*" `𝗲𝘀𝘃:𝘀𝘂𝗯_𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁`
-    `𝗲𝘀𝘃:𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁` "1" --> "*" `𝗲𝘀𝘃:𝗺𝗼𝗱𝗲𝗹_𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁`
+    `𝗲𝘀𝘃:𝗲𝘅𝗽𝗲𝗿𝗶𝗺𝗲𝗻𝘁` "1" --> "*" `𝗲𝘀𝘃:𝘀𝗼𝘂𝗿𝗰𝗲_𝘁𝘆𝗽𝗲`
 
 
 
@@ -203,7 +203,7 @@ classDiagram
         𝘀𝗰𝗵:𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻
         } 
 
-    class `𝗲𝘀𝘃:𝗺𝗼𝗱𝗲𝗹_𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁`{
+    class  `𝗲𝘀𝘃:𝘀𝗼𝘂𝗿𝗰𝗲_𝘁𝘆𝗽𝗲`{
         𝗲𝘀𝘃:𝗶𝗱
         𝘀𝗰𝗵:𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻
         } 

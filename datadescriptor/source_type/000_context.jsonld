@@ -1,8 +1,9 @@
 
+
 {
      
       "@context": {
-      "@base":"http://es-vocab.ipsl.fr/model_component/",
+      "@base":"http://es-vocab.ipsl.fr/source_type/",
       "@vocab": "http://schema.org/",
       "id": "@id",
       "type":"@type",

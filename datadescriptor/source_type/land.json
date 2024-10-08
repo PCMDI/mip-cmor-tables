@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
     "id": "land",
-    "type": "model_component",
+    "type": "source_type",
     "description": "land model run uncoupled from the atmosphere"
 }

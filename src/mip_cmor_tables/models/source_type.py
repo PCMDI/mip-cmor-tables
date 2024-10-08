@@ -53,7 +53,7 @@ class ConfiguredBaseModel(BaseModel):
 
 
 
-class ModelComponent(ConfiguredBaseModel):
+class SourceType(ConfiguredBaseModel):
 
 
 
@@ -62,4 +62,4 @@ class ModelComponent(ConfiguredBaseModel):
     type : str 
 # Model rebuild
 # see https://pydantic-docs.helpmanual.io/usage/models/#rebuilding-a-model
-ModelComponent.model_rebuild()
+SourceType.model_rebuild()

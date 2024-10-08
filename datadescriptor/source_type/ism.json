@@ -1,6 +1,6 @@
 {
     "@context": "000_context.jsonld",
     "id": "ism",
-    "type": "model_component",
+    "type": "source_type",
     "description": "ice-sheet model that includes ice-flow"
 }

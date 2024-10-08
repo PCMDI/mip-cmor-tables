@@ -32,4 +32,4 @@ def test_sub_experiment():
 
 
 def test_model_compoent():
-    validate_terms(Path("datadescriptor/model_component/"),ModelComponent)
+    validate_terms(Path("datadescriptor/source_type/"),SourceType)
