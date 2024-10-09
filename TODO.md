@@ -31,50 +31,50 @@ todo.md # just to see where i am and what im planning to do
 
 ## DD List 
 
-frequencyDD  Done  
-activityDD  Done (BUT see after)  
-experimentDD  Done (BUT see after)    
-reportingIntervalDD  
-gridLabelDD  
-sourceDD  
-variableRootDD  
-datasetVariantDD  
-directoryDateDD   
-datasetEditionDD  
-brandingSuffixDD  
-archiveDD  
-hostCollectionDD  
-standardNameDD  
-dataNodeDD  
-datasetGroupDD  
-sourceInstitutionDD  
-nominal- ResolutionDD (nominalResolutionDD) Done 
-productTypeDD  
-realmDD  
-dataRegionDD  
-sourceTypeDD  Done  
-varGroupingCDD  
-datasetStatusDD  
-inCollectionsDD  
-temporalLabelDD  
-verticalLabelDD  
-horizontalLabelDD  
-areaLabelDD  
-realizationDD  
-initializationDD  
-physicsDD  
-forcingDD  
-dataConventionsDD  
-dateCreatedDD**  
-uniqueFileidDD  
-  
-variableTableDD  
-longNameDD  
-varDefQualifierDD  
-datasetSpecsDD  
-gridTypeDD  
-longInstitutionDD  
-
+| frequencyDD |  Done  |
+| --------------- |---------------|
+| activityDD|  Done (BUT see after)  |
+| experimentDD|  Done (BUT see after) |   
+| reportingIntervalDD|  
+| gridLabelDD|  
+| sourceDD|  
+| variableRootDD | 
+| datasetVariantDD|  
+| directoryDateDD  | 
+| datasetEditionDD  |
+| brandingSuffixDD | 
+| archiveDD | 
+| hostCollectionDD|  
+| standardNameDD | 
+| dataNodeDD  |
+| datasetGroupDD|  
+| sourceInstitutionDD|  
+| nominal- ResolutionDD (nominalResolutionDD) |Done| 
+| productTypeDD  |
+| realmDD |Done |
+| dataRegionDD  |
+| sourceTypeDD | Done|  
+| varGroupingCDD  |
+| datasetStatusDD  |
+| inCollectionsDD  |
+| temporalLabelDD  |
+| verticalLabelDD  |
+| horizontalLabelDD | 
+| areaLabelDD  |
+| realizationDD | 
+| initializationDD|  
+| physicsDD  |
+| forcingDD  |
+| dataConventionsDD|  
+| dateCreatedDD**  |
+| uniqueFileidDD  |
+| variableTableDD  |
+| longNameDD  |
+| varDefQualifierDD|  
+| datasetSpecsDD|  
+| gridTypeDD  |
+| longInstitutionDD|  
+ 
 ## Choose DD
 ### find relevant Ontology to describe each attribute of each DD
 ### Define each => Pydantic model
@@ -153,6 +153,15 @@ class Resolution {
     unit : str 
     type : str 
 }
+class Realm {
+
+
+
+    id: str 
+    description :str
+    name : str 
+    type : str 
+}
 
 ```
 ### Ontology
@@ -229,6 +238,15 @@ classDiagram
         𝘀𝗰𝗵:𝘂𝗻𝗶𝘁𝗧𝗲𝘅𝘁
 
 } 
+    class `𝗲𝘀𝘃:𝗿𝗲𝗮𝗹𝗺 ` {
+        𝗲𝘀𝘃:𝗶𝗱
+        𝘀𝗰𝗵:𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻
+        𝘀𝗰𝗵:𝗻𝗮𝗺𝗲
+
+
+} 
+
+
 
 
     

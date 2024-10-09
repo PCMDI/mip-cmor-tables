@@ -2,6 +2,7 @@ from mip_cmor_tables.models.frequency import Frequency
 from mip_cmor_tables.models.activity import Activity
 from mip_cmor_tables.models.experiment import Experiment
 from mip_cmor_tables.models.license import License
+from mip_cmor_tables.models.realm import Realm
 from mip_cmor_tables.models.resolution import Resolution
 from mip_cmor_tables.models.source import Source
 from mip_cmor_tables.models.source_type import SourceType
@@ -45,4 +46,7 @@ def test_license():
 
 def test_resolution():
     validate_terms(Path("datadescriptor/resolution/"),Resolution)
+
+def test_realm():
+    validate_terms(Path("datadescriptor/realm/"),Realm)
 
