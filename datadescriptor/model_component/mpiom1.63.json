@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mpiom1.63",
+    "description": "MPIOM1.63 (bipolar GR1.5, approximately 1.5deg; 256 x 220 longitude/latitude; 40 levels; top grid cell 0-12 m)",
+    "name": "MPIOM1.63",
+    "realm": {
+        "id": "ocean"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

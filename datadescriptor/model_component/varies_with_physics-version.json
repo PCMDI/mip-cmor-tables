@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "varies_with_physics-version",
+    "description": "Varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)",
+    "name": "Varies_with_physics-version",
+    "realm": {
+        "id": "atmoschem"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

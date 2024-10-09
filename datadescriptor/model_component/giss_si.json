@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "giss_si",
+    "description": "GISS SI",
+    "name": "GISS_SI",
+    "realm": {
+        "id": "seaice"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

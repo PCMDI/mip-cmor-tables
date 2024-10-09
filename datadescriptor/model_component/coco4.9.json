@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "coco4.9",
+    "description": "COCO4.9",
+    "name": "COCO4.9",
+    "realm": {
+        "id": "seaice"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "100km"
+    }
+}

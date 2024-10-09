@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "giss_ocean",
+    "description": "GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10 m)",
+    "name": "GISS_Ocean",
+    "realm": {
+        "id": "ocean"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "100km"
+    }
+}

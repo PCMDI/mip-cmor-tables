@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cice",
+    "description": "CICE",
+    "name": "CICE",
+    "realm": {
+        "id": "seaice"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "100km"
+    }
+}

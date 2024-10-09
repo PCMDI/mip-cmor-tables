@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "osloaero",
+    "description": "OsloAero",
+    "name": "OsloAero",
+    "realm": {
+        "id": "aerosol"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

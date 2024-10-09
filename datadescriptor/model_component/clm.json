@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "clm",
+    "description": "CLM",
+    "name": "CLM",
+    "realm": {
+        "id": "land"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

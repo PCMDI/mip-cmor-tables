@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "oslochemsimp",
+    "description": "OsloChemSimp",
+    "name": "OsloChemSimp",
+    "realm": {
+        "id": "atmoschem"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

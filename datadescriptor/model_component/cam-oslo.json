@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cam-oslo",
+    "description": "CAM-OSLO (2 degree resolution; 144 x 96; 32 levels; top level 3 mb) ",
+    "name": "CAM-OSLO",
+    "realm": {
+        "id": "atmos"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sprintars6.0",
+    "description": "SPRINTARS6.0",
+    "name": "SPRINTARS6.0",
+    "realm": {
+        "id": "aerosol"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

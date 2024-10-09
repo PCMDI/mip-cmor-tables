@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ccsr_agcm",
+    "description": "CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)",
+    "name": "CCSR_AGCM",
+    "realm": {
+        "id": "atmos"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

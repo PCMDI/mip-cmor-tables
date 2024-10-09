@@ -33,8 +33,8 @@ todo.md # just to see where i am and what im planning to do
 
 | frequencyDD |  Done  |
 | --------------- |---------------|
-| activityDD|  Done (BUT see after)  |
-| experimentDD|  Done (BUT see after) |   
+| activityDD|  Done (BUT need predicate def)  |
+| experimentDD|  Done (BUT need predicate def) |   
 | reportingIntervalDD|  
 | gridLabelDD|  
 | sourceDD|  
@@ -52,6 +52,7 @@ todo.md # just to see where i am and what im planning to do
 | nominal- ResolutionDD (nominalResolutionDD) |Done| 
 | productTypeDD  |
 | realmDD |Done |
+| model_component | Done (But only from CMIP6Plus) |
 | dataRegionDD  |
 | sourceTypeDD | Done|  
 | varGroupingCDD  |
@@ -163,6 +164,22 @@ class Realm {
     type : str 
 }
 
+
+class ModelComponent{
+
+
+
+    id: str 
+    description :str
+    name : str 
+    type : str
+    realm : dict
+    nominal_resolution : dict
+}
+
+ModelComponent --> Realm
+ModelComponent --> Resolution
+
 ```
 ### Ontology
 ``` mermaid
@@ -246,15 +263,26 @@ classDiagram
 
 } 
 
+    class `𝗲𝘀𝘃:𝗺𝗼𝗱𝗲𝗹_𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁` {
+        𝗲𝘀𝘃:𝗶𝗱
+        𝘀𝗰𝗵:𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻
+        𝘀𝗰𝗵:𝗻𝗮𝗺𝗲
+        𝗲𝘀𝘃:𝗿𝗲𝗮𝗹𝗺 
+        𝗲𝘀𝘃:𝗿𝗲𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻`
 
 
+} 
 
+`𝗲𝘀𝘃:𝗺𝗼𝗱𝗲𝗹_𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁` --> `𝗲𝘀𝘃:𝗿𝗲𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻`
+
+`𝗲𝘀𝘃:𝗺𝗼𝗱𝗲𝗹_𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁` --> `𝗲𝘀𝘃:𝗿𝗲𝗮𝗹𝗺 `
     
 
 
 ```
 # Predicate to find or define
 
+* every type/DD
 * cmip_acronym
 * tier
 * sub_experiment => DD ?
@@ -269,3 +297,9 @@ classDiagram
 * in experiement terms : the key "experiment" seems to be a description ?? why "experiment" ? 
 
 * i changed the "none" and "" into null in experiment terms for min_numbers_yrs_per_sim => issues ?
+
+* it is in experiment_id there is an issue : why not : "source_type" and "additionnal_allowed_source_type" ?
+
+* in CMIP6Plus JsonldIII =>
+source_id => giss-e2-1-g
+model-component with id : varies with pysics appears 2 times (OK) pointing to same object (Not OK)

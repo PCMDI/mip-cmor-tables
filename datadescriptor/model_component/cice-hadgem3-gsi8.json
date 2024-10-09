@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cice-hadgem3-gsi8",
+    "description": "CICE-HadGEM3-GSI8 (eORCA1 tripolar primarily 1 deg; 360 x 330 longitude/latitude)",
+    "name": "CICE-HadGEM3-GSI8",
+    "realm": {
+        "id": "seaice"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "100km"
+    }
+}

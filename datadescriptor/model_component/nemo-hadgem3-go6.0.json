@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nemo-hadgem3-go6.0",
+    "description": "NEMO-HadGEM3-GO6.0 (eORCA1 tripolar primarily 1 deg with meridional refinement down to 1/3 degree in the tropics; 360 x 330 longitude/latitude; 75 levels; top grid cell 0-1 m)",
+    "name": "NEMO-HadGEM3-GO6.0",
+    "realm": {
+        "id": "ocean"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "100km"
+    }
+}

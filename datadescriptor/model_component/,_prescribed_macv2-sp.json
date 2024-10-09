@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": ",_prescribed_macv2-sp",
+    "description": ", prescribed MACv2-SP",
+    "name": ",_prescribed_MACv2-SP",
+    "realm": {
+        "id": "aerosol"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ukca-glomap-mode",
+    "description": "UKCA-GLOMAP-mode",
+    "name": "UKCA-GLOMAP-mode",
+    "realm": {
+        "id": "aerosol"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

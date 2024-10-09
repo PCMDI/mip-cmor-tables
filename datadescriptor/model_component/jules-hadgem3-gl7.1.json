@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "jules-hadgem3-gl7.1",
+    "description": "JULES-HadGEM3-GL7.1",
+    "name": "JULES-HadGEM3-GL7.1",
+    "realm": {
+        "id": "land"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

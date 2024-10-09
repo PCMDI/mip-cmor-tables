@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "giss-e2.1",
+    "description": "GISS-E2.1 (2.5x2 degree; 144 x 90 longitude/latitude; 40 levels; top level 0.1 hPa)",
+    "name": "GISS-E2.1",
+    "realm": {
+        "id": "atmos"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "matsiro6.0",
+    "description": "MATSIRO6.0",
+    "name": "MATSIRO6.0",
+    "realm": {
+        "id": "land"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

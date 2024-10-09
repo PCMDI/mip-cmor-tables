@@ -1,0 +1,24 @@
+{
+
+	"@context": {
+        "@base":"http://es-vocab.ipsl.fr/model_component/",
+        "@vocab": "http://schema.org/",
+        "id": "@id",
+        "type":"@type",
+        "name": {"@id": "https://schema.org/name"},
+        "description":{"@id":"https://schema.org/description"},
+        "realm":{"@id":"http://es-vocab.ipsl.fr/realm/",
+               "@type":"@id",
+               "@context":{"@base":"http://es-vocab.ipsl.fr/realm/"}
+              },
+
+        "nominal_resolution":{"@id":"http://es-vocab.ipsl.fr/nominal_resolution/",
+               "@type":"@id",
+               "@context":{"@base":"http://es-vocab.ipsl.fr/nominal_resolution/"}
+              }
+
+      
+        }
+
+
+}

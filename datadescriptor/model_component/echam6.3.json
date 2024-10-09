@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "echam6.3",
+    "description": "ECHAM6.3 (spectral T63; 192 x 96 longitude/latitude; 47 levels; top level 0.01 hPa)",
+    "name": "ECHAM6.3",
+    "realm": {
+        "id": "atmos"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

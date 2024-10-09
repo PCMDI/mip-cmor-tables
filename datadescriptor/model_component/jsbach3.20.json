@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "jsbach3.20",
+    "description": "JSBACH3.20",
+    "name": "JSBACH3.20",
+    "realm": {
+        "id": "land"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "250km"
+    }
+}

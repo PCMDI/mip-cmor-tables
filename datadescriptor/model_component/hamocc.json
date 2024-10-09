@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hamocc",
+    "description": "HAMOCC",
+    "name": "HAMOCC",
+    "realm": {
+        "id": "ocnbgchem"
+    },
+    "version": -999,
+    "type": "model_component",
+    "nominal_resolution": {
+        "id": "100km"
+    }
+}
