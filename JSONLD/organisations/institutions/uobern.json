@@ -1,0 +1,30 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/uobern",
+    "@type": "institution",
+    "acronyms": [
+        "UB"
+    ],
+    "aliases": [],
+    "cmip_acronym": "UoBern",
+    "established": 1834,
+    "kind": "Education",
+    "labels": [],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/02k7v4d05",
+        "@type": "location",
+        "@nest": {
+            "lat": 46.94809,
+            "lon": 46.94809,
+            "city": "Bern",
+            "country": [
+                "Switzerland",
+                "CH"
+            ]
+        }
+    },
+    "name": "University of Bern",
+    "ror": "02k7v4d05",
+    "url": [
+        "http://www.unibe.ch/eng/"
+    ]
+}
