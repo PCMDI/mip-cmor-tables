@@ -1,0 +1,59 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cmcc-cm2-hr4",
+    "type": "source",
+    "license": {
+        "id": "CC BY 4.0",
+        "exceptions-contact": null,
+        "source-specific-info": ""
+    },
+    "activity_participation": [
+        "CMIP",
+        "HighResMIP",
+        "OMIP"
+    ],
+    "cohort": [
+        "Published"
+    ],
+    "institution_id": [
+        "CMCC"
+    ],
+    "label": "CMCC-CM2-HR4",
+    "label_extended": "CMCC-CM2-HR4",
+    "model_component": {
+        "aerosol": {
+            "description": "prescribed MACv2-SP",
+            "native_nominal_resolution": "100 km"
+        },
+        "atmos": {
+            "description": "CAM4 (1deg; 288 x 192 longitude/latitude; 26 levels; top at ~2 hPa)",
+            "native_nominal_resolution": "100 km"
+        },
+        "atmosChem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "land": {
+            "description": "CLM4.5 (SP mode)",
+            "native_nominal_resolution": "100 km"
+        },
+        "landIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocean": {
+            "description": "NEMO3.6 (ORCA0.25 1/4 deg from the Equator degrading at the poles; 1442 x 1051 longitude/latitude; 50 vertical levels; top grid cell 0-1 m)",
+            "native_nominal_resolution": "25 km"
+        },
+        "ocnBgchem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "seaIce": {
+            "description": "CICE4.0",
+            "native_nominal_resolution": "25 km"
+        }
+    },
+    "release_year": "2016",
+    "source_id": "CMCC-CM2-HR4"
+}

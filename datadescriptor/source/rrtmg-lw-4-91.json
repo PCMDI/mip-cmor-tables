@@ -1,0 +1,57 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rrtmg-lw-4-91",
+    "type": "source",
+    "license": {
+        "id": "CC BY 4.0",
+        "exceptions-contact": null,
+        "source-specific-info": ""
+    },
+    "activity_participation": [
+        "RFMIP"
+    ],
+    "cohort": [
+        "Published"
+    ],
+    "institution_id": [
+        "AER"
+    ],
+    "label": "RRTMG-LW 4.91",
+    "label_extended": "RRTM for GCMs v4.91, longwave",
+    "model_component": {
+        "aerosol": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "atmos": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "atmosChem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "land": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "landIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocean": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocnBgchem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "seaIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        }
+    },
+    "release_year": "2017",
+    "source_id": "RRTMG-LW-4-91"
+}

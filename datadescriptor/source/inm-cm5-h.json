@@ -1,0 +1,58 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "inm-cm5-h",
+    "type": "source",
+    "license": {
+        "id": "CC BY 4.0",
+        "exceptions-contact": null,
+        "source-specific-info": ""
+    },
+    "activity_participation": [
+        "CMIP",
+        "HighResMIP"
+    ],
+    "cohort": [
+        "Published"
+    ],
+    "institution_id": [
+        "INM"
+    ],
+    "label": "INM-CM5-H",
+    "label_extended": "INM-CM5-H",
+    "model_component": {
+        "aerosol": {
+            "description": "INM-AER1",
+            "native_nominal_resolution": "50 km"
+        },
+        "atmos": {
+            "description": "INM-AM5-H (0.67x0.5; 540 x 360 longitude/latitude; 73 levels; top level sigma = 0.0002)",
+            "native_nominal_resolution": "50 km"
+        },
+        "atmosChem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "land": {
+            "description": "INM-LND1",
+            "native_nominal_resolution": "50 km"
+        },
+        "landIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocean": {
+            "description": "INM-OM5-H (North Pole shifted to 60N, 90E. 0.167x0.125; 2160x1440 longitude/latitude; 40 levels; vertical sigma coordinate)",
+            "native_nominal_resolution": "10 km"
+        },
+        "ocnBgchem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "seaIce": {
+            "description": "INM-ICE1",
+            "native_nominal_resolution": "10 km"
+        }
+    },
+    "release_year": "2016",
+    "source_id": "INM-CM5-H"
+}

@@ -1,0 +1,57 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "gfdl-am4",
+    "type": "source",
+    "license": {
+        "id": "CC BY 4.0",
+        "exceptions-contact": null,
+        "source-specific-info": ""
+    },
+    "activity_participation": [
+        "CMIP"
+    ],
+    "cohort": [
+        "Published"
+    ],
+    "institution_id": [
+        "NOAA-GFDL"
+    ],
+    "label": "GFDL-AM4",
+    "label_extended": "GFDL-AM4",
+    "model_component": {
+        "aerosol": {
+            "description": "interactive",
+            "native_nominal_resolution": "100 km"
+        },
+        "atmos": {
+            "description": "GFDL-AM4.0 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 33 levels; top level 1 hPa)",
+            "native_nominal_resolution": "100 km"
+        },
+        "atmosChem": {
+            "description": "fast chemistry, aerosol only",
+            "native_nominal_resolution": "100 km"
+        },
+        "land": {
+            "description": "GFDL-LM4.0",
+            "native_nominal_resolution": "100 km"
+        },
+        "landIce": {
+            "description": "GFDL-LM4.0",
+            "native_nominal_resolution": "100 km"
+        },
+        "ocean": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocnBgchem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "seaIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        }
+    },
+    "release_year": "2018",
+    "source_id": "GFDL-AM4"
+}

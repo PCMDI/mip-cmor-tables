@@ -1,0 +1,76 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cas-esm2-0",
+    "type": "source",
+    "license": {
+        "id": "CC BY 4.0",
+        "exceptions-contact": null,
+        "source-specific-info": ""
+    },
+    "activity_participation": [
+        "AerChemMIP",
+        "C4MIP",
+        "CDRMIP",
+        "CFMIP",
+        "CMIP",
+        "CORDEX",
+        "DAMIP",
+        "DynVarMIP",
+        "FAFMIP",
+        "GMMIP",
+        "GeoMIP",
+        "HighResMIP",
+        "LS3MIP",
+        "LUMIP",
+        "OMIP",
+        "PMIP",
+        "SIMIP",
+        "ScenarioMIP",
+        "VIACSAB",
+        "VolMIP"
+    ],
+    "cohort": [
+        "Published"
+    ],
+    "institution_id": [
+        "CAS"
+    ],
+    "label": "CAS-ESM 2.0",
+    "label_extended": "CAS-ESM 2.0 (Chinese Academy of Sciences Earth System Model version 2.0)",
+    "model_component": {
+        "aerosol": {
+            "description": "IAP AACM",
+            "native_nominal_resolution": "100 km"
+        },
+        "atmos": {
+            "description": "IAP AGCM 5.0 (Finite difference dynamical core; 256 x 128 longitude/latitude; 35 levels; top level 2.2 hPa)",
+            "native_nominal_resolution": "100 km"
+        },
+        "atmosChem": {
+            "description": "IAP AACM",
+            "native_nominal_resolution": "100 km"
+        },
+        "land": {
+            "description": "CoLM",
+            "native_nominal_resolution": "100 km"
+        },
+        "landIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocean": {
+            "description": "LICOM2.0 (LICOM2.0, primarily 1deg; 362 x 196 longitude/latitude; 30 levels; top grid cell 0-10 m)",
+            "native_nominal_resolution": "100 km"
+        },
+        "ocnBgchem": {
+            "description": "IAP OBGCM",
+            "native_nominal_resolution": "100 km"
+        },
+        "seaIce": {
+            "description": "CICE4",
+            "native_nominal_resolution": "100 km"
+        }
+    },
+    "release_year": "2019",
+    "source_id": "CAS-ESM2-0"
+}

@@ -1,0 +1,68 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "miroc-es2l",
+    "type": "source",
+    "license": {
+        "id": "CC BY 4.0",
+        "exceptions-contact": null,
+        "source-specific-info": ""
+    },
+    "activity_participation": [
+        "C4MIP",
+        "CDRMIP",
+        "CMIP",
+        "DAMIP",
+        "DynVarMIP",
+        "GeoMIP",
+        "LUMIP",
+        "OMIP",
+        "PMIP",
+        "ScenarioMIP",
+        "VIACSAB",
+        "VolMIP"
+    ],
+    "cohort": [
+        "Published"
+    ],
+    "institution_id": [
+        "MIROC"
+    ],
+    "label": "MIROC-ES2L",
+    "label_extended": "MIROC-ES2L",
+    "model_component": {
+        "aerosol": {
+            "description": "SPRINTARS6.0",
+            "native_nominal_resolution": "500 km"
+        },
+        "atmos": {
+            "description": "CCSR AGCM (T42; 128 x 64 longitude/latitude; 40 levels; top level 3 hPa)",
+            "native_nominal_resolution": "500 km"
+        },
+        "atmosChem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "land": {
+            "description": "MATSIRO6.0+VISIT-e ver.1.0",
+            "native_nominal_resolution": "500 km"
+        },
+        "landIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocean": {
+            "description": "COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)",
+            "native_nominal_resolution": "100 km"
+        },
+        "ocnBgchem": {
+            "description": "OECO ver.2.0; NPZD-type with C/N/P/Fe/O cycles",
+            "native_nominal_resolution": "100 km"
+        },
+        "seaIce": {
+            "description": "COCO4.9",
+            "native_nominal_resolution": "100 km"
+        }
+    },
+    "release_year": "2018",
+    "source_id": "MIROC-ES2L"
+}

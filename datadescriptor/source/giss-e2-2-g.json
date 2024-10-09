@@ -1,0 +1,74 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "giss-e2-2-g",
+    "type": "source",
+    "license": {
+        "id": "CC0 1.0",
+        "exceptions-contact": null,
+        "source-specific-info": "https://data.giss.nasa.gov/modelE/cmip6/#datalicense"
+    },
+    "activity_participation": [
+        "AerChemMIP",
+        "CFMIP",
+        "CMIP",
+        "DAMIP",
+        "DynVarMIP",
+        "FAFMIP",
+        "GMMIP",
+        "ISMIP6",
+        "LS3MIP",
+        "LUMIP",
+        "OMIP",
+        "PAMIP",
+        "PMIP",
+        "RFMIP",
+        "SIMIP",
+        "ScenarioMIP",
+        "VIACSAB",
+        "VolMIP"
+    ],
+    "cohort": [
+        "Published"
+    ],
+    "institution_id": [
+        "NASA-GISS"
+    ],
+    "label": "GISS-E2-2-G",
+    "label_extended": "GISS-E2-2-G",
+    "model_component": {
+        "aerosol": {
+            "description": "varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)",
+            "native_nominal_resolution": "250 km"
+        },
+        "atmos": {
+            "description": "GISS-E2.2 (High-top, 2 x 2.5 degrees; 144 x 90 longitude/latitude; 102 levels; top level 0.002 hPa)",
+            "native_nominal_resolution": "250 km"
+        },
+        "atmosChem": {
+            "description": "varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)",
+            "native_nominal_resolution": "250 km"
+        },
+        "land": {
+            "description": "GISS LSM",
+            "native_nominal_resolution": "250 km"
+        },
+        "landIce": {
+            "description": "Fixed",
+            "native_nominal_resolution": "250 km"
+        },
+        "ocean": {
+            "description": "GISS Ocean (GO1, 1 degree; 360 x 180 longitude/latitude; 40 levels; top grid cell 0-10m)",
+            "native_nominal_resolution": "100 km"
+        },
+        "ocnBgchem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "seaIce": {
+            "description": "GISS SI",
+            "native_nominal_resolution": "100 km"
+        }
+    },
+    "release_year": "2019",
+    "source_id": "GISS-E2-2-G"
+}

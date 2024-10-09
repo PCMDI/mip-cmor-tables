@@ -1,7 +1,9 @@
 from mip_cmor_tables.models.frequency import Frequency
 from mip_cmor_tables.models.activity import Activity
 from mip_cmor_tables.models.experiment import Experiment
-from mip_cmor_tables.models.model_component import ModelComponent
+from mip_cmor_tables.models.license import License
+from mip_cmor_tables.models.source import Source
+from mip_cmor_tables.models.source_type import SourceType
 from mip_cmor_tables.models.sub_experiment import SubExperiment
 from pathlib import Path
 from pydantic import ValidationError
@@ -31,5 +33,12 @@ def test_sub_experiment():
     validate_terms(Path("datadescriptor/sub_experiment/"),SubExperiment)
 
 
-def test_model_compoent():
+def test_model_component():
     validate_terms(Path("datadescriptor/source_type/"),SourceType)
+
+def test_model_source():
+    validate_terms(Path("datadescriptor/source/"),Source)
+
+def test_model_license():
+    validate_terms(Path("datadescriptor/license/"),License)
+

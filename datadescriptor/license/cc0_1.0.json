@@ -1,0 +1,7 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cc0_1.0",
+    "kind": "CC0 1.0",
+    "license": "Creative Commons CC0 1.0 Universal Public Domain Dedication (CC0 1.0; https://creativecommons.org/publicdomain/zero/1.0/)",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+}

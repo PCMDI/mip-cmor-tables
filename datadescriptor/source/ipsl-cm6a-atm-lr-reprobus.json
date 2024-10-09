@@ -1,0 +1,57 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ipsl-cm6a-atm-lr-reprobus",
+    "type": "source",
+    "license": {
+        "id": "CC BY 4.0",
+        "exceptions-contact": null,
+        "source-specific-info": ""
+    },
+    "activity_participation": [
+        "AerChemMIP"
+    ],
+    "cohort": [
+        "Registered"
+    ],
+    "institution_id": [
+        "IPSL"
+    ],
+    "label": "IPSL-CM6A-ATM-LR-REPROBUS",
+    "label_extended": "IPSL-CM6A-ATM-LR-REPROBUS",
+    "model_component": {
+        "aerosol": {
+            "description": "LMDZ (NPv6 ; 144 x 143 longitude/latitude; 79 levels; top level 80000 m)",
+            "native_nominal_resolution": "250 km"
+        },
+        "atmos": {
+            "description": "LMDZ (NPv6 ; 144 x 143 longitude/latitude; 79 levels; top level 80000 m)",
+            "native_nominal_resolution": "250 km"
+        },
+        "atmosChem": {
+            "description": "REPROBUS v6 (same grid as atmos)",
+            "native_nominal_resolution": "250 km"
+        },
+        "land": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "landIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocean": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocnBgchem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "seaIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        }
+    },
+    "release_year": "2021",
+    "source_id": "IPSL-CM6A-ATM-LR-REPROBUS"
+}

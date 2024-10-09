@@ -1,0 +1,58 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "taiesm1-timcom2",
+    "type": "source",
+    "license": {
+        "id": "CC BY 4.0",
+        "exceptions-contact": null,
+        "source-specific-info": ""
+    },
+    "activity_participation": [
+        "CMIP",
+        "OMIP"
+    ],
+    "cohort": [
+        "Published"
+    ],
+    "institution_id": [
+        "NTU"
+    ],
+    "label": "TaiESM1-TIMCOM2",
+    "label_extended": "Taiwan Earth System Model 1.0 using TIMCOM ocean model 2.0",
+    "model_component": {
+        "aerosol": {
+            "description": "SNAP (same grid as atmos)",
+            "native_nominal_resolution": "100 km"
+        },
+        "atmos": {
+            "description": "TaiAM1 (0.9x1.25 degree; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)",
+            "native_nominal_resolution": "100 km"
+        },
+        "atmosChem": {
+            "description": "SNAP (same grid as atmos)",
+            "native_nominal_resolution": "100 km"
+        },
+        "land": {
+            "description": "CLM4.0 (same grid as atmos)",
+            "native_nominal_resolution": "100 km"
+        },
+        "landIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocean": {
+            "description": "TIMCOM (TIMCOMv2.2, primarily 1deg; 320 x 288 longitude/latitude; 55 levels; top grid cell 0-10 m)",
+            "native_nominal_resolution": "100 km"
+        },
+        "ocnBgchem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "seaIce": {
+            "description": "CICE4 (same grid as ocean)",
+            "native_nominal_resolution": "100 km"
+        }
+    },
+    "release_year": "2021",
+    "source_id": "TaiESM1-TIMCOM2"
+}

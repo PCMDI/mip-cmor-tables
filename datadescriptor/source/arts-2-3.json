@@ -1,0 +1,57 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "arts-2-3",
+    "type": "source",
+    "license": {
+        "id": "CC BY 4.0",
+        "exceptions-contact": null,
+        "source-specific-info": ""
+    },
+    "activity_participation": [
+        "RFMIP"
+    ],
+    "cohort": [
+        "Published"
+    ],
+    "institution_id": [
+        "UHH"
+    ],
+    "label": "ARTS 2.3",
+    "label_extended": "ARTS 2.3 (Current development version of the Atmospheric Radiative Transfer Simulator)",
+    "model_component": {
+        "aerosol": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "atmos": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "atmosChem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "land": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "landIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocean": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocnBgchem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "seaIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        }
+    },
+    "release_year": "2015",
+    "source_id": "ARTS-2-3"
+}

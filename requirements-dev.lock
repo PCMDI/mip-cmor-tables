@@ -45,7 +45,6 @@ requests==2.32.3
 tomli==2.0.2
     # via pytest
 typing-extensions==4.12.2
-    # via annotated-types
     # via pydantic
     # via pydantic-core
 urllib3==2.2.3

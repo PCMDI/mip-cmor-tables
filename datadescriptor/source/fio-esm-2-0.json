@@ -1,0 +1,62 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fio-esm-2-0",
+    "type": "source",
+    "license": {
+        "id": "CC BY 4.0",
+        "exceptions-contact": null,
+        "source-specific-info": ""
+    },
+    "activity_participation": [
+        "CMIP",
+        "DCPP",
+        "GMMIP",
+        "OMIP",
+        "ScenarioMIP",
+        "SIMIP"
+    ],
+    "cohort": [
+        "Published"
+    ],
+    "institution_id": [
+        "FIO-QLNM"
+    ],
+    "label": "FIO-ESM 2.0",
+    "label_extended": "FIO-ESM 2.0",
+    "model_component": {
+        "aerosol": {
+            "description": "Prescribed monthly fields",
+            "native_nominal_resolution": "100 km"
+        },
+        "atmos": {
+            "description": "CAM4 (0.9x1.25 finite volume grid; 192 x 288 longitude/latitude; 26 levels; top level ~2 hPa)",
+            "native_nominal_resolution": "100 km"
+        },
+        "atmosChem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "land": {
+            "description": "CLM4.0 (same grid at atmos)",
+            "native_nominal_resolution": "100 km"
+        },
+        "landIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocean": {
+            "description": "POP2-W (POP2 coupled with MASNUM surface wave model, Displaced Pole; 320 x 384 longitude/latitude; 60 levels; top grid cell 0-10 m)",
+            "native_nominal_resolution": "100 km"
+        },
+        "ocnBgchem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "seaIce": {
+            "description": "CICE4.0 (same grid as ocean)",
+            "native_nominal_resolution": "100 km"
+        }
+    },
+    "release_year": "2018",
+    "source_id": "FIO-ESM-2-0"
+}

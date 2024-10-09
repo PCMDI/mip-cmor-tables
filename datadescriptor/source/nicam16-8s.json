@@ -1,0 +1,59 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nicam16-8s",
+    "type": "source",
+    "license": {
+        "id": "CC BY 4.0",
+        "exceptions-contact": null,
+        "source-specific-info": ""
+    },
+    "activity_participation": [
+        "CMIP",
+        "DynVarMIP",
+        "HighResMIP"
+    ],
+    "cohort": [
+        "Published"
+    ],
+    "institution_id": [
+        "MIROC"
+    ],
+    "label": "NICAM16-8S",
+    "label_extended": "NICAM.16 gl08-L38 with NSW6",
+    "model_component": {
+        "aerosol": {
+            "description": "Prescribed MACv2-SP",
+            "native_nominal_resolution": "25 km"
+        },
+        "atmos": {
+            "description": "NICAM.16 (28km icosahedral grid; 655,362 grid cells (=10*4^8+2); 38 levels; top level 40 km)",
+            "native_nominal_resolution": "50 km"
+        },
+        "atmosChem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "land": {
+            "description": "MATSIRO6 (w/o MOSAIC)",
+            "native_nominal_resolution": "25 km"
+        },
+        "landIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocean": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocnBgchem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "seaIce": {
+            "description": "Fixed",
+            "native_nominal_resolution": "25 km"
+        }
+    },
+    "release_year": "2017",
+    "source_id": "NICAM16-8S"
+}

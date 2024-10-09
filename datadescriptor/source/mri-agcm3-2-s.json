@@ -1,0 +1,59 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mri-agcm3-2-s",
+    "type": "source",
+    "license": {
+        "id": "CC BY 4.0",
+        "exceptions-contact": null,
+        "source-specific-info": ""
+    },
+    "activity_participation": [
+        "CMIP",
+        "DynVarMIP",
+        "HighResMIP"
+    ],
+    "cohort": [
+        "Published"
+    ],
+    "institution_id": [
+        "MRI"
+    ],
+    "label": "MRI-AGCM3-2-S",
+    "label_extended": "MRI-AGCM3-2-S",
+    "model_component": {
+        "aerosol": {
+            "description": "Prescribed from MRI-ESM2.0",
+            "native_nominal_resolution": "250 km"
+        },
+        "atmos": {
+            "description": "MRI-AGCM3.2S (TL959; 1920 x 960 longitude/latitude; 64 levels; top level 0.01 hPa)",
+            "native_nominal_resolution": "25 km"
+        },
+        "atmosChem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "land": {
+            "description": "SIB0109",
+            "native_nominal_resolution": "25 km"
+        },
+        "landIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocean": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocnBgchem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "seaIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        }
+    },
+    "release_year": "2017",
+    "source_id": "MRI-AGCM3-2-S"
+}

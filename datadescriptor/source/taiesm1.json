@@ -1,0 +1,65 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "taiesm1",
+    "type": "source",
+    "license": {
+        "id": "CC BY 4.0",
+        "exceptions-contact": null,
+        "source-specific-info": ""
+    },
+    "activity_participation": [
+        "AerChemMIP",
+        "CFMIP",
+        "CMIP",
+        "GMMIP",
+        "LUMIP",
+        "PAMIP",
+        "PMIP",
+        "RFMIP",
+        "ScenarioMIP"
+    ],
+    "cohort": [
+        "Published"
+    ],
+    "institution_id": [
+        "AS-RCEC"
+    ],
+    "label": "TaiESM 1.0",
+    "label_extended": "Taiwan Earth System Model 1.0",
+    "model_component": {
+        "aerosol": {
+            "description": "SNAP (same grid as atmos)",
+            "native_nominal_resolution": "100 km"
+        },
+        "atmos": {
+            "description": "TaiAM1 (0.9x1.25 degree; 288 x 192 longitude/latitude; 30 levels; top level ~2 hPa)",
+            "native_nominal_resolution": "100 km"
+        },
+        "atmosChem": {
+            "description": "SNAP (same grid as atmos)",
+            "native_nominal_resolution": "100 km"
+        },
+        "land": {
+            "description": "CLM4.0 (same grid as atmos)",
+            "native_nominal_resolution": "100 km"
+        },
+        "landIce": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "ocean": {
+            "description": "POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)",
+            "native_nominal_resolution": "100 km"
+        },
+        "ocnBgchem": {
+            "description": "none",
+            "native_nominal_resolution": "none"
+        },
+        "seaIce": {
+            "description": "CICE4",
+            "native_nominal_resolution": "50 km"
+        }
+    },
+    "release_year": "2018",
+    "source_id": "TaiESM1"
+}
