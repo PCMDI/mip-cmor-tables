@@ -1,0 +1,28 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/uosask",
+    "@type": "institution",
+    "acronyms": [],
+    "aliases": [],
+    "cmip_acronym": "UoSask",
+    "established": 1907,
+    "kind": "Education",
+    "labels": [],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/010x8gc63",
+        "@type": "location",
+        "@nest": {
+            "lat": 52.13238,
+            "lon": 52.13238,
+            "city": "Saskatoon",
+            "country": [
+                "Canada",
+                "CA"
+            ]
+        }
+    },
+    "name": "University of Saskatchewan",
+    "ror": "010x8gc63",
+    "url": [
+        "https://www.usask.ca/"
+    ]
+}
