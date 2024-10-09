@@ -48,7 +48,7 @@ standardNameDD
 dataNodeDD  
 datasetGroupDD  
 sourceInstitutionDD  
-nominal- ResolutionDD (nominalResolutionDD)  
+nominal- ResolutionDD (nominalResolutionDD) Done 
 productTypeDD  
 realmDD  
 dataRegionDD  
@@ -142,6 +142,18 @@ classDiagram
 }   
 
 
+class Resolution {
+
+
+
+    id: str 
+    description :str
+    value :str 
+    name : str 
+    unit : str 
+    type : str 
+}
+
 ```
 ### Ontology
 ``` mermaid
@@ -208,8 +220,15 @@ classDiagram
         𝘀𝗰𝗵:𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻
         } 
 
+    class `𝗲𝘀𝘃:𝗿𝗲𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻`{
+        𝗲𝘀𝘃:𝗶𝗱
+        𝘀𝗰𝗵:𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻
+        𝘀𝗰𝗵:𝘃𝗮𝗹𝘂𝗲
 
+        𝘀𝗰𝗵:𝗻𝗮𝗺𝗲
+        𝘀𝗰𝗵:𝘂𝗻𝗶𝘁𝗧𝗲𝘅𝘁
 
+} 
 
 
     

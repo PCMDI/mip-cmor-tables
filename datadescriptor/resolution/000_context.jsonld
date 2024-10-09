@@ -1,0 +1,16 @@
+
+{
+     
+      "@context": {
+      "@base":"http://es-vocab.ipsl.fr/resolution/",
+      "@vocab": "http://schema.org/",
+      "id": "@id",
+      "type":"@type",
+      "value": {"@id": "https://schema.org/value"},
+      "name": {"@id": "https://schema.org/name"},
+      "unit": {"@id": "https://schema.org/unitText"},
+      "description":{"@id":"https://schema.org/description"}
+      
+    }
+}
+
