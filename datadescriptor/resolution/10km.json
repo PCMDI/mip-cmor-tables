@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "10km",
+    "name": "10km",
+    "value": "10",
+    "unit": "km",
+    "type": "resolution",
+    "description": "Resolution of 10 km"
+}

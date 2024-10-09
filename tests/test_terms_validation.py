@@ -2,6 +2,7 @@ from mip_cmor_tables.models.frequency import Frequency
 from mip_cmor_tables.models.activity import Activity
 from mip_cmor_tables.models.experiment import Experiment
 from mip_cmor_tables.models.license import License
+from mip_cmor_tables.models.resolution import Resolution
 from mip_cmor_tables.models.source import Source
 from mip_cmor_tables.models.source_type import SourceType
 from mip_cmor_tables.models.sub_experiment import SubExperiment
@@ -36,9 +37,12 @@ def test_sub_experiment():
 def test_model_component():
     validate_terms(Path("datadescriptor/source_type/"),SourceType)
 
-def test_model_source():
+def test_source():
     validate_terms(Path("datadescriptor/source/"),Source)
 
-def test_model_license():
+def test_license():
     validate_terms(Path("datadescriptor/license/"),License)
+
+def test_resolution():
+    validate_terms(Path("datadescriptor/resolution/"),Resolution)
 

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "1x1degree",
+    "name": "1x1degree",
+    "value": "1x1",
+    "unit": "degree",
+    "type": "resolution",
+    "description": "Resolution of 1x1 degree"
+}
