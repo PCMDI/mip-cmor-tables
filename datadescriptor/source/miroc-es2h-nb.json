@@ -8,51 +8,24 @@
         "source-specific-info": ""
     },
     "activity_participation": [
-        "AerChemMIP",
-        "CMIP"
+        "aerchemmip",
+        "cmip"
     ],
     "cohort": [
         "Published"
     ],
-    "institution_id": [
-        "MIROC"
-    ],
     "label": "MIROC-ES2H-NB",
     "label_extended": "MIROC-ES2H with No BiogenicCycle",
     "model_component": {
-        "aerosol": {
-            "description": "SPRINTARS6.0",
-            "native_nominal_resolution": "250 km"
-        },
-        "atmos": {
-            "description": "CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)",
-            "native_nominal_resolution": "250 km"
-        },
-        "atmosChem": {
-            "description": "CHASER4.0 (T42; 128 x 64 longitude/latitude; 81 levels; top level 0.004 hPa)",
-            "native_nominal_resolution": "500 km"
-        },
-        "land": {
-            "description": "MATSIRO6",
-            "native_nominal_resolution": "250 km"
-        },
-        "landIce": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "ocean": {
-            "description": "COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)",
-            "native_nominal_resolution": "100 km"
-        },
-        "ocnBgchem": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "seaIce": {
-            "description": "COCO4.9",
-            "native_nominal_resolution": "100 km"
-        }
+        "aerosol": "sprintars6.0",
+        "atmos": "ccsr",
+        "atmosChem": "chaser4.0",
+        "land": "matsiro6",
+        "ocean": "coco4.9",
+        "seaIce": "coco4.9"
     },
     "release_year": "2019",
-    "source_id": "MIROC-ES2H-NB"
+    "organisation_id": [
+        "miroc"
+    ]
 }

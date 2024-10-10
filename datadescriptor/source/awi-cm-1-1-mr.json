@@ -8,56 +8,27 @@
         "source-specific-info": ""
     },
     "activity_participation": [
-        "CMIP",
-        "CORDEX",
-        "OMIP",
-        "PAMIP",
-        "SIMIP",
-        "ScenarioMIP",
-        "VIACSAB"
+        "cmip",
+        "cordex",
+        "omip",
+        "pamip",
+        "simip",
+        "scenariomip",
+        "viacsab"
     ],
     "cohort": [
         "Published"
     ],
-    "institution_id": [
-        "AWI"
-    ],
     "label": "AWI-CM 1.1 MR",
     "label_extended": "AWI-CM 1.1 MR",
     "model_component": {
-        "aerosol": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "atmos": {
-            "description": "ECHAM6.3.04p1 (T127L95 native atmosphere T127 gaussian grid; 384 x 192 longitude/latitude; 95 levels; top level 80 km)",
-            "native_nominal_resolution": "100 km"
-        },
-        "atmosChem": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "land": {
-            "description": "JSBACH 3.20",
-            "native_nominal_resolution": "100 km"
-        },
-        "landIce": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "ocean": {
-            "description": "FESOM 1.4 (unstructured grid in the horizontal with 830305 wet nodes; 46 levels; top grid cell 0-5 m)",
-            "native_nominal_resolution": "25 km"
-        },
-        "ocnBgchem": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "seaIce": {
-            "description": "FESOM 1.4",
-            "native_nominal_resolution": "25 km"
-        }
+        "atmos": "echam6.3.04p1",
+        "land": "jsbach",
+        "ocean": "fesom",
+        "seaIce": "fesom"
     },
     "release_year": "2018",
-    "source_id": "AWI-CM-1-1-MR"
+    "organisation_id": [
+        "awi"
+    ]
 }

@@ -8,56 +8,29 @@
         "source-specific-info": null
     },
     "activity_participation": [
-        "C4MIP",
-        "CDRMIP",
-        "CMIP",
-        "DCPP",
-        "LUMIP",
-        "OMIP",
-        "ScenarioMIP"
+        "c4mip",
+        "cdrmip",
+        "cmip",
+        "dcpp",
+        "lumip",
+        "omip",
+        "scenariomip"
     ],
     "cohort": [
         "Registered"
     ],
-    "institution_id": [
-        "EC-Earth-Consortium"
-    ],
     "label": "EC-Earth3-ESM-1",
     "label_extended": "EC-Earth3-ESM-1",
     "model_component": {
-        "aerosol": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "atmos": {
-            "description": "IFS cy36r4 (TL255, linearly reduced Gaussian grid equivalent to 512 x 256 longitude/latitude; 91 levels; top level 0.01 hPa) and co2box v1.0 (CO2 box model; global grid)",
-            "native_nominal_resolution": "100 km"
-        },
-        "atmosChem": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "land": {
-            "description": "HTESSEL (land surface scheme built in IFS) and LPJ-GUESS v4.1.2 (same grid as atmos)",
-            "native_nominal_resolution": "100 km"
-        },
-        "landIce": {
-            "description": "PISM v1.2 (5 km x 5 km for Greenland, 31 levels)",
-            "native_nominal_resolution": "5 km"
-        },
-        "ocean": {
-            "description": "NEMO3.6 (ORCA1 tripolar primarily 1 degree with meridional refinement down to 1/3 degree in the tropics; 362 x 292 longitude/latitude; 75 levels; top grid cell 0-1 m) and MWE v1.0 (Melt Water Emulator; same grid as ocean for Antarctic surroundings)",
-            "native_nominal_resolution": "100 km"
-        },
-        "ocnBgchem": {
-            "description": "PISCES v2 (same grid as ocean)",
-            "native_nominal_resolution": "100 km"
-        },
-        "seaIce": {
-            "description": "LIM3 (same grid as ocean)",
-            "native_nominal_resolution": "100 km"
-        }
+        "atmos": "ifs",
+        "land": "htessel",
+        "landIce": "pism",
+        "ocean": "nemo3.6",
+        "ocnBgchem": "pisces",
+        "seaIce": "lim3"
     },
     "release_year": "2024",
-    "source_id": "EC-Earth3-ESM-1"
+    "organisation_id": [
+        "ec-earth-consortium"
+    ]
 }

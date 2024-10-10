@@ -8,59 +8,34 @@
         "source-specific-info": ""
     },
     "activity_participation": [
-        "AerChemMIP",
-        "C4MIP",
-        "CDRMIP",
-        "CMIP",
-        "DAMIP",
-        "DynVarMIP",
-        "FAFMIP",
-        "LUMIP",
-        "RFMIP",
-        "ScenarioMIP"
+        "aerchemmip",
+        "c4mip",
+        "cdrmip",
+        "cmip",
+        "damip",
+        "dynvarmip",
+        "fafmip",
+        "lumip",
+        "rfmip",
+        "scenariomip"
     ],
     "cohort": [
         "Published"
     ],
-    "institution_id": [
-        "NOAA-GFDL"
-    ],
     "label": "GFDL-ESM4",
     "label_extended": "GFDL-ESM4",
     "model_component": {
-        "aerosol": {
-            "description": "interactive",
-            "native_nominal_resolution": "100 km"
-        },
-        "atmos": {
-            "description": "GFDL-AM4.1 (Cubed-sphere (c96) - 1 degree nominal horizontal resolution; 360 x 180 longitude/latitude; 49 levels; top level 1 Pa)",
-            "native_nominal_resolution": "100 km"
-        },
-        "atmosChem": {
-            "description": "GFDL-ATMCHEM4.1 (full atmospheric chemistry)",
-            "native_nominal_resolution": "100 km"
-        },
-        "land": {
-            "description": "GFDL-LM4.1",
-            "native_nominal_resolution": "100 km"
-        },
-        "landIce": {
-            "description": "GFDL-LM4.1",
-            "native_nominal_resolution": "100 km"
-        },
-        "ocean": {
-            "description": "GFDL-OM4p5 (GFDL-MOM6, tripolar - nominal 0.5 deg; 720 x 576 longitude/latitude; 75 levels; top grid cell 0-2 m)",
-            "native_nominal_resolution": "50 km"
-        },
-        "ocnBgchem": {
-            "description": "GFDL-COBALTv2",
-            "native_nominal_resolution": "50 km"
-        },
-        "seaIce": {
-            "description": "GFDL-SIM4p5 (GFDL-SIS2.0, tripolar - nominal 0.5 deg; 720 x 576 longitude/latitude; 5 layers; 5 thickness categories)",
-            "native_nominal_resolution": "50 km"
-        }
+        "aerosol": "interactive",
+        "atmos": "gfdl-am4.1",
+        "atmosChem": "gfdl-atmchem4.1",
+        "land": "gfdl-lm4.1",
+        "landIce": "gfdl-lm4.1",
+        "ocean": "gfdl-om4p5",
+        "ocnBgchem": "gfdl-cobaltv2",
+        "seaIce": "gfdl-sim4p5"
     },
     "release_year": "2018",
-    "source_id": "GFDL-ESM4"
+    "organisation_id": [
+        "noaa-gfdl"
+    ]
 }

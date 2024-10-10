@@ -8,51 +8,26 @@
         "source-specific-info": ""
     },
     "activity_participation": [
-        "CMIP",
-        "PMIP"
+        "cmip",
+        "pmip"
     ],
     "cohort": [
         "Published"
     ],
-    "institution_id": [
-        "NCAR"
-    ],
     "label": "CESM2-WACCM-FV2",
     "label_extended": "CESM2-WACCM-FV2",
     "model_component": {
-        "aerosol": {
-            "description": "MAM4 (same grid as atmos)",
-            "native_nominal_resolution": "250 km"
-        },
-        "atmos": {
-            "description": "WACCM6 (1.9x2.5 finite volume grid; 144 x 96 longitude/latitude; 70 levels; top level 4.5e-06 mb)",
-            "native_nominal_resolution": "250 km"
-        },
-        "atmosChem": {
-            "description": "MAM4 (same grid as atmos)",
-            "native_nominal_resolution": "250 km"
-        },
-        "land": {
-            "description": "CLM5 (same grid as atmos)",
-            "native_nominal_resolution": "250 km"
-        },
-        "landIce": {
-            "description": "CISM2.1",
-            "native_nominal_resolution": "5 km"
-        },
-        "ocean": {
-            "description": "POP2 (320x384 longitude/latitude; 60 levels; top grid cell 0-10 m)",
-            "native_nominal_resolution": "100 km"
-        },
-        "ocnBgchem": {
-            "description": "MARBL (same grid as ocean)",
-            "native_nominal_resolution": "100 km"
-        },
-        "seaIce": {
-            "description": "CICE5.1 (same grid as ocean)",
-            "native_nominal_resolution": "100 km"
-        }
+        "aerosol": "mam4",
+        "atmos": "waccm6",
+        "atmosChem": "mam4",
+        "land": "clm5",
+        "landIce": "cism2.1",
+        "ocean": "pop2",
+        "ocnBgchem": "marbl",
+        "seaIce": "cice5.1"
     },
     "release_year": "2019",
-    "source_id": "CESM2-WACCM-FV2"
+    "organisation_id": [
+        "ncar"
+    ]
 }

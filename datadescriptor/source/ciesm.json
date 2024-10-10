@@ -8,57 +8,30 @@
         "source-specific-info": ""
     },
     "activity_participation": [
-        "CFMIP",
-        "CMIP",
-        "CORDEX",
-        "GMMIP",
-        "HighResMIP",
-        "OMIP",
-        "SIMIP",
-        "ScenarioMIP"
+        "cfmip",
+        "cmip",
+        "cordex",
+        "gmmip",
+        "highresmip",
+        "omip",
+        "simip",
+        "scenariomip"
     ],
     "cohort": [
         "Published"
     ],
-    "institution_id": [
-        "THU"
-    ],
     "label": "CIESM",
     "label_extended": "Community Integrated Earth System Model",
     "model_component": {
-        "aerosol": {
-            "description": "MAM4",
-            "native_nominal_resolution": "100 km"
-        },
-        "atmos": {
-            "description": "CIESM-AM (FV/FD; 288 x 192 longitude/latitude; 30 levels; top level 2.255 hPa)",
-            "native_nominal_resolution": "100 km"
-        },
-        "atmosChem": {
-            "description": "trop_mam4",
-            "native_nominal_resolution": "100 km"
-        },
-        "land": {
-            "description": "CIESM-LM (modified CLM4.5)",
-            "native_nominal_resolution": "100 km"
-        },
-        "landIce": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "ocean": {
-            "description": "CIESM-OM (FD, SCCGrid Displaced Pole; 720 x 560 longitude/latitude; 46 levels; top grid cell 0-6 m)",
-            "native_nominal_resolution": "50 km"
-        },
-        "ocnBgchem": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "seaIce": {
-            "description": "CICE4",
-            "native_nominal_resolution": "50 km"
-        }
+        "aerosol": "mam4",
+        "atmos": "ciesm-am",
+        "atmosChem": "trop_mam4",
+        "land": "ciesm-lm",
+        "ocean": "ciesm-om",
+        "seaIce": "cice4"
     },
     "release_year": "2017",
-    "source_id": "CIESM"
+    "organisation_id": [
+        "thu"
+    ]
 }

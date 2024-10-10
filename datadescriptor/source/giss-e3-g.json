@@ -8,68 +8,41 @@
         "source-specific-info": "https://data.giss.nasa.gov/modelE/cmip6/#datalicense"
     },
     "activity_participation": [
-        "AerChemMIP",
-        "C4MIP",
-        "CFMIP",
-        "CMIP",
-        "DAMIP",
-        "DynVarMIP",
-        "FAFMIP",
-        "GMMIP",
-        "ISMIP6",
-        "LS3MIP",
-        "LUMIP",
-        "OMIP",
-        "PAMIP",
-        "PMIP",
-        "RFMIP",
-        "SIMIP",
-        "ScenarioMIP",
-        "VIACSAB",
-        "VolMIP"
+        "aerchemmip",
+        "c4mip",
+        "cfmip",
+        "cmip",
+        "damip",
+        "dynvarmip",
+        "fafmip",
+        "gmmip",
+        "ismip6",
+        "ls3mip",
+        "lumip",
+        "omip",
+        "pamip",
+        "pmip",
+        "rfmip",
+        "simip",
+        "scenariomip",
+        "viacsab",
+        "volmip"
     ],
     "cohort": [
         "Published"
     ],
-    "institution_id": [
-        "NASA-GISS"
-    ],
     "label": "GISS-E3-G",
     "label_extended": "GISS-E3-G",
     "model_component": {
-        "aerosol": {
-            "description": "Varies with physics-version (p==1 none, p==3 OMA, p==4 TOMAS, p==5 MATRIX)",
-            "native_nominal_resolution": "100 km"
-        },
-        "atmos": {
-            "description": "GISS-E3 (Cubed sphere, C90; 90 x 90 x 6 gridboxes/cubeface, grid resolution aligns with longitude/latitude along central lines for each cubeface; 102 levels; top level 0.002 hPa)",
-            "native_nominal_resolution": "100 km"
-        },
-        "atmosChem": {
-            "description": "Varies with physics-version (p==1 Non-interactive, p>1 GPUCCINI)",
-            "native_nominal_resolution": "100 km"
-        },
-        "land": {
-            "description": "GISS LSM",
-            "native_nominal_resolution": "100 km"
-        },
-        "landIce": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "ocean": {
-            "description": "GISS Ocean (1 degree; 360 x 180 longitude/latitude; 32 levels; top grid cell 0-10 m)",
-            "native_nominal_resolution": "100 km"
-        },
-        "ocnBgchem": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "seaIce": {
-            "description": "GISS SI",
-            "native_nominal_resolution": "100 km"
-        }
+        "aerosol": "varies",
+        "atmos": "giss-e3",
+        "atmosChem": "varies",
+        "land": "giss",
+        "ocean": "giss",
+        "seaIce": "giss"
     },
     "release_year": "2020",
-    "source_id": "GISS-E3-G"
+    "organisation_id": [
+        "nasa-giss"
+    ]
 }

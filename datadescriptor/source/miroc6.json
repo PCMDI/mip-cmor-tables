@@ -8,44 +8,23 @@
         "source-specific-info": ""
     },
     "activity_participation": [
-        "CMIP",
-        "LESFMIP"
+        "cmip",
+        "lesfmip"
     ],
     "cohort": [
         "Published"
     ],
-    "institution_id": [
-        "MIROC"
-    ],
     "label": "MIROC6",
     "label_extended": "MIROC6",
     "model_component": {
-        "aerosol": {
-            "description": "SPRINTARS6.0",
-            "version": "none",
-            "native_nominal_resolution": "250 km"
-        },
-        "atmos": {
-            "description": "CCSR AGCM (T85; 256 x 128 longitude/latitude; 81 levels; top level 0.004 hPa)",
-            "version": "none",
-            "native_nominal_resolution": "250km"
-        },
-        "land": {
-            "description": "MATSIRO6.0",
-            "version": "none",
-            "native_nominal_resolution": "250 km"
-        },
-        "ocean": {
-            "description": "COCO4.9 (tripolar primarily 1deg; 360 x 256 longitude/latitude; 63 levels; top grid cell 0-2 m)",
-            "version": "none",
-            "native_nominal_resolution": "100 km"
-        },
-        "seaIce": {
-            "description": "COCO4.9",
-            "version": "none",
-            "native_nominal_resolution": "100 km"
-        }
+        "aerosol": "sprintars6.0",
+        "atmos": "ccsr",
+        "land": "matsiro6.0",
+        "ocean": "coco4.9",
+        "seaIce": "coco4.9"
     },
     "release_year": 2017,
-    "source_id": "MIROC6"
+    "organisation_id": [
+        "miroc"
+    ]
 }

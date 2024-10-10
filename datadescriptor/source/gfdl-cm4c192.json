@@ -8,50 +8,24 @@
         "source-specific-info": ""
     },
     "activity_participation": [
-        "HighResMIP"
+        "highresmip"
     ],
     "cohort": [
         "Published"
     ],
-    "institution_id": [
-        "NOAA-GFDL"
-    ],
     "label": "GFDL-CM4C192",
     "label_extended": "GFDL-CM4C192",
     "model_component": {
-        "aerosol": {
-            "description": "interactive",
-            "native_nominal_resolution": "50 km"
-        },
-        "atmos": {
-            "description": "GFDL-AM4C192 (Cubed-sphere (c192) - 0.5 degree nominal horizontal resolution; 720 x 360 longitude/latitude; 33 levels; top level 1 hPa)",
-            "native_nominal_resolution": "50 km"
-        },
-        "atmosChem": {
-            "description": "fast chemistry, aerosol only",
-            "native_nominal_resolution": "50 km"
-        },
-        "land": {
-            "description": "GFDL-LM4.0.1",
-            "native_nominal_resolution": "50 km"
-        },
-        "landIce": {
-            "description": "GFDL-LM4.0.1",
-            "native_nominal_resolution": "50 km"
-        },
-        "ocean": {
-            "description": "GFDL-OM4p25 (GFDL-MOM6, tripolar - nominal 0.25 deg; 1440 x 1080 longitude/latitude; 75 levels; top grid cell 0-2 m)",
-            "native_nominal_resolution": "25 km"
-        },
-        "ocnBgchem": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "seaIce": {
-            "description": "GFDL-SIM4p25 (GFDL-SIS2.0, tripolar - nominal 0.25 deg; 1440 x 1080 longitude/latitude; 5 layers; 5 thickness categories)",
-            "native_nominal_resolution": "25 km"
-        }
+        "aerosol": "interactive",
+        "atmos": "gfdl-am4c192",
+        "atmosChem": "fast",
+        "land": "gfdl-lm4.0.1",
+        "landIce": "gfdl-lm4.0.1",
+        "ocean": "gfdl-om4p25",
+        "seaIce": "gfdl-sim4p25"
     },
     "release_year": "2018",
-    "source_id": "GFDL-CM4C192"
+    "organisation_id": [
+        "noaa-gfdl"
+    ]
 }

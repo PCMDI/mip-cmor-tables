@@ -8,50 +8,20 @@
         "source-specific-info": ""
     },
     "activity_participation": [
-        "OMIP"
+        "omip"
     ],
     "cohort": [
         "Published"
     ],
-    "institution_id": [
-        "NOAA-GFDL"
-    ],
     "label": "GFDL-OM4p5B",
     "label_extended": "GFDL-OM4p5B",
     "model_component": {
-        "aerosol": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "atmos": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "atmosChem": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "land": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "landIce": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "ocean": {
-            "description": "GFDL-OM4p5 (GFDL-MOM6, tripolar - nominal 0.5 deg; 720 x 576 longitude/latitude; 75 levels; top grid cell 0-2 m)",
-            "native_nominal_resolution": "50 km"
-        },
-        "ocnBgchem": {
-            "description": "GFDL-BLINGv2",
-            "native_nominal_resolution": "50 km"
-        },
-        "seaIce": {
-            "description": "GFDL-SIM4p5 (GFDL-SIS2.0, tripolar - nominal 0.5 deg; 720 x 576 longitude/latitude; 5 layers; 5 thickness categories)",
-            "native_nominal_resolution": "50 km"
-        }
+        "ocean": "gfdl-om4p5",
+        "ocnBgchem": "gfdl-blingv2",
+        "seaIce": "gfdl-sim4p5"
     },
     "release_year": "2018",
-    "source_id": "GFDL-OM4p5B"
+    "organisation_id": [
+        "noaa-gfdl"
+    ]
 }

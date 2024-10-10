@@ -8,67 +8,41 @@
         "source-specific-info": ""
     },
     "activity_participation": [
-        "AerChemMIP",
-        "C4MIP",
-        "CFMIP",
-        "CMIP",
-        "CORDEX",
-        "DAMIP",
-        "DCPP",
-        "DynVarMIP",
-        "FAFMIP",
-        "GMMIP",
-        "GeoMIP",
-        "LS3MIP",
-        "OMIP",
-        "PMIP",
-        "RFMIP",
-        "SIMIP",
-        "ScenarioMIP",
-        "VolMIP"
+        "aerchemmip",
+        "c4mip",
+        "cfmip",
+        "cmip",
+        "cordex",
+        "damip",
+        "dcpp",
+        "dynvarmip",
+        "fafmip",
+        "gmmip",
+        "geomip",
+        "ls3mip",
+        "omip",
+        "pmip",
+        "rfmip",
+        "simip",
+        "scenariomip",
+        "volmip"
     ],
     "cohort": [
         "Published"
     ],
-    "institution_id": [
-        "MRI"
-    ],
     "label": "MRI-ESM2.0",
     "label_extended": "MRI-ESM2.0",
     "model_component": {
-        "aerosol": {
-            "description": "MASINGAR mk2r4 (TL95; 192 x 96 longitude/latitude; 80 levels; top level 0.01 hPa)",
-            "native_nominal_resolution": "250 km"
-        },
-        "atmos": {
-            "description": "MRI-AGCM3.5 (TL159; 320 x 160 longitude/latitude; 80 levels; top level 0.01 hPa)",
-            "native_nominal_resolution": "100 km"
-        },
-        "atmosChem": {
-            "description": "MRI-CCM2.1 (T42; 128 x 64 longitude/latitude; 80 levels; top level 0.01 hPa)",
-            "native_nominal_resolution": "250 km"
-        },
-        "land": {
-            "description": "HAL 1.0",
-            "native_nominal_resolution": "100 km"
-        },
-        "landIce": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "ocean": {
-            "description": "MRI.COM4.4 (tripolar primarily 0.5 deg latitude/1 deg longitude with meridional refinement down to 0.3 deg within 10 degrees north and south of the equator; 360 x 364 longitude/latitude; 61 levels; top grid cell 0-2 m)",
-            "native_nominal_resolution": "100 km"
-        },
-        "ocnBgchem": {
-            "description": "MRI.COM4.4",
-            "native_nominal_resolution": "100 km"
-        },
-        "seaIce": {
-            "description": "MRI.COM4.4",
-            "native_nominal_resolution": "100 km"
-        }
+        "aerosol": "masingar",
+        "atmos": "mri-agcm3.5",
+        "atmosChem": "mri-ccm2.1",
+        "land": "hal",
+        "ocean": "mri.com4.4",
+        "ocnBgchem": "mri.com4.4",
+        "seaIce": "mri.com4.4"
     },
     "release_year": "2017",
-    "source_id": "MRI-ESM2-0"
+    "organisation_id": [
+        "mri"
+    ]
 }

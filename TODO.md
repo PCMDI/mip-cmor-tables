@@ -177,8 +177,35 @@ class ModelComponent{
     nominal_resolution : dict
 }
 
-ModelComponent --> Realm
-ModelComponent --> Resolution
+
+ModelComponent "1" --> "1" Realm
+ModelComponent "1" --> "1" Resolution
+class Source{   
+    id: str 
+    validation_method: str = Field(default = "list")
+    activity_participation: Optional[List[str]] 
+    cohort: List[str] = Field(default_factory=list)
+    organisation_id: List[str] = Field(default_factory=list)
+    label : str
+    label_extended: Optional[str] 
+    license: Optional[Dict] 
+    model_component: Optional[dict] 
+    release_year: Optional[int] 
+}
+
+Source "1" --> "1_*" ModelComponent
+Source "1" --> "1" Activity
+Source "1" --> "1" Organisation
+
+class License{
+
+    id: str 
+    kind: str 
+    license: Optional[str] 
+    url: Optional[str] 
+}
+Source "1" --> "1" License
+
 
 ```
 ### Ontology
@@ -273,10 +300,38 @@ classDiagram
 
 } 
 
-`𝗲𝘀𝘃:𝗺𝗼𝗱𝗲𝗹_𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁` --> `𝗲𝘀𝘃:𝗿𝗲𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻`
+`𝗲𝘀𝘃:𝗺𝗼𝗱𝗲𝗹_𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁` "1" --> "1" `𝗲𝘀𝘃:𝗿𝗲𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻`
 
-`𝗲𝘀𝘃:𝗺𝗼𝗱𝗲𝗹_𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁` --> `𝗲𝘀𝘃:𝗿𝗲𝗮𝗹𝗺 `
-    
+`𝗲𝘀𝘃:𝗺𝗼𝗱𝗲𝗹_𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁` "1" --> "1" `𝗲𝘀𝘃:𝗿𝗲𝗮𝗹𝗺 `
+
+    class `𝗲𝘀𝘃:𝗹𝗶𝗰𝗲𝗻𝘀𝗲` {
+            𝗲𝘀𝘃:𝗶𝗱
+        𝘀𝗰𝗵:𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻
+        𝘀𝗰𝗵:𝗻𝗮𝗺𝗲
+        𝘀𝗰𝗵:𝘂𝗿𝗹
+}
+
+
+    class `𝗲𝘀𝘃:𝘀𝗼𝘂𝗿𝗰𝗲` {
+        𝗲𝘀𝘃:𝗶𝗱
+        𝘀𝗰𝗵:𝗻𝗮𝗺𝗲
+        𝘀𝗰𝗵:𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻
+        sch:alternativeName
+        ??? esv:cohort
+        ??? 𝗲𝘀𝘃:𝗮𝗰𝘁𝗶𝘃𝗶𝘁𝘆_𝗽𝗮𝗿𝘁𝗶𝗰𝗶𝗽𝗮𝘁𝗶𝗼𝗻
+        𝗲𝘀𝘃:𝗼𝗿𝗴𝗮𝗻𝗶𝘀𝗮𝘁𝗶𝗼𝗻
+
+        sch:releaseDate 
+        𝗲𝘀𝘃:𝗺𝗼𝗱𝗲𝗹_𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁_𝗰𝗼𝗺𝗽𝗼𝘀𝗶𝘁𝗶𝗼𝗻
+        𝗲𝘀𝘃:𝗿𝗲𝘀𝗼𝗹𝘂𝘁𝗶𝗼𝗻`
+
+
+} 
+
+`𝗲𝘀𝘃:𝘀𝗼𝘂𝗿𝗰𝗲`  "1" --> "1_*" `𝗲𝘀𝘃:𝗺𝗼𝗱𝗲𝗹_𝗰𝗼𝗺𝗽𝗼𝗻𝗲𝗻𝘁` 
+`𝗲𝘀𝘃:𝘀𝗼𝘂𝗿𝗰𝗲`  "1" --> "1" `𝗲𝘀𝘃:𝗮𝗰𝘁𝗶𝘃𝗶𝘁𝘆`
+`𝗲𝘀𝘃:𝘀𝗼𝘂𝗿𝗰𝗲`  "1" --> "1" `e𝘀𝘃:𝗼𝗿𝗴𝗮𝗻𝗶𝘀𝗮𝘁𝗶𝗼𝗻`
+
 
 
 ```
@@ -289,6 +344,9 @@ classDiagram
 * model_component => DD
 * additionnal_allowed_component => DD
 * min_number_yrs_per_sim
+* cohort for sourceDD
+* model_component_composition ?? 
+* activity_participation
 
 # Subtlety :
 
@@ -303,3 +361,7 @@ classDiagram
 * in CMIP6Plus JsonldIII =>
 source_id => giss-e2-1-g
 model-component with id : varies with pysics appears 2 times (OK) pointing to same object (Not OK)
+
+* license is "sub class" in source to add specific info
+
+

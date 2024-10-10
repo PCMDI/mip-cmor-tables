@@ -1,0 +1,64 @@
+{
+ "@context": {
+      "@base":"http://es-vocab.ipsl.fr/source/",
+      "@vocab": "http://schema.org/",
+      "id": "@id",
+      "type":"@type",
+      "label": {"@id": "https://schema.org/name"},
+      "label_extended": {"@id": "https://schema.org/alternateName"},
+      "cohort": {"@id":"http://es-vocab.ipsl.fr/cohort"},  
+      "description":{"@id":"https://schema.org/description"},
+        "activity_participation":{
+          			"@id": "http://es-vocab.ipsl.fr/activity_participation/",
+                       "@type":"@id",
+                       "@context":{"@base":"http://es-vocab.ipsl.fr/activity/"}
+                      },
+
+      "organisation_id":{
+          			"@id": "http://es-vocab.ipsl.fr/organisation/",
+                       "@type":"@id",
+                       "@context":{"@base":"http://es-vocab.ipsl.fr/institution_id/"}
+                      },
+        "release_year":"releaseDate",
+        
+      "model_component":{
+        "@id":"http://es-vocab.ipsl.fr/model_component_composition",
+        "@type":"@id",
+        "@context":{"@base":"http://es-vocab.ipsl.fr/model_component/",
+          
+          			 "aerosol" : {"@id":"http://es-vocab.ipsl.fr/realm/aerosol",
+                                "@type":"@id"
+                                },
+                     "atmos" : {"@id":"http://es-vocab.ipsl.fr/realm/atmos",
+                                "@type":"@id"
+                                },
+                     "atmosChem" : {"@id":"http://es-vocab.ipsl.fr/realm/atmosChem",
+                                "@type":"@id"
+                                },
+                     "land" : {"@id":"http://es-vocab.ipsl.fr/realm/land",
+                                "@type":"@id"
+                                },
+                     "landIce" : {"@id":"http://es-vocab.ipsl.fr/realm/landIce",
+                                "@type":"@id"
+                                },
+                     
+                      "ocean" : {"@id":"http://es-vocab.ipsl.fr/realm/ocean",
+                                "@type":"@id"
+                                },
+                     "ocnBgchem" : {"@id":"http://es-vocab.ipsl.fr/realm/ocnBgchem",
+                                "@type":"@id"
+                                },
+                     "seaIce" : {"@id":"http://es-vocab.ipsl.fr/realm/seaIce",
+                                "@type":"@id"
+                                }
+          			
+          			
+          			
+          			
+              		}
+
+      }
+      
+    }
+
+}

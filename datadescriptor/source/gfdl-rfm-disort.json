@@ -8,50 +8,16 @@
         "source-specific-info": ""
     },
     "activity_participation": [
-        "RFMIP"
+        "rfmip"
     ],
     "cohort": [
         "Published"
     ],
-    "institution_id": [
-        "NOAA-GFDL"
-    ],
     "label": "GFDL-RFM-DISORT",
     "label_extended": "GFDL Reference Forward Model Line-by-Line with DISORT solver (March 2019)",
-    "model_component": {
-        "aerosol": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "atmos": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "atmosChem": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "land": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "landIce": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "ocean": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "ocnBgchem": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "seaIce": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        }
-    },
+    "model_component": {},
     "release_year": "2019",
-    "source_id": "GFDL-RFM-DISORT"
+    "organisation_id": [
+        "noaa-gfdl"
+    ]
 }

@@ -8,55 +8,28 @@
         "source-specific-info": ""
     },
     "activity_participation": [
-        "CMIP",
-        "DCPP",
-        "GMMIP",
-        "HighResMIP",
-        "OMIP",
-        "ScenarioMIP"
+        "cmip",
+        "dcpp",
+        "gmmip",
+        "highresmip",
+        "omip",
+        "scenariomip"
     ],
     "cohort": [
         "Published"
     ],
-    "institution_id": [
-        "CNRM-CERFACS"
-    ],
     "label": "CNRM-CM6-1-HR",
     "label_extended": "CNRM-CM6-1-HR",
     "model_component": {
-        "aerosol": {
-            "description": "prescribed monthly fields computed by TACTIC_v2 scheme",
-            "native_nominal_resolution": "100 km"
-        },
-        "atmos": {
-            "description": "Arpege 6.3 (T359; Gaussian Reduced with 181724 grid points in total distributed over 360 latitude circles (with 720 grid points per latitude circle between 32.2degN and 32.2degS reducing to 18 grid points per latitude circle at 89.6degN and 89.6degS); 91 levels; top level 78.4 km)",
-            "native_nominal_resolution": "100 km"
-        },
-        "atmosChem": {
-            "description": "OZL_v2",
-            "native_nominal_resolution": "100 km"
-        },
-        "land": {
-            "description": "Surfex 8.0c",
-            "native_nominal_resolution": "100 km"
-        },
-        "landIce": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "ocean": {
-            "description": "Nemo 3.6 (eORCA025, tripolar primarily 1/4deg; 1442 x 1050 longitude/latitude; 75 levels; top grid cell 0-1 m)",
-            "native_nominal_resolution": "25 km"
-        },
-        "ocnBgchem": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "seaIce": {
-            "description": "Gelato 6.1",
-            "native_nominal_resolution": "25 km"
-        }
+        "aerosol": "prescribed",
+        "atmos": "arpege",
+        "atmosChem": "ozl_v2",
+        "land": "surfex",
+        "ocean": "nemo",
+        "seaIce": "gelato"
     },
     "release_year": "2017",
-    "source_id": "CNRM-CM6-1-HR"
+    "organisation_id": [
+        "cnrm-cerfacs"
+    ]
 }

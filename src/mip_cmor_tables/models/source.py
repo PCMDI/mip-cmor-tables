@@ -59,10 +59,11 @@ class Source(ConfiguredBaseModel):
     validation_method: str = Field(default = "list")
     activity_participation: Optional[List[str]] 
     cohort: List[str] = Field(default_factory=list)
-    institution_id: List[str] = Field(default_factory=list)
+    organisation_id: List[str] = Field(default_factory=list)
+    label : str
     label_extended: Optional[str] 
-    license: Optional[Dict] 
-    model_component: Optional[str] 
+    license: Optional[Dict] = Field(default_factory=dict) 
+    model_component: Optional[dict] 
     release_year: Optional[int] 
 
 # Model rebuild

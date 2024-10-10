@@ -42,6 +42,7 @@ _dict = ids1 | ids2
 
 #pp(_dict.keys())
 
+knownK = []
 
 for key, value in _dict.items():
     print("source :", key)
@@ -56,48 +57,40 @@ for key, value in _dict.items():
                 "source-specific-info" : value['license_info'].get('source_specific_info',None)
                 }
         value.pop('license_info')
+    
 
 
     for k, v in value.items():
         if k not in data:
             data[k]=v
 
+    data["activity_participation"]=[item.lower() for item in data["activity_participation"]]
+
+
+    data["organisation_id"]=[item.lower() for item in data["institution_id"]]
+    data.pop("institution_id")
+    
+    model_component_new_dict={}
+    for k,v in data["model_component"].items():
+        if v["description"] != "none":
+            model_component_new_dict[k]=v["description"].split(" ")[0].lower()
+        if k not in knownK:
+            knownK.append(k)
+
+    data["model_component"]= model_component_new_dict
+    
+    data.pop("source_id")
+
     file_path = os.path.join(save_dir, f"{key.lower()}.json")
     with open(file_path, 'w') as f:
         print("   save :",key)
         json.dump(data, f, indent=4)
-
+print(knownK)
 print("source files saved to", save_dir)
 
     
 
 
-
-
 '''
-# Save each experiment as an individual JSON file
-for key, value in experiment_dict.items():
-    experiment_data = {
-        '@context':'000_context.jsonld',
-        'id': key.lower(),
-        'type':'experiment',
-        'experiment_id': key,
-        'activity_id': [v.lower() for v in value['activity_id']],
-        'additional_allowed_model_components': [v.lower() for v in value['additional_allowed_model_components']],
-        'description': value['description'],
-        'end_year': value['end_year'],
-        'experiment': value['experiment'],
-        'min_number_yrs_per_sim': value['min_number_yrs_per_sim'] if (value['min_number_yrs_per_sim'] != "none" and value['min_number_yrs_per_sim']!="" ) else None,
-        'parent_activity_id': [v.lower() for v in value['parent_activity_id']],
-        'parent_experiment_id': [v.lower() for v in value['parent_experiment_id']],
-        'required_model_components': [v.lower() for v in value['required_model_components']],
-        'start_year': value['start_year'],
-        'sub_experiment_id': [v.lower() for v in value['sub_experiment_id']],
-        'tier': value['tier']
-    }
-    file_path = os.path.join(save_dir, f"{key.lower()}.json")
-    with open(file_path, 'w') as f:
-        json.dump(experiment_data, f, indent=4)
-
 print("Experiment files saved to", save_dir)
 '''

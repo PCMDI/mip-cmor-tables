@@ -8,68 +8,40 @@
         "source-specific-info": ""
     },
     "activity_participation": [
-        "AerChemMIP",
-        "C4MIP",
-        "CDRMIP",
-        "CFMIP",
-        "CMIP",
-        "DAMIP",
-        "DCPP",
-        "FAFMIP",
-        "GMMIP",
-        "GeoMIP",
-        "HighResMIP",
-        "LS3MIP",
-        "LUMIP",
-        "OMIP",
-        "PAMIP",
-        "PMIP",
-        "RFMIP",
-        "ScenarioMIP",
-        "VolMIP"
+        "aerchemmip",
+        "c4mip",
+        "cdrmip",
+        "cfmip",
+        "cmip",
+        "damip",
+        "dcpp",
+        "fafmip",
+        "gmmip",
+        "geomip",
+        "highresmip",
+        "ls3mip",
+        "lumip",
+        "omip",
+        "pamip",
+        "pmip",
+        "rfmip",
+        "scenariomip",
+        "volmip"
     ],
     "cohort": [
         "Published"
     ],
-    "institution_id": [
-        "IPSL"
-    ],
     "label": "IPSL-CM6A-LR",
     "label_extended": "IPSL-CM6A-LR",
     "model_component": {
-        "aerosol": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "atmos": {
-            "description": "LMDZ (NPv6, N96; 144 x 143 longitude/latitude; 79 levels; top level 80000 m)",
-            "native_nominal_resolution": "250 km"
-        },
-        "atmosChem": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "land": {
-            "description": "ORCHIDEE (v2.0, Water/Carbon/Energy mode)",
-            "native_nominal_resolution": "250 km"
-        },
-        "landIce": {
-            "description": "none",
-            "native_nominal_resolution": "none"
-        },
-        "ocean": {
-            "description": "NEMO-OPA (eORCA1.3, tripolar primarily 1deg; 362 x 332 longitude/latitude; 75 levels; top grid cell 0-2 m)",
-            "native_nominal_resolution": "100 km"
-        },
-        "ocnBgchem": {
-            "description": "NEMO-PISCES",
-            "native_nominal_resolution": "100 km"
-        },
-        "seaIce": {
-            "description": "NEMO-LIM3",
-            "native_nominal_resolution": "100 km"
-        }
+        "atmos": "lmdz",
+        "land": "orchidee",
+        "ocean": "nemo-opa",
+        "ocnBgchem": "nemo-pisces",
+        "seaIce": "nemo-lim3"
     },
     "release_year": "2017",
-    "source_id": "IPSL-CM6A-LR"
+    "organisation_id": [
+        "ipsl"
+    ]
 }
