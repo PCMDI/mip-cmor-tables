@@ -1,0 +1,28 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "uci",
+    "acronyms": [
+        "UCI"
+    ],
+    "aliases": [
+        "UC Irvine"
+    ],
+    "cmip-acronym": "UCI",
+    "established": 1965,
+    "labels": [],
+    "location": {
+        "city": "Irvine",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 33.64535,
+        "lon": -117.842642
+    },
+    "name": "University of California, Irvine",
+    "ror": "04gyf1771",
+    "url": [
+        "http://uci.edu/"
+    ],
+    "type": "institution"
+}

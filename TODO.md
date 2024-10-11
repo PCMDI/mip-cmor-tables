@@ -35,9 +35,11 @@ todo.md # just to see where i am and what im planning to do
 | --------------- |---------------|
 | activityDD|  Done (BUT need predicate def)  |
 | experimentDD|  Done (BUT need predicate def) |   
-| reportingIntervalDD|  
+| reportingIntervalDD| (as frequency need rename ?) Done | 
 | gridLabelDD|  
-| sourceDD|  
+| sourceDD|  Done |
+| resolutionDD |Done|
+| License | Done |
 | variableRootDD | 
 | datasetVariantDD|  
 | directoryDateDD  | 
@@ -48,7 +50,9 @@ todo.md # just to see where i am and what im planning to do
 | standardNameDD | 
 | dataNodeDD  |
 | datasetGroupDD|  
-| sourceInstitutionDD|  
+| organisationDD|
+| institutionDD |
+| consortiaDD |
 | nominal- ResolutionDD (nominalResolutionDD) |Done| 
 | productTypeDD  |
 | realmDD |Done |
@@ -208,7 +212,11 @@ Source "1" --> "1" License
 
 
 ```
-### Ontology
+#### TODO : upgrade pydantic with embeded object 
+for now the pydantic model only check/code the id (as str) .. do we propagate to include the entire object pointed by the id ?  
+
+
+## Ontology : predicates use with ld part 
 ``` mermaid
 ---
 title: es-vocab Ontology
@@ -335,6 +343,9 @@ classDiagram
 
 
 ```
+# Define together Mandatory/optionnal 
+for now, it is only a first guess 
+
 # Predicate to find or define
 
 * every type/DD
@@ -360,7 +371,7 @@ classDiagram
 
 * in CMIP6Plus JsonldIII =>
 source_id => giss-e2-1-g
-model-component with id : varies with pysics appears 2 times (OK) pointing to same object (Not OK)
+model-component with id : "varies with pysics" appears 2 times (OK) pointing to same object (Not OK)
 
 * license is "sub class" in source to add specific info
 

@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rss",
+    "acronyms": [
+        "RSS"
+    ],
+    "aliases": [],
+    "cmip-acronym": "RSS",
+    "established": 1974,
+    "labels": [],
+    "location": {
+        "city": "Santa Rosa",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 38.443733,
+        "lon": -122.717185
+    },
+    "name": "Remote Sensing Systems (United States)",
+    "ror": "01vp8h012",
+    "url": [
+        "http://www.remss.com/"
+    ],
+    "type": "institution"
+}

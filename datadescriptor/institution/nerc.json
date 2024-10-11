@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nerc",
+    "acronyms": [
+        "NERC"
+    ],
+    "aliases": [],
+    "cmip-acronym": "NERC",
+    "established": 1965,
+    "labels": [],
+    "location": {
+        "city": "Swindon",
+        "country": [
+            "United Kingdom",
+            "GB"
+        ],
+        "lat": 51.55797,
+        "lon": -1.78116
+    },
+    "name": "Natural Environment Research Council",
+    "ror": "02b5d8509",
+    "url": [
+        "https://www.ukri.org/councils/nerc/"
+    ],
+    "type": "institution"
+}

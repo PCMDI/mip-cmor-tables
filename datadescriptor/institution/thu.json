@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "thu",
+    "acronyms": [
+        "THU"
+    ],
+    "aliases": [],
+    "cmip-acronym": "THU",
+    "established": 1911,
+    "labels": [],
+    "location": {
+        "city": "Beijing",
+        "country": [
+            "China",
+            "CN"
+        ],
+        "lat": 39.999585,
+        "lon": 116.325414
+    },
+    "name": "Tsinghua University",
+    "ror": "03cve4549",
+    "url": [
+        "http://www.tsinghua.edu.cn/publish/newthuen/"
+    ],
+    "type": "institution"
+}

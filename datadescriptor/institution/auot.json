@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "auot",
+    "acronyms": [],
+    "aliases": [
+        "Aristotelian University"
+    ],
+    "cmip-acronym": "AUoT",
+    "established": 1925,
+    "labels": [],
+    "location": {
+        "city": "Thessaloniki",
+        "country": [
+            "Greece",
+            "GR"
+        ],
+        "lat": 40.64361,
+        "lon": 40.64361
+    },
+    "name": "Aristotle University of Thessaloniki",
+    "ror": "02j61yw88",
+    "url": [
+        "https://www.auth.gr/en"
+    ],
+    "type": "institution"
+}

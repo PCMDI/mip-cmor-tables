@@ -1,0 +1,29 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nuist",
+    "acronyms": [
+        "NU",
+        "NJU "
+    ],
+    "aliases": [
+        "Nanking University"
+    ],
+    "cmip-acronym": "NUIST",
+    "established": 1902,
+    "labels": [],
+    "location": {
+        "city": "Nanjing",
+        "country": [
+            "China",
+            "CN"
+        ],
+        "lat": 32.056111,
+        "lon": 118.775
+    },
+    "name": "Nanjing University",
+    "ror": "01rxvg760",
+    "url": [
+        "http://www.nju.edu.cn/english/"
+    ],
+    "type": "institution"
+}

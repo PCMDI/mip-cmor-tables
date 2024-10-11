@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cccma",
+    "acronyms": [
+        "ECCC"
+    ],
+    "aliases": [],
+    "cmip-acronym": "CCCma",
+    "established": 1971,
+    "labels": [],
+    "location": {
+        "city": "Gatineau",
+        "country": [
+            "Canada",
+            "CA"
+        ],
+        "lat": 45.425373,
+        "lon": -75.699862
+    },
+    "name": "Environment and Climate Change Canada",
+    "ror": "026ny0e17",
+    "url": [
+        "https://www.canada.ca/en/environment-climate-change.html"
+    ],
+    "type": "institution"
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cas",
+    "acronyms": [
+        "CAS"
+    ],
+    "aliases": [],
+    "cmip-acronym": "CAS",
+    "established": 1949,
+    "labels": [],
+    "location": {
+        "city": "Beijing",
+        "country": [
+            "China",
+            "CN"
+        ],
+        "lat": 39.9075,
+        "lon": 116.39723
+    },
+    "name": "Chinese Academy of Sciences",
+    "ror": "034t30j35",
+    "url": [
+        "http://english.cas.cn/"
+    ],
+    "type": "institution"
+}

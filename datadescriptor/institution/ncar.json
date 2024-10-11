@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ncar",
+    "acronyms": [
+        "NCAR"
+    ],
+    "aliases": [],
+    "cmip-acronym": "NCAR",
+    "established": 1930,
+    "labels": [],
+    "location": {
+        "city": "Boulder",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 40.01499,
+        "lon": 40.01499
+    },
+    "name": "National Center for Atmospheric Research",
+    "ror": "05cvfcr44",
+    "url": [
+        "https://ncar.ucar.edu/"
+    ],
+    "type": "institution"
+}

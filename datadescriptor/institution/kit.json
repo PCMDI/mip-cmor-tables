@@ -1,0 +1,29 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "kit",
+    "acronyms": [
+        "KIT"
+    ],
+    "aliases": [
+        "Karlsruhe Institute of Technology - The Research University in the Helmholtz Association",
+        "Das Karlsruher Institut f\u00fcr Technologie (KIT) \u2013 Die Forschungsuniversit\u00e4t in der Helmholtz-Gemeinschaft"
+    ],
+    "cmip-acronym": "KIT",
+    "established": 2009,
+    "labels": [],
+    "location": {
+        "city": "Karlsruhe",
+        "country": [
+            "Germany",
+            "DE"
+        ],
+        "lat": 49.00937,
+        "lon": 49.00937
+    },
+    "name": "Karlsruhe Institute of Technology",
+    "ror": "04t3en479",
+    "url": [
+        "http://www.kit.edu/english/"
+    ],
+    "type": "institution"
+}

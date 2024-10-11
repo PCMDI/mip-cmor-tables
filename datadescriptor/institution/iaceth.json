@@ -1,0 +1,29 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "iaceth",
+    "acronyms": [],
+    "aliases": [
+        "Swiss Federal Institute of Technology in Zurich",
+        "Eidgen\u00f6ssische Technische Hochschule Z\u00fcrich",
+        "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Zurich",
+        "Politecnico Federale di Zurigo"
+    ],
+    "cmip-acronym": "IACETH",
+    "established": 1855,
+    "labels": [],
+    "location": {
+        "city": "Zurich",
+        "country": [
+            "Switzerland",
+            "CH"
+        ],
+        "lat": 47.36667,
+        "lon": 8.55
+    },
+    "name": "ETH Zurich",
+    "ror": "05a28rw58",
+    "url": [
+        "https://ethz.ch"
+    ],
+    "type": "institution"
+}

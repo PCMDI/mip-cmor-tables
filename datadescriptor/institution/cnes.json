@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cnes",
+    "acronyms": [
+        "CNES"
+    ],
+    "aliases": [],
+    "cmip-acronym": "CNES",
+    "established": 1961,
+    "labels": [],
+    "location": {
+        "city": "Paris",
+        "country": [
+            "France",
+            "FR"
+        ],
+        "lat": 48.85341,
+        "lon": 2.3488
+    },
+    "name": "Centre National d'\u00c9tudes Spatiales",
+    "ror": "04h1h0y33",
+    "url": [
+        "https://www.cnes.fr"
+    ],
+    "type": "institution"
+}

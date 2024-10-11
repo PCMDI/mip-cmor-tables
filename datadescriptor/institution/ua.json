@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ua",
+    "acronyms": [
+        "UA"
+    ],
+    "aliases": [],
+    "cmip-acronym": "UA",
+    "established": 1885,
+    "labels": [],
+    "location": {
+        "city": "Tucson",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 32.22174,
+        "lon": -110.92648
+    },
+    "name": "University of Arizona",
+    "ror": "03m2x1q45",
+    "url": [
+        "http://www.arizona.edu/"
+    ],
+    "type": "institution"
+}

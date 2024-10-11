@@ -1,0 +1,28 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mri",
+    "acronyms": [
+        "JMA"
+    ],
+    "aliases": [
+        "Kish\u014d-ch\u014d"
+    ],
+    "cmip-acronym": "MRI",
+    "established": 1956,
+    "labels": [],
+    "location": {
+        "city": "Tokyo",
+        "country": [
+            "Japan",
+            "JP"
+        ],
+        "lat": 35.6895,
+        "lon": 139.69171
+    },
+    "name": "Japan Meteorological Agency",
+    "ror": "02772kk97",
+    "url": [
+        "http://www.jma.go.jp/jma/indexe.html"
+    ],
+    "type": "institution"
+}

@@ -6,7 +6,7 @@
       "@vocab": "http://schema.org/",
       "id": "@id",
       "type":"@type",
-      "experiment": "http://schema.org/disambiguatingDescription",
+      "experiment": "http://es-vocab.ipsl.fr/experiment/",
       "activity_id":{"@id": "http://es-vocab.ipsl.fr/activity/",
                        "@type":"@id",
                        "@context":{"@base":"http://es-vocab.ipsl.fr/activity/"}

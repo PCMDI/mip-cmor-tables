@@ -1,0 +1,29 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nasa-jpl",
+    "acronyms": [
+        "JPL"
+    ],
+    "aliases": [
+        "Jet Propulsion Lab",
+        "Jet Propulsion Laboratory, California Institute of Technology"
+    ],
+    "cmip-acronym": "NASA-JPL",
+    "established": 1936,
+    "labels": [],
+    "location": {
+        "city": "La Ca\u00f1ada Flintridge",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 34.19917,
+        "lon": -118.18785
+    },
+    "name": "Jet Propulsion Laboratory",
+    "ror": "027k65916",
+    "url": [
+        "http://www.jpl.nasa.gov/"
+    ],
+    "type": "institution"
+}

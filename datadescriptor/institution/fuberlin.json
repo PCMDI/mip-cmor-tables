@@ -1,0 +1,29 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fuberlin",
+    "acronyms": [
+        "FU"
+    ],
+    "aliases": [
+        "FU Berlin",
+        "Free University of Berlin"
+    ],
+    "cmip-acronym": "FUBerlin",
+    "established": 1948,
+    "labels": [],
+    "location": {
+        "city": "Berlin",
+        "country": [
+            "Germany",
+            "DE"
+        ],
+        "lat": 52.52437,
+        "lon": 52.52437
+    },
+    "name": "Freie Universit\u00e4t Berlin",
+    "ror": "046ak2485",
+    "url": [
+        "https://www.fu-berlin.de"
+    ],
+    "type": "institution"
+}

@@ -1,0 +1,32 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "pcmdi",
+    "acronyms": [
+        "LLNL",
+        "LLL"
+    ],
+    "aliases": [
+        "United States Department of Energy National Nuclear Security Administration Lawrence Livermore National Laboratory",
+        "U.S. Department of Energy National Nuclear Security Administration Los Alamos National Laboratory",
+        "United States Department of Energy Los Alamos National Laboratory",
+        "U.S. Department of Energy Los Alamos National Laboratory"
+    ],
+    "cmip-acronym": "PCMDI",
+    "established": 1952,
+    "labels": [],
+    "location": {
+        "city": "Livermore",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 37.68187,
+        "lon": -121.76801
+    },
+    "name": "Lawrence Livermore National Laboratory",
+    "ror": "041nk4h53",
+    "url": [
+        "https://www.llnl.gov/"
+    ],
+    "type": "institution"
+}

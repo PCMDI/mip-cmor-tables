@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "uw",
+    "acronyms": [
+        "UW"
+    ],
+    "aliases": [],
+    "cmip-acronym": "UW",
+    "established": 1861,
+    "labels": [],
+    "location": {
+        "city": "Seattle",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 47.60621,
+        "lon": -122.33207
+    },
+    "name": "University of Washington",
+    "ror": "00cvxb145",
+    "url": [
+        "http://www.washington.edu/"
+    ],
+    "type": "institution"
+}

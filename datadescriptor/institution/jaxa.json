@@ -1,0 +1,29 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "jaxa",
+    "acronyms": [
+        "JAXA"
+    ],
+    "aliases": [
+        "Dokuritsu-gy\u014dsei-h\u014djin Uch\u016b K\u014dk\u016b Kenky\u016b Kaihatsu Kik\u014d",
+        "Independent Administrative Institution on Aerospace Research and Development"
+    ],
+    "cmip-acronym": "JAXA",
+    "established": 2003,
+    "labels": [],
+    "location": {
+        "city": "Tokyo",
+        "country": [
+            "Japan",
+            "JP"
+        ],
+        "lat": 35.680834,
+        "lon": 139.558269
+    },
+    "name": "Japan Aerospace Exploration Agency",
+    "ror": "059yhyy33",
+    "url": [
+        "http://global.jaxa.jp/"
+    ],
+    "type": "institution"
+}

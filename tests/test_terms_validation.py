@@ -1,6 +1,7 @@
 from mip_cmor_tables.models.frequency import Frequency
 from mip_cmor_tables.models.activity import Activity
 from mip_cmor_tables.models.experiment import Experiment
+from mip_cmor_tables.models.institution import Institution
 from mip_cmor_tables.models.license import License
 from mip_cmor_tables.models.model_component import ModelComponent
 from mip_cmor_tables.models.realm import Realm
@@ -53,4 +54,7 @@ def test_realm():
 
 def test_model_component():
     validate_terms(Path("datadescriptor/model_component/"),ModelComponent)
+
+def test_model_institutions():
+    validate_terms(Path("datadescriptor/institution/"),Institution)
 

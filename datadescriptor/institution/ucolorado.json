@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ucolorado",
+    "acronyms": [
+        "CU"
+    ],
+    "aliases": [],
+    "cmip-acronym": "UColorado",
+    "established": 1876,
+    "labels": [],
+    "location": {
+        "city": "Boulder",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 40.01499,
+        "lon": -105.27055
+    },
+    "name": "University of Colorado System",
+    "ror": "00jc20583",
+    "url": [
+        "http://www.cu.edu/"
+    ],
+    "type": "institution"
+}

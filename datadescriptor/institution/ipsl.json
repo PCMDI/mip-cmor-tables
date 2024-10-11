@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ipsl",
+    "acronyms": [
+        "IPSL"
+    ],
+    "aliases": [],
+    "cmip-acronym": "IPSL",
+    "established": 1991,
+    "labels": [],
+    "location": {
+        "city": "Paris",
+        "country": [
+            "France",
+            "FR"
+        ],
+        "lat": 48.855675,
+        "lon": 2.332105
+    },
+    "name": "Institut Pierre-Simon Laplace",
+    "ror": "02haar591",
+    "url": [
+        "https://www.ipsl.fr/en/"
+    ],
+    "type": "institution"
+}

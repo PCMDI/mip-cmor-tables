@@ -1,0 +1,24 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "uootago",
+    "acronyms": [],
+    "aliases": [],
+    "cmip-acronym": "UoOtago",
+    "established": 1869,
+    "labels": [],
+    "location": {
+        "city": "Dunedin",
+        "country": [
+            "New Zealand",
+            "NZ"
+        ],
+        "lat": -45.87416,
+        "lon": -45.87416
+    },
+    "name": "University of Otago",
+    "ror": "01jmxt844",
+    "url": [
+        "http://www.otago.ac.nz/"
+    ],
+    "type": "institution"
+}

@@ -1,0 +1,24 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "uoleeds",
+    "acronyms": [],
+    "aliases": [],
+    "cmip-acronym": "UoLeeds",
+    "established": 1904,
+    "labels": [],
+    "location": {
+        "city": "Leeds",
+        "country": [
+            "United Kingdom",
+            "GB"
+        ],
+        "lat": 53.79648,
+        "lon": 53.79648
+    },
+    "name": "University of Leeds",
+    "ror": "024mrxd33",
+    "url": [
+        "http://www.leeds.ac.uk/"
+    ],
+    "type": "institution"
+}

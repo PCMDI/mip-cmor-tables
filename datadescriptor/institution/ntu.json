@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ntu",
+    "acronyms": [
+        "NTU"
+    ],
+    "aliases": [],
+    "cmip-acronym": "NTU",
+    "established": 1928,
+    "labels": [],
+    "location": {
+        "city": "Taipei",
+        "country": [
+            "Taiwan",
+            "TW"
+        ],
+        "lat": 25.016,
+        "lon": 121.536
+    },
+    "name": "National Taiwan University",
+    "ror": "05bqach95",
+    "url": [
+        "http://www.ntu.edu.tw/english/"
+    ],
+    "type": "institution"
+}

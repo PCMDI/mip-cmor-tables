@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mohc",
+    "acronyms": [],
+    "aliases": [
+        "Meteorological Office"
+    ],
+    "cmip-acronym": "MOHC",
+    "established": 1854,
+    "labels": [],
+    "location": {
+        "city": "Exeter",
+        "country": [
+            "United Kingdom",
+            "GB"
+        ],
+        "lat": 50.7236,
+        "lon": 50.7236
+    },
+    "name": "Met Office",
+    "ror": "01ch2yn61",
+    "url": [
+        "http://www.metoffice.gov.uk/"
+    ],
+    "type": "institution"
+}

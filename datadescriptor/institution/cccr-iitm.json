@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cccr-iitm",
+    "acronyms": [
+        "IITM"
+    ],
+    "aliases": [],
+    "cmip-acronym": "CCCR-IITM",
+    "established": 1962,
+    "labels": [],
+    "location": {
+        "city": "Pune",
+        "country": [
+            "India",
+            "IN"
+        ],
+        "lat": 18.51957,
+        "lon": 73.85535
+    },
+    "name": "Indian Institute of Tropical Meteorology",
+    "ror": "03jf2m686",
+    "url": [
+        "http://www.tropmet.res.in/"
+    ],
+    "type": "institution"
+}

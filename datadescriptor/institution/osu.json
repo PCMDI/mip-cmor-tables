@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "osu",
+    "acronyms": [
+        "OSU"
+    ],
+    "aliases": [],
+    "cmip-acronym": "OSU",
+    "established": 1868,
+    "labels": [],
+    "location": {
+        "city": "Corvallis",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 44.56457,
+        "lon": -123.26204
+    },
+    "name": "Oregon State University",
+    "ror": "00ysfqy60",
+    "url": [
+        "http://oregonstate.edu/"
+    ],
+    "type": "institution"
+}

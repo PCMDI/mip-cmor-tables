@@ -1,0 +1,24 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ureading",
+    "acronyms": [],
+    "aliases": [],
+    "cmip-acronym": "UReading",
+    "established": 1926,
+    "labels": [],
+    "location": {
+        "city": "Reading",
+        "country": [
+            "United Kingdom",
+            "GB"
+        ],
+        "lat": 51.440832,
+        "lon": -0.942503
+    },
+    "name": "University of Reading",
+    "ror": "05v62cm79",
+    "url": [
+        "http://www.reading.ac.uk/"
+    ],
+    "type": "institution"
+}

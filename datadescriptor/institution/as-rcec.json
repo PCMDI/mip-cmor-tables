@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "as-rcec",
+    "acronyms": [
+        "RCEC"
+    ],
+    "aliases": [],
+    "cmip-acronym": "AS-RCEC",
+    "established": 0,
+    "labels": [],
+    "location": {
+        "city": "Taipei",
+        "country": [
+            "Taiwan",
+            "TW"
+        ],
+        "lat": 25.040712,
+        "lon": 121.614171
+    },
+    "name": "Research Center for Environmental Changes, Academia Sinica",
+    "ror": "050qpg053",
+    "url": [
+        "http://www.rcec.sinica.edu.tw/"
+    ],
+    "type": "institution"
+}

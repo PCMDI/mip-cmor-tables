@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "uofmd",
+    "acronyms": [
+        "UMD"
+    ],
+    "aliases": [],
+    "cmip-acronym": "UofMD",
+    "established": 1856,
+    "labels": [],
+    "location": {
+        "city": "College Park",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 38.98067,
+        "lon": -76.93692
+    },
+    "name": "University of Maryland, College Park",
+    "ror": "047s2c258",
+    "url": [
+        "http://www.umd.edu/"
+    ],
+    "type": "institution"
+}

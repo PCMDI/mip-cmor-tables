@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "pnnl-waccem",
+    "acronyms": [
+        "PNNL"
+    ],
+    "aliases": [],
+    "cmip-acronym": "PNNL-WACCEM",
+    "established": 1965,
+    "labels": [],
+    "location": {
+        "city": "Richland",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 46.28569,
+        "lon": -119.28446
+    },
+    "name": "Pacific Northwest National Laboratory",
+    "ror": "05h992307",
+    "url": [
+        "http://www.pnnl.gov/"
+    ],
+    "type": "institution"
+}

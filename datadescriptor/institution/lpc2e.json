@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "lpc2e",
+    "acronyms": [
+        "LPC2E"
+    ],
+    "aliases": [],
+    "cmip-acronym": "LPC2E",
+    "established": 2012,
+    "labels": [],
+    "location": {
+        "city": "Orl\u00e9ans",
+        "country": [
+            "France",
+            "FR"
+        ],
+        "lat": 47.90289,
+        "lon": 47.90289
+    },
+    "name": "Laboratoire de Physique et Chimie de l\u2019Environnement et de l\u2019Espace",
+    "ror": "049k66y27",
+    "url": [
+        "https://www.lpc2e.cnrs.fr"
+    ],
+    "type": "institution"
+}

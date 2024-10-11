@@ -1,0 +1,33 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "noaa-ncei",
+    "acronyms": [
+        "NCEI",
+        "NOAA NCEI"
+    ],
+    "aliases": [
+        "National Climatic Data Center",
+        "United States National Environmental Satellites, Data, and Information Service National Centers for Environmental Information",
+        "United States National Centers for Environmental Information",
+        "U.S. National Centers for Environmental Information",
+        "National Centers for Environmental Information"
+    ],
+    "cmip-acronym": "NOAA-NCEI",
+    "established": 1934,
+    "labels": [],
+    "location": {
+        "city": "Asheville",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 35.60095,
+        "lon": -82.55402
+    },
+    "name": "NOAA National Centers for Environmental Information",
+    "ror": "04r0wrp59",
+    "url": [
+        "https://www.ncei.noaa.gov"
+    ],
+    "type": "institution"
+}

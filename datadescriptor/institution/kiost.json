@@ -1,0 +1,28 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "kiost",
+    "acronyms": [
+        "KIOST"
+    ],
+    "aliases": [
+        "Korean Ocean Research and Development Institute"
+    ],
+    "cmip-acronym": "KIOST",
+    "established": 1973,
+    "labels": [],
+    "location": {
+        "city": "Busan",
+        "country": [
+            "South Korea",
+            "KR"
+        ],
+        "lat": 35.10168,
+        "lon": 129.03004
+    },
+    "name": "Korea Institute of Ocean Science and Technology",
+    "ror": "032m55064",
+    "url": [
+        "http://eng.kiost.ac/"
+    ],
+    "type": "institution"
+}

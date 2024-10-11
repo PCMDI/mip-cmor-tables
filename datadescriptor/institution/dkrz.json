@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dkrz",
+    "acronyms": [
+        "DKRZ"
+    ],
+    "aliases": [],
+    "cmip-acronym": "DKRZ",
+    "established": 1987,
+    "labels": [],
+    "location": {
+        "city": "Hamburg",
+        "country": [
+            "Germany",
+            "DE"
+        ],
+        "lat": 53.55073,
+        "lon": 9.99302
+    },
+    "name": "German Climate Computing Centre",
+    "ror": "03ztgj037",
+    "url": [
+        "https://www.dkrz.de/"
+    ],
+    "type": "institution"
+}

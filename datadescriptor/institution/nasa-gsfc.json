@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nasa-gsfc",
+    "acronyms": [
+        "GSFC"
+    ],
+    "aliases": [],
+    "cmip-acronym": "NASA-GSFC",
+    "established": 1959,
+    "labels": [],
+    "location": {
+        "city": "Greenbelt",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 39.00455,
+        "lon": -76.87553
+    },
+    "name": "Goddard Space Flight Center",
+    "ror": "0171mag52",
+    "url": [
+        "https://www.nasa.gov/centers/goddard/home/index.html"
+    ],
+    "type": "institution"
+}

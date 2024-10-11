@@ -1,0 +1,28 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "vua",
+    "acronyms": [
+        "VU"
+    ],
+    "aliases": [
+        "VU Amsterdam"
+    ],
+    "cmip-acronym": "VUA",
+    "established": 1880,
+    "labels": [],
+    "location": {
+        "city": "Amsterdam",
+        "country": [
+            "Netherlands",
+            "NL"
+        ],
+        "lat": 52.37403,
+        "lon": 4.88969
+    },
+    "name": "Vrije Universiteit Amsterdam",
+    "ror": "008xxew50",
+    "url": [
+        "https://vu.nl/"
+    ],
+    "type": "institution"
+}

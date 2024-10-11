@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mpi-m",
+    "acronyms": [
+        "MPI-M"
+    ],
+    "aliases": [],
+    "cmip-acronym": "MPI-M",
+    "established": 1975,
+    "labels": [],
+    "location": {
+        "city": "Hamburg",
+        "country": [
+            "Germany",
+            "DE"
+        ],
+        "lat": 53.567794,
+        "lon": 9.975468
+    },
+    "name": "Max Planck Institute for Meteorology",
+    "ror": "05esem239",
+    "url": [
+        "http://www.mpimet.mpg.de/en/home.html"
+    ],
+    "type": "institution"
+}

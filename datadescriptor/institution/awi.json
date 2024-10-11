@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "awi",
+    "acronyms": [
+        "AWI"
+    ],
+    "aliases": [],
+    "cmip-acronym": "AWI",
+    "established": 1980,
+    "labels": [],
+    "location": {
+        "city": "Bremerhaven",
+        "country": [
+            "Germany",
+            "DE"
+        ],
+        "lat": 53.53615,
+        "lon": 8.59298
+    },
+    "name": "Alfred Wegener Institute for Polar and Marine Research",
+    "ror": "032e6b942",
+    "url": [
+        "https://www.awi.de"
+    ],
+    "type": "institution"
+}

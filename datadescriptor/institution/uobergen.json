@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "uobergen",
+    "acronyms": [
+        "UiB"
+    ],
+    "aliases": [],
+    "cmip-acronym": "UoBergen",
+    "established": 1946,
+    "labels": [],
+    "location": {
+        "city": "Bergen",
+        "country": [
+            "Norway",
+            "NO"
+        ],
+        "lat": 60.39299,
+        "lon": 60.39299
+    },
+    "name": "University of Bergen",
+    "ror": "03zga2b32",
+    "url": [
+        "http://www.uib.no/"
+    ],
+    "type": "institution"
+}

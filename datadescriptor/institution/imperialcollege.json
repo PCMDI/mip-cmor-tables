@@ -1,0 +1,24 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "imperialcollege",
+    "acronyms": [],
+    "aliases": [],
+    "cmip-acronym": "ImperialCollege",
+    "established": 1907,
+    "labels": [],
+    "location": {
+        "city": "London",
+        "country": [
+            "United Kingdom",
+            "GB"
+        ],
+        "lat": 51.4986,
+        "lon": -0.175478
+    },
+    "name": "Imperial College London",
+    "ror": "041kmwe10",
+    "url": [
+        "http://www.imperial.ac.uk/"
+    ],
+    "type": "institution"
+}

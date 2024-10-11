@@ -1,0 +1,24 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ncas",
+    "acronyms": [],
+    "aliases": [],
+    "cmip-acronym": "NCAS",
+    "established": 1997,
+    "labels": [],
+    "location": {
+        "city": "Islamabad",
+        "country": [
+            "Pakistan",
+            "PK"
+        ],
+        "lat": 33.72148,
+        "lon": 73.04329
+    },
+    "name": "Uks",
+    "ror": "03q36cn05",
+    "url": [
+        "http://www.uksresearch.com/"
+    ],
+    "type": "institution"
+}

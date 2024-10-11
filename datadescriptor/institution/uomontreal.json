@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "uomontreal",
+    "acronyms": [
+        "UdeM"
+    ],
+    "aliases": [],
+    "cmip-acronym": "UoMontreal",
+    "established": 1878,
+    "labels": [],
+    "location": {
+        "city": "Montreal",
+        "country": [
+            "Canada",
+            "CA"
+        ],
+        "lat": 45.50884,
+        "lon": 45.50884
+    },
+    "name": "Universit\u00e9 de Montr\u00e9al",
+    "ror": "0161xgx34",
+    "url": [
+        "http://www.umontreal.ca/english/"
+    ],
+    "type": "institution"
+}

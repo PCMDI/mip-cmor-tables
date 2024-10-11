@@ -1,0 +1,28 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "snu",
+    "acronyms": [
+        "SNU"
+    ],
+    "aliases": [
+        "Seoul Daehakgyo"
+    ],
+    "cmip-acronym": "SNU",
+    "established": 1946,
+    "labels": [],
+    "location": {
+        "city": "Seoul",
+        "country": [
+            "South Korea",
+            "KR"
+        ],
+        "lat": 37.460155,
+        "lon": 126.951894
+    },
+    "name": "Seoul National University",
+    "ror": "04h9pn542",
+    "url": [
+        "http://www.snu.ac.kr/index.html"
+    ],
+    "type": "institution"
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nasa-larc",
+    "acronyms": [
+        "LaRC"
+    ],
+    "aliases": [],
+    "cmip-acronym": "NASA-LaRC",
+    "established": 1917,
+    "labels": [],
+    "location": {
+        "city": "Hampton",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 37.02987,
+        "lon": -76.34522
+    },
+    "name": "Langley Research Center",
+    "ror": "0399mhs52",
+    "url": [
+        "http://www.nasa.gov/langley"
+    ],
+    "type": "institution"
+}

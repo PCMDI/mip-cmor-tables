@@ -1,0 +1,24 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mpi-b",
+    "acronyms": [],
+    "aliases": [],
+    "cmip-acronym": "MPI-B",
+    "established": 1997,
+    "labels": [],
+    "location": {
+        "city": "Jena",
+        "country": [
+            "Germany",
+            "DE"
+        ],
+        "lat": 50.910556,
+        "lon": 11.567222
+    },
+    "name": "Max Planck Institute for Biogeochemistry",
+    "ror": "051yxp643",
+    "url": [
+        "http://www.bgc-jena.mpg.de/"
+    ],
+    "type": "institution"
+}

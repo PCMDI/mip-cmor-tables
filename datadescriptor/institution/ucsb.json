@@ -1,0 +1,28 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ucsb",
+    "acronyms": [
+        "UCSB"
+    ],
+    "aliases": [
+        "UC Santa Barbara"
+    ],
+    "cmip-acronym": "UCSB",
+    "established": 1891,
+    "labels": [],
+    "location": {
+        "city": "Santa Barbara",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 34.42083,
+        "lon": -119.69819
+    },
+    "name": "University of California, Santa Barbara",
+    "ror": "02t274463",
+    "url": [
+        "http://www.ucsb.edu/"
+    ],
+    "type": "institution"
+}

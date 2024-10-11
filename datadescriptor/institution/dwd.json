@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dwd",
+    "acronyms": [
+        "DWD"
+    ],
+    "aliases": [],
+    "cmip-acronym": "DWD",
+    "established": 1952,
+    "labels": [],
+    "location": {
+        "city": "Offenbach",
+        "country": [
+            "Germany",
+            "DE"
+        ],
+        "lat": 50.103322,
+        "lon": 8.747606
+    },
+    "name": "German Meteorological Service",
+    "ror": "02nrqs528",
+    "url": [
+        "http://www.dwd.de/"
+    ],
+    "type": "institution"
+}

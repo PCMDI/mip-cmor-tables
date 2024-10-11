@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "esso",
+    "acronyms": [
+        "INCOIS"
+    ],
+    "aliases": [],
+    "cmip-acronym": "ESSO",
+    "established": 1999,
+    "labels": [],
+    "location": {
+        "city": "Hyderabad",
+        "country": [
+            "India",
+            "IN"
+        ],
+        "lat": 17.528234,
+        "lon": 78.400195
+    },
+    "name": "Indian National Centre for Ocean Information Services",
+    "ror": "04xbqmj23",
+    "url": [
+        "http://www.incois.gov.in/portal/index.jsp"
+    ],
+    "type": "institution"
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "bas",
+    "acronyms": [
+        "BAS"
+    ],
+    "aliases": [],
+    "cmip-acronym": "BAS",
+    "established": 1962,
+    "labels": [],
+    "location": {
+        "city": "Cambridge",
+        "country": [
+            "United Kingdom",
+            "GB"
+        ],
+        "lat": 52.212965,
+        "lon": 52.212965
+    },
+    "name": "British Antarctic Survey",
+    "ror": "01rhff309",
+    "url": [
+        "https://www.bas.ac.uk/"
+    ],
+    "type": "institution"
+}

@@ -1,0 +1,24 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "uooulu",
+    "acronyms": [],
+    "aliases": [],
+    "cmip-acronym": "UoOulu",
+    "established": 1958,
+    "labels": [],
+    "location": {
+        "city": "Oulu",
+        "country": [
+            "Finland",
+            "FI"
+        ],
+        "lat": 65.01236,
+        "lon": 65.01236
+    },
+    "name": "University of Oulu",
+    "ror": "03yj89h83",
+    "url": [
+        "http://www.oulu.fi/english/"
+    ],
+    "type": "institution"
+}

@@ -1,0 +1,26 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "aer",
+    "acronyms": [
+        "AER"
+    ],
+    "aliases": [],
+    "cmip-acronym": "AER",
+    "established": 1977,
+    "labels": [],
+    "location": {
+        "city": "Lexington",
+        "country": [
+            "United States",
+            "US"
+        ],
+        "lat": 42.539472,
+        "lon": -71.256946
+    },
+    "name": "Atmospheric and Environmental Research",
+    "ror": "04cg70g73",
+    "url": [
+        "http://www.aer.com/"
+    ],
+    "type": "institution"
+}
