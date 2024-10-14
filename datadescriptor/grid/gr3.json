@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "gr3",
+    "name": "gr3",
+    "description": "regridded data reported on a grid other than the native grid and other than the preferred target grid",
+    "region": "greenland",
+    "type": "grid-label",
+    "short_name": "Regridded Greenland Alternate 3"
+}

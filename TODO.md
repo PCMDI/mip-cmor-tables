@@ -348,7 +348,8 @@ for now, it is only a first guess
 
 # Predicate to find or define
 
-* every type/DD
+* every type/DD  
+   
 * cmip_acronym
 * tier
 * sub_experiment => DD ?
@@ -358,6 +359,8 @@ for now, it is only a first guess
 * cohort for sourceDD
 * model_component_composition ?? 
 * activity_participation
+* region in grid ??
+
 
 # Subtlety :
 
@@ -378,8 +381,13 @@ source_id => giss-e2-1-g
 model-component with id : "varies with pysics" appears 2 times (OK) pointing to same object (Not OK)
 
 * license is "sub class" in source to add specific info
+=> Perfect
+---
 
 * Organisations Terms are build from institutions AND consortia => (Review in consortia  (with "_" at start) appears in organisation
+
+* grid region seems wrong 
+
 
 # To investigate
 

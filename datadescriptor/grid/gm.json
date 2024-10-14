@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "gm",
+    "name": "gm",
+    "description": "global mean data",
+    "region": "greenland",
+    "type": "grid-label",
+    "short_name": "Greenland"
+}

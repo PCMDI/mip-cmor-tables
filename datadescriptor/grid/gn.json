@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "gn",
+    "name": "gn",
+    "description": "data reported on a model's native grid",
+    "region": "greenland",
+    "type": "grid-label",
+    "short_name": "Grid Native Greenland"
+}

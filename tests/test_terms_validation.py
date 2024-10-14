@@ -2,6 +2,7 @@ from mip_cmor_tables.models.consortia import Consortia
 from mip_cmor_tables.models.frequency import Frequency
 from mip_cmor_tables.models.activity import Activity
 from mip_cmor_tables.models.experiment import Experiment
+from mip_cmor_tables.models.grid_label import GridLabel
 from mip_cmor_tables.models.institution import Institution
 from mip_cmor_tables.models.license import License
 from mip_cmor_tables.models.model_component import ModelComponent
@@ -64,3 +65,7 @@ def test_consortias():
     validate_terms(Path("datadescriptor/consortia/"),Consortia)
 def test_organisation():
     validate_terms(Path("datadescriptor/organisation/"),Organisation)
+
+
+def test_grid():
+    validate_terms(Path("datadescriptor/grid/"),GridLabel)

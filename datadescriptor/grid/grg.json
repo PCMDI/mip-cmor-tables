@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "grg",
+    "name": "grg",
+    "description": "regridded data in the region of Greenland reported on the data provider's preferred target grid",
+    "region": "greenland",
+    "type": "grid-label",
+    "short_name": "Regridded Greenland"
+}

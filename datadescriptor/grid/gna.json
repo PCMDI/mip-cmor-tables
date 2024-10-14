@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "gna",
+    "name": "gna",
+    "description": "data reported on a native grid in the region of Antarctica",
+    "region": "antarctica",
+    "type": "grid-label",
+    "short_name": "Grid Native Antarctica Greenland"
+}

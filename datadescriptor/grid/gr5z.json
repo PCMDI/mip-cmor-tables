@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "gr5z",
+    "name": "gr5z",
+    "description": "regridded zonal mean data reported on a grid other than the native latitude grid and other than the preferred latitude target grid",
+    "region": "greenland",
+    "type": "grid-label",
+    "short_name": "Regridded Greenland Zonal Mean Alternate z"
+}

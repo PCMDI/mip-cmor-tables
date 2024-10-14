@@ -1,0 +1,16 @@
+
+{
+     
+      "@context": {
+      "@base":"http://es-vocab.ipsl.fr/",
+      "@vocab": "http://schema.org/",
+      "id": "@id",
+      "type":"@type",
+      "grid-label": "http://es-vocab.ipsl.fr/grid/",
+      "short_name": {"@id": "https://schema.org/alternateName"},
+      "name": {"@id": "https://schema.org/name"},
+      "region": {"@id": "https://es-vocab.fr/region"},
+      "description":{"@id":"https://schema.org/description"}
+      
+    }
+}
