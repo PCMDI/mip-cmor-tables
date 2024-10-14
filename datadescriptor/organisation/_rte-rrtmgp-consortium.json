@@ -1,0 +1,5 @@
+{
+    "@context": "000_context.json.ld",
+    "id": "rte-rrtmgp-consortium",
+    "type": "consortium"
+}

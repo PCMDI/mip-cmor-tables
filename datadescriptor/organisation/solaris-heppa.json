@@ -1,0 +1,5 @@
+{
+    "@context": "000_context.json.ld",
+    "id": "solaris-heppa",
+    "type": "consortium"
+}

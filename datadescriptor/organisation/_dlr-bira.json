@@ -1,0 +1,5 @@
+{
+    "@context": "000_context.json.ld",
+    "id": "dlr-bira",
+    "type": "consortium"
+}

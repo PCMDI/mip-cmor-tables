@@ -1,0 +1,12 @@
+{
+     
+"@context": {
+      "@base":"http://es-vocab.ipsl.fr/",
+      
+      "id": "@id",
+      "type":"@type"
+      
+      
+    }
+}
+

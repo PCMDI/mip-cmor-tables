@@ -1,0 +1,5 @@
+{
+    "@context": "000_context.json.ld",
+    "id": "e3sm-project",
+    "type": "consortium"
+}

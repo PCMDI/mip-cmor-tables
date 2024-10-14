@@ -1,0 +1,5 @@
+{
+    "@context": "000_context.json.ld",
+    "id": "awi",
+    "type": "institution"
+}
