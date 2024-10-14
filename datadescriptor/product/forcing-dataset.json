@@ -1,0 +1,7 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "forcing-dataset",
+    "description": "Data sets used to drive model simulations. These include external factors like greenhouse gas concentrations, solar radiation, and land use changes that influence the climate model outputs.",
+    "kind": "forcing-dataset",
+    "type": "product"
+}

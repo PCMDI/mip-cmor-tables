@@ -1,0 +1,15 @@
+
+{
+     
+      "@context": {
+      "@base":"http://es-vocab.ipsl.fr/",
+      "@vocab": "http://schema.org/",
+      "id": "@id",
+      "type":"@type",
+      "product": "http://es-vocab.ipsl.fr/product/",
+      "kind": {"@id": "http://es-vocab.ipsl.fr/kind"},
+      
+      "description":{"@id":"https://schema.org/description"}
+      
+    }
+}

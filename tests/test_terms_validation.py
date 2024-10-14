@@ -8,6 +8,7 @@ from mip_cmor_tables.models.license import License
 from mip_cmor_tables.models.mip_era import MipEra
 from mip_cmor_tables.models.model_component import ModelComponent
 from mip_cmor_tables.models.organisation import Organisation
+from mip_cmor_tables.models.product import Product
 from mip_cmor_tables.models.realm import Realm
 from mip_cmor_tables.models.resolution import Resolution
 from mip_cmor_tables.models.source import Source
@@ -73,3 +74,7 @@ def test_grid():
 
 def test_mip_era():
     validate_terms(Path("datadescriptor/mip_era/"),MipEra)
+
+
+def test_product():
+    validate_terms(Path("datadescriptor/product/"),Product)

@@ -360,6 +360,7 @@ for now, it is only a first guess
 * model_component_composition ?? 
 * activity_participation
 * region in grid ??
+* kind in product
 
 
 # Subtlety :
@@ -388,6 +389,9 @@ model-component with id : "varies with pysics" appears 2 times (OK) pointing to 
 
 * grid region seems wrong 
 
+* Choose between - and _ for mipXera
+
+* infiny date in mip era is a BIG int (OK) but in consortia (-) (Why?) Choose between the 2 ?
 
 # To investigate
 
@@ -396,3 +400,4 @@ model-component with id : "varies with pysics" appears 2 times (OK) pointing to 
 * status => Need enumrate ? + Need predicate
 * phase ?? mip-era ?? or everything possible ? 
 
+* in product => kind ?? enumrate ?? 
