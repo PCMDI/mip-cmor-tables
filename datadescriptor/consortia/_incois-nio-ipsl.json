@@ -1,0 +1,48 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "incois-nio-ipsl",
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "INCOIS-NIO-IPSL",
+    "description": "INCOIS-NIO-IPSL",
+    "members": [
+        {
+            "type": "member",
+            "institution": "incois",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "nio",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "ipsl",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "active"
+        }
+    ],
+    "url": ""
+}

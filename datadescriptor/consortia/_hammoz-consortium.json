@@ -1,0 +1,96 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hammoz-consortium",
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "HAMMOZ-Consortium",
+    "description": "HAMMOZ-Consortium",
+    "members": [
+        {
+            "type": "member",
+            "institution": "eth",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "max",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "forschungszentrum",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "university",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "finnish",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "leibniz",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "center",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        }
+    ],
+    "url": ""
+}

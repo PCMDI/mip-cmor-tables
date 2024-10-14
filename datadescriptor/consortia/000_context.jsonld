@@ -1,0 +1,27 @@
+{
+  "@context": {
+      "@base":"http://es-vocab.ipsl.fr/",
+      "@vocab": "http://schema.org/",
+      "id": "@id",
+      "type":"@type",
+      "corsotium": "http://es-vocab.ipsl.fr/consortia/",
+
+      "cmip-acronym":{"@id":"http://es-vocab.ipsl.fr/cmip_acronym/"},
+      "name":{"@id":"https://schema.org/name"},
+      "status":{"@id":"http://es-vocab.ipsl.fr/status/"},
+      "members":{ "@id": "https://schema.org/member",
+                       "@type":"@id",
+                       "@context":{
+                         	    "institution":{
+                                    "@id":"http://es-vocab.ipsl.fr/institution/",
+                                    "@type":"@id",
+                                      "@context":{"@base":"http://es-vocab.ipsl.fr/institution/"}
+                                      
+                                     
+                          
+                                  
+                                                  }
+                      }
+                }
+      }
+}

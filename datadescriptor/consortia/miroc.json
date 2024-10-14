@@ -1,0 +1,60 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "miroc",
+    "type": "consortium",
+    "changes": "",
+    "cmip-acronym": "MIROC",
+    "members": [
+        {
+            "type": "member",
+            "institution": "jamstec",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "aori",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "nies",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "r-ccs",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        }
+    ],
+    "name": "MIROC Consortium",
+    "status": "active",
+    "url": ""
+}

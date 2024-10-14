@@ -1,0 +1,36 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nims-kma",
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "NIMS-KMA",
+    "description": "NIMS-KMA",
+    "members": [
+        {
+            "type": "member",
+            "institution": "national",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "korea",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        }
+    ],
+    "url": ""
+}

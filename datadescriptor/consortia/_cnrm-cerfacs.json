@@ -1,0 +1,24 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cnrm-cerfacs",
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "CNRM-Cerfacs",
+    "description": "CNRM-Cerfacs",
+    "members": [
+        {
+            "type": "member",
+            "institution": "cnrm",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        }
+    ],
+    "url": ""
+}

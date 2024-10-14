@@ -1,0 +1,36 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fio-qlnm",
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "FIO-QLNM",
+    "description": "FIO-QLNM",
+    "members": [
+        {
+            "type": "member",
+            "institution": "fio",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "qnlm",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        }
+    ],
+    "url": ""
+}

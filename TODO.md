@@ -361,13 +361,17 @@ for now, it is only a first guess
 
 # Subtlety :
 
-* i changed all id in lower case => is it an issue ? 
+* i changed all id in lower case => is it an issue ?
+=> Have to TEST the framing to see if "-" or "_" works 
 
 * in experiement terms : the key "experiment" seems to be a description ?? why "experiment" ? 
 
+
 * i changed the "none" and "" into null in experiment terms for min_numbers_yrs_per_sim => issues ?
+this one is for CMOR => we have if CMOR can deal None ? null ? caution : "not specified"
 
 * it is in experiment_id there is an issue : why not : "source_type" and "additionnal_allowed_source_type" ?
+=> change into source_type if CMOR doesnt look for that
 
 * in CMIP6Plus JsonldIII =>
 source_id => giss-e2-1-g
@@ -375,4 +379,11 @@ model-component with id : "varies with pysics" appears 2 times (OK) pointing to 
 
 * license is "sub class" in source to add specific info
 
+
+# To investigate
+
+### LD Consortia 
+* in consortia context => consortium ?? consortia
+* status => Need enumrate ? + Need predicate
+* phase ?? mip-era ?? or everything possible ? 
 

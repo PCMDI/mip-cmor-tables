@@ -1,0 +1,36 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "pcmdi",
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "PCMDI",
+    "description": "PCMDI",
+    "members": [
+        {
+            "type": "member",
+            "institution": "program",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "lawrence",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        }
+    ],
+    "url": ""
+}

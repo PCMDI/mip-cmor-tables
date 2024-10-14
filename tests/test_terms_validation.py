@@ -1,3 +1,4 @@
+from mip_cmor_tables.models.consortia import Consortia
 from mip_cmor_tables.models.frequency import Frequency
 from mip_cmor_tables.models.activity import Activity
 from mip_cmor_tables.models.experiment import Experiment
@@ -55,6 +56,8 @@ def test_realm():
 def test_model_component():
     validate_terms(Path("datadescriptor/model_component/"),ModelComponent)
 
-def test_model_institutions():
+def test_institutions():
     validate_terms(Path("datadescriptor/institution/"),Institution)
 
+def test_consortias():
+    validate_terms(Path("datadescriptor/consortia/"),Consortia)

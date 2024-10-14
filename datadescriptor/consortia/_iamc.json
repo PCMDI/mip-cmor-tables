@@ -1,0 +1,24 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "iamc",
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "IAMC",
+    "description": "Integrated Assessment Modeling Consortium",
+    "members": [
+        {
+            "type": "member",
+            "institution": "integrated",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        }
+    ],
+    "url": ""
+}

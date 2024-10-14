@@ -1,0 +1,330 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "solaris-heppa",
+    "type": "consortium",
+    "changes": "",
+    "cmip-acronym": "SOLARIS HEPPA",
+    "members": [
+        {
+            "type": "member",
+            "institution": "auot",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "aor",
+            "dates": [
+                {
+                    "from": 2025,
+                    "phase": "cmip7",
+                    "to": "-"
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "bas",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "eawag",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "fmi",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                },
+                {
+                    "from": 2025,
+                    "phase": "cmip7",
+                    "to": "-"
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "fuberlin",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "geomar",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "gsfc",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "iaa-csic",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                },
+                {
+                    "from": 2025,
+                    "phase": "cmip7",
+                    "to": "-"
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "issi",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                },
+                {
+                    "from": 2025,
+                    "phase": "cmip7",
+                    "to": "-"
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "kit",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                },
+                {
+                    "from": 2025,
+                    "phase": "cmip7",
+                    "to": "-"
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "lasp",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                },
+                {
+                    "from": 2025,
+                    "phase": "cmip7",
+                    "to": "-"
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "lpc2e",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                },
+                {
+                    "from": 2025,
+                    "phase": "cmip7",
+                    "to": "-"
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "mohc",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "mps",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                },
+                {
+                    "from": 2025,
+                    "phase": "cmip7",
+                    "to": "-"
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "ncar",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                },
+                {
+                    "from": 2025,
+                    "phase": "cmip7",
+                    "to": "-"
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "pmod",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                },
+                {
+                    "from": 2025,
+                    "phase": "cmip7",
+                    "to": "-"
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "uobergen",
+            "dates": [
+                {
+                    "from": 2025,
+                    "phase": "cmip7",
+                    "to": "-"
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "uoleeds",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                },
+                {
+                    "from": 2025,
+                    "phase": "cmip7",
+                    "to": "-"
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "uomontreal",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "uootago",
+            "dates": [
+                {
+                    "from": 2013,
+                    "phase": "cmip6",
+                    "to": 2022
+                },
+                {
+                    "from": 2025,
+                    "phase": "cmip7",
+                    "to": "-"
+                }
+            ],
+            "membership_type": "current"
+        },
+        {
+            "type": "member",
+            "institution": "uooulu",
+            "dates": [
+                {
+                    "from": 2025,
+                    "phase": "cmip7",
+                    "to": "-"
+                }
+            ],
+            "membership_type": "current"
+        }
+    ],
+    "name": "SOLARIS HEPPA Consortium",
+    "url": "https://solarisheppa.geomar.de"
+}

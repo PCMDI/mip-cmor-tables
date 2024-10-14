@@ -1,0 +1,36 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ucsd-sio",
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "UCSD-SIO",
+    "description": "UCSD-SIO",
+    "members": [
+        {
+            "type": "member",
+            "institution": "university",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "scripps",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        }
+    ],
+    "url": ""
+}

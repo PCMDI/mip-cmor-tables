@@ -1,0 +1,36 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "espri-ipsl",
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "ESPRI-IPSL",
+    "description": "ESPRI-IPSL",
+    "members": [
+        {
+            "type": "member",
+            "institution": "ensemble",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "institut",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        }
+    ],
+    "url": ""
+}

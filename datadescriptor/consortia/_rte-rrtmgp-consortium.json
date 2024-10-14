@@ -1,0 +1,36 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rte-rrtmgp-consortium",
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "RTE-RRTMGP-Consortium",
+    "description": "RTE-RRTMGP-Consortium",
+    "members": [
+        {
+            "type": "member",
+            "institution": "aer",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "active"
+        },
+        {
+            "type": "member",
+            "institution": "ucolorado",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "active"
+        }
+    ],
+    "url": ""
+}

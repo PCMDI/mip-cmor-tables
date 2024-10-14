@@ -1,0 +1,36 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "noaa-gfdl",
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "NOAA-GFDL",
+    "description": "NOAA-GFDL",
+    "members": [
+        {
+            "type": "member",
+            "institution": "national",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "geophysical",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        }
+    ],
+    "url": ""
+}

@@ -1,0 +1,36 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "csiro-arccss",
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "CSIRO-ARCCSS",
+    "description": "CSIRO-ARCCSS",
+    "members": [
+        {
+            "type": "member",
+            "institution": "csiro",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "active"
+        },
+        {
+            "type": "member",
+            "institution": "arccss",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        }
+    ],
+    "url": ""
+}

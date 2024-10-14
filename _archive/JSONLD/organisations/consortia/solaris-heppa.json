@@ -340,7 +340,7 @@
       "membership-type": "current"
     },
     {
-      "@tyconsortia:pe": "member",
+      "@type": "member",
       "dates": [
         {
           "from": 2025,

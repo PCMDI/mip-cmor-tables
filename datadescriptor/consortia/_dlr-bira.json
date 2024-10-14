@@ -1,0 +1,36 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dlr-bira",
+    "type": "consortium",
+    "status": "active",
+    "changes": "",
+    "cmip-acronym": "DLR-BIRA",
+    "description": "DLR-BIRA",
+    "members": [
+        {
+            "type": "member",
+            "institution": "deutsches",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        },
+        {
+            "type": "member",
+            "institution": "royal",
+            "dates": [
+                {
+                    "from": 2016,
+                    "phase": "cmip6",
+                    "to": 2022
+                }
+            ],
+            "membership_type": "prior"
+        }
+    ],
+    "url": ""
+}

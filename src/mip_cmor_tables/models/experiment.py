@@ -17,6 +17,7 @@ from typing import (
     Optional,
     Union
 )
+from mip_cmor_tables.models.activity import Activity
 from pydantic.version import VERSION  as PYDANTIC_VERSION 
 if int(PYDANTIC_VERSION[0])>=2:
     from pydantic import (
