@@ -5,6 +5,7 @@ from mip_cmor_tables.models.experiment import Experiment
 from mip_cmor_tables.models.institution import Institution
 from mip_cmor_tables.models.license import License
 from mip_cmor_tables.models.model_component import ModelComponent
+from mip_cmor_tables.models.organisation import Organisation
 from mip_cmor_tables.models.realm import Realm
 from mip_cmor_tables.models.resolution import Resolution
 from mip_cmor_tables.models.source import Source
@@ -61,3 +62,5 @@ def test_institutions():
 
 def test_consortias():
     validate_terms(Path("datadescriptor/consortia/"),Consortia)
+def test_organisation():
+    validate_terms(Path("datadescriptor/organisation/"),Organisation)

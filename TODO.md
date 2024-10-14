@@ -379,6 +379,7 @@ model-component with id : "varies with pysics" appears 2 times (OK) pointing to 
 
 * license is "sub class" in source to add specific info
 
+* Organisations Terms are build from institutions AND consortia => (Review in consortia  (with "_" at start) appears in organisation
 
 # To investigate
 

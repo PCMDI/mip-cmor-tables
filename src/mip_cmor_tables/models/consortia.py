@@ -67,6 +67,7 @@ class Consortia(ConfiguredBaseModel):
 
     id: str 
     validation_method: str = Field(default = "list")
+    type: str
     name: Optional[str] = None 
     cmip_acronym: str = Field(...,alias="cmip-acronym") 
     status : Optional[str] = None
