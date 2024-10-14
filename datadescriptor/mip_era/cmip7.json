@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cmip7",
+    "end": 2999,
+    "name": "CMIP7",
+    "start": 2025,
+    "url": "https://wcrp-cmip.org/CMIP7",
+    "type": "mip-era"
+}

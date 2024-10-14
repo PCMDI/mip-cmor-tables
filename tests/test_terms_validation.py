@@ -5,6 +5,7 @@ from mip_cmor_tables.models.experiment import Experiment
 from mip_cmor_tables.models.grid_label import GridLabel
 from mip_cmor_tables.models.institution import Institution
 from mip_cmor_tables.models.license import License
+from mip_cmor_tables.models.mip_era import MipEra
 from mip_cmor_tables.models.model_component import ModelComponent
 from mip_cmor_tables.models.organisation import Organisation
 from mip_cmor_tables.models.realm import Realm
@@ -40,7 +41,7 @@ def test_sub_experiment():
     validate_terms(Path("datadescriptor/sub_experiment/"),SubExperiment)
 
 
-def test_model_component():
+def test_source_type():
     validate_terms(Path("datadescriptor/source_type/"),SourceType)
 
 def test_source():
@@ -63,9 +64,12 @@ def test_institutions():
 
 def test_consortias():
     validate_terms(Path("datadescriptor/consortia/"),Consortia)
+
 def test_organisation():
     validate_terms(Path("datadescriptor/organisation/"),Organisation)
 
-
 def test_grid():
     validate_terms(Path("datadescriptor/grid/"),GridLabel)
+
+def test_mip_era():
+    validate_terms(Path("datadescriptor/mip_era/"),MipEra)

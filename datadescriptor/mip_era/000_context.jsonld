@@ -1,0 +1,17 @@
+
+{
+     
+      "@context": {
+      "@base":"http://es-vocab.ipsl.fr/",
+      "@vocab": "http://schema.org/",
+      "id": "@id",
+      "type":"@type",
+      "mip-era": "http://es-vocab.ipsl.fr/mip_era/",
+      "name": {"@id": "https://schema.org/name"},
+      "start": {"@id": "https://schema.org/startDate"},
+      "end": {"@id": "https://schema.org/endDate"},
+      
+      "description":{"@id":"https://schema.org/description"}
+      
+    }
+}
