@@ -1,0 +1,11 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "AE6hrPtLev",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "bs550aer",
+        "ec550aer"
+    ]
+}

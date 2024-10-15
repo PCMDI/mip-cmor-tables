@@ -1,0 +1,20 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "APsubhrPt",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2024-02-28",
+    "variable_entry": [
+        "hfls",
+        "hfss",
+        "huss",
+        "pr",
+        "prc",
+        "prw",
+        "ps",
+        "rlut",
+        "rsdt",
+        "rsut",
+        "tas"
+    ]
+}

@@ -14,6 +14,9 @@ from mip_cmor_tables.models.resolution import Resolution
 from mip_cmor_tables.models.source import Source
 from mip_cmor_tables.models.source_type import SourceType
 from mip_cmor_tables.models.sub_experiment import SubExperiment
+from mip_cmor_tables.models.table import Table
+
+
 from pathlib import Path
 from pydantic import ValidationError
 import pytest
@@ -78,3 +81,6 @@ def test_mip_era():
 
 def test_product():
     validate_terms(Path("datadescriptor/product/"),Product)
+
+def test_product():
+    validate_terms(Path("datadescriptor/table/"),Table)

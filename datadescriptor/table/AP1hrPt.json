@@ -1,0 +1,23 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "AP1hrPt",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "psl",
+        "rlut",
+        "ta",
+        "ta27",
+        "tntr27",
+        "ua",
+        "ua27",
+        "utendnogw27",
+        "va",
+        "va27",
+        "vtendnogw27",
+        "wap",
+        "wap27",
+        "zg27"
+    ]
+}

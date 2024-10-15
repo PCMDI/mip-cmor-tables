@@ -1,0 +1,18 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "OPfx",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "areacello",
+        "basin",
+        "deptho",
+        "hfgeou",
+        "masscello",
+        "sftof",
+        "thkcello",
+        "ugrido",
+        "volcello"
+    ]
+}

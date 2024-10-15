@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "APmonDiurnal",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "rlut",
+        "rlutcs",
+        "rsdt",
+        "rsut",
+        "rsutcs"
+    ]
+}

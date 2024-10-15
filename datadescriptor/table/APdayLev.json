@@ -1,0 +1,22 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "APdayLev",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "cl",
+        "cli",
+        "clw",
+        "hur",
+        "hus",
+        "mc",
+        "pfull",
+        "phalf",
+        "ta",
+        "ua",
+        "va",
+        "wap",
+        "zg"
+    ]
+}

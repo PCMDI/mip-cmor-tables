@@ -1,0 +1,21 @@
+
+
+{
+     
+"@context": {
+      "@base":"http://es-vocab.ipsl.fr/",
+      "@vocab": "http://schema.org/",
+      "id": "@id",
+      "type":"@type",
+      "table": "http://es-vocab.ipsl.fr/table/",
+      "product": {"@id": "http://es-vocab.ipsl.fr/product/"},
+      "table_date": {"@id": "https://schema.org/Date"},
+      "variable_entry": {"@id": "https://es-vocab.ipsl.fr/variable_entry",
+                         "@type":"@id",
+                         "@context":{
+                           "@base":"http://es-vocab.ipsl.fr/variable/"
+                        }
+                         
+                        
+                        }
+}

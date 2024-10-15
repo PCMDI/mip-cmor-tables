@@ -1,0 +1,18 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "LPyrPt",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "cLitter",
+        "cLitterLut",
+        "cProduct",
+        "cProductLut",
+        "cSoil",
+        "cSoilLut",
+        "cVeg",
+        "cVegLut",
+        "fracLut"
+    ]
+}

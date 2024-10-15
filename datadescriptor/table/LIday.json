@@ -1,0 +1,21 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "LIday",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "agesno",
+        "hfdsn",
+        "lwsnl",
+        "pflw",
+        "sbl",
+        "snc",
+        "snd",
+        "snm",
+        "snw",
+        "sootsn",
+        "tpf",
+        "tsn"
+    ]
+}

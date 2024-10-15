@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "OByr",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "fg13co2",
+        "fg14co2abio",
+        "fgco2",
+        "fgco2abio",
+        "fgco2nat"
+    ]
+}

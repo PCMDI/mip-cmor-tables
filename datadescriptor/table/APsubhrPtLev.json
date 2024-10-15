@@ -1,0 +1,17 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "APsubhrPtLev",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "hus",
+        "mc",
+        "ta",
+        "tnhus",
+        "tnt",
+        "ua",
+        "va",
+        "wap"
+    ]
+}

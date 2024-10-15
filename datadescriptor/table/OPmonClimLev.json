@@ -1,0 +1,33 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "OPmonClimLev",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "difmxybo",
+        "difmxylo",
+        "diftrbbo",
+        "diftrblo",
+        "diftrebo",
+        "diftrelo",
+        "diftrxybo",
+        "diftrxylo",
+        "difvho",
+        "difvmbo",
+        "difvmfdo",
+        "difvmo",
+        "difvmto",
+        "difvso",
+        "difvtrbo",
+        "difvtrto",
+        "dispkevfo",
+        "dispkexyfo",
+        "tnkebto",
+        "tnpeo",
+        "tnpeot",
+        "tnpeotb",
+        "zfullo",
+        "zhalfo"
+    ]
+}

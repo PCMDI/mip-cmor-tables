@@ -1,0 +1,13 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "SImonPt",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "sidivvel",
+        "sishevel",
+        "sistremax",
+        "sistresave"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "APmonClim",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "ch4Clim",
+        "ch4globalClim",
+        "co2Clim",
+        "co2massClim",
+        "n2oClim",
+        "n2oglobalClim",
+        "o3Clim"
+    ]
+}

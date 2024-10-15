@@ -1,0 +1,12 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "AE1hr",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "sfno2",
+        "sfo3",
+        "sfpm25"
+    ]
+}

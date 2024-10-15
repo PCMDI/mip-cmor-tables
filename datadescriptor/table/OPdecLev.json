@@ -1,0 +1,20 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "OPdecLev",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2024-02-28",
+    "variable_entry": [
+        "agessc",
+        "bigthetao",
+        "masscello",
+        "msftyz",
+        "so",
+        "thetao",
+        "thkcello",
+        "uo",
+        "vo",
+        "volcello",
+        "wo"
+    ]
+}

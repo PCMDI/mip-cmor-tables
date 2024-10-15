@@ -1,0 +1,18 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "APfx",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2024-02-28",
+    "variable_entry": [
+        "areacella",
+        "ps",
+        "rld",
+        "rlu",
+        "rsd",
+        "rsu",
+        "sftlf",
+        "siltfrac",
+        "zfull"
+    ]
+}

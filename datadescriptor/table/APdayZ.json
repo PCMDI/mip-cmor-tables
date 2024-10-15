@@ -1,0 +1,24 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "APdayZ",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "epfy",
+        "epfz",
+        "hus",
+        "psitem",
+        "ta",
+        "ua",
+        "utendepfd",
+        "utendnogw",
+        "utendogw",
+        "utendvtem",
+        "utendwtem",
+        "va",
+        "vtem",
+        "wtem",
+        "zg"
+    ]
+}

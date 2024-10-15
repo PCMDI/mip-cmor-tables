@@ -1,0 +1,18 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "LPyr",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "baresoilFrac",
+        "cropFrac",
+        "fracInLut",
+        "fracOutLut",
+        "grassFrac",
+        "residualFrac",
+        "shrubFrac",
+        "treeFrac",
+        "vegFrac"
+    ]
+}

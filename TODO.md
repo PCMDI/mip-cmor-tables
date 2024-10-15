@@ -452,7 +452,7 @@ for now, it is only a first guess
 * region in grid ??
 * kind in product
 
-
+* variable_entry in table 
 # Subtlety :
 
 * i changed all id in lower case => is it an issue ?
@@ -483,6 +483,8 @@ model-component with id : "varies with pysics" appears 2 times (OK) pointing to 
 
 * infiny date in mip era is a BIG int (OK) but in consortia (-) (Why?) Choose between the 2 ?
 
+* For table (old table_id) => in CMIP6, only a list of possible values, in CMIP6Plus => more info (dataset info ? , is it CV or Not ? what use ? for who ?)
+
 # To investigate
 
 ### LD Consortia 
@@ -491,3 +493,4 @@ model-component with id : "varies with pysics" appears 2 times (OK) pointing to 
 * phase ?? mip-era ?? or everything possible ? 
 
 * in product => kind ?? enumrate ?? 
+

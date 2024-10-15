@@ -1,0 +1,18 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "SIday",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2024-02-28",
+    "variable_entry": [
+        "siconc",
+        "siconca",
+        "sisnthick",
+        "sispeed",
+        "sitemptop",
+        "sithick",
+        "sitimefrac",
+        "siu",
+        "siv"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "OPyr",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "dispkexyfo",
+        "ocontempmint",
+        "opottempmint",
+        "somint",
+        "tnkebto",
+        "tnpeo"
+    ]
+}

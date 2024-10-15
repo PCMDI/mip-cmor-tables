@@ -1,0 +1,27 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "AEmonZ",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "bry",
+        "ch4",
+        "cly",
+        "h2o",
+        "hcl",
+        "hno3",
+        "ho2",
+        "meanage",
+        "n2o",
+        "noy",
+        "o3",
+        "oh",
+        "ta",
+        "tntrl",
+        "tntrs",
+        "ua",
+        "va",
+        "vt100"
+    ]
+}

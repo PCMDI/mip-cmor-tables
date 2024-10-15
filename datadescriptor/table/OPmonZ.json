@@ -1,0 +1,25 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "OPmonZ",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2024-02-28",
+    "variable_entry": [
+        "hfbasin",
+        "hfbasinpadv",
+        "hfbasinpmadv",
+        "hfbasinpmdiff",
+        "hfbasinpsmadv",
+        "htovgyre",
+        "htovovrt",
+        "msftmrho",
+        "msftmrhompa",
+        "msftmz",
+        "msftmzmpa",
+        "msftmzsmpa",
+        "msftyzsmpa",
+        "sltbasin",
+        "sltovgyre",
+        "sltovovrt"
+    ]
+}

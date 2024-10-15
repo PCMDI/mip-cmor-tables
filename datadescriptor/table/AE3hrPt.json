@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "AE3hrPt",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "rsdscsaf",
+        "rsdscsafbnd",
+        "rsuscsaf",
+        "rsuscsafbnd",
+        "rsutcsaf"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "OPmonClim",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "difmxybo2d",
+        "difmxylo2d",
+        "diftrbbo2d",
+        "diftrblo2d",
+        "diftrebo2d",
+        "diftrelo2d",
+        "diftrxybo2d",
+        "diftrxylo2d",
+        "dispkexyfo2d",
+        "tnkebto2d"
+    ]
+}

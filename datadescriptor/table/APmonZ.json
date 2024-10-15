@@ -1,0 +1,29 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "APmonZ",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "epfy",
+        "epfz",
+        "jo2",
+        "jo3",
+        "tntc",
+        "tntmp",
+        "tntnogw",
+        "tntogw",
+        "tntrlcs",
+        "tntrscs",
+        "tntscp",
+        "utendepfd",
+        "utendnogw",
+        "vtem",
+        "vtendnogw",
+        "wtem",
+        "xgwdparam",
+        "ygwdparam",
+        "zg",
+        "zmtnt"
+    ]
+}

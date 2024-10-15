@@ -1,0 +1,13 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "GIGfx",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "areacellg",
+        "hfgeoubed",
+        "lithk",
+        "topg"
+    ]
+}

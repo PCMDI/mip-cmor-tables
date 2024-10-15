@@ -1,0 +1,19 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "AEday",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "cod",
+        "maxpblz",
+        "minpblz",
+        "od550aer",
+        "sfo3max",
+        "toz",
+        "ua10",
+        "zg10",
+        "zg100",
+        "zg500"
+    ]
+}

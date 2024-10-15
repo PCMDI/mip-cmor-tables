@@ -1,0 +1,13 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "LP3hr",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "gpp",
+        "mrro",
+        "ra",
+        "rh"
+    ]
+}

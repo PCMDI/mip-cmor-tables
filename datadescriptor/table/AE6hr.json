@@ -1,0 +1,10 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "AE6hr",
+    "type": "table",
+    "product": "model-output",
+    "table_date": "2023-11-16",
+    "variable_entry": [
+        "bldep"
+    ]
+}
