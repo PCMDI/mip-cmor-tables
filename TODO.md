@@ -36,7 +36,7 @@ todo.md # just to see where i am and what im planning to do
 | activityDD|  Done (BUT need predicate def)  |
 | experimentDD|  Done (BUT need predicate def) |   
 | reportingIntervalDD| (as frequency need rename ?) Done | 
-| gridLabelDD|  
+| gridLabelDD| Done | 
 | sourceDD|  Done |
 | resolutionDD |Done|
 | License | Done |
@@ -51,13 +51,13 @@ todo.md # just to see where i am and what im planning to do
 | dataNodeDD  |
 | datasetGroupDD|  
 | organisationDD|
-| institutionDD |
-| consortiaDD |
+| institutionDD | Done |
+| consortiaDD | Done |
 | nominal- ResolutionDD (nominalResolutionDD) |Done| 
-| productTypeDD  |
+| productTypeDD  | Done |
 | realmDD |Done |
 | model_component | Done (But only from CMIP6Plus) |
-| dataRegionDD  |
+| dataRegionDD  | ? |
 | sourceTypeDD | Done|  
 | varGroupingCDD  |
 | datasetStatusDD  |
@@ -210,7 +210,97 @@ class License{
 }
 Source "1" --> "1" License
 
+class Institution{
 
+    id: str
+    acronyms: List[str] 
+    aliases: Optional[List[str]] 
+    established: Optional[int] 
+    type: Optional[str] 
+    labels: Optional[List[str]] 
+    location: Optional[Dict]   
+    name: str 
+    ror: Optional[str] 
+    url: Optional[List[str]] 
+
+}
+
+
+class Consortia{
+
+    id: str 
+    validation_method: str 
+    type: str
+    name: Optional[str] = None 
+    cmip_acronym: str  
+    status : Optional[str] = None
+    changes : Optional[str]
+    members : List[Member] 
+    url: Optional[str] 
+
+}
+
+
+class Member{    
+    type : str
+    institution : str # id 
+    dates : List[Dates] 
+    membership_type : str 
+}
+
+class Dates{
+
+    phase : str
+    from_ : int = Field(...,alias="from") # cause from is a keyword
+    to: Union[int,str] # "-" if not finished
+}
+
+Dates --> Member
+Member --> Consortia
+Institution --> Member
+
+
+class Organisation{
+
+    id: str 
+    validation_method: str 
+    type : str
+}
+Institution --> Organisation
+Consortia --> Organisation
+
+class Product{
+
+
+
+    id: str 
+    description : str 
+    type : str 
+    kind : str
+}
+class GridLabel{
+
+
+
+    id: str 
+    description :str
+    short_name :str 
+    name : str 
+    region : str 
+    type : str 
+}
+class MipEra{
+
+
+
+    id: str 
+    start : int
+    end : int
+    name : str 
+    type : str 
+    url : str
+
+}
 ```
 #### TODO : upgrade pydantic with embeded object 
 for now the pydantic model only check/code the id (as str) .. do we propagate to include the entire object pointed by the id ?  
