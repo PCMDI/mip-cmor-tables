@@ -40,17 +40,8 @@ todo.md # just to see where i am and what im planning to do
 | sourceDD|  Done |
 | resolutionDD |Done|
 | License | Done |
-| variableRootDD | 
-| datasetVariantDD|  
-| directoryDateDD  | 
-| datasetEditionDD  |
-| brandingSuffixDD | 
-| archiveDD | 
-| hostCollectionDD|  
-| standardNameDD | 
-| dataNodeDD  |
-| datasetGroupDD|  
-| organisationDD|
+| variableDD | Done |
+| organisationDD| Done |
 | institutionDD | Done |
 | consortiaDD | Done |
 | nominal- ResolutionDD (nominalResolutionDD) |Done| 
@@ -59,26 +50,11 @@ todo.md # just to see where i am and what im planning to do
 | model_component | Done (But only from CMIP6Plus) |
 | dataRegionDD  | ? |
 | sourceTypeDD | Done|  
-| varGroupingCDD  |
-| datasetStatusDD  |
-| inCollectionsDD  |
-| temporalLabelDD  |
-| verticalLabelDD  |
-| horizontalLabelDD | 
-| areaLabelDD  |
 | realizationDD | 
 | initializationDD|  
+| variantDD |
 | physicsDD  |
 | forcingDD  |
-| dataConventionsDD|  
-| dateCreatedDD**  |
-| uniqueFileidDD  |
-| variableTableDD  |
-| longNameDD  |
-| varDefQualifierDD|  
-| datasetSpecsDD|  
-| gridTypeDD  |
-| longInstitutionDD|  
  
 ## Choose DD
 ### find relevant Ontology to describe each attribute of each DD
@@ -299,23 +275,36 @@ class Table{
 
 }
 
+class Variable{
+    id: str 
+    cmip_acronym: str 
+    validation_method: str
+    long_name: str 
+    standard_name: Optional[str] 
+    type: str 
+    units: Optional[str] 
+}
+
+
+
+Product "1" --> "1" Table
+Consortia "1" --> "1" Organisation
 Member "*" -->"1" Consortia
+Institution "1" --> "1" Member
+Institution "1" --> "1" Organisation
 
 ModelComponent "1" --> "1" Realm
 Dates "1" --> "1-2" Member
 ModelComponent "1" --> "1" Resolution
-Institution "1" --> "1" Organisation
-Institution "1" --> "1" Member
-Consortia "1" --> "1" Organisation
+
 Source "1" --> "1" Activity
 Source "1" --> "1_*" ModelComponent
 Source "1" --> "1" License
 Experiment "1" --> "*" SubExperiment
 Experiment "1" --> "*" SourceType
 Experiment "1" --> "*" Activity
-Product "1" --> "1" Table
+Variable "*" --> "1" Table
 Source "1" --> "1" Organisation
-
 ```
 #### TODO : upgrade pydantic with embeded object 
 for now the pydantic model only check/code the id (as str) .. do we propagate to include the entire object pointed by the id ?  
