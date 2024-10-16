@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tatp",
+    "cmip_acronym": "tatp",
+    "long_name": "Tropopause Air Temperature",
+    "standard_name": "tropopause_air_temperature",
+    "type": "real",
+    "units": "K"
+}

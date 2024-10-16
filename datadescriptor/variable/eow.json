@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "eow",
+    "cmip_acronym": "eow",
+    "long_name": "Open Water Evaporation",
+    "standard_name": "surface_water_evaporation_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

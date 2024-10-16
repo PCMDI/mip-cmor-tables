@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "treeFracSecEver",
+    "cmip_acronym": "treeFracSecEver",
+    "long_name": "Percentage Cover by Secondary Evergreen Trees",
+    "standard_name": "area_fraction",
+    "type": "real",
+    "units": "%"
+}

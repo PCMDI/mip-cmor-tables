@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rldcs",
+    "cmip_acronym": "rldcs",
+    "long_name": "Downwelling Clear-Sky Longwave Radiation",
+    "standard_name": "downwelling_longwave_flux_in_air_assuming_clear_sky",
+    "type": "real",
+    "units": "W m-2"
+}

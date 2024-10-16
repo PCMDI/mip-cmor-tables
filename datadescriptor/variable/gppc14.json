@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "gppc14",
+    "cmip_acronym": "gppc14",
+    "long_name": "Carbon-14 Mass Flux out of Atmosphere Due to Gross Primary Production on Land [kgC m-2 s-1]",
+    "standard_name": "gross_primary_productivity_of_biomass_expressed_as_14C",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

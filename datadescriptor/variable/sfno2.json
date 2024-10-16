@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sfno2",
+    "cmip_acronym": "sfno2",
+    "long_name": "NO2 Volume Mixing Ratio in Lowest Model Layer",
+    "standard_name": "mole_fraction_of_nitrogen_dioxide_in_air",
+    "type": "real",
+    "units": "mol mol-1"
+}

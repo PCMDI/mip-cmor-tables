@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tntmp",
+    "cmip_acronym": "tntmp",
+    "long_name": "Tendency of Air Temperature Due to Model Physics",
+    "standard_name": "tendency_of_air_temperature_due_to_model_physics",
+    "type": "real",
+    "units": "K s-1"
+}

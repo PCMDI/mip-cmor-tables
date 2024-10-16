@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "limfediaz",
+    "cmip_acronym": "limfediaz",
+    "long_name": "Iron Limitation of Diazotrophs",
+    "standard_name": "iron_growth_limitation_of_diazotrophic_phytoplankton",
+    "type": "real",
+    "units": "1"
+}

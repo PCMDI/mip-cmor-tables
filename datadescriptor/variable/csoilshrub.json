@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cSoilShrub",
+    "cmip_acronym": "cSoilShrub",
+    "long_name": "Carbon Mass in Soil on Shrub Tiles",
+    "standard_name": "soil_mass_content_of_carbon",
+    "type": "real",
+    "units": "kg m-2"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "limirrcalc",
+    "cmip_acronym": "limirrcalc",
+    "long_name": "Irradiance Limitation of Calcareous Phytoplankton",
+    "standard_name": "growth_limitation_of_calcareous_phytoplankton_due_to_solar_irradiance",
+    "type": "real",
+    "units": "1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "clis",
+    "cmip_acronym": "clis",
+    "long_name": "Mass Fraction of Stratiform Cloud Ice",
+    "standard_name": "mass_fraction_of_stratiform_cloud_ice_in_air",
+    "type": "real",
+    "units": "1"
+}

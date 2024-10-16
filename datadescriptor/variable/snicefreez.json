@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "snicefreez",
+    "cmip_acronym": "snicefreez",
+    "long_name": "Surface Snow and Ice Refreeze Flux",
+    "standard_name": "surface_snow_and_ice_refreezing_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

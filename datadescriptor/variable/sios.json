@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sios",
+    "cmip_acronym": "sios",
+    "long_name": "Surface Total Dissolved Inorganic Silicon Concentration",
+    "standard_name": "mole_concentration_of_dissolved_inorganic_silicon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sidmassth",
+    "cmip_acronym": "sidmassth",
+    "long_name": "Sea-Ice Mass Change from Thermodynamics",
+    "standard_name": "tendency_of_sea_ice_amount_due_to_sea_ice_thermodynamics",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

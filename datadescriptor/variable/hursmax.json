@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hursmax",
+    "cmip_acronym": "hursmax",
+    "long_name": "Daily Maximum Near-Surface Relative Humidity",
+    "standard_name": "relative_humidity",
+    "type": "real",
+    "units": "%"
+}

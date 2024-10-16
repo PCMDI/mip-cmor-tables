@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "od550so4so",
+    "cmip_acronym": "od550so4so",
+    "long_name": "Stratospheric Optical Depth at 550nm (Sulphate Only) 2D-Field (Stratosphere Only)",
+    "standard_name": "stratosphere_optical_thickness_due_to_sulfate_ambient_aerosol_particles",
+    "type": "real",
+    "units": "1"
+}

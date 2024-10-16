@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "meanage",
+    "cmip_acronym": "meanage",
+    "long_name": "Mean Age of Stratospheric Air",
+    "standard_name": "age_of_stratospheric_air",
+    "type": "real",
+    "units": "yr"
+}

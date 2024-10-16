@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ptp",
+    "cmip_acronym": "ptp",
+    "long_name": "Tropopause Air Pressure",
+    "standard_name": "tropopause_air_pressure",
+    "type": "real",
+    "units": "Pa"
+}

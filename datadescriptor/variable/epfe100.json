@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "epfe100",
+    "cmip_acronym": "epfe100",
+    "long_name": "Downward Flux of Particulate Iron",
+    "standard_name": "sinking_mole_flux_of_particulate_iron_in_sea_water",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

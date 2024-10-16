@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "orogIs",
+    "cmip_acronym": "orogIs",
+    "long_name": "Ice Sheet Surface Altitude",
+    "standard_name": "surface_altitude",
+    "type": "real",
+    "units": "m"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fddtalk",
+    "cmip_acronym": "fddtalk",
+    "long_name": "Rate of Change of Total Alkalinity",
+    "standard_name": "integral_wrt_depth_of_tendency_of_sea_water_alkalinity_expressed_as_mole_equivalent",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

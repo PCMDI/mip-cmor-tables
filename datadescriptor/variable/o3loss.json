@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "o3loss",
+    "cmip_acronym": "o3loss",
+    "long_name": "O3 Destruction Rate",
+    "standard_name": "tendency_of_atmosphere_mole_concentration_of_ozone_due_to_chemical_destruction",
+    "type": "real",
+    "units": "mol m-3 s-1"
+}

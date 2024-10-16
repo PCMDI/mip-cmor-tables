@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fbddtdife",
+    "cmip_acronym": "fbddtdife",
+    "long_name": "Rate of Change of Dissolved Inorganic Iron Due to Biological Activity",
+    "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_iron_due_to_biological_processes",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

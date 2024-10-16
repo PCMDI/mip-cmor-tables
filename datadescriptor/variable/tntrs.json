@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tntrs",
+    "cmip_acronym": "tntrs",
+    "long_name": "Tendency of Air Temperature Due to Shortwave Radiative Heating",
+    "standard_name": "tendency_of_air_temperature_due_to_shortwave_heating",
+    "type": "real",
+    "units": "K s-1"
+}

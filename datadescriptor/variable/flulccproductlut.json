@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fLulccProductLut",
+    "cmip_acronym": "fLulccProductLut",
+    "long_name": "Carbon Harvested Due to Land-Use or Land-Cover Change Process That Enters Anthropogenic Product Pools on Tile",
+    "standard_name": "carbon_mass_flux_into_forestry_and_agricultural_products_due_to_anthropogenic_land_use_or_land_cover_change",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

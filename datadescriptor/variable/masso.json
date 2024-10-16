@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "masso",
+    "cmip_acronym": "masso",
+    "long_name": "Sea Water Mass",
+    "standard_name": "sea_water_mass",
+    "type": "real",
+    "units": "kg"
+}

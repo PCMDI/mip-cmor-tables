@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "emioa",
+    "cmip_acronym": "emioa",
+    "long_name": "Primary Emission and Chemical Production of Dry Aerosol Organic Matter",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_particulate_organic_matter_dry_aerosol_particles_due_to_net_chemical_production_and_emission",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

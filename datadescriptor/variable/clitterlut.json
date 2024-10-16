@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cLitterLut",
+    "cmip_acronym": "cLitterLut",
+    "long_name": "Carbon  in Above and Below-Ground Litter Pools on Land-Use Tiles",
+    "standard_name": "litter_mass_content_of_carbon",
+    "type": "real",
+    "units": "kg m-2"
+}

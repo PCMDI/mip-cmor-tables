@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rsut",
+    "cmip_acronym": "rsut",
+    "long_name": "TOA Outgoing Shortwave Radiation",
+    "standard_name": "toa_outgoing_shortwave_flux",
+    "type": "real",
+    "units": "W m-2"
+}

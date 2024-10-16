@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "phynos",
+    "cmip_acronym": "phynos",
+    "long_name": "Surface Mole Concentration of Phytoplankton Nitrogen in Sea Water",
+    "standard_name": "mole_concentration_of_phytoplankton_expressed_as_nitrogen_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

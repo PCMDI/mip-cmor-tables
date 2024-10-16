@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "limfecalc",
+    "cmip_acronym": "limfecalc",
+    "long_name": "Iron Limitation of Calcareous Phytoplankton",
+    "standard_name": "iron_growth_limitation_of_calcareous_phytoplankton",
+    "type": "real",
+    "units": "1"
+}

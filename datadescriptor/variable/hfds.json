@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfds",
+    "cmip_acronym": "hfds",
+    "long_name": "Downward Heat Flux at Sea Water Surface",
+    "standard_name": "surface_downward_heat_flux_in_sea_water",
+    "type": "real",
+    "units": "W m-2"
+}

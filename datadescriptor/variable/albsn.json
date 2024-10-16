@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "albsn",
+    "cmip_acronym": "albsn",
+    "long_name": "Snow Albedo",
+    "standard_name": "surface_albedo",
+    "type": "real",
+    "units": "1"
+}

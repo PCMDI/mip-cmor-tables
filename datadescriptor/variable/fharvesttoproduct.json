@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fHarvestToProduct",
+    "cmip_acronym": "fHarvestToProduct",
+    "long_name": "Harvested Biomass That Goes into Product Pool",
+    "standard_name": "mass_flux_of_carbon_into_forestry_and_agricultural_products_due_to_crop_harvesting",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

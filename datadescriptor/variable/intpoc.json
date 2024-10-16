@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "intpoc",
+    "cmip_acronym": "intpoc",
+    "long_name": "Particulate Organic Carbon Content",
+    "standard_name": "ocean_mass_content_of_particulate_organic_matter_expressed_as_carbon",
+    "type": "real",
+    "units": "kg m-2"
+}

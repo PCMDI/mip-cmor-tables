@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "diftrelo2d",
+    "cmip_acronym": "diftrelo2d",
+    "long_name": "Ocean Tracer Epineutral Laplacian Diffusivity",
+    "standard_name": "ocean_tracer_epineutral_laplacian_diffusivity",
+    "type": "real",
+    "units": "m2 s-1"
+}

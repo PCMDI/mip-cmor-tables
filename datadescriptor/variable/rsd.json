@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rsd",
+    "cmip_acronym": "rsd",
+    "long_name": "Downwelling Shortwave Radiation",
+    "standard_name": "downwelling_shortwave_flux_in_air",
+    "type": "real",
+    "units": "W m-2"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "t20d",
+    "cmip_acronym": "t20d",
+    "long_name": "Depth of 20 degree Celsius Isotherm",
+    "standard_name": "depth_of_isosurface_of_sea_water_potential_temperature",
+    "type": "real",
+    "units": "m"
+}

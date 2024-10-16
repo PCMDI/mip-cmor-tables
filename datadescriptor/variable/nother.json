@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nOther",
+    "cmip_acronym": "nOther",
+    "long_name": "Nitrogen Mass in Vegetation Components Other than Leaves, Stem and Root",
+    "standard_name": "miscellaneous_living_matter_mass_content_of_nitrogen",
+    "type": "real",
+    "units": "kg m-2"
+}

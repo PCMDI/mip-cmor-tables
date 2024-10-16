@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "prthetao",
+    "cmip_acronym": "prthetao",
+    "long_name": "Sea Water Redistributed Potential Temperature",
+    "standard_name": "sea_water_redistributed_potential_temperature",
+    "type": "real",
+    "units": "degC"
+}

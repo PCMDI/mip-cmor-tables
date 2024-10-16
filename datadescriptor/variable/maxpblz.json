@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "maxpblz",
+    "cmip_acronym": "maxpblz",
+    "long_name": "Maximum PBL Height",
+    "standard_name": "atmosphere_boundary_layer_thickness",
+    "type": "real",
+    "units": "m"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mcd",
+    "cmip_acronym": "mcd",
+    "long_name": "Downdraft Convective Mass Flux",
+    "standard_name": "atmosphere_downdraft_convective_mass_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

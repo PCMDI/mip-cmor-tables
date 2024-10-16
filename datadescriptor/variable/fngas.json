@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fNgas",
+    "cmip_acronym": "fNgas",
+    "long_name": "Total Nitrogen Lost to the Atmosphere (Sum of NHx, NOx, N2O, N2)",
+    "standard_name": "surface_upward_mass_flux_of_nitrogen_compounds_expressed_as_nitrogen",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

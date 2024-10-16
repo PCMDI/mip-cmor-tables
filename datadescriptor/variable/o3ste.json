@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "o3ste",
+    "cmip_acronym": "o3ste",
+    "long_name": "Stratospheric Ozone Tracer Volume Mixing Ratio",
+    "standard_name": "mole_fraction_of_ozone_in_air",
+    "type": "real",
+    "units": "mol mol-1"
+}

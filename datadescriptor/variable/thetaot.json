@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "thetaot",
+    "cmip_acronym": "thetaot",
+    "long_name": "Vertically Averaged Sea Water Potential Temperature",
+    "standard_name": "sea_water_potential_temperature",
+    "type": "real",
+    "units": "degC"
+}

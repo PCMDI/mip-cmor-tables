@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mrsosLut",
+    "cmip_acronym": "mrsosLut",
+    "long_name": "Moisture in Upper Portion of Soil Column of Land-Use Tile",
+    "standard_name": "mass_content_of_water_in_soil_layer",
+    "type": "real",
+    "units": "kg m-2"
+}

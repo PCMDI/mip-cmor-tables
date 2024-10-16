@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mrroIs",
+    "cmip_acronym": "mrroIs",
+    "long_name": "Ice Sheet Total Runoff",
+    "standard_name": "runoff_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

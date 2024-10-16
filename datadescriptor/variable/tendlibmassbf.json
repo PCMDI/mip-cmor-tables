@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tendlibmassbf",
+    "cmip_acronym": "tendlibmassbf",
+    "long_name": "Total Basal Mass Balance Flux",
+    "standard_name": "tendency_of_land_ice_mass_due_to_basal_mass_balance",
+    "type": "real",
+    "units": "kg s-1"
+}

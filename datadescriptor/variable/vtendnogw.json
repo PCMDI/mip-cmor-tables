@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "vtendnogw",
+    "cmip_acronym": "vtendnogw",
+    "long_name": "Northward Acceleration Due to Non-Orographic Gravity Wave Drag",
+    "standard_name": "tendency_of_northward_wind_due_to_nonorographic_gravity_wave_drag",
+    "type": "real",
+    "units": "m s-2"
+}

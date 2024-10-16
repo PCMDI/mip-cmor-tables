@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tntogw",
+    "cmip_acronym": "tntogw",
+    "long_name": "Temperature Tendency Due to Orographic Gravity Wave Dissipation",
+    "standard_name": "tendency_of_air_temperature_due_to_dissipation_of_orographic_gravity_waves",
+    "type": "real",
+    "units": "K s-1"
+}

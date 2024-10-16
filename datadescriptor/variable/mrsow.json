@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mrsow",
+    "cmip_acronym": "mrsow",
+    "long_name": "Total Soil Wetness",
+    "standard_name": "volume_fraction_of_condensed_water_in_soil_at_field_capacity",
+    "type": "real",
+    "units": "1"
+}

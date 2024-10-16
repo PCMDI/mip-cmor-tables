@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nLeaf",
+    "cmip_acronym": "nLeaf",
+    "long_name": "Nitrogen Mass in Leaves",
+    "standard_name": "leaf_mass_content_of_nitrogen",
+    "type": "real",
+    "units": "kg m-2"
+}

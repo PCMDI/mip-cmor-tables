@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sifllwutop",
+    "cmip_acronym": "sifllwutop",
+    "long_name": "Upwelling Longwave Flux over Sea Ice",
+    "standard_name": "surface_upwelling_longwave_flux_in_air",
+    "type": "real",
+    "units": "W m-2"
+}

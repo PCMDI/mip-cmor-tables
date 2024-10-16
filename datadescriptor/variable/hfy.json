@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfy",
+    "cmip_acronym": "hfy",
+    "long_name": "Ocean Heat Y Transport",
+    "standard_name": "ocean_heat_y_transport",
+    "type": "real",
+    "units": "W"
+}

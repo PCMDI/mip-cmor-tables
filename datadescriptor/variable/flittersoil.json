@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fLitterSoil",
+    "cmip_acronym": "fLitterSoil",
+    "long_name": "Total Carbon Mass Flux from Litter to Soil",
+    "standard_name": "carbon_mass_flux_into_soil_from_litter",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

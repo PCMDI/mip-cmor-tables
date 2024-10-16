@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "c13Soil",
+    "cmip_acronym": "c13Soil",
+    "long_name": "Mass of 13C in Soil Pool",
+    "standard_name": "soil_mass_content_of_13C",
+    "type": "real",
+    "units": "kg m-2"
+}

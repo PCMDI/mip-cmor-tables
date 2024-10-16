@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "aragos",
+    "cmip_acronym": "aragos",
+    "long_name": "Surface Aragonite Concentration",
+    "standard_name": "mole_concentration_of_aragonite_expressed_as_carbon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

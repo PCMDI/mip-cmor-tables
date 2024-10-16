@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "smc",
+    "cmip_acronym": "smc",
+    "long_name": "Shallow Convective Mass Flux",
+    "standard_name": "atmosphere_net_upward_shallow_convective_mass_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

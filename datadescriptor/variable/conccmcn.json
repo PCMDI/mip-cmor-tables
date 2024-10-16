@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "conccmcn",
+    "cmip_acronym": "conccmcn",
+    "long_name": "Number Concentration Coarse Mode Aerosol",
+    "standard_name": "number_concentration_of_coarse_mode_ambient_aerosol_particles_in_air",
+    "type": "real",
+    "units": "m-3"
+}

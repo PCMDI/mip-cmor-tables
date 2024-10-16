@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "grplmxrat27",
+    "cmip_acronym": "grplmxrat27",
+    "long_name": "Graupel Mixing Ratio",
+    "standard_name": "mass_fraction_of_graupel_in_air",
+    "type": "real",
+    "units": "1"
+}

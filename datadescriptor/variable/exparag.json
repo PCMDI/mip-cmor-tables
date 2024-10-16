@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "exparag",
+    "cmip_acronym": "exparag",
+    "long_name": "Downward Flux of Aragonite",
+    "standard_name": "sinking_mole_flux_of_aragonite_expressed_as_carbon_in_sea_water",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

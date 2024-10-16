@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "osaltrmadvect",
+    "cmip_acronym": "osaltrmadvect",
+    "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Residual Mean Advection",
+    "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_residual_mean_advection",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

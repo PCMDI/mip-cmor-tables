@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cLitterCwd",
+    "cmip_acronym": "cLitterCwd",
+    "long_name": "Carbon Mass in Coarse Woody Debris",
+    "standard_name": "wood_debris_mass_content_of_carbon",
+    "type": "real",
+    "units": "kg m-2"
+}

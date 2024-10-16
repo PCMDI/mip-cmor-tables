@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "emilnox",
+    "cmip_acronym": "emilnox",
+    "long_name": "Layer-Integrated Lightning Production of NOx",
+    "standard_name": "tendency_of_atmosphere_moles_of_nox_expressed_as_nitrogen",
+    "type": "real",
+    "units": "mol s-1"
+}

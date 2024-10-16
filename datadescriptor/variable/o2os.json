@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "o2os",
+    "cmip_acronym": "o2os",
+    "long_name": "Surface Dissolved Oxygen Concentration",
+    "standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

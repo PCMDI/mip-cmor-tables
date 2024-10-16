@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfgeou",
+    "cmip_acronym": "hfgeou",
+    "long_name": "Upward Geothermal Heat Flux at Sea Floor",
+    "standard_name": "upward_geothermal_heat_flux_at_sea_floor",
+    "type": "real",
+    "units": "W m-2"
+}

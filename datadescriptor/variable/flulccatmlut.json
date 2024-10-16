@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fLulccAtmLut",
+    "cmip_acronym": "fLulccAtmLut",
+    "long_name": "Carbon Transferred Directly to Atmosphere Due to any Land-Use or Land-Cover Change Activities [kgC m-2 s-1]",
+    "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_land_use_or_land_cover_change_excluding_forestry_and_agricultural_products",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

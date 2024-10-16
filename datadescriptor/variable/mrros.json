@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mrros",
+    "cmip_acronym": "mrros",
+    "long_name": "Surface Runoff",
+    "standard_name": "surface_runoff_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

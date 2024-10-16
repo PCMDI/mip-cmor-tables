@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cLeaf",
+    "cmip_acronym": "cLeaf",
+    "long_name": "Carbon Mass in Leaves",
+    "standard_name": "leaf_mass_content_of_carbon",
+    "type": "real",
+    "units": "kg m-2"
+}

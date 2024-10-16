@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wetso4",
+    "cmip_acronym": "wetso4",
+    "long_name": "Wet Deposition Rate of SO4",
+    "standard_name": "minus_tendency_of_atmosphere_mass_content_of_sulfate_dry_aerosol_particles_due_to_wet_deposition",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

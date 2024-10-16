@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tnhusscp",
+    "cmip_acronym": "tnhusscp",
+    "long_name": "Tendency of Specific Humidity Due to Stratiform Clouds and Precipitation",
+    "standard_name": "tendency_of_specific_humidity_due_to_stratiform_cloud_and_precipitation",
+    "type": "real",
+    "units": "s-1"
+}

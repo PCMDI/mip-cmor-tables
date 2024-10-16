@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rlntds",
+    "cmip_acronym": "rlntds",
+    "long_name": "Surface Net Downward Longwave Radiation",
+    "standard_name": "surface_net_downward_longwave_flux",
+    "type": "real",
+    "units": "W m-2"
+}

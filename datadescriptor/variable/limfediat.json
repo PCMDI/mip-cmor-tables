@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "limfediat",
+    "cmip_acronym": "limfediat",
+    "long_name": "Iron Limitation of Diatoms",
+    "standard_name": "iron_growth_limitation_of_diatoms",
+    "type": "real",
+    "units": "1"
+}

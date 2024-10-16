@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tnhusd",
+    "cmip_acronym": "tnhusd",
+    "long_name": "Tendency of Specific Humidity Due to Numerical Diffusion",
+    "standard_name": "tendency_of_specific_humidity_due_to_diffusion",
+    "type": "real",
+    "units": "s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tauu",
+    "cmip_acronym": "tauu",
+    "long_name": "Surface Downward Eastward Wind Stress",
+    "standard_name": "surface_downward_eastward_stress",
+    "type": "real",
+    "units": "Pa"
+}

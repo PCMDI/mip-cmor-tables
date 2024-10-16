@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tnhuspbl",
+    "cmip_acronym": "tnhuspbl",
+    "long_name": "Tendency of Specific Humidity Due to Boundary Layer Mixing",
+    "standard_name": "tendency_of_specific_humidity_due_to_boundary_layer_mixing",
+    "type": "real",
+    "units": "s-1"
+}

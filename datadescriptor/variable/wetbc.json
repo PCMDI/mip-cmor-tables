@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wetbc",
+    "cmip_acronym": "wetbc",
+    "long_name": "Wet Deposition Rate of Black Carbon Aerosol Mass",
+    "standard_name": "minus_tendency_of_atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles_due_to_wet_deposition",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

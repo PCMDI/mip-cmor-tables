@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dpco2nat",
+    "cmip_acronym": "dpco2nat",
+    "long_name": "Natural Delta CO2 Partial Pressure ",
+    "standard_name": "surface_carbon_dioxide_natural_analogue_partial_pressure_difference_between_sea_water_and_air",
+    "type": "real",
+    "units": "Pa"
+}

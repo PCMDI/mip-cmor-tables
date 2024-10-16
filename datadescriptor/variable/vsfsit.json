@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "vsfsit",
+    "cmip_acronym": "vsfsit",
+    "long_name": "Virtual Salt Flux into Sea Water Due to Sea Ice Thermodynamics",
+    "standard_name": "virtual_salt_flux_into_sea_water_due_to_sea_ice_thermodynamics",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sidmassmelttop",
+    "cmip_acronym": "sidmassmelttop",
+    "long_name": "Sea-Ice Mass Change Through Surface Melting",
+    "standard_name": "tendency_of_sea_ice_amount_due_to_surface_melting",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

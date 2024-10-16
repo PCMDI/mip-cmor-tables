@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ts",
+    "cmip_acronym": "ts",
+    "long_name": "Surface Temperature",
+    "standard_name": "surface_temperature",
+    "type": "real",
+    "units": "K"
+}

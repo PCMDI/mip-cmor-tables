@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mmraerh2o",
+    "cmip_acronym": "mmraerh2o",
+    "long_name": "Aerosol Water Mass Mixing Ratio",
+    "standard_name": "mass_fraction_of_water_in_ambient_aerosol_particles_in_air",
+    "type": "real",
+    "units": "kg kg-1"
+}

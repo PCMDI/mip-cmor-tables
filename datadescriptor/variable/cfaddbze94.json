@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cfadDbze94",
+    "cmip_acronym": "cfadDbze94",
+    "long_name": "CloudSat Radar Reflectivity CFAD",
+    "standard_name": "histogram_of_equivalent_reflectivity_factor_over_height_above_reference_ellipsoid",
+    "type": "real",
+    "units": "1"
+}

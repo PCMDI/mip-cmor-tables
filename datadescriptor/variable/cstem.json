@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cStem",
+    "cmip_acronym": "cStem",
+    "long_name": "Carbon Mass in Stem",
+    "standard_name": "stem_mass_content_of_carbon",
+    "type": "real",
+    "units": "kg m-2"
+}

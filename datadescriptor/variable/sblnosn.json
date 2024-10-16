@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sblnosn",
+    "cmip_acronym": "sblnosn",
+    "long_name": "Sublimation of the Snow Free Area",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_water_vapor_due_to_sublimation_of_surface_ice",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "clisccp",
+    "cmip_acronym": "clisccp",
+    "long_name": "ISCCP Cloud Area Percentage",
+    "standard_name": "cloud_area_fraction_in_atmosphere_layer",
+    "type": "real",
+    "units": "%"
+}

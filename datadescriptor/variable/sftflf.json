@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sftflf",
+    "cmip_acronym": "sftflf",
+    "long_name": "Floating Ice Shelf Area Percentage",
+    "standard_name": "floating_ice_shelf_area_fraction",
+    "type": "real",
+    "units": "%"
+}

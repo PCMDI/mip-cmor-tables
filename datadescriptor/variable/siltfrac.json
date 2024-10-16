@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siltfrac",
+    "cmip_acronym": "siltfrac",
+    "long_name": "Silt Fraction",
+    "standard_name": "volume_fraction_of_silt_in_soil",
+    "type": "real",
+    "units": "1"
+}

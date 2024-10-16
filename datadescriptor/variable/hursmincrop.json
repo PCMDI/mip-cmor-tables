@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hursminCrop",
+    "cmip_acronym": "hursminCrop",
+    "long_name": "Daily Minimum Near-Surface Relative Humidity over Crop Tile",
+    "standard_name": "relative_humidity",
+    "type": "real",
+    "units": "%"
+}

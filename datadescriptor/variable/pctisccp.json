@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "pctisccp",
+    "cmip_acronym": "pctisccp",
+    "long_name": "ISCCP Mean Cloud Top Pressure",
+    "standard_name": "air_pressure_at_cloud_top",
+    "type": "real",
+    "units": "Pa"
+}

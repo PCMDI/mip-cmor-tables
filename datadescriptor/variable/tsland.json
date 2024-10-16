@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tsland",
+    "cmip_acronym": "tsland",
+    "long_name": "Land Surface Temperature",
+    "standard_name": "surface_temperature",
+    "type": "real",
+    "units": "K"
+}

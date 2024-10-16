@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ocontemptend",
+    "cmip_acronym": "ocontemptend",
+    "long_name": "Tendency of Sea Water Conservative Temperature Expressed as Heat Content",
+    "standard_name": "tendency_of_sea_water_conservative_temperature_expressed_as_heat_content",
+    "type": "real",
+    "units": "W m-2"
+}

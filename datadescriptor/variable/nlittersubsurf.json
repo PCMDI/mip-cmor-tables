@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nLitterSubSurf",
+    "cmip_acronym": "nLitterSubSurf",
+    "long_name": "Nitrogen Mass in Below-Ground Litter (non CWD)",
+    "standard_name": "subsurface_litter_mass_content_of_nitrogen",
+    "type": "real",
+    "units": "kg m-2"
+}

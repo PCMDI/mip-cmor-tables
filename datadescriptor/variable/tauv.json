@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tauv",
+    "cmip_acronym": "tauv",
+    "long_name": "Surface Downward Northward Wind Stress",
+    "standard_name": "surface_downward_northward_stress",
+    "type": "real",
+    "units": "Pa"
+}

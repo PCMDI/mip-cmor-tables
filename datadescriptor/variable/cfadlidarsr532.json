@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cfadLidarsr532",
+    "cmip_acronym": "cfadLidarsr532",
+    "long_name": "CALIPSO Scattering Ratio CFAD",
+    "standard_name": "histogram_of_backscattering_ratio_in_air_over_height_above_reference_ellipsoid",
+    "type": "real",
+    "units": "1"
+}

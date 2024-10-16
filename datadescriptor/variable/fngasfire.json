@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fNgasFire",
+    "cmip_acronym": "fNgasFire",
+    "long_name": "Total Nitrogen Lost to the Atmosphere (Including NHx, NOx, N2O, N2) from Fire",
+    "standard_name": "surface_upward_mass_flux_of_nitrogen_compounds_expressed_as_nitrogen_due_to_emission_from_fires",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

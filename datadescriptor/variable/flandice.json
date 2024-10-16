@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "flandice",
+    "cmip_acronym": "flandice",
+    "long_name": "Water Flux into Sea Water from Land Ice",
+    "standard_name": "water_flux_into_sea_water_from_land_ice",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

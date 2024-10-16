@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rainmxrat27",
+    "cmip_acronym": "rainmxrat27",
+    "long_name": "Mass Fraction of Rain in Air",
+    "standard_name": "mass_fraction_of_liquid_precipitation_in_air",
+    "type": "real",
+    "units": "1"
+}

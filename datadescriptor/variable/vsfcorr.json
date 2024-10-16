@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "vsfcorr",
+    "cmip_acronym": "vsfcorr",
+    "long_name": "Virtual Salt Flux Correction",
+    "standard_name": "virtual_salt_flux_correction",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

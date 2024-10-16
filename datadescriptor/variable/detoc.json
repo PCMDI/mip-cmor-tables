@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "detoc",
+    "cmip_acronym": "detoc",
+    "long_name": "Detrital Organic Carbon Concentration",
+    "standard_name": "mole_concentration_of_organic_detritus_expressed_as_carbon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

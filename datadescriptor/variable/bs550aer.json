@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "bs550aer",
+    "cmip_acronym": "bs550aer",
+    "long_name": "Aerosol Backscatter Coefficient",
+    "standard_name": "volume_scattering_function_of_radiative_flux_in_air_due_to_ambient_aerosol_particles",
+    "type": "real",
+    "units": "m-1 sr-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "od550soa",
+    "cmip_acronym": "od550soa",
+    "long_name": "Particulate Organic Aerosol Optical Depth at 550nm",
+    "standard_name": "atmosphere_optical_thickness_due_to_particulate_organic_matter_ambient_aerosol_particles",
+    "type": "real",
+    "units": "1"
+}

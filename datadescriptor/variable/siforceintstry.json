@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siforceintstry",
+    "cmip_acronym": "siforceintstry",
+    "long_name": "Internal Stress Term in Force Balance (Y-Component)",
+    "standard_name": "sea_ice_y_internal_stress",
+    "type": "real",
+    "units": "N m-2"
+}

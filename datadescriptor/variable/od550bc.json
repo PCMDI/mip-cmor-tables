@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "od550bc",
+    "cmip_acronym": "od550bc",
+    "long_name": "Black Carbon Optical Thickness at 550nm",
+    "standard_name": "atmosphere_optical_thickness_due_to_black_carbon_ambient_aerosol",
+    "type": "real",
+    "units": "1"
+}

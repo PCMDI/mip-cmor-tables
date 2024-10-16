@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "zo2min",
+    "cmip_acronym": "zo2min",
+    "long_name": "Depth of Oxygen Minimum Concentration",
+    "standard_name": "depth_at_shallowest_local_minimum_in_vertical_profile_of_mole_concentration_of_dissolved_molecular_oxygen_in_sea_water",
+    "type": "real",
+    "units": "m"
+}

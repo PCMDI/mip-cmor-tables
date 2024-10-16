@@ -18,6 +18,7 @@ from mip_cmor_tables.models.table import Table
 
 
 from pathlib import Path
+from mip_cmor_tables.models.variable import Variable
 from pydantic import ValidationError
 import pytest
 
@@ -82,5 +83,9 @@ def test_mip_era():
 def test_product():
     validate_terms(Path("datadescriptor/product/"),Product)
 
-def test_product():
+def test_table():
     validate_terms(Path("datadescriptor/table/"),Table)
+
+
+def test_variable():
+    validate_terms(Path("datadescriptor/variable/"),Variable)

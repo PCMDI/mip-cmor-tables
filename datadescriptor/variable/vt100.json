@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "vt100",
+    "cmip_acronym": "vt100",
+    "long_name": "Northward Eddy Temperature Flux",
+    "standard_name": "covariance_over_longitude_of_northward_wind_and_air_temperature",
+    "type": "real",
+    "units": "K m s-1"
+}

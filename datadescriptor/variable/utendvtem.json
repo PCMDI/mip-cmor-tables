@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "utendvtem",
+    "cmip_acronym": "utendvtem",
+    "long_name": "Tendency of Eastward Wind Due to TEM Northward Advection and Coriolis Term",
+    "standard_name": "tendency_of_eastward_wind_due_to_advection_by_northward_transformed_eulerian_mean_air_velocity",
+    "type": "real",
+    "units": "m s-1 d-1"
+}

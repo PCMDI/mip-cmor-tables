@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rlus",
+    "cmip_acronym": "rlus",
+    "long_name": "Surface Upwelling Longwave Radiation",
+    "standard_name": "surface_upwelling_longwave_flux_in_air",
+    "type": "real",
+    "units": "W m-2"
+}

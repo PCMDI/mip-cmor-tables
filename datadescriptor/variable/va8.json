@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "va8",
+    "cmip_acronym": "va8",
+    "long_name": "Northward Wind",
+    "standard_name": "northward_wind",
+    "type": "real",
+    "units": "m s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tnpeo",
+    "cmip_acronym": "tnpeo",
+    "long_name": "Tendency of Ocean Potential Energy Content",
+    "standard_name": "tendency_of_ocean_potential_energy_content",
+    "type": "real",
+    "units": "W m-2"
+}

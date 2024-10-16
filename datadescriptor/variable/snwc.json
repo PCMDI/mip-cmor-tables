@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "snwc",
+    "cmip_acronym": "snwc",
+    "long_name": "Snow Water Equivalent Intercepted by the Vegetation",
+    "standard_name": "canopy_snow_amount",
+    "type": "real",
+    "units": "kg m-2"
+}

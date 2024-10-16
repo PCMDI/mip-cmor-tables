@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nLitter",
+    "cmip_acronym": "nLitter",
+    "long_name": "Nitrogen Mass in Litter Pool",
+    "standard_name": "litter_mass_content_of_nitrogen",
+    "type": "real",
+    "units": "kg m-2"
+}

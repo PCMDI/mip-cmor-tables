@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "swtoafluxaerocs",
+    "cmip_acronym": "swtoafluxaerocs",
+    "long_name": "TOA Outgoing Clear-Sky Shortwave Flux Due to Volcanic Aerosols",
+    "standard_name": "toa_outgoing_shortwave_flux_due_to_volcanic_ambient_aerosol_particles_assuming_clear_sky",
+    "type": "real",
+    "units": "W m-2"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sispeed",
+    "cmip_acronym": "sispeed",
+    "long_name": "Sea-Ice Speed",
+    "standard_name": "sea_ice_speed",
+    "type": "real",
+    "units": "m s-1"
+}

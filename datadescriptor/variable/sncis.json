@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sncIs",
+    "cmip_acronym": "sncIs",
+    "long_name": "Ice Sheet Snow Cover Percentage",
+    "standard_name": "surface_snow_area_fraction",
+    "type": "real",
+    "units": "%"
+}

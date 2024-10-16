@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "twap",
+    "cmip_acronym": "twap",
+    "long_name": "Product of Air Temperature and Omega",
+    "standard_name": "product_of_lagrangian_tendency_of_air_pressure_and_air_temperature",
+    "type": "real",
+    "units": "K Pa s-1"
+}

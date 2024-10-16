@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "snmIs",
+    "cmip_acronym": "snmIs",
+    "long_name": "Ice Sheet Surface Snow Melt",
+    "standard_name": "surface_snow_melt_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

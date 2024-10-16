@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siflsensupbot",
+    "cmip_acronym": "siflsensupbot",
+    "long_name": "Net Upward Sensible Heat Flux Under Sea Ice",
+    "standard_name": "upward_sea_ice_basal_heat_flux",
+    "type": "real",
+    "units": "W m-2"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "limnpico",
+    "cmip_acronym": "limnpico",
+    "long_name": "Nitrogen Limitation of Picophytoplankton",
+    "standard_name": "nitrogen_growth_limitation_of_picophytoplankton",
+    "type": "real",
+    "units": "1"
+}

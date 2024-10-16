@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ttop",
+    "cmip_acronym": "ttop",
+    "long_name": "Air Temperature at Cloud Top",
+    "standard_name": "air_temperature_at_cloud_top",
+    "type": "real",
+    "units": "K"
+}

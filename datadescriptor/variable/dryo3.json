@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dryo3",
+    "cmip_acronym": "dryo3",
+    "long_name": "Dry Deposition Rate of O3",
+    "standard_name": "minus_tendency_of_atmosphere_mass_content_of_ozone_due_to_dry_deposition",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

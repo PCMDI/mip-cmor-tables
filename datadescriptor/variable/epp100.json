@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "epp100",
+    "cmip_acronym": "epp100",
+    "long_name": "Downward Flux of Particulate Phosphorus",
+    "standard_name": "sinking_mole_flux_of_particulate_organic_phosphorus_in_sea_water",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

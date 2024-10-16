@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dpo2",
+    "cmip_acronym": "dpo2",
+    "long_name": "Delta O2 Partial Pressure",
+    "standard_name": "surface_molecular_oxygen_partial_pressure_difference_between_sea_water_and_air",
+    "type": "real",
+    "units": "Pa"
+}

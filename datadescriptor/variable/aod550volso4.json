@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "aod550volso4",
+    "cmip_acronym": "aod550volso4",
+    "long_name": "Aerosol Optical Depth at 550nm Due to Stratospheric Volcanic Aerosols",
+    "standard_name": "stratosphere_optical_thickness_due_to_volcanic_ambient_aerosol_particles",
+    "type": "real",
+    "units": "1e-09"
+}

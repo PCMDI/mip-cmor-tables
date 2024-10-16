@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "raOther",
+    "cmip_acronym": "raOther",
+    "long_name": "Total Respiration from Other Pools (not Leaves Stem or Roots) as Carbon Mass Flux [kgC m-2 s-1]",
+    "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration_in_miscellaneous_living_matter",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

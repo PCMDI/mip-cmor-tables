@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "treeFracBdlEvg",
+    "cmip_acronym": "treeFracBdlEvg",
+    "long_name": "Broadleaf Evergreen Tree Area Percentage",
+    "standard_name": "area_fraction",
+    "type": "real",
+    "units": "%"
+}

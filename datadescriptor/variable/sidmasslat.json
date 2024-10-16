@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sidmasslat",
+    "cmip_acronym": "sidmasslat",
+    "long_name": "Lateral Sea Ice Melt Rate",
+    "standard_name": "tendency_of_sea_ice_amount_due_to_lateral_melting",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

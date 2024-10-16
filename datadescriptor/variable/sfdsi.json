@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sfdsi",
+    "cmip_acronym": "sfdsi",
+    "long_name": "Downward Sea Ice Basal Salt Flux",
+    "standard_name": "downward_sea_ice_basal_salt_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

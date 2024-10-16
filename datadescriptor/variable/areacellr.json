@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "areacellr",
+    "cmip_acronym": "areacellr",
+    "long_name": "Grid-Cell Area for River Model Variables",
+    "standard_name": "cell_area",
+    "type": "real",
+    "units": "m2"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tcs",
+    "cmip_acronym": "tcs",
+    "long_name": "Vegetation Canopy Temperature",
+    "standard_name": "canopy_temperature",
+    "type": "real",
+    "units": "K"
+}

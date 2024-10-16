@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tslsi",
+    "cmip_acronym": "tslsi",
+    "long_name": "Surface Temperature Where Land or Sea Ice",
+    "standard_name": "surface_temperature",
+    "type": "real",
+    "units": "K"
+}

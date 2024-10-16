@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "topg",
+    "cmip_acronym": "topg",
+    "long_name": "Bedrock Altitude",
+    "standard_name": "bedrock_altitude",
+    "type": "real",
+    "units": "m"
+}

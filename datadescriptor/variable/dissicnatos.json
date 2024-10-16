@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dissicnatos",
+    "cmip_acronym": "dissicnatos",
+    "long_name": "Surface Natural Dissolved Inorganic Carbon Concentration",
+    "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_natural_analogue_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

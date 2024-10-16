@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "diabdrag",
+    "cmip_acronym": "diabdrag",
+    "long_name": "Tendency of Eastward Wind from Numerical Artefacts",
+    "standard_name": "tendency_of_eastward_wind_due_to_numerical_artefacts",
+    "type": "real",
+    "units": "m s-2"
+}

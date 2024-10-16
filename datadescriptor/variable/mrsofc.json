@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mrsofc",
+    "cmip_acronym": "mrsofc",
+    "long_name": "Capacity of Soil to Store Water (Field Capacity)",
+    "standard_name": "soil_moisture_content_at_field_capacity",
+    "type": "real",
+    "units": "kg m-2"
+}

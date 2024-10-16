@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "loadno3",
+    "cmip_acronym": "loadno3",
+    "long_name": "Load of NO3",
+    "standard_name": "atmosphere_mass_content_of_nitrate_dry_aerosol_particles",
+    "type": "real",
+    "units": "kg m-2"
+}

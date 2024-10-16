@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "limndiaz",
+    "cmip_acronym": "limndiaz",
+    "long_name": "Nitrogen Limitation of Diazotrophs",
+    "standard_name": "nitrogen_growth_limitation_of_diazotrophic_phytoplankton",
+    "type": "real",
+    "units": "1"
+}

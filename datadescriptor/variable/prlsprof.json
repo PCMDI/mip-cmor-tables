@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "prlsprof",
+    "cmip_acronym": "prlsprof",
+    "long_name": "Stratiform Rainfall Flux",
+    "standard_name": "stratiform_rainfall_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

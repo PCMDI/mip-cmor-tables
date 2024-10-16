@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tntscpbl",
+    "cmip_acronym": "tntscpbl",
+    "long_name": "Tendency of Air Temperature Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing",
+    "standard_name": "tendency_of_air_temperature_due_to_stratiform_cloud_and_precipitation_and_boundary_layer_mixing",
+    "type": "real",
+    "units": "K s-1"
+}

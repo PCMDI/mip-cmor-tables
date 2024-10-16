@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "phydiatos",
+    "cmip_acronym": "phydiatos",
+    "long_name": "Surface Mole Concentration of Diatoms Expressed as Carbon in Sea Water",
+    "standard_name": "mole_concentration_of_diatoms_expressed_as_carbon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

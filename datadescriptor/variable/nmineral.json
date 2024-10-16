@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nMineral",
+    "cmip_acronym": "nMineral",
+    "long_name": "Mineral Nitrogen in the Soil",
+    "standard_name": "soil_mass_content_of_inorganic_nitrogen_expressed_as_nitrogen",
+    "type": "real",
+    "units": "kg m-2"
+}

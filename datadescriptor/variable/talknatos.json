@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "talknatos",
+    "cmip_acronym": "talknatos",
+    "long_name": "Surface Natural Total Alkalinity",
+    "standard_name": "sea_water_alkalinity_natural_analogue_expressed_as_mole_equivalent",
+    "type": "real",
+    "units": "mol m-3"
+}

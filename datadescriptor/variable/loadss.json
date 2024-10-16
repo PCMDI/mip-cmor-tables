@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "loadss",
+    "cmip_acronym": "loadss",
+    "long_name": "Load of Sea-Salt Aerosol",
+    "standard_name": "atmosphere_mass_content_of_sea_salt_dry_aerosol_particles",
+    "type": "real",
+    "units": "kg m-2"
+}

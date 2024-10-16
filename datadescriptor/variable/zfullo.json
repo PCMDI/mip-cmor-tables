@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "zfullo",
+    "cmip_acronym": "zfullo",
+    "long_name": "Depth Below Geoid of Ocean Layer",
+    "standard_name": "depth_below_geoid",
+    "type": "real",
+    "units": "m"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "reffgrpls",
+    "cmip_acronym": "reffgrpls",
+    "long_name": "Hydrometeor Effective Radius of Stratiform Graupel",
+    "standard_name": "effective_radius_of_stratiform_cloud_graupel_particles",
+    "type": "real",
+    "units": "m"
+}

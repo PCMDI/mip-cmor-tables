@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "swsrfasdust",
+    "cmip_acronym": "swsrfasdust",
+    "long_name": "All-Sky Surface Shortwave Radiative Flux Due to Dust",
+    "standard_name": "surface_net_downward_shortwave_dust_ambient_aerosol_particles_direct_radiative_effect",
+    "type": "real",
+    "units": "W m-2"
+}

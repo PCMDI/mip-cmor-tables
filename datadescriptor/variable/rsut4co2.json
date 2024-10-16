@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rsut4co2",
+    "cmip_acronym": "rsut4co2",
+    "long_name": "TOA Outgoing Shortwave Radiation in 4XCO2 Atmosphere",
+    "standard_name": "toa_outgoing_shortwave_flux",
+    "type": "real",
+    "units": "W m-2"
+}

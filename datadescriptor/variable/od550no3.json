@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "od550no3",
+    "cmip_acronym": "od550no3",
+    "long_name": "Nitrate Aerosol Optical Depth at 550nm",
+    "standard_name": "atmosphere_optical_thickness_due_to_nitrate_ambient_aerosol_particles",
+    "type": "real",
+    "units": "1"
+}

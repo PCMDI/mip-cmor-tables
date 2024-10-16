@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "intparag",
+    "cmip_acronym": "intparag",
+    "long_name": "Aragonite Production",
+    "standard_name": "tendency_of_ocean_mole_content_of_aragonite_expressed_as_carbon_due_to_biological_production",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

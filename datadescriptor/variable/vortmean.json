@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "vortmean",
+    "cmip_acronym": "vortmean",
+    "long_name": "Relative Vorticity",
+    "standard_name": "atmosphere_relative_vorticity",
+    "type": "real",
+    "units": "s-1"
+}

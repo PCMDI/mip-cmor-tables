@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wilt",
+    "cmip_acronym": "wilt",
+    "long_name": "Wilting Point",
+    "standard_name": "volume_fraction_of_condensed_water_in_soil_at_wilting_point",
+    "type": "real",
+    "units": "%"
+}

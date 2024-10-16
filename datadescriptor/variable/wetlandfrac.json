@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wetlandFrac",
+    "cmip_acronym": "wetlandFrac",
+    "long_name": "Wetland Percentage Cover",
+    "standard_name": "area_fraction",
+    "type": "real",
+    "units": "%"
+}

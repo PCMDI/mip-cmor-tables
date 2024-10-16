@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mmrss",
+    "cmip_acronym": "mmrss",
+    "long_name": "Sea-Salt Aerosol Mass Mixing Ratio",
+    "standard_name": "mass_fraction_of_sea_salt_dry_aerosol_particles_in_air",
+    "type": "real",
+    "units": "kg kg-1"
+}

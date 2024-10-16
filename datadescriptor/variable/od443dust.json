@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "od443dust",
+    "cmip_acronym": "od443dust",
+    "long_name": "Optical Thickness at 443nm Dust",
+    "standard_name": "atmosphere_optical_thickness_due_to_dust_ambient_aerosol_particles",
+    "type": "real",
+    "units": "1"
+}

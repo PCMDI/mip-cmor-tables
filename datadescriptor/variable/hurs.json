@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hurs",
+    "cmip_acronym": "hurs",
+    "long_name": "Near-Surface Relative Humidity",
+    "standard_name": "relative_humidity",
+    "type": "real",
+    "units": "%"
+}

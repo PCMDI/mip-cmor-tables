@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "bacc",
+    "cmip_acronym": "bacc",
+    "long_name": "Bacterial Carbon Concentration",
+    "standard_name": "mole_concentration_of_bacteria_expressed_as_carbon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

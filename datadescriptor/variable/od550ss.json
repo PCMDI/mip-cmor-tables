@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "od550ss",
+    "cmip_acronym": "od550ss",
+    "long_name": "Sea-Salt Aerosol Optical Depth at 550nm",
+    "standard_name": "atmosphere_optical_thickness_due_to_sea_salt_ambient_aerosol_particles",
+    "type": "real",
+    "units": "1"
+}

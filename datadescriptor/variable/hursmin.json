@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hursmin",
+    "cmip_acronym": "hursmin",
+    "long_name": "Daily Minimum Near-Surface Relative Humidity",
+    "standard_name": "relative_humidity",
+    "type": "real",
+    "units": "%"
+}

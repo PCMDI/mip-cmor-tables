@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tasmaxCrop",
+    "cmip_acronym": "tasmaxCrop",
+    "long_name": "Daily Maximum Near-Surface Air Temperature over Crop Tile",
+    "standard_name": "air_temperature",
+    "type": "real",
+    "units": "K"
+}

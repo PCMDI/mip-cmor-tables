@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sidragtop",
+    "cmip_acronym": "sidragtop",
+    "long_name": "Atmospheric Drag Coefficient",
+    "standard_name": "surface_drag_coefficient_for_momentum_in_air",
+    "type": "real",
+    "units": "1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "zmisc",
+    "cmip_acronym": "zmisc",
+    "long_name": "Mole Concentration of Other Zooplankton Expressed as Carbon in Sea Water",
+    "standard_name": "mole_concentration_of_miscellaneous_zooplankton_expressed_as_carbon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

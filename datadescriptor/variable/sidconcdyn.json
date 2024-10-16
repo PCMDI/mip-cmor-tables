@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sidconcdyn",
+    "cmip_acronym": "sidconcdyn",
+    "long_name": "Sea-Ice Area Percentage Tendency Due to Dynamics",
+    "standard_name": "tendency_of_sea_ice_area_fraction_due_to_dynamics",
+    "type": "real",
+    "units": "s-1"
+}

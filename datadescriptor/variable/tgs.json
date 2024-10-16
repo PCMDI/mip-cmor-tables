@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tgs",
+    "cmip_acronym": "tgs",
+    "long_name": "Temperature of Bare Soil",
+    "standard_name": "surface_temperature",
+    "type": "real",
+    "units": "K"
+}

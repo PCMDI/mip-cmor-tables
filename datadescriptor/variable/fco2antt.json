@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fco2antt",
+    "cmip_acronym": "fco2antt",
+    "long_name": "Carbon Mass Flux into Atmosphere Due to All Anthropogenic Emissions of CO2 [kgC m-2 s-1]",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_emission",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

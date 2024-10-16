@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "concnmcn",
+    "cmip_acronym": "concnmcn",
+    "long_name": "Number Concentration of Nucleation Mode Aerosol",
+    "standard_name": "number_concentration_of_nucleation_mode_ambient_aerosol_particles_in_air",
+    "type": "real",
+    "units": "m-3"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfcorr",
+    "cmip_acronym": "hfcorr",
+    "long_name": "Heat Flux Correction",
+    "standard_name": "heat_flux_correction",
+    "type": "real",
+    "units": "W m-2"
+}

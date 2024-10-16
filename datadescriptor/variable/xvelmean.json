@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "xvelmean",
+    "cmip_acronym": "xvelmean",
+    "long_name": "X-Component of Land Ice Vertical Mean Velocity",
+    "standard_name": "land_ice_vertical_mean_x_velocity",
+    "type": "real",
+    "units": "m s-1"
+}

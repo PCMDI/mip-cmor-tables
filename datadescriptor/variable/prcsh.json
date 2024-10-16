@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "prcsh",
+    "cmip_acronym": "prcsh",
+    "long_name": "Precipitation Flux from Shallow Convection",
+    "standard_name": "shallow_convective_precipitation_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "epfy",
+    "cmip_acronym": "epfy",
+    "long_name": "Northward Component of the Eliassen-Palm Flux",
+    "standard_name": "northward_eliassen_palm_flux_in_air",
+    "type": "real",
+    "units": "m3 s-2"
+}

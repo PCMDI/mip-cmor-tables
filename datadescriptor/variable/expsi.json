@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "expsi",
+    "cmip_acronym": "expsi",
+    "long_name": "Sinking Particulate Silicon Flux",
+    "standard_name": "sinking_mole_flux_of_particulate_silicon_in_sea_water",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

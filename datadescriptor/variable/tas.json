@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tas",
+    "cmip_acronym": "tas",
+    "long_name": "Near-Surface Air Temperature",
+    "standard_name": "air_temperature",
+    "type": "real",
+    "units": "K"
+}

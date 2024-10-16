@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nVeg",
+    "cmip_acronym": "nVeg",
+    "long_name": "Nitrogen Mass in Vegetation",
+    "standard_name": "vegetation_mass_content_of_nitrogen",
+    "type": "real",
+    "units": "kg m-2"
+}

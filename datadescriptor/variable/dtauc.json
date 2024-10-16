@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dtauc",
+    "cmip_acronym": "dtauc",
+    "long_name": "Convective Cloud Optical Depth",
+    "standard_name": "atmosphere_optical_thickness_due_to_convective_cloud",
+    "type": "real",
+    "units": "1"
+}

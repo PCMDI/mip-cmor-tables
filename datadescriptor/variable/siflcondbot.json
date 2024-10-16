@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siflcondbot",
+    "cmip_acronym": "siflcondbot",
+    "long_name": "Net Conductive Heat Fluxes in Ice at the Bottom",
+    "standard_name": "basal_downward_heat_flux_in_sea_ice",
+    "type": "real",
+    "units": "W m-2"
+}

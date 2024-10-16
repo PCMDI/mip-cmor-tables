@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "zmtnt",
+    "cmip_acronym": "zmtnt",
+    "long_name": "Zonal Mean Diabatic Heating Rates",
+    "standard_name": "tendency_of_air_temperature_due_to_diabatic_processes",
+    "type": "real",
+    "units": "K s-1"
+}

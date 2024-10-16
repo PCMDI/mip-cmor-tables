@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fNOx",
+    "cmip_acronym": "fNOx",
+    "long_name": "Total Land NOx Flux",
+    "standard_name": "surface_upward_mass_flux_of_nox_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

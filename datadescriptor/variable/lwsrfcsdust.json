@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "lwsrfcsdust",
+    "cmip_acronym": "lwsrfcsdust",
+    "long_name": "Clear-Sky Surface Longwave Radiative Flux Due to Dust",
+    "standard_name": "surface_net_downward_longwave_dust_ambient_aerosol_particles_direct_radiative_effect_assuming_clear_sky",
+    "type": "real",
+    "units": "W m-2"
+}

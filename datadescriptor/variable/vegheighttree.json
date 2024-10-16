@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "vegHeightTree",
+    "cmip_acronym": "vegHeightTree",
+    "long_name": "Height of Trees",
+    "standard_name": "canopy_height",
+    "type": "real",
+    "units": "m"
+}

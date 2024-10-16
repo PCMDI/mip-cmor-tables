@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fBNF",
+    "cmip_acronym": "fBNF",
+    "long_name": "Biological Nitrogen Fixation",
+    "standard_name": "tendency_of_soil_and_vegetation_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_fixation",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

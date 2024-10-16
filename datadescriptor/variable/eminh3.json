@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "eminh3",
+    "cmip_acronym": "eminh3",
+    "long_name": "Total Emission Rate of NH3",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_ammonia_due_to_emission",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tsns",
+    "cmip_acronym": "tsns",
+    "long_name": "Snow Surface Temperature",
+    "standard_name": "surface_temperature",
+    "type": "real",
+    "units": "K"
+}

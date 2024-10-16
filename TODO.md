@@ -92,10 +92,6 @@ todo.md # just to see where i am and what im planning to do
 title: es-vocab pydantic models 
 ---
 classDiagram
-    Experiment "1" --> "*" Activity
-    Experiment "1" --> "*" SubExperiment
-    Experiment "1" --> "*" SourceType
-
 
     class Frequency{
     id: str 
@@ -182,8 +178,6 @@ class ModelComponent{
 }
 
 
-ModelComponent "1" --> "1" Realm
-ModelComponent "1" --> "1" Resolution
 class Source{   
     id: str 
     validation_method: str = Field(default = "list")
@@ -197,9 +191,8 @@ class Source{
     release_year: Optional[int] 
 }
 
-Source "1" --> "1_*" ModelComponent
-Source "1" --> "1" Activity
-Source "1" --> "1" Organisation
+
+
 
 class License{
 
@@ -208,8 +201,6 @@ class License{
     license: Optional[str] 
     url: Optional[str] 
 }
-Source "1" --> "1" License
-
 class Institution{
 
     id: str
@@ -255,10 +246,6 @@ class Dates{
     to: Union[int,str] # "-" if not finished
 }
 
-Dates --> Member
-Member --> Consortia
-Institution --> Member
-
 
 class Organisation{
 
@@ -266,8 +253,7 @@ class Organisation{
     validation_method: str 
     type : str
 }
-Institution --> Organisation
-Consortia --> Organisation
+
 
 class Product{
 
@@ -301,6 +287,35 @@ class MipEra{
     url : str
 
 }
+class Table{
+
+    id: str 
+    validation_method: str
+    type: str 
+    product: Optional[str] 
+    table_date: Optional[str] 
+
+    variable_entry: List[str] 
+
+}
+
+Member "*" -->"1" Consortia
+
+ModelComponent "1" --> "1" Realm
+Dates "1" --> "1-2" Member
+ModelComponent "1" --> "1" Resolution
+Institution "1" --> "1" Organisation
+Institution "1" --> "1" Member
+Consortia "1" --> "1" Organisation
+Source "1" --> "1" Activity
+Source "1" --> "1_*" ModelComponent
+Source "1" --> "1" License
+Experiment "1" --> "*" SubExperiment
+Experiment "1" --> "*" SourceType
+Experiment "1" --> "*" Activity
+Product "1" --> "1" Table
+Source "1" --> "1" Organisation
+
 ```
 #### TODO : upgrade pydantic with embeded object 
 for now the pydantic model only check/code the id (as str) .. do we propagate to include the entire object pointed by the id ?  

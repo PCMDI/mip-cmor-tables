@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfdsl",
+    "cmip_acronym": "hfdsl",
+    "long_name": "Downward Heat Flux at Land Surface",
+    "standard_name": "surface_downward_heat_flux_in_air",
+    "type": "real",
+    "units": "W m-2"
+}

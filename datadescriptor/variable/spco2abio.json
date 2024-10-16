@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "spco2abio",
+    "cmip_acronym": "spco2abio",
+    "long_name": "Abiotic Surface Aqueous Partial Pressure of CO2",
+    "standard_name": "surface_carbon_dioxide_abiotic_analogue_partial_pressure_difference_between_sea_water_and_air",
+    "type": "real",
+    "units": "Pa"
+}

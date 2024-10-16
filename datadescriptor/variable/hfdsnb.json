@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfdsnb",
+    "cmip_acronym": "hfdsnb",
+    "long_name": "Downward Heat Flux at Snow Base",
+    "standard_name": "downward_heat_flux_at_ground_level_in_snow",
+    "type": "real",
+    "units": "W m-2"
+}

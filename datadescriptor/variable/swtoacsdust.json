@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "swtoacsdust",
+    "cmip_acronym": "swtoacsdust",
+    "long_name": "Clear Sky Shortwave Flux Due to Dust at Toa",
+    "standard_name": "toa_instantaneous_shortwave_forcing",
+    "type": "real",
+    "units": "W m-2"
+}

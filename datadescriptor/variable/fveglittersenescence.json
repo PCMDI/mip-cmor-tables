@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fVegLitterSenescence",
+    "cmip_acronym": "fVegLitterSenescence",
+    "long_name": "Total Carbon Mass Flux from Vegetation to Litter as a Result of Leaf, Branch, and Root Senescence",
+    "standard_name": "mass_flux_of_carbon_into_litter_from_vegetation_due_to_senescence",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

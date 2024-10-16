@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "vsfpr",
+    "cmip_acronym": "vsfpr",
+    "long_name": "Virtual Salt Flux into Sea Water Due to Rainfall",
+    "standard_name": "virtual_salt_flux_into_sea_water_due_to_rainfall",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

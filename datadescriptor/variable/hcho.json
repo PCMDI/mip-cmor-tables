@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hcho",
+    "cmip_acronym": "hcho",
+    "long_name": "Formaldehyde Volume Mixing Ratio",
+    "standard_name": "mole_fraction_of_formaldehyde_in_air",
+    "type": "real",
+    "units": "mol mol-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "co3satarag",
+    "cmip_acronym": "co3satarag",
+    "long_name": "Mole Concentration of Carbonate Ion in Equilibrium with Pure Aragonite in Sea Water",
+    "standard_name": "mole_concentration_of_carbonate_expressed_as_carbon_at_equilibrium_with_pure_aragonite_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

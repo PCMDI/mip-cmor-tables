@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "scldncl",
+    "cmip_acronym": "scldncl",
+    "long_name": "Cloud Droplet Number Concentration of Stratiform Cloud Tops",
+    "standard_name": "number_concentration_of_stratiform_cloud_liquid_water_particles_at_stratiform_liquid_water_cloud_top",
+    "type": "real",
+    "units": "m-3"
+}

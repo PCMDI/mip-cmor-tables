@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mrroLut",
+    "cmip_acronym": "mrroLut",
+    "long_name": "Total Runoff from Land-Use Tile",
+    "standard_name": "runoff_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

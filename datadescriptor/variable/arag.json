@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "arag",
+    "cmip_acronym": "arag",
+    "long_name": "Aragonite Concentration",
+    "standard_name": "mole_concentration_of_aragonite_expressed_as_carbon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

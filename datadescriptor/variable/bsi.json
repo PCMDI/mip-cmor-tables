@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "bsi",
+    "cmip_acronym": "bsi",
+    "long_name": "Mole Concentration of Particulate Organic Matter Expressed as Silicon in Sea Water",
+    "standard_name": "mole_concentration_of_particulate_matter_expressed_as_silicon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

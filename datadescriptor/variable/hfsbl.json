@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfsbl",
+    "cmip_acronym": "hfsbl",
+    "long_name": "Energy of Sublimation",
+    "standard_name": "surface_upward_latent_heat_flux_due_to_sublimation",
+    "type": "real",
+    "units": "W m-2"
+}

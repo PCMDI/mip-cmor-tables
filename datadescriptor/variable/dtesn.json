@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dtesn",
+    "cmip_acronym": "dtesn",
+    "long_name": "Change in Snow and Ice Cold Content",
+    "standard_name": "change_over_time_in_thermal_energy_content_of_ice_and_snow_on_land",
+    "type": "real",
+    "units": "J m-2"
+}

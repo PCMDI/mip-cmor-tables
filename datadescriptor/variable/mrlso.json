@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mrlso",
+    "cmip_acronym": "mrlso",
+    "long_name": "Soil Liquid Water Content",
+    "standard_name": "liquid_water_content_of_soil_layer",
+    "type": "real",
+    "units": "kg m-2"
+}

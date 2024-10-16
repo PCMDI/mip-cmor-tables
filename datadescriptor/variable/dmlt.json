@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dmlt",
+    "cmip_acronym": "dmlt",
+    "long_name": "Depth to Soil Thaw",
+    "standard_name": "depth_at_shallowest_isotherm_defined_by_soil_temperature",
+    "type": "real",
+    "units": "m"
+}

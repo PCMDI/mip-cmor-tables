@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "vt",
+    "cmip_acronym": "vt",
+    "long_name": "Product of Air Temperature and Northward Wind",
+    "standard_name": "product_of_northward_wind_and_air_temperature",
+    "type": "real",
+    "units": "K m s-1"
+}

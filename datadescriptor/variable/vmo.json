@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "vmo",
+    "cmip_acronym": "vmo",
+    "long_name": "Ocean Mass Y Transport",
+    "standard_name": "ocean_mass_y_transport",
+    "type": "real",
+    "units": "kg s-1"
+}

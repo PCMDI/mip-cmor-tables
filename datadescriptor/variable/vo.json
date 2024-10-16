@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "vo",
+    "cmip_acronym": "vo",
+    "long_name": "Sea Water Y Velocity",
+    "standard_name": "sea_water_y_velocity",
+    "type": "real",
+    "units": "m s-1"
+}

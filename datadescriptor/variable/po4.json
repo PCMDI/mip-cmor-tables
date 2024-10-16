@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "po4",
+    "cmip_acronym": "po4",
+    "long_name": "Total Dissolved Inorganic Phosphorus Concentration",
+    "standard_name": "mole_concentration_of_dissolved_inorganic_phosphorus_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

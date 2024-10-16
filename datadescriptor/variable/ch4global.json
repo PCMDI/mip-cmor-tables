@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ch4global",
+    "cmip_acronym": "ch4global",
+    "long_name": "Global Mean Mole Fraction of CH4",
+    "standard_name": "mole_fraction_of_methane_in_air",
+    "type": "real",
+    "units": "1e-09"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "difmxybo2d",
+    "cmip_acronym": "difmxybo2d",
+    "long_name": "Ocean Momentum XY Biharmonic Diffusivity",
+    "standard_name": "ocean_momentum_xy_biharmonic_diffusivity",
+    "type": "real",
+    "units": "m4 s-1"
+}

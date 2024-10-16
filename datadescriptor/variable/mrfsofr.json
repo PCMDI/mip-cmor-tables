@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mrfsofr",
+    "cmip_acronym": "mrfsofr",
+    "long_name": "Average Layer Fraction of Frozen Moisture",
+    "standard_name": "mass_fraction_of_frozen_water_in_soil_moisture",
+    "type": "real",
+    "units": "1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dissic",
+    "cmip_acronym": "dissic",
+    "long_name": "Dissolved Inorganic Carbon Concentration",
+    "standard_name": "mole_concentration_of_dissolved_inorganic_carbon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "c2h6",
+    "cmip_acronym": "c2h6",
+    "long_name": "C2H6 Volume Mixing Ratio",
+    "standard_name": "mole_fraction_of_ethane_in_air",
+    "type": "real",
+    "units": "mol mol-1"
+}

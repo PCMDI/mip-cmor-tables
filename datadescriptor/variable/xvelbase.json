@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "xvelbase",
+    "cmip_acronym": "xvelbase",
+    "long_name": "X-Component of Land Ice Basal Velocity",
+    "standard_name": "land_ice_basal_x_velocity",
+    "type": "real",
+    "units": "m s-1"
+}

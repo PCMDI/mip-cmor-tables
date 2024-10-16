@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "drynoy",
+    "cmip_acronym": "drynoy",
+    "long_name": "Dry Deposition Rate of NOy",
+    "standard_name": "minus_tendency_of_atmosphere_mass_content_of_noy_expressed_as_nitrogen_due_to_dry_deposition",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

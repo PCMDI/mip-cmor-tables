@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "prw17O",
+    "cmip_acronym": "prw17O",
+    "long_name": "Mass of Water Vapor Containing Oxygen-17 (H2 17O) in Layer",
+    "standard_name": "mass_content_of_water_vapor_containing_17O_in_atmosphere_layer",
+    "type": "real",
+    "units": "kg m-2"
+}

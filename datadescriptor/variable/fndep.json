@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fNdep",
+    "cmip_acronym": "fNdep",
+    "long_name": "Dry and Wet Deposition of Reactive Nitrogen onto Land",
+    "standard_name": "minus_tendency_of_atmosphere_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_deposition",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

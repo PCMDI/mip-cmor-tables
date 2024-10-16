@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "prveg",
+    "cmip_acronym": "prveg",
+    "long_name": "Precipitation onto Canopy",
+    "standard_name": "precipitation_flux_onto_canopy",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

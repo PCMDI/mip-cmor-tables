@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "reffsnowc",
+    "cmip_acronym": "reffsnowc",
+    "long_name": "Hydrometeor Effective Radius of Convective Snowfall",
+    "standard_name": "effective_radius_of_convective_cloud_snow_particles",
+    "type": "real",
+    "units": "m"
+}

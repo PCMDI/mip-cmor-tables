@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sirdgthick",
+    "cmip_acronym": "sirdgthick",
+    "long_name": "Ridged Ice Thickness",
+    "standard_name": "sea_ice_thickness",
+    "type": "real",
+    "units": "m"
+}

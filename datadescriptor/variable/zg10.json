@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "zg10",
+    "cmip_acronym": "zg10",
+    "long_name": "Geopotential Height at 10hPa",
+    "standard_name": "geopotential_height",
+    "type": "real",
+    "units": "m"
+}

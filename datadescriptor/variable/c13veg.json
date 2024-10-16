@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "c13Veg",
+    "cmip_acronym": "c13Veg",
+    "long_name": "Mass of 13C in Vegetation",
+    "standard_name": "vegetation_mass_content_of_13C",
+    "type": "real",
+    "units": "kg m-2"
+}

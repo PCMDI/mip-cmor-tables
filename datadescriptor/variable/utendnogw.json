@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "utendnogw",
+    "cmip_acronym": "utendnogw",
+    "long_name": "Eastward Acceleration Due to Non-Orographic Gravity Wave Drag",
+    "standard_name": "tendency_of_eastward_wind_due_to_nonorographic_gravity_wave_drag",
+    "type": "real",
+    "units": "m s-2"
+}

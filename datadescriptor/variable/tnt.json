@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tnt",
+    "cmip_acronym": "tnt",
+    "long_name": "Tendency of Air Temperature",
+    "standard_name": "tendency_of_air_temperature",
+    "type": "real",
+    "units": "K s-1"
+}

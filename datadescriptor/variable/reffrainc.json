@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "reffrainc",
+    "cmip_acronym": "reffrainc",
+    "long_name": "Hydrometeor Effective Radius of Convective Rainfall",
+    "standard_name": "effective_radius_of_convective_cloud_rain_particles",
+    "type": "real",
+    "units": "m"
+}

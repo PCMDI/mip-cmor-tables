@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "evspsbl",
+    "cmip_acronym": "evspsbl",
+    "long_name": "Evaporation Including Sublimation and Transpiration",
+    "standard_name": "water_evapotranspiration_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

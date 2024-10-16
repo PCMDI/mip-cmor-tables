@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfssLut",
+    "cmip_acronym": "hfssLut",
+    "long_name": "Sensible Heat Flux on Land-Use Tile",
+    "standard_name": "surface_upward_sensible_heat_flux",
+    "type": "real",
+    "units": "W m-2"
+}

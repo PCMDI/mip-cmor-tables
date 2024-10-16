@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "expp",
+    "cmip_acronym": "expp",
+    "long_name": "Sinking Particulate Organic Phosphorus Flux",
+    "standard_name": "sinking_mole_flux_of_particulate_organic_phosphorus_in_sea_water",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

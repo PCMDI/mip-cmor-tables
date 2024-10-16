@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tntscp",
+    "cmip_acronym": "tntscp",
+    "long_name": "Tendency of Air Temperature Due to Stratiform Clouds and Precipitation",
+    "standard_name": "tendency_of_air_temperature_due_to_stratiform_cloud_and_precipitation",
+    "type": "real",
+    "units": "K s-1"
+}

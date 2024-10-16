@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rlut",
+    "cmip_acronym": "rlut",
+    "long_name": "TOA Outgoing Longwave Radiation",
+    "standard_name": "toa_outgoing_longwave_flux",
+    "type": "real",
+    "units": "W m-2"
+}

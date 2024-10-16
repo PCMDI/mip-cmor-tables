@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "somint",
+    "cmip_acronym": "somint",
+    "long_name": "Depth Integral of Product of Sea Water Density and Prognostic Salinity",
+    "standard_name": "integral_wrt_depth_of_product_of_salinity_and_sea_water_density",
+    "type": "real",
+    "units": "g m-2"
+}

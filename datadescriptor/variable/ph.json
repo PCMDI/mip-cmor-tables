@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ph",
+    "cmip_acronym": "ph",
+    "long_name": "pH",
+    "standard_name": "sea_water_ph_reported_on_total_scale",
+    "type": "real",
+    "units": "1"
+}

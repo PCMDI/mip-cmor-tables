@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mmrpm10",
+    "cmip_acronym": "mmrpm10",
+    "long_name": "PM10 Mass Mixing Ratio",
+    "standard_name": "mass_fraction_of_pm10_ambient_aerosol_particles_in_air",
+    "type": "real",
+    "units": "kg kg-1"
+}

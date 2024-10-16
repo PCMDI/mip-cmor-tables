@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dtes",
+    "cmip_acronym": "dtes",
+    "long_name": "Change in Surface Heat Storage",
+    "standard_name": "change_over_time_in_thermal_energy_content_of_vegetation_and_litter_and_soil",
+    "type": "real",
+    "units": "J m-2"
+}

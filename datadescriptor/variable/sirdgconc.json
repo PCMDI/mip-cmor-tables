@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sirdgconc",
+    "cmip_acronym": "sirdgconc",
+    "long_name": "Percentage Cover of Sea Ice by Ridging",
+    "standard_name": "area_fraction",
+    "type": "real",
+    "units": "1"
+}

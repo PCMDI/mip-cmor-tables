@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "prhmax",
+    "cmip_acronym": "prhmax",
+    "long_name": "Maximum Hourly Precipitation Rate",
+    "standard_name": "precipitation_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sfpm25",
+    "cmip_acronym": "sfpm25",
+    "long_name": "PM2.5 Mass Mixing Ratio in Lowest Model Layer",
+    "standard_name": "mass_fraction_of_pm2p5_ambient_aerosol_particles_in_air",
+    "type": "real",
+    "units": "kg kg-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cw",
+    "cmip_acronym": "cw",
+    "long_name": "Total Canopy Water Storage",
+    "standard_name": "canopy_water_amount",
+    "type": "real",
+    "units": "kg m-2"
+}

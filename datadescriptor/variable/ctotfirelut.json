@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cTotFireLut",
+    "cmip_acronym": "cTotFireLut",
+    "long_name": "Total Carbon Loss from Natural and Managed Fire on Land-Use Tile, Including Deforestation Fires [kgC m-2 s-1]",
+    "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_fires",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

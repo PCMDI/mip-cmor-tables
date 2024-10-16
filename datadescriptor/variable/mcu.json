@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mcu",
+    "cmip_acronym": "mcu",
+    "long_name": "Convective Updraft Mass Flux",
+    "standard_name": "atmosphere_updraft_convective_mass_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

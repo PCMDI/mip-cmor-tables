@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tr",
+    "cmip_acronym": "tr",
+    "long_name": "Surface Radiative Temperature",
+    "standard_name": "surface_temperature",
+    "type": "real",
+    "units": "K"
+}

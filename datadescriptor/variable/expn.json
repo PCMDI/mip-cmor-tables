@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "expn",
+    "cmip_acronym": "expn",
+    "long_name": "Sinking Particulate Organic Nitrogen Flux",
+    "standard_name": "sinking_mole_flux_of_particulate_organic_nitrogen_in_sea_water",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

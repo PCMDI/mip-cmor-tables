@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wetlandCH4prod",
+    "cmip_acronym": "wetlandCH4prod",
+    "long_name": "Grid Averaged Methane Production (Methanogenesis) from Wetlands",
+    "standard_name": "surface_upward_mass_flux_of_methane_due_to_emission_from_wetland_biological_production",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

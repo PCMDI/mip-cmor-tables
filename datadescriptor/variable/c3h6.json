@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "c3h6",
+    "cmip_acronym": "c3h6",
+    "long_name": "C3H6 Volume Mixing Ratio",
+    "standard_name": "mole_fraction_of_propene_in_air",
+    "type": "real",
+    "units": "mol mol-1"
+}

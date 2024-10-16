@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "xgwdparam",
+    "cmip_acronym": "xgwdparam",
+    "long_name": "Eastward Gravity Wave Drag",
+    "standard_name": "atmosphere_eastward_stress_due_to_gravity_wave_drag",
+    "type": "real",
+    "units": "Pa"
+}

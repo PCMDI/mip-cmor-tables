@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "evspsblsoi",
+    "cmip_acronym": "evspsblsoi",
+    "long_name": "Water Evaporation from Soil",
+    "standard_name": "water_evaporation_flux_from_soil",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

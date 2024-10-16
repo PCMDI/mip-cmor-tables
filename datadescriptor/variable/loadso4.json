@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "loadso4",
+    "cmip_acronym": "loadso4",
+    "long_name": "Load of SO4",
+    "standard_name": "atmosphere_mass_content_of_sulfate_dry_aerosol_particles",
+    "type": "real",
+    "units": "kg m-2"
+}

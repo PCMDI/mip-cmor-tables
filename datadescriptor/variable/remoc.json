@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "remoc",
+    "cmip_acronym": "remoc",
+    "long_name": "Remineralization of Organic Carbon",
+    "standard_name": "tendency_of_mole_concentration_of_particulate_organic_matter_expressed_as_carbon_in_sea_water_due_to_remineralization",
+    "type": "real",
+    "units": "mol m-3 s-1"
+}

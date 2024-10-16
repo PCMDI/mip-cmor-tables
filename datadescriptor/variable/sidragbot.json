@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sidragbot",
+    "cmip_acronym": "sidragbot",
+    "long_name": "Ocean Drag Coefficient",
+    "standard_name": "sea_ice_basal_drag_coefficient_for_momentum_in_sea_water",
+    "type": "real",
+    "units": "1"
+}

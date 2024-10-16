@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "phydiat",
+    "cmip_acronym": "phydiat",
+    "long_name": "Mole Concentration of Diatoms Expressed as Carbon in Sea Water",
+    "standard_name": "mole_concentration_of_diatoms_expressed_as_carbon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

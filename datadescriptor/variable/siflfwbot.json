@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siflfwbot",
+    "cmip_acronym": "siflfwbot",
+    "long_name": "Freshwater Flux from Sea Ice",
+    "standard_name": "water_flux_into_sea_water_due_to_sea_ice_thermodynamics",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sfriver",
+    "cmip_acronym": "sfriver",
+    "long_name": "Salt Flux into Sea Water from Rivers",
+    "standard_name": "salt_flux_into_sea_water_from_rivers",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

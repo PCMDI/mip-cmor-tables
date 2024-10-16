@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "lwsnl",
+    "cmip_acronym": "lwsnl",
+    "long_name": "Liquid Water Content of Snow Layer",
+    "standard_name": "liquid_water_content_of_surface_snow",
+    "type": "real",
+    "units": "kg m-2"
+}

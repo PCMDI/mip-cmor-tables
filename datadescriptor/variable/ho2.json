@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ho2",
+    "cmip_acronym": "ho2",
+    "long_name": "HO2 Volume Mixing Ratio",
+    "standard_name": "mole_fraction_of_hydroperoxyl_radical_in_air",
+    "type": "real",
+    "units": "mol mol-1"
+}

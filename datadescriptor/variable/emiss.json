@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "emiss",
+    "cmip_acronym": "emiss",
+    "long_name": "Total Emission Rate of Sea-Salt Aerosol",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_sea_salt_dry_aerosol_particles_due_to_emission",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

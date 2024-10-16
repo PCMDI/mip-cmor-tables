@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tendlicalvf",
+    "cmip_acronym": "tendlicalvf",
+    "long_name": "Total Calving Flux",
+    "standard_name": "tendency_of_land_ice_mass_due_to_calving",
+    "type": "real",
+    "units": "kg s-1"
+}

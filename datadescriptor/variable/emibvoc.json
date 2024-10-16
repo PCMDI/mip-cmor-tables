@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "emibvoc",
+    "cmip_acronym": "emibvoc",
+    "long_name": "Total Emission Rate of Biogenic NMVOC",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_biogenic_nmvoc_expressed_as_carbon_due_to_emission",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mmrdust",
+    "cmip_acronym": "mmrdust",
+    "long_name": "Dust Aerosol Mass Mixing Ratio",
+    "standard_name": "mass_fraction_of_dust_dry_aerosol_particles_in_air",
+    "type": "real",
+    "units": "kg kg-1"
+}

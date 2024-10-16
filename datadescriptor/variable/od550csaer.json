@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "od550csaer",
+    "cmip_acronym": "od550csaer",
+    "long_name": "Ambient Aerosol Optical Thickness at 550nm",
+    "standard_name": "atmosphere_optical_thickness_due_to_ambient_aerosol_particles",
+    "type": "real",
+    "units": "1"
+}

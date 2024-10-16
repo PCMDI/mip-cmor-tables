@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "libmassbfgr",
+    "cmip_acronym": "libmassbfgr",
+    "long_name": "Basal Specific Mass Balance Flux of Grounded Ice Sheet",
+    "standard_name": "land_ice_basal_specific_mass_balance_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

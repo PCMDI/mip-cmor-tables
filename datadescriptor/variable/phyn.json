@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "phyn",
+    "cmip_acronym": "phyn",
+    "long_name": "Mole Concentration of Total Phytoplankton Expressed as Nitrogen in Sea Water",
+    "standard_name": "mole_concentration_of_phytoplankton_expressed_as_nitrogen_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

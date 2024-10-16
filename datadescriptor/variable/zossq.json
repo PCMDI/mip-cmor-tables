@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "zossq",
+    "cmip_acronym": "zossq",
+    "long_name": "Square of Sea Surface Height Above Geoid",
+    "standard_name": "square_of_sea_surface_height_above_geoid",
+    "type": "real",
+    "units": "m2"
+}

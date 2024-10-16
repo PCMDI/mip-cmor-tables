@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nMineralNH4",
+    "cmip_acronym": "nMineralNH4",
+    "long_name": "Mineral Ammonium in the Soil",
+    "standard_name": "soil_mass_content_of_inorganic_ammonium_expressed_as_nitrogen",
+    "type": "real",
+    "units": "kg m-2"
+}

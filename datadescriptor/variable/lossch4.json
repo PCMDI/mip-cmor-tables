@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "lossch4",
+    "cmip_acronym": "lossch4",
+    "long_name": "Monthly Loss of Atmospheric Methane",
+    "standard_name": "tendency_of_atmosphere_mole_concentration_of_methane_due_to_chemical_destruction",
+    "type": "real",
+    "units": "mol m-3 s-1"
+}

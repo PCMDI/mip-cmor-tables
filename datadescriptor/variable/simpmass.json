@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "simpmass",
+    "cmip_acronym": "simpmass",
+    "long_name": "Meltpond Mass per Unit Area (as Depth)",
+    "standard_name": "sea_ice_melt_pond_thickness",
+    "type": "real",
+    "units": "m"
+}

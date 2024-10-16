@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sipr",
+    "cmip_acronym": "sipr",
+    "long_name": "Rainfall Rate over Sea Ice",
+    "standard_name": "rainfall_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

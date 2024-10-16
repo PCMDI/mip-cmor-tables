@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sndmasswindrif",
+    "cmip_acronym": "sndmasswindrif",
+    "long_name": "Snow Mass Rate of Change Through Wind Drift of Snow",
+    "standard_name": "tendency_of_surface_snow_amount_due_to_drifting_into_sea",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

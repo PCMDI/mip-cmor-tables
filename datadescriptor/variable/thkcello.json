@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "thkcello",
+    "cmip_acronym": "thkcello",
+    "long_name": "Ocean Model Cell Thickness",
+    "standard_name": "cell_thickness",
+    "type": "real",
+    "units": "m"
+}

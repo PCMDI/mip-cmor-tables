@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "intpbn",
+    "cmip_acronym": "intpbn",
+    "long_name": "Nitrogen Production",
+    "standard_name": "tendency_of_ocean_mole_content_of_nitrogen_due_to_biological_production",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

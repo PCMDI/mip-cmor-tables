@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sisnmass",
+    "cmip_acronym": "sisnmass",
+    "long_name": "Snow Mass per Area",
+    "standard_name": "liquid_water_content_of_surface_snow",
+    "type": "real",
+    "units": "kg m-2"
+}

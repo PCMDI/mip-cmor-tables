@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sitemptop",
+    "cmip_acronym": "sitemptop",
+    "long_name": "Surface Temperature of Sea Ice",
+    "standard_name": "sea_ice_surface_temperature",
+    "type": "real",
+    "units": "K"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fahLut",
+    "cmip_acronym": "fahLut",
+    "long_name": "Anthropogenic Heat Flux Generated from non-Renewable Human Primary Energy Consumption",
+    "standard_name": "surface_upward_heat_flux_due_to_anthropogenic_energy_consumption",
+    "type": "real",
+    "units": "W m-2"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "reffclwc",
+    "cmip_acronym": "reffclwc",
+    "long_name": "Convective Cloud Liquid Droplet Effective Radius",
+    "standard_name": "effective_radius_of_convective_cloud_liquid_water_particles",
+    "type": "real",
+    "units": "m"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rsutcsaf",
+    "cmip_acronym": "rsutcsaf",
+    "long_name": "TOA Outgoing Clear-Sky, Aerosol-Free Shortwave Radiation",
+    "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky_and_no_aerosol",
+    "type": "real",
+    "units": "W m-2"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cVegGrass",
+    "cmip_acronym": "cVegGrass",
+    "long_name": "Carbon Mass in Vegetation on Grass Tiles",
+    "standard_name": "vegetation_carbon_content",
+    "type": "real",
+    "units": "kg m-2"
+}

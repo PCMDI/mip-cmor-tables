@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "opottempmint",
+    "cmip_acronym": "opottempmint",
+    "long_name": "Integral with Respect to Depth of Product of Sea Water Density and Potential Temperature",
+    "standard_name": "integral_wrt_depth_of_product_of_potential_temperature_and_sea_water_density",
+    "type": "real",
+    "units": "degC kg m-2"
+}

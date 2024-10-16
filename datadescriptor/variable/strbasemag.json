@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "strbasemag",
+    "cmip_acronym": "strbasemag",
+    "long_name": "Land Ice Basal Drag",
+    "standard_name": "land_ice_basal_drag",
+    "type": "real",
+    "units": "Pa"
+}

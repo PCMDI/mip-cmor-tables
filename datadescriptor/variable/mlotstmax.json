@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mlotstmax",
+    "cmip_acronym": "mlotstmax",
+    "long_name": "Maximum Ocean Mixed Layer Thickness Defined by Sigma T",
+    "standard_name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
+    "type": "real",
+    "units": "m"
+}

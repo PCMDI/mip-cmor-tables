@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tnhusmp",
+    "cmip_acronym": "tnhusmp",
+    "long_name": "Tendency of Specific Humidity Due to Model Physics",
+    "standard_name": "tendency_of_specific_humidity_due_to_model_physics",
+    "type": "real",
+    "units": "s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "lifmassbf",
+    "cmip_acronym": "lifmassbf",
+    "long_name": "Land Ice Vertical Front Mass Balance Flux",
+    "standard_name": "land_ice_specific_mass_flux_due_to_calving_and_ice_front_melting",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

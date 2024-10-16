@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "clmcalipso",
+    "cmip_acronym": "clmcalipso",
+    "long_name": "CALIPSO Mid Level Cloud Cover Percentage",
+    "standard_name": "cloud_area_fraction_in_atmosphere_layer",
+    "type": "real",
+    "units": "%"
+}

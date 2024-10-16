@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "zhalfo",
+    "cmip_acronym": "zhalfo",
+    "long_name": "Depth Below Geoid of Interfaces Between Ocean Layers",
+    "standard_name": "depth_below_geoid",
+    "type": "real",
+    "units": "m"
+}

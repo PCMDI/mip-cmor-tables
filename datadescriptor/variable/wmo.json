@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wmo",
+    "cmip_acronym": "wmo",
+    "long_name": "Upward Ocean Mass Transport",
+    "standard_name": "upward_ocean_mass_transport",
+    "type": "real",
+    "units": "kg s-1"
+}

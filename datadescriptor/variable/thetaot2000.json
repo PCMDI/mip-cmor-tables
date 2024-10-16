@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "thetaot2000",
+    "cmip_acronym": "thetaot2000",
+    "long_name": "Depth Average Potential Temperature of Upper 2000m",
+    "standard_name": "sea_water_potential_temperature",
+    "type": "real",
+    "units": "degC"
+}

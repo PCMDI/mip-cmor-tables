@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "pr",
+    "cmip_acronym": "pr",
+    "long_name": "Precipitation",
+    "standard_name": "precipitation_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

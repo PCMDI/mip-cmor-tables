@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cly",
+    "cmip_acronym": "cly",
+    "long_name": "Total Inorganic Chlorine Volume Mixing Ratio",
+    "standard_name": "mole_fraction_of_inorganic_chlorine_in_air",
+    "type": "real",
+    "units": "mol mol-1"
+}

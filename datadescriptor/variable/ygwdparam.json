@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ygwdparam",
+    "cmip_acronym": "ygwdparam",
+    "long_name": "Northward Gravity Wave Drag",
+    "standard_name": "atmosphere_northward_stress_due_to_gravity_wave_drag",
+    "type": "real",
+    "units": "Pa"
+}

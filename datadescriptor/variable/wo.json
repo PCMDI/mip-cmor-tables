@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wo",
+    "cmip_acronym": "wo",
+    "long_name": "Sea Water Vertical Velocity",
+    "standard_name": "upward_sea_water_velocity",
+    "type": "real",
+    "units": "m s-1"
+}

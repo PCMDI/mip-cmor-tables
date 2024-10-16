@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rsutaf",
+    "cmip_acronym": "rsutaf",
+    "long_name": "TOA Outgoing Aerosol-Free Shortwave Radiation",
+    "standard_name": "toa_outgoing_shortwave_flux",
+    "type": "real",
+    "units": "W m-2"
+}

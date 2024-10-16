@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "osaltpmdiff",
+    "cmip_acronym": "osaltpmdiff",
+    "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Mesoscale Diffusion",
+    "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_mesoscale_eddy_diffusion",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

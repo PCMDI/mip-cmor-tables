@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "intppmisc",
+    "cmip_acronym": "intppmisc",
+    "long_name": "Net Primary Organic Carbon Production by Other Phytoplankton",
+    "standard_name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_by_miscellaneous_phytoplankton",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "calcos",
+    "cmip_acronym": "calcos",
+    "long_name": "Surface Calcite Concentration",
+    "standard_name": "mole_concentration_of_calcite_expressed_as_carbon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

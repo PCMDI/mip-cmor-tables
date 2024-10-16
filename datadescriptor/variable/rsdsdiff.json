@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rsdsdiff",
+    "cmip_acronym": "rsdsdiff",
+    "long_name": "Surface Diffuse Downwelling Shortwave Radiation",
+    "standard_name": "surface_diffuse_downwelling_shortwave_flux_in_air",
+    "type": "real",
+    "units": "W m-2"
+}

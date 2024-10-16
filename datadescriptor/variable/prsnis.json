@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "prsnIs",
+    "cmip_acronym": "prsnIs",
+    "long_name": "Ice Sheet Snowfall Flux",
+    "standard_name": "snowfall_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

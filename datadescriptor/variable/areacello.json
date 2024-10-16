@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "areacello",
+    "cmip_acronym": "areacello",
+    "long_name": "Grid-Cell Area for Ocean Variables",
+    "standard_name": "cell_area",
+    "type": "real",
+    "units": "m2"
+}

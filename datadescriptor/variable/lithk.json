@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "lithk",
+    "cmip_acronym": "lithk",
+    "long_name": "Ice Sheet Thickness",
+    "standard_name": "land_ice_thickness",
+    "type": "real",
+    "units": "m"
+}

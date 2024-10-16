@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cLitterAbove",
+    "cmip_acronym": "cLitterAbove",
+    "long_name": "Carbon Mass in Above-Ground Litter",
+    "standard_name": "surface_litter_mass_content_of_carbon",
+    "type": "real",
+    "units": "kg m-2"
+}

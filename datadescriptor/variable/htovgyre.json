@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "htovgyre",
+    "cmip_acronym": "htovgyre",
+    "long_name": "Northward Ocean Heat Transport Due to Gyre",
+    "standard_name": "northward_ocean_heat_transport_due_to_gyre",
+    "type": "real",
+    "units": "W"
+}

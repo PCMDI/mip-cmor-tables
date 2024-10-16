@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ccb",
+    "cmip_acronym": "ccb",
+    "long_name": "Air Pressure at Convective Cloud Base",
+    "standard_name": "air_pressure_at_convective_cloud_base",
+    "type": "real",
+    "units": "Pa"
+}

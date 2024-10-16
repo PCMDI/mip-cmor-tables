@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siflfwdrain",
+    "cmip_acronym": "siflfwdrain",
+    "long_name": "Freshwater Flux from Sea-Ice Surface",
+    "standard_name": "water_flux_into_sea_water_due_to_surface_drainage",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

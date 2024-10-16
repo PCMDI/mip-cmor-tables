@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "zmla",
+    "cmip_acronym": "zmla",
+    "long_name": "Height of Boundary Layer",
+    "standard_name": "atmosphere_boundary_layer_thickness",
+    "type": "real",
+    "units": "m"
+}

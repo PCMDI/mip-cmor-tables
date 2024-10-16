@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fddtdife",
+    "cmip_acronym": "fddtdife",
+    "long_name": "Rate of Change of Net Dissolved Inorganic Iron",
+    "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_iron",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

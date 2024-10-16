@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hflso",
+    "cmip_acronym": "hflso",
+    "long_name": "Surface Downward Latent Heat Flux",
+    "standard_name": "surface_downward_latent_heat_flux",
+    "type": "real",
+    "units": "W m-2"
+}

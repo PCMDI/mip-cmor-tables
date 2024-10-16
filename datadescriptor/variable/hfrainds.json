@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfrainds",
+    "cmip_acronym": "hfrainds",
+    "long_name": "Temperature Flux Due to Rainfall Expressed as Heat Flux into Sea Water",
+    "standard_name": "temperature_flux_due_to_rainfall_expressed_as_heat_flux_into_sea_water",
+    "type": "real",
+    "units": "W m-2"
+}

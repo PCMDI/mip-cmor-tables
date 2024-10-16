@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ksat",
+    "cmip_acronym": "ksat",
+    "long_name": "Saturated Hydraulic Conductivity",
+    "standard_name": "soil_hydraulic_conductivity_at_saturation",
+    "type": "real",
+    "units": "micron s-1"
+}

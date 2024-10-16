@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "phyc",
+    "cmip_acronym": "phyc",
+    "long_name": "Phytoplankton Carbon Concentration",
+    "standard_name": "mole_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

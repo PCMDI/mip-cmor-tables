@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "simass",
+    "cmip_acronym": "simass",
+    "long_name": "Sea-Ice Mass per Area",
+    "standard_name": "sea_ice_amount",
+    "type": "real",
+    "units": "kg m-2"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dmsos",
+    "cmip_acronym": "dmsos",
+    "long_name": "Surface Mole Concentration of Dimethyl Sulphide in Sea Water",
+    "standard_name": "mole_concentration_of_dimethyl_sulfide_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

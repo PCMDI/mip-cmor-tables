@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "noy",
+    "cmip_acronym": "noy",
+    "long_name": "Total Reactive Nitrogen Volume Mixing Ratio",
+    "standard_name": "mole_fraction_of_noy_expressed_as_nitrogen_in_air",
+    "type": "real",
+    "units": "mol mol-1"
+}

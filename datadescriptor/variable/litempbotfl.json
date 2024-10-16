@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "litempbotfl",
+    "cmip_acronym": "litempbotfl",
+    "long_name": "Basal Temperature of Floating Ice Shelf",
+    "standard_name": "land_ice_basal_temperature",
+    "type": "real",
+    "units": "K"
+}

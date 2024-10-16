@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "residualFrac",
+    "cmip_acronym": "residualFrac",
+    "long_name": "Percentage of Grid Cell That Is Land but neither Vegetation Covered nor Bare Soil",
+    "standard_name": "area_fraction",
+    "type": "real",
+    "units": "%"
+}

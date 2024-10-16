@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rsucsafbnd",
+    "cmip_acronym": "rsucsafbnd",
+    "long_name": "Upwelling Clear-Sky, Aerosol-Free Shortwave Radiation in Bands",
+    "standard_name": "upwelling_shortwave_flux_in_air_assuming_clear_sky_and_no_aerosol",
+    "type": "real",
+    "units": "W m-2"
+}

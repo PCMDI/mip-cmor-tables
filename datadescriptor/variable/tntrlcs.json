@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tntrlcs",
+    "cmip_acronym": "tntrlcs",
+    "long_name": "Tendency of Air Temperature Due to Clear Sky Longwave Radiative Heating",
+    "standard_name": "tendency_of_air_temperature_due_to_longwave_heating_assuming_clear_sky",
+    "type": "real",
+    "units": "K s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "treeFrac",
+    "cmip_acronym": "treeFrac",
+    "long_name": "Tree Cover Percentage",
+    "standard_name": "area_fraction",
+    "type": "real",
+    "units": "%"
+}

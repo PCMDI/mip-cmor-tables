@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dgw",
+    "cmip_acronym": "dgw",
+    "long_name": "Change in Groundwater",
+    "standard_name": "change_over_time_in_groundwater_amount",
+    "type": "real",
+    "units": "kg m-2"
+}

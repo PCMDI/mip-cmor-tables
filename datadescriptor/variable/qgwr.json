@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "qgwr",
+    "cmip_acronym": "qgwr",
+    "long_name": "Groundwater Recharge from Soil Layer",
+    "standard_name": "downward_liquid_water_mass_flux_into_groundwater",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

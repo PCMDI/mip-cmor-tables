@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siarean",
+    "cmip_acronym": "siarean",
+    "long_name": "Sea-Ice Area North",
+    "standard_name": "sea_ice_area",
+    "type": "real",
+    "units": "1e6 km2"
+}

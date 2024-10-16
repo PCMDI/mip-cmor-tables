@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wetss",
+    "cmip_acronym": "wetss",
+    "long_name": "Wet Deposition Rate of Sea-Salt Aerosol",
+    "standard_name": "minus_tendency_of_atmosphere_mass_content_of_sea_salt_dry_aerosol_particles_due_to_wet_deposition",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

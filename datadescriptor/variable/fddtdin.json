@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fddtdin",
+    "cmip_acronym": "fddtdin",
+    "long_name": "Rate of Change of Net Dissolved Inorganic Nitrogen",
+    "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_nitrogen",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

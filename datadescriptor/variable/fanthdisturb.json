@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fAnthDisturb",
+    "cmip_acronym": "fAnthDisturb",
+    "long_name": "Carbon Mass Flux from Vegetation, Litter or Soil Pools into the Atmosphere Due to any Human Activity [kgC m-2 s-1]",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_emission",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

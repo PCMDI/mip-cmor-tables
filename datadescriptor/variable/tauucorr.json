@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tauucorr",
+    "cmip_acronym": "tauucorr",
+    "long_name": "Surface Downward X Stress Correction",
+    "standard_name": "downward_x_stress_correction_at_sea_water_surface",
+    "type": "real",
+    "units": "N m-2"
+}

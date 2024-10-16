@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sivol",
+    "cmip_acronym": "sivol",
+    "long_name": "Sea-Ice Volume per Area",
+    "standard_name": "sea_ice_thickness",
+    "type": "real",
+    "units": "m"
+}

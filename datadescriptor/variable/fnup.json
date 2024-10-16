@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fNup",
+    "cmip_acronym": "fNup",
+    "long_name": "Total Plant Nitrogen Uptake (Sum of Ammonium and Nitrate) Irrespective of the Source of Nitrogen",
+    "standard_name": "tendency_of_vegetation_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_fixation",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

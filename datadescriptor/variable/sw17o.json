@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sw17O",
+    "cmip_acronym": "sw17O",
+    "long_name": "Isotopic Ratio of Oxygen-17 in Sea Water",
+    "standard_name": "isotope_ratio_of_17O_to_16O_in_sea_water_excluding_solutes_and_solids",
+    "type": "real",
+    "units": "1"
+}

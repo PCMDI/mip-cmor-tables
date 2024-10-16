@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fbddtdin",
+    "cmip_acronym": "fbddtdin",
+    "long_name": "Rate of Change of Dissolved Inorganic Nitrogen Due to Biological Activity",
+    "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_nitrogen_due_to_biological_processes",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

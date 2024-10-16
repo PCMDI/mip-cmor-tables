@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tasIs",
+    "cmip_acronym": "tasIs",
+    "long_name": "Ice Sheet Near-Surface Air Temperature",
+    "standard_name": "air_temperature",
+    "type": "real",
+    "units": "K"
+}

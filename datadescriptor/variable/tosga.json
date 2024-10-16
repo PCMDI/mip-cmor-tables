@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tosga",
+    "cmip_acronym": "tosga",
+    "long_name": "Global Average Sea Surface Temperature",
+    "standard_name": "sea_surface_temperature",
+    "type": "real",
+    "units": "degC"
+}

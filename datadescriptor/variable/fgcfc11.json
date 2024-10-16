@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fgcfc11",
+    "cmip_acronym": "fgcfc11",
+    "long_name": "Surface Downward CFC11 Flux",
+    "standard_name": "surface_downward_mole_flux_of_cfc11",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

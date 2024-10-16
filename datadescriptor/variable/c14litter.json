@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "c14Litter",
+    "cmip_acronym": "c14Litter",
+    "long_name": "Mass of 14C in Litter Pool",
+    "standard_name": "litter_mass_content_of_14C",
+    "type": "real",
+    "units": "kg m-2"
+}

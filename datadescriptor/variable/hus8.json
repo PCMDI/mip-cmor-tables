@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hus8",
+    "cmip_acronym": "hus8",
+    "long_name": "Specific Humidity",
+    "standard_name": "specific_humidity",
+    "type": "real",
+    "units": "1"
+}

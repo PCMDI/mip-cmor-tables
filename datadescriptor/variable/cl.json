@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cl",
+    "cmip_acronym": "cl",
+    "long_name": "Percentage Cloud Cover",
+    "standard_name": "cloud_area_fraction_in_atmosphere_layer",
+    "type": "real",
+    "units": "%"
+}

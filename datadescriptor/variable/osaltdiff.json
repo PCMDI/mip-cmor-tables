@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "osaltdiff",
+    "cmip_acronym": "osaltdiff",
+    "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Dianeutral Mixing",
+    "standard_name": "tendency_of_sea_water_salinity_expressed_as_salt_content_due_to_parameterized_dianeutral_mixing",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fric",
+    "cmip_acronym": "fric",
+    "long_name": "Downward Inorganic Carbon Flux at Ocean Bottom",
+    "standard_name": "minus_tendency_of_ocean_mole_content_of_inorganic_carbon_due_to_sedimentation",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

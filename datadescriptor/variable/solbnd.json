@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "solbnd",
+    "cmip_acronym": "solbnd",
+    "long_name": "TOA Solar Irradiance for Each Band",
+    "standard_name": "toa_incoming_shortwave_flux",
+    "type": "real",
+    "units": "W m-2"
+}

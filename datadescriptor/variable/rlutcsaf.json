@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rlutcsaf",
+    "cmip_acronym": "rlutcsaf",
+    "long_name": "TOA Outgoing Clear-Sky, Aerosol-Free Longwave Radiation",
+    "standard_name": "toa_outgoing_longwave_flux_assuming_clear_sky",
+    "type": "real",
+    "units": "W m-2"
+}

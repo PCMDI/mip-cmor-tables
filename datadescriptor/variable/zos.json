@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "zos",
+    "cmip_acronym": "zos",
+    "long_name": "Sea Surface Height Above Geoid",
+    "standard_name": "sea_surface_height_above_geoid",
+    "type": "real",
+    "units": "m"
+}

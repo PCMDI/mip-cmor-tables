@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "bigthetaoga",
+    "cmip_acronym": "bigthetaoga",
+    "long_name": "Global Average Sea Water Conservative Temperature",
+    "standard_name": "sea_water_conservative_temperature",
+    "type": "real",
+    "units": "degC"
+}

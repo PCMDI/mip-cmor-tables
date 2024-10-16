@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfsnthermds",
+    "cmip_acronym": "hfsnthermds",
+    "long_name": "Heat Flux into Sea Water Due to Snow Thermodynamics",
+    "standard_name": "heat_flux_into_sea_water_due_to_snow_thermodynamics",
+    "type": "real",
+    "units": "W m-2"
+}

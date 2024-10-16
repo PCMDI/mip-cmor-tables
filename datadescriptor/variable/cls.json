@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cls",
+    "cmip_acronym": "cls",
+    "long_name": "Percentage Cover of Stratiform Cloud",
+    "standard_name": "stratiform_cloud_area_fraction_in_atmosphere_layer",
+    "type": "real",
+    "units": "%"
+}

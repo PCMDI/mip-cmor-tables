@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "prCrop",
+    "cmip_acronym": "prCrop",
+    "long_name": "Precipitation over Crop Tile",
+    "standard_name": "precipitation_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

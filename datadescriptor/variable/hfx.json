@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfx",
+    "cmip_acronym": "hfx",
+    "long_name": "Ocean Heat X Transport",
+    "standard_name": "ocean_heat_x_transport",
+    "type": "real",
+    "units": "W"
+}

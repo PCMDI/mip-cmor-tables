@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "zg100",
+    "cmip_acronym": "zg100",
+    "long_name": "Geopotential Height at 100hPa",
+    "standard_name": "geopotential_height",
+    "type": "real",
+    "units": "m"
+}

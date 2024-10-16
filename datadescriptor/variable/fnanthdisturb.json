@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fNAnthDisturb",
+    "cmip_acronym": "fNAnthDisturb",
+    "long_name": "Nitrogen Mass Flux out of Land Due to any Human Activity",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_anthropogenic_emission",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

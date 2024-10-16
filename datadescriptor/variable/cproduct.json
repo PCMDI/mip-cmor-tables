@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cProduct",
+    "cmip_acronym": "cProduct",
+    "long_name": "Carbon Mass in Products of Land-Use Change",
+    "standard_name": "carbon_mass_content_of_forestry_and_agricultural_products",
+    "type": "real",
+    "units": "kg m-2"
+}

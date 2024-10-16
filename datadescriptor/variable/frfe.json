@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "frfe",
+    "cmip_acronym": "frfe",
+    "long_name": "Iron Loss to Sediments",
+    "standard_name": "minus_tendency_of_ocean_mole_content_of_iron_due_to_sedimentation",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

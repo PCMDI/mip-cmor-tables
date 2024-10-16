@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "htovovrt",
+    "cmip_acronym": "htovovrt",
+    "long_name": "Northward Ocean Heat Transport Due to Overturning",
+    "standard_name": "northward_ocean_heat_transport_due_to_overturning",
+    "type": "real",
+    "units": "W"
+}

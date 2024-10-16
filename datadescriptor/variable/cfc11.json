@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cfc11",
+    "cmip_acronym": "cfc11",
+    "long_name": "Mole Concentration of CFC11 in Sea Water",
+    "standard_name": "mole_concentration_of_cfc11_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

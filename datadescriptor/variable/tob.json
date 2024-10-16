@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tob",
+    "cmip_acronym": "tob",
+    "long_name": "Sea Water Potential Temperature at Sea Floor",
+    "standard_name": "sea_water_potential_temperature_at_sea_floor",
+    "type": "real",
+    "units": "degC"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "drivw",
+    "cmip_acronym": "drivw",
+    "long_name": "Change in River Storage",
+    "standard_name": "change_over_time_in_river_water_amount",
+    "type": "real",
+    "units": "kg m-2"
+}

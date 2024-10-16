@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sitimefrac",
+    "cmip_acronym": "sitimefrac",
+    "long_name": "Fraction of Time Steps with Sea Ice",
+    "standard_name": "fraction_of_time_with_sea_ice_area_fraction_above_threshold",
+    "type": "real",
+    "units": "1"
+}

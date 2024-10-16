@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "evu",
+    "cmip_acronym": "evu",
+    "long_name": "Eddy Viscosity Coefficient for Momentum",
+    "standard_name": "atmosphere_momentum_diffusivity",
+    "type": "real",
+    "units": "m2 s-1"
+}

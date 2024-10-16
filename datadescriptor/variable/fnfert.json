@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fNfert",
+    "cmip_acronym": "fNfert",
+    "long_name": "Total Nitrogen Added for Cropland Fertilisation (Artificial and Manure)",
+    "standard_name": "tendency_of_soil_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_fertilization",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

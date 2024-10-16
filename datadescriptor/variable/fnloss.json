@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fNloss",
+    "cmip_acronym": "fNloss",
+    "long_name": "Total Nitrogen Lost (Including NHx, NOx, N2O, N2 and Leaching)",
+    "standard_name": "surface_upward_mass_flux_of_nitrogen_compounds_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

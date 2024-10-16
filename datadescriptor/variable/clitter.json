@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cLitter",
+    "cmip_acronym": "cLitter",
+    "long_name": "Carbon Mass in Litter Pool",
+    "standard_name": "litter_mass_content_of_carbon",
+    "type": "real",
+    "units": "kg m-2"
+}

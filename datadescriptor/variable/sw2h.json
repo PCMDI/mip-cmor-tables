@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sw2H",
+    "cmip_acronym": "sw2H",
+    "long_name": "Isotopic Ratio of Deuterium in Sea Water",
+    "standard_name": "isotope_ratio_of_2H_to_1H_in_sea_water_excluding_solutes_and_solids",
+    "type": "real",
+    "units": "1"
+}

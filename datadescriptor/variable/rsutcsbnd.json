@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rsutcsbnd",
+    "cmip_acronym": "rsutcsbnd",
+    "long_name": "TOA Outgoing Clear-Sky Shortwave Radiation for Each Band",
+    "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
+    "type": "real",
+    "units": "W m-2"
+}

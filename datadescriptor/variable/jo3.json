@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "jo3",
+    "cmip_acronym": "jo3",
+    "long_name": "Photolysis Rate of Ozone (O3)",
+    "standard_name": "photolysis_rate_of_ozone",
+    "type": "real",
+    "units": "s-1"
+}

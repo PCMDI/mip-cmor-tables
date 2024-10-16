@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siitdthick",
+    "cmip_acronym": "siitdthick",
+    "long_name": "Sea-Ice Thickness in Thickness Categories",
+    "standard_name": "sea_ice_thickness",
+    "type": "real",
+    "units": "m"
+}

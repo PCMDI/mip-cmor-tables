@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cfc12global",
+    "cmip_acronym": "cfc12global",
+    "long_name": "Global Mean Mole Fraction of CFC12",
+    "standard_name": "mole_fraction_of_cfc12_in_air",
+    "type": "real",
+    "units": "1e-12"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nProduct",
+    "cmip_acronym": "nProduct",
+    "long_name": "Nitrogen Mass in Products of Land-Use Change",
+    "standard_name": "nitrogen_mass_content_of_forestry_and_agricultural_products",
+    "type": "real",
+    "units": "kg m-2"
+}

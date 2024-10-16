@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "prcprof",
+    "cmip_acronym": "prcprof",
+    "long_name": "Convective Rainfall Flux",
+    "standard_name": "convective_rainfall_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

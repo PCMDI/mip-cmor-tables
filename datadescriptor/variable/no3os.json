@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "no3os",
+    "cmip_acronym": "no3os",
+    "long_name": "Surface Dissolved Nitrate Concentration",
+    "standard_name": "mole_concentration_of_nitrate_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

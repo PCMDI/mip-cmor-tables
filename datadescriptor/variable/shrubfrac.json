@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "shrubFrac",
+    "cmip_acronym": "shrubFrac",
+    "long_name": "Percentage Cover by Shrub",
+    "standard_name": "area_fraction",
+    "type": "real",
+    "units": "%"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siforceintstrx",
+    "cmip_acronym": "siforceintstrx",
+    "long_name": "Internal Stress Term in Force Balance (X-Component)",
+    "standard_name": "sea_ice_x_internal_stress",
+    "type": "real",
+    "units": "N m-2"
+}

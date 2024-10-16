@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "diftrxybo",
+    "cmip_acronym": "diftrxybo",
+    "long_name": "Ocean Tracer XY Biharmonic Diffusivity",
+    "standard_name": "ocean_tracer_xy_biharmonic_diffusivity",
+    "type": "real",
+    "units": "m4 s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mmrbc",
+    "cmip_acronym": "mmrbc",
+    "long_name": "Elemental Carbon Mass Mixing Ratio",
+    "standard_name": "mass_fraction_of_elemental_carbon_dry_aerosol_particles_in_air",
+    "type": "real",
+    "units": "kg kg-1"
+}

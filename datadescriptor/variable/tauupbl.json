@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tauupbl",
+    "cmip_acronym": "tauupbl",
+    "long_name": "Eastward Surface Stress from Planetary Boundary Layer Scheme",
+    "standard_name": "surface_downward_eastward_stress_due_to_boundary_layer_mixing",
+    "type": "real",
+    "units": "Pa"
+}

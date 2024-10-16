@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "burntFractionAll",
+    "cmip_acronym": "burntFractionAll",
+    "long_name": "Percentage of Entire Grid Cell That Is Covered by Burnt Vegetation (All Classes)",
+    "standard_name": "area_fraction",
+    "type": "real",
+    "units": "%"
+}

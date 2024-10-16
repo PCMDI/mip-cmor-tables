@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tauvpbl",
+    "cmip_acronym": "tauvpbl",
+    "long_name": "Northward Surface Stress from Planetary Boundary Layer Scheme",
+    "standard_name": "surface_downward_northward_stress_due_to_boundary_layer_mixing",
+    "type": "real",
+    "units": "Pa"
+}

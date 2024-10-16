@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "simprefrozen",
+    "cmip_acronym": "simprefrozen",
+    "long_name": "Thickness of Refrozen Ice on Melt Pond",
+    "standard_name": "thickness_of_ice_on_sea_ice_melt_pond",
+    "type": "real",
+    "units": "m"
+}

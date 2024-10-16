@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ut",
+    "cmip_acronym": "ut",
+    "long_name": "Product of Air Temperature and Eastward Wind",
+    "standard_name": "product_of_eastward_wind_and_air_temperature",
+    "type": "real",
+    "units": "K m s-1"
+}

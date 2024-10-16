@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sndmasssi",
+    "cmip_acronym": "sndmasssi",
+    "long_name": "Snow Mass Rate of Change Through Snow-to-Ice Conversion",
+    "standard_name": "tendency_of_surface_snow_amount_due_to_conversion_of_snow_to_sea_ice",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

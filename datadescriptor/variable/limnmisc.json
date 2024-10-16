@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "limnmisc",
+    "cmip_acronym": "limnmisc",
+    "long_name": "Nitrogen Limitation of Other Phytoplankton",
+    "standard_name": "nitrogen_growth_limitation_of_miscellaneous_phytoplankton",
+    "type": "real",
+    "units": "1"
+}

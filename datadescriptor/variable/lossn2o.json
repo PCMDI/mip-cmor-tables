@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "lossn2o",
+    "cmip_acronym": "lossn2o",
+    "long_name": "Monthly Loss of Atmospheric Nitrous Oxide",
+    "standard_name": "tendency_of_atmosphere_mole_concentration_of_nitrous_oxide_due_to_chemical_destruction",
+    "type": "real",
+    "units": "mol m-3 s-1"
+}

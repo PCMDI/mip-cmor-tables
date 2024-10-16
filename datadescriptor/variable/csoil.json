@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cSoil",
+    "cmip_acronym": "cSoil",
+    "long_name": "Carbon Mass in Model Soil Pool",
+    "standard_name": "soil_mass_content_of_carbon",
+    "type": "real",
+    "units": "kg m-2"
+}

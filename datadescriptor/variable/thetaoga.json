@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "thetaoga",
+    "cmip_acronym": "thetaoga",
+    "long_name": "Global Average Sea Water Potential Temperature",
+    "standard_name": "sea_water_potential_temperature",
+    "type": "real",
+    "units": "degC"
+}

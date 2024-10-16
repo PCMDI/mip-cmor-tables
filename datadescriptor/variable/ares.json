@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ares",
+    "cmip_acronym": "ares",
+    "long_name": "Aerodynamic Resistance",
+    "standard_name": "aerodynamic_resistance",
+    "type": "real",
+    "units": "s m-1"
+}

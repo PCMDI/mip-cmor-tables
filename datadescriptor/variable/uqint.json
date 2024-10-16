@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "uqint",
+    "cmip_acronym": "uqint",
+    "long_name": "Eastward Humidity Transport",
+    "standard_name": "integral_wrt_height_of_product_of_eastward_wind_and_specific_humidity",
+    "type": "real",
+    "units": "m2 s-1"
+}

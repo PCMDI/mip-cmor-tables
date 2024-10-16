@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wtem",
+    "cmip_acronym": "wtem",
+    "long_name": "Transformed Eulerian Mean Upward Wind",
+    "standard_name": "upward_transformed_eulerian_mean_air_velocity",
+    "type": "real",
+    "units": "m s-1"
+}

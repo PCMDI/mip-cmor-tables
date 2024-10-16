@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "baccos",
+    "cmip_acronym": "baccos",
+    "long_name": "Surface Bacterial Carbon Concentration",
+    "standard_name": "mole_concentration_of_bacteria_expressed_as_carbon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

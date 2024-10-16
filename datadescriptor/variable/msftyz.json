@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "msftyz",
+    "cmip_acronym": "msftyz",
+    "long_name": "Ocean Y Overturning Mass Streamfunction",
+    "standard_name": "ocean_y_overturning_mass_streamfunction",
+    "type": "real",
+    "units": "kg s-1"
+}

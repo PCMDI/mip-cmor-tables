@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hcl",
+    "cmip_acronym": "hcl",
+    "long_name": "HCl Volume Mixing Ratio",
+    "standard_name": "mole_fraction_of_hydrogen_chloride_in_air",
+    "type": "real",
+    "units": "mol mol-1"
+}

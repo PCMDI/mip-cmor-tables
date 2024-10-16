@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rlu",
+    "cmip_acronym": "rlu",
+    "long_name": "Upwelling Longwave Radiation",
+    "standard_name": "upwelling_longwave_flux_in_air",
+    "type": "real",
+    "units": "W m-2"
+}

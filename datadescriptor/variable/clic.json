@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "clic",
+    "cmip_acronym": "clic",
+    "long_name": "Mass Fraction of Convective Cloud Ice",
+    "standard_name": "mass_fraction_of_convective_cloud_ice_in_air",
+    "type": "real",
+    "units": "1"
+}

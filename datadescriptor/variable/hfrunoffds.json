@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfrunoffds",
+    "cmip_acronym": "hfrunoffds",
+    "long_name": "Temperature Flux Due to Runoff Expressed as Heat Flux into Sea Water",
+    "standard_name": "temperature_flux_due_to_runoff_expressed_as_heat_flux_into_sea_water",
+    "type": "real",
+    "units": "W m-2"
+}

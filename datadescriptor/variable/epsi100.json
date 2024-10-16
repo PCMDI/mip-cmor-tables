@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "epsi100",
+    "cmip_acronym": "epsi100",
+    "long_name": "Downward Flux of Particulate Silicon",
+    "standard_name": "sinking_mole_flux_of_particulate_silicon_in_sea_water",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

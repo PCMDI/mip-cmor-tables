@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sistremax",
+    "cmip_acronym": "sistremax",
+    "long_name": "Maximum Shear Stress in Sea Ice",
+    "standard_name": "maximum_over_coordinate_rotation_of_sea_ice_horizontal_shear_stress",
+    "type": "real",
+    "units": "N m-1"
+}

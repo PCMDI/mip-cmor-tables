@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fgsf6",
+    "cmip_acronym": "fgsf6",
+    "long_name": "Surface Downward SF6 Flux",
+    "standard_name": "surface_downward_mole_flux_of_sulfur_hexafluoride",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

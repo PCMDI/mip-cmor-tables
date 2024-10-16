@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "pflw",
+    "cmip_acronym": "pflw",
+    "long_name": "Liquid Water Content of Permafrost Layer",
+    "standard_name": "liquid_water_content_of_permafrost_layer",
+    "type": "real",
+    "units": "kg m-2"
+}

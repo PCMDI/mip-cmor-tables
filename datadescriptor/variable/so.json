@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "so",
+    "cmip_acronym": "so",
+    "long_name": "Sea Water Salinity",
+    "standard_name": "sea_water_salinity",
+    "type": "real",
+    "units": "0.001"
+}

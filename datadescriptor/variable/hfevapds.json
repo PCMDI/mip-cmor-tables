@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfevapds",
+    "cmip_acronym": "hfevapds",
+    "long_name": "Temperature Flux Due to Evaporation Expressed as Heat Flux out of Sea Water",
+    "standard_name": "temperature_flux_due_to_evaporation_expressed_as_heat_flux_out_of_sea_water",
+    "type": "real",
+    "units": "W m-2"
+}

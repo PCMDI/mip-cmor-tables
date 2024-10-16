@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "raGrass",
+    "cmip_acronym": "raGrass",
+    "long_name": "Autotrophic Respiration on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
+    "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_plant_respiration",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

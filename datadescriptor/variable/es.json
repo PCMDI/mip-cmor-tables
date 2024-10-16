@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "es",
+    "cmip_acronym": "es",
+    "long_name": "Bare Soil Evaporation",
+    "standard_name": "water_evaporation_flux_from_soil",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

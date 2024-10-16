@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fN2O",
+    "cmip_acronym": "fN2O",
+    "long_name": "Total Land N2O Flux",
+    "standard_name": "surface_upward_mass_flux_of_nitrous_oxide_expressed_as_nitrogen_out_of_vegetation_and_litter_and_soil",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

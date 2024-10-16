@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sidmassgrowthwat",
+    "cmip_acronym": "sidmassgrowthwat",
+    "long_name": "Sea-Ice Mass Change Through Growth in Supercooled Open Water (Frazil)",
+    "standard_name": "tendency_of_sea_ice_amount_due_to_frazil_ice_accumulation_in_leads",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

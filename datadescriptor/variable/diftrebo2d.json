@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "diftrebo2d",
+    "cmip_acronym": "diftrebo2d",
+    "long_name": "Ocean Tracer Epineutral Biharmonic Diffusivity",
+    "standard_name": "ocean_tracer_epineutral_biharmonic_diffusivity",
+    "type": "real",
+    "units": "m4 s-1"
+}

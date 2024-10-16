@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "co2massClim",
+    "cmip_acronym": "co2massClim",
+    "long_name": "Total Atmospheric Mass of CO2",
+    "standard_name": "atmosphere_mass_of_carbon_dioxide",
+    "type": "real",
+    "units": "kg"
+}

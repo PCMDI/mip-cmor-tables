@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rsdo",
+    "cmip_acronym": "rsdo",
+    "long_name": "Downwelling Shortwave Radiation in Sea Water",
+    "standard_name": "downwelling_shortwave_flux_in_sea_water",
+    "type": "real",
+    "units": "W m-2"
+}

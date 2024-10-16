@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sw",
+    "cmip_acronym": "sw",
+    "long_name": "Surface Water Storage",
+    "standard_name": "land_surface_liquid_water_amount",
+    "type": "real",
+    "units": "kg m-2"
+}

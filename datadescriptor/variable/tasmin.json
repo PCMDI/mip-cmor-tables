@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tasmin",
+    "cmip_acronym": "tasmin",
+    "long_name": "Daily Minimum Near-Surface Air Temperature",
+    "standard_name": "air_temperature",
+    "type": "real",
+    "units": "K"
+}

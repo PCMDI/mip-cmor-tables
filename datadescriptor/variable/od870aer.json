@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "od870aer",
+    "cmip_acronym": "od870aer",
+    "long_name": "Ambient Aerosol Optical Depth at 870nm",
+    "standard_name": "atmosphere_optical_thickness_due_to_ambient_aerosol_particles",
+    "type": "real",
+    "units": "1"
+}

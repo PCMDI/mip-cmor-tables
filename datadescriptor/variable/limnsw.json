@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "limnsw",
+    "cmip_acronym": "limnsw",
+    "long_name": "Ice Sheet Mass That Does not Displace Sea Water",
+    "standard_name": "land_ice_mass_not_displacing_sea_water",
+    "type": "real",
+    "units": "kg"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "clivic",
+    "cmip_acronym": "clivic",
+    "long_name": "Convective Ice Water Path",
+    "standard_name": "atmosphere_mass_content_of_convective_cloud_ice",
+    "type": "real",
+    "units": "kg m-2"
+}

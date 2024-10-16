@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "prw",
+    "cmip_acronym": "prw",
+    "long_name": "Water Vapor Path",
+    "standard_name": "atmosphere_mass_content_of_water_vapor",
+    "type": "real",
+    "units": "kg m-2"
+}

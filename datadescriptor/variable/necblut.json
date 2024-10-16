@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "necbLut",
+    "cmip_acronym": "necbLut",
+    "long_name": "Net Carbon Mass Flux into Land-Use Tile [kgC m-2 s-1]",
+    "standard_name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

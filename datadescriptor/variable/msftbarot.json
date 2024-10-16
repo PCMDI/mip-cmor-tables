@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "msftbarot",
+    "cmip_acronym": "msftbarot",
+    "long_name": "Ocean Barotropic Mass Streamfunction",
+    "standard_name": "ocean_barotropic_mass_streamfunction",
+    "type": "real",
+    "units": "kg s-1"
+}

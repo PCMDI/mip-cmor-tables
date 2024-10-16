@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "parag",
+    "cmip_acronym": "parag",
+    "long_name": "Aragonite Production",
+    "standard_name": "tendency_of_mole_concentration_of_aragonite_expressed_as_carbon_in_sea_water_due_to_biological_production",
+    "type": "real",
+    "units": "mol m-3 s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dpco2",
+    "cmip_acronym": "dpco2",
+    "long_name": "Delta CO2 Partial Pressure",
+    "standard_name": "surface_carbon_dioxide_partial_pressure_difference_between_sea_water_and_air",
+    "type": "real",
+    "units": "Pa"
+}

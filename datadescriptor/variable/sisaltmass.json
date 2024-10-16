@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sisaltmass",
+    "cmip_acronym": "sisaltmass",
+    "long_name": "Mass of Salt in Sea Ice per Area",
+    "standard_name": "sea_ice_mass_content_of_salt",
+    "type": "real",
+    "units": "kg m-2"
+}

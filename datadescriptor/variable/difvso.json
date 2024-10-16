@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "difvso",
+    "cmip_acronym": "difvso",
+    "long_name": "Ocean Vertical Salt Diffusivity",
+    "standard_name": "ocean_vertical_salt_diffusivity",
+    "type": "real",
+    "units": "m2 s-1"
+}

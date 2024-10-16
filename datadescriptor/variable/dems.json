@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dems",
+    "cmip_acronym": "dems",
+    "long_name": "Stratiform Cloud Emissivity",
+    "standard_name": "stratiform_cloud_longwave_emissivity",
+    "type": "real",
+    "units": "1"
+}

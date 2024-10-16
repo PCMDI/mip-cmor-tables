@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sedustCI",
+    "cmip_acronym": "sedustCI",
+    "long_name": "Sedimentation Flux of Dust Mode Coarse Insoluble",
+    "standard_name": "minus_tendency_of_atmosphere_mass_content_of_insoluble_dust_dry_aerosol_particles_due_to_deposition",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

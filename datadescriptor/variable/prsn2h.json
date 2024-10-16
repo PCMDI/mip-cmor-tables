@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "prsn2h",
+    "cmip_acronym": "prsn2h",
+    "long_name": "Precipitation Flux of Snow and Ice Containing Deuterium (1H 2H O)",
+    "standard_name": "solid_precipitation_flux_containing_single_2H",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

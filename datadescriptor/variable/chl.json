@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "chl",
+    "cmip_acronym": "chl",
+    "long_name": "Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water",
+    "standard_name": "mass_concentration_of_phytoplankton_expressed_as_chlorophyll_in_sea_water",
+    "type": "real",
+    "units": "kg m-3"
+}

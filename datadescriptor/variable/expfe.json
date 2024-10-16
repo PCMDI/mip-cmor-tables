@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "expfe",
+    "cmip_acronym": "expfe",
+    "long_name": "Sinking Particulate Iron Flux",
+    "standard_name": "sinking_mole_flux_of_particulate_iron_in_sea_water",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

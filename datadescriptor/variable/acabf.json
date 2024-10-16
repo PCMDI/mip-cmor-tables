@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "acabf",
+    "cmip_acronym": "acabf",
+    "long_name": "Surface Mass Balance Flux",
+    "standard_name": "land_ice_surface_specific_mass_balance_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

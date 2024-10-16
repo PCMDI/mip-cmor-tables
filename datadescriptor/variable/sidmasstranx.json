@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sidmasstranx",
+    "cmip_acronym": "sidmasstranx",
+    "long_name": "X-Component of Sea-Ice Mass Transport",
+    "standard_name": "sea_ice_x_transport",
+    "type": "real",
+    "units": "kg s-1"
+}

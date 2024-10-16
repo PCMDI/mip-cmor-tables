@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sndmassmelt",
+    "cmip_acronym": "sndmassmelt",
+    "long_name": "Snow Mass Rate of Change Through Melt",
+    "standard_name": "surface_snow_melt_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

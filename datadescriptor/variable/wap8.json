@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wap8",
+    "cmip_acronym": "wap8",
+    "long_name": "Omega (=dp/dt)",
+    "standard_name": "lagrangian_tendency_of_air_pressure",
+    "type": "real",
+    "units": "Pa s-1"
+}

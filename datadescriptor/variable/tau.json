@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tau",
+    "cmip_acronym": "tau",
+    "long_name": "Momentum Flux",
+    "standard_name": "magnitude_of_surface_downward_stress",
+    "type": "real",
+    "units": "N m-2"
+}

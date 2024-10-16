@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "pr18O",
+    "cmip_acronym": "pr18O",
+    "long_name": "Precipitation Flux of Water Containing Oxygen-18 (H2 18O)",
+    "standard_name": "precipitation_flux_containing_18O",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

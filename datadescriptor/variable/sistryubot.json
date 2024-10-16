@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sistryubot",
+    "cmip_acronym": "sistryubot",
+    "long_name": "Y-Component of Ocean Stress on Sea Ice",
+    "standard_name": "upward_y_stress_at_sea_ice_base",
+    "type": "real",
+    "units": "N m-2"
+}

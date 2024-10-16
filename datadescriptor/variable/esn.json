@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "esn",
+    "cmip_acronym": "esn",
+    "long_name": "Snow Evaporation",
+    "standard_name": "water_evapotranspiration_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

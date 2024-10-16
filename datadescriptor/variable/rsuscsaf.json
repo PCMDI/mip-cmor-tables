@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rsuscsaf",
+    "cmip_acronym": "rsuscsaf",
+    "long_name": "Surface Upwelling Clean Clear-Sky Shortwave Radiation",
+    "standard_name": "surface_upwelling_shortwave_flux_in_air_assuming_clear_sky_and_no_aerosol",
+    "type": "real",
+    "units": "W m-2"
+}

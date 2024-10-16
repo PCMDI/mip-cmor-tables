@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "spco2",
+    "cmip_acronym": "spco2",
+    "long_name": "Surface Aqueous Partial Pressure of CO2",
+    "standard_name": "surface_partial_pressure_of_carbon_dioxide_in_sea_water",
+    "type": "real",
+    "units": "Pa"
+}

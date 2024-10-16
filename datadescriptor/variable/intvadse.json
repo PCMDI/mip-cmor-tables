@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "intvadse",
+    "cmip_acronym": "intvadse",
+    "long_name": "Vertically Integrated Northward Dry Static Energy Transport",
+    "standard_name": "northward_atmosphere_dry_static_energy_transport_across_unit_distance",
+    "type": "real",
+    "units": "MJ m-1 s-1"
+}

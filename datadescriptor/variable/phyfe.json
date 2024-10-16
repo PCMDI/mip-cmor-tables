@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "phyfe",
+    "cmip_acronym": "phyfe",
+    "long_name": "Mole Concentration of Total Phytoplankton Expressed as Iron in Sea Water",
+    "standard_name": "mole_concentration_of_phytoplankton_expressed_as_iron_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

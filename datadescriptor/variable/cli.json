@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cli",
+    "cmip_acronym": "cli",
+    "long_name": "Mass Fraction of Cloud Ice",
+    "standard_name": "mass_fraction_of_cloud_ice_in_air",
+    "type": "real",
+    "units": "kg kg-1"
+}

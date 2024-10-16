@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "iareafl",
+    "cmip_acronym": "iareafl",
+    "long_name": "Area Covered by Floating Ice Shelves",
+    "standard_name": "floating_ice_shelf_area",
+    "type": "real",
+    "units": "m2"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fldcapacity",
+    "cmip_acronym": "fldcapacity",
+    "long_name": "Field Capacity",
+    "standard_name": "volume_fraction_of_condensed_water_in_soil_at_field_capacity",
+    "type": "real",
+    "units": "%"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rlucs",
+    "cmip_acronym": "rlucs",
+    "long_name": "Upwelling Clear-Sky Longwave Radiation",
+    "standard_name": "upwelling_longwave_flux_in_air_assuming_clear_sky",
+    "type": "real",
+    "units": "W m-2"
+}

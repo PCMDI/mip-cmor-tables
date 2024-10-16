@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "froc",
+    "cmip_acronym": "froc",
+    "long_name": "Downward Organic Carbon Flux at Ocean Bottom",
+    "standard_name": "minus_tendency_of_ocean_mole_content_of_organic_carbon_due_to_sedimentation",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

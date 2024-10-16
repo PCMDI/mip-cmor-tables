@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siage",
+    "cmip_acronym": "siage",
+    "long_name": "Age of Sea Ice",
+    "standard_name": "age_of_sea_ice",
+    "type": "real",
+    "units": "s"
+}

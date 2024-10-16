@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "chepsoa",
+    "cmip_acronym": "chepsoa",
+    "long_name": "Chemical Production of Dry Aerosol Secondary Organic Matter",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_secondary_particulate_organic_matter_dry_aerosol_particles_due_to_net_chemical_production",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

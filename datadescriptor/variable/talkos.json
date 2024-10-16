@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "talkos",
+    "cmip_acronym": "talkos",
+    "long_name": "Surface Total Alkalinity",
+    "standard_name": "sea_water_alkalinity_expressed_as_mole_equivalent",
+    "type": "real",
+    "units": "mol m-3"
+}

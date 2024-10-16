@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "difvtrto",
+    "cmip_acronym": "difvtrto",
+    "long_name": "Ocean Vertical Tracer Diffusivity Due to Tides",
+    "standard_name": "ocean_vertical_tracer_diffusivity_due_to_tides",
+    "type": "real",
+    "units": "m2 s-1"
+}

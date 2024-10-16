@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cldnvi",
+    "cmip_acronym": "cldnvi",
+    "long_name": "Column Integrated Cloud Droplet Number",
+    "standard_name": "atmosphere_number_content_of_cloud_droplets",
+    "type": "real",
+    "units": "m-2"
+}

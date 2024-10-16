@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siflcondtop",
+    "cmip_acronym": "siflcondtop",
+    "long_name": "Net Conductive Heat Flux in Ice at the Surface",
+    "standard_name": "surface_downward_sensible_heat_flux",
+    "type": "real",
+    "units": "W m-2"
+}

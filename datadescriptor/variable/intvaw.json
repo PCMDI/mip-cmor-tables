@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "intvaw",
+    "cmip_acronym": "intvaw",
+    "long_name": "Vertically Integrated Northward Moisture Transport",
+    "standard_name": "northward_atmosphere_water_transport_across_unit_distance",
+    "type": "real",
+    "units": "kg m-1 s-1"
+}

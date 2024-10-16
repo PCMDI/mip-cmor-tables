@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sandfrac",
+    "cmip_acronym": "sandfrac",
+    "long_name": "Sand Fraction",
+    "standard_name": "volume_fraction_of_sand_in_soil",
+    "type": "real",
+    "units": "1"
+}

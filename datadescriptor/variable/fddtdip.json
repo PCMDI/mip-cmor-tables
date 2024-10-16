@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fddtdip",
+    "cmip_acronym": "fddtdip",
+    "long_name": "Rate of Change of Net Dissolved Inorganic Phosphorus",
+    "standard_name": "tendency_of_ocean_mole_content_of_dissolved_inorganic_phosphorus",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

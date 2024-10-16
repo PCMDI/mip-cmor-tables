@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fVegFire",
+    "cmip_acronym": "fVegFire",
+    "long_name": "Carbon Mass Flux from Vegetation into Atmosphere Due to CO2 Emission from All Fire [kgC m-2 s-1]",
+    "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_vegetation_in_fires",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

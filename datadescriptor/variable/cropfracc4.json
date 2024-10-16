@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cropFracC4",
+    "cmip_acronym": "cropFracC4",
+    "long_name": "Percentage Cover by C4 Crops",
+    "standard_name": "area_fraction",
+    "type": "real",
+    "units": "%"
+}

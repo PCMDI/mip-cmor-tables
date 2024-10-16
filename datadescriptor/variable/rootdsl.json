@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rootdsl",
+    "cmip_acronym": "rootdsl",
+    "long_name": "Root Distribution",
+    "standard_name": "root_mass_content_of_carbon",
+    "type": "real",
+    "units": "kg m-2"
+}

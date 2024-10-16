@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "intpn2",
+    "cmip_acronym": "intpn2",
+    "long_name": "Nitrogen Fixation Rate in Ocean",
+    "standard_name": "tendency_of_ocean_mole_content_of_elemental_nitrogen_due_to_fixation",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

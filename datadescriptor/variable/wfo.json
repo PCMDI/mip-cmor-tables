@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wfo",
+    "cmip_acronym": "wfo",
+    "long_name": "Water Flux into Sea Water",
+    "standard_name": "water_flux_into_sea_water",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

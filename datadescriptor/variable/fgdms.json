@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fgdms",
+    "cmip_acronym": "fgdms",
+    "long_name": "Surface Upward Flux of DMS",
+    "standard_name": "surface_upward_mole_flux_of_dimethyl_sulfide",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

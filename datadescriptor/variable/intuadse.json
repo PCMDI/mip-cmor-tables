@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "intuadse",
+    "cmip_acronym": "intuadse",
+    "long_name": "Vertically Integrated Eastward Dry Statice Energy Transport",
+    "standard_name": "eastward_atmosphere_dry_static_energy_transport_across_unit_distance",
+    "type": "real",
+    "units": "MJ m-1 s-1"
+}

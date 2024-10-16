@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sivols",
+    "cmip_acronym": "sivols",
+    "long_name": "Sea-Ice Volume South",
+    "standard_name": "sea_ice_volume",
+    "type": "real",
+    "units": "1e3 km3"
+}

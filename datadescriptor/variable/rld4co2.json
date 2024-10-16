@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rld4co2",
+    "cmip_acronym": "rld4co2",
+    "long_name": "Downwelling Longwave Radiation 4XCO2 Atmosphere",
+    "standard_name": "downwelling_longwave_flux_in_air",
+    "type": "real",
+    "units": "W m-2"
+}

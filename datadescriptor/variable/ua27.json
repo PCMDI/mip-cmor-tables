@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ua27",
+    "cmip_acronym": "ua27",
+    "long_name": "Eastward Wind",
+    "standard_name": "eastward_wind",
+    "type": "real",
+    "units": "m s-1"
+}

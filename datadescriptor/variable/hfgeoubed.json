@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfgeoubed",
+    "cmip_acronym": "hfgeoubed",
+    "long_name": "Geothermal Heat Flux Beneath Land Ice",
+    "standard_name": "upward_geothermal_heat_flux_at_ground_level_in_land_ice",
+    "type": "real",
+    "units": "W m-2"
+}

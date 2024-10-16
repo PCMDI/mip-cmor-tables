@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "pr2h",
+    "cmip_acronym": "pr2h",
+    "long_name": "Precipitation Flux of Water Containing Deuterium (1H 2H O)",
+    "standard_name": "precipitation_flux_containing_single_2H",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

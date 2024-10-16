@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "loadnh4",
+    "cmip_acronym": "loadnh4",
+    "long_name": "Load of NH4",
+    "standard_name": "atmosphere_mass_content_of_ammonium_dry_aerosol_particles",
+    "type": "real",
+    "units": "kg m-2"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "zsatarag",
+    "cmip_acronym": "zsatarag",
+    "long_name": "Aragonite Saturation Depth",
+    "standard_name": "minimum_depth_of_aragonite_undersaturation_in_sea_water",
+    "type": "real",
+    "units": "m"
+}

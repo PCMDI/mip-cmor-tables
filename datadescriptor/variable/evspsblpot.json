@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "evspsblpot",
+    "cmip_acronym": "evspsblpot",
+    "long_name": "Potential Evapotranspiration",
+    "standard_name": "water_potential_evaporation_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

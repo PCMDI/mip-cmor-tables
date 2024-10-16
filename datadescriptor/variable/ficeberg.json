@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ficeberg",
+    "cmip_acronym": "ficeberg",
+    "long_name": "Water Flux into Sea Water from Icebergs",
+    "standard_name": "water_flux_into_sea_water_from_icebergs",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

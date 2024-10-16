@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sndmasssnf",
+    "cmip_acronym": "sndmasssnf",
+    "long_name": "Snow Mass Change Through Snow Fall",
+    "standard_name": "snowfall_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ocfriver",
+    "cmip_acronym": "ocfriver",
+    "long_name": "Flux of Organic Carbon into Ocean Surface by Runoff",
+    "standard_name": "tendency_of_ocean_mole_content_of_organic_carbon_due_to_runoff_and_sediment_dissolution",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cMisc",
+    "cmip_acronym": "cMisc",
+    "long_name": "Carbon Mass in Other Living Compartments on Land",
+    "standard_name": "miscellaneous_living_matter_mass_content_of_carbon",
+    "type": "real",
+    "units": "kg m-2"
+}

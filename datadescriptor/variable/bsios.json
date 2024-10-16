@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "bsios",
+    "cmip_acronym": "bsios",
+    "long_name": "Surface Mole Concentration of Particulate Organic Matter Expressed as Silicon in Sea Water",
+    "standard_name": "mole_concentration_of_particulate_organic_matter_expressed_as_silicon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

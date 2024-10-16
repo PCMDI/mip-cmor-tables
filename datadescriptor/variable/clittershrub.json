@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cLitterShrub",
+    "cmip_acronym": "cLitterShrub",
+    "long_name": "Carbon Mass in Litter on Shrub Tiles",
+    "standard_name": "litter_mass_content_of_carbon",
+    "type": "real",
+    "units": "kg m-2"
+}

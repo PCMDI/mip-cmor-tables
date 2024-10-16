@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "clcalipso2",
+    "cmip_acronym": "clcalipso2",
+    "long_name": "CALIPSO Cloud Cover Percentage Undetected by CloudSat (as Percentage of Area Covered)",
+    "standard_name": "cloud_area_fraction_in_atmosphere_layer",
+    "type": "real",
+    "units": "%"
+}

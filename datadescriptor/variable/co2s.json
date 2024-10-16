@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "co2s",
+    "cmip_acronym": "co2s",
+    "long_name": "Atmosphere CO2",
+    "standard_name": "mole_fraction_of_carbon_dioxide_in_air",
+    "type": "real",
+    "units": "1e-06"
+}

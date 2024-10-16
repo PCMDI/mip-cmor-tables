@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tran",
+    "cmip_acronym": "tran",
+    "long_name": "Transpiration",
+    "standard_name": "transpiration_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

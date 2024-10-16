@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sihc",
+    "cmip_acronym": "sihc",
+    "long_name": "Sea-Ice Heat Content per Unit Area",
+    "standard_name": "sea_ice_temperature_expressed_as_heat_content",
+    "type": "real",
+    "units": "J m-2"
+}

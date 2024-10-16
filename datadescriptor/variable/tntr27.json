@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tntr27",
+    "cmip_acronym": "tntr27",
+    "long_name": "Tendency of Air Temperature Due to Radiative Heating",
+    "standard_name": "tendency_of_air_temperature_due_to_radiative_heating",
+    "type": "real",
+    "units": "K s-1"
+}

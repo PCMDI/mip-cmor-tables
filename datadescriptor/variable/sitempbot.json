@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sitempbot",
+    "cmip_acronym": "sitempbot",
+    "long_name": "Temperature at Ice-Ocean Interface",
+    "standard_name": "sea_ice_basal_temperature",
+    "type": "real",
+    "units": "K"
+}

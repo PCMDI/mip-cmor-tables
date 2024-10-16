@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fgo2",
+    "cmip_acronym": "fgo2",
+    "long_name": "Surface Downward Flux of O2",
+    "standard_name": "surface_downward_mole_flux_of_molecular_oxygen",
+    "type": "real",
+    "units": "mol m-2 s-1"
+}

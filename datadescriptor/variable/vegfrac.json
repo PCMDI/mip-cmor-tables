@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "vegFrac",
+    "cmip_acronym": "vegFrac",
+    "long_name": "Total Vegetated Percentage Cover",
+    "standard_name": "area_fraction",
+    "type": "real",
+    "units": "%"
+}

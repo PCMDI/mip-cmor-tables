@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tnhusc",
+    "cmip_acronym": "tnhusc",
+    "long_name": "Tendency of Specific Humidity Due to Convection",
+    "standard_name": "tendency_of_specific_humidity_due_to_convection",
+    "type": "real",
+    "units": "s-1"
+}

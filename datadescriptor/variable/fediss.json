@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fediss",
+    "cmip_acronym": "fediss",
+    "long_name": "Particulate Source of Dissolved Iron",
+    "standard_name": "tendency_of_mole_concentration_of_dissolved_iron_in_sea_water_due_to_dissolution_from_inorganic_particles",
+    "type": "real",
+    "units": "mol m-3 s-1"
+}

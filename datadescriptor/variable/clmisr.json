@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "clmisr",
+    "cmip_acronym": "clmisr",
+    "long_name": "Percentage Cloud Cover as Calculated by the MISR Simulator (Including Error Flag)",
+    "standard_name": "cloud_area_fraction_in_atmosphere_layer",
+    "type": "real",
+    "units": "%"
+}

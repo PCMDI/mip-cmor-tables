@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "co",
+    "cmip_acronym": "co",
+    "long_name": "CO Volume Mixing Ratio",
+    "standard_name": "mole_fraction_of_carbon_monoxide_in_air",
+    "type": "real",
+    "units": "mol mol-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siitdsnthick",
+    "cmip_acronym": "siitdsnthick",
+    "long_name": "Snow Thickness in Ice Thickness Categories",
+    "standard_name": "surface_snow_thickness",
+    "type": "real",
+    "units": "m"
+}

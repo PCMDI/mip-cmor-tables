@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cSoilAbove1m",
+    "cmip_acronym": "cSoilAbove1m",
+    "long_name": "Carbon Mass in Soil Pool Above 1m Depth",
+    "standard_name": "soil_mass_content_of_carbon",
+    "type": "real",
+    "units": "kg m-2"
+}

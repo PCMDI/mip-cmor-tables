@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hfls",
+    "cmip_acronym": "hfls",
+    "long_name": "Surface Upward Latent Heat Flux",
+    "standard_name": "surface_upward_latent_heat_flux",
+    "type": "real",
+    "units": "W m-2"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mrroLi",
+    "cmip_acronym": "mrroLi",
+    "long_name": "Land Ice Runoff Flux",
+    "standard_name": "land_ice_runoff_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

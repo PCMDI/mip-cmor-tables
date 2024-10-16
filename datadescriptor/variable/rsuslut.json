@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rsusLut",
+    "cmip_acronym": "rsusLut",
+    "long_name": "Surface Upwelling Shortwave on Land-Use Tile",
+    "standard_name": "surface_upwelling_shortwave_flux_in_air",
+    "type": "real",
+    "units": "W m-2"
+}

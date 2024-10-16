@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sftgrf",
+    "cmip_acronym": "sftgrf",
+    "long_name": "Grounded Ice Sheet Area Percentage",
+    "standard_name": "grounded_ice_sheet_area_fraction",
+    "type": "real",
+    "units": "%"
+}

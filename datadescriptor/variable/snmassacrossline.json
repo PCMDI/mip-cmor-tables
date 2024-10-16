@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "snmassacrossline",
+    "cmip_acronym": "snmassacrossline",
+    "long_name": "Snow Mass Flux Through Straits",
+    "standard_name": "snow_transport_across_line_due_to_sea_ice_dynamics",
+    "type": "real",
+    "units": "kg s-1"
+}

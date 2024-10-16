@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "minpblz",
+    "cmip_acronym": "minpblz",
+    "long_name": "Minimum PBL Height",
+    "standard_name": "atmosphere_boundary_layer_thickness",
+    "type": "real",
+    "units": "m"
+}

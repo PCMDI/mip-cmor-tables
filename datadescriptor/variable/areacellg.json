@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "areacellg",
+    "cmip_acronym": "areacellg",
+    "long_name": "Grid-Cell Area for Ice Sheet Variables",
+    "standard_name": "cell_area",
+    "type": "real",
+    "units": "m2"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "v2",
+    "cmip_acronym": "v2",
+    "long_name": "Mean-Squared Northward Wind Speed",
+    "standard_name": "square_of_northward_wind",
+    "type": "real",
+    "units": "m2 s-2"
+}

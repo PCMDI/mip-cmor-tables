@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mmrno3",
+    "cmip_acronym": "mmrno3",
+    "long_name": "NO3 Aerosol Mass Mixing Ratio",
+    "standard_name": "mass_fraction_of_nitrate_dry_aerosol_particles_in_air",
+    "type": "real",
+    "units": "kg kg-1"
+}

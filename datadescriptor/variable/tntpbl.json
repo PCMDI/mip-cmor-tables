@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tntpbl",
+    "cmip_acronym": "tntpbl",
+    "long_name": "Tendency of Air Temperature Due to Boundary Layer Mixing",
+    "standard_name": "tendency_of_air_temperature_due_to_boundary_layer_mixing",
+    "type": "real",
+    "units": "K s-1"
+}

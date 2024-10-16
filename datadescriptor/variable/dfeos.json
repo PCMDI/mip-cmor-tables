@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dfeos",
+    "cmip_acronym": "dfeos",
+    "long_name": "Surface Dissolved Iron Concentration",
+    "standard_name": "mole_concentration_of_dissolved_iron_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

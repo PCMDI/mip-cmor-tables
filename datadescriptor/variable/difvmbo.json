@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "difvmbo",
+    "cmip_acronym": "difvmbo",
+    "long_name": "Ocean Vertical Momentum Diffusivity Due to Background",
+    "standard_name": "ocean_vertical_momentum_diffusivity_due_to_background",
+    "type": "real",
+    "units": "m2 s-1"
+}

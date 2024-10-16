@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mc",
+    "cmip_acronym": "mc",
+    "long_name": "Convective Mass Flux",
+    "standard_name": "atmosphere_net_upward_convective_mass_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

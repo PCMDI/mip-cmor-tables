@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "clws",
+    "cmip_acronym": "clws",
+    "long_name": "Mass Fraction of Stratiform Cloud Liquid Water",
+    "standard_name": "mass_fraction_of_stratiform_cloud_liquid_water_in_air",
+    "type": "real",
+    "units": "1"
+}

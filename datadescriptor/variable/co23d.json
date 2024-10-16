@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "co23D",
+    "cmip_acronym": "co23D",
+    "long_name": "3D-Field of Transported CO2",
+    "standard_name": "mass_fraction_of_carbon_dioxide_tracer_in_air",
+    "type": "real",
+    "units": "kg kg-1"
+}

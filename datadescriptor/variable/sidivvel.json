@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sidivvel",
+    "cmip_acronym": "sidivvel",
+    "long_name": "Divergence of the Sea-Ice Velocity Field",
+    "standard_name": "divergence_of_sea_ice_velocity",
+    "type": "real",
+    "units": "s-1"
+}

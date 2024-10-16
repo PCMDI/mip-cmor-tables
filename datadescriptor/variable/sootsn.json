@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sootsn",
+    "cmip_acronym": "sootsn",
+    "long_name": "Snow Soot Content",
+    "standard_name": "soot_content_of_surface_snow",
+    "type": "real",
+    "units": "kg m-2"
+}

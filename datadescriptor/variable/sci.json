@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sci",
+    "cmip_acronym": "sci",
+    "long_name": "Fraction of Time Shallow Convection Occurs",
+    "standard_name": "shallow_convection_time_fraction",
+    "type": "real",
+    "units": "1"
+}

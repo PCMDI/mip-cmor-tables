@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "volcello",
+    "cmip_acronym": "volcello",
+    "long_name": "Ocean Grid-Cell Volume",
+    "standard_name": "ocean_volume",
+    "type": "real",
+    "units": "m3"
+}

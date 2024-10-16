@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wetdust",
+    "cmip_acronym": "wetdust",
+    "long_name": "Wet Deposition Rate of Dust",
+    "standard_name": "minus_tendency_of_atmosphere_mass_content_of_dust_dry_aerosol_particles_due_to_wet_deposition",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

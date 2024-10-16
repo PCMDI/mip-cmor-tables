@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "libmassbffl",
+    "cmip_acronym": "libmassbffl",
+    "long_name": "Basal Specific Mass Balance Flux of Floating Ice Shelf",
+    "standard_name": "land_ice_basal_specific_mass_balance_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

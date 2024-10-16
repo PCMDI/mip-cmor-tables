@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tasminCrop",
+    "cmip_acronym": "tasminCrop",
+    "long_name": "Daily Minimum Near-Surface Air Temperature over Crop Tile",
+    "standard_name": "air_temperature",
+    "type": "real",
+    "units": "K"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siv",
+    "cmip_acronym": "siv",
+    "long_name": "Y-Component of Sea-Ice Velocity",
+    "standard_name": "sea_ice_y_velocity",
+    "type": "real",
+    "units": "m s-1"
+}

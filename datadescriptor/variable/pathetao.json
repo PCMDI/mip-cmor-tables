@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "pathetao",
+    "cmip_acronym": "pathetao",
+    "long_name": "Sea Water Additional Potential Temperature",
+    "standard_name": "sea_water_added_potential_temperature",
+    "type": "real",
+    "units": "degC"
+}

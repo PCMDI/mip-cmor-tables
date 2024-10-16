@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "si",
+    "cmip_acronym": "si",
+    "long_name": "Total Dissolved Inorganic Silicon Concentration",
+    "standard_name": "mole_concentration_of_dissolved_inorganic_silicon_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

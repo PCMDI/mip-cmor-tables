@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "phnatos",
+    "cmip_acronym": "phnatos",
+    "long_name": "Surface Natural pH",
+    "standard_name": "sea_water_ph_natural_analogue_reported_on_total_scale",
+    "type": "real",
+    "units": "1"
+}

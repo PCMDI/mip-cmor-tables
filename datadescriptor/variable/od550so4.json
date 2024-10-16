@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "od550so4",
+    "cmip_acronym": "od550so4",
+    "long_name": "Sulfate Aerosol Optical Depth at 550nm",
+    "standard_name": "atmosphere_optical_thickness_due_to_sulfate_ambient_aerosol_particles",
+    "type": "real",
+    "units": "1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wap2",
+    "cmip_acronym": "wap2",
+    "long_name": "Mean-Squared Vertical Velocity (Omega)",
+    "standard_name": "square_of_lagrangian_tendency_of_air_pressure",
+    "type": "real",
+    "units": "Pa2 s-2"
+}

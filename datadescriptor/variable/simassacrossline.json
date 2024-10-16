@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "simassacrossline",
+    "cmip_acronym": "simassacrossline",
+    "long_name": "Sea Mass Area Flux Through Straits",
+    "standard_name": "sea_ice_transport_across_line",
+    "type": "real",
+    "units": "kg s-1"
+}

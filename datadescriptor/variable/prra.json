@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "prra",
+    "cmip_acronym": "prra",
+    "long_name": "Rainfall Flux over Land Ice",
+    "standard_name": "rainfall_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

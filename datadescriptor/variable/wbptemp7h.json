@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wbptemp7h",
+    "cmip_acronym": "wbptemp7h",
+    "long_name": "Wet Bulb Potential Temperature",
+    "standard_name": "wet_bulb_potential_temperature",
+    "type": "real",
+    "units": "K"
+}

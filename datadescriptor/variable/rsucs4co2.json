@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rsucs4co2",
+    "cmip_acronym": "rsucs4co2",
+    "long_name": "Upwelling Clear-Sky Shortwave Radiation 4XCO2 Atmosphere",
+    "standard_name": "upwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "type": "real",
+    "units": "W m-2"
+}

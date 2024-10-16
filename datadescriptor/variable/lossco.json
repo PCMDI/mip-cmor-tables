@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "lossco",
+    "cmip_acronym": "lossco",
+    "long_name": "Monthly Loss of Atmospheric Carbon Monoxide",
+    "standard_name": "tendency_of_atmosphere_mole_concentration_of_carbon_monoxide_due_to_chemical_destruction",
+    "type": "real",
+    "units": "mol m-3 s-1"
+}

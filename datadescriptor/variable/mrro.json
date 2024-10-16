@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mrro",
+    "cmip_acronym": "mrro",
+    "long_name": "Total Runoff",
+    "standard_name": "runoff_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

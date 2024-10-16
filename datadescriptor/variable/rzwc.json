@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rzwc",
+    "cmip_acronym": "rzwc",
+    "long_name": "Root Zone Soil Moisture",
+    "standard_name": "mass_content_of_water_in_soil_layer_defined_by_root_depth",
+    "type": "real",
+    "units": "kg m-2"
+}

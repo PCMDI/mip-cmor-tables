@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tntd",
+    "cmip_acronym": "tntd",
+    "long_name": "Tendency of Air Temperature Due to Numerical Diffusion",
+    "standard_name": "tendency_of_air_temperature_due_to_diffusion",
+    "type": "real",
+    "units": "K s-1"
+}

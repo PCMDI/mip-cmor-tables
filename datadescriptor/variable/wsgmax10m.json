@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "wsgmax10m",
+    "cmip_acronym": "wsgmax10m",
+    "long_name": "Maximum Wind Speed of Gust at 10m",
+    "standard_name": "wind_speed_of_gust",
+    "type": "real",
+    "units": "m s-1"
+}

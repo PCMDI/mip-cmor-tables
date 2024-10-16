@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "emiso4",
+    "cmip_acronym": "emiso4",
+    "long_name": "Total Direct Emission Rate of SO4",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_sulfate_dry_aerosol_particles_due_to_emission",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

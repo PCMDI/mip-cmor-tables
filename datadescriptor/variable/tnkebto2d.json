@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tnkebto2d",
+    "cmip_acronym": "tnkebto2d",
+    "long_name": "Tendency of Ocean Eddy Kinetic Energy Content Due to Parameterized Eddy Advection",
+    "standard_name": "tendency_of_ocean_eddy_kinetic_energy_content_due_to_parameterized_eddy_advection",
+    "type": "real",
+    "units": "W m-2"
+}

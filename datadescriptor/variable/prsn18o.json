@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "prsn18O",
+    "cmip_acronym": "prsn18O",
+    "long_name": "Precipitation Flux of Snow and Ice Containing Oxygen-18 (H2 18O)",
+    "standard_name": "solid_precipitation_flux_containing_18O",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

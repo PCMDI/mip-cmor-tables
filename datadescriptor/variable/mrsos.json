@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mrsos",
+    "cmip_acronym": "mrsos",
+    "long_name": "Moisture in Upper Portion of Soil Column",
+    "standard_name": "mass_content_of_water_in_soil_layer",
+    "type": "real",
+    "units": "kg m-2"
+}

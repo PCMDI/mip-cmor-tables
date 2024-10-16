@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ta850",
+    "cmip_acronym": "ta850",
+    "long_name": "Air Temperature",
+    "standard_name": "air_temperature",
+    "type": "real",
+    "units": "K"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siconc",
+    "cmip_acronym": "siconc",
+    "long_name": "Sea-Ice Area Percentage (Ocean Grid)",
+    "standard_name": "sea_ice_area_fraction",
+    "type": "real",
+    "units": "%"
+}

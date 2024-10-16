@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "siareaacrossline",
+    "cmip_acronym": "siareaacrossline",
+    "long_name": "Sea-Ice Area Flux Through Straits",
+    "standard_name": "sea_ice_area_transport_across_line",
+    "type": "real",
+    "units": "m2 s-1"
+}

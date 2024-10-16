@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cldncl",
+    "cmip_acronym": "cldncl",
+    "long_name": "Cloud Droplet Number Concentration of Cloud Tops",
+    "standard_name": "number_concentration_of_cloud_liquid_water_particles_in_air_at_liquid_water_cloud_top",
+    "type": "real",
+    "units": "m-3"
+}

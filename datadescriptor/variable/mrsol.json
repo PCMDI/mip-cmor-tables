@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mrsol",
+    "cmip_acronym": "mrsol",
+    "long_name": "Total Water Content of Soil Layer",
+    "standard_name": "mass_content_of_water_in_soil_layer",
+    "type": "real",
+    "units": "kg m-2"
+}

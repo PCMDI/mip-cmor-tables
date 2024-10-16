@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ec",
+    "cmip_acronym": "ec",
+    "long_name": "Interception Evaporation",
+    "standard_name": "water_evaporation_flux_from_canopy",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

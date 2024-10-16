@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "phypos",
+    "cmip_acronym": "phypos",
+    "long_name": "Surface Mole Concentration of Total Phytoplankton Expressed as Phosphorus in Sea Water",
+    "standard_name": "mole_concentration_of_phytoplankton_expressed_as_phosphorus_in_sea_water",
+    "type": "real",
+    "units": "mol m-3"
+}

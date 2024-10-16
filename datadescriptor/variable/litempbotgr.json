@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "litempbotgr",
+    "cmip_acronym": "litempbotgr",
+    "long_name": "Basal Temperature of Grounded Ice Sheet",
+    "standard_name": "land_ice_basal_temperature",
+    "type": "real",
+    "units": "K"
+}

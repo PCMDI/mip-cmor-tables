@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sza",
+    "cmip_acronym": "sza",
+    "long_name": "Solar Zenith Angle",
+    "standard_name": "solar_zenith_angle",
+    "type": "real",
+    "units": "degree"
+}

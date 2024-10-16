@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "grpllsprof",
+    "cmip_acronym": "grpllsprof",
+    "long_name": "Stratiform Graupel Flux",
+    "standard_name": "stratiform_graupel_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

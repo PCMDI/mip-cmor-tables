@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "basin",
+    "cmip_acronym": "basin",
+    "long_name": "Region Selection Index",
+    "standard_name": "region",
+    "type": "integer",
+    "units": "1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "snd",
+    "cmip_acronym": "snd",
+    "long_name": "Snow Depth",
+    "standard_name": "surface_snow_thickness",
+    "type": "real",
+    "units": "m"
+}

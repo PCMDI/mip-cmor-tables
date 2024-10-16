@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "prbigthetao",
+    "cmip_acronym": "prbigthetao",
+    "long_name": "Sea Water Redistributed Conservative Temperature",
+    "standard_name": "sea_water_redistributed_conservative_temperature",
+    "type": "real",
+    "units": "degC"
+}

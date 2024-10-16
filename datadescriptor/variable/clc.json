@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "clc",
+    "cmip_acronym": "clc",
+    "long_name": "Convective Cloud Area Percentage",
+    "standard_name": "convective_cloud_area_fraction_in_atmosphere_layer",
+    "type": "real",
+    "units": "%"
+}

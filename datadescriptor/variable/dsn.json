@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dsn",
+    "cmip_acronym": "dsn",
+    "long_name": "Change in Snow Water Equivalent",
+    "standard_name": "change_over_time_in_amount_of_ice_and_snow_on_land",
+    "type": "real",
+    "units": "kg m-2"
+}

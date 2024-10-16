@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "phnat",
+    "cmip_acronym": "phnat",
+    "long_name": "Natural pH",
+    "standard_name": "sea_water_ph_natural_analogue_reported_on_total_scale",
+    "type": "real",
+    "units": "1"
+}

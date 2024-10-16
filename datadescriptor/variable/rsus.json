@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rsus",
+    "cmip_acronym": "rsus",
+    "long_name": "Surface Upwelling Shortwave Radiation",
+    "standard_name": "surface_upwelling_shortwave_flux_in_air",
+    "type": "real",
+    "units": "W m-2"
+}

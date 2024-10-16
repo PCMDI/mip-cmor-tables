@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dsw",
+    "cmip_acronym": "dsw",
+    "long_name": "Change in Surface Water Storage",
+    "standard_name": "change_over_time_in_land_water_amount",
+    "type": "real",
+    "units": "kg m-2"
+}

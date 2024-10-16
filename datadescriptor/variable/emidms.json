@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "emidms",
+    "cmip_acronym": "emidms",
+    "long_name": "Total Emission Rate of DMS",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_dimethyl_sulfide_due_to_emission",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

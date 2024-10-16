@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "masscello",
+    "cmip_acronym": "masscello",
+    "long_name": "Ocean Grid-Cell Mass per Area",
+    "standard_name": "sea_water_mass_per_unit_area",
+    "type": "real",
+    "units": "kg m-2"
+}

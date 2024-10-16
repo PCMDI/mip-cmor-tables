@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "netAtmosLandC13Flux",
+    "cmip_acronym": "netAtmosLandC13Flux",
+    "long_name": "Net Mass Flux of 13C Between Atmosphere and Land (Positive into Land) as a Result of All Processes [kgC m-2 s-1]",
+    "standard_name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_13C_due_to_all_land_processes",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

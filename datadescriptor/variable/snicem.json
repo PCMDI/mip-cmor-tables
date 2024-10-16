@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "snicem",
+    "cmip_acronym": "snicem",
+    "long_name": "Surface Snow and Ice Melt Flux",
+    "standard_name": "surface_snow_and_ice_melt_flux",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

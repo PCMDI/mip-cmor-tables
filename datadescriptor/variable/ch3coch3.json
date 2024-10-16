@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "ch3coch3",
+    "cmip_acronym": "ch3coch3",
+    "long_name": "CH3COCH3 Volume Mixing Ratio",
+    "standard_name": "mole_fraction_of_acetone_in_air",
+    "type": "real",
+    "units": "mol mol-1"
+}

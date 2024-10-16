@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "pbfe",
+    "cmip_acronym": "pbfe",
+    "long_name": "Biogenic Iron Production",
+    "standard_name": "tendency_of_mole_concentration_of_iron_in_sea_water_due_to_biological_production",
+    "type": "real",
+    "units": "mol m-3 s-1"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tnpeotb",
+    "cmip_acronym": "tnpeotb",
+    "long_name": "Tendency of Ocean Potential Energy Content Due to Background",
+    "standard_name": "tendency_of_ocean_potential_energy_content_due_to_background",
+    "type": "real",
+    "units": "W m-2"
+}

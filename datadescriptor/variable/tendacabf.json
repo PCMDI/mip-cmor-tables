@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "tendacabf",
+    "cmip_acronym": "tendacabf",
+    "long_name": "Total Surface Mass Balance Flux",
+    "standard_name": "tendency_of_land_ice_mass_due_to_surface_mass_balance",
+    "type": "real",
+    "units": "kg s-1"
+}

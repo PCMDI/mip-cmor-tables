@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "hno3",
+    "cmip_acronym": "hno3",
+    "long_name": "HNO3 Volume Mixing Ratio",
+    "standard_name": "mole_fraction_of_nitric_acid_in_air",
+    "type": "real",
+    "units": "mol mol-1"
+}

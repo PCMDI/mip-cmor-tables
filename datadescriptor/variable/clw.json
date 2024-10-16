@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "clw",
+    "cmip_acronym": "clw",
+    "long_name": "Mass Fraction of Cloud Liquid Water",
+    "standard_name": "mass_fraction_of_cloud_liquid_water_in_air",
+    "type": "real",
+    "units": "kg kg-1"
+}

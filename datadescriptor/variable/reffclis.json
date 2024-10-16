@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "reffclis",
+    "cmip_acronym": "reffclis",
+    "long_name": "Hydrometeor Effective Radius of Stratiform Cloud Ice",
+    "standard_name": "effective_radius_of_stratiform_cloud_ice_particles",
+    "type": "real",
+    "units": "m"
+}

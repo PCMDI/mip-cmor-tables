@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "clt",
+    "cmip_acronym": "clt",
+    "long_name": "Total Cloud Cover Percentage",
+    "standard_name": "cloud_area_fraction",
+    "type": "real",
+    "units": "%"
+}

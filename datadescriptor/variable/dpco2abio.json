@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "dpco2abio",
+    "cmip_acronym": "dpco2abio",
+    "long_name": "Abiotic Delta Pco Partial Pressure",
+    "standard_name": "surface_carbon_dioxide_abiotic_analogue_partial_pressure_difference_between_sea_water_and_air",
+    "type": "real",
+    "units": "Pa"
+}

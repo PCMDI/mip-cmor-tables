@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "intdoc",
+    "cmip_acronym": "intdoc",
+    "long_name": "Dissolved Organic Carbon Content",
+    "standard_name": "ocean_mass_content_of_dissolved_organic_carbon",
+    "type": "real",
+    "units": "kg m-2"
+}

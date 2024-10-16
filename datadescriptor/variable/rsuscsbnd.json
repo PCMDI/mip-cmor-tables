@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rsuscsbnd",
+    "cmip_acronym": "rsuscsbnd",
+    "long_name": "Surface Upwelling Clear-Sky Shortwave Radiation for Each Band",
+    "standard_name": "surface_upwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "type": "real",
+    "units": "W m-2"
+}

@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "nh50",
+    "cmip_acronym": "nh50",
+    "long_name": "Artificial Tracer with 50 Day Lifetime",
+    "standard_name": "mole_fraction_of_artificial_tracer_with_fixed_lifetime_in_air",
+    "type": "real",
+    "units": "mol mol-1"
+}

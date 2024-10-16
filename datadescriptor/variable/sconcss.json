@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "sconcss",
+    "cmip_acronym": "sconcss",
+    "long_name": "Surface Concentration of Sea-Salt Aerosol",
+    "standard_name": "mass_concentration_of_sea_salt_dry_aerosol_particles_in_air",
+    "type": "real",
+    "units": "kg m-3"
+}

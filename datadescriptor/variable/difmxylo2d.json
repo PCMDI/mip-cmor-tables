@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "difmxylo2d",
+    "cmip_acronym": "difmxylo2d",
+    "long_name": "Ocean Momentum XY Laplacian Diffusivity",
+    "standard_name": "ocean_momentum_xy_laplacian_diffusivity",
+    "type": "real",
+    "units": "m2 s-1"
+}

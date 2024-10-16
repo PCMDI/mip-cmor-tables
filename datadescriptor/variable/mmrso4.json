@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "mmrso4",
+    "cmip_acronym": "mmrso4",
+    "long_name": "Aerosol Sulfate Mass Mixing Ratio",
+    "standard_name": "mass_fraction_of_sulfate_dry_aerosol_particles_in_air",
+    "type": "real",
+    "units": "kg kg-1"
+}

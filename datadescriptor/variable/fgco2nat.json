@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "fgco2nat",
+    "cmip_acronym": "fgco2nat",
+    "long_name": "Surface Downward Mass Flux of Carbon as Natural CO2 [kgC m-2 s-1]",
+    "standard_name": "surface_downward_mass_flux_of_carbon_dioxide_natural_analogue_expressed_as_carbon",
+    "type": "real",
+    "units": "kg m-2 s-1"
+}

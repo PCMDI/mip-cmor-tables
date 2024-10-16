@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "modelCellAreai",
+    "cmip_acronym": "modelCellAreai",
+    "long_name": "The Cell Area of the Ice Sheet Model",
+    "standard_name": "cell_area",
+    "type": "real",
+    "units": "m2"
+}

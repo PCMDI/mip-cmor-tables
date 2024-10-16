@@ -1,0 +1,9 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "cldnci",
+    "cmip_acronym": "cldnci",
+    "long_name": "Ice Crystal Number Concentration of Cloud Tops",
+    "standard_name": "number_concentration_of_ice_crystals_in_air_at_ice_cloud_top",
+    "type": "real",
+    "units": "m-3"
+}
