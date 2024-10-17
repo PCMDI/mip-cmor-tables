@@ -1,0 +1,39 @@
+{
+"@context":
+ 	 {
+       "@base":"http://es-vocab.ipsl.fr",
+       "@vocab":"http://es-vocab.ipsl.fr/variant_label/",
+       "id":"@id",
+       "type":"@type",
+       "variant_label":"http://es-vocab.ipsl.fr/variant_label",
+       "required":"http://es-vocab.ipsl.fr/required/",
+        
+       "parts": {
+      	  	"@id": "http://es-vocab.ipsl.fr/variant_label_parts",
+         	"@type":"@id",
+         	"@container": "@list",
+         	"@context":{
+              
+              "id":"@id",
+              "realisation_index": {
+                "@id":"http://es-vocab.ipsl.fr/realisation_index",
+                "@context":{"@base":"http://es-vocab.ipsl.fr/realisation_index/"}
+               },
+              "initialisation_index": {
+                 "@id":"http://es-vocab.ipsl.fr/initialisation_index",
+                 "@context":{"@base":"http://es-vocab.ipsl.fr/initialisation_index/"}
+               },
+              "physic_index": {
+                 "@id":"http://es-vocab.ipsl.fr/physic_index",
+                "@context":{"@base":"http://es-vocab.ipsl.fr/physic_index/"}
+               },
+              "forcing_index": {
+                 "@id":"http://es-vocab.ipsl.fr/forcing_index",
+                "@context":{"@base":"http://es-vocab.ipsl.fr/forcing_index/"}
+               }
+              
+            }
+    	}
+       
+     }
+}

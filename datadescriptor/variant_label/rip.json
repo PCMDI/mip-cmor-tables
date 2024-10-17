@@ -1,0 +1,24 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "rip",
+    "type": "variant_label",
+    "separator": "",
+    "parts": [
+        {
+            "id": "one_digit",
+            "type": "realisation_index",
+            "is_required": true
+        },
+        {
+            "id": "one_digit",
+            "type": "initialisation_index",
+            "is_required": true
+        },
+        {
+            "id": "one_digit",
+            "type": "physic_index",
+            "is_required": true
+        }
+    ],
+    "description": "TODO IMPROVE THIS"
+}

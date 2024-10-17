@@ -1,14 +1,18 @@
 from mip_cmor_tables.models.consortia import Consortia
+from mip_cmor_tables.models.forcing_index import ForcingIndex
 from mip_cmor_tables.models.frequency import Frequency
 from mip_cmor_tables.models.activity import Activity
 from mip_cmor_tables.models.experiment import Experiment
 from mip_cmor_tables.models.grid_label import GridLabel
+from mip_cmor_tables.models.initialisation_index import InitialisationIndex
 from mip_cmor_tables.models.institution import Institution
 from mip_cmor_tables.models.license import License
 from mip_cmor_tables.models.mip_era import MipEra
 from mip_cmor_tables.models.model_component import ModelComponent
 from mip_cmor_tables.models.organisation import Organisation
+from mip_cmor_tables.models.physic_index import PhysicIndex
 from mip_cmor_tables.models.product import Product
+from mip_cmor_tables.models.realisation_index import RealisationIndex
 from mip_cmor_tables.models.realm import Realm
 from mip_cmor_tables.models.resolution import Resolution
 from mip_cmor_tables.models.source import Source
@@ -19,6 +23,7 @@ from mip_cmor_tables.models.table import Table
 
 from pathlib import Path
 from mip_cmor_tables.models.variable import Variable
+from mip_cmor_tables.models.variant_label import VariantLabel
 from pydantic import ValidationError
 import pytest
 
@@ -89,3 +94,19 @@ def test_table():
 
 def test_variable():
     validate_terms(Path("datadescriptor/variable/"),Variable)
+
+
+def test_realisation_index():
+    validate_terms(Path("datadescriptor/realisation_index/"),RealisationIndex)
+
+def test_initialisation_index():
+    validate_terms(Path("datadescriptor/realisation_index/"),InitialisationIndex)
+
+def test_physic_index():
+    validate_terms(Path("datadescriptor/realisation_index/"),PhysicIndex)
+
+def test_forcing_index():
+    validate_terms(Path("datadescriptor/realisation_index/"),ForcingIndex)
+
+def test_variant_label():
+    validate_terms(Path("datadescriptor/variant_label/"),VariantLabel)

@@ -1,0 +1,10 @@
+{
+	"@context": {
+      	"@base":"http://es-vocab.ipsl.fr/initialisation_index/",
+	"@vocab":"http://es-vocab.ipsl.fr/",
+	"id":"@id",
+	"type":"@type",
+	"regex":"http://es-vocab.ipsl.fr/regex"
+  		
+    }
+}

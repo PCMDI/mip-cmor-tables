@@ -1,0 +1,14 @@
+{
+    "@context": "000_context.jsonld",
+    "id": "run",
+    "type": "variant_label",
+    "separator": "",
+    "parts": [
+        {
+            "id": "run",
+            "type": "realization",
+            "is_required": true
+        }
+    ],
+    "description": "TODO IMPROVE THIS"
+}
