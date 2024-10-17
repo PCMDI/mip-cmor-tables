@@ -1,0 +1,32 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/mtu",
+    "@type": "institution",
+    "acronyms": [
+        "MTU"
+    ],
+    "aliases": [
+        "Michigan Tech"
+    ],
+    "cmip_acronym": "MTU",
+    "established": 1885,
+    "kind": "Education",
+    "labels": [],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/0036rpn28",
+        "@type": "location",
+        "@nest": {
+            "lat": 47.12,
+            "lon": 47.12,
+            "city": "Houghton",
+            "country": [
+                "United States",
+                "US"
+            ]
+        }
+    },
+    "name": "Michigan Technological University",
+    "ror": "0036rpn28",
+    "url": [
+        "http://www.mtu.edu/"
+    ]
+}
