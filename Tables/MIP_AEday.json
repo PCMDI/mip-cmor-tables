@@ -90,7 +90,7 @@
       "modeling_realm": [
         "aerosol"
       ],
-      "standard_name": "mass_fraction_of_elemental_carbon_dry_aerosol_particles_at_the_surface",
+      "standard_name": "mass_fraction_of_elemental_carbon_dry_aerosol_particles",
       "units": "kg kg-1",
       "cell_methods": "area: time: mean",
       "cell_measures": "area: areacella",
@@ -114,7 +114,7 @@
       "modeling_realm": [
         "aerosol"
       ],
-      "standard_name": "mass_fraction_of_dust_dry_aerosol_particles_at_the_surface",
+      "standard_name": "mass_fraction_of_dust_dry_aerosol_particles",
       "units": "kg kg-1",
       "cell_methods": "area: time: mean",
       "cell_measures": "area: areacella",
@@ -138,7 +138,7 @@
       "modeling_realm": [
         "aerosol"
       ],
-      "standard_name": "mass_fraction_of_ammonium_dry_aerosol_particles_at_the_surface",
+      "standard_name": "mass_fraction_of_ammonium_dry_aerosol_particles",
       "units": "kg kg-1",
       "cell_methods": "area: time: mean",
       "cell_measures": "area: areacella",
@@ -162,7 +162,7 @@
       "modeling_realm": [
         "aerosol"
       ],
-      "standard_name": "mass_fraction_of_nitrate_dry_aerosol_particles_at_the_surface",
+      "standard_name": "mass_fraction_of_nitrate_dry_aerosol_particles",
       "units": "kg kg-1",
       "cell_methods": "area: time: mean",
       "cell_measures": "area: areacella",
@@ -186,7 +186,7 @@
       "modeling_realm": [
         "aerosol"
       ],
-      "standard_name": "mass_fraction_of_particulate_organic_matter_dry_aerosol_particles_at_the_surface",
+      "standard_name": "mass_fraction_of_particulate_organic_matter_dry_aerosol_particles",
       "units": "kg kg-1",
       "cell_methods": "area: time: mean",
       "cell_measures": "area: areacella",
@@ -210,7 +210,7 @@
       "modeling_realm": [
         "aerosol"
       ],
-      "standard_name": "mass_fraction_of_pm10_dry_aerosol_particles_at_the_surface",
+      "standard_name": "mass_fraction_of_pm10_dry_aerosol_particles",
       "units": "kg kg-1",
       "cell_methods": "area: time: mean",
       "cell_measures": "area: areacella",
@@ -234,7 +234,7 @@
       "modeling_realm": [
         "aerosol"
       ],
-      "standard_name": "mass_fraction_of_pm2p5_dry_aerosol_particles_at_the_surface",
+      "standard_name": "mass_fraction_of_pm2p5_dry_aerosol_particles",
       "units": "kg kg-1",
       "cell_methods": "area: time: mean",
       "cell_measures": "area: areacella",
@@ -258,7 +258,7 @@
       "modeling_realm": [
         "aerosol"
       ],
-      "standard_name": "mass_fraction_of_sulfate_dry_aerosol_particles_at_the_surface",
+      "standard_name": "mass_fraction_of_sulfate_dry_aerosol_particles",
       "units": "kg kg-1",
       "cell_methods": "area: time: mean",
       "cell_measures": "area: areacella",
@@ -282,7 +282,7 @@
       "modeling_realm": [
         "aerosol"
       ],
-      "standard_name": "mass_fraction_of_secondary_particulate_organic_matter_dry_aerosol_particles_at_the_surface",
+      "standard_name": "mass_fraction_of_secondary_particulate_organic_matter_dry_aerosol_particles",
       "units": "kg kg-1",
       "cell_methods": "area: time: mean",
       "cell_measures": "area: areacella",
@@ -306,7 +306,7 @@
       "modeling_realm": [
         "aerosol"
       ],
-      "standard_name": "mass_fraction_of_sea_salt_dry_aerosol_particles_at_the_surface",
+      "standard_name": "mass_fraction_of_sea_salt_dry_aerosol_particles",
       "units": "kg kg-1",
       "cell_methods": "area: time: mean",
       "cell_measures": "area: areacella",
