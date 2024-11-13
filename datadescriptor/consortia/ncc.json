@@ -92,5 +92,6 @@
     ],
     "name": "NCC Consortium",
     "status": "active",
-    "url": ""
+    "url": "",
+    "drs_name": "NCC"
 }

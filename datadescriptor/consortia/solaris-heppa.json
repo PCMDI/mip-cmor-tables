@@ -326,5 +326,6 @@
         }
     ],
     "name": "SOLARIS HEPPA Consortium",
-    "url": "https://solarisheppa.geomar.de"
+    "url": "https://solarisheppa.geomar.de",
+    "drs_name": "SOLARIS HEPPA"
 }

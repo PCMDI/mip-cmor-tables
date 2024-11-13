@@ -56,5 +56,6 @@
     ],
     "name": "MIROC Consortium",
     "status": "active",
-    "url": ""
+    "url": "",
+    "drs_name": "MIROC"
 }

@@ -13,13 +13,21 @@ def save_data(data:dict, term_path:Path):
     with open(term_path,"w") as f:
         json.dump(data, f, indent=4)
 
-activity_dir = Path("activity")
-
-for term_path in (base_dir / activity_dir).iterdir():
+def add_drs(dir_path:Path,key:str):
+ for term_path in (base_dir / dir_path).iterdir():
     # print(term_path)
     if term_path.suffix==".json":
         print(term_path)
         data = load_data(term_path)
-        data["drs_name"] = data["cmip_acronym"]
+        print(data)
+        data["drs_name"] = data[key]
         save_data(data,term_path)
+
+   
+
+add_drs(Path("activity"),"cmip_acronym")
+add_drs(Path("consortia"),"cmip-acronym")
+
+
+
                     
