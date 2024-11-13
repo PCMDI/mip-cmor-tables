@@ -5,5 +5,6 @@
     "long_name": "Y-Component of Ocean Stress on Sea Ice",
     "standard_name": "upward_y_stress_at_sea_ice_base",
     "type": "real",
-    "units": "N m-2"
+    "units": "N m-2",
+    "drs_name": "sistryubot"
 }

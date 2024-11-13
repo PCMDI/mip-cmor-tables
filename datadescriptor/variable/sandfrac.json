@@ -5,5 +5,6 @@
     "long_name": "Sand Fraction",
     "standard_name": "volume_fraction_of_sand_in_soil",
     "type": "real",
-    "units": "1"
+    "units": "1",
+    "drs_name": "sandfrac"
 }

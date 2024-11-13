@@ -42,5 +42,6 @@
         "nerc",
         "nims-kma",
         "niwa"
-    ]
+    ],
+    "drs_name": "UKESM1.0-LL"
 }

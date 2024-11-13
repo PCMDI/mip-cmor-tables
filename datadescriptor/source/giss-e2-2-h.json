@@ -29,5 +29,6 @@
     "release_year": "2021",
     "organisation_id": [
         "nasa-giss"
-    ]
+    ],
+    "drs_name": "GISS-E2.2H"
 }

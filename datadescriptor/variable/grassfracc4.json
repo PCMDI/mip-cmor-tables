@@ -5,5 +5,6 @@
     "long_name": "C4 Natural Grass Area Percentage",
     "standard_name": "area_fraction",
     "type": "real",
-    "units": "%"
+    "units": "%",
+    "drs_name": "grassFracC4"
 }

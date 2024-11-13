@@ -5,5 +5,6 @@
     "long_name": "Mole Concentration of SF6 in Sea Water",
     "standard_name": "mole_concentration_of_sulfur_hexafluoride_in_sea_water",
     "type": "real",
-    "units": "mol m-3"
+    "units": "mol m-3",
+    "drs_name": "sf6"
 }

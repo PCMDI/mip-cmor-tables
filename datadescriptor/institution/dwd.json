@@ -22,5 +22,6 @@
     "url": [
         "http://www.dwd.de/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "DWD"
 }

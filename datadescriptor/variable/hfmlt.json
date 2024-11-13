@@ -5,5 +5,6 @@
     "long_name": "Energy of Fusion",
     "standard_name": "surface_snow_and_ice_melt_heat_flux",
     "type": "real",
-    "units": "W m-2"
+    "units": "W m-2",
+    "drs_name": "hfmlt"
 }

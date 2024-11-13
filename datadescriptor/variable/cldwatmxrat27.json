@@ -5,5 +5,6 @@
     "long_name": "Cloud Water Mixing Ratio",
     "standard_name": "cloud_liquid_water_mixing_ratio",
     "type": "real",
-    "units": "1"
+    "units": "1",
+    "drs_name": "cldwatmxrat27"
 }

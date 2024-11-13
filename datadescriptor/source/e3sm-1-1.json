@@ -32,5 +32,6 @@
     "organisation_id": [
         "e3sm-project",
         "rubisco"
-    ]
+    ],
+    "drs_name": "E3SM 1.1"
 }

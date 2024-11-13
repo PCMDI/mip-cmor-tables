@@ -5,5 +5,6 @@
     "long_name": "Meltpond Mass per Unit Area (as Depth)",
     "standard_name": "sea_ice_melt_pond_thickness",
     "type": "real",
-    "units": "m"
+    "units": "m",
+    "drs_name": "simpmass"
 }

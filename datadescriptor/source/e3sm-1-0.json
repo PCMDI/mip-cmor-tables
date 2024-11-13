@@ -33,5 +33,6 @@
         "llnl",
         "uci",
         "ucsb"
-    ]
+    ],
+    "drs_name": "E3SM 1.0"
 }

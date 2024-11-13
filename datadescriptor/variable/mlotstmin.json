@@ -5,5 +5,6 @@
     "long_name": "Minimum Ocean Mixed Layer Thickness Defined by Sigma T",
     "standard_name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
     "type": "real",
-    "units": "m"
+    "units": "m",
+    "drs_name": "mlotstmin"
 }

@@ -5,5 +5,6 @@
     "long_name": "Column Integrated Mass Flux",
     "standard_name": "atmosphere_net_upward_convective_mass_flux",
     "type": "real",
-    "units": "kg m-2 s-1"
+    "units": "kg m-2 s-1",
+    "drs_name": "columnmassflux"
 }

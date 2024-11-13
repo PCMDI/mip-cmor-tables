@@ -5,5 +5,6 @@
     "long_name": "Iron Production",
     "standard_name": "tendency_of_ocean_mole_content_of_iron_due_to_biological_production",
     "type": "real",
-    "units": "mol m-2 s-1"
+    "units": "mol m-2 s-1",
+    "drs_name": "intpbfe"
 }

@@ -5,5 +5,6 @@
     "long_name": "Percentage Cover by C4 Plant Functional Type",
     "standard_name": "area_fraction",
     "type": "real",
-    "units": "%"
+    "units": "%",
+    "drs_name": "c4PftFrac"
 }

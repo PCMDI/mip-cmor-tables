@@ -10,5 +10,6 @@
     "type": "model_component",
     "nominal_resolution": {
         "id": "250km"
-    }
+    },
+    "drs_name": "JULES-HadGEM3-GL7.1"
 }

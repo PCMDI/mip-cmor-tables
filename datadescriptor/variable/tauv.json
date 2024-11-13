@@ -5,5 +5,6 @@
     "long_name": "Surface Downward Northward Wind Stress",
     "standard_name": "surface_downward_northward_stress",
     "type": "real",
-    "units": "Pa"
+    "units": "Pa",
+    "drs_name": "tauv"
 }

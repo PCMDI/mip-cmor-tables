@@ -5,5 +5,6 @@
     "long_name": "Surface Temperature of Sea Ice",
     "standard_name": "sea_ice_surface_temperature",
     "type": "real",
-    "units": "K"
+    "units": "K",
+    "drs_name": "sitemptop"
 }

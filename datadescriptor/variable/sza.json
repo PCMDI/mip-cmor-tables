@@ -5,5 +5,6 @@
     "long_name": "Solar Zenith Angle",
     "standard_name": "solar_zenith_angle",
     "type": "real",
-    "units": "degree"
+    "units": "degree",
+    "drs_name": "sza"
 }

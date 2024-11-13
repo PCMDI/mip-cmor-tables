@@ -22,5 +22,6 @@
     "release_year": "2021",
     "organisation_id": [
         "ipsl"
-    ]
+    ],
+    "drs_name": "IPSL-CM6A-ATM-ICO-HR"
 }

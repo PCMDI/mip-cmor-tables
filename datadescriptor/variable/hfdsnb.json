@@ -5,5 +5,6 @@
     "long_name": "Downward Heat Flux at Snow Base",
     "standard_name": "downward_heat_flux_at_ground_level_in_snow",
     "type": "real",
-    "units": "W m-2"
+    "units": "W m-2",
+    "drs_name": "hfdsnb"
 }

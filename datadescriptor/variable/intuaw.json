@@ -5,5 +5,6 @@
     "long_name": "Vertically Integrated Eastward Moisture Transport",
     "standard_name": "eastward_atmosphere_water_transport_across_unit_distance",
     "type": "real",
-    "units": "kg m-1 s-1"
+    "units": "kg m-1 s-1",
+    "drs_name": "intuaw"
 }

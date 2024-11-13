@@ -5,5 +5,6 @@
     "long_name": "Snow Area Percentage",
     "standard_name": "surface_snow_area_fraction",
     "type": "real",
-    "units": "%"
+    "units": "%",
+    "drs_name": "sisnconc"
 }

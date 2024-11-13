@@ -5,5 +5,6 @@
     "long_name": "Vertically Integrated Mass Content of Air in Layer",
     "standard_name": "atmosphere_mass_of_air_per_unit_area",
     "type": "real",
-    "units": "kg m-2"
+    "units": "kg m-2",
+    "drs_name": "airmass"
 }

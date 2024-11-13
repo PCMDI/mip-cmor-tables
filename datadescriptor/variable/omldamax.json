@@ -5,5 +5,6 @@
     "long_name": "Mean Daily Maximum Ocean Mixed Layer Thickness Defined by Mixing Scheme",
     "standard_name": "ocean_mixed_layer_thickness_defined_by_mixing_scheme",
     "type": "real",
-    "units": "m"
+    "units": "m",
+    "drs_name": "omldamax"
 }

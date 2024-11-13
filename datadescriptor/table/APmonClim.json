@@ -12,5 +12,6 @@
         "n2oClim",
         "n2oglobalClim",
         "o3Clim"
-    ]
+    ],
+    "drs_name": "APmonClim"
 }

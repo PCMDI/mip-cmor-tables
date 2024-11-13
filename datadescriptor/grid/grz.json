@@ -5,5 +5,6 @@
     "description": "regridded zonal mean data reported on the data provider's preferred latitude target grid",
     "region": "greenland",
     "type": "grid-label",
-    "short_name": "Regridded Greenland Zonal Mean"
+    "short_name": "Regridded Greenland Zonal Mean",
+    "drs_name": "grz"
 }

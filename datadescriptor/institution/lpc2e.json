@@ -22,5 +22,6 @@
     "url": [
         "https://www.lpc2e.cnrs.fr"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "LPC2E"
 }

@@ -5,5 +5,6 @@
     "long_name": "Shortwave Heating Rate Due to Volcanic Aerosols",
     "standard_name": "surface_downwelling_shortwave_flux_in_air_due_to_volcanic_ambient_aerosol_particles",
     "type": "real",
-    "units": "W m-2"
+    "units": "W m-2",
+    "drs_name": "swsffluxaero"
 }

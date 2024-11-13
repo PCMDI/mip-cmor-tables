@@ -2,5 +2,6 @@
     "@context": "000_context.jsonld",
     "id": "s2017",
     "type": "sub_experiment",
-    "description": "initialized near end of year 2017"
+    "description": "initialized near end of year 2017",
+    "drs_name": "s2017"
 }

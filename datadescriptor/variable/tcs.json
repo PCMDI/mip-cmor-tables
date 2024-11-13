@@ -5,5 +5,6 @@
     "long_name": "Vegetation Canopy Temperature",
     "standard_name": "canopy_temperature",
     "type": "real",
-    "units": "K"
+    "units": "K",
+    "drs_name": "tcs"
 }

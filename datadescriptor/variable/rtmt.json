@@ -5,5 +5,6 @@
     "long_name": "Net Downward Radiative Flux at Top of Model",
     "standard_name": "net_downward_radiative_flux_at_top_of_atmosphere_model",
     "type": "real",
-    "units": "W m-2"
+    "units": "W m-2",
+    "drs_name": "rtmt"
 }

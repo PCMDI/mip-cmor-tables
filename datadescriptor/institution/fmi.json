@@ -22,5 +22,6 @@
     "url": [
         "http://en.ilmatieteenlaitos.fi/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "FMI"
 }

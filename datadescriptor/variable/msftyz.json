@@ -5,5 +5,6 @@
     "long_name": "Ocean Y Overturning Mass Streamfunction",
     "standard_name": "ocean_y_overturning_mass_streamfunction",
     "type": "real",
-    "units": "kg s-1"
+    "units": "kg s-1",
+    "drs_name": "msftyz"
 }

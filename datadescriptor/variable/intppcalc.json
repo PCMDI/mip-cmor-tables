@@ -5,5 +5,6 @@
     "long_name": "Net Primary Mole Productivity of Carbon by Calcareous Phytoplankton",
     "standard_name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_by_calcareous_phytoplankton",
     "type": "real",
-    "units": "mol m-2 s-1"
+    "units": "mol m-2 s-1",
+    "drs_name": "intppcalc"
 }

@@ -5,5 +5,6 @@
     "description": "data reported on a native grid in the region of Antarctica",
     "region": "antarctica",
     "type": "grid-label",
-    "short_name": "Grid Native Antarctica Greenland"
+    "short_name": "Grid Native Antarctica Greenland",
+    "drs_name": "gna"
 }

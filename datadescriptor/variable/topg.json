@@ -5,5 +5,6 @@
     "long_name": "Bedrock Altitude",
     "standard_name": "bedrock_altitude",
     "type": "real",
-    "units": "m"
+    "units": "m",
+    "drs_name": "topg"
 }

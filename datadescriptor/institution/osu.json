@@ -22,5 +22,6 @@
     "url": [
         "http://oregonstate.edu/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "OSU"
 }

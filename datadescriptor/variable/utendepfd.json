@@ -5,5 +5,6 @@
     "long_name": "Tendency of Eastward Wind Due to Eliassen-Palm Flux Divergence",
     "standard_name": "tendency_of_eastward_wind_due_to_eliassen_palm_flux_divergence",
     "type": "real",
-    "units": "m s-2"
+    "units": "m s-2",
+    "drs_name": "utendepfd"
 }

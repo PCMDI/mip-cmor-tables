@@ -5,5 +5,6 @@
     "long_name": "Surface Snow Amount",
     "standard_name": "surface_snow_amount",
     "type": "real",
-    "units": "kg m-2"
+    "units": "kg m-2",
+    "drs_name": "snw"
 }

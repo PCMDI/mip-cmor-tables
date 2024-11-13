@@ -5,5 +5,6 @@
     "long_name": "CALIPSO High Level Cloud Area Percentage",
     "standard_name": "cloud_area_fraction_in_atmosphere_layer",
     "type": "real",
-    "units": "%"
+    "units": "%",
+    "drs_name": "clhcalipso"
 }

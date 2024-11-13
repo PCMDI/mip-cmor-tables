@@ -223,5 +223,6 @@
         "wetlandCH4prod",
         "wetlandFrac",
         "wtd"
-    ]
+    ],
+    "drs_name": "LPmon"
 }

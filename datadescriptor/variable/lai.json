@@ -5,5 +5,6 @@
     "long_name": "Leaf Area Index",
     "standard_name": "leaf_area_index",
     "type": "real",
-    "units": "1"
+    "units": "1",
+    "drs_name": "lai"
 }

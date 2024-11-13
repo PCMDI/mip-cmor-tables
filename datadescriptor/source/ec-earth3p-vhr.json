@@ -24,5 +24,6 @@
     "release_year": "2017",
     "organisation_id": [
         "ec-earth-consortium"
-    ]
+    ],
+    "drs_name": "EC-Earth3P-VHR"
 }

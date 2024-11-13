@@ -62,6 +62,7 @@ class Frequency(ConfiguredBaseModel):
     name : str 
     unit : str 
     type : str 
+    
 # Model rebuild
 # see https://pydantic-docs.helpmanual.io/usage/models/#rebuilding-a-model
 Frequency.model_rebuild()

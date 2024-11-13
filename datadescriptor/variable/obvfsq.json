@@ -5,5 +5,6 @@
     "long_name": "Square of Brunt Vaisala Frequency in Sea Water",
     "standard_name": "square_of_brunt_vaisala_frequency_in_sea_water",
     "type": "real",
-    "units": "s-2"
+    "units": "s-2",
+    "drs_name": "obvfsq"
 }

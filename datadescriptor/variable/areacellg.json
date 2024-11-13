@@ -5,5 +5,6 @@
     "long_name": "Grid-Cell Area for Ice Sheet Variables",
     "standard_name": "cell_area",
     "type": "real",
-    "units": "m2"
+    "units": "m2",
+    "drs_name": "areacellg"
 }

@@ -5,5 +5,6 @@
     "long_name": "Cloud-Top Effective Droplet Radius in Convective Cloud",
     "standard_name": "effective_radius_of_convective_cloud_liquid_water_particles_at_convective_liquid_water_cloud_top",
     "type": "real",
-    "units": "m"
+    "units": "m",
+    "drs_name": "reffcclwtop"
 }

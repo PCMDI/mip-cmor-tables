@@ -5,5 +5,6 @@
     "long_name": "Percentage of Grid Cell That Is Land but neither Vegetation Covered nor Bare Soil",
     "standard_name": "area_fraction",
     "type": "real",
-    "units": "%"
+    "units": "%",
+    "drs_name": "residualFrac"
 }

@@ -5,5 +5,6 @@
     "long_name": "X-Component of Atmospheric Stress on Sea Ice",
     "standard_name": "surface_downward_x_stress",
     "type": "real",
-    "units": "N m-2"
+    "units": "N m-2",
+    "drs_name": "sistrxdtop"
 }

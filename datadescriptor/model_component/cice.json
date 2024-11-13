@@ -10,5 +10,6 @@
     "type": "model_component",
     "nominal_resolution": {
         "id": "100km"
-    }
+    },
+    "drs_name": "CICE"
 }

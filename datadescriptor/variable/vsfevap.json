@@ -5,5 +5,6 @@
     "long_name": "Virtual Salt Flux into Sea Water Due to Evaporation",
     "standard_name": "virtual_salt_flux_into_sea_water_due_to_evaporation",
     "type": "real",
-    "units": "kg m-2 s-1"
+    "units": "kg m-2 s-1",
+    "drs_name": "vsfevap"
 }

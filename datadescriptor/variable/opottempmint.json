@@ -5,5 +5,6 @@
     "long_name": "Integral with Respect to Depth of Product of Sea Water Density and Potential Temperature",
     "standard_name": "integral_wrt_depth_of_product_of_potential_temperature_and_sea_water_density",
     "type": "real",
-    "units": "degC kg m-2"
+    "units": "degC kg m-2",
+    "drs_name": "opottempmint"
 }

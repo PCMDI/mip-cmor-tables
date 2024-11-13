@@ -5,5 +5,6 @@
     "long_name": "Total Emission Rate of CO",
     "standard_name": "tendency_of_atmosphere_mass_content_of_carbon_monoxide_due_to_emission",
     "type": "real",
-    "units": "kg m-2 s-1"
+    "units": "kg m-2 s-1",
+    "drs_name": "emico"
 }

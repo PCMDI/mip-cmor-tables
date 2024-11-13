@@ -22,5 +22,6 @@
     "url": [
         "https://www.auth.gr/en"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "AUoT"
 }

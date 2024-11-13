@@ -5,5 +5,6 @@
     "long_name": "Geopotential Height at 10hPa",
     "standard_name": "geopotential_height",
     "type": "real",
-    "units": "m"
+    "units": "m",
+    "drs_name": "zg10"
 }

@@ -25,5 +25,6 @@
     "url": [
         "http://global.jaxa.jp/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "JAXA"
 }

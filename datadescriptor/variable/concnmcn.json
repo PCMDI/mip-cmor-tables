@@ -5,5 +5,6 @@
     "long_name": "Number Concentration of Nucleation Mode Aerosol",
     "standard_name": "number_concentration_of_nucleation_mode_ambient_aerosol_particles_in_air",
     "type": "real",
-    "units": "m-3"
+    "units": "m-3",
+    "drs_name": "concnmcn"
 }

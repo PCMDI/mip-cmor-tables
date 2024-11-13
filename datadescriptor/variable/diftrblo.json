@@ -5,5 +5,6 @@
     "long_name": "Ocean Tracer Diffusivity Due to Parameterized Mesoscale Advection",
     "standard_name": "ocean_tracer_laplacian_diffusivity_due_to_parameterized_mesoscale_eddy_advection",
     "type": "real",
-    "units": "m2 s-1"
+    "units": "m2 s-1",
+    "drs_name": "diftrblo"
 }

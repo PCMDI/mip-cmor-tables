@@ -5,5 +5,6 @@
     "long_name": "Depth Below Geoid of Interfaces Between Ocean Layers",
     "standard_name": "depth_below_geoid",
     "type": "real",
-    "units": "m"
+    "units": "m",
+    "drs_name": "zhalfo"
 }

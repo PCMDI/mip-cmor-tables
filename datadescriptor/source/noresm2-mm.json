@@ -34,5 +34,6 @@
     "release_year": "2017",
     "organisation_id": [
         "ncc"
-    ]
+    ],
+    "drs_name": "NorESM2-MM"
 }

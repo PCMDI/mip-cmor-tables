@@ -5,5 +5,6 @@
     "long_name": "Ocean Momentum XY Biharmonic Diffusivity",
     "standard_name": "ocean_momentum_xy_biharmonic_diffusivity",
     "type": "real",
-    "units": "m4 s-1"
+    "units": "m4 s-1",
+    "drs_name": "difmxybo2d"
 }

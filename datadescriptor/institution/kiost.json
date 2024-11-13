@@ -24,5 +24,6 @@
     "url": [
         "http://eng.kiost.ac/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "KIOST"
 }

@@ -25,5 +25,6 @@
     "url": [
         "http://www.kit.edu/english/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "KIT"
 }

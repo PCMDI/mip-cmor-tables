@@ -5,5 +5,6 @@
     "long_name": "Total Atmospheric Mass of CO2",
     "standard_name": "atmosphere_mass_of_carbon_dioxide",
     "type": "real",
-    "units": "kg"
+    "units": "kg",
+    "drs_name": "co2mass"
 }

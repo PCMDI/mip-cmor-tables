@@ -5,5 +5,6 @@
     "long_name": "Surface Ice Melt Flux",
     "standard_name": "land_ice_surface_melt_flux",
     "type": "real",
-    "units": "kg m-2 s-1"
+    "units": "kg m-2 s-1",
+    "drs_name": "icem"
 }

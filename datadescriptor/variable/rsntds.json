@@ -5,5 +5,6 @@
     "long_name": "Net Downward Shortwave Radiation at Sea Water Surface",
     "standard_name": "net_downward_shortwave_flux_at_sea_water_surface",
     "type": "real",
-    "units": "W m-2"
+    "units": "W m-2",
+    "drs_name": "rsntds"
 }

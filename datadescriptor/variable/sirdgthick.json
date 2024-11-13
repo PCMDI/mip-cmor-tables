@@ -5,5 +5,6 @@
     "long_name": "Ridged Ice Thickness",
     "standard_name": "sea_ice_thickness",
     "type": "real",
-    "units": "m"
+    "units": "m",
+    "drs_name": "sirdgthick"
 }

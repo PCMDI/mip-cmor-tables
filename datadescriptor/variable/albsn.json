@@ -5,5 +5,6 @@
     "long_name": "Snow Albedo",
     "standard_name": "surface_albedo",
     "type": "real",
-    "units": "1"
+    "units": "1",
+    "drs_name": "albsn"
 }

@@ -5,5 +5,6 @@
     "name": "CMIP6Plus",
     "start": 2023,
     "url": "https://wcrp-cmip.org/CMIP6Plus",
-    "type": "mip-era"
+    "type": "mip-era",
+    "drs_name": "CMIP6Plus"
 }

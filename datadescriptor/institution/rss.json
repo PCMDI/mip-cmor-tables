@@ -22,5 +22,6 @@
     "url": [
         "http://www.remss.com/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "RSS"
 }

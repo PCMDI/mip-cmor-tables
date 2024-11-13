@@ -20,5 +20,6 @@
     "url": [
         "http://web.oa-roma.inaf.it/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "AoR"
 }

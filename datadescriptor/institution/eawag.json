@@ -22,5 +22,6 @@
     "url": [
         "http://www.eawag.ch/en/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "EAWAG"
 }

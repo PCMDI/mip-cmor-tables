@@ -5,5 +5,6 @@
     "long_name": "Photolysis Rate of Ozone (O3) to Excited Atomic Oxygen (the Singlet D State, O1D)",
     "standard_name": "photolysis_rate_of_ozone_to_1D_oxygen_atom",
     "type": "real",
-    "units": "s-1"
+    "units": "s-1",
+    "drs_name": "photo1d"
 }

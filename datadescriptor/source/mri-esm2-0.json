@@ -44,5 +44,6 @@
     "release_year": "2017",
     "organisation_id": [
         "mri"
-    ]
+    ],
+    "drs_name": "MRI-ESM2.0"
 }

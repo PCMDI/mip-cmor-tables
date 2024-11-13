@@ -5,5 +5,6 @@
     "long_name": "Graupel Mixing Ratio",
     "standard_name": "mass_fraction_of_graupel_in_air",
     "type": "real",
-    "units": "1"
+    "units": "1",
+    "drs_name": "grplmxrat27"
 }

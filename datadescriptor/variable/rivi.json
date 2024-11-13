@@ -5,5 +5,6 @@
     "long_name": "River Inflow",
     "standard_name": "incoming_water_volume_transport_along_river_channel",
     "type": "real",
-    "units": "m3 s-1"
+    "units": "m3 s-1",
+    "drs_name": "rivi"
 }

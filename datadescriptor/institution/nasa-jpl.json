@@ -25,5 +25,6 @@
     "url": [
         "http://www.jpl.nasa.gov/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "NASA-JPL"
 }

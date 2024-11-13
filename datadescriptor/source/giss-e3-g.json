@@ -44,5 +44,6 @@
     "release_year": "2020",
     "organisation_id": [
         "nasa-giss"
-    ]
+    ],
+    "drs_name": "GISS-E3-G"
 }

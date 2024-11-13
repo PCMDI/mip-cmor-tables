@@ -5,5 +5,6 @@
     "long_name": "C3 Pasture Area Percentage",
     "standard_name": "area_fraction",
     "type": "real",
-    "units": "%"
+    "units": "%",
+    "drs_name": "pastureFracC3"
 }

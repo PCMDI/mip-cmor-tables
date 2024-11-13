@@ -5,5 +5,6 @@
     "long_name": "Mineral Nitrate in the Soil",
     "standard_name": "soil_mass_content_of_inorganic_nitrate_expressed_as_nitrogen",
     "type": "real",
-    "units": "kg m-2"
+    "units": "kg m-2",
+    "drs_name": "nMineralNO3"
 }

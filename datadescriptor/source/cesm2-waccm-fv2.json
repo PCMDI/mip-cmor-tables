@@ -29,5 +29,6 @@
     "release_year": "2019",
     "organisation_id": [
         "ncar"
-    ]
+    ],
+    "drs_name": "CESM2-WACCM-FV2"
 }

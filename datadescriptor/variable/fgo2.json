@@ -5,5 +5,6 @@
     "long_name": "Surface Downward Flux of O2",
     "standard_name": "surface_downward_mole_flux_of_molecular_oxygen",
     "type": "real",
-    "units": "mol m-2 s-1"
+    "units": "mol m-2 s-1",
+    "drs_name": "fgo2"
 }

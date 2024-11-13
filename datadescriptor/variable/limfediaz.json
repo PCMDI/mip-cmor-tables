@@ -5,5 +5,6 @@
     "long_name": "Iron Limitation of Diazotrophs",
     "standard_name": "iron_growth_limitation_of_diazotrophic_phytoplankton",
     "type": "real",
-    "units": "1"
+    "units": "1",
+    "drs_name": "limfediaz"
 }

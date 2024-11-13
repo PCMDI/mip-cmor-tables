@@ -5,5 +5,6 @@
     "long_name": "Y-Component of Land Ice Vertical Mean Velocity",
     "standard_name": "land_ice_vertical_mean_y_velocity",
     "type": "real",
-    "units": "m s-1"
+    "units": "m s-1",
+    "drs_name": "yvelmean"
 }

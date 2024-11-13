@@ -5,5 +5,6 @@
     "long_name": "Mass Fraction of Stratiform Cloud Liquid Water",
     "standard_name": "mass_fraction_of_stratiform_cloud_liquid_water_in_air",
     "type": "real",
-    "units": "1"
+    "units": "1",
+    "drs_name": "clws"
 }

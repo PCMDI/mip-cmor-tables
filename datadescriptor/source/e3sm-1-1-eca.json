@@ -29,5 +29,6 @@
     "release_year": "2019",
     "organisation_id": [
         "e3sm-project"
-    ]
+    ],
+    "drs_name": "E3SM 1.1 ECA"
 }

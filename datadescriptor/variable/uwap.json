@@ -5,5 +5,6 @@
     "long_name": "Product of Eastward Wind and Omega",
     "standard_name": "product_of_eastward_wind_and_lagrangian_tendency_of_air_pressure",
     "type": "real",
-    "units": "Pa m s-2"
+    "units": "Pa m s-2",
+    "drs_name": "uwap"
 }

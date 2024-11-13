@@ -5,5 +5,6 @@
     "long_name": "Coriolis Force Term in Force Balance (X-Component)",
     "standard_name": "sea_ice_x_force_per_unit_area_due_to_coriolis_effect",
     "type": "real",
-    "units": "N m-2"
+    "units": "N m-2",
+    "drs_name": "siforcecoriolx"
 }

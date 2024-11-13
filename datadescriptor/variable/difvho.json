@@ -5,5 +5,6 @@
     "long_name": "Ocean Vertical Heat Diffusivity",
     "standard_name": "ocean_vertical_heat_diffusivity",
     "type": "real",
-    "units": "m2 s-1"
+    "units": "m2 s-1",
+    "drs_name": "difvho"
 }

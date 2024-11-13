@@ -22,5 +22,6 @@
     "url": [
         "https://www.ipsl.fr/en/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "IPSL"
 }

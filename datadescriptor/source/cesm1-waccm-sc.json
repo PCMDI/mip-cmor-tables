@@ -28,5 +28,6 @@
     "organisation_id": [
         "uci",
         "ncar"
-    ]
+    ],
+    "drs_name": "CESM1-WACCM-SC"
 }

@@ -20,5 +20,6 @@
     "url": [
         "http://www.bgc-jena.mpg.de/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "MPI-B"
 }

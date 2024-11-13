@@ -5,5 +5,6 @@
     "long_name": "Saturated Hydraulic Conductivity",
     "standard_name": "soil_hydraulic_conductivity_at_saturation",
     "type": "real",
-    "units": "micron s-1"
+    "units": "micron s-1",
+    "drs_name": "ksat"
 }

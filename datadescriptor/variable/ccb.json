@@ -5,5 +5,6 @@
     "long_name": "Air Pressure at Convective Cloud Base",
     "standard_name": "air_pressure_at_convective_cloud_base",
     "type": "real",
-    "units": "Pa"
+    "units": "Pa",
+    "drs_name": "ccb"
 }

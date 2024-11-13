@@ -5,5 +5,6 @@
     "long_name": "Carbon Mass in Other Living Compartments on Land",
     "standard_name": "miscellaneous_living_matter_mass_content_of_carbon",
     "type": "real",
-    "units": "kg m-2"
+    "units": "kg m-2",
+    "drs_name": "cMisc"
 }

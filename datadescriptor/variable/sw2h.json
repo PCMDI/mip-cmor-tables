@@ -5,5 +5,6 @@
     "long_name": "Isotopic Ratio of Deuterium in Sea Water",
     "standard_name": "isotope_ratio_of_2H_to_1H_in_sea_water_excluding_solutes_and_solids",
     "type": "real",
-    "units": "1"
+    "units": "1",
+    "drs_name": "sw2H"
 }

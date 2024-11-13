@@ -22,5 +22,6 @@
     "url": [
         "https://www.cnes.fr"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "CNES"
 }

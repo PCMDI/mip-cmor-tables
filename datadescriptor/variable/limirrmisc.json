@@ -5,5 +5,6 @@
     "long_name": "Irradiance Limitation of Other Phytoplankton",
     "standard_name": "growth_limitation_of_miscellaneous_phytoplankton_due_to_solar_irradiance",
     "type": "real",
-    "units": "1"
+    "units": "1",
+    "drs_name": "limirrmisc"
 }

@@ -5,5 +5,6 @@
     "long_name": "Northward Ocean Heat Transport Due to Parameterized Mesoscale Advection",
     "standard_name": "northward_ocean_heat_transport_due_to_parameterized_mesoscale_eddy_advection",
     "type": "real",
-    "units": "W"
+    "units": "W",
+    "drs_name": "hfbasinpmadv"
 }

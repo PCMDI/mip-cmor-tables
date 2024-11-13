@@ -5,5 +5,6 @@
     "long_name": "Surface Snow and Ice Melt Flux",
     "standard_name": "surface_snow_and_ice_melt_flux",
     "type": "real",
-    "units": "kg m-2 s-1"
+    "units": "kg m-2 s-1",
+    "drs_name": "snicem"
 }

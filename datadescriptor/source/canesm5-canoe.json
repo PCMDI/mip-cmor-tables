@@ -32,5 +32,6 @@
     "release_year": "2019",
     "organisation_id": [
         "cccma"
-    ]
+    ],
+    "drs_name": "CanESM5-CanOE"
 }

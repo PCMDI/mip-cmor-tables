@@ -5,5 +5,6 @@
     "long_name": "Downward Heat Flux into Snow Where Land over Land",
     "standard_name": "surface_downward_heat_flux_in_snow",
     "type": "real",
-    "units": "W m-2"
+    "units": "W m-2",
+    "drs_name": "hfdsn"
 }

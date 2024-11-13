@@ -27,5 +27,6 @@
     "release_year": 2019,
     "organisation_id": [
         "nasa-giss"
-    ]
+    ],
+    "drs_name": "GISS-E2.1G"
 }

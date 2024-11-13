@@ -5,5 +5,6 @@
     "long_name": "Ocean Barotropic Mass Streamfunction",
     "standard_name": "ocean_barotropic_mass_streamfunction",
     "type": "real",
-    "units": "kg s-1"
+    "units": "kg s-1",
+    "drs_name": "msftbarot"
 }

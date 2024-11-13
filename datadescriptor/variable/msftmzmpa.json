@@ -5,5 +5,6 @@
     "long_name": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
     "standard_name": "ocean_meridional_overturning_mass_streamfunction_due_to_parameterized_mesoscale_eddy_advection",
     "type": "real",
-    "units": "kg s-1"
+    "units": "kg s-1",
+    "drs_name": "msftmzmpa"
 }

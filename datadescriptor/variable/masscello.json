@@ -5,5 +5,6 @@
     "long_name": "Ocean Grid-Cell Mass per Area",
     "standard_name": "sea_water_mass_per_unit_area",
     "type": "real",
-    "units": "kg m-2"
+    "units": "kg m-2",
+    "drs_name": "masscello"
 }

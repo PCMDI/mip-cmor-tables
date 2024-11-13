@@ -22,5 +22,6 @@
     "url": [
         "http://english.cas.cn/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "CAS"
 }

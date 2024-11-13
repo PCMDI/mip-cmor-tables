@@ -5,5 +5,6 @@
     "long_name": "Sea-Ice Extent South",
     "standard_name": "sea_ice_extent",
     "type": "real",
-    "units": "1e6 km2"
+    "units": "1e6 km2",
+    "drs_name": "siextents"
 }

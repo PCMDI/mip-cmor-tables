@@ -22,5 +22,6 @@
     "url": [
         "http://www.pnnl.gov/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "PNNL-WACCEM"
 }

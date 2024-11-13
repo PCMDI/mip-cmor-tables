@@ -28,6 +28,19 @@ def add_drs(dir_path:Path,key:str):
 add_drs(Path("activity"),"cmip_acronym")
 add_drs(Path("consortia"),"cmip-acronym")
 add_drs(Path("experiment"),"experiment_id")
+add_drs(Path("grid"),"name")
+add_drs(Path("institution"),"cmip-acronym")
+add_drs(Path("mip_era"),"name")
+add_drs(Path("model_component"),"name")
+add_drs(Path("source"),"label")
+add_drs(Path("sub_experiment"),"id")
+add_drs(Path("table"),"id")
+add_drs(Path("variable"),"cmip_acronym")
+
+
+
+
+
 
 
 

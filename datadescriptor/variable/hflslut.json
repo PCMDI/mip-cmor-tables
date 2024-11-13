@@ -5,5 +5,6 @@
     "long_name": "Latent Heat Flux on Land-Use Tile",
     "standard_name": "surface_upward_latent_heat_flux",
     "type": "real",
-    "units": "W m-2"
+    "units": "W m-2",
+    "drs_name": "hflsLut"
 }

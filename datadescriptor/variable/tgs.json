@@ -5,5 +5,6 @@
     "long_name": "Temperature of Bare Soil",
     "standard_name": "surface_temperature",
     "type": "real",
-    "units": "K"
+    "units": "K",
+    "drs_name": "tgs"
 }

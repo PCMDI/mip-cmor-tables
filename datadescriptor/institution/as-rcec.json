@@ -22,5 +22,6 @@
     "url": [
         "http://www.rcec.sinica.edu.tw/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "AS-RCEC"
 }

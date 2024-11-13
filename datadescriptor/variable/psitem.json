@@ -5,5 +5,6 @@
     "long_name": "Transformed Eulerian Mean Mass Streamfunction",
     "standard_name": "atmosphere_transformed_eulerian_mean_meridional_overturning_mass_streamfunction",
     "type": "real",
-    "units": "kg s-1"
+    "units": "kg s-1",
+    "drs_name": "psitem"
 }

@@ -5,5 +5,6 @@
     "long_name": "Surface Temperature Where Land or Sea Ice",
     "standard_name": "surface_temperature",
     "type": "real",
-    "units": "K"
+    "units": "K",
+    "drs_name": "tslsi"
 }

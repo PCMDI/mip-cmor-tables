@@ -5,5 +5,6 @@
     "long_name": "Ocean Tracer XY Laplacian Diffusivity",
     "standard_name": "ocean_tracer_xy_laplacian_diffusivity",
     "type": "real",
-    "units": "m2 s-1"
+    "units": "m2 s-1",
+    "drs_name": "diftrxylo2d"
 }

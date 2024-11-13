@@ -52,5 +52,6 @@
     "release_year": "2018",
     "organisation_id": [
         "ncar"
-    ]
+    ],
+    "drs_name": "CESM2"
 }

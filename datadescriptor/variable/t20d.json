@@ -5,5 +5,6 @@
     "long_name": "Depth of 20 degree Celsius Isotherm",
     "standard_name": "depth_of_isosurface_of_sea_water_potential_temperature",
     "type": "real",
-    "units": "m"
+    "units": "m",
+    "drs_name": "t20d"
 }

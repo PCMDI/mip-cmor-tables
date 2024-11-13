@@ -24,5 +24,6 @@
     "release_year": "2017",
     "organisation_id": [
         "ecmwf"
-    ]
+    ],
+    "drs_name": "ECMWF-IFS-MR"
 }

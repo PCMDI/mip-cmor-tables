@@ -10,5 +10,6 @@
         "rsdt",
         "rsut",
         "rsutcs"
-    ]
+    ],
+    "drs_name": "APmonDiurnal"
 }

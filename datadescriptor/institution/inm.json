@@ -22,5 +22,6 @@
     "url": [
         "http://www.inm.ras.ru/inm_en_ver/index.htm"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "INM"
 }

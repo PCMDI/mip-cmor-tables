@@ -5,5 +5,6 @@
     "long_name": "Carbon in Vegetation on Land-Use Tiles",
     "standard_name": "vegetation_carbon_content",
     "type": "real",
-    "units": "kg m-2"
+    "units": "kg m-2",
+    "drs_name": "cVegLut"
 }

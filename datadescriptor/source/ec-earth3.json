@@ -37,5 +37,6 @@
     "release_year": "2019",
     "organisation_id": [
         "ec-earth-consortium"
-    ]
+    ],
+    "drs_name": "EC-Earth3"
 }

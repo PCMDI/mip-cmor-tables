@@ -48,5 +48,6 @@
     "release_year": "2022",
     "organisation_id": [
         "cccma"
-    ]
+    ],
+    "drs_name": "CanESM5.1"
 }

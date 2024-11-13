@@ -27,5 +27,6 @@
     "release_year": "2019",
     "organisation_id": [
         "miroc"
-    ]
+    ],
+    "drs_name": "MIROC-ES2H-NB"
 }

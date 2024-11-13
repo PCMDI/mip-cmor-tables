@@ -5,5 +5,6 @@
     "long_name": "C3H8 Volume Mixing Ratio",
     "standard_name": "mole_fraction_of_propane_in_air",
     "type": "real",
-    "units": "mol mol-1"
+    "units": "mol mol-1",
+    "drs_name": "c3h8"
 }

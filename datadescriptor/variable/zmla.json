@@ -5,5 +5,6 @@
     "long_name": "Height of Boundary Layer",
     "standard_name": "atmosphere_boundary_layer_thickness",
     "type": "real",
-    "units": "m"
+    "units": "m",
+    "drs_name": "zmla"
 }

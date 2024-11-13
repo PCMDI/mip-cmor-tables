@@ -5,5 +5,6 @@
     "long_name": "Square of Ocean Mixed Layer Thickness Defined by Sigma T",
     "standard_name": "square_of_ocean_mixed_layer_thickness_defined_by_sigma_t",
     "type": "real",
-    "units": "m2"
+    "units": "m2",
+    "drs_name": "mlotstsq"
 }

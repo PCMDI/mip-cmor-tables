@@ -24,5 +24,6 @@
     "url": [
         "http://uci.edu/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "UCI"
 }

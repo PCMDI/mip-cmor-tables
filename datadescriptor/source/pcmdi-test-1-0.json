@@ -19,5 +19,6 @@
     "release_year": "1989",
     "organisation_id": [
         "pcmdi"
-    ]
+    ],
+    "drs_name": "PCMDI-test 1.0"
 }

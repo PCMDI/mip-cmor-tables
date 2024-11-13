@@ -5,5 +5,6 @@
     "long_name": "Atmosphere CO2",
     "standard_name": "mole_fraction_of_carbon_dioxide_in_air",
     "type": "real",
-    "units": "1e-06"
+    "units": "1e-06",
+    "drs_name": "co2s"
 }

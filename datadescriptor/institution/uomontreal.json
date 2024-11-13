@@ -22,5 +22,6 @@
     "url": [
         "http://www.umontreal.ca/english/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "UoMontreal"
 }

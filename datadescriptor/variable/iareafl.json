@@ -5,5 +5,6 @@
     "long_name": "Area Covered by Floating Ice Shelves",
     "standard_name": "floating_ice_shelf_area",
     "type": "real",
-    "units": "m2"
+    "units": "m2",
+    "drs_name": "iareafl"
 }

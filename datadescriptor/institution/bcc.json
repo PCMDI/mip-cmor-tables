@@ -20,5 +20,6 @@
     "url": [
         "http://www.bbctg.com.cn/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "BCC"
 }

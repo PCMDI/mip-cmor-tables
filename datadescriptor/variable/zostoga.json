@@ -5,5 +5,6 @@
     "long_name": "Global Average Thermosteric Sea Level Change",
     "standard_name": "global_average_thermosteric_sea_level_change",
     "type": "real",
-    "units": "m"
+    "units": "m",
+    "drs_name": "zostoga"
 }

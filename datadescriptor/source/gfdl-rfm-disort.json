@@ -19,5 +19,6 @@
     "release_year": "2019",
     "organisation_id": [
         "noaa-gfdl"
-    ]
+    ],
+    "drs_name": "GFDL-RFM-DISORT"
 }

@@ -29,5 +29,6 @@
     "url": [
         "https://www.ncei.noaa.gov"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "NOAA-NCEI"
 }

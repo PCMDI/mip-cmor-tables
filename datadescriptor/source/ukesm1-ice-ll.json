@@ -27,5 +27,6 @@
     "organisation_id": [
         "mohc",
         "nerc"
-    ]
+    ],
+    "drs_name": "UKESM1.ice-LL"
 }

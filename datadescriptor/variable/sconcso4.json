@@ -5,5 +5,6 @@
     "long_name": "Surface Concentration of SO4",
     "standard_name": "mass_concentration_of_sulfate_dry_aerosol_particles_in_air",
     "type": "real",
-    "units": "kg m-3"
+    "units": "kg m-3",
+    "drs_name": "sconcso4"
 }

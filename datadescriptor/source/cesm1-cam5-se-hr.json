@@ -27,5 +27,6 @@
     "release_year": "2012",
     "organisation_id": [
         "ncar"
-    ]
+    ],
+    "drs_name": "CESM1-CAM5-SE-HR"
 }

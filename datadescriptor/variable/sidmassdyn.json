@@ -5,5 +5,6 @@
     "long_name": "Sea-Ice Mass Change from Dynamics",
     "standard_name": "tendency_of_sea_ice_amount_due_to_sea_ice_dynamics",
     "type": "real",
-    "units": "kg m-2 s-1"
+    "units": "kg m-2 s-1",
+    "drs_name": "sidmassdyn"
 }

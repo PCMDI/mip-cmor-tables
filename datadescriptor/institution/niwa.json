@@ -24,5 +24,6 @@
     "url": [
         "https://www.niwa.co.nz/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "NIWA"
 }

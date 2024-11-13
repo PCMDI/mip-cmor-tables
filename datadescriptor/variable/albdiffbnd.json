@@ -5,5 +5,6 @@
     "long_name": "Diffuse Surface Albedo for Each Band",
     "standard_name": "surface_diffuse_shortwave_hemispherical_reflectance",
     "type": "real",
-    "units": "1"
+    "units": "1",
+    "drs_name": "albdiffbnd"
 }

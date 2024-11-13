@@ -5,5 +5,6 @@
     "long_name": "Potential Evapotranspiration",
     "standard_name": "water_potential_evaporation_flux",
     "type": "real",
-    "units": "kg m-2 s-1"
+    "units": "kg m-2 s-1",
+    "drs_name": "evspsblpot"
 }

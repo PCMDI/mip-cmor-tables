@@ -5,5 +5,6 @@
     "long_name": "Sulfate Aerosol Optical Depth at 550nm",
     "standard_name": "atmosphere_optical_thickness_due_to_sulfate_ambient_aerosol_particles",
     "type": "real",
-    "units": "1"
+    "units": "1",
+    "drs_name": "od550so4"
 }

@@ -5,5 +5,6 @@
     "long_name": "Land Ice Basal Drag",
     "standard_name": "land_ice_basal_drag",
     "type": "real",
-    "units": "Pa"
+    "units": "Pa",
+    "drs_name": "strbasemag"
 }

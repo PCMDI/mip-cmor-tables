@@ -5,5 +5,6 @@
     "long_name": "Sea Water Pressure at Sea Water Surface",
     "standard_name": "sea_water_pressure_at_sea_water_surface",
     "type": "real",
-    "units": "Pa"
+    "units": "Pa",
+    "drs_name": "pso"
 }

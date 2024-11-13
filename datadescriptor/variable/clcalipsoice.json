@@ -5,5 +5,6 @@
     "long_name": "CALIPSO Ice Cloud Percentage",
     "standard_name": "ice_cloud_area_fraction_in_atmosphere_layer",
     "type": "real",
-    "units": "%"
+    "units": "%",
+    "drs_name": "clcalipsoice"
 }

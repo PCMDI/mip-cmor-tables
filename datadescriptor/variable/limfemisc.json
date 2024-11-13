@@ -5,5 +5,6 @@
     "long_name": "Iron Limitation of Other Phytoplankton",
     "standard_name": "iron_growth_limitation_of_miscellaneous_phytoplankton",
     "type": "real",
-    "units": "1"
+    "units": "1",
+    "drs_name": "limfemisc"
 }

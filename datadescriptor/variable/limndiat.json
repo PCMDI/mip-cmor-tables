@@ -5,5 +5,6 @@
     "long_name": "Nitrogen Limitation of Diatoms",
     "standard_name": "nitrogen_growth_limitation_of_diatoms",
     "type": "real",
-    "units": "1"
+    "units": "1",
+    "drs_name": "limndiat"
 }

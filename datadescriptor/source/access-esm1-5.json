@@ -34,5 +34,6 @@
     "release_year": "2019",
     "organisation_id": [
         "csiro"
-    ]
+    ],
+    "drs_name": "ACCESS-ESM1.5"
 }

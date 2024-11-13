@@ -5,5 +5,6 @@
     "long_name": "Temperature at Top of Ice Sheet Model",
     "standard_name": "temperature_at_top_of_ice_sheet_model",
     "type": "real",
-    "units": "K"
+    "units": "K",
+    "drs_name": "litemptop"
 }

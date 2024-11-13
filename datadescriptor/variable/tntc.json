@@ -5,5 +5,6 @@
     "long_name": "Tendency of Air Temperature Due to Convection",
     "standard_name": "tendency_of_air_temperature_due_to_convection",
     "type": "real",
-    "units": "K s-1"
+    "units": "K s-1",
+    "drs_name": "tntc"
 }

@@ -5,5 +5,6 @@
     "long_name": "Convective Condensed Water Path",
     "standard_name": "atmosphere_mass_content_of_convective_cloud_condensed_water",
     "type": "real",
-    "units": "kg m-2"
+    "units": "kg m-2",
+    "drs_name": "clwvic"
 }

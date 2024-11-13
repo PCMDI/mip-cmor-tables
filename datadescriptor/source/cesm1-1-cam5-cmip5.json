@@ -28,5 +28,6 @@
     "release_year": "2011",
     "organisation_id": [
         "ncar"
-    ]
+    ],
+    "drs_name": "CESM1-1-CAM5-CMIP5"
 }

@@ -5,5 +5,6 @@
     "long_name": "Northward Ocean Salt Transport",
     "standard_name": "northward_ocean_salt_transport",
     "type": "real",
-    "units": "kg s-1"
+    "units": "kg s-1",
+    "drs_name": "sltbasin"
 }

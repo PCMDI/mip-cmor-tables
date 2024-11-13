@@ -43,5 +43,6 @@
     "release_year": "2017",
     "organisation_id": [
         "ipsl"
-    ]
+    ],
+    "drs_name": "IPSL-CM6A-LR"
 }

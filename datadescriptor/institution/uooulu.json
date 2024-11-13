@@ -20,5 +20,6 @@
     "url": [
         "http://www.oulu.fi/english/"
     ],
-    "type": "institution"
+    "type": "institution",
+    "drs_name": "UoOulu"
 }

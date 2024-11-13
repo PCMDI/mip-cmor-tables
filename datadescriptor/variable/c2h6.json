@@ -5,5 +5,6 @@
     "long_name": "C2H6 Volume Mixing Ratio",
     "standard_name": "mole_fraction_of_ethane_in_air",
     "type": "real",
-    "units": "mol mol-1"
+    "units": "mol mol-1",
+    "drs_name": "c2h6"
 }
