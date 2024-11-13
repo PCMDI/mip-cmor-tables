@@ -5,5 +5,6 @@
     "name": "DCPP",
     "cmip_acronym": "DCPP",
     "long_name": "Decadal Climate Prediction Project",
-    "url": null
+    "url": null,
+    "drs_name": "DCPP"
 }

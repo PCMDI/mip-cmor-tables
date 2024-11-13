@@ -5,5 +5,6 @@
     "name": "LESFMIP",
     "cmip_acronym": "LESFMIP",
     "long_name": "The Large Ensemble Single Forcing Model Intercomparison Project",
-    "url": "https://www.frontiersin.org/articles/10.3389/fclim.2022.955414/full"
+    "url": "https://www.frontiersin.org/articles/10.3389/fclim.2022.955414/full",
+    "drs_name": "LESFMIP"
 }

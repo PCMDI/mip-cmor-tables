@@ -5,5 +5,6 @@
     "name": "ScenarioMIP",
     "cmip_acronym": "ScenarioMIP",
     "long_name": "Scenario Model Intercomparison Project",
-    "url": null
+    "url": null,
+    "drs_name": "ScenarioMIP"
 }
