@@ -1,6 +1,10 @@
 
 
 
+
+
+
+
 from __future__ import annotations 
 from datetime import (
     datetime,
@@ -19,6 +23,7 @@ from typing import (
     Optional,
     Union
 )
+from idna import intranges_contain
 from pydantic.version import VERSION  as PYDANTIC_VERSION 
 if int(PYDANTIC_VERSION[0])>=2:
     from pydantic import (
@@ -52,11 +57,15 @@ class ConfiguredBaseModel(BaseModel):
 
 
 
-class Organisation(ConfiguredBaseModel):
+
+
+class Date(ConfiguredBaseModel):
+
+
 
     id: str 
-    validation_method: str = Field(default = "list")
-    type : str
+    type : str 
+    regex : str
 # Model rebuild
 # see https://pydantic-docs.helpmanual.io/usage/models/#rebuilding-a-model
-Organisation.model_rebuild()
+Date.model_rebuild()

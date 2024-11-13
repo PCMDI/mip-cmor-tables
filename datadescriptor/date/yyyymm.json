@@ -1,0 +1,6 @@
+{
+"@context": "000_context.jsonld",
+"id" : "yyyymm",
+"type" :"date",
+"regex": "^\\d{4}(0[1-9]|1[0-2])$"
+}

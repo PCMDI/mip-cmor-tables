@@ -19,7 +19,7 @@ from mip_cmor_tables.models.source import Source
 from mip_cmor_tables.models.source_type import SourceType
 from mip_cmor_tables.models.sub_experiment import SubExperiment
 from mip_cmor_tables.models.table import Table
-
+from mip_cmor_tables.models.date import Date
 
 from pathlib import Path
 from mip_cmor_tables.models.variable import Variable
@@ -110,3 +110,5 @@ def test_forcing_index():
 
 def test_variant_label():
     validate_terms(Path("datadescriptor/variant_label/"),VariantLabel)
+def test_date():
+    validate_terms(Path("datadescriptor/date/"),Date)
