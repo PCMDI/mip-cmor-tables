@@ -89,5 +89,6 @@
         "s2018",
         "s2019"
     ],
-    "tier": "4"
+    "tier": "4",
+    "drs_name": "dcppA-hindcast-niff"
 }

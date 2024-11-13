@@ -30,5 +30,6 @@
     "sub_experiment_id": [
         "s1990"
     ],
-    "tier": "1"
+    "tier": "1",
+    "drs_name": "dcppC-hindcast-noPinatubo"
 }

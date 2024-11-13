@@ -27,5 +27,6 @@
     "sub_experiment_id": [
         "none"
     ],
-    "tier": "2"
+    "tier": "2",
+    "drs_name": "ssp245-stratO3"
 }

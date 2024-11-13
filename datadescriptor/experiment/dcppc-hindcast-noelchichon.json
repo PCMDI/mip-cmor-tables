@@ -30,5 +30,6 @@
     "sub_experiment_id": [
         "s1981"
     ],
-    "tier": "2"
+    "tier": "2",
+    "drs_name": "dcppC-hindcast-noElChichon"
 }

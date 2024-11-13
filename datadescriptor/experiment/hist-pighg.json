@@ -28,5 +28,6 @@
     "sub_experiment_id": [
         "f2023"
     ],
-    "tier": 3
+    "tier": 3,
+    "drs_name": "hist-piGHG"
 }

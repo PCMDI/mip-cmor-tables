@@ -29,5 +29,6 @@
     "sub_experiment_id": [
         "none"
     ],
-    "tier": "3"
+    "tier": "3",
+    "drs_name": "control-slab"
 }

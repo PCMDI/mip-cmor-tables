@@ -28,5 +28,6 @@
     "sub_experiment_id": [
         "f2023"
     ],
-    "tier": 1
+    "tier": 1,
+    "drs_name": "hist-volc"
 }

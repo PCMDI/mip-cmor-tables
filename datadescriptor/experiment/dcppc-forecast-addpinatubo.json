@@ -31,5 +31,6 @@
     "sub_experiment_id": [
         "s2014"
     ],
-    "tier": "1"
+    "tier": "1",
+    "drs_name": "dcppC-forecast-addPinatubo"
 }

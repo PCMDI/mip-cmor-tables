@@ -28,5 +28,6 @@
     "sub_experiment_id": [
         "f2023"
     ],
-    "tier": 2
+    "tier": 2,
+    "drs_name": "fut-totalO3"
 }

@@ -27,6 +27,8 @@ def add_drs(dir_path:Path,key:str):
 
 add_drs(Path("activity"),"cmip_acronym")
 add_drs(Path("consortia"),"cmip-acronym")
+add_drs(Path("experiment"),"experiment_id")
+
 
 
 
