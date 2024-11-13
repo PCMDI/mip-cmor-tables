@@ -1,0 +1,21 @@
+
+
+{
+    "@context": "000_context.jsonld",
+    "id": "monthly",
+    "type": "time_range",
+    "separator": "-",
+    "parts": [
+        {
+            "id": "yyyymm",
+            "type": "date",
+            "is_required": true
+        },
+        {
+            "id": "yyyymm",
+            "type": "date",
+            "is_required": true
+        }
+	],
+    "description": "TODO IMPROVE THIS"
+}

@@ -1,0 +1,27 @@
+{
+"@context":
+ 	 {
+       "@base":"http://es-vocab.ipsl.fr",
+       "@vocab":"http://es-vocab.ipsl.fr/time_range/",
+       "id":"@id",
+       "type":"@type",
+       "variant_label":"http://es-vocab.ipsl.fr/time_range",
+       "required":"http://es-vocab.ipsl.fr/required/",
+        
+       "parts": {
+      	  	"@id": "http://es-vocab.ipsl.fr/time_range_parts",
+         	"@type":"@id",
+         	"@container": "@list",
+         	"@context":{
+              
+              "id":"@id",
+              "date": {
+                "@id":"http://es-vocab.ipsl.fr/date",
+                "@context":{"@base":"http://es-vocab.ipsl.fr/date/"}
+               }
+                } 
+            
+    	}
+       
+     }
+}

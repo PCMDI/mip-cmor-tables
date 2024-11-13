@@ -1,0 +1,22 @@
+
+
+
+{
+    "@context": "000_context.jsonld",
+    "id": "daily",
+    "type": "time_range",
+    "separator": "-",
+    "parts": [
+        {
+            "id": "yyyymmdd",
+            "type": "date",
+            "is_required": true
+        },
+        {
+            "id": "yyyymmdd",
+            "type": "date",
+            "is_required": true
+        }
+	],
+    "description": "TODO IMPROVE THIS"
+}

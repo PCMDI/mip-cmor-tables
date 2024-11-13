@@ -20,6 +20,7 @@ from mip_cmor_tables.models.source_type import SourceType
 from mip_cmor_tables.models.sub_experiment import SubExperiment
 from mip_cmor_tables.models.table import Table
 from mip_cmor_tables.models.date import Date
+from mip_cmor_tables.models.time_range import TimeRange
 
 from pathlib import Path
 from mip_cmor_tables.models.variable import Variable
@@ -112,3 +113,5 @@ def test_variant_label():
     validate_terms(Path("datadescriptor/variant_label/"),VariantLabel)
 def test_date():
     validate_terms(Path("datadescriptor/date/"),Date)
+def test_time_range():
+    validate_terms(Path("datadescriptor/time_range/"),TimeRange)
