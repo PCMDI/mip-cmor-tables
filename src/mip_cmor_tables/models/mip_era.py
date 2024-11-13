@@ -64,6 +64,7 @@ class MipEra(ConfiguredBaseModel):
     name : str 
     type : str 
     url : str
+    drs_name : str
 # Model rebuild
 # see https://pydantic-docs.helpmanual.io/usage/models/#rebuilding-a-model
 MipEra.model_rebuild()

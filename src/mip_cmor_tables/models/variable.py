@@ -84,6 +84,7 @@ class Variable(ConfiguredBaseModel):
     standard_name: Optional[str] 
     type: str 
     units: Optional[str] 
+    drs_name : str
 
 
 # Model rebuild

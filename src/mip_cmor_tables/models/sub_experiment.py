@@ -60,6 +60,7 @@ class SubExperiment(ConfiguredBaseModel):
     id: str 
     description :str
     type : str 
+    drs_name : str
 # Model rebuild
 # see https://pydantic-docs.helpmanual.io/usage/models/#rebuilding-a-model
 SubExperiment.model_rebuild()

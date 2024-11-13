@@ -67,6 +67,7 @@ class Institution(ConfiguredBaseModel):
     name: str 
     ror: Optional[str] 
     url: Optional[List[str]] = Field(default_factory=list)
+    drs_name : str
 
 # Model rebuild
 # see https://pydantic-docs.helpmanual.io/usage/models/#rebuilding-a-model

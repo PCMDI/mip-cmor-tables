@@ -64,6 +64,7 @@ class ModelComponent(ConfiguredBaseModel):
     type : str
     realm : dict
     nominal_resolution : dict
+    drs_name : str
 # Model rebuild
 # see https://pydantic-docs.helpmanual.io/usage/models/#rebuilding-a-model
 ModelComponent.model_rebuild()

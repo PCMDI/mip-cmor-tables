@@ -61,6 +61,7 @@ class Realm(ConfiguredBaseModel):
     description :str
     name : str 
     type : str 
+    drs_name : str
 # Model rebuild
 # see https://pydantic-docs.helpmanual.io/usage/models/#rebuilding-a-model
 Realm.model_rebuild()

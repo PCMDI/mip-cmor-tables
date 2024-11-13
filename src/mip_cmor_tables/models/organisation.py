@@ -57,6 +57,7 @@ class Organisation(ConfiguredBaseModel):
     id: str 
     validation_method: str = Field(default = "list")
     type : str
+    drs_name : str
 # Model rebuild
 # see https://pydantic-docs.helpmanual.io/usage/models/#rebuilding-a-model
 Organisation.model_rebuild()

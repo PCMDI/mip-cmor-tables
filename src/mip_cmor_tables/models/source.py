@@ -65,6 +65,7 @@ class Source(ConfiguredBaseModel):
     license: Optional[Dict] = Field(default_factory=dict) 
     model_component: Optional[dict] 
     release_year: Optional[int] 
+    drs_name : str
 
 # Model rebuild
 # see https://pydantic-docs.helpmanual.io/usage/models/#rebuilding-a-model

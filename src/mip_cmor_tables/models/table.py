@@ -61,6 +61,7 @@ class Table(ConfiguredBaseModel):
     table_date: Optional[str] 
 
     variable_entry: List[str]  = Field(default_factory=list) 
+    drs_name :str
 # Model rebuild
 # see https://pydantic-docs.helpmanual.io/usage/models/#rebuilding-a-model
 Table.model_rebuild()

@@ -498,3 +498,11 @@ model-component with id : "varies with pysics" appears 2 times (OK) pointing to 
 
 * in product => kind ?? enumrate ?? 
 
+
+
+
+# json formater
+# Naming rules  
+*  in univers => 
+	* resolution : terms with "." ??? (at min : documentation)
+	* Decide "_" ou "-". 
