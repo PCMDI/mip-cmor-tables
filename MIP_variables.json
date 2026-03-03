@@ -68060,7 +68060,7 @@
         }
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.1",
+        "version_tag": "v6.5.0.4",
         "checksum": "md5: 1cc6552b31f82a7223a680bd385d6dfd",
         "MIP_variables_modified": "Thu Feb 29 16:22:42 2024 +0000",
         "MIP_variables_note": "Updating versioning and model_components scripts to process files individually.",

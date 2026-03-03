@@ -3224,7 +3224,7 @@
         }
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.1",
+        "version_tag": "v6.5.0.4",
         "checksum": "md5: feb75313474f3aa81a4032636ad2a4ee",
         "Auxillary_files/MIP_coordinate_modified": "Thu Feb 29 16:22:42 2024 +0000",
         "Auxillary_files/MIP_coordinate_note": "Updating versioning and model_components scripts to process files individually.",

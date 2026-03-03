@@ -13,7 +13,7 @@
         }
     },
     "version_metadata": {
-        "version_tag": "v6.5.0.1",
+        "version_tag": "v6.5.0.4",
         "checksum": "md5: dbba5f91df489848a96cea2a644f2687",
         "MIP_license_modified": "Thu Feb 29 16:22:42 2024 +0000",
         "MIP_license_note": "Updating versioning and model_components scripts to process files individually.",

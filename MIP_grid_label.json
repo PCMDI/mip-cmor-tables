@@ -47,7 +47,7 @@
         "grz": "regridded zonal mean data reported on the data provider's preferred latitude target grid"
     },
     "version_metadata": {
-        "version_tag": "v0.0.0",
+        "version_tag": "v6.5.0.4",
         "checksum": "cd66d317103ffb3ab0aab056b2066185",
         "commit": "1dda9769771eecb6592a50175fd0620add69f0c3",
         "previous_commit": "bc9a7f6aa1f86111f264b337eebbaf4118b51a12",
