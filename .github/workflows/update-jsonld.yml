@@ -27,7 +27,7 @@ jobs:
 
     - name: Compile JSONLD files, generate an RDF network and update frames
       id: jsonld
-      uses: WCRP-CMIP/CMIP-LD/actions/jsonld@main
+      uses: WCRP-CMIP/CMIP-LD/actions/process_jsonld@main
       with:
         dirs: ${{ env.updated_dirs }}
         frames: "$PWD/compiled/graph_data.json"
