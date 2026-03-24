@@ -1,0 +1,34 @@
+{
+    "@id": "mip-cmor-tables:organisations/institutions/cr",
+    "@type": "institution",
+    "acronyms": [
+        "CR"
+    ],
+    "aliases": [
+        "Climate Resource",
+        "Climate Resource Pty Ltd",
+        "Climate Resource Ltd"
+    ],
+    "cmip_acronym": "CR",
+    "established": 2020,
+    "kind": "Company",
+    "labels": [],
+    "location": {
+        "@id": "mip-cmor-tables:organisations/institutions/location/01kk86953",
+        "@type": "location",
+        "@nest": {
+            "lat": -37.814,
+            "lon": -37.814,
+            "city": "Melbourne",
+            "country": [
+                "Australia",
+                "AU"
+            ]
+        }
+    },
+    "name": "Climate Resource (Australia)",
+    "ror": "01kk86953",
+    "url": [
+        "https://www.climate-resource.com"
+    ]
+}
