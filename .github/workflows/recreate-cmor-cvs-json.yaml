@@ -1,0 +1,68 @@
+name: Sync CMIP6Plus CV
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Mimic CMIP7's schedule: 4am, 9am, 1pm UTC
+    - cron: '0 4,9,13 * * *'
+
+jobs:
+  update-cmor-cvs-json-file:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          # A personal access token is required to trigger subsequent workflows (like auto-merge)
+          token: "${{ secrets.PERSONAL_ACCESS_TOKEN }}"
+
+      - name: Fetch latest CMIP6Plus CV
+        run: |
+          mkdir -p Tables
+          curl -sSL https://raw.githubusercontent.com/WCRP-CMIP/CMIP6Plus_CVs/main/CVs/CMIP6Plus_CV.json -o Tables/CMIP6Plus_CV.json
+          
+          # Show the diff
+          git diff || true
+
+      - name: Check if relevant files were updated
+        uses: tj-actions/verify-changed-files@v20
+        id: verify-changed-files
+        with:
+          files: |
+            Tables/CMIP6Plus_CV.json
+
+      - name: Commit
+        if: steps.verify-changed-files.outputs.files_changed == 'true'
+        run: |
+          git add Tables/CMIP6Plus_CV.json
+          git config --local user.email "ci-runner@mip-cmor-tables.invalid"
+          git config --local user.name "$GITHUB_ACTOR"
+          git commit -m "Update CMOR CVs JSON via GitHub action"
+
+      - name: Push to branch
+        if: ${{ steps.verify-changed-files.outputs.files_changed == 'true' && github.ref_name != 'main' }}
+        run: |
+          git push
+
+      - name: Create new pull request
+        if: ${{ steps.verify-changed-files.outputs.files_changed == 'true' && github.ref_name == 'main' }}
+        env:
+          GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          TIMESTAMP=$(date +%Y-%m-%dT%H-%M-%S)
+          BRANCH_NAME="${TIMESTAMP}_cmip6plus-cv-update"
+          echo "BRANCH_NAME=${BRANCH_NAME}" >> "${GITHUB_ENV}"
+          git checkout -b "${BRANCH_NAME}"
+          git push --set-upstream origin "${BRANCH_NAME}"
+          gh pr create --title "${TIMESTAMP} update CMIP6Plus CV JSON" --body "Automated sync of CMIP6Plus_CV.json from upstream repository." --label "automated-update"
+
+      - name: Merge the pull request
+        if: ${{ steps.verify-changed-files.outputs.files_changed == 'true' && github.ref_name == 'main' }}
+        env:
+          GH_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          # Automatically squash and merge the PR, mirroring CMIP7's behavior
+          gh pr merge "${BRANCH_NAME}" --squash --delete-branch
